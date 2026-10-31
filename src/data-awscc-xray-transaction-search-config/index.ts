@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/xray_transaction_search_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,16 +15,70 @@ export interface DataAwsccXrayTransactionSearchConfigConfig extends cdktn.Terraf
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_config#id DataAwsccXrayTransactionSearchConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/xray_transaction_search_config#id DataAwsccXrayTransactionSearchConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
 }
+export interface DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfiguration {
+}
+
+export function dataAwsccXrayTransactionSearchConfigCloudwatchLogsConfigurationToTerraform(struct?: DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccXrayTransactionSearchConfigCloudwatchLogsConfigurationToHclTerraform(struct?: DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // spans_log_group_kms_key_id - computed: true, optional: false, required: false
+  public get spansLogGroupKmsKeyId() {
+    return this.getStringAttribute('spans_log_group_kms_key_id');
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config}
 */
 export class DataAwsccXrayTransactionSearchConfig extends cdktn.TerraformDataSource {
 
@@ -40,7 +94,7 @@ export class DataAwsccXrayTransactionSearchConfig extends cdktn.TerraformDataSou
   * Generates CDKTN code for importing a DataAwsccXrayTransactionSearchConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccXrayTransactionSearchConfig to import
-  * @param importFromId The id of the existing DataAwsccXrayTransactionSearchConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccXrayTransactionSearchConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/xray_transaction_search_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccXrayTransactionSearchConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -52,7 +106,7 @@ export class DataAwsccXrayTransactionSearchConfig extends cdktn.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,7 +117,7 @@ export class DataAwsccXrayTransactionSearchConfig extends cdktn.TerraformDataSou
       terraformResourceType: 'awscc_xray_transaction_search_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -84,6 +138,12 @@ export class DataAwsccXrayTransactionSearchConfig extends cdktn.TerraformDataSou
   // account_id - computed: true, optional: false, required: false
   public get accountId() {
     return this.getStringAttribute('account_id');
+  }
+
+  // cloudwatch_logs_configuration - computed: true, optional: false, required: false
+  private _cloudwatchLogsConfiguration = new DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference(this, "cloudwatch_logs_configuration");
+  public get cloudwatchLogsConfiguration() {
+    return this._cloudwatchLogsConfiguration;
   }
 
   // id - computed: false, optional: false, required: true

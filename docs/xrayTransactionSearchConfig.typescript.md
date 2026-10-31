@@ -4,7 +4,7 @@
 
 ### XrayTransactionSearchConfig <a name="XrayTransactionSearchConfig" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_transaction_search_config awscc_xray_transaction_search_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/xray_transaction_search_config awscc_xray_transaction_search_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.Initializer"></a>
 
@@ -74,6 +74,8 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.putCloudwatchLogsConfiguration">putCloudwatchLogsConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.resetCloudwatchLogsConfiguration">resetCloudwatchLogsConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.resetIndexingPercentage">resetIndexingPercentage</a></code> | *No description.* |
 
 ---
@@ -387,6 +389,24 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putCloudwatchLogsConfiguration` <a name="putCloudwatchLogsConfiguration" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.putCloudwatchLogsConfiguration"></a>
+
+```typescript
+public putCloudwatchLogsConfiguration(value: XrayTransactionSearchConfigCloudwatchLogsConfiguration): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.putCloudwatchLogsConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration">XrayTransactionSearchConfigCloudwatchLogsConfiguration</a>
+
+---
+
+##### `resetCloudwatchLogsConfiguration` <a name="resetCloudwatchLogsConfiguration" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.resetCloudwatchLogsConfiguration"></a>
+
+```typescript
+public resetCloudwatchLogsConfiguration(): void
+```
+
 ##### `resetIndexingPercentage` <a name="resetIndexingPercentage" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.resetIndexingPercentage"></a>
 
 ```typescript
@@ -496,7 +516,7 @@ The construct id used in the generated config for the XrayTransactionSearchConfi
 
 The id of the existing XrayTransactionSearchConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_transaction_search_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/xray_transaction_search_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -527,7 +547,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.accountId">accountId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.cloudwatchLogsConfiguration">cloudwatchLogsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference">XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.cloudwatchLogsConfigurationInput">cloudwatchLogsConfigurationInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration">XrayTransactionSearchConfigCloudwatchLogsConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.indexingPercentageInput">indexingPercentageInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.indexingPercentage">indexingPercentage</a></code> | <code>number</code> | *No description.* |
 
@@ -685,6 +707,16 @@ public readonly accountId: string;
 
 ---
 
+##### `cloudwatchLogsConfiguration`<sup>Required</sup> <a name="cloudwatchLogsConfiguration" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.cloudwatchLogsConfiguration"></a>
+
+```typescript
+public readonly cloudwatchLogsConfiguration: XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference">XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference</a>
+
+---
+
 ##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.id"></a>
 
 ```typescript
@@ -692,6 +724,16 @@ public readonly id: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `cloudwatchLogsConfigurationInput`<sup>Optional</sup> <a name="cloudwatchLogsConfigurationInput" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfig.property.cloudwatchLogsConfigurationInput"></a>
+
+```typescript
+public readonly cloudwatchLogsConfigurationInput: IResolvable | XrayTransactionSearchConfigCloudwatchLogsConfiguration;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration">XrayTransactionSearchConfigCloudwatchLogsConfiguration</a>
 
 ---
 
@@ -735,6 +777,40 @@ public readonly tfResourceType: string;
 
 ## Structs <a name="Structs" id="Structs"></a>
 
+### XrayTransactionSearchConfigCloudwatchLogsConfiguration <a name="XrayTransactionSearchConfigCloudwatchLogsConfiguration" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration.Initializer"></a>
+
+```typescript
+import { xrayTransactionSearchConfig } from '@cdktn/provider-awscc'
+
+const xrayTransactionSearchConfigCloudwatchLogsConfiguration: xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration.property.spansLogGroupKmsKeyId">spansLogGroupKmsKeyId</a></code> | <code>string</code> | The ARN of a symmetric customer managed AWS KMS key in the same account and Region, used to encrypt the aws/spans log group. |
+
+---
+
+##### `spansLogGroupKmsKeyId`<sup>Optional</sup> <a name="spansLogGroupKmsKeyId" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration.property.spansLogGroupKmsKeyId"></a>
+
+```typescript
+public readonly spansLogGroupKmsKeyId: string;
+```
+
+- *Type:* string
+
+The ARN of a symmetric customer managed AWS KMS key in the same account and Region, used to encrypt the aws/spans log group.
+
+Key IDs and alias ARNs are not supported, so for an AWS::KMS::Key use Fn::GetAtt Arn, not Ref. X-Ray applies the key only when it creates aws/spans while enabling Transaction Search. If aws/spans already exists, for example from an earlier enablement or an earlier create that failed partway, the create fails and X-Ray does not enable Transaction Search or change the log group. Remove this property to use the existing log group with its current encryption, and use the CloudWatch Logs AssociateKmsKey API to change its key. The caller needs kms:DescribeKey on the key, and the key policy must allow CloudWatch Logs to use it. Adding, changing or removing this property replaces the resource, which fails while Transaction Search is enabled
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/xray_transaction_search_config#spans_log_group_kms_key_id XrayTransactionSearchConfig#spans_log_group_kms_key_id}
+
+---
+
 ### XrayTransactionSearchConfigConfig <a name="XrayTransactionSearchConfigConfig" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig.Initializer"></a>
@@ -756,6 +832,7 @@ const xrayTransactionSearchConfigConfig: xrayTransactionSearchConfig.XrayTransac
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig.property.cloudwatchLogsConfiguration">cloudwatchLogsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration">XrayTransactionSearchConfigCloudwatchLogsConfiguration</a></code> | Configuration for the CloudWatch Logs log group that X-Ray creates when this resource enables Transaction Search. |
 | <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig.property.indexingPercentage">indexingPercentage</a></code> | <code>number</code> | Determines the percentage of traces indexed from CloudWatch Logs to X-Ray. |
 
 ---
@@ -830,6 +907,22 @@ public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteEx
 
 ---
 
+##### `cloudwatchLogsConfiguration`<sup>Optional</sup> <a name="cloudwatchLogsConfiguration" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig.property.cloudwatchLogsConfiguration"></a>
+
+```typescript
+public readonly cloudwatchLogsConfiguration: XrayTransactionSearchConfigCloudwatchLogsConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration">XrayTransactionSearchConfigCloudwatchLogsConfiguration</a>
+
+Configuration for the CloudWatch Logs log group that X-Ray creates when this resource enables Transaction Search.
+
+It is used only at that time and is never returned
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/xray_transaction_search_config#cloudwatch_logs_configuration XrayTransactionSearchConfig#cloudwatch_logs_configuration}
+
+---
+
 ##### `indexingPercentage`<sup>Optional</sup> <a name="indexingPercentage" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigConfig.property.indexingPercentage"></a>
 
 ```typescript
@@ -840,7 +933,286 @@ public readonly indexingPercentage: number;
 
 Determines the percentage of traces indexed from CloudWatch Logs to X-Ray.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_transaction_search_config#indexing_percentage XrayTransactionSearchConfig#indexing_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/xray_transaction_search_config#indexing_percentage XrayTransactionSearchConfig#indexing_percentage}
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference <a name="XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { xrayTransactionSearchConfig } from '@cdktn/provider-awscc'
+
+new xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.resetSpansLogGroupKmsKeyId">resetSpansLogGroupKmsKeyId</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetSpansLogGroupKmsKeyId` <a name="resetSpansLogGroupKmsKeyId" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.resetSpansLogGroupKmsKeyId"></a>
+
+```typescript
+public resetSpansLogGroupKmsKeyId(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.spansLogGroupKmsKeyIdInput">spansLogGroupKmsKeyIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.spansLogGroupKmsKeyId">spansLogGroupKmsKeyId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration">XrayTransactionSearchConfigCloudwatchLogsConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `spansLogGroupKmsKeyIdInput`<sup>Optional</sup> <a name="spansLogGroupKmsKeyIdInput" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.spansLogGroupKmsKeyIdInput"></a>
+
+```typescript
+public readonly spansLogGroupKmsKeyIdInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `spansLogGroupKmsKeyId`<sup>Required</sup> <a name="spansLogGroupKmsKeyId" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.spansLogGroupKmsKeyId"></a>
+
+```typescript
+public readonly spansLogGroupKmsKeyId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | XrayTransactionSearchConfigCloudwatchLogsConfiguration;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.xrayTransactionSearchConfig.XrayTransactionSearchConfigCloudwatchLogsConfiguration">XrayTransactionSearchConfigCloudwatchLogsConfiguration</a>
 
 ---
 

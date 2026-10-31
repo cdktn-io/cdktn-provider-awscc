@@ -4,7 +4,7 @@
 
 ### IvsAdConfiguration <a name="IvsAdConfiguration" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ivsAdConfiguration.IvsAdConfiguration.Initializer"></a>
 
@@ -549,7 +549,7 @@ The construct id used in the generated config for the IvsAdConfiguration to impo
 
 The id of the existing IvsAdConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -976,7 +976,7 @@ List of integration configurations with MediaTailor resources.
 
 The first item in the list is the default playback configuration used for the ad configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#media_tailor_playback_configurations IvsAdConfiguration#media_tailor_playback_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#media_tailor_playback_configurations IvsAdConfiguration#media_tailor_playback_configurations}
 
 ---
 
@@ -990,7 +990,7 @@ Name *string
 
 Ad configuration name. The value does not need to be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#name IvsAdConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#name IvsAdConfiguration#name}
 
 ---
 
@@ -1004,7 +1004,7 @@ PostRollConfiguration IvsAdConfigurationPostRollConfiguration
 
 Configuration for the post-roll ad break to use for this ad configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#post_roll_configuration IvsAdConfiguration#post_roll_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#post_roll_configuration IvsAdConfiguration#post_roll_configuration}
 
 ---
 
@@ -1018,7 +1018,7 @@ Tags interface{}
 
 Tags attached to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#tags IvsAdConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#tags IvsAdConfiguration#tags}
 
 ---
 
@@ -1052,7 +1052,7 @@ PlaybackConfigurationArn *string
 
 ARN of the customer-created EMT PlaybackConfiguration resource in the same region and account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#playback_configuration_arn IvsAdConfiguration#playback_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#playback_configuration_arn IvsAdConfiguration#playback_configuration_arn}
 
 ---
 
@@ -1088,7 +1088,7 @@ DurationSeconds *f64
 
 Duration of the post-roll ad break, in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#duration_seconds IvsAdConfiguration#duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#duration_seconds IvsAdConfiguration#duration_seconds}
 
 ---
 
@@ -1102,7 +1102,7 @@ Enabled interface{}
 
 Whether the post-roll ad configuration is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#enabled IvsAdConfiguration#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#enabled IvsAdConfiguration#enabled}
 
 ---
 
@@ -1138,7 +1138,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#key IvsAdConfiguration#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#key IvsAdConfiguration#key}
 
 ---
 
@@ -1152,7 +1152,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#value IvsAdConfiguration#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ivs_ad_configuration#value IvsAdConfiguration#value}
 
 ---
 

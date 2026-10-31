@@ -4,7 +4,7 @@
 
 ### TranslateTerminology <a name="TranslateTerminology" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminology"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology awscc_translate_terminology}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology awscc_translate_terminology}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.translateTerminology.TranslateTerminology.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the TranslateTerminology to im
 
 The id of the existing TranslateTerminology that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1110,7 +1110,7 @@ public readonly name: string;
 
 The name of the custom terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#name TranslateTerminology#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#name TranslateTerminology#name}
 
 ---
 
@@ -1124,7 +1124,7 @@ public readonly description: string;
 
 The description of the custom terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#description TranslateTerminology#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#description TranslateTerminology#description}
 
 ---
 
@@ -1138,7 +1138,7 @@ public readonly encryptionKey: TranslateTerminologyEncryptionKey;
 
 The encryption key for the custom terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#encryption_key TranslateTerminology#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#encryption_key TranslateTerminology#encryption_key}
 
 ---
 
@@ -1152,7 +1152,7 @@ public readonly mergeStrategy: string;
 
 The merge strategy for the custom terminology. Currently only OVERWRITE is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#merge_strategy TranslateTerminology#merge_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#merge_strategy TranslateTerminology#merge_strategy}
 
 ---
 
@@ -1166,7 +1166,7 @@ public readonly tags: IResolvable | TranslateTerminologyTags[];
 
 Tags associated with the terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#tags TranslateTerminology#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#tags TranslateTerminology#tags}
 
 ---
 
@@ -1180,7 +1180,7 @@ public readonly terminologyData: TranslateTerminologyTerminologyData;
 
 The terminology data for the custom terminology being imported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#terminology_data TranslateTerminology#terminology_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#terminology_data TranslateTerminology#terminology_data}
 
 ---
 
@@ -1213,7 +1213,7 @@ public readonly id: string;
 
 The Amazon Resource Name (ARN) of the encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#id TranslateTerminology#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#id TranslateTerminology#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1230,7 +1230,7 @@ public readonly type: string;
 
 The type of encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#type TranslateTerminology#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#type TranslateTerminology#type}
 
 ---
 
@@ -1263,7 +1263,7 @@ public readonly key: string;
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#key TranslateTerminology#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#key TranslateTerminology#key}
 
 ---
 
@@ -1277,7 +1277,7 @@ public readonly value: string;
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#value TranslateTerminology#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#value TranslateTerminology#value}
 
 ---
 
@@ -1311,7 +1311,7 @@ public readonly directionality: string;
 
 The directionality of the terminology resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#directionality TranslateTerminology#directionality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#directionality TranslateTerminology#directionality}
 
 ---
 
@@ -1325,7 +1325,7 @@ public readonly file: string;
 
 The file containing the custom terminology data, base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#file TranslateTerminology#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#file TranslateTerminology#file}
 
 ---
 
@@ -1339,7 +1339,7 @@ public readonly format: string;
 
 The data format of the custom terminology.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#format TranslateTerminology#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/translate_terminology#format TranslateTerminology#format}
 
 ---
 

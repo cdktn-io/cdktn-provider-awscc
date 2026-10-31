@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightCustomPermissions <a name="DataAwsccQuicksightCustomPermissions" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissions.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions#id DataAwsccQuicksightCustomPermissions#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions#id DataAwsccQuicksightCustomPermissions#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccQuicksightCustomP
 
 The id of the existing DataAwsccQuicksightCustomPermissions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -828,7 +828,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions#id DataAwsccQuicksightCustomPermissions#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions#id DataAwsccQuicksightCustomPermissions#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1062,6 +1062,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.accessAppsNativeDataStore">accessAppsNativeDataStore</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.action">action</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.addOrRunAnomalyDetectionForAnalyses">addOrRunAnomalyDetectionForAnalyses</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.adobeAnalyticsDataSource">adobeAnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.amazonBedrockArsAction">amazonBedrockArsAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.amazonBedrockFsAction">amazonBedrockFsAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.amazonBedrockKrsAction">amazonBedrockKrsAction</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1070,15 +1071,21 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.approveFlowShareRequests">approveFlowShareRequests</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.apps">apps</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.asanaAction">asanaAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.athenaDataSource">athenaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.auroraDataSource">auroraDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.automate">automate</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.bambooHrAction">bambooHrAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.bedrockManagedKnowledgeBase">bedrockManagedKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.boxAgentAction">boxAgentAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.boxKnowledgeBase">boxKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.buildCalculatedFieldWithQ">buildCalculatedFieldWithQ</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.canvaAgentAction">canvaAgentAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.chatAgent">chatAgent</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.comprehendAction">comprehendAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.comprehendMedicalAction">comprehendMedicalAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.confluenceAction">confluenceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.confluenceKnowledgeBase">confluenceKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAdobeAnalyticsDataSource">createAdobeAnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateAmazonBedrockArsAction">createAndUpdateAmazonBedrockArsAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateAmazonBedrockFsAction">createAndUpdateAmazonBedrockFsAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateAmazonBedrockKrsAction">createAndUpdateAmazonBedrockKrsAction</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1086,11 +1093,14 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateApps">createAndUpdateApps</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateAsanaAction">createAndUpdateAsanaAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateBambooHrAction">createAndUpdateBambooHrAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateBedrockManagedKnowledgeBase">createAndUpdateBedrockManagedKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateBoxAgentAction">createAndUpdateBoxAgentAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateBoxKnowledgeBase">createAndUpdateBoxKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateCanvaAgentAction">createAndUpdateCanvaAgentAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateComprehendAction">createAndUpdateComprehendAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateComprehendMedicalAction">createAndUpdateComprehendMedicalAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateConfluenceAction">createAndUpdateConfluenceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateConfluenceKnowledgeBase">createAndUpdateConfluenceKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateDashboardEmailReports">createAndUpdateDashboardEmailReports</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateDatasets">createAndUpdateDatasets</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateDataSources">createAndUpdateDataSources</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1098,8 +1108,10 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateGenericHttpAction">createAndUpdateGenericHttpAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateGithubAction">createAndUpdateGithubAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateGoogleCalendarAction">createAndUpdateGoogleCalendarAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateGoogleDriveKnowledgeBase">createAndUpdateGoogleDriveKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateHubspotAction">createAndUpdateHubspotAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateHuggingFaceAction">createAndUpdateHuggingFaceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateIdcKnowledgeBase">createAndUpdateIdcKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateIntercomAction">createAndUpdateIntercomAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateJiraAction">createAndUpdateJiraAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateKnowledgeBases">createAndUpdateKnowledgeBases</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1111,8 +1123,11 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateNewRelicAction">createAndUpdateNewRelicAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateNotionAction">createAndUpdateNotionAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateOneDriveAction">createAndUpdateOneDriveAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateOneDriveKnowledgeBase">createAndUpdateOneDriveKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateOpenApiAction">createAndUpdateOpenApiAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdatePagerDutyAction">createAndUpdatePagerDutyAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateQBusinessKnowledgeBase">createAndUpdateQBusinessKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateS3KnowledgeBase">createAndUpdateS3KnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSalesforceAction">createAndUpdateSalesforceAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSandPGlobalEnergyAction">createAndUpdateSandPGlobalEnergyAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSandPgmiAction">createAndUpdateSandPgmiAction</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1123,19 +1138,72 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSapProductMasterDataAction">createAndUpdateSapProductMasterDataAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateServiceNowAction">createAndUpdateServiceNowAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSharePointAction">createAndUpdateSharePointAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSharePointKnowledgeBase">createAndUpdateSharePointKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSlackAction">createAndUpdateSlackAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSmartsheetAction">createAndUpdateSmartsheetAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateTextractAction">createAndUpdateTextractAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateThemes">createAndUpdateThemes</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateThresholdAlerts">createAndUpdateThresholdAlerts</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateWebCrawlerKnowledgeBase">createAndUpdateWebCrawlerKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateZendeskAction">createAndUpdateZendeskAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAthenaDataSource">createAthenaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAuroraDataSource">createAuroraDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createChatAgents">createChatAgents</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDashboardExecutiveSummaryWithQ">createDashboardExecutiveSummaryWithQ</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDatabricksDataSource">createDatabricksDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDb2DataSource">createDb2DataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDenodoDataSource">createDenodoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDocumentDbDataSource">createDocumentDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDremioDataSource">createDremioDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDynamoDbDataSource">createDynamoDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createExasolDataSource">createExasolDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createFileDataSource">createFileDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createGitHubDataSource">createGitHubDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createGoogleAnalyticsDataSource">createGoogleAnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createGoogleBigQueryDataSource">createGoogleBigQueryDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createGoogleSheetsDataSource">createGoogleSheetsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createImpalaDataSource">createImpalaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createJiraDataSource">createJiraDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createMariaDbDataSource">createMariaDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createMongoAtlasDataSource">createMongoAtlasDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createMongoDbDataSource">createMongoDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createMySqlDataSource">createMySqlDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createOpenSearchDataSource">createOpenSearchDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createOracleDataSource">createOracleDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createPayPalDataSource">createPayPalDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createPostgreSqlDataSource">createPostgreSqlDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createPrestoDataSource">createPrestoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createRadiantDataSource">createRadiantDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createRdsDataSource">createRdsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createRedshiftAutoDiscoveredDataSource">createRedshiftAutoDiscoveredDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createRedshiftManualDataSource">createRedshiftManualDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createS3AnalyticsDataSource">createS3AnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createS3DataSource">createS3DataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createS3TablesDataSource">createS3TablesDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSalesforceDataSource">createSalesforceDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSapHanaDataSource">createSapHanaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createServiceNowDataSource">createServiceNowDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSharedFolders">createSharedFolders</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSnowflakeDataSource">createSnowflakeDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSpaces">createSpaces</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSparkDataSource">createSparkDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSpiceDataset">createSpiceDataset</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSqlServerDataSource">createSqlServerDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSquareDataSource">createSquareDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createStarburstDataSource">createStarburstDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createTeradataDataSource">createTeradataDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createTimestreamDataSource">createTimestreamDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createTrinoDataSource">createTrinoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createTwitterDataSource">createTwitterDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.dashboard">dashboard</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.databricksDataSource">databricksDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.db2DataSource">db2DataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.denodoDataSource">denodoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.documentDbDataSource">documentDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.dremioDataSource">dremioDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.dynamoDbDataSource">dynamoDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.editVisualWithQ">editVisualWithQ</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.exasolDataSource">exasolDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.exportToCsv">exportToCsv</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.exportToCsvInScheduledReports">exportToCsvInScheduledReports</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.exportToExcel">exportToExcel</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1144,42 +1212,77 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.exportToPdfInScheduledReports">exportToPdfInScheduledReports</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.extension">extension</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.factSetAction">factSetAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.fileDataSource">fileDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.flow">flow</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.genericHttpAction">genericHttpAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.githubAction">githubAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.gitHubDataSource">gitHubDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleAnalyticsDataSource">googleAnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleBigQueryDataSource">googleBigQueryDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleCalendarAction">googleCalendarAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleDriveKnowledgeBase">googleDriveKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleSheetsDataSource">googleSheetsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.hubspotAction">hubspotAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.huggingFaceAction">huggingFaceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.idcKnowledgeBase">idcKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.impalaDataSource">impalaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.inboundEmailTrigger">inboundEmailTrigger</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.includeContentInScheduledReportsEmail">includeContentInScheduledReportsEmail</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.intercomAction">intercomAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.invokeAppsAiInference">invokeAppsAiInference</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.jiraAction">jiraAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.jiraDataSource">jiraDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.knowledgeBase">knowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.linearAction">linearAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.manageSharedFolders">manageSharedFolders</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mariaDbDataSource">mariaDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mcpAction">mcpAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mondayAction">mondayAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mongoAtlasDataSource">mongoAtlasDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mongoDbDataSource">mongoDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.msExchangeAction">msExchangeAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.msTeamsAction">msTeamsAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mySqlDataSource">mySqlDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.newRelicAction">newRelicAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.notionAction">notionAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.oneDriveAction">oneDriveAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.oneDriveKnowledgeBase">oneDriveKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.openApiAction">openApiAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.openSearchDataSource">openSearchDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.oracleDataSource">oracleDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.pagerDutyAction">pagerDutyAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.payPalDataSource">payPalDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.performFlowUiTask">performFlowUiTask</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.postgreSqlDataSource">postgreSqlDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.prestoDataSource">prestoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.printReports">printReports</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.publishWithoutApproval">publishWithoutApproval</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.qBusinessKnowledgeBase">qBusinessKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.quickEventTrigger">quickEventTrigger</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.radiantDataSource">radiantDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.rdsDataSource">rdsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.redshiftAutoDiscoveredDataSource">redshiftAutoDiscoveredDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.redshiftManualDataSource">redshiftManualDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.renameSharedFolders">renameSharedFolders</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.research">research</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.s3AnalyticsDataSource">s3AnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.s3DataSource">s3DataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.s3KnowledgeBase">s3KnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.s3TablesDataSource">s3TablesDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.salesforceAction">salesforceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.salesforceDataSource">salesforceDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sandPGlobalEnergyAction">sandPGlobalEnergyAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sandPgmiAction">sandPgmiAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sapBillOfMaterialAction">sapBillOfMaterialAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sapBusinessPartnerAction">sapBusinessPartnerAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sapHanaDataSource">sapHanaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sapMaterialStockAction">sapMaterialStockAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sapPhysicalInventoryAction">sapPhysicalInventoryAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sapProductMasterDataAction">sapProductMasterDataAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.scheduleTrigger">scheduleTrigger</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.serviceNowAction">serviceNowAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.serviceNowDataSource">serviceNowDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAdobeAnalyticsDataSource">shareAdobeAnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAmazonBedrockArsAction">shareAmazonBedrockArsAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAmazonBedrockFsAction">shareAmazonBedrockFsAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAmazonBedrockKrsAction">shareAmazonBedrockKrsAction</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1187,57 +1290,167 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAnalyses">shareAnalyses</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareApps">shareApps</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAsanaAction">shareAsanaAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAthenaDataSource">shareAthenaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAuroraDataSource">shareAuroraDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareBambooHrAction">shareBambooHrAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareBedrockManagedKnowledgeBase">shareBedrockManagedKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareBoxAgentAction">shareBoxAgentAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareBoxKnowledgeBase">shareBoxKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareCanvaAgentAction">shareCanvaAgentAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareChatAgents">shareChatAgents</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareComprehendAction">shareComprehendAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareComprehendMedicalAction">shareComprehendMedicalAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareConfluenceAction">shareConfluenceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareConfluenceKnowledgeBase">shareConfluenceKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDashboards">shareDashboards</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDatabricksDataSource">shareDatabricksDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDatasets">shareDatasets</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDataSources">shareDataSources</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDb2DataSource">shareDb2DataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDenodoDataSource">shareDenodoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDocumentDbDataSource">shareDocumentDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDremioDataSource">shareDremioDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDynamoDbDataSource">shareDynamoDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareExasolDataSource">shareExasolDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareFactSetAction">shareFactSetAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareFileDataSource">shareFileDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGenericHttpAction">shareGenericHttpAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGithubAction">shareGithubAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGitHubDataSource">shareGitHubDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleAnalyticsDataSource">shareGoogleAnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleBigQueryDataSource">shareGoogleBigQueryDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleCalendarAction">shareGoogleCalendarAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleDriveKnowledgeBase">shareGoogleDriveKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleSheetsDataSource">shareGoogleSheetsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareHubspotAction">shareHubspotAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareHuggingFaceAction">shareHuggingFaceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareIdcKnowledgeBase">shareIdcKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareImpalaDataSource">shareImpalaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareIntercomAction">shareIntercomAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareJiraAction">shareJiraAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareJiraDataSource">shareJiraDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareKnowledgeBases">shareKnowledgeBases</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareLinearAction">shareLinearAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMariaDbDataSource">shareMariaDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMcpAction">shareMcpAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMondayAction">shareMondayAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMongoAtlasDataSource">shareMongoAtlasDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMongoDbDataSource">shareMongoDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMsExchangeAction">shareMsExchangeAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMsTeamsAction">shareMsTeamsAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMySqlDataSource">shareMySqlDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareNewRelicAction">shareNewRelicAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareNotionAction">shareNotionAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOneDriveAction">shareOneDriveAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOneDriveKnowledgeBase">shareOneDriveKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOpenApiAction">shareOpenApiAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOpenSearchDataSource">shareOpenSearchDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOracleDataSource">shareOracleDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePagerDutyAction">sharePagerDutyAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePayPalDataSource">sharePayPalDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePointAction">sharePointAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePointKnowledgeBase">sharePointKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePostgreSqlDataSource">sharePostgreSqlDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePrestoDataSource">sharePrestoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareQBusinessKnowledgeBase">shareQBusinessKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareRadiantDataSource">shareRadiantDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareRdsDataSource">shareRdsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareRedshiftAutoDiscoveredDataSource">shareRedshiftAutoDiscoveredDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareRedshiftManualDataSource">shareRedshiftManualDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareS3AnalyticsDataSource">shareS3AnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareS3DataSource">shareS3DataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareS3KnowledgeBase">shareS3KnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareS3TablesDataSource">shareS3TablesDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSalesforceAction">shareSalesforceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSalesforceDataSource">shareSalesforceDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSandPGlobalEnergyAction">shareSandPGlobalEnergyAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSandPgmiAction">shareSandPgmiAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSapBillOfMaterialAction">shareSapBillOfMaterialAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSapBusinessPartnerAction">shareSapBusinessPartnerAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSapHanaDataSource">shareSapHanaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSapMaterialStockAction">shareSapMaterialStockAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSapPhysicalInventoryAction">shareSapPhysicalInventoryAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSapProductMasterDataAction">shareSapProductMasterDataAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareServiceNowAction">shareServiceNowAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareServiceNowDataSource">shareServiceNowDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSharePointAction">shareSharePointAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSharePointKnowledgeBase">shareSharePointKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSlackAction">shareSlackAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSmartsheetAction">shareSmartsheetAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSnowflakeDataSource">shareSnowflakeDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSpaces">shareSpaces</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSparkDataSource">shareSparkDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSqlServerDataSource">shareSqlServerDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSquareDataSource">shareSquareDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareStarburstDataSource">shareStarburstDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTeradataDataSource">shareTeradataDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTextractAction">shareTextractAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTimestreamDataSource">shareTimestreamDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTrinoDataSource">shareTrinoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTwitterDataSource">shareTwitterDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareWebCrawlerKnowledgeBase">shareWebCrawlerKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareZendeskAction">shareZendeskAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.slackAction">slackAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.smartsheetAction">smartsheetAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.snowflakeDataSource">snowflakeDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.space">space</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sparkDataSource">sparkDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sqlServerDataSource">sqlServerDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.squareDataSource">squareDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.starburstDataSource">starburstDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.subscribeDashboardEmailReports">subscribeDashboardEmailReports</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.teradataDataSource">teradataDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.textractAction">textractAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.timestreamDataSource">timestreamDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.topic">topic</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.trigger">trigger</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.trinoDataSource">trinoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.twitterDataSource">twitterDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateAdobeAnalyticsDataSource">updateAdobeAnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateAthenaDataSource">updateAthenaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateAuroraDataSource">updateAuroraDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDatabricksDataSource">updateDatabricksDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDb2DataSource">updateDb2DataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDenodoDataSource">updateDenodoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDocumentDbDataSource">updateDocumentDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDremioDataSource">updateDremioDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDynamoDbDataSource">updateDynamoDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateExasolDataSource">updateExasolDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateFileDataSource">updateFileDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateGitHubDataSource">updateGitHubDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateGoogleAnalyticsDataSource">updateGoogleAnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateGoogleBigQueryDataSource">updateGoogleBigQueryDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateGoogleSheetsDataSource">updateGoogleSheetsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateImpalaDataSource">updateImpalaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateJiraDataSource">updateJiraDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateMariaDbDataSource">updateMariaDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateMongoAtlasDataSource">updateMongoAtlasDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateMongoDbDataSource">updateMongoDbDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateMySqlDataSource">updateMySqlDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateOpenSearchDataSource">updateOpenSearchDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateOracleDataSource">updateOracleDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updatePayPalDataSource">updatePayPalDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updatePostgreSqlDataSource">updatePostgreSqlDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updatePrestoDataSource">updatePrestoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateRadiantDataSource">updateRadiantDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateRdsDataSource">updateRdsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateRedshiftAutoDiscoveredDataSource">updateRedshiftAutoDiscoveredDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateRedshiftManualDataSource">updateRedshiftManualDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateS3AnalyticsDataSource">updateS3AnalyticsDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateS3DataSource">updateS3DataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateS3TablesDataSource">updateS3TablesDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSalesforceDataSource">updateSalesforceDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSapHanaDataSource">updateSapHanaDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateServiceNowDataSource">updateServiceNowDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSnowflakeDataSource">updateSnowflakeDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSparkDataSource">updateSparkDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSqlServerDataSource">updateSqlServerDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSquareDataSource">updateSquareDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateStarburstDataSource">updateStarburstDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateTeradataDataSource">updateTeradataDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateTimestreamDataSource">updateTimestreamDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateTrinoDataSource">updateTrinoDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateTwitterDataSource">updateTwitterDataSource</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useAgentWebSearch">useAgentWebSearch</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useAmazonBedrockArsAction">useAmazonBedrockArsAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useAmazonBedrockFsAction">useAmazonBedrockFsAction</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1245,18 +1458,25 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useAmazonSThreeAction">useAmazonSThreeAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useAsanaAction">useAsanaAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBambooHrAction">useBambooHrAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBedrockManagedKnowledgeBase">useBedrockManagedKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBedrockModels">useBedrockModels</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBoxAgentAction">useBoxAgentAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBoxKnowledgeBase">useBoxKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBrowserExtension">useBrowserExtension</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useCanvaAgentAction">useCanvaAgentAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useComprehendAction">useComprehendAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useComprehendMedicalAction">useComprehendMedicalAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useConfluenceAction">useConfluenceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useConfluenceKnowledgeBase">useConfluenceKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useExcelAddInExtension">useExcelAddInExtension</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useFactSetAction">useFactSetAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useGenericHttpAction">useGenericHttpAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useGithubAction">useGithubAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useGoogleCalendarAction">useGoogleCalendarAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useGoogleDriveKnowledgeBase">useGoogleDriveKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useHubspotAction">useHubspotAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useHuggingFaceAction">useHuggingFaceAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useIdcKnowledgeBase">useIdcKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useIntercomAction">useIntercomAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useJiraAction">useJiraAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useLinearAction">useLinearAction</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1267,8 +1487,13 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useNewRelicAction">useNewRelicAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useNotionAction">useNotionAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useOneDriveAction">useOneDriveAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useOneDriveKnowledgeBase">useOneDriveKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useOpenApiAction">useOpenApiAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useOutlookAddInExtension">useOutlookAddInExtension</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.usePagerDutyAction">usePagerDutyAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.usePowerpointAddInExtension">usePowerpointAddInExtension</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useQBusinessKnowledgeBase">useQBusinessKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useS3KnowledgeBase">useS3KnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSalesforceAction">useSalesforceAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSandPGlobalEnergyAction">useSandPGlobalEnergyAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSandPgmiAction">useSandPgmiAction</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1279,11 +1504,15 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSapProductMasterDataAction">useSapProductMasterDataAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useServiceNowAction">useServiceNowAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSharePointAction">useSharePointAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSharePointKnowledgeBase">useSharePointKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSlackAction">useSlackAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSmartsheetAction">useSmartsheetAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useTextractAction">useTextractAction</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useWebCrawlerKnowledgeBase">useWebCrawlerKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useWordAddInExtension">useWordAddInExtension</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useZendeskAction">useZendeskAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.viewAccountSpiceCapacity">viewAccountSpiceCapacity</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.webCrawlerKnowledgeBase">webCrawlerKnowledgeBase</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.zendeskAction">zendeskAction</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilities">DataAwsccQuicksightCustomPermissionsCapabilities</a></code> | *No description.* |
 
@@ -1337,6 +1566,16 @@ public java.lang.String getAction();
 
 ```java
 public java.lang.String getAddOrRunAnomalyDetectionForAnalyses();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `adobeAnalyticsDataSource`<sup>Required</sup> <a name="adobeAnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.adobeAnalyticsDataSource"></a>
+
+```java
+public java.lang.String getAdobeAnalyticsDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -1423,6 +1662,26 @@ public java.lang.String getAsanaAction();
 
 ---
 
+##### `athenaDataSource`<sup>Required</sup> <a name="athenaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.athenaDataSource"></a>
+
+```java
+public java.lang.String getAthenaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `auroraDataSource`<sup>Required</sup> <a name="auroraDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.auroraDataSource"></a>
+
+```java
+public java.lang.String getAuroraDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `automate`<sup>Required</sup> <a name="automate" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.automate"></a>
 
 ```java
@@ -1443,10 +1702,30 @@ public java.lang.String getBambooHrAction();
 
 ---
 
+##### `bedrockManagedKnowledgeBase`<sup>Required</sup> <a name="bedrockManagedKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.bedrockManagedKnowledgeBase"></a>
+
+```java
+public java.lang.String getBedrockManagedKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `boxAgentAction`<sup>Required</sup> <a name="boxAgentAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.boxAgentAction"></a>
 
 ```java
 public java.lang.String getBoxAgentAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `boxKnowledgeBase`<sup>Required</sup> <a name="boxKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.boxKnowledgeBase"></a>
+
+```java
+public java.lang.String getBoxKnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -1507,6 +1786,26 @@ public java.lang.String getComprehendMedicalAction();
 
 ```java
 public java.lang.String getConfluenceAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `confluenceKnowledgeBase`<sup>Required</sup> <a name="confluenceKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.confluenceKnowledgeBase"></a>
+
+```java
+public java.lang.String getConfluenceKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createAdobeAnalyticsDataSource`<sup>Required</sup> <a name="createAdobeAnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAdobeAnalyticsDataSource"></a>
+
+```java
+public java.lang.String getCreateAdobeAnalyticsDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -1583,10 +1882,30 @@ public java.lang.String getCreateAndUpdateBambooHrAction();
 
 ---
 
+##### `createAndUpdateBedrockManagedKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateBedrockManagedKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateBedrockManagedKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateBedrockManagedKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `createAndUpdateBoxAgentAction`<sup>Required</sup> <a name="createAndUpdateBoxAgentAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateBoxAgentAction"></a>
 
 ```java
 public java.lang.String getCreateAndUpdateBoxAgentAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createAndUpdateBoxKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateBoxKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateBoxKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateBoxKnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -1627,6 +1946,16 @@ public java.lang.String getCreateAndUpdateComprehendMedicalAction();
 
 ```java
 public java.lang.String getCreateAndUpdateConfluenceAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createAndUpdateConfluenceKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateConfluenceKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateConfluenceKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateConfluenceKnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -1703,6 +2032,16 @@ public java.lang.String getCreateAndUpdateGoogleCalendarAction();
 
 ---
 
+##### `createAndUpdateGoogleDriveKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateGoogleDriveKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateGoogleDriveKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateGoogleDriveKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `createAndUpdateHubspotAction`<sup>Required</sup> <a name="createAndUpdateHubspotAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateHubspotAction"></a>
 
 ```java
@@ -1717,6 +2056,16 @@ public java.lang.String getCreateAndUpdateHubspotAction();
 
 ```java
 public java.lang.String getCreateAndUpdateHuggingFaceAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createAndUpdateIdcKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateIdcKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateIdcKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateIdcKnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -1833,6 +2182,16 @@ public java.lang.String getCreateAndUpdateOneDriveAction();
 
 ---
 
+##### `createAndUpdateOneDriveKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateOneDriveKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateOneDriveKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateOneDriveKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `createAndUpdateOpenApiAction`<sup>Required</sup> <a name="createAndUpdateOpenApiAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateOpenApiAction"></a>
 
 ```java
@@ -1847,6 +2206,26 @@ public java.lang.String getCreateAndUpdateOpenApiAction();
 
 ```java
 public java.lang.String getCreateAndUpdatePagerDutyAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createAndUpdateQBusinessKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateQBusinessKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateQBusinessKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateQBusinessKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createAndUpdateS3KnowledgeBase`<sup>Required</sup> <a name="createAndUpdateS3KnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateS3KnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateS3KnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -1953,6 +2332,16 @@ public java.lang.String getCreateAndUpdateSharePointAction();
 
 ---
 
+##### `createAndUpdateSharePointKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateSharePointKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSharePointKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateSharePointKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `createAndUpdateSlackAction`<sup>Required</sup> <a name="createAndUpdateSlackAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateSlackAction"></a>
 
 ```java
@@ -2003,10 +2392,40 @@ public java.lang.String getCreateAndUpdateThresholdAlerts();
 
 ---
 
+##### `createAndUpdateWebCrawlerKnowledgeBase`<sup>Required</sup> <a name="createAndUpdateWebCrawlerKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateWebCrawlerKnowledgeBase"></a>
+
+```java
+public java.lang.String getCreateAndUpdateWebCrawlerKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `createAndUpdateZendeskAction`<sup>Required</sup> <a name="createAndUpdateZendeskAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAndUpdateZendeskAction"></a>
 
 ```java
 public java.lang.String getCreateAndUpdateZendeskAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createAthenaDataSource`<sup>Required</sup> <a name="createAthenaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAthenaDataSource"></a>
+
+```java
+public java.lang.String getCreateAthenaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createAuroraDataSource`<sup>Required</sup> <a name="createAuroraDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createAuroraDataSource"></a>
+
+```java
+public java.lang.String getCreateAuroraDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2033,10 +2452,350 @@ public java.lang.String getCreateDashboardExecutiveSummaryWithQ();
 
 ---
 
+##### `createDatabricksDataSource`<sup>Required</sup> <a name="createDatabricksDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDatabricksDataSource"></a>
+
+```java
+public java.lang.String getCreateDatabricksDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createDb2DataSource`<sup>Required</sup> <a name="createDb2DataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDb2DataSource"></a>
+
+```java
+public java.lang.String getCreateDb2DataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createDenodoDataSource`<sup>Required</sup> <a name="createDenodoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDenodoDataSource"></a>
+
+```java
+public java.lang.String getCreateDenodoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createDocumentDbDataSource`<sup>Required</sup> <a name="createDocumentDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDocumentDbDataSource"></a>
+
+```java
+public java.lang.String getCreateDocumentDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createDremioDataSource`<sup>Required</sup> <a name="createDremioDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDremioDataSource"></a>
+
+```java
+public java.lang.String getCreateDremioDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createDynamoDbDataSource`<sup>Required</sup> <a name="createDynamoDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createDynamoDbDataSource"></a>
+
+```java
+public java.lang.String getCreateDynamoDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createExasolDataSource`<sup>Required</sup> <a name="createExasolDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createExasolDataSource"></a>
+
+```java
+public java.lang.String getCreateExasolDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createFileDataSource`<sup>Required</sup> <a name="createFileDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createFileDataSource"></a>
+
+```java
+public java.lang.String getCreateFileDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createGitHubDataSource`<sup>Required</sup> <a name="createGitHubDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createGitHubDataSource"></a>
+
+```java
+public java.lang.String getCreateGitHubDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createGoogleAnalyticsDataSource`<sup>Required</sup> <a name="createGoogleAnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createGoogleAnalyticsDataSource"></a>
+
+```java
+public java.lang.String getCreateGoogleAnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createGoogleBigQueryDataSource`<sup>Required</sup> <a name="createGoogleBigQueryDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createGoogleBigQueryDataSource"></a>
+
+```java
+public java.lang.String getCreateGoogleBigQueryDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createGoogleSheetsDataSource`<sup>Required</sup> <a name="createGoogleSheetsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createGoogleSheetsDataSource"></a>
+
+```java
+public java.lang.String getCreateGoogleSheetsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createImpalaDataSource`<sup>Required</sup> <a name="createImpalaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createImpalaDataSource"></a>
+
+```java
+public java.lang.String getCreateImpalaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createJiraDataSource`<sup>Required</sup> <a name="createJiraDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createJiraDataSource"></a>
+
+```java
+public java.lang.String getCreateJiraDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createMariaDbDataSource`<sup>Required</sup> <a name="createMariaDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createMariaDbDataSource"></a>
+
+```java
+public java.lang.String getCreateMariaDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createMongoAtlasDataSource`<sup>Required</sup> <a name="createMongoAtlasDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createMongoAtlasDataSource"></a>
+
+```java
+public java.lang.String getCreateMongoAtlasDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createMongoDbDataSource`<sup>Required</sup> <a name="createMongoDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createMongoDbDataSource"></a>
+
+```java
+public java.lang.String getCreateMongoDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createMySqlDataSource`<sup>Required</sup> <a name="createMySqlDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createMySqlDataSource"></a>
+
+```java
+public java.lang.String getCreateMySqlDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createOpenSearchDataSource`<sup>Required</sup> <a name="createOpenSearchDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createOpenSearchDataSource"></a>
+
+```java
+public java.lang.String getCreateOpenSearchDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createOracleDataSource`<sup>Required</sup> <a name="createOracleDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createOracleDataSource"></a>
+
+```java
+public java.lang.String getCreateOracleDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createPayPalDataSource`<sup>Required</sup> <a name="createPayPalDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createPayPalDataSource"></a>
+
+```java
+public java.lang.String getCreatePayPalDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createPostgreSqlDataSource`<sup>Required</sup> <a name="createPostgreSqlDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createPostgreSqlDataSource"></a>
+
+```java
+public java.lang.String getCreatePostgreSqlDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createPrestoDataSource`<sup>Required</sup> <a name="createPrestoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createPrestoDataSource"></a>
+
+```java
+public java.lang.String getCreatePrestoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createRadiantDataSource`<sup>Required</sup> <a name="createRadiantDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createRadiantDataSource"></a>
+
+```java
+public java.lang.String getCreateRadiantDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createRdsDataSource`<sup>Required</sup> <a name="createRdsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createRdsDataSource"></a>
+
+```java
+public java.lang.String getCreateRdsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createRedshiftAutoDiscoveredDataSource`<sup>Required</sup> <a name="createRedshiftAutoDiscoveredDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createRedshiftAutoDiscoveredDataSource"></a>
+
+```java
+public java.lang.String getCreateRedshiftAutoDiscoveredDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createRedshiftManualDataSource`<sup>Required</sup> <a name="createRedshiftManualDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createRedshiftManualDataSource"></a>
+
+```java
+public java.lang.String getCreateRedshiftManualDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createS3AnalyticsDataSource`<sup>Required</sup> <a name="createS3AnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createS3AnalyticsDataSource"></a>
+
+```java
+public java.lang.String getCreateS3AnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createS3DataSource`<sup>Required</sup> <a name="createS3DataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createS3DataSource"></a>
+
+```java
+public java.lang.String getCreateS3DataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createS3TablesDataSource`<sup>Required</sup> <a name="createS3TablesDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createS3TablesDataSource"></a>
+
+```java
+public java.lang.String getCreateS3TablesDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createSalesforceDataSource`<sup>Required</sup> <a name="createSalesforceDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSalesforceDataSource"></a>
+
+```java
+public java.lang.String getCreateSalesforceDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createSapHanaDataSource`<sup>Required</sup> <a name="createSapHanaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSapHanaDataSource"></a>
+
+```java
+public java.lang.String getCreateSapHanaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createServiceNowDataSource`<sup>Required</sup> <a name="createServiceNowDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createServiceNowDataSource"></a>
+
+```java
+public java.lang.String getCreateServiceNowDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `createSharedFolders`<sup>Required</sup> <a name="createSharedFolders" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSharedFolders"></a>
 
 ```java
 public java.lang.String getCreateSharedFolders();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createSnowflakeDataSource`<sup>Required</sup> <a name="createSnowflakeDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSnowflakeDataSource"></a>
+
+```java
+public java.lang.String getCreateSnowflakeDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2053,10 +2812,90 @@ public java.lang.String getCreateSpaces();
 
 ---
 
+##### `createSparkDataSource`<sup>Required</sup> <a name="createSparkDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSparkDataSource"></a>
+
+```java
+public java.lang.String getCreateSparkDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `createSpiceDataset`<sup>Required</sup> <a name="createSpiceDataset" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSpiceDataset"></a>
 
 ```java
 public java.lang.String getCreateSpiceDataset();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createSqlServerDataSource`<sup>Required</sup> <a name="createSqlServerDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSqlServerDataSource"></a>
+
+```java
+public java.lang.String getCreateSqlServerDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createSquareDataSource`<sup>Required</sup> <a name="createSquareDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createSquareDataSource"></a>
+
+```java
+public java.lang.String getCreateSquareDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createStarburstDataSource`<sup>Required</sup> <a name="createStarburstDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createStarburstDataSource"></a>
+
+```java
+public java.lang.String getCreateStarburstDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createTeradataDataSource`<sup>Required</sup> <a name="createTeradataDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createTeradataDataSource"></a>
+
+```java
+public java.lang.String getCreateTeradataDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createTimestreamDataSource`<sup>Required</sup> <a name="createTimestreamDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createTimestreamDataSource"></a>
+
+```java
+public java.lang.String getCreateTimestreamDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createTrinoDataSource`<sup>Required</sup> <a name="createTrinoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createTrinoDataSource"></a>
+
+```java
+public java.lang.String getCreateTrinoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createTwitterDataSource`<sup>Required</sup> <a name="createTwitterDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.createTwitterDataSource"></a>
+
+```java
+public java.lang.String getCreateTwitterDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2073,10 +2912,80 @@ public java.lang.String getDashboard();
 
 ---
 
+##### `databricksDataSource`<sup>Required</sup> <a name="databricksDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.databricksDataSource"></a>
+
+```java
+public java.lang.String getDatabricksDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `db2DataSource`<sup>Required</sup> <a name="db2DataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.db2DataSource"></a>
+
+```java
+public java.lang.String getDb2DataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `denodoDataSource`<sup>Required</sup> <a name="denodoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.denodoDataSource"></a>
+
+```java
+public java.lang.String getDenodoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `documentDbDataSource`<sup>Required</sup> <a name="documentDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.documentDbDataSource"></a>
+
+```java
+public java.lang.String getDocumentDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `dremioDataSource`<sup>Required</sup> <a name="dremioDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.dremioDataSource"></a>
+
+```java
+public java.lang.String getDremioDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `dynamoDbDataSource`<sup>Required</sup> <a name="dynamoDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.dynamoDbDataSource"></a>
+
+```java
+public java.lang.String getDynamoDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `editVisualWithQ`<sup>Required</sup> <a name="editVisualWithQ" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.editVisualWithQ"></a>
 
 ```java
 public java.lang.String getEditVisualWithQ();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `exasolDataSource`<sup>Required</sup> <a name="exasolDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.exasolDataSource"></a>
+
+```java
+public java.lang.String getExasolDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2163,6 +3072,16 @@ public java.lang.String getFactSetAction();
 
 ---
 
+##### `fileDataSource`<sup>Required</sup> <a name="fileDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.fileDataSource"></a>
+
+```java
+public java.lang.String getFileDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `flow`<sup>Required</sup> <a name="flow" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.flow"></a>
 
 ```java
@@ -2193,10 +3112,60 @@ public java.lang.String getGithubAction();
 
 ---
 
+##### `gitHubDataSource`<sup>Required</sup> <a name="gitHubDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.gitHubDataSource"></a>
+
+```java
+public java.lang.String getGitHubDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `googleAnalyticsDataSource`<sup>Required</sup> <a name="googleAnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleAnalyticsDataSource"></a>
+
+```java
+public java.lang.String getGoogleAnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `googleBigQueryDataSource`<sup>Required</sup> <a name="googleBigQueryDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleBigQueryDataSource"></a>
+
+```java
+public java.lang.String getGoogleBigQueryDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `googleCalendarAction`<sup>Required</sup> <a name="googleCalendarAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleCalendarAction"></a>
 
 ```java
 public java.lang.String getGoogleCalendarAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `googleDriveKnowledgeBase`<sup>Required</sup> <a name="googleDriveKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleDriveKnowledgeBase"></a>
+
+```java
+public java.lang.String getGoogleDriveKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `googleSheetsDataSource`<sup>Required</sup> <a name="googleSheetsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.googleSheetsDataSource"></a>
+
+```java
+public java.lang.String getGoogleSheetsDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2217,6 +3186,36 @@ public java.lang.String getHubspotAction();
 
 ```java
 public java.lang.String getHuggingFaceAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `idcKnowledgeBase`<sup>Required</sup> <a name="idcKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.idcKnowledgeBase"></a>
+
+```java
+public java.lang.String getIdcKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `impalaDataSource`<sup>Required</sup> <a name="impalaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.impalaDataSource"></a>
+
+```java
+public java.lang.String getImpalaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `inboundEmailTrigger`<sup>Required</sup> <a name="inboundEmailTrigger" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.inboundEmailTrigger"></a>
+
+```java
+public java.lang.String getInboundEmailTrigger();
 ```
 
 - *Type:* java.lang.String
@@ -2263,6 +3262,16 @@ public java.lang.String getJiraAction();
 
 ---
 
+##### `jiraDataSource`<sup>Required</sup> <a name="jiraDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.jiraDataSource"></a>
+
+```java
+public java.lang.String getJiraDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `knowledgeBase`<sup>Required</sup> <a name="knowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.knowledgeBase"></a>
 
 ```java
@@ -2293,6 +3302,16 @@ public java.lang.String getManageSharedFolders();
 
 ---
 
+##### `mariaDbDataSource`<sup>Required</sup> <a name="mariaDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mariaDbDataSource"></a>
+
+```java
+public java.lang.String getMariaDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `mcpAction`<sup>Required</sup> <a name="mcpAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mcpAction"></a>
 
 ```java
@@ -2313,6 +3332,26 @@ public java.lang.String getMondayAction();
 
 ---
 
+##### `mongoAtlasDataSource`<sup>Required</sup> <a name="mongoAtlasDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mongoAtlasDataSource"></a>
+
+```java
+public java.lang.String getMongoAtlasDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `mongoDbDataSource`<sup>Required</sup> <a name="mongoDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mongoDbDataSource"></a>
+
+```java
+public java.lang.String getMongoDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `msExchangeAction`<sup>Required</sup> <a name="msExchangeAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.msExchangeAction"></a>
 
 ```java
@@ -2327,6 +3366,16 @@ public java.lang.String getMsExchangeAction();
 
 ```java
 public java.lang.String getMsTeamsAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `mySqlDataSource`<sup>Required</sup> <a name="mySqlDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.mySqlDataSource"></a>
+
+```java
+public java.lang.String getMySqlDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2363,10 +3412,40 @@ public java.lang.String getOneDriveAction();
 
 ---
 
+##### `oneDriveKnowledgeBase`<sup>Required</sup> <a name="oneDriveKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.oneDriveKnowledgeBase"></a>
+
+```java
+public java.lang.String getOneDriveKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `openApiAction`<sup>Required</sup> <a name="openApiAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.openApiAction"></a>
 
 ```java
 public java.lang.String getOpenApiAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `openSearchDataSource`<sup>Required</sup> <a name="openSearchDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.openSearchDataSource"></a>
+
+```java
+public java.lang.String getOpenSearchDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `oracleDataSource`<sup>Required</sup> <a name="oracleDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.oracleDataSource"></a>
+
+```java
+public java.lang.String getOracleDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2383,10 +3462,40 @@ public java.lang.String getPagerDutyAction();
 
 ---
 
+##### `payPalDataSource`<sup>Required</sup> <a name="payPalDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.payPalDataSource"></a>
+
+```java
+public java.lang.String getPayPalDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `performFlowUiTask`<sup>Required</sup> <a name="performFlowUiTask" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.performFlowUiTask"></a>
 
 ```java
 public java.lang.String getPerformFlowUiTask();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `postgreSqlDataSource`<sup>Required</sup> <a name="postgreSqlDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.postgreSqlDataSource"></a>
+
+```java
+public java.lang.String getPostgreSqlDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `prestoDataSource`<sup>Required</sup> <a name="prestoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.prestoDataSource"></a>
+
+```java
+public java.lang.String getPrestoDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2413,6 +3522,66 @@ public java.lang.String getPublishWithoutApproval();
 
 ---
 
+##### `qBusinessKnowledgeBase`<sup>Required</sup> <a name="qBusinessKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.qBusinessKnowledgeBase"></a>
+
+```java
+public java.lang.String getQBusinessKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `quickEventTrigger`<sup>Required</sup> <a name="quickEventTrigger" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.quickEventTrigger"></a>
+
+```java
+public java.lang.String getQuickEventTrigger();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `radiantDataSource`<sup>Required</sup> <a name="radiantDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.radiantDataSource"></a>
+
+```java
+public java.lang.String getRadiantDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `rdsDataSource`<sup>Required</sup> <a name="rdsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.rdsDataSource"></a>
+
+```java
+public java.lang.String getRdsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `redshiftAutoDiscoveredDataSource`<sup>Required</sup> <a name="redshiftAutoDiscoveredDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.redshiftAutoDiscoveredDataSource"></a>
+
+```java
+public java.lang.String getRedshiftAutoDiscoveredDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `redshiftManualDataSource`<sup>Required</sup> <a name="redshiftManualDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.redshiftManualDataSource"></a>
+
+```java
+public java.lang.String getRedshiftManualDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `renameSharedFolders`<sup>Required</sup> <a name="renameSharedFolders" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.renameSharedFolders"></a>
 
 ```java
@@ -2433,10 +3602,60 @@ public java.lang.String getResearch();
 
 ---
 
+##### `s3AnalyticsDataSource`<sup>Required</sup> <a name="s3AnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.s3AnalyticsDataSource"></a>
+
+```java
+public java.lang.String getS3AnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `s3DataSource`<sup>Required</sup> <a name="s3DataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.s3DataSource"></a>
+
+```java
+public java.lang.String getS3DataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `s3KnowledgeBase`<sup>Required</sup> <a name="s3KnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.s3KnowledgeBase"></a>
+
+```java
+public java.lang.String getS3KnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `s3TablesDataSource`<sup>Required</sup> <a name="s3TablesDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.s3TablesDataSource"></a>
+
+```java
+public java.lang.String getS3TablesDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `salesforceAction`<sup>Required</sup> <a name="salesforceAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.salesforceAction"></a>
 
 ```java
 public java.lang.String getSalesforceAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `salesforceDataSource`<sup>Required</sup> <a name="salesforceDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.salesforceDataSource"></a>
+
+```java
+public java.lang.String getSalesforceDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2483,6 +3702,16 @@ public java.lang.String getSapBusinessPartnerAction();
 
 ---
 
+##### `sapHanaDataSource`<sup>Required</sup> <a name="sapHanaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sapHanaDataSource"></a>
+
+```java
+public java.lang.String getSapHanaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `sapMaterialStockAction`<sup>Required</sup> <a name="sapMaterialStockAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sapMaterialStockAction"></a>
 
 ```java
@@ -2513,10 +3742,40 @@ public java.lang.String getSapProductMasterDataAction();
 
 ---
 
+##### `scheduleTrigger`<sup>Required</sup> <a name="scheduleTrigger" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.scheduleTrigger"></a>
+
+```java
+public java.lang.String getScheduleTrigger();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `serviceNowAction`<sup>Required</sup> <a name="serviceNowAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.serviceNowAction"></a>
 
 ```java
 public java.lang.String getServiceNowAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `serviceNowDataSource`<sup>Required</sup> <a name="serviceNowDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.serviceNowDataSource"></a>
+
+```java
+public java.lang.String getServiceNowDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareAdobeAnalyticsDataSource`<sup>Required</sup> <a name="shareAdobeAnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAdobeAnalyticsDataSource"></a>
+
+```java
+public java.lang.String getShareAdobeAnalyticsDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2593,6 +3852,26 @@ public java.lang.String getShareAsanaAction();
 
 ---
 
+##### `shareAthenaDataSource`<sup>Required</sup> <a name="shareAthenaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAthenaDataSource"></a>
+
+```java
+public java.lang.String getShareAthenaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareAuroraDataSource`<sup>Required</sup> <a name="shareAuroraDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareAuroraDataSource"></a>
+
+```java
+public java.lang.String getShareAuroraDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareBambooHrAction`<sup>Required</sup> <a name="shareBambooHrAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareBambooHrAction"></a>
 
 ```java
@@ -2603,10 +3882,30 @@ public java.lang.String getShareBambooHrAction();
 
 ---
 
+##### `shareBedrockManagedKnowledgeBase`<sup>Required</sup> <a name="shareBedrockManagedKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareBedrockManagedKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareBedrockManagedKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareBoxAgentAction`<sup>Required</sup> <a name="shareBoxAgentAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareBoxAgentAction"></a>
 
 ```java
 public java.lang.String getShareBoxAgentAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareBoxKnowledgeBase`<sup>Required</sup> <a name="shareBoxKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareBoxKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareBoxKnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -2663,10 +3962,30 @@ public java.lang.String getShareConfluenceAction();
 
 ---
 
+##### `shareConfluenceKnowledgeBase`<sup>Required</sup> <a name="shareConfluenceKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareConfluenceKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareConfluenceKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareDashboards`<sup>Required</sup> <a name="shareDashboards" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDashboards"></a>
 
 ```java
 public java.lang.String getShareDashboards();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareDatabricksDataSource`<sup>Required</sup> <a name="shareDatabricksDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDatabricksDataSource"></a>
+
+```java
+public java.lang.String getShareDatabricksDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2693,10 +4012,80 @@ public java.lang.String getShareDataSources();
 
 ---
 
+##### `shareDb2DataSource`<sup>Required</sup> <a name="shareDb2DataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDb2DataSource"></a>
+
+```java
+public java.lang.String getShareDb2DataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareDenodoDataSource`<sup>Required</sup> <a name="shareDenodoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDenodoDataSource"></a>
+
+```java
+public java.lang.String getShareDenodoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareDocumentDbDataSource`<sup>Required</sup> <a name="shareDocumentDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDocumentDbDataSource"></a>
+
+```java
+public java.lang.String getShareDocumentDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareDremioDataSource`<sup>Required</sup> <a name="shareDremioDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDremioDataSource"></a>
+
+```java
+public java.lang.String getShareDremioDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareDynamoDbDataSource`<sup>Required</sup> <a name="shareDynamoDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareDynamoDbDataSource"></a>
+
+```java
+public java.lang.String getShareDynamoDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareExasolDataSource`<sup>Required</sup> <a name="shareExasolDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareExasolDataSource"></a>
+
+```java
+public java.lang.String getShareExasolDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareFactSetAction`<sup>Required</sup> <a name="shareFactSetAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareFactSetAction"></a>
 
 ```java
 public java.lang.String getShareFactSetAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareFileDataSource`<sup>Required</sup> <a name="shareFileDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareFileDataSource"></a>
+
+```java
+public java.lang.String getShareFileDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2723,10 +4112,60 @@ public java.lang.String getShareGithubAction();
 
 ---
 
+##### `shareGitHubDataSource`<sup>Required</sup> <a name="shareGitHubDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGitHubDataSource"></a>
+
+```java
+public java.lang.String getShareGitHubDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareGoogleAnalyticsDataSource`<sup>Required</sup> <a name="shareGoogleAnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleAnalyticsDataSource"></a>
+
+```java
+public java.lang.String getShareGoogleAnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareGoogleBigQueryDataSource`<sup>Required</sup> <a name="shareGoogleBigQueryDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleBigQueryDataSource"></a>
+
+```java
+public java.lang.String getShareGoogleBigQueryDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareGoogleCalendarAction`<sup>Required</sup> <a name="shareGoogleCalendarAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleCalendarAction"></a>
 
 ```java
 public java.lang.String getShareGoogleCalendarAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareGoogleDriveKnowledgeBase`<sup>Required</sup> <a name="shareGoogleDriveKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleDriveKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareGoogleDriveKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareGoogleSheetsDataSource`<sup>Required</sup> <a name="shareGoogleSheetsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareGoogleSheetsDataSource"></a>
+
+```java
+public java.lang.String getShareGoogleSheetsDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2753,6 +4192,26 @@ public java.lang.String getShareHuggingFaceAction();
 
 ---
 
+##### `shareIdcKnowledgeBase`<sup>Required</sup> <a name="shareIdcKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareIdcKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareIdcKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareImpalaDataSource`<sup>Required</sup> <a name="shareImpalaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareImpalaDataSource"></a>
+
+```java
+public java.lang.String getShareImpalaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareIntercomAction`<sup>Required</sup> <a name="shareIntercomAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareIntercomAction"></a>
 
 ```java
@@ -2767,6 +4226,16 @@ public java.lang.String getShareIntercomAction();
 
 ```java
 public java.lang.String getShareJiraAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareJiraDataSource`<sup>Required</sup> <a name="shareJiraDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareJiraDataSource"></a>
+
+```java
+public java.lang.String getShareJiraDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2793,6 +4262,16 @@ public java.lang.String getShareLinearAction();
 
 ---
 
+##### `shareMariaDbDataSource`<sup>Required</sup> <a name="shareMariaDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMariaDbDataSource"></a>
+
+```java
+public java.lang.String getShareMariaDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareMcpAction`<sup>Required</sup> <a name="shareMcpAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMcpAction"></a>
 
 ```java
@@ -2813,6 +4292,26 @@ public java.lang.String getShareMondayAction();
 
 ---
 
+##### `shareMongoAtlasDataSource`<sup>Required</sup> <a name="shareMongoAtlasDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMongoAtlasDataSource"></a>
+
+```java
+public java.lang.String getShareMongoAtlasDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareMongoDbDataSource`<sup>Required</sup> <a name="shareMongoDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMongoDbDataSource"></a>
+
+```java
+public java.lang.String getShareMongoDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareMsExchangeAction`<sup>Required</sup> <a name="shareMsExchangeAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMsExchangeAction"></a>
 
 ```java
@@ -2827,6 +4326,16 @@ public java.lang.String getShareMsExchangeAction();
 
 ```java
 public java.lang.String getShareMsTeamsAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareMySqlDataSource`<sup>Required</sup> <a name="shareMySqlDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareMySqlDataSource"></a>
+
+```java
+public java.lang.String getShareMySqlDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2863,10 +4372,40 @@ public java.lang.String getShareOneDriveAction();
 
 ---
 
+##### `shareOneDriveKnowledgeBase`<sup>Required</sup> <a name="shareOneDriveKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOneDriveKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareOneDriveKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareOpenApiAction`<sup>Required</sup> <a name="shareOpenApiAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOpenApiAction"></a>
 
 ```java
 public java.lang.String getShareOpenApiAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareOpenSearchDataSource`<sup>Required</sup> <a name="shareOpenSearchDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOpenSearchDataSource"></a>
+
+```java
+public java.lang.String getShareOpenSearchDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareOracleDataSource`<sup>Required</sup> <a name="shareOracleDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareOracleDataSource"></a>
+
+```java
+public java.lang.String getShareOracleDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2883,6 +4422,16 @@ public java.lang.String getSharePagerDutyAction();
 
 ---
 
+##### `sharePayPalDataSource`<sup>Required</sup> <a name="sharePayPalDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePayPalDataSource"></a>
+
+```java
+public java.lang.String getSharePayPalDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `sharePointAction`<sup>Required</sup> <a name="sharePointAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePointAction"></a>
 
 ```java
@@ -2893,10 +4442,140 @@ public java.lang.String getSharePointAction();
 
 ---
 
+##### `sharePointKnowledgeBase`<sup>Required</sup> <a name="sharePointKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePointKnowledgeBase"></a>
+
+```java
+public java.lang.String getSharePointKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sharePostgreSqlDataSource`<sup>Required</sup> <a name="sharePostgreSqlDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePostgreSqlDataSource"></a>
+
+```java
+public java.lang.String getSharePostgreSqlDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sharePrestoDataSource`<sup>Required</sup> <a name="sharePrestoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sharePrestoDataSource"></a>
+
+```java
+public java.lang.String getSharePrestoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareQBusinessKnowledgeBase`<sup>Required</sup> <a name="shareQBusinessKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareQBusinessKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareQBusinessKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareRadiantDataSource`<sup>Required</sup> <a name="shareRadiantDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareRadiantDataSource"></a>
+
+```java
+public java.lang.String getShareRadiantDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareRdsDataSource`<sup>Required</sup> <a name="shareRdsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareRdsDataSource"></a>
+
+```java
+public java.lang.String getShareRdsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareRedshiftAutoDiscoveredDataSource`<sup>Required</sup> <a name="shareRedshiftAutoDiscoveredDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareRedshiftAutoDiscoveredDataSource"></a>
+
+```java
+public java.lang.String getShareRedshiftAutoDiscoveredDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareRedshiftManualDataSource`<sup>Required</sup> <a name="shareRedshiftManualDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareRedshiftManualDataSource"></a>
+
+```java
+public java.lang.String getShareRedshiftManualDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareS3AnalyticsDataSource`<sup>Required</sup> <a name="shareS3AnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareS3AnalyticsDataSource"></a>
+
+```java
+public java.lang.String getShareS3AnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareS3DataSource`<sup>Required</sup> <a name="shareS3DataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareS3DataSource"></a>
+
+```java
+public java.lang.String getShareS3DataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareS3KnowledgeBase`<sup>Required</sup> <a name="shareS3KnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareS3KnowledgeBase"></a>
+
+```java
+public java.lang.String getShareS3KnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareS3TablesDataSource`<sup>Required</sup> <a name="shareS3TablesDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareS3TablesDataSource"></a>
+
+```java
+public java.lang.String getShareS3TablesDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareSalesforceAction`<sup>Required</sup> <a name="shareSalesforceAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSalesforceAction"></a>
 
 ```java
 public java.lang.String getShareSalesforceAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareSalesforceDataSource`<sup>Required</sup> <a name="shareSalesforceDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSalesforceDataSource"></a>
+
+```java
+public java.lang.String getShareSalesforceDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -2943,6 +4622,16 @@ public java.lang.String getShareSapBusinessPartnerAction();
 
 ---
 
+##### `shareSapHanaDataSource`<sup>Required</sup> <a name="shareSapHanaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSapHanaDataSource"></a>
+
+```java
+public java.lang.String getShareSapHanaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareSapMaterialStockAction`<sup>Required</sup> <a name="shareSapMaterialStockAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSapMaterialStockAction"></a>
 
 ```java
@@ -2983,10 +4672,30 @@ public java.lang.String getShareServiceNowAction();
 
 ---
 
+##### `shareServiceNowDataSource`<sup>Required</sup> <a name="shareServiceNowDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareServiceNowDataSource"></a>
+
+```java
+public java.lang.String getShareServiceNowDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareSharePointAction`<sup>Required</sup> <a name="shareSharePointAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSharePointAction"></a>
 
 ```java
 public java.lang.String getShareSharePointAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareSharePointKnowledgeBase`<sup>Required</sup> <a name="shareSharePointKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSharePointKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareSharePointKnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -3013,6 +4722,16 @@ public java.lang.String getShareSmartsheetAction();
 
 ---
 
+##### `shareSnowflakeDataSource`<sup>Required</sup> <a name="shareSnowflakeDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSnowflakeDataSource"></a>
+
+```java
+public java.lang.String getShareSnowflakeDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareSpaces`<sup>Required</sup> <a name="shareSpaces" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSpaces"></a>
 
 ```java
@@ -3023,10 +4742,100 @@ public java.lang.String getShareSpaces();
 
 ---
 
+##### `shareSparkDataSource`<sup>Required</sup> <a name="shareSparkDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSparkDataSource"></a>
+
+```java
+public java.lang.String getShareSparkDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareSqlServerDataSource`<sup>Required</sup> <a name="shareSqlServerDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSqlServerDataSource"></a>
+
+```java
+public java.lang.String getShareSqlServerDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareSquareDataSource`<sup>Required</sup> <a name="shareSquareDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareSquareDataSource"></a>
+
+```java
+public java.lang.String getShareSquareDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareStarburstDataSource`<sup>Required</sup> <a name="shareStarburstDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareStarburstDataSource"></a>
+
+```java
+public java.lang.String getShareStarburstDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareTeradataDataSource`<sup>Required</sup> <a name="shareTeradataDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTeradataDataSource"></a>
+
+```java
+public java.lang.String getShareTeradataDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `shareTextractAction`<sup>Required</sup> <a name="shareTextractAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTextractAction"></a>
 
 ```java
 public java.lang.String getShareTextractAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareTimestreamDataSource`<sup>Required</sup> <a name="shareTimestreamDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTimestreamDataSource"></a>
+
+```java
+public java.lang.String getShareTimestreamDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareTrinoDataSource`<sup>Required</sup> <a name="shareTrinoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTrinoDataSource"></a>
+
+```java
+public java.lang.String getShareTrinoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareTwitterDataSource`<sup>Required</sup> <a name="shareTwitterDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareTwitterDataSource"></a>
+
+```java
+public java.lang.String getShareTwitterDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `shareWebCrawlerKnowledgeBase`<sup>Required</sup> <a name="shareWebCrawlerKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.shareWebCrawlerKnowledgeBase"></a>
+
+```java
+public java.lang.String getShareWebCrawlerKnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -3063,10 +4872,60 @@ public java.lang.String getSmartsheetAction();
 
 ---
 
+##### `snowflakeDataSource`<sup>Required</sup> <a name="snowflakeDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.snowflakeDataSource"></a>
+
+```java
+public java.lang.String getSnowflakeDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `space`<sup>Required</sup> <a name="space" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.space"></a>
 
 ```java
 public java.lang.String getSpace();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sparkDataSource`<sup>Required</sup> <a name="sparkDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sparkDataSource"></a>
+
+```java
+public java.lang.String getSparkDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sqlServerDataSource`<sup>Required</sup> <a name="sqlServerDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.sqlServerDataSource"></a>
+
+```java
+public java.lang.String getSqlServerDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `squareDataSource`<sup>Required</sup> <a name="squareDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.squareDataSource"></a>
+
+```java
+public java.lang.String getSquareDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `starburstDataSource`<sup>Required</sup> <a name="starburstDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.starburstDataSource"></a>
+
+```java
+public java.lang.String getStarburstDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -3083,6 +4942,16 @@ public java.lang.String getSubscribeDashboardEmailReports();
 
 ---
 
+##### `teradataDataSource`<sup>Required</sup> <a name="teradataDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.teradataDataSource"></a>
+
+```java
+public java.lang.String getTeradataDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `textractAction`<sup>Required</sup> <a name="textractAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.textractAction"></a>
 
 ```java
@@ -3093,10 +4962,500 @@ public java.lang.String getTextractAction();
 
 ---
 
+##### `timestreamDataSource`<sup>Required</sup> <a name="timestreamDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.timestreamDataSource"></a>
+
+```java
+public java.lang.String getTimestreamDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `topic`<sup>Required</sup> <a name="topic" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.topic"></a>
 
 ```java
 public java.lang.String getTopic();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `trigger`<sup>Required</sup> <a name="trigger" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.trigger"></a>
+
+```java
+public java.lang.String getTrigger();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `trinoDataSource`<sup>Required</sup> <a name="trinoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.trinoDataSource"></a>
+
+```java
+public java.lang.String getTrinoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `twitterDataSource`<sup>Required</sup> <a name="twitterDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.twitterDataSource"></a>
+
+```java
+public java.lang.String getTwitterDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateAdobeAnalyticsDataSource`<sup>Required</sup> <a name="updateAdobeAnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateAdobeAnalyticsDataSource"></a>
+
+```java
+public java.lang.String getUpdateAdobeAnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateAthenaDataSource`<sup>Required</sup> <a name="updateAthenaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateAthenaDataSource"></a>
+
+```java
+public java.lang.String getUpdateAthenaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateAuroraDataSource`<sup>Required</sup> <a name="updateAuroraDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateAuroraDataSource"></a>
+
+```java
+public java.lang.String getUpdateAuroraDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateDatabricksDataSource`<sup>Required</sup> <a name="updateDatabricksDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDatabricksDataSource"></a>
+
+```java
+public java.lang.String getUpdateDatabricksDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateDb2DataSource`<sup>Required</sup> <a name="updateDb2DataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDb2DataSource"></a>
+
+```java
+public java.lang.String getUpdateDb2DataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateDenodoDataSource`<sup>Required</sup> <a name="updateDenodoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDenodoDataSource"></a>
+
+```java
+public java.lang.String getUpdateDenodoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateDocumentDbDataSource`<sup>Required</sup> <a name="updateDocumentDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDocumentDbDataSource"></a>
+
+```java
+public java.lang.String getUpdateDocumentDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateDremioDataSource`<sup>Required</sup> <a name="updateDremioDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDremioDataSource"></a>
+
+```java
+public java.lang.String getUpdateDremioDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateDynamoDbDataSource`<sup>Required</sup> <a name="updateDynamoDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateDynamoDbDataSource"></a>
+
+```java
+public java.lang.String getUpdateDynamoDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateExasolDataSource`<sup>Required</sup> <a name="updateExasolDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateExasolDataSource"></a>
+
+```java
+public java.lang.String getUpdateExasolDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateFileDataSource`<sup>Required</sup> <a name="updateFileDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateFileDataSource"></a>
+
+```java
+public java.lang.String getUpdateFileDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateGitHubDataSource`<sup>Required</sup> <a name="updateGitHubDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateGitHubDataSource"></a>
+
+```java
+public java.lang.String getUpdateGitHubDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateGoogleAnalyticsDataSource`<sup>Required</sup> <a name="updateGoogleAnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateGoogleAnalyticsDataSource"></a>
+
+```java
+public java.lang.String getUpdateGoogleAnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateGoogleBigQueryDataSource`<sup>Required</sup> <a name="updateGoogleBigQueryDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateGoogleBigQueryDataSource"></a>
+
+```java
+public java.lang.String getUpdateGoogleBigQueryDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateGoogleSheetsDataSource`<sup>Required</sup> <a name="updateGoogleSheetsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateGoogleSheetsDataSource"></a>
+
+```java
+public java.lang.String getUpdateGoogleSheetsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateImpalaDataSource`<sup>Required</sup> <a name="updateImpalaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateImpalaDataSource"></a>
+
+```java
+public java.lang.String getUpdateImpalaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateJiraDataSource`<sup>Required</sup> <a name="updateJiraDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateJiraDataSource"></a>
+
+```java
+public java.lang.String getUpdateJiraDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateMariaDbDataSource`<sup>Required</sup> <a name="updateMariaDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateMariaDbDataSource"></a>
+
+```java
+public java.lang.String getUpdateMariaDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateMongoAtlasDataSource`<sup>Required</sup> <a name="updateMongoAtlasDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateMongoAtlasDataSource"></a>
+
+```java
+public java.lang.String getUpdateMongoAtlasDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateMongoDbDataSource`<sup>Required</sup> <a name="updateMongoDbDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateMongoDbDataSource"></a>
+
+```java
+public java.lang.String getUpdateMongoDbDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateMySqlDataSource`<sup>Required</sup> <a name="updateMySqlDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateMySqlDataSource"></a>
+
+```java
+public java.lang.String getUpdateMySqlDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateOpenSearchDataSource`<sup>Required</sup> <a name="updateOpenSearchDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateOpenSearchDataSource"></a>
+
+```java
+public java.lang.String getUpdateOpenSearchDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateOracleDataSource`<sup>Required</sup> <a name="updateOracleDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateOracleDataSource"></a>
+
+```java
+public java.lang.String getUpdateOracleDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updatePayPalDataSource`<sup>Required</sup> <a name="updatePayPalDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updatePayPalDataSource"></a>
+
+```java
+public java.lang.String getUpdatePayPalDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updatePostgreSqlDataSource`<sup>Required</sup> <a name="updatePostgreSqlDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updatePostgreSqlDataSource"></a>
+
+```java
+public java.lang.String getUpdatePostgreSqlDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updatePrestoDataSource`<sup>Required</sup> <a name="updatePrestoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updatePrestoDataSource"></a>
+
+```java
+public java.lang.String getUpdatePrestoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateRadiantDataSource`<sup>Required</sup> <a name="updateRadiantDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateRadiantDataSource"></a>
+
+```java
+public java.lang.String getUpdateRadiantDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateRdsDataSource`<sup>Required</sup> <a name="updateRdsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateRdsDataSource"></a>
+
+```java
+public java.lang.String getUpdateRdsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateRedshiftAutoDiscoveredDataSource`<sup>Required</sup> <a name="updateRedshiftAutoDiscoveredDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateRedshiftAutoDiscoveredDataSource"></a>
+
+```java
+public java.lang.String getUpdateRedshiftAutoDiscoveredDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateRedshiftManualDataSource`<sup>Required</sup> <a name="updateRedshiftManualDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateRedshiftManualDataSource"></a>
+
+```java
+public java.lang.String getUpdateRedshiftManualDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateS3AnalyticsDataSource`<sup>Required</sup> <a name="updateS3AnalyticsDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateS3AnalyticsDataSource"></a>
+
+```java
+public java.lang.String getUpdateS3AnalyticsDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateS3DataSource`<sup>Required</sup> <a name="updateS3DataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateS3DataSource"></a>
+
+```java
+public java.lang.String getUpdateS3DataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateS3TablesDataSource`<sup>Required</sup> <a name="updateS3TablesDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateS3TablesDataSource"></a>
+
+```java
+public java.lang.String getUpdateS3TablesDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateSalesforceDataSource`<sup>Required</sup> <a name="updateSalesforceDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSalesforceDataSource"></a>
+
+```java
+public java.lang.String getUpdateSalesforceDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateSapHanaDataSource`<sup>Required</sup> <a name="updateSapHanaDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSapHanaDataSource"></a>
+
+```java
+public java.lang.String getUpdateSapHanaDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateServiceNowDataSource`<sup>Required</sup> <a name="updateServiceNowDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateServiceNowDataSource"></a>
+
+```java
+public java.lang.String getUpdateServiceNowDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateSnowflakeDataSource`<sup>Required</sup> <a name="updateSnowflakeDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSnowflakeDataSource"></a>
+
+```java
+public java.lang.String getUpdateSnowflakeDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateSparkDataSource`<sup>Required</sup> <a name="updateSparkDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSparkDataSource"></a>
+
+```java
+public java.lang.String getUpdateSparkDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateSqlServerDataSource`<sup>Required</sup> <a name="updateSqlServerDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSqlServerDataSource"></a>
+
+```java
+public java.lang.String getUpdateSqlServerDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateSquareDataSource`<sup>Required</sup> <a name="updateSquareDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateSquareDataSource"></a>
+
+```java
+public java.lang.String getUpdateSquareDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateStarburstDataSource`<sup>Required</sup> <a name="updateStarburstDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateStarburstDataSource"></a>
+
+```java
+public java.lang.String getUpdateStarburstDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateTeradataDataSource`<sup>Required</sup> <a name="updateTeradataDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateTeradataDataSource"></a>
+
+```java
+public java.lang.String getUpdateTeradataDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateTimestreamDataSource`<sup>Required</sup> <a name="updateTimestreamDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateTimestreamDataSource"></a>
+
+```java
+public java.lang.String getUpdateTimestreamDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateTrinoDataSource`<sup>Required</sup> <a name="updateTrinoDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateTrinoDataSource"></a>
+
+```java
+public java.lang.String getUpdateTrinoDataSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updateTwitterDataSource`<sup>Required</sup> <a name="updateTwitterDataSource" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.updateTwitterDataSource"></a>
+
+```java
+public java.lang.String getUpdateTwitterDataSource();
 ```
 
 - *Type:* java.lang.String
@@ -3173,6 +5532,16 @@ public java.lang.String getUseBambooHrAction();
 
 ---
 
+##### `useBedrockManagedKnowledgeBase`<sup>Required</sup> <a name="useBedrockManagedKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBedrockManagedKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseBedrockManagedKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `useBedrockModels`<sup>Required</sup> <a name="useBedrockModels" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBedrockModels"></a>
 
 ```java
@@ -3187,6 +5556,26 @@ public java.lang.String getUseBedrockModels();
 
 ```java
 public java.lang.String getUseBoxAgentAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `useBoxKnowledgeBase`<sup>Required</sup> <a name="useBoxKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBoxKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseBoxKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `useBrowserExtension`<sup>Required</sup> <a name="useBrowserExtension" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useBrowserExtension"></a>
+
+```java
+public java.lang.String getUseBrowserExtension();
 ```
 
 - *Type:* java.lang.String
@@ -3233,6 +5622,26 @@ public java.lang.String getUseConfluenceAction();
 
 ---
 
+##### `useConfluenceKnowledgeBase`<sup>Required</sup> <a name="useConfluenceKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useConfluenceKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseConfluenceKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `useExcelAddInExtension`<sup>Required</sup> <a name="useExcelAddInExtension" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useExcelAddInExtension"></a>
+
+```java
+public java.lang.String getUseExcelAddInExtension();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `useFactSetAction`<sup>Required</sup> <a name="useFactSetAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useFactSetAction"></a>
 
 ```java
@@ -3273,6 +5682,16 @@ public java.lang.String getUseGoogleCalendarAction();
 
 ---
 
+##### `useGoogleDriveKnowledgeBase`<sup>Required</sup> <a name="useGoogleDriveKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useGoogleDriveKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseGoogleDriveKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `useHubspotAction`<sup>Required</sup> <a name="useHubspotAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useHubspotAction"></a>
 
 ```java
@@ -3287,6 +5706,16 @@ public java.lang.String getUseHubspotAction();
 
 ```java
 public java.lang.String getUseHuggingFaceAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `useIdcKnowledgeBase`<sup>Required</sup> <a name="useIdcKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useIdcKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseIdcKnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -3393,6 +5822,16 @@ public java.lang.String getUseOneDriveAction();
 
 ---
 
+##### `useOneDriveKnowledgeBase`<sup>Required</sup> <a name="useOneDriveKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useOneDriveKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseOneDriveKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `useOpenApiAction`<sup>Required</sup> <a name="useOpenApiAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useOpenApiAction"></a>
 
 ```java
@@ -3403,10 +5842,50 @@ public java.lang.String getUseOpenApiAction();
 
 ---
 
+##### `useOutlookAddInExtension`<sup>Required</sup> <a name="useOutlookAddInExtension" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useOutlookAddInExtension"></a>
+
+```java
+public java.lang.String getUseOutlookAddInExtension();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `usePagerDutyAction`<sup>Required</sup> <a name="usePagerDutyAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.usePagerDutyAction"></a>
 
 ```java
 public java.lang.String getUsePagerDutyAction();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `usePowerpointAddInExtension`<sup>Required</sup> <a name="usePowerpointAddInExtension" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.usePowerpointAddInExtension"></a>
+
+```java
+public java.lang.String getUsePowerpointAddInExtension();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `useQBusinessKnowledgeBase`<sup>Required</sup> <a name="useQBusinessKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useQBusinessKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseQBusinessKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `useS3KnowledgeBase`<sup>Required</sup> <a name="useS3KnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useS3KnowledgeBase"></a>
+
+```java
+public java.lang.String getUseS3KnowledgeBase();
 ```
 
 - *Type:* java.lang.String
@@ -3513,6 +5992,16 @@ public java.lang.String getUseSharePointAction();
 
 ---
 
+##### `useSharePointKnowledgeBase`<sup>Required</sup> <a name="useSharePointKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSharePointKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseSharePointKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `useSlackAction`<sup>Required</sup> <a name="useSlackAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useSlackAction"></a>
 
 ```java
@@ -3543,6 +6032,26 @@ public java.lang.String getUseTextractAction();
 
 ---
 
+##### `useWebCrawlerKnowledgeBase`<sup>Required</sup> <a name="useWebCrawlerKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useWebCrawlerKnowledgeBase"></a>
+
+```java
+public java.lang.String getUseWebCrawlerKnowledgeBase();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `useWordAddInExtension`<sup>Required</sup> <a name="useWordAddInExtension" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useWordAddInExtension"></a>
+
+```java
+public java.lang.String getUseWordAddInExtension();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `useZendeskAction`<sup>Required</sup> <a name="useZendeskAction" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.useZendeskAction"></a>
 
 ```java
@@ -3557,6 +6066,16 @@ public java.lang.String getUseZendeskAction();
 
 ```java
 public java.lang.String getViewAccountSpiceCapacity();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `webCrawlerKnowledgeBase`<sup>Required</sup> <a name="webCrawlerKnowledgeBase" id="@cdktn/provider-awscc.dataAwsccQuicksightCustomPermissions.DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference.property.webCrawlerKnowledgeBase"></a>
+
+```java
+public java.lang.String getWebCrawlerKnowledgeBase();
 ```
 
 - *Type:* java.lang.String

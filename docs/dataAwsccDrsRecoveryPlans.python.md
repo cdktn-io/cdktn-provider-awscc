@@ -4,7 +4,7 @@
 
 ### DataAwsccDrsRecoveryPlans <a name="DataAwsccDrsRecoveryPlans" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlans"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDrsRecoveryPlans.DataAwsccDrsRecoveryPlans.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDrsRecoveryPlans 
 
 The id of the existing DataAwsccDrsRecoveryPlans that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plans#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/drs_recovery_plans#import import section} in the documentation of this resource for the id to use
 
 ---
 

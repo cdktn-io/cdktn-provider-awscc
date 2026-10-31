@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface GlueTableConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of the Data Catalog in which to create the Table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
   */
   readonly catalogId: string;
   /**
   * The name of the database where the table metadata resides. For Hive compatibility, this must be all lowercase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#database_name GlueTable#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#database_name GlueTable#database_name}
   */
   readonly databaseName: string;
   /**
   * The table name. For Hive compatibility, this is folded to lowercase when it is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#name GlueTable#name}
   */
   readonly name?: string;
   /**
   * Specifies an OpenTableFormatInput structure when creating an open format table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#open_table_format_input GlueTable#open_table_format_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#open_table_format_input GlueTable#open_table_format_input}
   */
   readonly openTableFormatInput?: GlueTableOpenTableFormatInput;
   /**
   * A structure used to define a table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#table_input GlueTable#table_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#table_input GlueTable#table_input}
   */
   readonly tableInput?: GlueTableTableInput;
 }
@@ -47,25 +47,25 @@ export interface GlueTableOpenTableFormatInputIcebergInputIcebergTableInputParti
   /**
   * The partition field ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#field_id GlueTable#field_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#field_id GlueTable#field_id}
   */
   readonly fieldId?: number;
   /**
   * The partition field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#name GlueTable#name}
   */
   readonly name?: string;
   /**
   * The source field ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#source_id GlueTable#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#source_id GlueTable#source_id}
   */
   readonly sourceId?: number;
   /**
   * The transform to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#transform GlueTable#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#transform GlueTable#transform}
   */
   readonly transform?: string;
 }
@@ -270,13 +270,13 @@ export interface GlueTableOpenTableFormatInputIcebergInputIcebergTableInputParti
   /**
   * The partition fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#fields GlueTable#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#fields GlueTable#fields}
   */
   readonly fields?: GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFields[] | cdktn.IResolvable;
   /**
   * The spec ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#spec_id GlueTable#spec_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#spec_id GlueTable#spec_id}
   */
   readonly specId?: number;
 }
@@ -401,13 +401,13 @@ export interface GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchem
   /**
   * Documentation for the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#doc GlueTable#doc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#doc GlueTable#doc}
   */
   readonly doc?: string;
   /**
   * The field ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#id GlueTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#id GlueTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -416,19 +416,19 @@ export interface GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchem
   /**
   * The field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#name GlueTable#name}
   */
   readonly name?: string;
   /**
   * Whether the field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#required GlueTable#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#required GlueTable#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
   /**
   * The field type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#type GlueTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#type GlueTable#type}
   */
   readonly type?: string;
 }
@@ -662,25 +662,25 @@ export interface GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchem
   /**
   * The fields in the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#fields GlueTable#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#fields GlueTable#fields}
   */
   readonly fields?: GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchemaFields[] | cdktn.IResolvable;
   /**
   * The identifier field IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#identifier_field_ids GlueTable#identifier_field_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#identifier_field_ids GlueTable#identifier_field_ids}
   */
   readonly identifierFieldIds?: number[];
   /**
   * The schema ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_id GlueTable#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#schema_id GlueTable#schema_id}
   */
   readonly schemaId?: number;
   /**
   * The type of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#type GlueTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#type GlueTable#type}
   */
   readonly type?: string;
 }
@@ -863,25 +863,25 @@ export interface GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWrite
   /**
   * The sort direction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#direction GlueTable#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#direction GlueTable#direction}
   */
   readonly direction?: string;
   /**
   * The null ordering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#null_order GlueTable#null_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#null_order GlueTable#null_order}
   */
   readonly nullOrder?: string;
   /**
   * The source field ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#source_id GlueTable#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#source_id GlueTable#source_id}
   */
   readonly sourceId?: number;
   /**
   * The transform to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#transform GlueTable#transform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#transform GlueTable#transform}
   */
   readonly transform?: string;
 }
@@ -1086,13 +1086,13 @@ export interface GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWrite
   /**
   * The sort fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#fields GlueTable#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#fields GlueTable#fields}
   */
   readonly fields?: GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrderFields[] | cdktn.IResolvable;
   /**
   * The order ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#order_id GlueTable#order_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#order_id GlueTable#order_id}
   */
   readonly orderId?: number;
 }
@@ -1217,31 +1217,31 @@ export interface GlueTableOpenTableFormatInputIcebergInputIcebergTableInput {
   /**
   * The location of the Iceberg table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#location GlueTable#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#location GlueTable#location}
   */
   readonly location?: string;
   /**
   * The partition spec for the Iceberg table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#partition_spec GlueTable#partition_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#partition_spec GlueTable#partition_spec}
   */
   readonly partitionSpec?: GlueTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec;
   /**
   * The properties for the Iceberg table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#properties GlueTable#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#properties GlueTable#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The schema for the Iceberg table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema GlueTable#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#schema GlueTable#schema}
   */
   readonly schema?: GlueTableOpenTableFormatInputIcebergInputIcebergTableInputSchema;
   /**
   * The write order for the Iceberg table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#write_order GlueTable#write_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#write_order GlueTable#write_order}
   */
   readonly writeOrder?: GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder;
 }
@@ -1453,19 +1453,19 @@ export interface GlueTableOpenTableFormatInputIcebergInput {
   /**
   * Specifies the Iceberg table configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#iceberg_table_input GlueTable#iceberg_table_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#iceberg_table_input GlueTable#iceberg_table_input}
   */
   readonly icebergTableInput?: GlueTableOpenTableFormatInputIcebergInputIcebergTableInput;
   /**
   * A required metadata operation. Can only be set to CREATE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#metadata_operation GlueTable#metadata_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#metadata_operation GlueTable#metadata_operation}
   */
   readonly metadataOperation?: string;
   /**
   * The table version of the Iceberg table. Defaults to 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#version GlueTable#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#version GlueTable#version}
   */
   readonly version?: string;
 }
@@ -1619,7 +1619,7 @@ export interface GlueTableOpenTableFormatInput {
   /**
   * Specifies an IcebergInput structure that defines an Apache Iceberg metadata table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#iceberg_input GlueTable#iceberg_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#iceberg_input GlueTable#iceberg_input}
   */
   readonly icebergInput?: GlueTableOpenTableFormatInputIcebergInput;
 }
@@ -1715,19 +1715,19 @@ export interface GlueTableTableInputPartitionKeys {
   /**
   * A free-form text comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#comment GlueTable#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#comment GlueTable#comment}
   */
   readonly comment?: string;
   /**
   * The name of the Column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#name GlueTable#name}
   */
   readonly name?: string;
   /**
   * The data type of the Column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#type GlueTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#type GlueTable#type}
   */
   readonly type?: string;
 }
@@ -1903,19 +1903,19 @@ export interface GlueTableTableInputStorageDescriptorColumns {
   /**
   * A free-form text comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#comment GlueTable#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#comment GlueTable#comment}
   */
   readonly comment?: string;
   /**
   * The name of the Column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#name GlueTable#name}
   */
   readonly name?: string;
   /**
   * The data type of the Column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#type GlueTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#type GlueTable#type}
   */
   readonly type?: string;
 }
@@ -2091,19 +2091,19 @@ export interface GlueTableTableInputStorageDescriptorSchemaReferenceSchemaId {
   /**
   * The name of the schema registry that contains the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#registry_name GlueTable#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#registry_name GlueTable#registry_name}
   */
   readonly registryName?: string;
   /**
   * The Amazon Resource Name (ARN) of the schema. One of SchemaArn or SchemaName has to be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_arn GlueTable#schema_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#schema_arn GlueTable#schema_arn}
   */
   readonly schemaArn?: string;
   /**
   * The name of the schema. One of SchemaArn or SchemaName has to be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_name GlueTable#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#schema_name GlueTable#schema_name}
   */
   readonly schemaName?: string;
 }
@@ -2257,19 +2257,19 @@ export interface GlueTableTableInputStorageDescriptorSchemaReference {
   /**
   * A structure that contains schema identity fields. Either this or the SchemaVersionId has to be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_id GlueTable#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#schema_id GlueTable#schema_id}
   */
   readonly schemaId?: GlueTableTableInputStorageDescriptorSchemaReferenceSchemaId;
   /**
   * The unique ID assigned to a version of the schema. Either this or the SchemaId has to be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_version_id GlueTable#schema_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#schema_version_id GlueTable#schema_version_id}
   */
   readonly schemaVersionId?: string;
   /**
   * The version number of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_version_number GlueTable#schema_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#schema_version_number GlueTable#schema_version_number}
   */
   readonly schemaVersionNumber?: number;
 }
@@ -2423,19 +2423,19 @@ export interface GlueTableTableInputStorageDescriptorSerdeInfo {
   /**
   * Name of the SerDe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#name GlueTable#name}
   */
   readonly name?: string;
   /**
   * These key-value pairs define initialization parameters for the SerDe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#parameters GlueTable#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#parameters GlueTable#parameters}
   */
   readonly parameters?: string;
   /**
   * Usually the class that implements the SerDe. An example is org.apache.hadoop.hive.serde2.columnar.ColumnarSerDe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#serialization_library GlueTable#serialization_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#serialization_library GlueTable#serialization_library}
   */
   readonly serializationLibrary?: string;
 }
@@ -2589,19 +2589,19 @@ export interface GlueTableTableInputStorageDescriptorSkewedInfo {
   /**
   * A list of names of columns that contain skewed values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#skewed_column_names GlueTable#skewed_column_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#skewed_column_names GlueTable#skewed_column_names}
   */
   readonly skewedColumnNames?: string[];
   /**
   * A mapping of skewed values to the columns that contain them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#skewed_column_value_location_maps GlueTable#skewed_column_value_location_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#skewed_column_value_location_maps GlueTable#skewed_column_value_location_maps}
   */
   readonly skewedColumnValueLocationMaps?: string;
   /**
   * A list of names of columns that contain skewed values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#skewed_column_values GlueTable#skewed_column_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#skewed_column_values GlueTable#skewed_column_values}
   */
   readonly skewedColumnValues?: string[];
 }
@@ -2755,13 +2755,13 @@ export interface GlueTableTableInputStorageDescriptorSortColumns {
   /**
   * The name of the column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#column GlueTable#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#column GlueTable#column}
   */
   readonly column?: string;
   /**
   * Indicates that the column is sorted in ascending order (==1), or in descending order (==0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#sort_order GlueTable#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#sort_order GlueTable#sort_order}
   */
   readonly sortOrder?: number;
 }
@@ -2908,79 +2908,79 @@ export interface GlueTableTableInputStorageDescriptor {
   /**
   * A list of reducer grouping columns, clustering columns, and bucketing columns in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#bucket_columns GlueTable#bucket_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#bucket_columns GlueTable#bucket_columns}
   */
   readonly bucketColumns?: string[];
   /**
   * A list of the Columns in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#columns GlueTable#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#columns GlueTable#columns}
   */
   readonly columns?: GlueTableTableInputStorageDescriptorColumns[] | cdktn.IResolvable;
   /**
   * True if the data in the table is compressed, or False if not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#compressed GlueTable#compressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#compressed GlueTable#compressed}
   */
   readonly compressed?: boolean | cdktn.IResolvable;
   /**
   * The input format: SequenceFileInputFormat (binary), or TextInputFormat, or a custom format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#input_format GlueTable#input_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#input_format GlueTable#input_format}
   */
   readonly inputFormat?: string;
   /**
   * The physical location of the table. By default, this takes the form of the warehouse location, followed by the database location in the warehouse, followed by the table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#location GlueTable#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#location GlueTable#location}
   */
   readonly location?: string;
   /**
   * Must be specified if the table contains any dimension columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#number_of_buckets GlueTable#number_of_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#number_of_buckets GlueTable#number_of_buckets}
   */
   readonly numberOfBuckets?: number;
   /**
   * The output format: SequenceFileOutputFormat (binary), or IgnoreKeyTextOutputFormat, or a custom format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#output_format GlueTable#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#output_format GlueTable#output_format}
   */
   readonly outputFormat?: string;
   /**
   * The user-supplied properties in key-value form.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#parameters GlueTable#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#parameters GlueTable#parameters}
   */
   readonly parameters?: string;
   /**
   * An object that references a schema stored in the AWS Glue Schema Registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_reference GlueTable#schema_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#schema_reference GlueTable#schema_reference}
   */
   readonly schemaReference?: GlueTableTableInputStorageDescriptorSchemaReference;
   /**
   * The serialization/deserialization (SerDe) information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#serde_info GlueTable#serde_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#serde_info GlueTable#serde_info}
   */
   readonly serdeInfo?: GlueTableTableInputStorageDescriptorSerdeInfo;
   /**
   * The information about values that appear frequently in a column (skewed values).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#skewed_info GlueTable#skewed_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#skewed_info GlueTable#skewed_info}
   */
   readonly skewedInfo?: GlueTableTableInputStorageDescriptorSkewedInfo;
   /**
   * A list specifying the sort order of each bucket in the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#sort_columns GlueTable#sort_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#sort_columns GlueTable#sort_columns}
   */
   readonly sortColumns?: GlueTableTableInputStorageDescriptorSortColumns[] | cdktn.IResolvable;
   /**
   * True if the table data is stored in subdirectories, or False if not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#stored_as_sub_directories GlueTable#stored_as_sub_directories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#stored_as_sub_directories GlueTable#stored_as_sub_directories}
   */
   readonly storedAsSubDirectories?: boolean | cdktn.IResolvable;
 }
@@ -3424,25 +3424,25 @@ export interface GlueTableTableInputTargetTable {
   /**
   * The ID of the Data Catalog in which the table resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
   */
   readonly catalogId?: string;
   /**
   * The name of the catalog database that contains the target table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#database_name GlueTable#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#database_name GlueTable#database_name}
   */
   readonly databaseName?: string;
   /**
   * The name of the target table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#name GlueTable#name}
   */
   readonly name?: string;
   /**
   * The Region of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#region GlueTable#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#region GlueTable#region}
   */
   readonly region?: string;
 }
@@ -3625,31 +3625,31 @@ export interface GlueTableTableInputViewDefinitionRepresentations {
   /**
   * The dialect of the view representation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#dialect GlueTable#dialect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#dialect GlueTable#dialect}
   */
   readonly dialect?: string;
   /**
   * The version of the dialect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#dialect_version GlueTable#dialect_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#dialect_version GlueTable#dialect_version}
   */
   readonly dialectVersion?: string;
   /**
   * The connection used for validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#validation_connection GlueTable#validation_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#validation_connection GlueTable#validation_connection}
   */
   readonly validationConnection?: string;
   /**
   * The expanded text of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_expanded_text GlueTable#view_expanded_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#view_expanded_text GlueTable#view_expanded_text}
   */
   readonly viewExpandedText?: string;
   /**
   * The original text of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_original_text GlueTable#view_original_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#view_original_text GlueTable#view_original_text}
   */
   readonly viewOriginalText?: string;
 }
@@ -3883,25 +3883,25 @@ export interface GlueTableTableInputViewDefinition {
   /**
   * The definer of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#definer GlueTable#definer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#definer GlueTable#definer}
   */
   readonly definer?: string;
   /**
   * Indicates whether the view is protected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#is_protected GlueTable#is_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#is_protected GlueTable#is_protected}
   */
   readonly isProtected?: boolean | cdktn.IResolvable;
   /**
   * The representations of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#representations GlueTable#representations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#representations GlueTable#representations}
   */
   readonly representations?: GlueTableTableInputViewDefinitionRepresentations[] | cdktn.IResolvable;
   /**
   * The sub-objects of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#sub_objects GlueTable#sub_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#sub_objects GlueTable#sub_objects}
   */
   readonly subObjects?: string[];
 }
@@ -4084,73 +4084,73 @@ export interface GlueTableTableInput {
   /**
   * A description of the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#description GlueTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#description GlueTable#description}
   */
   readonly description?: string;
   /**
   * The table name. For Hive compatibility, this is folded to lowercase when it is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#name GlueTable#name}
   */
   readonly name?: string;
   /**
   * The table owner. Included for Apache Hive compatibility. Not used in the normal course of AWS Glue operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#owner GlueTable#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#owner GlueTable#owner}
   */
   readonly owner?: string;
   /**
   * These key-value pairs define properties associated with the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#parameters GlueTable#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#parameters GlueTable#parameters}
   */
   readonly parameters?: string;
   /**
   * A list of columns by which the table is partitioned. Only primitive types are supported as partition keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#partition_keys GlueTable#partition_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#partition_keys GlueTable#partition_keys}
   */
   readonly partitionKeys?: GlueTableTableInputPartitionKeys[] | cdktn.IResolvable;
   /**
   * The retention time for this table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#retention GlueTable#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#retention GlueTable#retention}
   */
   readonly retention?: number;
   /**
   * A storage descriptor containing information about the physical storage of this table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#storage_descriptor GlueTable#storage_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#storage_descriptor GlueTable#storage_descriptor}
   */
   readonly storageDescriptor?: GlueTableTableInputStorageDescriptor;
   /**
   * The type of this table. AWS Glue will create tables with the EXTERNAL_TABLE type. Other services, such as Athena, may create tables with additional table types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#table_type GlueTable#table_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#table_type GlueTable#table_type}
   */
   readonly tableType?: string;
   /**
   * A TableIdentifier structure that describes a target table for resource linking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#target_table GlueTable#target_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#target_table GlueTable#target_table}
   */
   readonly targetTable?: GlueTableTableInputTargetTable;
   /**
   * The view definition for the table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_definition GlueTable#view_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#view_definition GlueTable#view_definition}
   */
   readonly viewDefinition?: GlueTableTableInputViewDefinition;
   /**
   * Included for Apache Hive compatibility. Not used in the normal course of AWS Glue operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_expanded_text GlueTable#view_expanded_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#view_expanded_text GlueTable#view_expanded_text}
   */
   readonly viewExpandedText?: string;
   /**
   * Included for Apache Hive compatibility. Not used in the normal course of AWS Glue operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#view_original_text GlueTable#view_original_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#view_original_text GlueTable#view_original_text}
   */
   readonly viewOriginalText?: string;
 }
@@ -4563,7 +4563,7 @@ export class GlueTableTableInputOutputReference extends cdktn.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table awscc_glue_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table awscc_glue_table}
 */
 export class GlueTable extends cdktn.TerraformResource {
 
@@ -4579,7 +4579,7 @@ export class GlueTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueTable to import
-  * @param importFromId The id of the existing GlueTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4591,7 +4591,7 @@ export class GlueTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table awscc_glue_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/glue_table awscc_glue_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4602,7 +4602,7 @@ export class GlueTable extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

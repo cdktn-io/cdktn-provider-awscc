@@ -4,7 +4,7 @@
 
 ### GuarddutyMaster <a name="GuarddutyMaster" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master awscc_guardduty_master}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/guardduty_master awscc_guardduty_master}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer"></a>
 
@@ -39,8 +39,8 @@ guarddutyMaster.GuarddutyMaster(
 | <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer.parameter.detectorId">detector_id</a></code> | <code>str</code> | Unique ID of the detector of the GuardDuty member account. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer.parameter.masterId">master_id</a></code> | <code>str</code> | ID of the account used as the master account. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer.parameter.invitationId">invitation_id</a></code> | <code>str</code> | Value used to validate the master account to the member account. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer.parameter.masterId">master_id</a></code> | <code>str</code> | ID of the account used as the administrator account. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMaster.Initializer.parameter.invitationId">invitation_id</a></code> | <code>str</code> | Value used to validate the administrator account to the member account. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Unique ID of the detector of the GuardDuty member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
 
 ---
 
@@ -118,9 +118,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-ID of the account used as the master account.
+ID of the account used as the administrator account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
 
 ---
 
@@ -128,9 +128,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Value used to validate the master account to the member account.
+Value used to validate the administrator account to the member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
 
 ---
 
@@ -634,7 +634,7 @@ The construct id used in the generated config for the GuarddutyMaster to import.
 
 The id of the existing GuarddutyMaster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/guardduty_master#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -939,8 +939,8 @@ guarddutyMaster.GuarddutyMasterConfig(
 | <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMasterConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMasterConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMasterConfig.property.detectorId">detector_id</a></code> | <code>str</code> | Unique ID of the detector of the GuardDuty member account. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMasterConfig.property.masterId">master_id</a></code> | <code>str</code> | ID of the account used as the master account. |
-| <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMasterConfig.property.invitationId">invitation_id</a></code> | <code>str</code> | Value used to validate the master account to the member account. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMasterConfig.property.masterId">master_id</a></code> | <code>str</code> | ID of the account used as the administrator account. |
+| <code><a href="#@cdktn/provider-awscc.guarddutyMaster.GuarddutyMasterConfig.property.invitationId">invitation_id</a></code> | <code>str</code> | Value used to validate the administrator account to the member account. |
 
 ---
 
@@ -1024,7 +1024,7 @@ detector_id: str
 
 Unique ID of the detector of the GuardDuty member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
 
 ---
 
@@ -1036,9 +1036,9 @@ master_id: str
 
 - *Type:* str
 
-ID of the account used as the master account.
+ID of the account used as the administrator account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
 
 ---
 
@@ -1050,9 +1050,9 @@ invitation_id: str
 
 - *Type:* str
 
-Value used to validate the master account to the member account.
+Value used to validate the administrator account to the member account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
 
 ---
 

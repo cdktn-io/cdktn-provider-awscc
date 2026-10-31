@@ -4,7 +4,7 @@
 
 ### RdsDeployment <a name="RdsDeployment" id="@cdktn/provider-awscc.rdsDeployment.RdsDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment awscc_rds_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment awscc_rds_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.rdsDeployment.RdsDeployment.Initializer"></a>
 
@@ -572,7 +572,7 @@ The construct id used in the generated config for the RdsDeployment to import.
 
 The id of the existing RdsDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1255,7 +1255,7 @@ public string BlueGreenDeploymentName { get; set; }
 
 The name of the Blue/Green Deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#blue_green_deployment_name RdsDeployment#blue_green_deployment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#blue_green_deployment_name RdsDeployment#blue_green_deployment_name}
 
 ---
 
@@ -1269,7 +1269,7 @@ public string Source { get; set; }
 
 The ARN of the source production database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#source RdsDeployment#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#source RdsDeployment#source}
 
 ---
 
@@ -1283,7 +1283,7 @@ public IResolvable|RdsDeploymentTags[] Tags { get; set; }
 
 The tags assigned to the Blue/Green Deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#tags RdsDeployment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#tags RdsDeployment#tags}
 
 ---
 
@@ -1297,7 +1297,7 @@ public double TargetAllocatedStorage { get; set; }
 
 The allocated storage size in GiB for the target DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#target_allocated_storage RdsDeployment#target_allocated_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#target_allocated_storage RdsDeployment#target_allocated_storage}
 
 ---
 
@@ -1311,7 +1311,7 @@ public string TargetDbClusterParameterGroupName { get; set; }
 
 The DB cluster parameter group for the target Aurora DB cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#target_db_cluster_parameter_group_name RdsDeployment#target_db_cluster_parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#target_db_cluster_parameter_group_name RdsDeployment#target_db_cluster_parameter_group_name}
 
 ---
 
@@ -1325,7 +1325,7 @@ public string TargetDbInstanceClass { get; set; }
 
 The DB instance class for target RDS DB instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#target_db_instance_class RdsDeployment#target_db_instance_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#target_db_instance_class RdsDeployment#target_db_instance_class}
 
 ---
 
@@ -1339,7 +1339,7 @@ public string TargetDbParameterGroupName { get; set; }
 
 The DB parameter group for the target DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#target_db_parameter_group_name RdsDeployment#target_db_parameter_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#target_db_parameter_group_name RdsDeployment#target_db_parameter_group_name}
 
 ---
 
@@ -1353,7 +1353,7 @@ public string TargetEngineVersion { get; set; }
 
 The DB engine version for the target database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#target_engine_version RdsDeployment#target_engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#target_engine_version RdsDeployment#target_engine_version}
 
 ---
 
@@ -1367,7 +1367,7 @@ public double TargetIops { get; set; }
 
 The Provisioned IOPS value for the target DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#target_iops RdsDeployment#target_iops}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#target_iops RdsDeployment#target_iops}
 
 ---
 
@@ -1381,7 +1381,7 @@ public double TargetStorageThroughput { get; set; }
 
 The storage throughput value for the target DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#target_storage_throughput RdsDeployment#target_storage_throughput}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#target_storage_throughput RdsDeployment#target_storage_throughput}
 
 ---
 
@@ -1395,7 +1395,7 @@ public string TargetStorageType { get; set; }
 
 The storage type for the target DB instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#target_storage_type RdsDeployment#target_storage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#target_storage_type RdsDeployment#target_storage_type}
 
 ---
 
@@ -1409,7 +1409,7 @@ public bool|IResolvable UpgradeTargetStorageConfig { get; set; }
 
 Whether to upgrade the storage file system configuration on the target database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#upgrade_target_storage_config RdsDeployment#upgrade_target_storage_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#upgrade_target_storage_config RdsDeployment#upgrade_target_storage_config}
 
 ---
 
@@ -1458,7 +1458,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#key RdsDeployment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#key RdsDeployment#key}
 
 ---
 
@@ -1472,7 +1472,7 @@ public string Value { get; set; }
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment#value RdsDeployment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/rds_deployment#value RdsDeployment#value}
 
 ---
 

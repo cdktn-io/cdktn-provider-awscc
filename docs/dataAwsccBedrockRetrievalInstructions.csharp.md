@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockRetrievalInstructions <a name="DataAwsccBedrockRetrievalInstructions" id="@cdktn/provider-awscc.dataAwsccBedrockRetrievalInstructions.DataAwsccBedrockRetrievalInstructions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_retrieval_instructions awscc_bedrock_retrieval_instructions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bedrock_retrieval_instructions awscc_bedrock_retrieval_instructions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockRetrievalInstructions.DataAwsccBedrockRetrievalInstructions.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBedrockRetrievalI
 
 The id of the existing DataAwsccBedrockRetrievalInstructions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_retrieval_instructions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bedrock_retrieval_instructions#import import section} in the documentation of this resource for the id to use
 
 ---
 

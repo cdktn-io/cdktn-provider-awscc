@@ -4,7 +4,7 @@
 
 ### Resiliencehubv2Service <a name="Resiliencehubv2Service" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer"></a>
 
@@ -55,7 +55,7 @@ Resiliencehubv2Service.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer.parameter.devOpsAgentConfiguration">devOpsAgentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration">Resiliencehubv2ServiceDevOpsAgentConfiguration</a></code> | Links the service to an AWS DevOps Agent Agent Space. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer.parameter.inputSources">inputSources</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSources">Resiliencehubv2ServiceInputSources</a>></code> | Input sources for this service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer.parameter.kmsKeyId">kmsKeyId</a></code> | <code>java.lang.String</code> | The KMS key ID for encrypting service data. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer.parameter.permissionModel">permissionModel</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer.parameter.permissionModel">permissionModel</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer.parameter.policyArn">policyArn</a></code> | <code>java.lang.String</code> | The ARN of the resilience policy to associate. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer.parameter.reportConfiguration">reportConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfiguration">Resiliencehubv2ServiceReportConfiguration</a></code> | Configuration for automatic report generation on a Service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2Service.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceTags">Resiliencehubv2ServiceTags</a>></code> | Tags assigned to the service. |
@@ -128,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 AWS regions for the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Assertions associated with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Systems associated with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Dependency discovery state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
 
 ---
 
@@ -190,7 +190,7 @@ Links the service to an AWS DevOps Agent Agent Space.
 
 Provide AgentSpaceArn to connect the service; omit this property to leave an existing link unchanged. The DevOps Agent integration is governed by the service's resilience policy and operates in analysis-only mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#dev_ops_agent_configuration Resiliencehubv2Service#dev_ops_agent_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#dev_ops_agent_configuration Resiliencehubv2Service#dev_ops_agent_configuration}
 
 ---
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Input sources for this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
 
 ---
 
@@ -210,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The KMS key ID for encrypting service data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
 
 ---
 
@@ -218,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}.
 
 ---
 
@@ -228,7 +228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the resilience policy to associate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
 
 ---
 
@@ -238,7 +238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for automatic report generation on a Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
 
 ---
 
@@ -248,7 +248,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags assigned to the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
 
 ---
 
@@ -865,7 +865,7 @@ The construct id used in the generated config for the Resiliencehubv2Service to 
 
 The id of the existing Resiliencehubv2Service that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1431,7 +1431,7 @@ public java.lang.String getText();
 
 The text of the assertion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
 
 ---
 
@@ -1467,7 +1467,7 @@ public java.lang.String getSystemArn();
 
 The system ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#system_arn Resiliencehubv2Service#system_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#system_arn Resiliencehubv2Service#system_arn}
 
 ---
 
@@ -1481,7 +1481,7 @@ public java.util.List<java.lang.String> getUserJourneyIds();
 
 User journey IDs associated with this system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#user_journey_ids Resiliencehubv2Service#user_journey_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#user_journey_ids Resiliencehubv2Service#user_journey_ids}
 
 ---
 
@@ -1536,7 +1536,7 @@ Resiliencehubv2ServiceConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.devOpsAgentConfiguration">devOpsAgentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration">Resiliencehubv2ServiceDevOpsAgentConfiguration</a></code> | Links the service to an AWS DevOps Agent Agent Space. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.inputSources">inputSources</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSources">Resiliencehubv2ServiceInputSources</a>></code> | Input sources for this service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.kmsKeyId">kmsKeyId</a></code> | <code>java.lang.String</code> | The KMS key ID for encrypting service data. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.permissionModel">permissionModel</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.permissionModel">permissionModel</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.policyArn">policyArn</a></code> | <code>java.lang.String</code> | The ARN of the resilience policy to associate. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.reportConfiguration">reportConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceReportConfiguration">Resiliencehubv2ServiceReportConfiguration</a></code> | Configuration for automatic report generation on a Service. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceTags">Resiliencehubv2ServiceTags</a>></code> | Tags assigned to the service. |
@@ -1623,7 +1623,7 @@ public java.lang.String getName();
 
 The name of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#name Resiliencehubv2Service#name}
 
 ---
 
@@ -1637,7 +1637,7 @@ public java.util.List<java.lang.String> getRegions();
 
 AWS regions for the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#regions Resiliencehubv2Service#regions}
 
 ---
 
@@ -1651,7 +1651,7 @@ public IResolvable|java.util.List<Resiliencehubv2ServiceAssertions> getAssertion
 
 Assertions associated with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#assertions Resiliencehubv2Service#assertions}
 
 ---
 
@@ -1665,7 +1665,7 @@ public IResolvable|java.util.List<Resiliencehubv2ServiceAssociatedSystems> getAs
 
 Systems associated with this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#associated_systems Resiliencehubv2Service#associated_systems}
 
 ---
 
@@ -1679,7 +1679,7 @@ public java.lang.String getDependencyDiscovery();
 
 Dependency discovery state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#dependency_discovery Resiliencehubv2Service#dependency_discovery}
 
 ---
 
@@ -1693,7 +1693,7 @@ public java.lang.String getDescription();
 
 The description of the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#description Resiliencehubv2Service#description}
 
 ---
 
@@ -1709,7 +1709,7 @@ Links the service to an AWS DevOps Agent Agent Space.
 
 Provide AgentSpaceArn to connect the service; omit this property to leave an existing link unchanged. The DevOps Agent integration is governed by the service's resilience policy and operates in analysis-only mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#dev_ops_agent_configuration Resiliencehubv2Service#dev_ops_agent_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#dev_ops_agent_configuration Resiliencehubv2Service#dev_ops_agent_configuration}
 
 ---
 
@@ -1723,7 +1723,7 @@ public IResolvable|java.util.List<Resiliencehubv2ServiceInputSources> getInputSo
 
 Input sources for this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#input_sources Resiliencehubv2Service#input_sources}
 
 ---
 
@@ -1737,7 +1737,7 @@ public java.lang.String getKmsKeyId();
 
 The KMS key ID for encrypting service data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#kms_key_id Resiliencehubv2Service#kms_key_id}
 
 ---
 
@@ -1749,7 +1749,7 @@ public Resiliencehubv2ServicePermissionModel getPermissionModel();
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel">Resiliencehubv2ServicePermissionModel</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#permission_model Resiliencehubv2Service#permission_model}.
 
 ---
 
@@ -1763,7 +1763,7 @@ public java.lang.String getPolicyArn();
 
 The ARN of the resilience policy to associate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#policy_arn Resiliencehubv2Service#policy_arn}
 
 ---
 
@@ -1777,7 +1777,7 @@ public Resiliencehubv2ServiceReportConfiguration getReportConfiguration();
 
 Configuration for automatic report generation on a Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#report_configuration Resiliencehubv2Service#report_configuration}
 
 ---
 
@@ -1791,7 +1791,7 @@ public IResolvable|java.util.List<Resiliencehubv2ServiceTags> getTags();
 
 Tags assigned to the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#tags Resiliencehubv2Service#tags}
 
 ---
 
@@ -1825,7 +1825,7 @@ public java.lang.String getAgentSpaceArn();
 
 The ARN of the DevOps Agent Agent Space to link to this service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#agent_space_arn Resiliencehubv2Service#agent_space_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#agent_space_arn Resiliencehubv2Service#agent_space_arn}
 
 ---
 
@@ -1955,7 +1955,7 @@ public Resiliencehubv2ServiceInputSourcesResourceConfiguration getResourceConfig
 
 Resource configuration for an input source. Provide exactly one field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
 
 ---
 
@@ -1981,7 +1981,7 @@ Resiliencehubv2ServiceInputSourcesResourceConfiguration.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.cfnStackArn">cfnStackArn</a></code> | <code>java.lang.String</code> | ARN of a CloudFormation stack. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.designFileS3Url">designFileS3Url</a></code> | <code>java.lang.String</code> | S3 URL of a design file. |
-| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.eks">eks</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}. |
+| <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.eks">eks</a></code> | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.resourceTags">resourceTags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags">Resiliencehubv2ServiceInputSourcesResourceConfigurationResourceTags</a>></code> | Resource tags to discover resources. |
 | <code><a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfiguration.property.tfStateFileUrl">tfStateFileUrl</a></code> | <code>java.lang.String</code> | URL of a Terraform state file. |
 
@@ -1997,7 +1997,7 @@ public java.lang.String getCfnStackArn();
 
 ARN of a CloudFormation stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#cfn_stack_arn Resiliencehubv2Service#cfn_stack_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#cfn_stack_arn Resiliencehubv2Service#cfn_stack_arn}
 
 ---
 
@@ -2011,7 +2011,7 @@ public java.lang.String getDesignFileS3Url();
 
 S3 URL of a design file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#design_file_s3_url Resiliencehubv2Service#design_file_s3_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#design_file_s3_url Resiliencehubv2Service#design_file_s3_url}
 
 ---
 
@@ -2023,7 +2023,7 @@ public Resiliencehubv2ServiceInputSourcesResourceConfigurationEks getEks();
 
 - *Type:* <a href="#@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceInputSourcesResourceConfigurationEks">Resiliencehubv2ServiceInputSourcesResourceConfigurationEks</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#eks Resiliencehubv2Service#eks}.
 
 ---
 
@@ -2037,7 +2037,7 @@ public IResolvable|java.util.List<Resiliencehubv2ServiceInputSourcesResourceConf
 
 Resource tags to discover resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#resource_tags Resiliencehubv2Service#resource_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#resource_tags Resiliencehubv2Service#resource_tags}
 
 ---
 
@@ -2051,7 +2051,7 @@ public java.lang.String getTfStateFileUrl();
 
 URL of a Terraform state file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#tf_state_file_url Resiliencehubv2Service#tf_state_file_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#tf_state_file_url Resiliencehubv2Service#tf_state_file_url}
 
 ---
 
@@ -2089,7 +2089,7 @@ public java.lang.String getClusterArn();
 
 ARN of the EKS cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
 
 ---
 
@@ -2105,7 +2105,7 @@ Kubernetes label selector that scopes discovery to matching objects in the speci
 
 An object must satisfy both MatchLabels and MatchExpressions. Specify at least one of them; a selector carrying neither is treated as though no selector were supplied, and all supported objects in the specified namespaces are discovered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#label_selector Resiliencehubv2Service#label_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#label_selector Resiliencehubv2Service#label_selector}
 
 ---
 
@@ -2119,7 +2119,7 @@ public java.util.List<java.lang.String> getNamespaces();
 
 EKS namespaces.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
 
 ---
 
@@ -2155,7 +2155,7 @@ public IResolvable|java.util.List<Resiliencehubv2ServiceInputSourcesResourceConf
 
 Label selector requirements an object must satisfy to be discovered. Up to 20 requirements, all of which must match.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#match_expressions Resiliencehubv2Service#match_expressions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#match_expressions Resiliencehubv2Service#match_expressions}
 
 ---
 
@@ -2169,7 +2169,7 @@ public java.util.Map<java.lang.String, java.lang.String> getMatchLabels();
 
 Label key/value pairs an object must carry to be discovered. Up to 20 pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#match_labels Resiliencehubv2Service#match_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#match_labels Resiliencehubv2Service#match_labels}
 
 ---
 
@@ -2207,7 +2207,7 @@ public java.lang.String getKey();
 
 Label key the requirement applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
 
 ---
 
@@ -2221,7 +2221,7 @@ public java.lang.String getOperator();
 
 Operator applied to the label key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#operator Resiliencehubv2Service#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#operator Resiliencehubv2Service#operator}
 
 ---
 
@@ -2237,7 +2237,7 @@ Label values the requirement compares against.
 
 Up to 20 values. Required for IN and NOT_IN; omit for EXISTS and DOES_NOT_EXIST.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
 
 ---
 
@@ -2273,7 +2273,7 @@ public java.lang.String getKey();
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
 
 ---
 
@@ -2287,7 +2287,7 @@ public java.util.List<java.lang.String> getValues();
 
 Tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#values Resiliencehubv2Service#values}
 
 ---
 
@@ -2323,7 +2323,7 @@ public IResolvable|java.util.List<Resiliencehubv2ServicePermissionModelCrossAcco
 
 Cross-account role ARNs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#cross_account_role_arns Resiliencehubv2Service#cross_account_role_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#cross_account_role_arns Resiliencehubv2Service#cross_account_role_arns}
 
 ---
 
@@ -2337,7 +2337,7 @@ public java.lang.String getInvokerRoleName();
 
 Name of the invoker IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}
 
 ---
 
@@ -2373,7 +2373,7 @@ public java.lang.String getCrossAccountRoleArn();
 
 ARN of the cross-account IAM role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}
 
 ---
 
@@ -2387,7 +2387,7 @@ public java.lang.String getExternalId();
 
 External ID for cross-account access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}
 
 ---
 
@@ -2421,7 +2421,7 @@ public IResolvable|java.util.List<Resiliencehubv2ServiceReportConfigurationRepor
 
 Output destinations for generated reports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
 
 ---
 
@@ -2455,7 +2455,7 @@ public Resiliencehubv2ServiceReportConfigurationReportOutputS3 getS3();
 
 S3 configuration for report output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#s3 Resiliencehubv2Service#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#s3 Resiliencehubv2Service#s3}
 
 ---
 
@@ -2491,7 +2491,7 @@ public java.lang.String getBucketOwner();
 
 Account ID of the bucket owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#bucket_owner Resiliencehubv2Service#bucket_owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#bucket_owner Resiliencehubv2Service#bucket_owner}
 
 ---
 
@@ -2505,7 +2505,7 @@ public java.lang.String getBucketPath();
 
 S3 bucket path where reports will be written.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#bucket_path Resiliencehubv2Service#bucket_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#bucket_path Resiliencehubv2Service#bucket_path}
 
 ---
 
@@ -2541,7 +2541,7 @@ public java.lang.String getKey();
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#key Resiliencehubv2Service#key}
 
 ---
 
@@ -2555,7 +2555,7 @@ public java.lang.String getValue();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service#value Resiliencehubv2Service#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/resiliencehubv2_service#value Resiliencehubv2Service#value}
 
 ---
 

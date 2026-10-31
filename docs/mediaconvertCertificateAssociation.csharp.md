@@ -4,7 +4,7 @@
 
 ### MediaconvertCertificateAssociation <a name="MediaconvertCertificateAssociation" id="@cdktn/provider-awscc.mediaconvertCertificateAssociation.MediaconvertCertificateAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconvertCertificateAssociation.MediaconvertCertificateAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the MediaconvertCertificateAss
 
 The id of the existing MediaconvertCertificateAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_certificate_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -831,7 +831,7 @@ public string Arn { get; set; }
 
 The ARN of the ACM certificate to associate with MediaConvert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_certificate_association#arn MediaconvertCertificateAssociation#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association#arn MediaconvertCertificateAssociation#arn}
 
 ---
 

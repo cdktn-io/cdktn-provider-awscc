@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubActionTargets <a name="DataAwsccSecurityhubActionTargets" id="@cdktn/provider-awscc.dataAwsccSecurityhubActionTargets.DataAwsccSecurityhubActionTargets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_action_targets awscc_securityhub_action_targets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/securityhub_action_targets awscc_securityhub_action_targets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubActionTargets.DataAwsccSecurityhubActionTargets.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubAction
 
 The id of the existing DataAwsccSecurityhubActionTargets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_action_targets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/securityhub_action_targets#import import section} in the documentation of this resource for the id to use
 
 ---
 

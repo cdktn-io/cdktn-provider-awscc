@@ -4,7 +4,7 @@
 
 ### DataAwsccOmicsConfiguration <a name="DataAwsccOmicsConfiguration" id="@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_configuration awscc_omics_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/omics_configuration awscc_omics_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfiguration.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccOmicsConfiguratio
 
 The id of the existing DataAwsccOmicsConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/omics_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -775,7 +775,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_configuration#id DataAwsccOmicsConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/omics_configuration#id DataAwsccOmicsConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1278,6 +1278,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.securityGroupIds">securityGroupIds</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.vpcOwnerAccountId">vpcOwnerAccountId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfigurationRunConfigurationsVpcConfig">DataAwsccOmicsConfigurationRunConfigurationsVpcConfig</a></code> | *No description.* |
 
 ---
@@ -1323,6 +1324,16 @@ public readonly subnetIds: string[];
 ```
 
 - *Type:* string[]
+
+---
+
+##### `vpcOwnerAccountId`<sup>Required</sup> <a name="vpcOwnerAccountId" id="@cdktn/provider-awscc.dataAwsccOmicsConfiguration.DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.vpcOwnerAccountId"></a>
+
+```typescript
+public readonly vpcOwnerAccountId: string;
+```
+
+- *Type:* string
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccMedialiveInputs <a name="DataAwsccMedialiveInputs" id="@cdktn/provider-awscc.dataAwsccMedialiveInputs.DataAwsccMedialiveInputs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_inputs awscc_medialive_inputs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_inputs awscc_medialive_inputs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMedialiveInputs.DataAwsccMedialiveInputs.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccMedialiveInputs t
 
 The id of the existing DataAwsccMedialiveInputs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_inputs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_inputs#import import section} in the documentation of this resource for the id to use
 
 ---
 
