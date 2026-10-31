@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_policy_principal_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface IotPolicyPrincipalAttachmentConfig extends cdktn.TerraformMetaA
   /**
   * The name of the AWS IoT policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
   */
   readonly policyName: string;
   /**
   * The principal, which can be a certificate ARN (as returned from the CreateCertificate operation) or an Amazon Cognito ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
   */
   readonly principal: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}
 */
 export class IotPolicyPrincipalAttachment extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class IotPolicyPrincipalAttachment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotPolicyPrincipalAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotPolicyPrincipalAttachment to import
-  * @param importFromId The id of the existing IotPolicyPrincipalAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotPolicyPrincipalAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_policy_principal_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotPolicyPrincipalAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class IotPolicyPrincipalAttachment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class IotPolicyPrincipalAttachment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_policy_principal_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface QuicksightAssignmentConfig extends cdktn.TerraformMetaArguments
   /**
   * The name of the assignment, also called a rule. The name must be unique within the AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
   */
   readonly assignmentName: string;
   /**
   * The status of the assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
   */
   readonly assignmentStatus: string;
   /**
   * The QuickSight users, groups, or both that you want to assign the policy to. This maps identity type to a list of identity names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
   */
   readonly identities?: { [key: string]: string[] } | cdktn.IResolvable;
   /**
   * The namespace that contains the assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
   */
   readonly namespace: string;
   /**
   * The ARN for the IAM policy to apply to the QuickSight users and groups specified in this assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
   */
   readonly policyArn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment awscc_quicksight_assignment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment awscc_quicksight_assignment}
 */
 export class QuicksightAssignment extends cdktn.TerraformResource {
 
@@ -61,7 +61,7 @@ export class QuicksightAssignment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightAssignment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightAssignment to import
-  * @param importFromId The id of the existing QuicksightAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -73,7 +73,7 @@ export class QuicksightAssignment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment awscc_quicksight_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment awscc_quicksight_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,7 @@ export class QuicksightAssignment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_assignment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

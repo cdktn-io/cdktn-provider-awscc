@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_resource_metrics_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface CloudwatchResourceMetricsConfigurationConfig extends cdktn.Terr
   /**
   * The metric selections that define which metrics are enabled for detailed monitoring on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration#metric_selections CloudwatchResourceMetricsConfiguration#metric_selections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_resource_metrics_configuration#metric_selections CloudwatchResourceMetricsConfiguration#metric_selections}
   */
   readonly metricSelections?: CloudwatchResourceMetricsConfigurationMetricSelections[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the resource for which the detailed monitoring metrics configuration is managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration#resource_arn CloudwatchResourceMetricsConfiguration#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_resource_metrics_configuration#resource_arn CloudwatchResourceMetricsConfiguration#resource_arn}
   */
   readonly resourceArn: string;
 }
@@ -29,7 +29,7 @@ export interface CloudwatchResourceMetricsConfigurationMetricSelections {
   /**
   * The list of metric names to include in detailed monitoring for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration#include_metrics CloudwatchResourceMetricsConfiguration#include_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_resource_metrics_configuration#include_metrics CloudwatchResourceMetricsConfiguration#include_metrics}
   */
   readonly includeMetrics?: string[];
 }
@@ -145,7 +145,7 @@ export class CloudwatchResourceMetricsConfigurationMetricSelectionsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration awscc_cloudwatch_resource_metrics_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_resource_metrics_configuration awscc_cloudwatch_resource_metrics_configuration}
 */
 export class CloudwatchResourceMetricsConfiguration extends cdktn.TerraformResource {
 
@@ -161,7 +161,7 @@ export class CloudwatchResourceMetricsConfiguration extends cdktn.TerraformResou
   * Generates CDKTN code for importing a CloudwatchResourceMetricsConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchResourceMetricsConfiguration to import
-  * @param importFromId The id of the existing CloudwatchResourceMetricsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchResourceMetricsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_resource_metrics_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchResourceMetricsConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -173,7 +173,7 @@ export class CloudwatchResourceMetricsConfiguration extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_resource_metrics_configuration awscc_cloudwatch_resource_metrics_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_resource_metrics_configuration awscc_cloudwatch_resource_metrics_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,7 +184,7 @@ export class CloudwatchResourceMetricsConfiguration extends cdktn.TerraformResou
       terraformResourceType: 'awscc_cloudwatch_resource_metrics_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

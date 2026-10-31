@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface CloudwatchIntegrationConfig extends cdktn.TerraformMetaArgument
   /**
   * Write-only API-key credential material for the integration. Stored encrypted and never returned on read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#credential CloudwatchIntegration#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#credential CloudwatchIntegration#credential}
   */
   readonly credential?: CloudwatchIntegrationCredential;
   /**
   * Type-specific configuration attributes (max 50 entries). EXTERNAL_AGENT requires 'catalogId'. On update, supplied attributes merge into the existing map; omitting a key does not remove it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#integration_attributes CloudwatchIntegration#integration_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#integration_attributes CloudwatchIntegration#integration_attributes}
   */
   readonly integrationAttributes?: { [key: string]: string };
   /**
   * The type of integration. Immutable after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#integration_type CloudwatchIntegration#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#integration_type CloudwatchIntegration#integration_type}
   */
   readonly integrationType: string;
   /**
   * The customer-supplied name of the integration. Unique per account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#name CloudwatchIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#name CloudwatchIntegration#name}
   */
   readonly name: string;
   /**
   * IAM role ARN the integration assumes. Required for AWS_INTEGRATION (a valid, service-assumable IAM role ARN). Not used by AWS_CONFIG_SLREC or EXTERNAL_AGENT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#role_arn CloudwatchIntegration#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#role_arn CloudwatchIntegration#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Tags associated with the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#tags CloudwatchIntegration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#tags CloudwatchIntegration#tags}
   */
   readonly tags?: CloudwatchIntegrationTags[] | cdktn.IResolvable;
 }
 export interface CloudwatchIntegrationCredentialApiKeyCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#api_key_value CloudwatchIntegration#api_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#api_key_value CloudwatchIntegration#api_key_value}
   */
   readonly apiKeyValue?: string;
 }
@@ -147,7 +147,7 @@ export interface CloudwatchIntegrationCredential {
   /**
   * API-key credential material that can be rotated in place on update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#api_key_credential CloudwatchIntegration#api_key_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#api_key_credential CloudwatchIntegration#api_key_credential}
   */
   readonly apiKeyCredential?: CloudwatchIntegrationCredentialApiKeyCredential;
 }
@@ -241,11 +241,11 @@ export class CloudwatchIntegrationCredentialOutputReference extends cdktn.Comple
 }
 export interface CloudwatchIntegrationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#key CloudwatchIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#key CloudwatchIntegration#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#value CloudwatchIntegration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#value CloudwatchIntegration#value}
   */
   readonly value?: string;
 }
@@ -390,7 +390,7 @@ export class CloudwatchIntegrationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration awscc_cloudwatch_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration awscc_cloudwatch_integration}
 */
 export class CloudwatchIntegration extends cdktn.TerraformResource {
 
@@ -406,7 +406,7 @@ export class CloudwatchIntegration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchIntegration to import
-  * @param importFromId The id of the existing CloudwatchIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -418,7 +418,7 @@ export class CloudwatchIntegration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration awscc_cloudwatch_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_integration awscc_cloudwatch_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,7 +429,7 @@ export class CloudwatchIntegration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudwatch_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

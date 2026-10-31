@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface NetworksecuritymanagerDeploymentConfig extends cdktn.TerraformM
   /**
   * List of policies associated with this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#associated_policy_list NetworksecuritymanagerDeployment#associated_policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#associated_policy_list NetworksecuritymanagerDeployment#associated_policy_list}
   */
   readonly associatedPolicyList?: NetworksecuritymanagerDeploymentAssociatedPolicyListStruct[] | cdktn.IResolvable;
   /**
   * List of scopes associated with this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#associated_scope_list NetworksecuritymanagerDeployment#associated_scope_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#associated_scope_list NetworksecuritymanagerDeployment#associated_scope_list}
   */
   readonly associatedScopeList?: NetworksecuritymanagerDeploymentAssociatedScopeListStruct[] | cdktn.IResolvable;
   /**
   * Configuration settings for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#deployment_configuration NetworksecuritymanagerDeployment#deployment_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#deployment_configuration NetworksecuritymanagerDeployment#deployment_configuration}
   */
   readonly deploymentConfiguration?: NetworksecuritymanagerDeploymentDeploymentConfiguration;
   /**
   * A description of the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#deployment_description NetworksecuritymanagerDeployment#deployment_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#deployment_description NetworksecuritymanagerDeployment#deployment_description}
   */
   readonly deploymentDescription?: string;
   /**
   * The name of the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#deployment_name NetworksecuritymanagerDeployment#deployment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#deployment_name NetworksecuritymanagerDeployment#deployment_name}
   */
   readonly deploymentName: string;
   /**
   * The tags associated with the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#tags NetworksecuritymanagerDeployment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#tags NetworksecuritymanagerDeployment#tags}
   */
   readonly tags?: NetworksecuritymanagerDeploymentTags[] | cdktn.IResolvable;
 }
@@ -53,7 +53,7 @@ export interface NetworksecuritymanagerDeploymentAssociatedPolicyListStruct {
   /**
   * ARN of the associated policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#policy_arn NetworksecuritymanagerDeployment#policy_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#policy_arn NetworksecuritymanagerDeployment#policy_arn}
   */
   readonly policyArn?: string;
 }
@@ -171,7 +171,7 @@ export interface NetworksecuritymanagerDeploymentAssociatedScopeListStruct {
   /**
   * ARN of the associated scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#scope_arn NetworksecuritymanagerDeployment#scope_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#scope_arn NetworksecuritymanagerDeployment#scope_arn}
   */
   readonly scopeArn?: string;
 }
@@ -289,7 +289,7 @@ export interface NetworksecuritymanagerDeploymentDeploymentConfiguration {
   /**
   * Whether cross-account visibility is enabled for the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#enable_cross_account_visibility NetworksecuritymanagerDeployment#enable_cross_account_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#enable_cross_account_visibility NetworksecuritymanagerDeployment#enable_cross_account_visibility}
   */
   readonly enableCrossAccountVisibility?: boolean | cdktn.IResolvable;
 }
@@ -383,11 +383,11 @@ export class NetworksecuritymanagerDeploymentDeploymentConfigurationOutputRefere
 }
 export interface NetworksecuritymanagerDeploymentTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#key NetworksecuritymanagerDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#key NetworksecuritymanagerDeployment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#value NetworksecuritymanagerDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#value NetworksecuritymanagerDeployment#value}
   */
   readonly value?: string;
 }
@@ -532,7 +532,7 @@ export class NetworksecuritymanagerDeploymentTagsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment}
 */
 export class NetworksecuritymanagerDeployment extends cdktn.TerraformResource {
 
@@ -548,7 +548,7 @@ export class NetworksecuritymanagerDeployment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworksecuritymanagerDeployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworksecuritymanagerDeployment to import
-  * @param importFromId The id of the existing NetworksecuritymanagerDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworksecuritymanagerDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworksecuritymanagerDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -560,7 +560,7 @@ export class NetworksecuritymanagerDeployment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -571,7 +571,7 @@ export class NetworksecuritymanagerDeployment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networksecuritymanager_deployment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

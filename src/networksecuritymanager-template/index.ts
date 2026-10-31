@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface NetworksecuritymanagerTemplateConfig extends cdktn.TerraformMet
   /**
   * List of rules associated with this template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#associated_rule_list NetworksecuritymanagerTemplate#associated_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#associated_rule_list NetworksecuritymanagerTemplate#associated_rule_list}
   */
   readonly associatedRuleList?: NetworksecuritymanagerTemplateAssociatedRuleListStruct[] | cdktn.IResolvable;
   /**
   * The type of firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#firewall_type NetworksecuritymanagerTemplate#firewall_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#firewall_type NetworksecuritymanagerTemplate#firewall_type}
   */
   readonly firewallType?: string;
   /**
   * The tags associated with the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#tags NetworksecuritymanagerTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#tags NetworksecuritymanagerTemplate#tags}
   */
   readonly tags?: NetworksecuritymanagerTemplateTags[] | cdktn.IResolvable;
   /**
   * A description of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#template_description NetworksecuritymanagerTemplate#template_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#template_description NetworksecuritymanagerTemplate#template_description}
   */
   readonly templateDescription?: string;
   /**
   * The name of the template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#template_name NetworksecuritymanagerTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#template_name NetworksecuritymanagerTemplate#template_name}
   */
   readonly templateName: string;
 }
@@ -47,7 +47,7 @@ export interface NetworksecuritymanagerTemplateAssociatedRuleListStruct {
   /**
   * ARN of the associated rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#rule_arn NetworksecuritymanagerTemplate#rule_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#rule_arn NetworksecuritymanagerTemplate#rule_arn}
   */
   readonly ruleArn?: string;
 }
@@ -163,11 +163,11 @@ export class NetworksecuritymanagerTemplateAssociatedRuleListStructList extends 
 }
 export interface NetworksecuritymanagerTemplateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#key NetworksecuritymanagerTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#key NetworksecuritymanagerTemplate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#value NetworksecuritymanagerTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#value NetworksecuritymanagerTemplate#value}
   */
   readonly value?: string;
 }
@@ -312,7 +312,7 @@ export class NetworksecuritymanagerTemplateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template awscc_networksecuritymanager_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template awscc_networksecuritymanager_template}
 */
 export class NetworksecuritymanagerTemplate extends cdktn.TerraformResource {
 
@@ -328,7 +328,7 @@ export class NetworksecuritymanagerTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworksecuritymanagerTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworksecuritymanagerTemplate to import
-  * @param importFromId The id of the existing NetworksecuritymanagerTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworksecuritymanagerTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworksecuritymanagerTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -340,7 +340,7 @@ export class NetworksecuritymanagerTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_template awscc_networksecuritymanager_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networksecuritymanager_template awscc_networksecuritymanager_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,7 +351,7 @@ export class NetworksecuritymanagerTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networksecuritymanager_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface SecurityhubActionTargetConfig extends cdktn.TerraformMetaArgume
   /**
   * The ID for the custom action target. Can contain up to 20 alphanumeric characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#action_target_id SecurityhubActionTarget#action_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#action_target_id SecurityhubActionTarget#action_target_id}
   */
   readonly actionTargetId: string;
   /**
   * The description for the custom action target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#description SecurityhubActionTarget#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#description SecurityhubActionTarget#description}
   */
   readonly description: string;
   /**
   * The name of the custom action target. Can contain up to 20 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#name SecurityhubActionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#name SecurityhubActionTarget#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target awscc_securityhub_action_target}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target awscc_securityhub_action_target}
 */
 export class SecurityhubActionTarget extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SecurityhubActionTarget extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubActionTarget resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubActionTarget to import
-  * @param importFromId The id of the existing SecurityhubActionTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubActionTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubActionTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SecurityhubActionTarget extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target awscc_securityhub_action_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target awscc_securityhub_action_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class SecurityhubActionTarget extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityhub_action_target',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

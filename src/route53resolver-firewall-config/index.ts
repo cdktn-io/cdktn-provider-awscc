@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface Route53ResolverFirewallConfigConfig extends cdktn.TerraformMeta
   /**
   * Determines how DNS Firewall operates during failures. By default, fail open is disabled, which means the failure mode is closed. If you enable this option, the failure mode is open. This behavior is only enforced for VPCs that have at least one DNS Firewall rule group association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#firewall_fail_open Route53ResolverFirewallConfig#firewall_fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#firewall_fail_open Route53ResolverFirewallConfig#firewall_fail_open}
   */
   readonly firewallFailOpen: string;
   /**
   * The ID of the VPC that this firewall configuration applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#resource_id Route53ResolverFirewallConfig#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#resource_id Route53ResolverFirewallConfig#resource_id}
   */
   readonly resourceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config awscc_route53resolver_firewall_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config awscc_route53resolver_firewall_config}
 */
 export class Route53ResolverFirewallConfig extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class Route53ResolverFirewallConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53ResolverFirewallConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53ResolverFirewallConfig to import
-  * @param importFromId The id of the existing Route53ResolverFirewallConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53ResolverFirewallConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53ResolverFirewallConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class Route53ResolverFirewallConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config awscc_route53resolver_firewall_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config awscc_route53resolver_firewall_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class Route53ResolverFirewallConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53resolver_firewall_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

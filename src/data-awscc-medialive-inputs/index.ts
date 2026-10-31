@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_inputs
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_inputs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccMedialiveInputsConfig extends cdktn.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_inputs awscc_medialive_inputs}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_inputs awscc_medialive_inputs}
 */
 export class DataAwsccMedialiveInputs extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccMedialiveInputs extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccMedialiveInputs resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMedialiveInputs to import
-  * @param importFromId The id of the existing DataAwsccMedialiveInputs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_inputs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMedialiveInputs that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_inputs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMedialiveInputs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccMedialiveInputs extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_inputs awscc_medialive_inputs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_inputs awscc_medialive_inputs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccMedialiveInputs extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_medialive_inputs',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
