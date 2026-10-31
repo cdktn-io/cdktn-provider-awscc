@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccQuicksightCustomPermissionsConfig extends cdktn.Terraf
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions#id DataAwsccQuicksightCustomPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions#id DataAwsccQuicksightCustomPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,6 +86,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('add_or_run_anomaly_detection_for_analyses');
   }
 
+  // adobe_analytics_data_source - computed: true, optional: false, required: false
+  public get adobeAnalyticsDataSource() {
+    return this.getStringAttribute('adobe_analytics_data_source');
+  }
+
   // amazon_bedrock_ars_action - computed: true, optional: false, required: false
   public get amazonBedrockArsAction() {
     return this.getStringAttribute('amazon_bedrock_ars_action');
@@ -126,6 +131,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('asana_action');
   }
 
+  // athena_data_source - computed: true, optional: false, required: false
+  public get athenaDataSource() {
+    return this.getStringAttribute('athena_data_source');
+  }
+
+  // aurora_data_source - computed: true, optional: false, required: false
+  public get auroraDataSource() {
+    return this.getStringAttribute('aurora_data_source');
+  }
+
   // automate - computed: true, optional: false, required: false
   public get automate() {
     return this.getStringAttribute('automate');
@@ -136,9 +151,19 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('bamboo_hr_action');
   }
 
+  // bedrock_managed_knowledge_base - computed: true, optional: false, required: false
+  public get bedrockManagedKnowledgeBase() {
+    return this.getStringAttribute('bedrock_managed_knowledge_base');
+  }
+
   // box_agent_action - computed: true, optional: false, required: false
   public get boxAgentAction() {
     return this.getStringAttribute('box_agent_action');
+  }
+
+  // box_knowledge_base - computed: true, optional: false, required: false
+  public get boxKnowledgeBase() {
+    return this.getStringAttribute('box_knowledge_base');
   }
 
   // build_calculated_field_with_q - computed: true, optional: false, required: false
@@ -169,6 +194,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // confluence_action - computed: true, optional: false, required: false
   public get confluenceAction() {
     return this.getStringAttribute('confluence_action');
+  }
+
+  // confluence_knowledge_base - computed: true, optional: false, required: false
+  public get confluenceKnowledgeBase() {
+    return this.getStringAttribute('confluence_knowledge_base');
+  }
+
+  // create_adobe_analytics_data_source - computed: true, optional: false, required: false
+  public get createAdobeAnalyticsDataSource() {
+    return this.getStringAttribute('create_adobe_analytics_data_source');
   }
 
   // create_and_update_amazon_bedrock_ars_action - computed: true, optional: false, required: false
@@ -206,9 +241,19 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('create_and_update_bamboo_hr_action');
   }
 
+  // create_and_update_bedrock_managed_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateBedrockManagedKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_bedrock_managed_knowledge_base');
+  }
+
   // create_and_update_box_agent_action - computed: true, optional: false, required: false
   public get createAndUpdateBoxAgentAction() {
     return this.getStringAttribute('create_and_update_box_agent_action');
+  }
+
+  // create_and_update_box_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateBoxKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_box_knowledge_base');
   }
 
   // create_and_update_canva_agent_action - computed: true, optional: false, required: false
@@ -229,6 +274,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // create_and_update_confluence_action - computed: true, optional: false, required: false
   public get createAndUpdateConfluenceAction() {
     return this.getStringAttribute('create_and_update_confluence_action');
+  }
+
+  // create_and_update_confluence_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateConfluenceKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_confluence_knowledge_base');
   }
 
   // create_and_update_dashboard_email_reports - computed: true, optional: false, required: false
@@ -266,6 +316,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('create_and_update_google_calendar_action');
   }
 
+  // create_and_update_google_drive_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateGoogleDriveKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_google_drive_knowledge_base');
+  }
+
   // create_and_update_hubspot_action - computed: true, optional: false, required: false
   public get createAndUpdateHubspotAction() {
     return this.getStringAttribute('create_and_update_hubspot_action');
@@ -274,6 +329,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // create_and_update_hugging_face_action - computed: true, optional: false, required: false
   public get createAndUpdateHuggingFaceAction() {
     return this.getStringAttribute('create_and_update_hugging_face_action');
+  }
+
+  // create_and_update_idc_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateIdcKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_idc_knowledge_base');
   }
 
   // create_and_update_intercom_action - computed: true, optional: false, required: false
@@ -331,6 +391,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('create_and_update_one_drive_action');
   }
 
+  // create_and_update_one_drive_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateOneDriveKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_one_drive_knowledge_base');
+  }
+
   // create_and_update_open_api_action - computed: true, optional: false, required: false
   public get createAndUpdateOpenApiAction() {
     return this.getStringAttribute('create_and_update_open_api_action');
@@ -339,6 +404,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // create_and_update_pager_duty_action - computed: true, optional: false, required: false
   public get createAndUpdatePagerDutyAction() {
     return this.getStringAttribute('create_and_update_pager_duty_action');
+  }
+
+  // create_and_update_q_business_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateQBusinessKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_q_business_knowledge_base');
+  }
+
+  // create_and_update_s3_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateS3KnowledgeBase() {
+    return this.getStringAttribute('create_and_update_s3_knowledge_base');
   }
 
   // create_and_update_salesforce_action - computed: true, optional: false, required: false
@@ -391,6 +466,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('create_and_update_share_point_action');
   }
 
+  // create_and_update_share_point_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateSharePointKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_share_point_knowledge_base');
+  }
+
   // create_and_update_slack_action - computed: true, optional: false, required: false
   public get createAndUpdateSlackAction() {
     return this.getStringAttribute('create_and_update_slack_action');
@@ -416,9 +496,24 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('create_and_update_threshold_alerts');
   }
 
+  // create_and_update_web_crawler_knowledge_base - computed: true, optional: false, required: false
+  public get createAndUpdateWebCrawlerKnowledgeBase() {
+    return this.getStringAttribute('create_and_update_web_crawler_knowledge_base');
+  }
+
   // create_and_update_zendesk_action - computed: true, optional: false, required: false
   public get createAndUpdateZendeskAction() {
     return this.getStringAttribute('create_and_update_zendesk_action');
+  }
+
+  // create_athena_data_source - computed: true, optional: false, required: false
+  public get createAthenaDataSource() {
+    return this.getStringAttribute('create_athena_data_source');
+  }
+
+  // create_aurora_data_source - computed: true, optional: false, required: false
+  public get createAuroraDataSource() {
+    return this.getStringAttribute('create_aurora_data_source');
   }
 
   // create_chat_agents - computed: true, optional: false, required: false
@@ -431,9 +526,179 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('create_dashboard_executive_summary_with_q');
   }
 
+  // create_databricks_data_source - computed: true, optional: false, required: false
+  public get createDatabricksDataSource() {
+    return this.getStringAttribute('create_databricks_data_source');
+  }
+
+  // create_db_2_data_source - computed: true, optional: false, required: false
+  public get createDb2DataSource() {
+    return this.getStringAttribute('create_db_2_data_source');
+  }
+
+  // create_denodo_data_source - computed: true, optional: false, required: false
+  public get createDenodoDataSource() {
+    return this.getStringAttribute('create_denodo_data_source');
+  }
+
+  // create_document_db_data_source - computed: true, optional: false, required: false
+  public get createDocumentDbDataSource() {
+    return this.getStringAttribute('create_document_db_data_source');
+  }
+
+  // create_dremio_data_source - computed: true, optional: false, required: false
+  public get createDremioDataSource() {
+    return this.getStringAttribute('create_dremio_data_source');
+  }
+
+  // create_dynamo_db_data_source - computed: true, optional: false, required: false
+  public get createDynamoDbDataSource() {
+    return this.getStringAttribute('create_dynamo_db_data_source');
+  }
+
+  // create_exasol_data_source - computed: true, optional: false, required: false
+  public get createExasolDataSource() {
+    return this.getStringAttribute('create_exasol_data_source');
+  }
+
+  // create_file_data_source - computed: true, optional: false, required: false
+  public get createFileDataSource() {
+    return this.getStringAttribute('create_file_data_source');
+  }
+
+  // create_git_hub_data_source - computed: true, optional: false, required: false
+  public get createGitHubDataSource() {
+    return this.getStringAttribute('create_git_hub_data_source');
+  }
+
+  // create_google_analytics_data_source - computed: true, optional: false, required: false
+  public get createGoogleAnalyticsDataSource() {
+    return this.getStringAttribute('create_google_analytics_data_source');
+  }
+
+  // create_google_big_query_data_source - computed: true, optional: false, required: false
+  public get createGoogleBigQueryDataSource() {
+    return this.getStringAttribute('create_google_big_query_data_source');
+  }
+
+  // create_google_sheets_data_source - computed: true, optional: false, required: false
+  public get createGoogleSheetsDataSource() {
+    return this.getStringAttribute('create_google_sheets_data_source');
+  }
+
+  // create_impala_data_source - computed: true, optional: false, required: false
+  public get createImpalaDataSource() {
+    return this.getStringAttribute('create_impala_data_source');
+  }
+
+  // create_jira_data_source - computed: true, optional: false, required: false
+  public get createJiraDataSource() {
+    return this.getStringAttribute('create_jira_data_source');
+  }
+
+  // create_maria_db_data_source - computed: true, optional: false, required: false
+  public get createMariaDbDataSource() {
+    return this.getStringAttribute('create_maria_db_data_source');
+  }
+
+  // create_mongo_atlas_data_source - computed: true, optional: false, required: false
+  public get createMongoAtlasDataSource() {
+    return this.getStringAttribute('create_mongo_atlas_data_source');
+  }
+
+  // create_mongo_db_data_source - computed: true, optional: false, required: false
+  public get createMongoDbDataSource() {
+    return this.getStringAttribute('create_mongo_db_data_source');
+  }
+
+  // create_my_sql_data_source - computed: true, optional: false, required: false
+  public get createMySqlDataSource() {
+    return this.getStringAttribute('create_my_sql_data_source');
+  }
+
+  // create_open_search_data_source - computed: true, optional: false, required: false
+  public get createOpenSearchDataSource() {
+    return this.getStringAttribute('create_open_search_data_source');
+  }
+
+  // create_oracle_data_source - computed: true, optional: false, required: false
+  public get createOracleDataSource() {
+    return this.getStringAttribute('create_oracle_data_source');
+  }
+
+  // create_pay_pal_data_source - computed: true, optional: false, required: false
+  public get createPayPalDataSource() {
+    return this.getStringAttribute('create_pay_pal_data_source');
+  }
+
+  // create_postgre_sql_data_source - computed: true, optional: false, required: false
+  public get createPostgreSqlDataSource() {
+    return this.getStringAttribute('create_postgre_sql_data_source');
+  }
+
+  // create_presto_data_source - computed: true, optional: false, required: false
+  public get createPrestoDataSource() {
+    return this.getStringAttribute('create_presto_data_source');
+  }
+
+  // create_radiant_data_source - computed: true, optional: false, required: false
+  public get createRadiantDataSource() {
+    return this.getStringAttribute('create_radiant_data_source');
+  }
+
+  // create_rds_data_source - computed: true, optional: false, required: false
+  public get createRdsDataSource() {
+    return this.getStringAttribute('create_rds_data_source');
+  }
+
+  // create_redshift_auto_discovered_data_source - computed: true, optional: false, required: false
+  public get createRedshiftAutoDiscoveredDataSource() {
+    return this.getStringAttribute('create_redshift_auto_discovered_data_source');
+  }
+
+  // create_redshift_manual_data_source - computed: true, optional: false, required: false
+  public get createRedshiftManualDataSource() {
+    return this.getStringAttribute('create_redshift_manual_data_source');
+  }
+
+  // create_s3_analytics_data_source - computed: true, optional: false, required: false
+  public get createS3AnalyticsDataSource() {
+    return this.getStringAttribute('create_s3_analytics_data_source');
+  }
+
+  // create_s3_data_source - computed: true, optional: false, required: false
+  public get createS3DataSource() {
+    return this.getStringAttribute('create_s3_data_source');
+  }
+
+  // create_s3_tables_data_source - computed: true, optional: false, required: false
+  public get createS3TablesDataSource() {
+    return this.getStringAttribute('create_s3_tables_data_source');
+  }
+
+  // create_salesforce_data_source - computed: true, optional: false, required: false
+  public get createSalesforceDataSource() {
+    return this.getStringAttribute('create_salesforce_data_source');
+  }
+
+  // create_sap_hana_data_source - computed: true, optional: false, required: false
+  public get createSapHanaDataSource() {
+    return this.getStringAttribute('create_sap_hana_data_source');
+  }
+
+  // create_service_now_data_source - computed: true, optional: false, required: false
+  public get createServiceNowDataSource() {
+    return this.getStringAttribute('create_service_now_data_source');
+  }
+
   // create_shared_folders - computed: true, optional: false, required: false
   public get createSharedFolders() {
     return this.getStringAttribute('create_shared_folders');
+  }
+
+  // create_snowflake_data_source - computed: true, optional: false, required: false
+  public get createSnowflakeDataSource() {
+    return this.getStringAttribute('create_snowflake_data_source');
   }
 
   // create_spaces - computed: true, optional: false, required: false
@@ -441,9 +706,49 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('create_spaces');
   }
 
+  // create_spark_data_source - computed: true, optional: false, required: false
+  public get createSparkDataSource() {
+    return this.getStringAttribute('create_spark_data_source');
+  }
+
   // create_spice_dataset - computed: true, optional: false, required: false
   public get createSpiceDataset() {
     return this.getStringAttribute('create_spice_dataset');
+  }
+
+  // create_sql_server_data_source - computed: true, optional: false, required: false
+  public get createSqlServerDataSource() {
+    return this.getStringAttribute('create_sql_server_data_source');
+  }
+
+  // create_square_data_source - computed: true, optional: false, required: false
+  public get createSquareDataSource() {
+    return this.getStringAttribute('create_square_data_source');
+  }
+
+  // create_starburst_data_source - computed: true, optional: false, required: false
+  public get createStarburstDataSource() {
+    return this.getStringAttribute('create_starburst_data_source');
+  }
+
+  // create_teradata_data_source - computed: true, optional: false, required: false
+  public get createTeradataDataSource() {
+    return this.getStringAttribute('create_teradata_data_source');
+  }
+
+  // create_timestream_data_source - computed: true, optional: false, required: false
+  public get createTimestreamDataSource() {
+    return this.getStringAttribute('create_timestream_data_source');
+  }
+
+  // create_trino_data_source - computed: true, optional: false, required: false
+  public get createTrinoDataSource() {
+    return this.getStringAttribute('create_trino_data_source');
+  }
+
+  // create_twitter_data_source - computed: true, optional: false, required: false
+  public get createTwitterDataSource() {
+    return this.getStringAttribute('create_twitter_data_source');
   }
 
   // dashboard - computed: true, optional: false, required: false
@@ -451,9 +756,44 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('dashboard');
   }
 
+  // databricks_data_source - computed: true, optional: false, required: false
+  public get databricksDataSource() {
+    return this.getStringAttribute('databricks_data_source');
+  }
+
+  // db_2_data_source - computed: true, optional: false, required: false
+  public get db2DataSource() {
+    return this.getStringAttribute('db_2_data_source');
+  }
+
+  // denodo_data_source - computed: true, optional: false, required: false
+  public get denodoDataSource() {
+    return this.getStringAttribute('denodo_data_source');
+  }
+
+  // document_db_data_source - computed: true, optional: false, required: false
+  public get documentDbDataSource() {
+    return this.getStringAttribute('document_db_data_source');
+  }
+
+  // dremio_data_source - computed: true, optional: false, required: false
+  public get dremioDataSource() {
+    return this.getStringAttribute('dremio_data_source');
+  }
+
+  // dynamo_db_data_source - computed: true, optional: false, required: false
+  public get dynamoDbDataSource() {
+    return this.getStringAttribute('dynamo_db_data_source');
+  }
+
   // edit_visual_with_q - computed: true, optional: false, required: false
   public get editVisualWithQ() {
     return this.getStringAttribute('edit_visual_with_q');
+  }
+
+  // exasol_data_source - computed: true, optional: false, required: false
+  public get exasolDataSource() {
+    return this.getStringAttribute('exasol_data_source');
   }
 
   // export_to_csv - computed: true, optional: false, required: false
@@ -496,6 +836,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('fact_set_action');
   }
 
+  // file_data_source - computed: true, optional: false, required: false
+  public get fileDataSource() {
+    return this.getStringAttribute('file_data_source');
+  }
+
   // flow - computed: true, optional: false, required: false
   public get flow() {
     return this.getStringAttribute('flow');
@@ -506,14 +851,39 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('generic_http_action');
   }
 
+  // git_hub_data_source - computed: true, optional: false, required: false
+  public get gitHubDataSource() {
+    return this.getStringAttribute('git_hub_data_source');
+  }
+
   // github_action - computed: true, optional: false, required: false
   public get githubAction() {
     return this.getStringAttribute('github_action');
   }
 
+  // google_analytics_data_source - computed: true, optional: false, required: false
+  public get googleAnalyticsDataSource() {
+    return this.getStringAttribute('google_analytics_data_source');
+  }
+
+  // google_big_query_data_source - computed: true, optional: false, required: false
+  public get googleBigQueryDataSource() {
+    return this.getStringAttribute('google_big_query_data_source');
+  }
+
   // google_calendar_action - computed: true, optional: false, required: false
   public get googleCalendarAction() {
     return this.getStringAttribute('google_calendar_action');
+  }
+
+  // google_drive_knowledge_base - computed: true, optional: false, required: false
+  public get googleDriveKnowledgeBase() {
+    return this.getStringAttribute('google_drive_knowledge_base');
+  }
+
+  // google_sheets_data_source - computed: true, optional: false, required: false
+  public get googleSheetsDataSource() {
+    return this.getStringAttribute('google_sheets_data_source');
   }
 
   // hubspot_action - computed: true, optional: false, required: false
@@ -524,6 +894,21 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // hugging_face_action - computed: true, optional: false, required: false
   public get huggingFaceAction() {
     return this.getStringAttribute('hugging_face_action');
+  }
+
+  // idc_knowledge_base - computed: true, optional: false, required: false
+  public get idcKnowledgeBase() {
+    return this.getStringAttribute('idc_knowledge_base');
+  }
+
+  // impala_data_source - computed: true, optional: false, required: false
+  public get impalaDataSource() {
+    return this.getStringAttribute('impala_data_source');
+  }
+
+  // inbound_email_trigger - computed: true, optional: false, required: false
+  public get inboundEmailTrigger() {
+    return this.getStringAttribute('inbound_email_trigger');
   }
 
   // include_content_in_scheduled_reports_email - computed: true, optional: false, required: false
@@ -546,6 +931,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('jira_action');
   }
 
+  // jira_data_source - computed: true, optional: false, required: false
+  public get jiraDataSource() {
+    return this.getStringAttribute('jira_data_source');
+  }
+
   // knowledge_base - computed: true, optional: false, required: false
   public get knowledgeBase() {
     return this.getStringAttribute('knowledge_base');
@@ -561,6 +951,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('manage_shared_folders');
   }
 
+  // maria_db_data_source - computed: true, optional: false, required: false
+  public get mariaDbDataSource() {
+    return this.getStringAttribute('maria_db_data_source');
+  }
+
   // mcp_action - computed: true, optional: false, required: false
   public get mcpAction() {
     return this.getStringAttribute('mcp_action');
@@ -571,6 +966,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('monday_action');
   }
 
+  // mongo_atlas_data_source - computed: true, optional: false, required: false
+  public get mongoAtlasDataSource() {
+    return this.getStringAttribute('mongo_atlas_data_source');
+  }
+
+  // mongo_db_data_source - computed: true, optional: false, required: false
+  public get mongoDbDataSource() {
+    return this.getStringAttribute('mongo_db_data_source');
+  }
+
   // ms_exchange_action - computed: true, optional: false, required: false
   public get msExchangeAction() {
     return this.getStringAttribute('ms_exchange_action');
@@ -579,6 +984,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // ms_teams_action - computed: true, optional: false, required: false
   public get msTeamsAction() {
     return this.getStringAttribute('ms_teams_action');
+  }
+
+  // my_sql_data_source - computed: true, optional: false, required: false
+  public get mySqlDataSource() {
+    return this.getStringAttribute('my_sql_data_source');
   }
 
   // new_relic_action - computed: true, optional: false, required: false
@@ -596,9 +1006,24 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('one_drive_action');
   }
 
+  // one_drive_knowledge_base - computed: true, optional: false, required: false
+  public get oneDriveKnowledgeBase() {
+    return this.getStringAttribute('one_drive_knowledge_base');
+  }
+
   // open_api_action - computed: true, optional: false, required: false
   public get openApiAction() {
     return this.getStringAttribute('open_api_action');
+  }
+
+  // open_search_data_source - computed: true, optional: false, required: false
+  public get openSearchDataSource() {
+    return this.getStringAttribute('open_search_data_source');
+  }
+
+  // oracle_data_source - computed: true, optional: false, required: false
+  public get oracleDataSource() {
+    return this.getStringAttribute('oracle_data_source');
   }
 
   // pager_duty_action - computed: true, optional: false, required: false
@@ -606,9 +1031,24 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('pager_duty_action');
   }
 
+  // pay_pal_data_source - computed: true, optional: false, required: false
+  public get payPalDataSource() {
+    return this.getStringAttribute('pay_pal_data_source');
+  }
+
   // perform_flow_ui_task - computed: true, optional: false, required: false
   public get performFlowUiTask() {
     return this.getStringAttribute('perform_flow_ui_task');
+  }
+
+  // postgre_sql_data_source - computed: true, optional: false, required: false
+  public get postgreSqlDataSource() {
+    return this.getStringAttribute('postgre_sql_data_source');
+  }
+
+  // presto_data_source - computed: true, optional: false, required: false
+  public get prestoDataSource() {
+    return this.getStringAttribute('presto_data_source');
   }
 
   // print_reports - computed: true, optional: false, required: false
@@ -621,6 +1061,36 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('publish_without_approval');
   }
 
+  // q_business_knowledge_base - computed: true, optional: false, required: false
+  public get qBusinessKnowledgeBase() {
+    return this.getStringAttribute('q_business_knowledge_base');
+  }
+
+  // quick_event_trigger - computed: true, optional: false, required: false
+  public get quickEventTrigger() {
+    return this.getStringAttribute('quick_event_trigger');
+  }
+
+  // radiant_data_source - computed: true, optional: false, required: false
+  public get radiantDataSource() {
+    return this.getStringAttribute('radiant_data_source');
+  }
+
+  // rds_data_source - computed: true, optional: false, required: false
+  public get rdsDataSource() {
+    return this.getStringAttribute('rds_data_source');
+  }
+
+  // redshift_auto_discovered_data_source - computed: true, optional: false, required: false
+  public get redshiftAutoDiscoveredDataSource() {
+    return this.getStringAttribute('redshift_auto_discovered_data_source');
+  }
+
+  // redshift_manual_data_source - computed: true, optional: false, required: false
+  public get redshiftManualDataSource() {
+    return this.getStringAttribute('redshift_manual_data_source');
+  }
+
   // rename_shared_folders - computed: true, optional: false, required: false
   public get renameSharedFolders() {
     return this.getStringAttribute('rename_shared_folders');
@@ -631,9 +1101,34 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('research');
   }
 
+  // s3_analytics_data_source - computed: true, optional: false, required: false
+  public get s3AnalyticsDataSource() {
+    return this.getStringAttribute('s3_analytics_data_source');
+  }
+
+  // s3_data_source - computed: true, optional: false, required: false
+  public get s3DataSource() {
+    return this.getStringAttribute('s3_data_source');
+  }
+
+  // s3_knowledge_base - computed: true, optional: false, required: false
+  public get s3KnowledgeBase() {
+    return this.getStringAttribute('s3_knowledge_base');
+  }
+
+  // s3_tables_data_source - computed: true, optional: false, required: false
+  public get s3TablesDataSource() {
+    return this.getStringAttribute('s3_tables_data_source');
+  }
+
   // salesforce_action - computed: true, optional: false, required: false
   public get salesforceAction() {
     return this.getStringAttribute('salesforce_action');
+  }
+
+  // salesforce_data_source - computed: true, optional: false, required: false
+  public get salesforceDataSource() {
+    return this.getStringAttribute('salesforce_data_source');
   }
 
   // sand_p_global_energy_action - computed: true, optional: false, required: false
@@ -656,6 +1151,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('sap_business_partner_action');
   }
 
+  // sap_hana_data_source - computed: true, optional: false, required: false
+  public get sapHanaDataSource() {
+    return this.getStringAttribute('sap_hana_data_source');
+  }
+
   // sap_material_stock_action - computed: true, optional: false, required: false
   public get sapMaterialStockAction() {
     return this.getStringAttribute('sap_material_stock_action');
@@ -671,9 +1171,24 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('sap_product_master_data_action');
   }
 
+  // schedule_trigger - computed: true, optional: false, required: false
+  public get scheduleTrigger() {
+    return this.getStringAttribute('schedule_trigger');
+  }
+
   // service_now_action - computed: true, optional: false, required: false
   public get serviceNowAction() {
     return this.getStringAttribute('service_now_action');
+  }
+
+  // service_now_data_source - computed: true, optional: false, required: false
+  public get serviceNowDataSource() {
+    return this.getStringAttribute('service_now_data_source');
+  }
+
+  // share_adobe_analytics_data_source - computed: true, optional: false, required: false
+  public get shareAdobeAnalyticsDataSource() {
+    return this.getStringAttribute('share_adobe_analytics_data_source');
   }
 
   // share_amazon_bedrock_ars_action - computed: true, optional: false, required: false
@@ -711,14 +1226,34 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_asana_action');
   }
 
+  // share_athena_data_source - computed: true, optional: false, required: false
+  public get shareAthenaDataSource() {
+    return this.getStringAttribute('share_athena_data_source');
+  }
+
+  // share_aurora_data_source - computed: true, optional: false, required: false
+  public get shareAuroraDataSource() {
+    return this.getStringAttribute('share_aurora_data_source');
+  }
+
   // share_bamboo_hr_action - computed: true, optional: false, required: false
   public get shareBambooHrAction() {
     return this.getStringAttribute('share_bamboo_hr_action');
   }
 
+  // share_bedrock_managed_knowledge_base - computed: true, optional: false, required: false
+  public get shareBedrockManagedKnowledgeBase() {
+    return this.getStringAttribute('share_bedrock_managed_knowledge_base');
+  }
+
   // share_box_agent_action - computed: true, optional: false, required: false
   public get shareBoxAgentAction() {
     return this.getStringAttribute('share_box_agent_action');
+  }
+
+  // share_box_knowledge_base - computed: true, optional: false, required: false
+  public get shareBoxKnowledgeBase() {
+    return this.getStringAttribute('share_box_knowledge_base');
   }
 
   // share_canva_agent_action - computed: true, optional: false, required: false
@@ -746,6 +1281,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_confluence_action');
   }
 
+  // share_confluence_knowledge_base - computed: true, optional: false, required: false
+  public get shareConfluenceKnowledgeBase() {
+    return this.getStringAttribute('share_confluence_knowledge_base');
+  }
+
   // share_dashboards - computed: true, optional: false, required: false
   public get shareDashboards() {
     return this.getStringAttribute('share_dashboards');
@@ -756,9 +1296,44 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_data_sources');
   }
 
+  // share_databricks_data_source - computed: true, optional: false, required: false
+  public get shareDatabricksDataSource() {
+    return this.getStringAttribute('share_databricks_data_source');
+  }
+
   // share_datasets - computed: true, optional: false, required: false
   public get shareDatasets() {
     return this.getStringAttribute('share_datasets');
+  }
+
+  // share_db_2_data_source - computed: true, optional: false, required: false
+  public get shareDb2DataSource() {
+    return this.getStringAttribute('share_db_2_data_source');
+  }
+
+  // share_denodo_data_source - computed: true, optional: false, required: false
+  public get shareDenodoDataSource() {
+    return this.getStringAttribute('share_denodo_data_source');
+  }
+
+  // share_document_db_data_source - computed: true, optional: false, required: false
+  public get shareDocumentDbDataSource() {
+    return this.getStringAttribute('share_document_db_data_source');
+  }
+
+  // share_dremio_data_source - computed: true, optional: false, required: false
+  public get shareDremioDataSource() {
+    return this.getStringAttribute('share_dremio_data_source');
+  }
+
+  // share_dynamo_db_data_source - computed: true, optional: false, required: false
+  public get shareDynamoDbDataSource() {
+    return this.getStringAttribute('share_dynamo_db_data_source');
+  }
+
+  // share_exasol_data_source - computed: true, optional: false, required: false
+  public get shareExasolDataSource() {
+    return this.getStringAttribute('share_exasol_data_source');
   }
 
   // share_fact_set_action - computed: true, optional: false, required: false
@@ -766,9 +1341,19 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_fact_set_action');
   }
 
+  // share_file_data_source - computed: true, optional: false, required: false
+  public get shareFileDataSource() {
+    return this.getStringAttribute('share_file_data_source');
+  }
+
   // share_generic_http_action - computed: true, optional: false, required: false
   public get shareGenericHttpAction() {
     return this.getStringAttribute('share_generic_http_action');
+  }
+
+  // share_git_hub_data_source - computed: true, optional: false, required: false
+  public get shareGitHubDataSource() {
+    return this.getStringAttribute('share_git_hub_data_source');
   }
 
   // share_github_action - computed: true, optional: false, required: false
@@ -776,9 +1361,29 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_github_action');
   }
 
+  // share_google_analytics_data_source - computed: true, optional: false, required: false
+  public get shareGoogleAnalyticsDataSource() {
+    return this.getStringAttribute('share_google_analytics_data_source');
+  }
+
+  // share_google_big_query_data_source - computed: true, optional: false, required: false
+  public get shareGoogleBigQueryDataSource() {
+    return this.getStringAttribute('share_google_big_query_data_source');
+  }
+
   // share_google_calendar_action - computed: true, optional: false, required: false
   public get shareGoogleCalendarAction() {
     return this.getStringAttribute('share_google_calendar_action');
+  }
+
+  // share_google_drive_knowledge_base - computed: true, optional: false, required: false
+  public get shareGoogleDriveKnowledgeBase() {
+    return this.getStringAttribute('share_google_drive_knowledge_base');
+  }
+
+  // share_google_sheets_data_source - computed: true, optional: false, required: false
+  public get shareGoogleSheetsDataSource() {
+    return this.getStringAttribute('share_google_sheets_data_source');
   }
 
   // share_hubspot_action - computed: true, optional: false, required: false
@@ -791,6 +1396,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_hugging_face_action');
   }
 
+  // share_idc_knowledge_base - computed: true, optional: false, required: false
+  public get shareIdcKnowledgeBase() {
+    return this.getStringAttribute('share_idc_knowledge_base');
+  }
+
+  // share_impala_data_source - computed: true, optional: false, required: false
+  public get shareImpalaDataSource() {
+    return this.getStringAttribute('share_impala_data_source');
+  }
+
   // share_intercom_action - computed: true, optional: false, required: false
   public get shareIntercomAction() {
     return this.getStringAttribute('share_intercom_action');
@@ -799,6 +1414,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // share_jira_action - computed: true, optional: false, required: false
   public get shareJiraAction() {
     return this.getStringAttribute('share_jira_action');
+  }
+
+  // share_jira_data_source - computed: true, optional: false, required: false
+  public get shareJiraDataSource() {
+    return this.getStringAttribute('share_jira_data_source');
   }
 
   // share_knowledge_bases - computed: true, optional: false, required: false
@@ -811,6 +1431,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_linear_action');
   }
 
+  // share_maria_db_data_source - computed: true, optional: false, required: false
+  public get shareMariaDbDataSource() {
+    return this.getStringAttribute('share_maria_db_data_source');
+  }
+
   // share_mcp_action - computed: true, optional: false, required: false
   public get shareMcpAction() {
     return this.getStringAttribute('share_mcp_action');
@@ -821,6 +1446,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_monday_action');
   }
 
+  // share_mongo_atlas_data_source - computed: true, optional: false, required: false
+  public get shareMongoAtlasDataSource() {
+    return this.getStringAttribute('share_mongo_atlas_data_source');
+  }
+
+  // share_mongo_db_data_source - computed: true, optional: false, required: false
+  public get shareMongoDbDataSource() {
+    return this.getStringAttribute('share_mongo_db_data_source');
+  }
+
   // share_ms_exchange_action - computed: true, optional: false, required: false
   public get shareMsExchangeAction() {
     return this.getStringAttribute('share_ms_exchange_action');
@@ -829,6 +1464,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // share_ms_teams_action - computed: true, optional: false, required: false
   public get shareMsTeamsAction() {
     return this.getStringAttribute('share_ms_teams_action');
+  }
+
+  // share_my_sql_data_source - computed: true, optional: false, required: false
+  public get shareMySqlDataSource() {
+    return this.getStringAttribute('share_my_sql_data_source');
   }
 
   // share_new_relic_action - computed: true, optional: false, required: false
@@ -846,9 +1486,24 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_one_drive_action');
   }
 
+  // share_one_drive_knowledge_base - computed: true, optional: false, required: false
+  public get shareOneDriveKnowledgeBase() {
+    return this.getStringAttribute('share_one_drive_knowledge_base');
+  }
+
   // share_open_api_action - computed: true, optional: false, required: false
   public get shareOpenApiAction() {
     return this.getStringAttribute('share_open_api_action');
+  }
+
+  // share_open_search_data_source - computed: true, optional: false, required: false
+  public get shareOpenSearchDataSource() {
+    return this.getStringAttribute('share_open_search_data_source');
+  }
+
+  // share_oracle_data_source - computed: true, optional: false, required: false
+  public get shareOracleDataSource() {
+    return this.getStringAttribute('share_oracle_data_source');
   }
 
   // share_pager_duty_action - computed: true, optional: false, required: false
@@ -856,14 +1511,84 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_pager_duty_action');
   }
 
+  // share_pay_pal_data_source - computed: true, optional: false, required: false
+  public get sharePayPalDataSource() {
+    return this.getStringAttribute('share_pay_pal_data_source');
+  }
+
   // share_point_action - computed: true, optional: false, required: false
   public get sharePointAction() {
     return this.getStringAttribute('share_point_action');
   }
 
+  // share_point_knowledge_base - computed: true, optional: false, required: false
+  public get sharePointKnowledgeBase() {
+    return this.getStringAttribute('share_point_knowledge_base');
+  }
+
+  // share_postgre_sql_data_source - computed: true, optional: false, required: false
+  public get sharePostgreSqlDataSource() {
+    return this.getStringAttribute('share_postgre_sql_data_source');
+  }
+
+  // share_presto_data_source - computed: true, optional: false, required: false
+  public get sharePrestoDataSource() {
+    return this.getStringAttribute('share_presto_data_source');
+  }
+
+  // share_q_business_knowledge_base - computed: true, optional: false, required: false
+  public get shareQBusinessKnowledgeBase() {
+    return this.getStringAttribute('share_q_business_knowledge_base');
+  }
+
+  // share_radiant_data_source - computed: true, optional: false, required: false
+  public get shareRadiantDataSource() {
+    return this.getStringAttribute('share_radiant_data_source');
+  }
+
+  // share_rds_data_source - computed: true, optional: false, required: false
+  public get shareRdsDataSource() {
+    return this.getStringAttribute('share_rds_data_source');
+  }
+
+  // share_redshift_auto_discovered_data_source - computed: true, optional: false, required: false
+  public get shareRedshiftAutoDiscoveredDataSource() {
+    return this.getStringAttribute('share_redshift_auto_discovered_data_source');
+  }
+
+  // share_redshift_manual_data_source - computed: true, optional: false, required: false
+  public get shareRedshiftManualDataSource() {
+    return this.getStringAttribute('share_redshift_manual_data_source');
+  }
+
+  // share_s3_analytics_data_source - computed: true, optional: false, required: false
+  public get shareS3AnalyticsDataSource() {
+    return this.getStringAttribute('share_s3_analytics_data_source');
+  }
+
+  // share_s3_data_source - computed: true, optional: false, required: false
+  public get shareS3DataSource() {
+    return this.getStringAttribute('share_s3_data_source');
+  }
+
+  // share_s3_knowledge_base - computed: true, optional: false, required: false
+  public get shareS3KnowledgeBase() {
+    return this.getStringAttribute('share_s3_knowledge_base');
+  }
+
+  // share_s3_tables_data_source - computed: true, optional: false, required: false
+  public get shareS3TablesDataSource() {
+    return this.getStringAttribute('share_s3_tables_data_source');
+  }
+
   // share_salesforce_action - computed: true, optional: false, required: false
   public get shareSalesforceAction() {
     return this.getStringAttribute('share_salesforce_action');
+  }
+
+  // share_salesforce_data_source - computed: true, optional: false, required: false
+  public get shareSalesforceDataSource() {
+    return this.getStringAttribute('share_salesforce_data_source');
   }
 
   // share_sand_p_global_energy_action - computed: true, optional: false, required: false
@@ -886,6 +1611,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_sap_business_partner_action');
   }
 
+  // share_sap_hana_data_source - computed: true, optional: false, required: false
+  public get shareSapHanaDataSource() {
+    return this.getStringAttribute('share_sap_hana_data_source');
+  }
+
   // share_sap_material_stock_action - computed: true, optional: false, required: false
   public get shareSapMaterialStockAction() {
     return this.getStringAttribute('share_sap_material_stock_action');
@@ -906,9 +1636,19 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_service_now_action');
   }
 
+  // share_service_now_data_source - computed: true, optional: false, required: false
+  public get shareServiceNowDataSource() {
+    return this.getStringAttribute('share_service_now_data_source');
+  }
+
   // share_share_point_action - computed: true, optional: false, required: false
   public get shareSharePointAction() {
     return this.getStringAttribute('share_share_point_action');
+  }
+
+  // share_share_point_knowledge_base - computed: true, optional: false, required: false
+  public get shareSharePointKnowledgeBase() {
+    return this.getStringAttribute('share_share_point_knowledge_base');
   }
 
   // share_slack_action - computed: true, optional: false, required: false
@@ -921,14 +1661,64 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('share_smartsheet_action');
   }
 
+  // share_snowflake_data_source - computed: true, optional: false, required: false
+  public get shareSnowflakeDataSource() {
+    return this.getStringAttribute('share_snowflake_data_source');
+  }
+
   // share_spaces - computed: true, optional: false, required: false
   public get shareSpaces() {
     return this.getStringAttribute('share_spaces');
   }
 
+  // share_spark_data_source - computed: true, optional: false, required: false
+  public get shareSparkDataSource() {
+    return this.getStringAttribute('share_spark_data_source');
+  }
+
+  // share_sql_server_data_source - computed: true, optional: false, required: false
+  public get shareSqlServerDataSource() {
+    return this.getStringAttribute('share_sql_server_data_source');
+  }
+
+  // share_square_data_source - computed: true, optional: false, required: false
+  public get shareSquareDataSource() {
+    return this.getStringAttribute('share_square_data_source');
+  }
+
+  // share_starburst_data_source - computed: true, optional: false, required: false
+  public get shareStarburstDataSource() {
+    return this.getStringAttribute('share_starburst_data_source');
+  }
+
+  // share_teradata_data_source - computed: true, optional: false, required: false
+  public get shareTeradataDataSource() {
+    return this.getStringAttribute('share_teradata_data_source');
+  }
+
   // share_textract_action - computed: true, optional: false, required: false
   public get shareTextractAction() {
     return this.getStringAttribute('share_textract_action');
+  }
+
+  // share_timestream_data_source - computed: true, optional: false, required: false
+  public get shareTimestreamDataSource() {
+    return this.getStringAttribute('share_timestream_data_source');
+  }
+
+  // share_trino_data_source - computed: true, optional: false, required: false
+  public get shareTrinoDataSource() {
+    return this.getStringAttribute('share_trino_data_source');
+  }
+
+  // share_twitter_data_source - computed: true, optional: false, required: false
+  public get shareTwitterDataSource() {
+    return this.getStringAttribute('share_twitter_data_source');
+  }
+
+  // share_web_crawler_knowledge_base - computed: true, optional: false, required: false
+  public get shareWebCrawlerKnowledgeBase() {
+    return this.getStringAttribute('share_web_crawler_knowledge_base');
   }
 
   // share_zendesk_action - computed: true, optional: false, required: false
@@ -946,9 +1736,34 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('smartsheet_action');
   }
 
+  // snowflake_data_source - computed: true, optional: false, required: false
+  public get snowflakeDataSource() {
+    return this.getStringAttribute('snowflake_data_source');
+  }
+
   // space - computed: true, optional: false, required: false
   public get space() {
     return this.getStringAttribute('space');
+  }
+
+  // spark_data_source - computed: true, optional: false, required: false
+  public get sparkDataSource() {
+    return this.getStringAttribute('spark_data_source');
+  }
+
+  // sql_server_data_source - computed: true, optional: false, required: false
+  public get sqlServerDataSource() {
+    return this.getStringAttribute('sql_server_data_source');
+  }
+
+  // square_data_source - computed: true, optional: false, required: false
+  public get squareDataSource() {
+    return this.getStringAttribute('square_data_source');
+  }
+
+  // starburst_data_source - computed: true, optional: false, required: false
+  public get starburstDataSource() {
+    return this.getStringAttribute('starburst_data_source');
   }
 
   // subscribe_dashboard_email_reports - computed: true, optional: false, required: false
@@ -956,14 +1771,264 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('subscribe_dashboard_email_reports');
   }
 
+  // teradata_data_source - computed: true, optional: false, required: false
+  public get teradataDataSource() {
+    return this.getStringAttribute('teradata_data_source');
+  }
+
   // textract_action - computed: true, optional: false, required: false
   public get textractAction() {
     return this.getStringAttribute('textract_action');
   }
 
+  // timestream_data_source - computed: true, optional: false, required: false
+  public get timestreamDataSource() {
+    return this.getStringAttribute('timestream_data_source');
+  }
+
   // topic - computed: true, optional: false, required: false
   public get topic() {
     return this.getStringAttribute('topic');
+  }
+
+  // trigger - computed: true, optional: false, required: false
+  public get trigger() {
+    return this.getStringAttribute('trigger');
+  }
+
+  // trino_data_source - computed: true, optional: false, required: false
+  public get trinoDataSource() {
+    return this.getStringAttribute('trino_data_source');
+  }
+
+  // twitter_data_source - computed: true, optional: false, required: false
+  public get twitterDataSource() {
+    return this.getStringAttribute('twitter_data_source');
+  }
+
+  // update_adobe_analytics_data_source - computed: true, optional: false, required: false
+  public get updateAdobeAnalyticsDataSource() {
+    return this.getStringAttribute('update_adobe_analytics_data_source');
+  }
+
+  // update_athena_data_source - computed: true, optional: false, required: false
+  public get updateAthenaDataSource() {
+    return this.getStringAttribute('update_athena_data_source');
+  }
+
+  // update_aurora_data_source - computed: true, optional: false, required: false
+  public get updateAuroraDataSource() {
+    return this.getStringAttribute('update_aurora_data_source');
+  }
+
+  // update_databricks_data_source - computed: true, optional: false, required: false
+  public get updateDatabricksDataSource() {
+    return this.getStringAttribute('update_databricks_data_source');
+  }
+
+  // update_db_2_data_source - computed: true, optional: false, required: false
+  public get updateDb2DataSource() {
+    return this.getStringAttribute('update_db_2_data_source');
+  }
+
+  // update_denodo_data_source - computed: true, optional: false, required: false
+  public get updateDenodoDataSource() {
+    return this.getStringAttribute('update_denodo_data_source');
+  }
+
+  // update_document_db_data_source - computed: true, optional: false, required: false
+  public get updateDocumentDbDataSource() {
+    return this.getStringAttribute('update_document_db_data_source');
+  }
+
+  // update_dremio_data_source - computed: true, optional: false, required: false
+  public get updateDremioDataSource() {
+    return this.getStringAttribute('update_dremio_data_source');
+  }
+
+  // update_dynamo_db_data_source - computed: true, optional: false, required: false
+  public get updateDynamoDbDataSource() {
+    return this.getStringAttribute('update_dynamo_db_data_source');
+  }
+
+  // update_exasol_data_source - computed: true, optional: false, required: false
+  public get updateExasolDataSource() {
+    return this.getStringAttribute('update_exasol_data_source');
+  }
+
+  // update_file_data_source - computed: true, optional: false, required: false
+  public get updateFileDataSource() {
+    return this.getStringAttribute('update_file_data_source');
+  }
+
+  // update_git_hub_data_source - computed: true, optional: false, required: false
+  public get updateGitHubDataSource() {
+    return this.getStringAttribute('update_git_hub_data_source');
+  }
+
+  // update_google_analytics_data_source - computed: true, optional: false, required: false
+  public get updateGoogleAnalyticsDataSource() {
+    return this.getStringAttribute('update_google_analytics_data_source');
+  }
+
+  // update_google_big_query_data_source - computed: true, optional: false, required: false
+  public get updateGoogleBigQueryDataSource() {
+    return this.getStringAttribute('update_google_big_query_data_source');
+  }
+
+  // update_google_sheets_data_source - computed: true, optional: false, required: false
+  public get updateGoogleSheetsDataSource() {
+    return this.getStringAttribute('update_google_sheets_data_source');
+  }
+
+  // update_impala_data_source - computed: true, optional: false, required: false
+  public get updateImpalaDataSource() {
+    return this.getStringAttribute('update_impala_data_source');
+  }
+
+  // update_jira_data_source - computed: true, optional: false, required: false
+  public get updateJiraDataSource() {
+    return this.getStringAttribute('update_jira_data_source');
+  }
+
+  // update_maria_db_data_source - computed: true, optional: false, required: false
+  public get updateMariaDbDataSource() {
+    return this.getStringAttribute('update_maria_db_data_source');
+  }
+
+  // update_mongo_atlas_data_source - computed: true, optional: false, required: false
+  public get updateMongoAtlasDataSource() {
+    return this.getStringAttribute('update_mongo_atlas_data_source');
+  }
+
+  // update_mongo_db_data_source - computed: true, optional: false, required: false
+  public get updateMongoDbDataSource() {
+    return this.getStringAttribute('update_mongo_db_data_source');
+  }
+
+  // update_my_sql_data_source - computed: true, optional: false, required: false
+  public get updateMySqlDataSource() {
+    return this.getStringAttribute('update_my_sql_data_source');
+  }
+
+  // update_open_search_data_source - computed: true, optional: false, required: false
+  public get updateOpenSearchDataSource() {
+    return this.getStringAttribute('update_open_search_data_source');
+  }
+
+  // update_oracle_data_source - computed: true, optional: false, required: false
+  public get updateOracleDataSource() {
+    return this.getStringAttribute('update_oracle_data_source');
+  }
+
+  // update_pay_pal_data_source - computed: true, optional: false, required: false
+  public get updatePayPalDataSource() {
+    return this.getStringAttribute('update_pay_pal_data_source');
+  }
+
+  // update_postgre_sql_data_source - computed: true, optional: false, required: false
+  public get updatePostgreSqlDataSource() {
+    return this.getStringAttribute('update_postgre_sql_data_source');
+  }
+
+  // update_presto_data_source - computed: true, optional: false, required: false
+  public get updatePrestoDataSource() {
+    return this.getStringAttribute('update_presto_data_source');
+  }
+
+  // update_radiant_data_source - computed: true, optional: false, required: false
+  public get updateRadiantDataSource() {
+    return this.getStringAttribute('update_radiant_data_source');
+  }
+
+  // update_rds_data_source - computed: true, optional: false, required: false
+  public get updateRdsDataSource() {
+    return this.getStringAttribute('update_rds_data_source');
+  }
+
+  // update_redshift_auto_discovered_data_source - computed: true, optional: false, required: false
+  public get updateRedshiftAutoDiscoveredDataSource() {
+    return this.getStringAttribute('update_redshift_auto_discovered_data_source');
+  }
+
+  // update_redshift_manual_data_source - computed: true, optional: false, required: false
+  public get updateRedshiftManualDataSource() {
+    return this.getStringAttribute('update_redshift_manual_data_source');
+  }
+
+  // update_s3_analytics_data_source - computed: true, optional: false, required: false
+  public get updateS3AnalyticsDataSource() {
+    return this.getStringAttribute('update_s3_analytics_data_source');
+  }
+
+  // update_s3_data_source - computed: true, optional: false, required: false
+  public get updateS3DataSource() {
+    return this.getStringAttribute('update_s3_data_source');
+  }
+
+  // update_s3_tables_data_source - computed: true, optional: false, required: false
+  public get updateS3TablesDataSource() {
+    return this.getStringAttribute('update_s3_tables_data_source');
+  }
+
+  // update_salesforce_data_source - computed: true, optional: false, required: false
+  public get updateSalesforceDataSource() {
+    return this.getStringAttribute('update_salesforce_data_source');
+  }
+
+  // update_sap_hana_data_source - computed: true, optional: false, required: false
+  public get updateSapHanaDataSource() {
+    return this.getStringAttribute('update_sap_hana_data_source');
+  }
+
+  // update_service_now_data_source - computed: true, optional: false, required: false
+  public get updateServiceNowDataSource() {
+    return this.getStringAttribute('update_service_now_data_source');
+  }
+
+  // update_snowflake_data_source - computed: true, optional: false, required: false
+  public get updateSnowflakeDataSource() {
+    return this.getStringAttribute('update_snowflake_data_source');
+  }
+
+  // update_spark_data_source - computed: true, optional: false, required: false
+  public get updateSparkDataSource() {
+    return this.getStringAttribute('update_spark_data_source');
+  }
+
+  // update_sql_server_data_source - computed: true, optional: false, required: false
+  public get updateSqlServerDataSource() {
+    return this.getStringAttribute('update_sql_server_data_source');
+  }
+
+  // update_square_data_source - computed: true, optional: false, required: false
+  public get updateSquareDataSource() {
+    return this.getStringAttribute('update_square_data_source');
+  }
+
+  // update_starburst_data_source - computed: true, optional: false, required: false
+  public get updateStarburstDataSource() {
+    return this.getStringAttribute('update_starburst_data_source');
+  }
+
+  // update_teradata_data_source - computed: true, optional: false, required: false
+  public get updateTeradataDataSource() {
+    return this.getStringAttribute('update_teradata_data_source');
+  }
+
+  // update_timestream_data_source - computed: true, optional: false, required: false
+  public get updateTimestreamDataSource() {
+    return this.getStringAttribute('update_timestream_data_source');
+  }
+
+  // update_trino_data_source - computed: true, optional: false, required: false
+  public get updateTrinoDataSource() {
+    return this.getStringAttribute('update_trino_data_source');
+  }
+
+  // update_twitter_data_source - computed: true, optional: false, required: false
+  public get updateTwitterDataSource() {
+    return this.getStringAttribute('update_twitter_data_source');
   }
 
   // use_agent_web_search - computed: true, optional: false, required: false
@@ -1001,6 +2066,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('use_bamboo_hr_action');
   }
 
+  // use_bedrock_managed_knowledge_base - computed: true, optional: false, required: false
+  public get useBedrockManagedKnowledgeBase() {
+    return this.getStringAttribute('use_bedrock_managed_knowledge_base');
+  }
+
   // use_bedrock_models - computed: true, optional: false, required: false
   public get useBedrockModels() {
     return this.getStringAttribute('use_bedrock_models');
@@ -1009,6 +2079,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // use_box_agent_action - computed: true, optional: false, required: false
   public get useBoxAgentAction() {
     return this.getStringAttribute('use_box_agent_action');
+  }
+
+  // use_box_knowledge_base - computed: true, optional: false, required: false
+  public get useBoxKnowledgeBase() {
+    return this.getStringAttribute('use_box_knowledge_base');
+  }
+
+  // use_browser_extension - computed: true, optional: false, required: false
+  public get useBrowserExtension() {
+    return this.getStringAttribute('use_browser_extension');
   }
 
   // use_canva_agent_action - computed: true, optional: false, required: false
@@ -1031,6 +2111,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('use_confluence_action');
   }
 
+  // use_confluence_knowledge_base - computed: true, optional: false, required: false
+  public get useConfluenceKnowledgeBase() {
+    return this.getStringAttribute('use_confluence_knowledge_base');
+  }
+
+  // use_excel_add_in_extension - computed: true, optional: false, required: false
+  public get useExcelAddInExtension() {
+    return this.getStringAttribute('use_excel_add_in_extension');
+  }
+
   // use_fact_set_action - computed: true, optional: false, required: false
   public get useFactSetAction() {
     return this.getStringAttribute('use_fact_set_action');
@@ -1051,6 +2141,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('use_google_calendar_action');
   }
 
+  // use_google_drive_knowledge_base - computed: true, optional: false, required: false
+  public get useGoogleDriveKnowledgeBase() {
+    return this.getStringAttribute('use_google_drive_knowledge_base');
+  }
+
   // use_hubspot_action - computed: true, optional: false, required: false
   public get useHubspotAction() {
     return this.getStringAttribute('use_hubspot_action');
@@ -1059,6 +2154,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // use_hugging_face_action - computed: true, optional: false, required: false
   public get useHuggingFaceAction() {
     return this.getStringAttribute('use_hugging_face_action');
+  }
+
+  // use_idc_knowledge_base - computed: true, optional: false, required: false
+  public get useIdcKnowledgeBase() {
+    return this.getStringAttribute('use_idc_knowledge_base');
   }
 
   // use_intercom_action - computed: true, optional: false, required: false
@@ -1111,14 +2211,39 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('use_one_drive_action');
   }
 
+  // use_one_drive_knowledge_base - computed: true, optional: false, required: false
+  public get useOneDriveKnowledgeBase() {
+    return this.getStringAttribute('use_one_drive_knowledge_base');
+  }
+
   // use_open_api_action - computed: true, optional: false, required: false
   public get useOpenApiAction() {
     return this.getStringAttribute('use_open_api_action');
   }
 
+  // use_outlook_add_in_extension - computed: true, optional: false, required: false
+  public get useOutlookAddInExtension() {
+    return this.getStringAttribute('use_outlook_add_in_extension');
+  }
+
   // use_pager_duty_action - computed: true, optional: false, required: false
   public get usePagerDutyAction() {
     return this.getStringAttribute('use_pager_duty_action');
+  }
+
+  // use_powerpoint_add_in_extension - computed: true, optional: false, required: false
+  public get usePowerpointAddInExtension() {
+    return this.getStringAttribute('use_powerpoint_add_in_extension');
+  }
+
+  // use_q_business_knowledge_base - computed: true, optional: false, required: false
+  public get useQBusinessKnowledgeBase() {
+    return this.getStringAttribute('use_q_business_knowledge_base');
+  }
+
+  // use_s3_knowledge_base - computed: true, optional: false, required: false
+  public get useS3KnowledgeBase() {
+    return this.getStringAttribute('use_s3_knowledge_base');
   }
 
   // use_salesforce_action - computed: true, optional: false, required: false
@@ -1171,6 +2296,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('use_share_point_action');
   }
 
+  // use_share_point_knowledge_base - computed: true, optional: false, required: false
+  public get useSharePointKnowledgeBase() {
+    return this.getStringAttribute('use_share_point_knowledge_base');
+  }
+
   // use_slack_action - computed: true, optional: false, required: false
   public get useSlackAction() {
     return this.getStringAttribute('use_slack_action');
@@ -1186,6 +2316,16 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
     return this.getStringAttribute('use_textract_action');
   }
 
+  // use_web_crawler_knowledge_base - computed: true, optional: false, required: false
+  public get useWebCrawlerKnowledgeBase() {
+    return this.getStringAttribute('use_web_crawler_knowledge_base');
+  }
+
+  // use_word_add_in_extension - computed: true, optional: false, required: false
+  public get useWordAddInExtension() {
+    return this.getStringAttribute('use_word_add_in_extension');
+  }
+
   // use_zendesk_action - computed: true, optional: false, required: false
   public get useZendeskAction() {
     return this.getStringAttribute('use_zendesk_action');
@@ -1194,6 +2334,11 @@ export class DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference ext
   // view_account_spice_capacity - computed: true, optional: false, required: false
   public get viewAccountSpiceCapacity() {
     return this.getStringAttribute('view_account_spice_capacity');
+  }
+
+  // web_crawler_knowledge_base - computed: true, optional: false, required: false
+  public get webCrawlerKnowledgeBase() {
+    return this.getStringAttribute('web_crawler_knowledge_base');
   }
 
   // zendesk_action - computed: true, optional: false, required: false
@@ -1283,7 +2428,7 @@ export class DataAwsccQuicksightCustomPermissionsTagsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions}
 */
 export class DataAwsccQuicksightCustomPermissions extends cdktn.TerraformDataSource {
 
@@ -1299,7 +2444,7 @@ export class DataAwsccQuicksightCustomPermissions extends cdktn.TerraformDataSou
   * Generates CDKTN code for importing a DataAwsccQuicksightCustomPermissions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccQuicksightCustomPermissions to import
-  * @param importFromId The id of the existing DataAwsccQuicksightCustomPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccQuicksightCustomPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccQuicksightCustomPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1311,7 +2456,7 @@ export class DataAwsccQuicksightCustomPermissions extends cdktn.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1322,7 +2467,7 @@ export class DataAwsccQuicksightCustomPermissions extends cdktn.TerraformDataSou
       terraformResourceType: 'awscc_quicksight_custom_permissions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

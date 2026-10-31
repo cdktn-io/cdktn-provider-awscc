@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/licensemanager_report_generator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccLicensemanagerReportGeneratorConfig extends cdktn.Terr
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generator#id DataAwsccLicensemanagerReportGenerator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/licensemanager_report_generator#id DataAwsccLicensemanagerReportGenerator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -291,7 +291,7 @@ export class DataAwsccLicensemanagerReportGeneratorTagsList extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generator awscc_licensemanager_report_generator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/licensemanager_report_generator awscc_licensemanager_report_generator}
 */
 export class DataAwsccLicensemanagerReportGenerator extends cdktn.TerraformDataSource {
 
@@ -307,7 +307,7 @@ export class DataAwsccLicensemanagerReportGenerator extends cdktn.TerraformDataS
   * Generates CDKTN code for importing a DataAwsccLicensemanagerReportGenerator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccLicensemanagerReportGenerator to import
-  * @param importFromId The id of the existing DataAwsccLicensemanagerReportGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccLicensemanagerReportGenerator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/licensemanager_report_generator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccLicensemanagerReportGenerator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -319,7 +319,7 @@ export class DataAwsccLicensemanagerReportGenerator extends cdktn.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generator awscc_licensemanager_report_generator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/licensemanager_report_generator awscc_licensemanager_report_generator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,7 +330,7 @@ export class DataAwsccLicensemanagerReportGenerator extends cdktn.TerraformDataS
       terraformResourceType: 'awscc_licensemanager_report_generator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

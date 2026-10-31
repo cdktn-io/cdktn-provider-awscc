@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codedeploy_deployment_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCodedeployDeploymentGroupConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group#id DataAwsccCodedeployDeploymentGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codedeploy_deployment_group#id DataAwsccCodedeployDeploymentGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -781,6 +781,60 @@ export class DataAwsccCodedeployDeploymentGroupDeploymentStyleOutputReference ex
   // deployment_type - computed: true, optional: false, required: false
   public get deploymentType() {
     return this.getStringAttribute('deployment_type');
+  }
+}
+export interface DataAwsccCodedeployDeploymentGroupEc2DeploymentOptions {
+}
+
+export function dataAwsccCodedeployDeploymentGroupEc2DeploymentOptionsToTerraform(struct?: DataAwsccCodedeployDeploymentGroupEc2DeploymentOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCodedeployDeploymentGroupEc2DeploymentOptionsToHclTerraform(struct?: DataAwsccCodedeployDeploymentGroupEc2DeploymentOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCodedeployDeploymentGroupEc2DeploymentOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccCodedeployDeploymentGroupEc2DeploymentOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCodedeployDeploymentGroupEc2DeploymentOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // auto_scaling_group_processes_to_suspend - computed: true, optional: false, required: false
+  public get autoScalingGroupProcessesToSuspend() {
+    return cdktn.Fn.tolist(this.getListAttribute('auto_scaling_group_processes_to_suspend'));
   }
 }
 export interface DataAwsccCodedeployDeploymentGroupEc2TagFilters {
@@ -2120,7 +2174,7 @@ export class DataAwsccCodedeployDeploymentGroupTriggerConfigurationsList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group}
 */
 export class DataAwsccCodedeployDeploymentGroup extends cdktn.TerraformDataSource {
 
@@ -2136,7 +2190,7 @@ export class DataAwsccCodedeployDeploymentGroup extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccCodedeployDeploymentGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCodedeployDeploymentGroup to import
-  * @param importFromId The id of the existing DataAwsccCodedeployDeploymentGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCodedeployDeploymentGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codedeploy_deployment_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCodedeployDeploymentGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2148,7 +2202,7 @@ export class DataAwsccCodedeployDeploymentGroup extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2159,7 +2213,7 @@ export class DataAwsccCodedeployDeploymentGroup extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_codedeploy_deployment_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2225,6 +2279,12 @@ export class DataAwsccCodedeployDeploymentGroup extends cdktn.TerraformDataSourc
   private _deploymentStyle = new DataAwsccCodedeployDeploymentGroupDeploymentStyleOutputReference(this, "deployment_style");
   public get deploymentStyle() {
     return this._deploymentStyle;
+  }
+
+  // ec_2_deployment_options - computed: true, optional: false, required: false
+  private _ec2DeploymentOptions = new DataAwsccCodedeployDeploymentGroupEc2DeploymentOptionsOutputReference(this, "ec_2_deployment_options");
+  public get ec2DeploymentOptions() {
+    return this._ec2DeploymentOptions;
   }
 
   // ec_2_tag_filters - computed: true, optional: false, required: false

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface LambdaWebFunctionRevisionConfig extends cdktn.TerraformMetaArgu
   /**
   * The build configuration for the revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#build_config LambdaWebFunctionRevision#build_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#build_config LambdaWebFunctionRevision#build_config}
   */
   readonly buildConfig: LambdaWebFunctionRevisionBuildConfig;
   /**
   * A description of the revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#description LambdaWebFunctionRevision#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#description LambdaWebFunctionRevision#description}
   */
   readonly description?: string;
   /**
   * The name of the web function this revision belongs to. The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#function_name LambdaWebFunctionRevision#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#function_name LambdaWebFunctionRevision#function_name}
   */
   readonly functionName: string;
   /**
   * The ARN of the KMS key used to encrypt the revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#kms_key_arn LambdaWebFunctionRevision#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#kms_key_arn LambdaWebFunctionRevision#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The service configuration for the revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#service_config LambdaWebFunctionRevision#service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#service_config LambdaWebFunctionRevision#service_config}
   */
   readonly serviceConfig: LambdaWebFunctionRevisionServiceConfig;
 }
@@ -47,19 +47,19 @@ export interface LambdaWebFunctionRevisionBuildConfigCodeConfigS3Object {
   /**
   * The S3 bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#bucket LambdaWebFunctionRevision#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#bucket LambdaWebFunctionRevision#bucket}
   */
   readonly bucket: string;
   /**
   * The S3 object key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#key LambdaWebFunctionRevision#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#key LambdaWebFunctionRevision#key}
   */
   readonly key: string;
   /**
   * The S3 object version ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#version_id LambdaWebFunctionRevision#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#version_id LambdaWebFunctionRevision#version_id}
   */
   readonly versionId?: string;
 }
@@ -207,7 +207,7 @@ export interface LambdaWebFunctionRevisionBuildConfigCodeConfig {
   /**
   * The Amazon S3 location of the deployment artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#s3_object LambdaWebFunctionRevision#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#s3_object LambdaWebFunctionRevision#s3_object}
   */
   readonly s3Object: LambdaWebFunctionRevisionBuildConfigCodeConfigS3Object;
 }
@@ -300,7 +300,7 @@ export interface LambdaWebFunctionRevisionBuildConfigRuntimeConfig {
   /**
   * The runtime identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#runtime LambdaWebFunctionRevision#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#runtime LambdaWebFunctionRevision#runtime}
   */
   readonly runtime: string;
 }
@@ -393,13 +393,13 @@ export interface LambdaWebFunctionRevisionBuildConfig {
   /**
   * The code configuration for the revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#code_config LambdaWebFunctionRevision#code_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#code_config LambdaWebFunctionRevision#code_config}
   */
   readonly codeConfig: LambdaWebFunctionRevisionBuildConfigCodeConfig;
   /**
   * The runtime configuration for the revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#runtime_config LambdaWebFunctionRevision#runtime_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#runtime_config LambdaWebFunctionRevision#runtime_config}
   */
   readonly runtimeConfig: LambdaWebFunctionRevisionBuildConfigRuntimeConfig;
 }
@@ -518,19 +518,19 @@ export interface LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingCon
   /**
   * The application log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#application_log_level LambdaWebFunctionRevision#application_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#application_log_level LambdaWebFunctionRevision#application_log_level}
   */
   readonly applicationLogLevel?: string;
   /**
   * The CloudWatch log group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#log_group LambdaWebFunctionRevision#log_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#log_group LambdaWebFunctionRevision#log_group}
   */
   readonly logGroup?: string;
   /**
   * The system log level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#system_log_level LambdaWebFunctionRevision#system_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#system_log_level LambdaWebFunctionRevision#system_log_level}
   */
   readonly systemLogLevel?: string;
 }
@@ -684,7 +684,7 @@ export interface LambdaWebFunctionRevisionServiceConfigTelemetryConfig {
   /**
   * The logging configuration for the web function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#logging_config LambdaWebFunctionRevision#logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#logging_config LambdaWebFunctionRevision#logging_config}
   */
   readonly loggingConfig?: LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig;
 }
@@ -780,37 +780,37 @@ export interface LambdaWebFunctionRevisionServiceConfig {
   /**
   * The versioned ARN of the network connector used for outbound network access from the revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#egress_network_connector_arn LambdaWebFunctionRevision#egress_network_connector_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#egress_network_connector_arn LambdaWebFunctionRevision#egress_network_connector_arn}
   */
   readonly egressNetworkConnectorArn?: string;
   /**
   * Environment variables for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#environment_variables LambdaWebFunctionRevision#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#environment_variables LambdaWebFunctionRevision#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
   * The ARN of the execution role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#execution_role_arn LambdaWebFunctionRevision#execution_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#execution_role_arn LambdaWebFunctionRevision#execution_role_arn}
   */
   readonly executionRoleArn: string;
   /**
   * The maximum concurrency per environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#max_concurrency_per_environment LambdaWebFunctionRevision#max_concurrency_per_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#max_concurrency_per_environment LambdaWebFunctionRevision#max_concurrency_per_environment}
   */
   readonly maxConcurrencyPerEnvironment?: number;
   /**
   * The telemetry configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#telemetry_config LambdaWebFunctionRevision#telemetry_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#telemetry_config LambdaWebFunctionRevision#telemetry_config}
   */
   readonly telemetryConfig?: LambdaWebFunctionRevisionServiceConfigTelemetryConfig;
   /**
   * The function timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#timeout_seconds LambdaWebFunctionRevision#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#timeout_seconds LambdaWebFunctionRevision#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1046,7 +1046,7 @@ export class LambdaWebFunctionRevisionServiceConfigOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision awscc_lambda_web_function_revision}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision awscc_lambda_web_function_revision}
 */
 export class LambdaWebFunctionRevision extends cdktn.TerraformResource {
 
@@ -1062,7 +1062,7 @@ export class LambdaWebFunctionRevision extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LambdaWebFunctionRevision resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LambdaWebFunctionRevision to import
-  * @param importFromId The id of the existing LambdaWebFunctionRevision that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LambdaWebFunctionRevision that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LambdaWebFunctionRevision to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1074,7 +1074,7 @@ export class LambdaWebFunctionRevision extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function_revision awscc_lambda_web_function_revision} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_web_function_revision awscc_lambda_web_function_revision} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1085,7 +1085,7 @@ export class LambdaWebFunctionRevision extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_lambda_web_function_revision',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,43 @@ export interface OmicsConfigurationConfig extends cdktn.TerraformMetaArguments {
   /**
   * Optional description for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
   */
   readonly description?: string;
   /**
   * User-friendly name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
   */
   readonly name: string;
   /**
   * Required run-specific configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
   */
   readonly runConfigurations: OmicsConfigurationRunConfigurations;
   /**
   * Tags for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 export interface OmicsConfigurationRunConfigurationsVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}
   */
   readonly subnetIds?: string[];
+  /**
+  * The Amazon Web Services account ID of the cross-account VPC owner for RAM-shared VPC configurations.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#vpc_owner_account_id OmicsConfiguration#vpc_owner_account_id}
+  */
+  readonly vpcOwnerAccountId?: string;
 }
 
 export function omicsConfigurationRunConfigurationsVpcConfigToTerraform(struct?: OmicsConfigurationRunConfigurationsVpcConfig | cdktn.IResolvable): any {
@@ -56,6 +62,7 @@ export function omicsConfigurationRunConfigurationsVpcConfigToTerraform(struct?:
   return {
     security_group_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.securityGroupIds),
     subnet_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.subnetIds),
+    vpc_owner_account_id: cdktn.stringToTerraform(struct!.vpcOwnerAccountId),
   }
 }
 
@@ -77,6 +84,12 @@ export function omicsConfigurationRunConfigurationsVpcConfigToHclTerraform(struc
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    vpc_owner_account_id: {
+      value: cdktn.stringToHclTerraform(struct!.vpcOwnerAccountId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
   };
 
@@ -110,6 +123,10 @@ export class OmicsConfigurationRunConfigurationsVpcConfigOutputReference extends
       hasAnyValues = true;
       internalValueResult.subnetIds = this._subnetIds;
     }
+    if (this._vpcOwnerAccountId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vpcOwnerAccountId = this._vpcOwnerAccountId;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -119,6 +136,7 @@ export class OmicsConfigurationRunConfigurationsVpcConfigOutputReference extends
       this.resolvableValue = undefined;
       this._securityGroupIds = undefined;
       this._subnetIds = undefined;
+      this._vpcOwnerAccountId = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -129,6 +147,7 @@ export class OmicsConfigurationRunConfigurationsVpcConfigOutputReference extends
       this.resolvableValue = undefined;
       this._securityGroupIds = value.securityGroupIds;
       this._subnetIds = value.subnetIds;
+      this._vpcOwnerAccountId = value.vpcOwnerAccountId;
     }
   }
 
@@ -163,10 +182,26 @@ export class OmicsConfigurationRunConfigurationsVpcConfigOutputReference extends
   public get subnetIdsInput() {
     return this._subnetIds;
   }
+
+  // vpc_owner_account_id - computed: true, optional: true, required: false
+  private _vpcOwnerAccountId?: string; 
+  public get vpcOwnerAccountId() {
+    return this.getStringAttribute('vpc_owner_account_id');
+  }
+  public set vpcOwnerAccountId(value: string) {
+    this._vpcOwnerAccountId = value;
+  }
+  public resetVpcOwnerAccountId() {
+    this._vpcOwnerAccountId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcOwnerAccountIdInput() {
+    return this._vpcOwnerAccountId;
+  }
 }
 export interface OmicsConfigurationRunConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}
   */
   readonly vpcConfig?: OmicsConfigurationRunConfigurationsVpcConfig;
 }
@@ -260,7 +295,7 @@ export class OmicsConfigurationRunConfigurationsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration awscc_omics_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration awscc_omics_configuration}
 */
 export class OmicsConfiguration extends cdktn.TerraformResource {
 
@@ -276,7 +311,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a OmicsConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OmicsConfiguration to import
-  * @param importFromId The id of the existing OmicsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OmicsConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OmicsConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -288,7 +323,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration awscc_omics_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration awscc_omics_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -299,7 +334,7 @@ export class OmicsConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_omics_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

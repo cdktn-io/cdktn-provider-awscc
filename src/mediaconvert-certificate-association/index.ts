@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_certificate_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface MediaconvertCertificateAssociationConfig extends cdktn.Terrafor
   /**
   * The ARN of the ACM certificate to associate with MediaConvert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_certificate_association#arn MediaconvertCertificateAssociation#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association#arn MediaconvertCertificateAssociation#arn}
   */
   readonly arn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association}
 */
 export class MediaconvertCertificateAssociation extends cdktn.TerraformResource {
 
@@ -37,7 +37,7 @@ export class MediaconvertCertificateAssociation extends cdktn.TerraformResource 
   * Generates CDKTN code for importing a MediaconvertCertificateAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconvertCertificateAssociation to import
-  * @param importFromId The id of the existing MediaconvertCertificateAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_certificate_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconvertCertificateAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconvertCertificateAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -49,7 +49,7 @@ export class MediaconvertCertificateAssociation extends cdktn.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,7 +60,7 @@ export class MediaconvertCertificateAssociation extends cdktn.TerraformResource 
       terraformResourceType: 'awscc_mediaconvert_certificate_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.107.0',
+        providerVersion: '1.108.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
