@@ -4,7 +4,7 @@
 
 ### TransferHostKey <a name="TransferHostKey" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key awscc_transfer_host_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key awscc_transfer_host_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferHostKey.TransferHostKey.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the TransferHostKey to import.
 
 The id of the existing TransferHostKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1065,7 +1065,7 @@ public string ServerId { get; set; }
 
 The identifier of the server that contains the host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
 
 ---
 
@@ -1079,7 +1079,7 @@ public string Description { get; set; }
 
 The text description for this host key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#description TransferHostKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#description TransferHostKey#description}
 
 ---
 
@@ -1093,7 +1093,7 @@ public string HostKeyBody { get; set; }
 
 The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
 
 ---
 
@@ -1109,7 +1109,7 @@ The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Sec
 
 Applies only when StorageType is SECRETS_MANAGER. If omitted, the AWS managed key is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#kms_key TransferHostKey#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#kms_key TransferHostKey#kms_key}
 
 ---
 
@@ -1125,7 +1125,7 @@ The type of storage used for the host key.
 
 SERVICE_MANAGED keys are stored within the Transfer Family service. SECRETS_MANAGER keys are stored in an AWS Secrets Manager secret in your account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#storage_type TransferHostKey#storage_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#storage_type TransferHostKey#storage_type}
 
 ---
 
@@ -1139,7 +1139,7 @@ public IResolvable|TransferHostKeyTags[] Tags { get; set; }
 
 Key-value pairs that can be used to group and search for host keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
 
 ---
 
@@ -1175,7 +1175,7 @@ public string Key { get; set; }
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#key TransferHostKey#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#key TransferHostKey#key}
 
 ---
 
@@ -1189,7 +1189,7 @@ public string Value { get; set; }
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#value TransferHostKey#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_host_key#value TransferHostKey#value}
 
 ---
 

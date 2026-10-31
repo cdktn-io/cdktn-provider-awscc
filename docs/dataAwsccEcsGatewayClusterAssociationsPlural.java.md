@@ -4,7 +4,7 @@
 
 ### DataAwsccEcsGatewayClusterAssociationsPlural <a name="DataAwsccEcsGatewayClusterAssociationsPlural" id="@cdktn/provider-awscc.dataAwsccEcsGatewayClusterAssociationsPlural.DataAwsccEcsGatewayClusterAssociationsPlural"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_gateway_cluster_associations_plural awscc_ecs_gateway_cluster_associations_plural}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway_cluster_associations_plural awscc_ecs_gateway_cluster_associations_plural}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsGatewayClusterAssociationsPlural.DataAwsccEcsGatewayClusterAssociationsPlural.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEcsGatewayCluster
 
 The id of the existing DataAwsccEcsGatewayClusterAssociationsPlural that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_gateway_cluster_associations_plural#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway_cluster_associations_plural#import import section} in the documentation of this resource for the id to use
 
 ---
 

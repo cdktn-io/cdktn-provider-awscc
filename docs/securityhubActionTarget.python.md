@@ -4,7 +4,7 @@
 
 ### SecurityhubActionTarget <a name="SecurityhubActionTarget" id="@cdktn/provider-awscc.securityhubActionTarget.SecurityhubActionTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target awscc_securityhub_action_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target awscc_securityhub_action_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubActionTarget.SecurityhubActionTarget.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The ID for the custom action target. Can contain up to 20 alphanumeric characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#action_target_id SecurityhubActionTarget#action_target_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#action_target_id SecurityhubActionTarget#action_target_id}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description for the custom action target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#description SecurityhubActionTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#description SecurityhubActionTarget#description}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the custom action target. Can contain up to 20 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#name SecurityhubActionTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#name SecurityhubActionTarget#name}
 
 ---
 
@@ -627,7 +627,7 @@ The construct id used in the generated config for the SecurityhubActionTarget to
 
 The id of the existing SecurityhubActionTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1028,7 +1028,7 @@ action_target_id: str
 
 The ID for the custom action target. Can contain up to 20 alphanumeric characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#action_target_id SecurityhubActionTarget#action_target_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#action_target_id SecurityhubActionTarget#action_target_id}
 
 ---
 
@@ -1042,7 +1042,7 @@ description: str
 
 The description for the custom action target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#description SecurityhubActionTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#description SecurityhubActionTarget#description}
 
 ---
 
@@ -1056,7 +1056,7 @@ name: str
 
 The name of the custom action target. Can contain up to 20 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_action_target#name SecurityhubActionTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/securityhub_action_target#name SecurityhubActionTarget#name}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccAutoscalingplansScalingPlans <a name="DataAwsccAutoscalingplansScalingPlans" id="@cdktn/provider-awscc.dataAwsccAutoscalingplansScalingPlans.DataAwsccAutoscalingplansScalingPlans"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscalingplans_scaling_plans awscc_autoscalingplans_scaling_plans}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/autoscalingplans_scaling_plans awscc_autoscalingplans_scaling_plans}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAutoscalingplansScalingPlans.DataAwsccAutoscalingplansScalingPlans.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAutoscalingplansS
 
 The id of the existing DataAwsccAutoscalingplansScalingPlans that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscalingplans_scaling_plans#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/autoscalingplans_scaling_plans#import import section} in the documentation of this resource for the id to use
 
 ---
 

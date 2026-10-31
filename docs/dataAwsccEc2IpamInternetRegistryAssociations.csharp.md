@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2IpamInternetRegistryAssociations <a name="DataAwsccEc2IpamInternetRegistryAssociations" id="@cdktn/provider-awscc.dataAwsccEc2IpamInternetRegistryAssociations.DataAwsccEc2IpamInternetRegistryAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_internet_registry_associations awscc_ec2_ipam_internet_registry_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_ipam_internet_registry_associations awscc_ec2_ipam_internet_registry_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IpamInternetRegistryAssociations.DataAwsccEc2IpamInternetRegistryAssociations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2IpamInternetRe
 
 The id of the existing DataAwsccEc2IpamInternetRegistryAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_internet_registry_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_ipam_internet_registry_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

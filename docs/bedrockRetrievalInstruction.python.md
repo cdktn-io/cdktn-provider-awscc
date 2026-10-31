@@ -4,7 +4,7 @@
 
 ### BedrockRetrievalInstruction <a name="BedrockRetrievalInstruction" id="@cdktn/provider-awscc.bedrockRetrievalInstruction.BedrockRetrievalInstruction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction awscc_bedrock_retrieval_instruction}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction awscc_bedrock_retrieval_instruction}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bedrockRetrievalInstruction.BedrockRetrievalInstruction.Initializer"></a>
 
@@ -116,7 +116,7 @@ The reviewed content this instruction serves ?
 
 what AgenticRetrieveStream resolves while status is ACTIVE. Absent until the first create review passes. Always present on a numbered version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#instruction BedrockRetrievalInstruction#instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#instruction BedrockRetrievalInstruction#instruction}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the retrieval instruction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#name BedrockRetrievalInstruction#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#name BedrockRetrievalInstruction#name}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the customer managed KMS key protecting this content, when one was supplied at create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#customer_encryption_key_arn BedrockRetrievalInstruction#customer_encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#customer_encryption_key_arn BedrockRetrievalInstruction#customer_encryption_key_arn}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the retrieval instruction. On a numbered version, the description of that version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#description BedrockRetrievalInstruction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#description BedrockRetrievalInstruction#description}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#tags BedrockRetrievalInstruction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#tags BedrockRetrievalInstruction#tags}
 
 ---
 
@@ -561,7 +561,7 @@ def put_instruction(
 
 How the answer is structured, including how sources are cited.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#answer_format BedrockRetrievalInstruction#answer_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#answer_format BedrockRetrievalInstruction#answer_format}
 
 ---
 
@@ -571,7 +571,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether and how to answer: how strongly an answer must be supported, and what to do with questions outside scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#answer_policy BedrockRetrievalInstruction#answer_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#answer_policy BedrockRetrievalInstruction#answer_policy}
 
 ---
 
@@ -581,7 +581,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Who the assistant is: identity, tone and language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#persona BedrockRetrievalInstruction#persona}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#persona BedrockRetrievalInstruction#persona}
 
 ---
 
@@ -591,7 +591,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 How to interpret and decompose the question, and what to prioritise when searching.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#retrieval_guidance BedrockRetrievalInstruction#retrieval_guidance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#retrieval_guidance BedrockRetrievalInstruction#retrieval_guidance}
 
 ---
 
@@ -741,7 +741,7 @@ The construct id used in the generated config for the BedrockRetrievalInstructio
 
 The id of the existing BedrockRetrievalInstruction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1247,7 +1247,7 @@ The reviewed content this instruction serves ?
 
 what AgenticRetrieveStream resolves while status is ACTIVE. Absent until the first create review passes. Always present on a numbered version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#instruction BedrockRetrievalInstruction#instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#instruction BedrockRetrievalInstruction#instruction}
 
 ---
 
@@ -1261,7 +1261,7 @@ name: str
 
 The name of the retrieval instruction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#name BedrockRetrievalInstruction#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#name BedrockRetrievalInstruction#name}
 
 ---
 
@@ -1275,7 +1275,7 @@ customer_encryption_key_arn: str
 
 The ARN of the customer managed KMS key protecting this content, when one was supplied at create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#customer_encryption_key_arn BedrockRetrievalInstruction#customer_encryption_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#customer_encryption_key_arn BedrockRetrievalInstruction#customer_encryption_key_arn}
 
 ---
 
@@ -1289,7 +1289,7 @@ description: str
 
 A description of the retrieval instruction. On a numbered version, the description of that version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#description BedrockRetrievalInstruction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#description BedrockRetrievalInstruction#description}
 
 ---
 
@@ -1303,7 +1303,7 @@ tags: IResolvable | typing.List[BedrockRetrievalInstructionTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#tags BedrockRetrievalInstruction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#tags BedrockRetrievalInstruction#tags}
 
 ---
 
@@ -1343,7 +1343,7 @@ answer_format: str
 
 How the answer is structured, including how sources are cited.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#answer_format BedrockRetrievalInstruction#answer_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#answer_format BedrockRetrievalInstruction#answer_format}
 
 ---
 
@@ -1357,7 +1357,7 @@ answer_policy: str
 
 Whether and how to answer: how strongly an answer must be supported, and what to do with questions outside scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#answer_policy BedrockRetrievalInstruction#answer_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#answer_policy BedrockRetrievalInstruction#answer_policy}
 
 ---
 
@@ -1371,7 +1371,7 @@ persona: str
 
 Who the assistant is: identity, tone and language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#persona BedrockRetrievalInstruction#persona}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#persona BedrockRetrievalInstruction#persona}
 
 ---
 
@@ -1385,7 +1385,7 @@ retrieval_guidance: str
 
 How to interpret and decompose the question, and what to prioritise when searching.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#retrieval_guidance BedrockRetrievalInstruction#retrieval_guidance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#retrieval_guidance BedrockRetrievalInstruction#retrieval_guidance}
 
 ---
 
@@ -1421,7 +1421,7 @@ key: str
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#key BedrockRetrievalInstruction#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#key BedrockRetrievalInstruction#key}
 
 ---
 
@@ -1435,7 +1435,7 @@ value: str
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#value BedrockRetrievalInstruction#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#value BedrockRetrievalInstruction#value}
 
 ---
 

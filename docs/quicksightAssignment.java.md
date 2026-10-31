@@ -4,7 +4,7 @@
 
 ### QuicksightAssignment <a name="QuicksightAssignment" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment awscc_quicksight_assignment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment awscc_quicksight_assignment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightAssignment.QuicksightAssignment.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the assignment, also called a rule. The name must be unique within the AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The status of the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The namespace that contains the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
 
 ---
 
@@ -144,7 +144,7 @@ The QuickSight users, groups, or both that you want to assign the policy to.
 
 This maps identity type to a list of identity names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN for the IAM policy to apply to the QuickSight users and groups specified in this assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
 
 ---
 
@@ -617,7 +617,7 @@ The construct id used in the generated config for the QuicksightAssignment to im
 
 The id of the existing QuicksightAssignment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1077,7 +1077,7 @@ public java.lang.String getAssignmentName();
 
 The name of the assignment, also called a rule. The name must be unique within the AWS account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
 
 ---
 
@@ -1091,7 +1091,7 @@ public java.lang.String getAssignmentStatus();
 
 The status of the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
 
 ---
 
@@ -1105,7 +1105,7 @@ public java.lang.String getNamespace();
 
 The namespace that contains the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
 
 ---
 
@@ -1121,7 +1121,7 @@ The QuickSight users, groups, or both that you want to assign the policy to.
 
 This maps identity type to a list of identity names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
 
 ---
 
@@ -1135,7 +1135,7 @@ public java.lang.String getPolicyArn();
 
 The ARN for the IAM policy to apply to the QuickSight users and groups specified in this assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccMediaconvertCertificateAssociations <a name="DataAwsccMediaconvertCertificateAssociations" id="@cdktn/provider-awscc.dataAwsccMediaconvertCertificateAssociations.DataAwsccMediaconvertCertificateAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_certificate_associations awscc_mediaconvert_certificate_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconvert_certificate_associations awscc_mediaconvert_certificate_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconvertCertificateAssociations.DataAwsccMediaconvertCertificateAssociations.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMediaconvertCerti
 
 The id of the existing DataAwsccMediaconvertCertificateAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_certificate_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconvert_certificate_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

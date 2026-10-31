@@ -4,7 +4,7 @@
 
 ### DevopsagentService <a name="DevopsagentService" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer"></a>
 
@@ -564,7 +564,7 @@ The construct id used in the generated config for the DevopsagentService to impo
 
 The id of the existing DevopsagentService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1234,7 +1234,7 @@ public readonly serviceType: string;
 
 The type of service being registered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
 
 ---
 
@@ -1250,7 +1250,7 @@ The name of the private connection to use for OAuth token exchange requests only
 
 Cannot be specified when PrivateConnectionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
 
 ---
 
@@ -1264,7 +1264,7 @@ public readonly kmsKeyArn: string;
 
 The ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
 
 ---
 
@@ -1278,7 +1278,7 @@ public readonly name: string;
 
 The display name for the service registration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -1292,7 +1292,7 @@ public readonly privateConnectionName: string;
 
 The name of the private connection to use for VPC connectivity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
 
 ---
 
@@ -1306,7 +1306,7 @@ public readonly serviceDetails: DevopsagentServiceServiceDetails;
 
 Service-specific configuration details for create operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
 
 ---
 
@@ -1320,7 +1320,7 @@ public readonly tags: IResolvable | DevopsagentServiceTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
 
 ---
 
@@ -1336,7 +1336,7 @@ The name of the private connection to use for API calls (target URL) only.
 
 Cannot be specified when PrivateConnectionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
 
 ---
 
@@ -1378,7 +1378,7 @@ public readonly azureIdentity: DevopsagentServiceServiceDetailsAzureIdentity;
 
 Azure Identity service configuration for federated identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
 
 ---
 
@@ -1392,7 +1392,7 @@ public readonly dynatrace: DevopsagentServiceServiceDetailsDynatrace;
 
 Dynatrace service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
 
 ---
 
@@ -1406,7 +1406,7 @@ public readonly gitHub: DevopsagentServiceServiceDetailsGitHub;
 
 GitHub personal access token (PAT) service configuration. Exactly one of AppVerification or DirectAccess selects how the token is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#git_hub DevopsagentService#git_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#git_hub DevopsagentService#git_hub}
 
 ---
 
@@ -1420,7 +1420,7 @@ public readonly gitLab: DevopsagentServiceServiceDetailsGitLab;
 
 GitLab service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
 
 ---
 
@@ -1434,7 +1434,7 @@ public readonly mcpServer: DevopsagentServiceServiceDetailsMcpServer;
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
 
 ---
 
@@ -1448,7 +1448,7 @@ public readonly mcpServerGrafana: DevopsagentServiceServiceDetailsMcpServerGrafa
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
 
 ---
 
@@ -1462,7 +1462,7 @@ public readonly mcpServerNewRelic: DevopsagentServiceServiceDetailsMcpServerNewR
 
 New Relic service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
 
 ---
 
@@ -1476,7 +1476,7 @@ public readonly mcpServerSigV4: DevopsagentServiceServiceDetailsMcpServerSigV4;
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
 
 ---
 
@@ -1490,7 +1490,7 @@ public readonly mcpServerSplunk: DevopsagentServiceServiceDetailsMcpServerSplunk
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
 
 ---
 
@@ -1504,7 +1504,7 @@ public readonly pagerDuty: DevopsagentServiceServiceDetailsPagerDuty;
 
 PagerDuty service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
 
 ---
 
@@ -1518,7 +1518,7 @@ public readonly serviceNow: DevopsagentServiceServiceDetailsServiceNow;
 
 ServiceNow service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
 
 ---
 
@@ -1553,7 +1553,7 @@ public readonly clientId: string;
 
 Azure AD application client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -1567,7 +1567,7 @@ public readonly tenantId: string;
 
 Azure AD tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
 
 ---
 
@@ -1581,7 +1581,7 @@ public readonly webIdentityRoleArn: string;
 
 ARN of the IAM role for web identity token exchange.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
 
 ---
 
@@ -1595,7 +1595,7 @@ public readonly webIdentityTokenAudiences: string[];
 
 List of audiences for the web identity token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
 
 ---
 
@@ -1628,7 +1628,7 @@ public readonly accountUrn: string;
 
 Dynatrace resource account URN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
 
 ---
 
@@ -1642,7 +1642,7 @@ public readonly authorizationConfig: DevopsagentServiceServiceDetailsDynatraceAu
 
 Dynatrace OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -1674,7 +1674,7 @@ public readonly oAuthClientCredentials: DevopsagentServiceServiceDetailsDynatrac
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -1709,7 +1709,7 @@ public readonly clientId: string;
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -1723,7 +1723,7 @@ public readonly clientName: string;
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -1737,7 +1737,7 @@ public readonly clientSecret: string;
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -1751,7 +1751,7 @@ public readonly exchangeParameters: string;
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -1784,7 +1784,7 @@ public readonly appVerification: DevopsagentServiceServiceDetailsGitHubAppVerifi
 
 The token verifies an existing DevOps Agent GitHub App installation on github.com and is then discarded. Not supported for GitHub Enterprise Server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#app_verification DevopsagentService#app_verification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#app_verification DevopsagentService#app_verification}
 
 ---
 
@@ -1798,7 +1798,7 @@ public readonly directAccess: DevopsagentServiceServiceDetailsGitHubDirectAccess
 
 The token is stored and used as the long-lived credential for GitHub API access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#direct_access DevopsagentService#direct_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#direct_access DevopsagentService#direct_access}
 
 ---
 
@@ -1833,7 +1833,7 @@ public readonly appVariant: string;
 
 Permission variant of the DevOps Agent GitHub App that must already be installed on the organization or account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#app_variant DevopsagentService#app_variant}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#app_variant DevopsagentService#app_variant}
 
 ---
 
@@ -1849,7 +1849,7 @@ GitHub organization to scope the service to.
 
 The token must be an active member of the organization and only that organization's repositories are accessible. Omit to register the token's own user account
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
 
 ---
 
@@ -1865,7 +1865,7 @@ GitHub instance URL.
 
 Omit for github.com. Provide the instance host for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency (e.g. https://github.example.com)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 
 ---
 
@@ -1879,7 +1879,7 @@ public readonly tokenValue: string;
 
 GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -1915,7 +1915,7 @@ GitHub organization to scope the service to.
 
 The token must be an active member of the organization and only that organization's repositories are accessible. Omit to register the token's own user account
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
 
 ---
 
@@ -1931,7 +1931,7 @@ GitHub instance URL.
 
 Omit for github.com. Provide the instance host for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency (e.g. https://github.example.com)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 
 ---
 
@@ -1945,7 +1945,7 @@ public readonly tokenValue: string;
 
 GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -1980,7 +1980,7 @@ public readonly groupId: string;
 
 Optional GitLab group ID for group-level access tokens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
 
 ---
 
@@ -1994,7 +1994,7 @@ public readonly targetUrl: string;
 
 GitLab instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 
 ---
 
@@ -2008,7 +2008,7 @@ public readonly tokenType: string;
 
 Type of GitLab access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
 
 ---
 
@@ -2022,7 +2022,7 @@ public readonly tokenValue: string;
 
 GitLab access token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2057,7 +2057,7 @@ public readonly authorizationConfig: DevopsagentServiceServiceDetailsMcpServerAu
 
 MCP server authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2071,7 +2071,7 @@ public readonly description: string;
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2085,7 +2085,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2099,7 +2099,7 @@ public readonly name: string;
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2133,7 +2133,7 @@ public readonly apiKey: DevopsagentServiceServiceDetailsMcpServerAuthorizationCo
 
 API key authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2147,7 +2147,7 @@ public readonly bearerToken: DevopsagentServiceServiceDetailsMcpServerAuthorizat
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -2161,7 +2161,7 @@ public readonly oAuthClientCredentials: DevopsagentServiceServiceDetailsMcpServe
 
 MCP server OAuth client credentials configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -2195,7 +2195,7 @@ public readonly apiKeyHeader: string;
 
 HTTP header name to send the API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
 
 ---
 
@@ -2209,7 +2209,7 @@ public readonly apiKeyName: string;
 
 User friendly API key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
 
 ---
 
@@ -2223,7 +2223,7 @@ public readonly apiKeyValue: string;
 
 API key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
 
 ---
 
@@ -2257,7 +2257,7 @@ public readonly authorizationHeader: string;
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -2271,7 +2271,7 @@ public readonly tokenName: string;
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -2285,7 +2285,7 @@ public readonly tokenValue: string;
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2322,7 +2322,7 @@ public readonly clientId: string;
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -2336,7 +2336,7 @@ public readonly clientName: string;
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -2350,7 +2350,7 @@ public readonly clientSecret: string;
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -2364,7 +2364,7 @@ public readonly exchangeParameters: string;
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -2378,7 +2378,7 @@ public readonly exchangeUrl: string;
 
 OAuth token exchange URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
 
 ---
 
@@ -2392,7 +2392,7 @@ public readonly scopes: string[];
 
 OAuth scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
 
 ---
 
@@ -2427,7 +2427,7 @@ public readonly authorizationConfig: DevopsagentServiceServiceDetailsMcpServerGr
 
 Grafana MCP server authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2441,7 +2441,7 @@ public readonly description: string;
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2455,7 +2455,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2469,7 +2469,7 @@ public readonly name: string;
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2501,7 +2501,7 @@ public readonly bearerToken: DevopsagentServiceServiceDetailsMcpServerGrafanaAut
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -2535,7 +2535,7 @@ public readonly authorizationHeader: string;
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -2549,7 +2549,7 @@ public readonly tokenName: string;
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -2563,7 +2563,7 @@ public readonly tokenValue: string;
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2595,7 +2595,7 @@ public readonly authorizationConfig: DevopsagentServiceServiceDetailsMcpServerNe
 
 New Relic authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2627,7 +2627,7 @@ public readonly apiKey: DevopsagentServiceServiceDetailsMcpServerNewRelicAuthori
 
 New Relic API key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2664,7 +2664,7 @@ public readonly accountId: string;
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
 
 ---
 
@@ -2678,7 +2678,7 @@ public readonly alertPolicyIds: string[];
 
 List of alert policy IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
 
 ---
 
@@ -2692,7 +2692,7 @@ public readonly apiKey: string;
 
 New Relic User API Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2706,7 +2706,7 @@ public readonly applicationIds: string[];
 
 List of monitored APM application IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
 
 ---
 
@@ -2720,7 +2720,7 @@ public readonly entityGuids: string[];
 
 List of globally unique IDs for New Relic resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
 
 ---
 
@@ -2734,7 +2734,7 @@ public readonly region: string;
 
 New Relic region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#region DevopsagentService#region}
 
 ---
 
@@ -2769,7 +2769,7 @@ public readonly authorizationConfig: DevopsagentServiceServiceDetailsMcpServerSi
 
 SigV4 authorization configuration for MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2783,7 +2783,7 @@ public readonly description: string;
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2797,7 +2797,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2811,7 +2811,7 @@ public readonly name: string;
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2847,7 +2847,7 @@ public readonly customHeaders: {[ key: string ]: string};
 
 Custom headers for the SigV4 MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
 
 ---
 
@@ -2863,7 +2863,7 @@ IAM role ARN to assume for SigV4 signing.
 
 Optional - when omitted, credentials are resolved at runtime via a monitor account association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
 
 ---
 
@@ -2877,7 +2877,7 @@ public readonly region: string;
 
 AWS region for SigV4 signing. Use '*' for SigV4a multi-region signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#region DevopsagentService#region}
 
 ---
 
@@ -2893,7 +2893,7 @@ Deprecated - use McpRoleArn instead.
 
 IAM role ARN to assume for SigV4 signing. Set to an empty string to remove a previously configured role and make the server role-less (cross-account).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
 
 ---
 
@@ -2907,7 +2907,7 @@ public readonly service: string;
 
 AWS service name for SigV4 signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#service DevopsagentService#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#service DevopsagentService#service}
 
 ---
 
@@ -2942,7 +2942,7 @@ public readonly authorizationConfig: DevopsagentServiceServiceDetailsMcpServerSp
 
 MCP server splunk authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2956,7 +2956,7 @@ public readonly description: string;
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2970,7 +2970,7 @@ public readonly endpoint: string;
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2984,7 +2984,7 @@ public readonly name: string;
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -3016,7 +3016,7 @@ public readonly bearerToken: DevopsagentServiceServiceDetailsMcpServerSplunkAuth
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -3050,7 +3050,7 @@ public readonly authorizationHeader: string;
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -3064,7 +3064,7 @@ public readonly tokenName: string;
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -3078,7 +3078,7 @@ public readonly tokenValue: string;
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -3111,7 +3111,7 @@ public readonly authorizationConfig: DevopsagentServiceServiceDetailsPagerDutyAu
 
 PagerDuty OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -3125,7 +3125,7 @@ public readonly scopes: string[];
 
 PagerDuty scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
 
 ---
 
@@ -3157,7 +3157,7 @@ public readonly oAuthClientCredentials: DevopsagentServiceServiceDetailsPagerDut
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -3192,7 +3192,7 @@ public readonly clientId: string;
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -3206,7 +3206,7 @@ public readonly clientName: string;
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -3220,7 +3220,7 @@ public readonly clientSecret: string;
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -3234,7 +3234,7 @@ public readonly exchangeParameters: string;
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -3267,7 +3267,7 @@ public readonly authorizationConfig: DevopsagentServiceServiceDetailsServiceNowA
 
 ServiceNow OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -3281,7 +3281,7 @@ public readonly instanceUrl: string;
 
 ServiceNow instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
 
 ---
 
@@ -3313,7 +3313,7 @@ public readonly oAuthClientCredentials: DevopsagentServiceServiceDetailsServiceN
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -3348,7 +3348,7 @@ public readonly clientId: string;
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -3362,7 +3362,7 @@ public readonly clientName: string;
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -3376,7 +3376,7 @@ public readonly clientSecret: string;
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -3390,7 +3390,7 @@ public readonly exchangeParameters: string;
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -3423,7 +3423,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#key DevopsagentService#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#key DevopsagentService#key}
 
 ---
 
@@ -3437,7 +3437,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service#value DevopsagentService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/devopsagent_service#value DevopsagentService#value}
 
 ---
 

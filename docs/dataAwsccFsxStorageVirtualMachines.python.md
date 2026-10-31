@@ -4,7 +4,7 @@
 
 ### DataAwsccFsxStorageVirtualMachines <a name="DataAwsccFsxStorageVirtualMachines" id="@cdktn/provider-awscc.dataAwsccFsxStorageVirtualMachines.DataAwsccFsxStorageVirtualMachines"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_storage_virtual_machines awscc_fsx_storage_virtual_machines}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/fsx_storage_virtual_machines awscc_fsx_storage_virtual_machines}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxStorageVirtualMachines.DataAwsccFsxStorageVirtualMachines.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccFsxStorageVirtual
 
 The id of the existing DataAwsccFsxStorageVirtualMachines that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_storage_virtual_machines#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/fsx_storage_virtual_machines#import import section} in the documentation of this resource for the id to use
 
 ---
 

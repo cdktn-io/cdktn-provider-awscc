@@ -4,7 +4,7 @@
 
 ### DataAwsccBedrockagentcoreConsentPortals <a name="DataAwsccBedrockagentcoreConsentPortals" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConsentPortals.DataAwsccBedrockagentcoreConsentPortals"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_consent_portals awscc_bedrockagentcore_consent_portals}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bedrockagentcore_consent_portals awscc_bedrockagentcore_consent_portals}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBedrockagentcoreConsentPortals.DataAwsccBedrockagentcoreConsentPortals.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBedrockagentcoreC
 
 The id of the existing DataAwsccBedrockagentcoreConsentPortals that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_consent_portals#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bedrockagentcore_consent_portals#import import section} in the documentation of this resource for the id to use
 
 ---
 
