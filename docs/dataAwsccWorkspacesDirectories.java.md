@@ -4,7 +4,7 @@
 
 ### DataAwsccWorkspacesDirectories <a name="DataAwsccWorkspacesDirectories" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectories.DataAwsccWorkspacesDirectories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_directories awscc_workspaces_directories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/workspaces_directories awscc_workspaces_directories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWorkspacesDirectories.DataAwsccWorkspacesDirectories.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccWorkspacesDirecto
 
 The id of the existing DataAwsccWorkspacesDirectories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_directories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/workspaces_directories#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### SagemakerComputeQuota <a name="SagemakerComputeQuota" id="@cdktn/provider-awscc.sagemakerComputeQuota.SagemakerComputeQuota"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota awscc_sagemaker_compute_quota}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota awscc_sagemaker_compute_quota}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerComputeQuota.SagemakerComputeQuota.Initializer"></a>
 
@@ -118,7 +118,7 @@ The ARN of the EKS-orchestrated SageMaker HyperPod cluster the compute allocatio
 
 Slurm-orchestrated clusters are rejected by the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#cluster_arn SagemakerComputeQuota#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#cluster_arn SagemakerComputeQuota#cluster_arn}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Compute allocation rules: per-resource quotas, idle-borrowing strategy, and team-task preemption policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#compute_quota_config SagemakerComputeQuota#compute_quota_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#compute_quota_config SagemakerComputeQuota#compute_quota_config}
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The team this compute allocation rule applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#compute_quota_target SagemakerComputeQuota#compute_quota_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#compute_quota_target SagemakerComputeQuota#compute_quota_target}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the compute allocation definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#name SagemakerComputeQuota#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#name SagemakerComputeQuota#name}
 
 ---
 
@@ -158,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the compute allocation rule is active. Defaults service-side to 'Enabled' when omitted on Create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#activation_state SagemakerComputeQuota#activation_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#activation_state SagemakerComputeQuota#activation_state}
 
 ---
 
@@ -168,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A free-form description of the compute allocation definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#description SagemakerComputeQuota#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#description SagemakerComputeQuota#description}
 
 ---
 
@@ -178,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags to associate with the compute allocation definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#tags SagemakerComputeQuota#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#tags SagemakerComputeQuota#tags}
 
 ---
 
@@ -687,7 +687,7 @@ The construct id used in the generated config for the SagemakerComputeQuota to i
 
 The id of the existing SagemakerComputeQuota that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1149,7 +1149,7 @@ Per-instance-type compute quotas for the team.
 
 When VCpu / MemoryInGiB / Accelerators are partially specified, SageMaker auto-fills the remaining fields ratio-proportionally to the underlying instance ? Read may return values the customer did not supply (drift may flag this).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#compute_quota_resources SagemakerComputeQuota#compute_quota_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#compute_quota_resources SagemakerComputeQuota#compute_quota_resources}
 
 ---
 
@@ -1163,7 +1163,7 @@ public java.lang.String getPreemptTeamTasks();
 
 Team-task preemption policy. Defaults service-side to 'LowerPriority' when omitted on Create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#preempt_team_tasks SagemakerComputeQuota#preempt_team_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#preempt_team_tasks SagemakerComputeQuota#preempt_team_tasks}
 
 ---
 
@@ -1177,7 +1177,7 @@ public SagemakerComputeQuotaComputeQuotaConfigResourceSharingConfig getResourceS
 
 Idle-resource-sharing strategy for this team's quota. When omitted, the service applies defaults (Strategy=LendAndBorrow, BorrowLimit=50).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#resource_sharing_config SagemakerComputeQuota#resource_sharing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#resource_sharing_config SagemakerComputeQuota#resource_sharing_config}
 
 ---
 
@@ -1223,7 +1223,7 @@ Multi-instance GPU (MIG) partition profile and count, for fractional accelerator
 
 Service rejects MIG profiles that the chosen InstanceType does not support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#accelerator_partition SagemakerComputeQuota#accelerator_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#accelerator_partition SagemakerComputeQuota#accelerator_partition}
 
 ---
 
@@ -1237,7 +1237,7 @@ public java.lang.Number getAccelerators();
 
 The number of accelerators (e.g., GPUs) of this type allocated to the team. SageMaker auto-fills VCpu / MemoryInGiB ratio-proportionally if only this is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#accelerators SagemakerComputeQuota#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#accelerators SagemakerComputeQuota#accelerators}
 
 ---
 
@@ -1251,7 +1251,7 @@ public java.lang.Number getCount();
 
 The number of instances of this type allocated to the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#count SagemakerComputeQuota#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#count SagemakerComputeQuota#count}
 
 ---
 
@@ -1265,7 +1265,7 @@ public java.lang.String getInstanceType();
 
 The cluster instance type the quota applies to (e.g., 'ml.m5.xlarge', 'ml.p5.48xlarge'). Validated by the service against the supported HyperPod instance types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#instance_type SagemakerComputeQuota#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#instance_type SagemakerComputeQuota#instance_type}
 
 ---
 
@@ -1281,7 +1281,7 @@ The memory in GiB allocated to the team.
 
 Floating-point. SageMaker auto-fills Accelerators / VCpu ratio-proportionally if only this is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#memory_in_gi_b SagemakerComputeQuota#memory_in_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#memory_in_gi_b SagemakerComputeQuota#memory_in_gi_b}
 
 ---
 
@@ -1297,7 +1297,7 @@ The number of vCPUs allocated to the team.
 
 Floating-point. SageMaker auto-fills Accelerators / MemoryInGiB ratio-proportionally if only this is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#v_cpu SagemakerComputeQuota#v_cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#v_cpu SagemakerComputeQuota#v_cpu}
 
 ---
 
@@ -1333,7 +1333,7 @@ public java.lang.Number getCount();
 
 The number of MIG partitions of the specified Type allocated to the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#count SagemakerComputeQuota#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#count SagemakerComputeQuota#count}
 
 ---
 
@@ -1347,7 +1347,7 @@ public java.lang.String getType();
 
 MIG profile type. Service rejects MIG profiles that the chosen InstanceType does not support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#type SagemakerComputeQuota#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#type SagemakerComputeQuota#type}
 
 ---
 
@@ -1385,7 +1385,7 @@ public IResolvable|java.util.List<SagemakerComputeQuotaComputeQuotaConfigResourc
 
 Per-instance-type absolute caps on resources this team can borrow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#absolute_borrow_limits SagemakerComputeQuota#absolute_borrow_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#absolute_borrow_limits SagemakerComputeQuota#absolute_borrow_limits}
 
 ---
 
@@ -1401,7 +1401,7 @@ Maximum percentage of the team's idle quota that can be borrowed by other teams.
 
 Smithy admits 0..10000; in practice the service-documented operational range is 1..500. Defaults service-side to 50 when omitted on Create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#borrow_limit SagemakerComputeQuota#borrow_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#borrow_limit SagemakerComputeQuota#borrow_limit}
 
 ---
 
@@ -1415,7 +1415,7 @@ public java.lang.String getStrategy();
 
 How this team participates in idle-resource sharing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#strategy SagemakerComputeQuota#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#strategy SagemakerComputeQuota#strategy}
 
 ---
 
@@ -1461,7 +1461,7 @@ Multi-instance GPU (MIG) partition profile and count, for fractional accelerator
 
 Service rejects MIG profiles that the chosen InstanceType does not support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#accelerator_partition SagemakerComputeQuota#accelerator_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#accelerator_partition SagemakerComputeQuota#accelerator_partition}
 
 ---
 
@@ -1475,7 +1475,7 @@ public java.lang.Number getAccelerators();
 
 The number of accelerators (e.g., GPUs) of this type allocated to the team. SageMaker auto-fills VCpu / MemoryInGiB ratio-proportionally if only this is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#accelerators SagemakerComputeQuota#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#accelerators SagemakerComputeQuota#accelerators}
 
 ---
 
@@ -1489,7 +1489,7 @@ public java.lang.Number getCount();
 
 The number of instances of this type allocated to the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#count SagemakerComputeQuota#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#count SagemakerComputeQuota#count}
 
 ---
 
@@ -1503,7 +1503,7 @@ public java.lang.String getInstanceType();
 
 The cluster instance type the quota applies to (e.g., 'ml.m5.xlarge', 'ml.p5.48xlarge'). Validated by the service against the supported HyperPod instance types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#instance_type SagemakerComputeQuota#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#instance_type SagemakerComputeQuota#instance_type}
 
 ---
 
@@ -1519,7 +1519,7 @@ The memory in GiB allocated to the team.
 
 Floating-point. SageMaker auto-fills Accelerators / VCpu ratio-proportionally if only this is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#memory_in_gi_b SagemakerComputeQuota#memory_in_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#memory_in_gi_b SagemakerComputeQuota#memory_in_gi_b}
 
 ---
 
@@ -1535,7 +1535,7 @@ The number of vCPUs allocated to the team.
 
 Floating-point. SageMaker auto-fills Accelerators / MemoryInGiB ratio-proportionally if only this is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#v_cpu SagemakerComputeQuota#v_cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#v_cpu SagemakerComputeQuota#v_cpu}
 
 ---
 
@@ -1571,7 +1571,7 @@ public java.lang.Number getCount();
 
 The number of MIG partitions of the specified Type allocated to the team.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#count SagemakerComputeQuota#count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#count SagemakerComputeQuota#count}
 
 ---
 
@@ -1585,7 +1585,7 @@ public java.lang.String getType();
 
 MIG profile type. Service rejects MIG profiles that the chosen InstanceType does not support.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#type SagemakerComputeQuota#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#type SagemakerComputeQuota#type}
 
 ---
 
@@ -1623,7 +1623,7 @@ The name of the team.
 
 Materialized as Kubernetes namespace 'hyperpod-ns-<TeamName>' on the EKS cluster, so the value must satisfy RFC 1123 namespace constraints. Reassignment is not supported (createOnly).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#team_name SagemakerComputeQuota#team_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#team_name SagemakerComputeQuota#team_name}
 
 ---
 
@@ -1637,7 +1637,7 @@ public java.lang.Number getFairShareWeight();
 
 Relative fair-share weight when fair-share scheduling is enabled on the parent ClusterSchedulerConfig. Defaults service-side to 0 when omitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#fair_share_weight SagemakerComputeQuota#fair_share_weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#fair_share_weight SagemakerComputeQuota#fair_share_weight}
 
 ---
 
@@ -1769,7 +1769,7 @@ The ARN of the EKS-orchestrated SageMaker HyperPod cluster the compute allocatio
 
 Slurm-orchestrated clusters are rejected by the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#cluster_arn SagemakerComputeQuota#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#cluster_arn SagemakerComputeQuota#cluster_arn}
 
 ---
 
@@ -1783,7 +1783,7 @@ public SagemakerComputeQuotaComputeQuotaConfig getComputeQuotaConfig();
 
 Compute allocation rules: per-resource quotas, idle-borrowing strategy, and team-task preemption policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#compute_quota_config SagemakerComputeQuota#compute_quota_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#compute_quota_config SagemakerComputeQuota#compute_quota_config}
 
 ---
 
@@ -1797,7 +1797,7 @@ public SagemakerComputeQuotaComputeQuotaTarget getComputeQuotaTarget();
 
 The team this compute allocation rule applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#compute_quota_target SagemakerComputeQuota#compute_quota_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#compute_quota_target SagemakerComputeQuota#compute_quota_target}
 
 ---
 
@@ -1811,7 +1811,7 @@ public java.lang.String getName();
 
 The name of the compute allocation definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#name SagemakerComputeQuota#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#name SagemakerComputeQuota#name}
 
 ---
 
@@ -1825,7 +1825,7 @@ public java.lang.String getActivationState();
 
 Whether the compute allocation rule is active. Defaults service-side to 'Enabled' when omitted on Create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#activation_state SagemakerComputeQuota#activation_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#activation_state SagemakerComputeQuota#activation_state}
 
 ---
 
@@ -1839,7 +1839,7 @@ public java.lang.String getDescription();
 
 A free-form description of the compute allocation definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#description SagemakerComputeQuota#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#description SagemakerComputeQuota#description}
 
 ---
 
@@ -1853,7 +1853,7 @@ public IResolvable|java.util.List<SagemakerComputeQuotaTags> getTags();
 
 Tags to associate with the compute allocation definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#tags SagemakerComputeQuota#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#tags SagemakerComputeQuota#tags}
 
 ---
 
@@ -1874,8 +1874,8 @@ SagemakerComputeQuotaTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.sagemakerComputeQuota.SagemakerComputeQuotaTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#key SagemakerComputeQuota#key}. |
-| <code><a href="#@cdktn/provider-awscc.sagemakerComputeQuota.SagemakerComputeQuotaTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#value SagemakerComputeQuota#value}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerComputeQuota.SagemakerComputeQuotaTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#key SagemakerComputeQuota#key}. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerComputeQuota.SagemakerComputeQuotaTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#value SagemakerComputeQuota#value}. |
 
 ---
 
@@ -1887,7 +1887,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#key SagemakerComputeQuota#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#key SagemakerComputeQuota#key}.
 
 ---
 
@@ -1899,7 +1899,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_compute_quota#value SagemakerComputeQuota#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/sagemaker_compute_quota#value SagemakerComputeQuota#value}.
 
 ---
 

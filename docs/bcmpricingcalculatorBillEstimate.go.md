@@ -4,7 +4,7 @@
 
 ### BcmpricingcalculatorBillEstimate <a name="BcmpricingcalculatorBillEstimate" id="@cdktn/provider-awscc.bcmpricingcalculatorBillEstimate.BcmpricingcalculatorBillEstimate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate awscc_bcmpricingcalculator_bill_estimate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate awscc_bcmpricingcalculator_bill_estimate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmpricingcalculatorBillEstimate.BcmpricingcalculatorBillEstimate.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the BcmpricingcalculatorBillEs
 
 The id of the existing BcmpricingcalculatorBillEstimate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1038,7 +1038,7 @@ Name *string
 
 The name of the bill estimate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#name BcmpricingcalculatorBillEstimate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#name BcmpricingcalculatorBillEstimate#name}
 
 ---
 
@@ -1052,7 +1052,7 @@ BillScenarioId *string
 
 The unique identifier of the bill scenario this estimate is based on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#bill_scenario_id BcmpricingcalculatorBillEstimate#bill_scenario_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#bill_scenario_id BcmpricingcalculatorBillEstimate#bill_scenario_id}
 
 ---
 
@@ -1066,7 +1066,7 @@ ExpiresAt *string
 
 The timestamp when the bill estimate expires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#expires_at BcmpricingcalculatorBillEstimate#expires_at}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#expires_at BcmpricingcalculatorBillEstimate#expires_at}
 
 ---
 
@@ -1080,7 +1080,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#tags BcmpricingcalculatorBillEstimate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#tags BcmpricingcalculatorBillEstimate#tags}
 
 ---
 
@@ -1101,8 +1101,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculato
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorBillEstimate.BcmpricingcalculatorBillEstimateTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#key BcmpricingcalculatorBillEstimate#key}. |
-| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorBillEstimate.BcmpricingcalculatorBillEstimateTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#value BcmpricingcalculatorBillEstimate#value}. |
+| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorBillEstimate.BcmpricingcalculatorBillEstimateTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#key BcmpricingcalculatorBillEstimate#key}. |
+| <code><a href="#@cdktn/provider-awscc.bcmpricingcalculatorBillEstimate.BcmpricingcalculatorBillEstimateTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#value BcmpricingcalculatorBillEstimate#value}. |
 
 ---
 
@@ -1114,7 +1114,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#key BcmpricingcalculatorBillEstimate#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#key BcmpricingcalculatorBillEstimate#key}.
 
 ---
 
@@ -1126,7 +1126,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_bill_estimate#value BcmpricingcalculatorBillEstimate#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bcmpricingcalculator_bill_estimate#value BcmpricingcalculatorBillEstimate#value}.
 
 ---
 

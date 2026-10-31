@@ -4,7 +4,7 @@
 
 ### CodedeployDeploymentGroup <a name="CodedeployDeploymentGroup" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.Initializer"></a>
 
@@ -79,6 +79,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putBlueGreenDeploymentConfiguration">PutBlueGreenDeploymentConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putDeployment">PutDeployment</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putDeploymentStyle">PutDeploymentStyle</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putEc2DeploymentOptions">PutEc2DeploymentOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putEc2TagFilters">PutEc2TagFilters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putEc2TagSet">PutEc2TagSet</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putEcsServices">PutEcsServices</a></code> | *No description.* |
@@ -95,6 +96,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetDeploymentConfigName">ResetDeploymentConfigName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetDeploymentGroupName">ResetDeploymentGroupName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetDeploymentStyle">ResetDeploymentStyle</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetEc2DeploymentOptions">ResetEc2DeploymentOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetEc2TagFilters">ResetEc2TagFilters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetEc2TagSet">ResetEc2TagSet</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetEcsServices">ResetEcsServices</a></code> | *No description.* |
@@ -477,6 +479,18 @@ func PutDeploymentStyle(value CodedeployDeploymentGroupDeploymentStyle)
 
 ---
 
+##### `PutEc2DeploymentOptions` <a name="PutEc2DeploymentOptions" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putEc2DeploymentOptions"></a>
+
+```go
+func PutEc2DeploymentOptions(value CodedeployDeploymentGroupEc2DeploymentOptions)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putEc2DeploymentOptions.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions">CodedeployDeploymentGroupEc2DeploymentOptions</a>
+
+---
+
 ##### `PutEc2TagFilters` <a name="PutEc2TagFilters" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.putEc2TagFilters"></a>
 
 ```go
@@ -619,6 +633,12 @@ func ResetDeploymentGroupName()
 
 ```go
 func ResetDeploymentStyle()
+```
+
+##### `ResetEc2DeploymentOptions` <a name="ResetEc2DeploymentOptions" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetEc2DeploymentOptions"></a>
+
+```go
+func ResetEc2DeploymentOptions()
 ```
 
 ##### `ResetEc2TagFilters` <a name="ResetEc2TagFilters" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.resetEc2TagFilters"></a>
@@ -784,7 +804,7 @@ The construct id used in the generated config for the CodedeployDeploymentGroup 
 
 The id of the existing CodedeployDeploymentGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -819,6 +839,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.blueGreenDeploymentConfiguration">BlueGreenDeploymentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupBlueGreenDeploymentConfigurationOutputReference">CodedeployDeploymentGroupBlueGreenDeploymentConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.deployment">Deployment</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentOutputReference">CodedeployDeploymentGroupDeploymentOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.deploymentStyle">DeploymentStyle</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentStyleOutputReference">CodedeployDeploymentGroupDeploymentStyleOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2DeploymentOptions">Ec2DeploymentOptions</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference">CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2TagFilters">Ec2TagFilters</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagFiltersList">CodedeployDeploymentGroupEc2TagFiltersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2TagSet">Ec2TagSet</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSetOutputReference">CodedeployDeploymentGroupEc2TagSetOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ecsServices">EcsServices</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEcsServicesList">CodedeployDeploymentGroupEcsServicesList</a></code> | *No description.* |
@@ -837,6 +858,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.deploymentGroupNameInput">DeploymentGroupNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.deploymentInput">DeploymentInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.deploymentStyleInput">DeploymentStyleInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2DeploymentOptionsInput">Ec2DeploymentOptionsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2TagFiltersInput">Ec2TagFiltersInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2TagSetInput">Ec2TagSetInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ecsServicesInput">EcsServicesInput</a></code> | <code>interface{}</code> | *No description.* |
@@ -1050,6 +1072,16 @@ func DeploymentStyle() CodedeployDeploymentGroupDeploymentStyleOutputReference
 
 ---
 
+##### `Ec2DeploymentOptions`<sup>Required</sup> <a name="Ec2DeploymentOptions" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2DeploymentOptions"></a>
+
+```go
+func Ec2DeploymentOptions() CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference">CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference</a>
+
+---
+
 ##### `Ec2TagFilters`<sup>Required</sup> <a name="Ec2TagFilters" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2TagFilters"></a>
 
 ```go
@@ -1224,6 +1256,16 @@ func DeploymentInput() interface{}
 
 ```go
 func DeploymentStyleInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `Ec2DeploymentOptionsInput`<sup>Optional</sup> <a name="Ec2DeploymentOptionsInput" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroup.property.ec2DeploymentOptionsInput"></a>
+
+```go
+func Ec2DeploymentOptionsInput() interface{}
 ```
 
 - *Type:* interface{}
@@ -1464,7 +1506,7 @@ Alarms interface{}
 
 A list of alarms configured for the deployment or deployment group. A maximum of 10 alarms can be added.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#alarms CodedeployDeploymentGroup#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#alarms CodedeployDeploymentGroup#alarms}
 
 ---
 
@@ -1478,7 +1520,7 @@ Enabled interface{}
 
 Indicates whether the alarm configuration is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#enabled CodedeployDeploymentGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#enabled CodedeployDeploymentGroup#enabled}
 
 ---
 
@@ -1494,7 +1536,7 @@ Indicates whether a deployment should continue if information about the current 
 
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ignore_poll_alarm_failure CodedeployDeploymentGroup#ignore_poll_alarm_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#ignore_poll_alarm_failure CodedeployDeploymentGroup#ignore_poll_alarm_failure}
 
 ---
 
@@ -1530,7 +1572,7 @@ The name of the alarm.
 
 Maximum length is 255 characters. Each alarm name can be used only once in a list of alarms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 
 ---
 
@@ -1566,7 +1608,7 @@ Enabled interface{}
 
 Indicates whether a defined automatic rollback configuration is currently enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#enabled CodedeployDeploymentGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#enabled CodedeployDeploymentGroup#enabled}
 
 ---
 
@@ -1580,7 +1622,7 @@ Events *[]*string
 
 The event type or types that trigger a rollback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#events CodedeployDeploymentGroup#events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#events CodedeployDeploymentGroup#events}
 
 ---
 
@@ -1618,7 +1660,7 @@ DeploymentReadyOption CodedeployDeploymentGroupBlueGreenDeploymentConfigurationD
 
 Information about the action to take when newly provisioned instances are ready to receive traffic in a blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_ready_option CodedeployDeploymentGroup#deployment_ready_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#deployment_ready_option CodedeployDeploymentGroup#deployment_ready_option}
 
 ---
 
@@ -1632,7 +1674,7 @@ GreenFleetProvisioningOption CodedeployDeploymentGroupBlueGreenDeploymentConfigu
 
 Information about how instances are provisioned for a replacement environment in a blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#green_fleet_provisioning_option CodedeployDeploymentGroup#green_fleet_provisioning_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#green_fleet_provisioning_option CodedeployDeploymentGroup#green_fleet_provisioning_option}
 
 ---
 
@@ -1646,7 +1688,7 @@ TerminateBlueInstancesOnDeploymentSuccess CodedeployDeploymentGroupBlueGreenDepl
 
 Information about whether to terminate instances in the original fleet during a blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#terminate_blue_instances_on_deployment_success CodedeployDeploymentGroup#terminate_blue_instances_on_deployment_success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#terminate_blue_instances_on_deployment_success CodedeployDeploymentGroup#terminate_blue_instances_on_deployment_success}
 
 ---
 
@@ -1684,7 +1726,7 @@ Information about when to reroute traffic from an original environment to a repl
 
 CONTINUE_DEPLOYMENT: Register new instances with the load balancer immediately after the new application revision is installed on the instances in the replacement environment. STOP_DEPLOYMENT: Do not register new instances with a load balancer unless traffic rerouting is started using ContinueDeployment . If traffic rerouting is not started before the end of the specified wait period, the deployment status is changed to Stopped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#action_on_timeout CodedeployDeploymentGroup#action_on_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#action_on_timeout CodedeployDeploymentGroup#action_on_timeout}
 
 ---
 
@@ -1700,7 +1742,7 @@ The number of minutes to wait before the status of a blue/green deployment is ch
 
 Applies only to the STOP_DEPLOYMENT option for actionOnTimeout.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#wait_time_in_minutes CodedeployDeploymentGroup#wait_time_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#wait_time_in_minutes CodedeployDeploymentGroup#wait_time_in_minutes}
 
 ---
 
@@ -1734,7 +1776,7 @@ Action *string
 
 The method used to add instances to a replacement environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
 
 ---
 
@@ -1770,7 +1812,7 @@ Action *string
 
 The action to take on instances in the original environment after a successful blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
 
 ---
 
@@ -1786,7 +1828,7 @@ For an Amazon EC2 deployment, the number of minutes to wait after a successful b
 
 For an Amazon ECS deployment, the number of minutes before deleting the original (blue) task set. During an Amazon ECS deployment, CodeDeploy shifts traffic from the original (blue) task set to a replacement (green) task set. The maximum setting is 2880 minutes (2 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#termination_wait_time_in_minutes CodedeployDeploymentGroup#termination_wait_time_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#termination_wait_time_in_minutes CodedeployDeploymentGroup#termination_wait_time_in_minutes}
 
 ---
 
@@ -1815,6 +1857,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymen
 	DeploymentConfigName: *string,
 	DeploymentGroupName: *string,
 	DeploymentStyle: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentStyle,
+	Ec2DeploymentOptions: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions,
 	Ec2TagFilters: interface{},
 	Ec2TagSet: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSet,
 	EcsServices: interface{},
@@ -1849,6 +1892,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymen
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.property.deploymentConfigName">DeploymentConfigName</a></code> | <code>*string</code> | A deployment configuration name or a predefined configuration name. |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.property.deploymentGroupName">DeploymentGroupName</a></code> | <code>*string</code> | A name for the deployment group. |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.property.deploymentStyle">DeploymentStyle</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentStyle">CodedeployDeploymentGroupDeploymentStyle</a></code> | Attributes that determine the type of deployment to run and whether to route deployment traffic behind a load balancer. |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.property.ec2DeploymentOptions">Ec2DeploymentOptions</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions">CodedeployDeploymentGroupEc2DeploymentOptions</a></code> | Options that control how CodeDeploy manages Amazon EC2 Auto Scaling groups during deployments to the deployment group. |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.property.ec2TagFilters">Ec2TagFilters</a></code> | <code>interface{}</code> | The Amazon EC2 tags that are already applied to Amazon EC2 instances that you want to include in the deployment group. |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.property.ec2TagSet">Ec2TagSet</a></code> | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2TagSet">CodedeployDeploymentGroupEc2TagSet</a></code> | Information about groups of tags applied to Amazon EC2 instances. |
 | <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.property.ecsServices">EcsServices</a></code> | <code>interface{}</code> | The target Amazon ECS services in the deployment group. |
@@ -1942,7 +1986,7 @@ ApplicationName *string
 
 The name of an existing CodeDeploy application to associate this deployment group with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#application_name CodedeployDeploymentGroup#application_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#application_name CodedeployDeploymentGroup#application_name}
 
 ---
 
@@ -1958,7 +2002,7 @@ A service role Amazon Resource Name (ARN) that grants CodeDeploy permission to m
 
 For more information, see 'Create a Service Role for AWS CodeDeploy' in the AWS CodeDeploy User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#service_role_arn CodedeployDeploymentGroup#service_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#service_role_arn CodedeployDeploymentGroup#service_role_arn}
 
 ---
 
@@ -1972,7 +2016,7 @@ AlarmConfiguration CodedeployDeploymentGroupAlarmConfiguration
 
 Information about the Amazon CloudWatch alarms that are associated with the deployment group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#alarm_configuration CodedeployDeploymentGroup#alarm_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#alarm_configuration CodedeployDeploymentGroup#alarm_configuration}
 
 ---
 
@@ -1988,7 +2032,7 @@ Information about the automatic rollback configuration that is associated with t
 
 If you specify this property, don't specify the Deployment property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#auto_rollback_configuration CodedeployDeploymentGroup#auto_rollback_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#auto_rollback_configuration CodedeployDeploymentGroup#auto_rollback_configuration}
 
 ---
 
@@ -2004,7 +2048,7 @@ A list of associated Auto Scaling groups that CodeDeploy automatically deploys r
 
 Duplicates are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#auto_scaling_groups CodedeployDeploymentGroup#auto_scaling_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#auto_scaling_groups CodedeployDeploymentGroup#auto_scaling_groups}
 
 ---
 
@@ -2018,7 +2062,7 @@ BlueGreenDeploymentConfiguration CodedeployDeploymentGroupBlueGreenDeploymentCon
 
 Information about blue/green deployment options for a deployment group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#blue_green_deployment_configuration CodedeployDeploymentGroup#blue_green_deployment_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#blue_green_deployment_configuration CodedeployDeploymentGroup#blue_green_deployment_configuration}
 
 ---
 
@@ -2034,7 +2078,7 @@ The application revision to deploy to this deployment group.
 
 If you specify this property, your target application revision is deployed as soon as the provisioning process is complete. If you specify this property, don't specify the AutoRollbackConfiguration property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment CodedeployDeploymentGroup#deployment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#deployment CodedeployDeploymentGroup#deployment}
 
 ---
 
@@ -2050,7 +2094,7 @@ A deployment configuration name or a predefined configuration name.
 
 With predefined configurations, you can deploy application revisions to one instance at a time (CodeDeployDefault.OneAtATime), half of the instances at a time (CodeDeployDefault.HalfAtATime), or all the instances at once (CodeDeployDefault.AllAtOnce).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_config_name CodedeployDeploymentGroup#deployment_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#deployment_config_name CodedeployDeploymentGroup#deployment_config_name}
 
 ---
 
@@ -2066,7 +2110,7 @@ A name for the deployment group.
 
 If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the deployment group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_group_name CodedeployDeploymentGroup#deployment_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#deployment_group_name CodedeployDeploymentGroup#deployment_group_name}
 
 ---
 
@@ -2082,7 +2126,23 @@ Attributes that determine the type of deployment to run and whether to route dep
 
 If you specify this property with a blue/green deployment type, don't specify the AutoScalingGroups, LoadBalancerInfo, or Deployment properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_style CodedeployDeploymentGroup#deployment_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#deployment_style CodedeployDeploymentGroup#deployment_style}
+
+---
+
+##### `Ec2DeploymentOptions`<sup>Optional</sup> <a name="Ec2DeploymentOptions" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupConfig.property.ec2DeploymentOptions"></a>
+
+```go
+Ec2DeploymentOptions CodedeployDeploymentGroupEc2DeploymentOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions">CodedeployDeploymentGroupEc2DeploymentOptions</a>
+
+Options that control how CodeDeploy manages Amazon EC2 Auto Scaling groups during deployments to the deployment group.
+
+Applies only to in-place deployment groups on the EC2/On-premises compute platform that include at least one Auto Scaling group.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#ec_2_deployment_options CodedeployDeploymentGroup#ec_2_deployment_options}
 
 ---
 
@@ -2098,7 +2158,7 @@ The Amazon EC2 tags that are already applied to Amazon EC2 instances that you wa
 
 CodeDeploy includes all Amazon EC2 instances identified by any of the tags you specify in this deployment group. Duplicates are not allowed. You can specify EC2TagFilters or Ec2TagSet, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ec_2_tag_filters CodedeployDeploymentGroup#ec_2_tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#ec_2_tag_filters CodedeployDeploymentGroup#ec_2_tag_filters}
 
 ---
 
@@ -2114,7 +2174,7 @@ Information about groups of tags applied to Amazon EC2 instances.
 
 Use when the deployment group includes only Amazon EC2 instances identified by all the tag groups. Cannot be used in the same call as ec2TagFilter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ec_2_tag_set CodedeployDeploymentGroup#ec_2_tag_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#ec_2_tag_set CodedeployDeploymentGroup#ec_2_tag_set}
 
 ---
 
@@ -2130,7 +2190,7 @@ The target Amazon ECS services in the deployment group.
 
 This applies only to deployment groups that use the Amazon ECS compute platform. A target Amazon ECS service is specified as an Amazon ECS cluster and service name pair using the format <clustername>:<servicename>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ecs_services CodedeployDeploymentGroup#ecs_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#ecs_services CodedeployDeploymentGroup#ecs_services}
 
 ---
 
@@ -2144,7 +2204,7 @@ LoadBalancerInfo CodedeployDeploymentGroupLoadBalancerInfo
 
 Information about the load balancer to use in a deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#load_balancer_info CodedeployDeploymentGroup#load_balancer_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#load_balancer_info CodedeployDeploymentGroup#load_balancer_info}
 
 ---
 
@@ -2160,7 +2220,7 @@ The on-premises instance tags already applied to on-premises instances that you 
 
 CodeDeploy includes all on-premises instances identified by any of the tags you specify in this deployment group. Duplicates are not allowed. You can specify OnPremisesInstanceTagFilters or OnPremisesInstanceTagSet, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#on_premises_instance_tag_filters CodedeployDeploymentGroup#on_premises_instance_tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#on_premises_instance_tag_filters CodedeployDeploymentGroup#on_premises_instance_tag_filters}
 
 ---
 
@@ -2176,7 +2236,7 @@ Information about groups of tags applied to on-premises instances.
 
 The deployment group includes only on-premises instances identified by all the tag groups. You can specify OnPremisesInstanceTagFilters or OnPremisesInstanceTagSet, but not both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#on_premises_tag_set CodedeployDeploymentGroup#on_premises_tag_set}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#on_premises_tag_set CodedeployDeploymentGroup#on_premises_tag_set}
 
 ---
 
@@ -2192,7 +2252,7 @@ Indicates what happens when new Amazon EC2 instances are launched mid-deployment
 
 If this option is set to UPDATE or is unspecified, CodeDeploy initiates one or more 'auto-update outdated instances' deployments to apply the deployed application revision to the new Amazon EC2 instances. If this option is set to IGNORE, CodeDeploy does not initiate a deployment to update the new Amazon EC2 instances. This may result in instances having different revisions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#outdated_instances_strategy CodedeployDeploymentGroup#outdated_instances_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#outdated_instances_strategy CodedeployDeploymentGroup#outdated_instances_strategy}
 
 ---
 
@@ -2208,7 +2268,7 @@ The metadata that you apply to CodeDeploy deployment groups to help you organize
 
 Each tag consists of a key and an optional value, both of which you define.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#tags CodedeployDeploymentGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#tags CodedeployDeploymentGroup#tags}
 
 ---
 
@@ -2222,7 +2282,7 @@ TerminationHookEnabled interface{}
 
 Indicates whether the deployment group was configured to have CodeDeploy install a termination hook into an Auto Scaling group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#termination_hook_enabled CodedeployDeploymentGroup#termination_hook_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#termination_hook_enabled CodedeployDeploymentGroup#termination_hook_enabled}
 
 ---
 
@@ -2236,7 +2296,7 @@ TriggerConfigurations interface{}
 
 Information about triggers associated with the deployment group. Duplicates are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#trigger_configurations CodedeployDeploymentGroup#trigger_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#trigger_configurations CodedeployDeploymentGroup#trigger_configurations}
 
 ---
 
@@ -2274,7 +2334,7 @@ Description *string
 
 A description of the deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#description CodedeployDeploymentGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#description CodedeployDeploymentGroup#description}
 
 ---
 
@@ -2290,7 +2350,7 @@ If true, then if an ApplicationStop, BeforeBlockTraffic, or AfterBlockTraffic de
 
 If false or not specified, then if a lifecycle event fails during a deployment to an instance, that deployment fails. If deployment to that instance is part of an overall deployment and the number of healthy hosts is not less than the minimum number of healthy hosts, then a deployment to the next instance is attempted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ignore_application_stop_failures CodedeployDeploymentGroup#ignore_application_stop_failures}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#ignore_application_stop_failures CodedeployDeploymentGroup#ignore_application_stop_failures}
 
 ---
 
@@ -2304,7 +2364,7 @@ Revision CodedeployDeploymentGroupDeploymentRevision
 
 Information about the location of stored application artifacts and the service from which to retrieve them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#revision CodedeployDeploymentGroup#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#revision CodedeployDeploymentGroup#revision}
 
 ---
 
@@ -2342,7 +2402,7 @@ GitHubLocation CodedeployDeploymentGroupDeploymentRevisionGitHubLocation
 
 Specifies the location of an application revision that is stored in GitHub.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#git_hub_location CodedeployDeploymentGroup#git_hub_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#git_hub_location CodedeployDeploymentGroup#git_hub_location}
 
 ---
 
@@ -2356,7 +2416,7 @@ RevisionType *string
 
 The type of application revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#revision_type CodedeployDeploymentGroup#revision_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#revision_type CodedeployDeploymentGroup#revision_type}
 
 ---
 
@@ -2370,7 +2430,7 @@ S3Location CodedeployDeploymentGroupDeploymentRevisionS3Location
 
 Information about the location of application artifacts stored in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#s3_location CodedeployDeploymentGroup#s3_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#s3_location CodedeployDeploymentGroup#s3_location}
 
 ---
 
@@ -2406,7 +2466,7 @@ CommitId *string
 
 The SHA1 commit ID of the GitHub commit that represents the bundled artifacts for the application revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#commit_id CodedeployDeploymentGroup#commit_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#commit_id CodedeployDeploymentGroup#commit_id}
 
 ---
 
@@ -2420,7 +2480,7 @@ Repository *string
 
 The GitHub account and repository pair that stores the application revision to be deployed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#repository CodedeployDeploymentGroup#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#repository CodedeployDeploymentGroup#repository}
 
 ---
 
@@ -2462,7 +2522,7 @@ Bucket *string
 
 The name of the Amazon S3 bucket where the application revision is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#bucket CodedeployDeploymentGroup#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#bucket CodedeployDeploymentGroup#bucket}
 
 ---
 
@@ -2476,7 +2536,7 @@ BundleType *string
 
 The file type of the application revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#bundle_type CodedeployDeploymentGroup#bundle_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#bundle_type CodedeployDeploymentGroup#bundle_type}
 
 ---
 
@@ -2492,7 +2552,7 @@ The ETag of the Amazon S3 object that represents the bundled artifacts for the a
 
 If the ETag is not specified as an input parameter, ETag validation of the object is skipped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#e_tag CodedeployDeploymentGroup#e_tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#e_tag CodedeployDeploymentGroup#e_tag}
 
 ---
 
@@ -2506,7 +2566,7 @@ Key *string
 
 The name of the Amazon S3 object that represents the bundled artifacts for the application revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -2522,7 +2582,7 @@ A specific version of the Amazon S3 object that represents the bundled artifacts
 
 If the version is not specified, the system uses the most recent version by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#version CodedeployDeploymentGroup#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#version CodedeployDeploymentGroup#version}
 
 ---
 
@@ -2558,7 +2618,7 @@ DeploymentOption *string
 
 Indicates whether to route deployment traffic behind a load balancer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_option CodedeployDeploymentGroup#deployment_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#deployment_option CodedeployDeploymentGroup#deployment_option}
 
 ---
 
@@ -2572,7 +2632,43 @@ DeploymentType *string
 
 Indicates whether to run an in-place or blue/green deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#deployment_type CodedeployDeploymentGroup#deployment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#deployment_type CodedeployDeploymentGroup#deployment_type}
+
+---
+
+### CodedeployDeploymentGroupEc2DeploymentOptions <a name="CodedeployDeploymentGroupEc2DeploymentOptions" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
+
+&codedeploydeploymentgroup.CodedeployDeploymentGroupEc2DeploymentOptions {
+	AutoScalingGroupProcessesToSuspend: *[]*string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions.property.autoScalingGroupProcessesToSuspend">AutoScalingGroupProcessesToSuspend</a></code> | <code>*[]*string</code> | The Amazon EC2 Auto Scaling processes to suspend during an in-place deployment. |
+
+---
+
+##### `AutoScalingGroupProcessesToSuspend`<sup>Optional</sup> <a name="AutoScalingGroupProcessesToSuspend" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions.property.autoScalingGroupProcessesToSuspend"></a>
+
+```go
+AutoScalingGroupProcessesToSuspend *[]*string
+```
+
+- *Type:* *[]*string
+
+The Amazon EC2 Auto Scaling processes to suspend during an in-place deployment.
+
+CodeDeploy suspends these processes before it deploys to instances in an Auto Scaling group, and resumes them when the deployment succeeds, fails, or is stopped. Valid values are Terminate, AZRebalance, InstanceRefresh, and ScheduledActions. Process names are case sensitive. To stop suspending processes, remove the property.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#auto_scaling_group_processes_to_suspend CodedeployDeploymentGroup#auto_scaling_group_processes_to_suspend}
 
 ---
 
@@ -2610,7 +2706,7 @@ Key *string
 
 The tag filter key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -2624,7 +2720,7 @@ Type *string
 
 The tag filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
 
 ---
 
@@ -2638,7 +2734,7 @@ Value *string
 
 The tag filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -2674,7 +2770,7 @@ The Amazon EC2 tags that are already applied to Amazon EC2 instances that you wa
 
 CodeDeploy includes all Amazon EC2 instances identified by any of the tags you specify in this deployment group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ec_2_tag_set_list CodedeployDeploymentGroup#ec_2_tag_set_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#ec_2_tag_set_list CodedeployDeploymentGroup#ec_2_tag_set_list}
 
 ---
 
@@ -2712,7 +2808,7 @@ Key *string
 
 The tag filter key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -2726,7 +2822,7 @@ Type *string
 
 The tag filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
 
 ---
 
@@ -2740,7 +2836,7 @@ Value *string
 
 The tag filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -2776,7 +2872,7 @@ A list that contains other lists of Amazon EC2 instance tag groups.
 
 For an instance to be included in the deployment group, it must be identified by all of the tag groups in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#ec_2_tag_group CodedeployDeploymentGroup#ec_2_tag_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#ec_2_tag_group CodedeployDeploymentGroup#ec_2_tag_group}
 
 ---
 
@@ -2812,7 +2908,7 @@ ClusterName *string
 
 The name of the cluster that the Amazon ECS service is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#cluster_name CodedeployDeploymentGroup#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#cluster_name CodedeployDeploymentGroup#cluster_name}
 
 ---
 
@@ -2826,7 +2922,7 @@ ServiceName *string
 
 The name of the target Amazon ECS service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#service_name CodedeployDeploymentGroup#service_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#service_name CodedeployDeploymentGroup#service_name}
 
 ---
 
@@ -2866,7 +2962,7 @@ An array that contains information about the load balancers to use for load bala
 
 If you're using Classic Load Balancers, specify those load balancers in this array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#elb_info_list CodedeployDeploymentGroup#elb_info_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#elb_info_list CodedeployDeploymentGroup#elb_info_list}
 
 ---
 
@@ -2882,7 +2978,7 @@ An array that contains information about the target groups to use for load balan
 
 If you're using Application Load Balancers and Network Load Balancers, specify their associated target groups in this array.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#target_group_info_list CodedeployDeploymentGroup#target_group_info_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#target_group_info_list CodedeployDeploymentGroup#target_group_info_list}
 
 ---
 
@@ -2896,7 +2992,7 @@ TargetGroupPairInfoList interface{}
 
 The target group pair information. This is an array of TargeGroupPairInfo objects with a maximum size of one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#target_group_pair_info_list CodedeployDeploymentGroup#target_group_pair_info_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#target_group_pair_info_list CodedeployDeploymentGroup#target_group_pair_info_list}
 
 ---
 
@@ -2932,7 +3028,7 @@ For blue/green deployments, the name of the load balancer that is used to route 
 
 For in-place deployments, the name of the load balancer that instances are deregistered from so they are not serving traffic during a deployment, and then re-registered with after the deployment is complete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 
 ---
 
@@ -2968,7 +3064,7 @@ For blue/green deployments, the name of the target group that instances in the o
 
 For in-place deployments, the name of the target group that instances are deregistered from, so they are not serving traffic during a deployment, and then re-registered with after the deployment completes. No duplicates allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 
 ---
 
@@ -3004,7 +3100,7 @@ The Amazon Resource Name (ARN) of one listener.
 
 The listener identifies the route between a target group and a load balancer. This is an array of strings with a maximum size of one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#listener_arns CodedeployDeploymentGroup#listener_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#listener_arns CodedeployDeploymentGroup#listener_arns}
 
 ---
 
@@ -3042,7 +3138,7 @@ ProdTrafficRoute CodedeployDeploymentGroupLoadBalancerInfoTargetGroupPairInfoLis
 
 The path used by a load balancer to route production traffic when an Amazon ECS deployment is complete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#prod_traffic_route CodedeployDeploymentGroup#prod_traffic_route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#prod_traffic_route CodedeployDeploymentGroup#prod_traffic_route}
 
 ---
 
@@ -3058,7 +3154,7 @@ One pair of target groups.
 
 One is associated with the original task set. The second is associated with the task set that serves traffic after the deployment is complete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#target_groups CodedeployDeploymentGroup#target_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#target_groups CodedeployDeploymentGroup#target_groups}
 
 ---
 
@@ -3074,7 +3170,7 @@ An optional path used by a load balancer to route test traffic after an Amazon E
 
 Validation can occur while test traffic is served during a deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#test_traffic_route CodedeployDeploymentGroup#test_traffic_route}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#test_traffic_route CodedeployDeploymentGroup#test_traffic_route}
 
 ---
 
@@ -3110,7 +3206,7 @@ For blue/green deployments, the name of the target group that instances in the o
 
 For in-place deployments, the name of the target group that instances are deregistered from, so they are not serving traffic during a deployment, and then re-registered with after the deployment completes. No duplicates allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 
 ---
 
@@ -3146,7 +3242,7 @@ The Amazon Resource Name (ARN) of one listener.
 
 The listener identifies the route between a target group and a load balancer. This is an array of strings with a maximum size of one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#listener_arns CodedeployDeploymentGroup#listener_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#listener_arns CodedeployDeploymentGroup#listener_arns}
 
 ---
 
@@ -3184,7 +3280,7 @@ Key *string
 
 The on-premises instance tag filter key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -3198,7 +3294,7 @@ Type *string
 
 The on-premises instance tag filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
 
 ---
 
@@ -3212,7 +3308,7 @@ Value *string
 
 The on-premises instance tag filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -3248,7 +3344,7 @@ A list that contains other lists of on-premises instance tag groups.
 
 For an instance to be included in the deployment group, it must be identified by all of the tag groups in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#on_premises_tag_set_list CodedeployDeploymentGroup#on_premises_tag_set_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#on_premises_tag_set_list CodedeployDeploymentGroup#on_premises_tag_set_list}
 
 ---
 
@@ -3286,7 +3382,7 @@ Key *string
 
 The on-premises instance tag filter key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -3300,7 +3396,7 @@ Type *string
 
 The on-premises instance tag filter type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#type CodedeployDeploymentGroup#type}
 
 ---
 
@@ -3314,7 +3410,7 @@ Value *string
 
 The on-premises instance tag filter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -3348,7 +3444,7 @@ OnPremisesTagGroup interface{}
 
 Information about groups of on-premises instance tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#on_premises_tag_group CodedeployDeploymentGroup#on_premises_tag_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#on_premises_tag_group CodedeployDeploymentGroup#on_premises_tag_group}
 
 ---
 
@@ -3384,7 +3480,7 @@ Key *string
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#key CodedeployDeploymentGroup#key}
 
 ---
 
@@ -3398,7 +3494,7 @@ Value *string
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#value CodedeployDeploymentGroup#value}
 
 ---
 
@@ -3436,7 +3532,7 @@ TriggerEvents *[]*string
 
 The event type or types that trigger notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#trigger_events CodedeployDeploymentGroup#trigger_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#trigger_events CodedeployDeploymentGroup#trigger_events}
 
 ---
 
@@ -3450,7 +3546,7 @@ TriggerName *string
 
 The name of the notification trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#trigger_name CodedeployDeploymentGroup#trigger_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#trigger_name CodedeployDeploymentGroup#trigger_name}
 
 ---
 
@@ -3464,7 +3560,7 @@ TriggerTargetArn *string
 
 The Amazon Resource Name (ARN) of the Amazon Simple Notification Service topic through which notifications about deployment or instance events are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group#trigger_target_arn CodedeployDeploymentGroup#trigger_target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group#trigger_target_arn CodedeployDeploymentGroup#trigger_target_arn}
 
 ---
 
@@ -7558,6 +7654,284 @@ func DeploymentType() *string
 ---
 
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupDeploymentStyleOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference <a name="CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeploydeploymentgroup"
+
+codedeploydeploymentgroup.NewCodedeployDeploymentGroupEc2DeploymentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.resetAutoScalingGroupProcessesToSuspend">ResetAutoScalingGroupProcessesToSuspend</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAutoScalingGroupProcessesToSuspend` <a name="ResetAutoScalingGroupProcessesToSuspend" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.resetAutoScalingGroupProcessesToSuspend"></a>
+
+```go
+func ResetAutoScalingGroupProcessesToSuspend()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.autoScalingGroupProcessesToSuspendInput">AutoScalingGroupProcessesToSuspendInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.autoScalingGroupProcessesToSuspend">AutoScalingGroupProcessesToSuspend</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AutoScalingGroupProcessesToSuspendInput`<sup>Optional</sup> <a name="AutoScalingGroupProcessesToSuspendInput" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.autoScalingGroupProcessesToSuspendInput"></a>
+
+```go
+func AutoScalingGroupProcessesToSuspendInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `AutoScalingGroupProcessesToSuspend`<sup>Required</sup> <a name="AutoScalingGroupProcessesToSuspend" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.autoScalingGroupProcessesToSuspend"></a>
+
+```go
+func AutoScalingGroupProcessesToSuspend() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}

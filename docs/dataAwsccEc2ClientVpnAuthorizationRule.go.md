@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2ClientVpnAuthorizationRule <a name="DataAwsccEc2ClientVpnAuthorizationRule" id="@cdktn/provider-awscc.dataAwsccEc2ClientVpnAuthorizationRule.DataAwsccEc2ClientVpnAuthorizationRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ClientVpnAuthorizationRule.DataAwsccEc2ClientVpnAuthorizationRule.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2ClientVpnAutho
 
 The id of the existing DataAwsccEc2ClientVpnAuthorizationRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_authorization_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_client_vpn_authorization_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -762,7 +762,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_authorization_rule#id DataAwsccEc2ClientVpnAuthorizationRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_client_vpn_authorization_rule#id DataAwsccEc2ClientVpnAuthorizationRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,7 +4,7 @@
 
 ### LambdaNetworkConnector <a name="LambdaNetworkConnector" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector awscc_lambda_network_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector awscc_lambda_network_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnector.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the LambdaNetworkConnector to 
 
 The id of the existing LambdaNetworkConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -994,7 +994,7 @@ public LambdaNetworkConnectorConfiguration Configuration { get; set; }
 
 The network configuration for the connector. Specify a VpcEgressConfiguration to enable outbound traffic routing through your VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#configuration LambdaNetworkConnector#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#configuration LambdaNetworkConnector#configuration}
 
 ---
 
@@ -1010,7 +1010,7 @@ A unique name for the network connector within your account and Region.
 
 Must be 1 to 64 alphanumeric characters, hyphens, or underscores.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#name LambdaNetworkConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#name LambdaNetworkConnector#name}
 
 ---
 
@@ -1024,9 +1024,9 @@ public string OperatorRole { get; set; }
 
 The ARN of the IAM role that Lambda assumes to manage elastic network interfaces in your VPC.
 
-This role must have permissions for ec2:CreateNetworkInterface and related describe operations.
+This role must have permissions for ec2:CreateNetworkInterface and related describe operations. If ElasticIpConfiguration Type is ServiceManaged, this role must also have permissions for ec2:AllocateAddress and ec2:AssociateAddress.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#operator_role LambdaNetworkConnector#operator_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#operator_role LambdaNetworkConnector#operator_role}
 
 ---
 
@@ -1042,7 +1042,7 @@ A list of tags to apply to the network connector.
 
 Use tags to categorize network connectors for cost allocation, access control, or operational management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#tags LambdaNetworkConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#tags LambdaNetworkConnector#tags}
 
 ---
 
@@ -1078,7 +1078,7 @@ The VPC egress configuration for the network connector.
 
 Specifies the subnets, security groups, and network protocol for routing outbound traffic through your VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#vpc_egress_configuration LambdaNetworkConnector#vpc_egress_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#vpc_egress_configuration LambdaNetworkConnector#vpc_egress_configuration}
 
 ---
 
@@ -1093,7 +1093,8 @@ new LambdaNetworkConnectorConfigurationVpcEgressConfiguration {
     string[] AssociatedComputeResourceTypes,
     string NetworkProtocol,
     string[] SecurityGroupIds,
-    string[] SubnetIds
+    string[] SubnetIds,
+    string ElasticIpConfiguration = null
 };
 ```
 
@@ -1105,6 +1106,7 @@ new LambdaNetworkConnectorConfigurationVpcEgressConfiguration {
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfiguration.property.networkProtocol">NetworkProtocol</a></code> | <code>string</code> | The network protocol for the connector. Specify IPv4 for IPv4-only networking, or DualStack for both IPv4 and IPv6. |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfiguration.property.securityGroupIds">SecurityGroupIds</a></code> | <code>string[]</code> | The IDs of the VPC security groups to attach to the ENIs. |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfiguration.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | The IDs of the VPC subnets where Lambda provisions elastic network interfaces (ENIs). |
+| <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfiguration.property.elasticIpConfiguration">ElasticIpConfiguration</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#elastic_ip_configuration LambdaNetworkConnector#elastic_ip_configuration}. |
 
 ---
 
@@ -1118,7 +1120,7 @@ public string[] AssociatedComputeResourceTypes { get; set; }
 
 The types of Lambda compute resources that can use this connector. Supported values are MicroVm and WebFunction.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#associated_compute_resource_types LambdaNetworkConnector#associated_compute_resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#associated_compute_resource_types LambdaNetworkConnector#associated_compute_resource_types}
 
 ---
 
@@ -1132,7 +1134,7 @@ public string NetworkProtocol { get; set; }
 
 The network protocol for the connector. Specify IPv4 for IPv4-only networking, or DualStack for both IPv4 and IPv6.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#network_protocol LambdaNetworkConnector#network_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#network_protocol LambdaNetworkConnector#network_protocol}
 
 ---
 
@@ -1148,7 +1150,7 @@ The IDs of the VPC security groups to attach to the ENIs.
 
 All security groups must be in the same VPC as the subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#security_group_ids LambdaNetworkConnector#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#security_group_ids LambdaNetworkConnector#security_group_ids}
 
 ---
 
@@ -1164,7 +1166,19 @@ The IDs of the VPC subnets where Lambda provisions elastic network interfaces (E
 
 Specify 1 to 16 subnets. All subnets must be in the same VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#subnet_ids LambdaNetworkConnector#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#subnet_ids LambdaNetworkConnector#subnet_ids}
+
+---
+
+##### `ElasticIpConfiguration`<sup>Optional</sup> <a name="ElasticIpConfiguration" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfiguration.property.elasticIpConfiguration"></a>
+
+```csharp
+public string ElasticIpConfiguration { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#elastic_ip_configuration LambdaNetworkConnector#elastic_ip_configuration}.
 
 ---
 
@@ -1200,7 +1214,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#key LambdaNetworkConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#key LambdaNetworkConnector#key}
 
 ---
 
@@ -1214,7 +1228,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector#value LambdaNetworkConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/lambda_network_connector#value LambdaNetworkConnector#value}
 
 ---
 
@@ -1554,6 +1568,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.resetElasticIpConfiguration">ResetElasticIpConfiguration</a></code> | *No description.* |
 
 ---
 
@@ -1707,6 +1722,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetElasticIpConfiguration` <a name="ResetElasticIpConfiguration" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.resetElasticIpConfiguration"></a>
+
+```csharp
+private void ResetElasticIpConfiguration()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -1715,10 +1736,12 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.associatedComputeResourceTypesInput">AssociatedComputeResourceTypesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.elasticIpConfigurationInput">ElasticIpConfigurationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.networkProtocolInput">NetworkProtocolInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.securityGroupIdsInput">SecurityGroupIdsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.subnetIdsInput">SubnetIdsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.associatedComputeResourceTypes">AssociatedComputeResourceTypes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.elasticIpConfiguration">ElasticIpConfiguration</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.networkProtocol">NetworkProtocol</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.securityGroupIds">SecurityGroupIds</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | *No description.* |
@@ -1760,6 +1783,16 @@ public string[] AssociatedComputeResourceTypesInput { get; }
 
 ---
 
+##### `ElasticIpConfigurationInput`<sup>Optional</sup> <a name="ElasticIpConfigurationInput" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.elasticIpConfigurationInput"></a>
+
+```csharp
+public string ElasticIpConfigurationInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `NetworkProtocolInput`<sup>Optional</sup> <a name="NetworkProtocolInput" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.networkProtocolInput"></a>
 
 ```csharp
@@ -1797,6 +1830,16 @@ public string[] AssociatedComputeResourceTypes { get; }
 ```
 
 - *Type:* string[]
+
+---
+
+##### `ElasticIpConfiguration`<sup>Required</sup> <a name="ElasticIpConfiguration" id="@cdktn/provider-awscc.lambdaNetworkConnector.LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.elasticIpConfiguration"></a>
+
+```csharp
+public string ElasticIpConfiguration { get; }
+```
+
+- *Type:* string
 
 ---
 

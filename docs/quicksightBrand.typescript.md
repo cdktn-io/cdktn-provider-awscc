@@ -4,7 +4,7 @@
 
 ### QuicksightBrand <a name="QuicksightBrand" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrand"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand awscc_quicksight_brand}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand awscc_quicksight_brand}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightBrand.QuicksightBrand.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the QuicksightBrand to import.
 
 The id of the existing QuicksightBrand that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,7 +908,7 @@ public readonly applicationTheme: QuicksightBrandBrandDefinitionApplicationTheme
 
 The application theme.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#application_theme QuicksightBrand#application_theme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#application_theme QuicksightBrand#application_theme}
 
 ---
 
@@ -922,7 +922,7 @@ public readonly brandName: string;
 
 The name of the brand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_name QuicksightBrand#brand_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#brand_name QuicksightBrand#brand_name}
 
 ---
 
@@ -936,7 +936,7 @@ public readonly description: string;
 
 The description of the brand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#description QuicksightBrand#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#description QuicksightBrand#description}
 
 ---
 
@@ -969,7 +969,7 @@ public readonly brandColorPalette: QuicksightBrandBrandDefinitionApplicationThem
 
 The color palette.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_color_palette QuicksightBrand#brand_color_palette}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#brand_color_palette QuicksightBrand#brand_color_palette}
 
 ---
 
@@ -983,7 +983,7 @@ public readonly brandElementStyle: QuicksightBrandBrandDefinitionApplicationThem
 
 The element style.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_element_style QuicksightBrand#brand_element_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#brand_element_style QuicksightBrand#brand_element_style}
 
 ---
 
@@ -1023,7 +1023,7 @@ public readonly accent: QuicksightBrandBrandDefinitionApplicationThemeBrandColor
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#accent QuicksightBrand#accent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#accent QuicksightBrand#accent}
 
 ---
 
@@ -1037,7 +1037,7 @@ public readonly danger: QuicksightBrandBrandDefinitionApplicationThemeBrandColor
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#danger QuicksightBrand#danger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#danger QuicksightBrand#danger}
 
 ---
 
@@ -1051,7 +1051,7 @@ public readonly dimension: QuicksightBrandBrandDefinitionApplicationThemeBrandCo
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#dimension QuicksightBrand#dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#dimension QuicksightBrand#dimension}
 
 ---
 
@@ -1065,7 +1065,7 @@ public readonly info: QuicksightBrandBrandDefinitionApplicationThemeBrandColorPa
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#info QuicksightBrand#info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#info QuicksightBrand#info}
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly measure: QuicksightBrandBrandDefinitionApplicationThemeBrandColo
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#measure QuicksightBrand#measure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#measure QuicksightBrand#measure}
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly primary: QuicksightBrandBrandDefinitionApplicationThemeBrandColo
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#primary QuicksightBrand#primary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#primary QuicksightBrand#primary}
 
 ---
 
@@ -1107,7 +1107,7 @@ public readonly secondary: QuicksightBrandBrandDefinitionApplicationThemeBrandCo
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#secondary QuicksightBrand#secondary}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#secondary QuicksightBrand#secondary}
 
 ---
 
@@ -1121,7 +1121,7 @@ public readonly success: QuicksightBrandBrandDefinitionApplicationThemeBrandColo
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#success QuicksightBrand#success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#success QuicksightBrand#success}
 
 ---
 
@@ -1135,7 +1135,7 @@ public readonly warning: QuicksightBrandBrandDefinitionApplicationThemeBrandColo
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#warning QuicksightBrand#warning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#warning QuicksightBrand#warning}
 
 ---
 
@@ -1168,7 +1168,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1182,7 +1182,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1215,7 +1215,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1229,7 +1229,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1262,7 +1262,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1276,7 +1276,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1309,7 +1309,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1323,7 +1323,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1356,7 +1356,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1370,7 +1370,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1403,7 +1403,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1417,7 +1417,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1450,7 +1450,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1464,7 +1464,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1497,7 +1497,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1511,7 +1511,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1544,7 +1544,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1558,7 +1558,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1590,7 +1590,7 @@ public readonly navbarStyle: QuicksightBrandBrandDefinitionApplicationThemeBrand
 
 The navigation bar style.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#navbar_style QuicksightBrand#navbar_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#navbar_style QuicksightBrand#navbar_style}
 
 ---
 
@@ -1623,7 +1623,7 @@ public readonly contextualNavbar: QuicksightBrandBrandDefinitionApplicationTheme
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#contextual_navbar QuicksightBrand#contextual_navbar}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#contextual_navbar QuicksightBrand#contextual_navbar}
 
 ---
 
@@ -1637,7 +1637,7 @@ public readonly globalNavbar: QuicksightBrandBrandDefinitionApplicationThemeBran
 
 The palette colors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#global_navbar QuicksightBrand#global_navbar}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#global_navbar QuicksightBrand#global_navbar}
 
 ---
 
@@ -1670,7 +1670,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1684,7 +1684,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1717,7 +1717,7 @@ public readonly background: string;
 
 The background color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 
 ---
 
@@ -1731,7 +1731,7 @@ public readonly foreground: string;
 
 The foreground color.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 
 ---
 
@@ -1757,7 +1757,7 @@ const quicksightBrandConfig: quicksightBrand.QuicksightBrandConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.brandId">brandId</a></code> | <code>string</code> | The ID of the QuickSight brand. |
-| <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.brandDefinition">brandDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinition">QuicksightBrandBrandDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.brandDefinition">brandDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinition">QuicksightBrandBrandDefinition</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandTags">QuicksightBrandTags</a>[]</code> | The tags for the brand. |
 
 ---
@@ -1842,7 +1842,7 @@ public readonly brandId: string;
 
 The ID of the QuickSight brand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_id QuicksightBrand#brand_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#brand_id QuicksightBrand#brand_id}
 
 ---
 
@@ -1854,7 +1854,7 @@ public readonly brandDefinition: QuicksightBrandBrandDefinition;
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightBrand.QuicksightBrandBrandDefinition">QuicksightBrandBrandDefinition</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}.
 
 ---
 
@@ -1868,7 +1868,7 @@ public readonly tags: IResolvable | QuicksightBrandTags[];
 
 The tags for the brand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#tags QuicksightBrand#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#tags QuicksightBrand#tags}
 
 ---
 
@@ -1901,7 +1901,7 @@ public readonly key: string;
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#key QuicksightBrand#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#key QuicksightBrand#key}
 
 ---
 
@@ -1915,7 +1915,7 @@ public readonly value: string;
 
 Tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#value QuicksightBrand#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand#value QuicksightBrand#value}
 
 ---
 

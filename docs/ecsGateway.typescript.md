@@ -4,7 +4,7 @@
 
 ### EcsGateway <a name="EcsGateway" id="@cdktn/provider-awscc.ecsGateway.EcsGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway awscc_ecs_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway awscc_ecs_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsGateway.EcsGateway.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the EcsGateway to import.
 
 The id of the existing EcsGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1039,7 +1039,7 @@ public readonly configuration: EcsGatewayConfiguration;
 
 The configuration for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#configuration EcsGateway#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#configuration EcsGateway#configuration}
 
 ---
 
@@ -1053,7 +1053,7 @@ public readonly gatewayName: string;
 
 The name of the gateway. Up to 255 letters (uppercase and lowercase), numbers, and hyphens are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#gateway_name EcsGateway#gateway_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#gateway_name EcsGateway#gateway_name}
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly infrastructureRoleArn: string;
 
 The ARN of the IAM role that ECS uses to manage infrastructure for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#infrastructure_role_arn EcsGateway#infrastructure_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#infrastructure_role_arn EcsGateway#infrastructure_role_arn}
 
 ---
 
@@ -1081,7 +1081,7 @@ public readonly deletionProtection: boolean | IResolvable;
 
 Whether deletion protection is enabled for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#deletion_protection EcsGateway#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#deletion_protection EcsGateway#deletion_protection}
 
 ---
 
@@ -1095,7 +1095,7 @@ public readonly propagateTags: string;
 
 Specifies whether to propagate the tags from the gateway to other resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#propagate_tags EcsGateway#propagate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#propagate_tags EcsGateway#propagate_tags}
 
 ---
 
@@ -1109,7 +1109,7 @@ public readonly tags: IResolvable | EcsGatewayTags[];
 
 The metadata that you apply to the gateway to help you categorize and organize them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#tags EcsGateway#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#tags EcsGateway#tags}
 
 ---
 
@@ -1141,7 +1141,7 @@ public readonly hostSharedAlb: EcsGatewayConfigurationHostSharedAlb;
 
 The host shared ALB configuration for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#host_shared_alb EcsGateway#host_shared_alb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#host_shared_alb EcsGateway#host_shared_alb}
 
 ---
 
@@ -1181,7 +1181,7 @@ public readonly accessLogs: EcsGatewayConfigurationHostSharedAlbAccessLogs;
 
 The access log configuration for the gateway ALB. Access logging is enabled by the presence of a destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#access_logs EcsGateway#access_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#access_logs EcsGateway#access_logs}
 
 ---
 
@@ -1195,7 +1195,7 @@ public readonly httpDesync: string;
 
 The HTTP desync mitigation mode for the ALB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#http_desync EcsGateway#http_desync}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#http_desync EcsGateway#http_desync}
 
 ---
 
@@ -1209,7 +1209,7 @@ public readonly maxAlbCount: number;
 
 The maximum number of ALBs to provision for the gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#max_alb_count EcsGateway#max_alb_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#max_alb_count EcsGateway#max_alb_count}
 
 ---
 
@@ -1223,7 +1223,7 @@ public readonly networkConfiguration: EcsGatewayConfigurationHostSharedAlbNetwor
 
 The network configuration for the gateway ALB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#network_configuration EcsGateway#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#network_configuration EcsGateway#network_configuration}
 
 ---
 
@@ -1237,7 +1237,7 @@ public readonly port: number;
 
 The port on which the ALB listens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#port EcsGateway#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#port EcsGateway#port}
 
 ---
 
@@ -1251,7 +1251,7 @@ public readonly protocol: string;
 
 The protocol for the ALB listener.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#protocol EcsGateway#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#protocol EcsGateway#protocol}
 
 ---
 
@@ -1265,7 +1265,7 @@ public readonly scheme: string;
 
 The scheme for the ALB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#scheme EcsGateway#scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#scheme EcsGateway#scheme}
 
 ---
 
@@ -1279,7 +1279,7 @@ public readonly testTrafficRules: EcsGatewayConfigurationHostSharedAlbTestTraffi
 
 The test traffic rules for the gateway ALB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#test_traffic_rules EcsGateway#test_traffic_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#test_traffic_rules EcsGateway#test_traffic_rules}
 
 ---
 
@@ -1293,7 +1293,7 @@ public readonly webAclArn: string;
 
 The ARN of the WAFv2 web ACL to associate with the ALB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#web_acl_arn EcsGateway#web_acl_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#web_acl_arn EcsGateway#web_acl_arn}
 
 ---
 
@@ -1325,7 +1325,7 @@ public readonly destination: EcsGatewayConfigurationHostSharedAlbAccessLogsDesti
 
 The destination for gateway ALB access logs. Exactly one destination type must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#destination EcsGateway#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#destination EcsGateway#destination}
 
 ---
 
@@ -1357,7 +1357,7 @@ public readonly s3: EcsGatewayConfigurationHostSharedAlbAccessLogsDestinationS3;
 
 The S3 destination for gateway ALB access logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#s3 EcsGateway#s3}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#s3 EcsGateway#s3}
 
 ---
 
@@ -1390,7 +1390,7 @@ public readonly bucket: string;
 
 The S3 bucket for access logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#bucket EcsGateway#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#bucket EcsGateway#bucket}
 
 ---
 
@@ -1404,7 +1404,7 @@ public readonly prefix: string;
 
 The S3 prefix for access logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#prefix EcsGateway#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#prefix EcsGateway#prefix}
 
 ---
 
@@ -1438,7 +1438,7 @@ public readonly inboundSecurityGroup: string;
 
 The inbound security group for the ALB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#inbound_security_group EcsGateway#inbound_security_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#inbound_security_group EcsGateway#inbound_security_group}
 
 ---
 
@@ -1452,7 +1452,7 @@ public readonly ipAddressType: string;
 
 The IP address type for the ALB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#ip_address_type EcsGateway#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#ip_address_type EcsGateway#ip_address_type}
 
 ---
 
@@ -1466,7 +1466,7 @@ public readonly subnets: string[];
 
 The subnets for the ALB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#subnets EcsGateway#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#subnets EcsGateway#subnets}
 
 ---
 
@@ -1498,7 +1498,7 @@ public readonly header: EcsGatewayConfigurationHostSharedAlbTestTrafficRulesHead
 
 The header configuration for test traffic routing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#header EcsGateway#header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#header EcsGateway#header}
 
 ---
 
@@ -1531,7 +1531,7 @@ public readonly name: string;
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#name EcsGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#name EcsGateway#name}
 
 ---
 
@@ -1545,7 +1545,7 @@ public readonly values: string[];
 
 The values for the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#values EcsGateway#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#values EcsGateway#values}
 
 ---
 
@@ -1563,8 +1563,8 @@ const ecsGatewayTags: ecsGateway.EcsGatewayTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ecsGateway.EcsGatewayTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#key EcsGateway#key}. |
-| <code><a href="#@cdktn/provider-awscc.ecsGateway.EcsGatewayTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#value EcsGateway#value}. |
+| <code><a href="#@cdktn/provider-awscc.ecsGateway.EcsGatewayTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#key EcsGateway#key}. |
+| <code><a href="#@cdktn/provider-awscc.ecsGateway.EcsGatewayTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#value EcsGateway#value}. |
 
 ---
 
@@ -1576,7 +1576,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#key EcsGateway#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#key EcsGateway#key}.
 
 ---
 
@@ -1588,7 +1588,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#value EcsGateway#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#value EcsGateway#value}.
 
 ---
 

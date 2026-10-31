@@ -4,7 +4,7 @@
 
 ### Ec2IpamInternetRegistryAssociation <a name="Ec2IpamInternetRegistryAssociation" id="@cdktn/provider-awscc.ec2IpamInternetRegistryAssociation.Ec2IpamInternetRegistryAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IpamInternetRegistryAssociation.Ec2IpamInternetRegistryAssociation.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the IPAM to associate with the internet registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#ipam_id Ec2IpamInternetRegistryAssociation#ipam_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#ipam_id Ec2IpamInternetRegistryAssociation#ipam_id}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The organization handle at the internet registry (for example, a RIPE NCC organization ID or ARIN Org ID).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#organization_handle Ec2IpamInternetRegistryAssociation#organization_handle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#organization_handle Ec2IpamInternetRegistryAssociation#organization_handle}
 
 ---
 
@@ -136,7 +136,7 @@ The Regional Internet Registry to associate with.
 
 The service returns these values in upper case, so the enum uses the round-tripping form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#rir Ec2IpamInternetRegistryAssociation#rir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#rir Ec2IpamInternetRegistryAssociation#rir}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description for the internet registry association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#description Ec2IpamInternetRegistryAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#description Ec2IpamInternetRegistryAssociation#description}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags assigned to the internet registry association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#tags Ec2IpamInternetRegistryAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#tags Ec2IpamInternetRegistryAssociation#tags}
 
 ---
 
@@ -682,7 +682,7 @@ The construct id used in the generated config for the Ec2IpamInternetRegistryAss
 
 The id of the existing Ec2IpamInternetRegistryAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1186,7 +1186,7 @@ ipam_id: str
 
 The ID of the IPAM to associate with the internet registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#ipam_id Ec2IpamInternetRegistryAssociation#ipam_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#ipam_id Ec2IpamInternetRegistryAssociation#ipam_id}
 
 ---
 
@@ -1200,7 +1200,7 @@ organization_handle: str
 
 The organization handle at the internet registry (for example, a RIPE NCC organization ID or ARIN Org ID).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#organization_handle Ec2IpamInternetRegistryAssociation#organization_handle}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#organization_handle Ec2IpamInternetRegistryAssociation#organization_handle}
 
 ---
 
@@ -1216,7 +1216,7 @@ The Regional Internet Registry to associate with.
 
 The service returns these values in upper case, so the enum uses the round-tripping form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#rir Ec2IpamInternetRegistryAssociation#rir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#rir Ec2IpamInternetRegistryAssociation#rir}
 
 ---
 
@@ -1230,7 +1230,7 @@ description: str
 
 A description for the internet registry association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#description Ec2IpamInternetRegistryAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#description Ec2IpamInternetRegistryAssociation#description}
 
 ---
 
@@ -1244,7 +1244,7 @@ tags: IResolvable | typing.List[Ec2IpamInternetRegistryAssociationTags]
 
 The tags assigned to the internet registry association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#tags Ec2IpamInternetRegistryAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#tags Ec2IpamInternetRegistryAssociation#tags}
 
 ---
 
@@ -1280,7 +1280,7 @@ key: str
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#key Ec2IpamInternetRegistryAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#key Ec2IpamInternetRegistryAssociation#key}
 
 ---
 
@@ -1294,7 +1294,7 @@ value: str
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#value Ec2IpamInternetRegistryAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#value Ec2IpamInternetRegistryAssociation#value}
 
 ---
 

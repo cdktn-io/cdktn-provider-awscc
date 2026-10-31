@@ -4,7 +4,7 @@
 
 ### OmicsConfiguration <a name="OmicsConfiguration" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration awscc_omics_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration awscc_omics_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfiguration.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the OmicsConfiguration to impo
 
 The id of the existing OmicsConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -974,7 +974,7 @@ Name *string
 
 User-friendly name for the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
 
 ---
 
@@ -988,7 +988,7 @@ RunConfigurations OmicsConfigurationRunConfigurations
 
 Required run-specific configurations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
 
 ---
 
@@ -1002,7 +1002,7 @@ Description *string
 
 Optional description for the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
 
 ---
 
@@ -1016,7 +1016,7 @@ Tags *map[string]*string
 
 Tags for the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
 
 ---
 
@@ -1036,7 +1036,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsconfiguration"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurations.property.vpcConfig">VpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig">OmicsConfigurationRunConfigurationsVpcConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}. |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurations.property.vpcConfig">VpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig">OmicsConfigurationRunConfigurationsVpcConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}. |
 
 ---
 
@@ -1048,7 +1048,7 @@ VpcConfig OmicsConfigurationRunConfigurationsVpcConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig">OmicsConfigurationRunConfigurationsVpcConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}.
 
 ---
 
@@ -1062,6 +1062,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsconfiguration"
 &omicsconfiguration.OmicsConfigurationRunConfigurationsVpcConfig {
 	SecurityGroupIds: *[]*string,
 	SubnetIds: *[]*string,
+	VpcOwnerAccountId: *string,
 }
 ```
 
@@ -1069,8 +1070,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsconfiguration"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.vpcOwnerAccountId">VpcOwnerAccountId</a></code> | <code>*string</code> | The Amazon Web Services account ID of the cross-account VPC owner for RAM-shared VPC configurations. |
 
 ---
 
@@ -1082,7 +1084,7 @@ SecurityGroupIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#security_group_ids OmicsConfiguration#security_group_ids}.
 
 ---
 
@@ -1094,7 +1096,21 @@ SubnetIds *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#subnet_ids OmicsConfiguration#subnet_ids}.
+
+---
+
+##### `VpcOwnerAccountId`<sup>Optional</sup> <a name="VpcOwnerAccountId" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfig.property.vpcOwnerAccountId"></a>
+
+```go
+VpcOwnerAccountId *string
+```
+
+- *Type:* *string
+
+The Amazon Web Services account ID of the cross-account VPC owner for RAM-shared VPC configurations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/omics_configuration#vpc_owner_account_id OmicsConfiguration#vpc_owner_account_id}
 
 ---
 
@@ -1443,6 +1459,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.resetSecurityGroupIds">ResetSecurityGroupIds</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.resetSubnetIds">ResetSubnetIds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.resetVpcOwnerAccountId">ResetVpcOwnerAccountId</a></code> | *No description.* |
 
 ---
 
@@ -1608,6 +1625,12 @@ func ResetSecurityGroupIds()
 func ResetSubnetIds()
 ```
 
+##### `ResetVpcOwnerAccountId` <a name="ResetVpcOwnerAccountId" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.resetVpcOwnerAccountId"></a>
+
+```go
+func ResetVpcOwnerAccountId()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -1617,8 +1640,10 @@ func ResetSubnetIds()
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.securityGroupIdsInput">SecurityGroupIdsInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.subnetIdsInput">SubnetIdsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.vpcOwnerAccountIdInput">VpcOwnerAccountIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.securityGroupIds">SecurityGroupIds</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.subnetIds">SubnetIds</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.vpcOwnerAccountId">VpcOwnerAccountId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
@@ -1667,6 +1692,16 @@ func SubnetIdsInput() *[]*string
 
 ---
 
+##### `VpcOwnerAccountIdInput`<sup>Optional</sup> <a name="VpcOwnerAccountIdInput" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.vpcOwnerAccountIdInput"></a>
+
+```go
+func VpcOwnerAccountIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `SecurityGroupIds`<sup>Required</sup> <a name="SecurityGroupIds" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.securityGroupIds"></a>
 
 ```go
@@ -1684,6 +1719,16 @@ func SubnetIds() *[]*string
 ```
 
 - *Type:* *[]*string
+
+---
+
+##### `VpcOwnerAccountId`<sup>Required</sup> <a name="VpcOwnerAccountId" id="@cdktn/provider-awscc.omicsConfiguration.OmicsConfigurationRunConfigurationsVpcConfigOutputReference.property.vpcOwnerAccountId"></a>
+
+```go
+func VpcOwnerAccountId() *string
+```
+
+- *Type:* *string
 
 ---
 

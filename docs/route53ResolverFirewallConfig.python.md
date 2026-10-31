@@ -4,7 +4,7 @@
 
 ### Route53ResolverFirewallConfig <a name="Route53ResolverFirewallConfig" id="@cdktn/provider-awscc.route53ResolverFirewallConfig.Route53ResolverFirewallConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config awscc_route53resolver_firewall_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config awscc_route53resolver_firewall_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ResolverFirewallConfig.Route53ResolverFirewallConfig.Initializer"></a>
 
@@ -110,7 +110,7 @@ Determines how DNS Firewall operates during failures.
 
 By default, fail open is disabled, which means the failure mode is closed. If you enable this option, the failure mode is open. This behavior is only enforced for VPCs that have at least one DNS Firewall rule group association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#firewall_fail_open Route53ResolverFirewallConfig#firewall_fail_open}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#firewall_fail_open Route53ResolverFirewallConfig#firewall_fail_open}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the VPC that this firewall configuration applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#resource_id Route53ResolverFirewallConfig#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#resource_id Route53ResolverFirewallConfig#resource_id}
 
 ---
 
@@ -617,7 +617,7 @@ The construct id used in the generated config for the Route53ResolverFirewallCon
 
 The id of the existing Route53ResolverFirewallConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1018,7 +1018,7 @@ Determines how DNS Firewall operates during failures.
 
 By default, fail open is disabled, which means the failure mode is closed. If you enable this option, the failure mode is open. This behavior is only enforced for VPCs that have at least one DNS Firewall rule group association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#firewall_fail_open Route53ResolverFirewallConfig#firewall_fail_open}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#firewall_fail_open Route53ResolverFirewallConfig#firewall_fail_open}
 
 ---
 
@@ -1032,7 +1032,7 @@ resource_id: str
 
 The ID of the VPC that this firewall configuration applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#resource_id Route53ResolverFirewallConfig#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#resource_id Route53ResolverFirewallConfig#resource_id}
 
 ---
 

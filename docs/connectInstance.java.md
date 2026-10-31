@@ -4,7 +4,7 @@
 
 ### ConnectInstance <a name="ConnectInstance" id="@cdktn/provider-awscc.connectInstance.ConnectInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance awscc_connect_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance awscc_connect_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectInstance.ConnectInstance.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The attributes for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#attributes ConnectInstance#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#attributes ConnectInstance#attributes}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the type of directory integration for new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#identity_management_type ConnectInstance#identity_management_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#identity_management_type ConnectInstance#identity_management_type}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Existing directoryId user wants to map to the new Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#directory_id ConnectInstance#directory_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#directory_id ConnectInstance#directory_id}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Alias of the new directory created as part of new instance creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#instance_alias ConnectInstance#instance_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#instance_alias ConnectInstance#instance_alias}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#tags ConnectInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#tags ConnectInstance#tags}
 
 ---
 
@@ -648,7 +648,7 @@ The construct id used in the generated config for the ConnectInstance to import.
 
 The id of the existing ConnectInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1075,7 +1075,7 @@ public java.lang.Boolean|IResolvable getInboundCalls();
 
 Mandatory element which enables inbound calls on new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#inbound_calls ConnectInstance#inbound_calls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#inbound_calls ConnectInstance#inbound_calls}
 
 ---
 
@@ -1089,7 +1089,7 @@ public java.lang.Boolean|IResolvable getOutboundCalls();
 
 Mandatory element which enables outbound calls on new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#outbound_calls ConnectInstance#outbound_calls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#outbound_calls ConnectInstance#outbound_calls}
 
 ---
 
@@ -1103,7 +1103,7 @@ public java.lang.Boolean|IResolvable getAutoMuteAgentOnHold();
 
 Boolean flag which enables AUTO_MUTE_AGENT_ON_HOLD on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#auto_mute_agent_on_hold ConnectInstance#auto_mute_agent_on_hold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#auto_mute_agent_on_hold ConnectInstance#auto_mute_agent_on_hold}
 
 ---
 
@@ -1117,7 +1117,7 @@ public java.lang.Boolean|IResolvable getAutoResolveBestVoices();
 
 Boolean flag which enables AUTO_RESOLVE_BEST_VOICES on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#auto_resolve_best_voices ConnectInstance#auto_resolve_best_voices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#auto_resolve_best_voices ConnectInstance#auto_resolve_best_voices}
 
 ---
 
@@ -1131,7 +1131,7 @@ public java.lang.Boolean|IResolvable getContactflowLogs();
 
 Boolean flag which enables CONTACTFLOW_LOGS on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#contactflow_logs ConnectInstance#contactflow_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#contactflow_logs ConnectInstance#contactflow_logs}
 
 ---
 
@@ -1145,7 +1145,7 @@ public java.lang.Boolean|IResolvable getContactLens();
 
 Boolean flag which enables CONTACT_LENS on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#contact_lens ConnectInstance#contact_lens}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#contact_lens ConnectInstance#contact_lens}
 
 ---
 
@@ -1159,7 +1159,7 @@ public java.lang.Boolean|IResolvable getEarlyMedia();
 
 Boolean flag which enables EARLY_MEDIA on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#early_media ConnectInstance#early_media}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#early_media ConnectInstance#early_media}
 
 ---
 
@@ -1173,7 +1173,7 @@ public java.lang.Boolean|IResolvable getEnhancedChatMonitoring();
 
 Boolean flag which enables ENHANCED_CHAT_MONITORING on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#enhanced_chat_monitoring ConnectInstance#enhanced_chat_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#enhanced_chat_monitoring ConnectInstance#enhanced_chat_monitoring}
 
 ---
 
@@ -1187,7 +1187,7 @@ public java.lang.Boolean|IResolvable getEnhancedContactMonitoring();
 
 Boolean flag which enables ENHANCED_CONTACT_MONITORING on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#enhanced_contact_monitoring ConnectInstance#enhanced_contact_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#enhanced_contact_monitoring ConnectInstance#enhanced_contact_monitoring}
 
 ---
 
@@ -1201,7 +1201,7 @@ public java.lang.Boolean|IResolvable getHighVolumeOutBound();
 
 Boolean flag which enables HIGH_VOLUME_OUTBOUND on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#high_volume_out_bound ConnectInstance#high_volume_out_bound}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#high_volume_out_bound ConnectInstance#high_volume_out_bound}
 
 ---
 
@@ -1215,7 +1215,7 @@ public java.lang.Boolean|IResolvable getMessageStreaming();
 
 Boolean flag which enables MESSAGE_STREAMING on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#message_streaming ConnectInstance#message_streaming}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#message_streaming ConnectInstance#message_streaming}
 
 ---
 
@@ -1229,7 +1229,7 @@ public java.lang.Boolean|IResolvable getMultiPartyChatConference();
 
 Boolean flag which enables MULTI_PARTY_CHAT_CONFERENCE on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#multi_party_chat_conference ConnectInstance#multi_party_chat_conference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#multi_party_chat_conference ConnectInstance#multi_party_chat_conference}
 
 ---
 
@@ -1243,7 +1243,7 @@ public java.lang.Boolean|IResolvable getMultiPartyConference();
 
 Boolean flag which enables MULTI_PARTY_CONFERENCE on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#multi_party_conference ConnectInstance#multi_party_conference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#multi_party_conference ConnectInstance#multi_party_conference}
 
 ---
 
@@ -1257,7 +1257,7 @@ public java.lang.Boolean|IResolvable getUseCustomTtsVoices();
 
 Boolean flag which enables USE_CUSTOM_TTS_VOICES on an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#use_custom_tts_voices ConnectInstance#use_custom_tts_voices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#use_custom_tts_voices ConnectInstance#use_custom_tts_voices}
 
 ---
 
@@ -1383,7 +1383,7 @@ public ConnectInstanceAttributes getAttributes();
 
 The attributes for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#attributes ConnectInstance#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#attributes ConnectInstance#attributes}
 
 ---
 
@@ -1397,7 +1397,7 @@ public java.lang.String getIdentityManagementType();
 
 Specifies the type of directory integration for new instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#identity_management_type ConnectInstance#identity_management_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#identity_management_type ConnectInstance#identity_management_type}
 
 ---
 
@@ -1411,7 +1411,7 @@ public java.lang.String getDirectoryId();
 
 Existing directoryId user wants to map to the new Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#directory_id ConnectInstance#directory_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#directory_id ConnectInstance#directory_id}
 
 ---
 
@@ -1425,7 +1425,7 @@ public java.lang.String getInstanceAlias();
 
 Alias of the new directory created as part of new instance creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#instance_alias ConnectInstance#instance_alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#instance_alias ConnectInstance#instance_alias}
 
 ---
 
@@ -1439,7 +1439,7 @@ public IResolvable|java.util.List<ConnectInstanceTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#tags ConnectInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#tags ConnectInstance#tags}
 
 ---
 
@@ -1477,7 +1477,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#key ConnectInstance#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#key ConnectInstance#key}
 
 ---
 
@@ -1493,7 +1493,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_instance#value ConnectInstance#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/connect_instance#value ConnectInstance#value}
 
 ---
 

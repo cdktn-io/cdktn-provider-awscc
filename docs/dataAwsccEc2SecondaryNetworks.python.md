@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2SecondaryNetworks <a name="DataAwsccEc2SecondaryNetworks" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetworks.DataAwsccEc2SecondaryNetworks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_secondary_networks awscc_ec2_secondary_networks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_secondary_networks awscc_ec2_secondary_networks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2SecondaryNetworks.DataAwsccEc2SecondaryNetworks.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2SecondaryNetwo
 
 The id of the existing DataAwsccEc2SecondaryNetworks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_secondary_networks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_secondary_networks#import import section} in the documentation of this resource for the id to use
 
 ---
 

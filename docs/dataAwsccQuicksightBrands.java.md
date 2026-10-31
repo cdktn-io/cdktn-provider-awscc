@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightBrands <a name="DataAwsccQuicksightBrands" id="@cdktn/provider-awscc.dataAwsccQuicksightBrands.DataAwsccQuicksightBrands"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_brands awscc_quicksight_brands}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_brands awscc_quicksight_brands}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightBrands.DataAwsccQuicksightBrands.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccQuicksightBrands 
 
 The id of the existing DataAwsccQuicksightBrands that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_brands#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_brands#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### EcsDaemon <a name="EcsDaemon" id="@cdktn/provider-awscc.ecsDaemon.EcsDaemon"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon awscc_ecs_daemon}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon awscc_ecs_daemon}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ecsDaemon.EcsDaemon.Initializer"></a>
 
@@ -585,7 +585,7 @@ The construct id used in the generated config for the EcsDaemon to import.
 
 The id of the existing EcsDaemon that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1089,14 +1089,14 @@ const ecsDaemonConfig: ecsDaemon.EcsDaemonConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.capacityProviderArns">capacityProviderArns</a></code> | <code>string[]</code> | The Amazon Resource Names (ARNs) of the capacity providers associated with the daemon. |
 | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.clusterArn">clusterArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the cluster that the daemon is running in. |
-| <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.critical">critical</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#critical EcsDaemon#critical}. |
-| <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.daemonName">daemonName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#daemon_name EcsDaemon#daemon_name}. |
+| <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.critical">critical</a></code> | <code>boolean \| cdktn.IResolvable</code> | If the ``critical`` parameter of this daemon revision is ``true``, and the daemon task fails, stops, or becomes unhealthy, Amazon ECS drains the container instance and stops the other tasks running on it. |
+| <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.daemonName">daemonName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#daemon_name EcsDaemon#daemon_name}. |
 | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.daemonTaskDefinitionArn">daemonTaskDefinitionArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the daemon task definition used by this revision. |
 | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.deploymentConfiguration">deploymentConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonDeploymentConfiguration">EcsDaemonDeploymentConfiguration</a></code> | The deployment configuration used for this daemon deployment. |
 | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.enableEcsManagedTags">enableEcsManagedTags</a></code> | <code>boolean \| cdktn.IResolvable</code> | Specifies whether Amazon ECS managed tags are turned on for the daemon tasks. |
 | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.enableExecuteCommand">enableExecuteCommand</a></code> | <code>boolean \| cdktn.IResolvable</code> | Specifies whether the execute command functionality is turned on for the daemon tasks. |
 | <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.propagateTags">propagateTags</a></code> | <code>string</code> | Specifies whether tags are propagated from the daemon to the daemon tasks. |
-| <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonTags">EcsDaemonTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonTags">EcsDaemonTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}. |
 
 ---
 
@@ -1180,7 +1180,7 @@ public readonly capacityProviderArns: string[];
 
 The Amazon Resource Names (ARNs) of the capacity providers associated with the daemon.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#capacity_provider_arns EcsDaemon#capacity_provider_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#capacity_provider_arns EcsDaemon#capacity_provider_arns}
 
 ---
 
@@ -1194,7 +1194,7 @@ public readonly clusterArn: string;
 
 The Amazon Resource Name (ARN) of the cluster that the daemon is running in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#cluster_arn EcsDaemon#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#cluster_arn EcsDaemon#cluster_arn}
 
 ---
 
@@ -1206,7 +1206,11 @@ public readonly critical: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#critical EcsDaemon#critical}.
+If the ``critical`` parameter of this daemon revision is ``true``, and the daemon task fails, stops, or becomes unhealthy, Amazon ECS drains the container instance and stops the other tasks running on it.
+
+If the parameter is ``false``, the daemon task failure doesn't affect the other tasks on the instance, and doesn't block instance registration. The default value is ``true``.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#critical EcsDaemon#critical}
 
 ---
 
@@ -1218,7 +1222,7 @@ public readonly daemonName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#daemon_name EcsDaemon#daemon_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#daemon_name EcsDaemon#daemon_name}.
 
 ---
 
@@ -1232,7 +1236,7 @@ public readonly daemonTaskDefinitionArn: string;
 
 The Amazon Resource Name (ARN) of the daemon task definition used by this revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#daemon_task_definition_arn EcsDaemon#daemon_task_definition_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#daemon_task_definition_arn EcsDaemon#daemon_task_definition_arn}
 
 ---
 
@@ -1246,7 +1250,7 @@ public readonly deploymentConfiguration: EcsDaemonDeploymentConfiguration;
 
 The deployment configuration used for this daemon deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#deployment_configuration EcsDaemon#deployment_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#deployment_configuration EcsDaemon#deployment_configuration}
 
 ---
 
@@ -1260,7 +1264,7 @@ public readonly enableEcsManagedTags: boolean | IResolvable;
 
 Specifies whether Amazon ECS managed tags are turned on for the daemon tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#enable_ecs_managed_tags EcsDaemon#enable_ecs_managed_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#enable_ecs_managed_tags EcsDaemon#enable_ecs_managed_tags}
 
 ---
 
@@ -1274,7 +1278,7 @@ public readonly enableExecuteCommand: boolean | IResolvable;
 
 Specifies whether the execute command functionality is turned on for the daemon tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#enable_execute_command EcsDaemon#enable_execute_command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#enable_execute_command EcsDaemon#enable_execute_command}
 
 ---
 
@@ -1288,7 +1292,7 @@ public readonly propagateTags: string;
 
 Specifies whether tags are propagated from the daemon to the daemon tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#propagate_tags EcsDaemon#propagate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#propagate_tags EcsDaemon#propagate_tags}
 
 ---
 
@@ -1300,7 +1304,7 @@ public readonly tags: IResolvable | EcsDaemonTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.ecsDaemon.EcsDaemonTags">EcsDaemonTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}.
 
 ---
 
@@ -1336,7 +1340,7 @@ The CloudWatch alarm configuration for the daemon deployment.
 
 When alarms are triggered during a deployment, the deployment can be automatically rolled back.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
 
 ---
 
@@ -1352,7 +1356,7 @@ The amount of time (in minutes) to wait after a successful deployment step befor
 
 This allows time to monitor for issues before continuing. The default value is 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#bake_time_in_minutes EcsDaemon#bake_time_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#bake_time_in_minutes EcsDaemon#bake_time_in_minutes}
 
 ---
 
@@ -1366,7 +1370,7 @@ public readonly drainPercent: number;
 
 The percentage of container instances to drain simultaneously during a daemon deployment. Valid values are between 0.0 and 100.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#drain_percent EcsDaemon#drain_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#drain_percent EcsDaemon#drain_percent}
 
 ---
 
@@ -1399,7 +1403,7 @@ public readonly alarmNames: string[];
 
 The CloudWatch alarm names to monitor during a daemon deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}
 
 ---
 
@@ -1413,7 +1417,7 @@ public readonly enable: boolean | IResolvable;
 
 Determines whether to use the CloudWatch alarm option in the daemon deployment process. The default value is ``false``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}
 
 ---
 
@@ -1448,7 +1452,7 @@ One part of a key-value pair that make up a tag.
 
 A ``key`` is a general label that acts like a category for more specific tag values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#key EcsDaemon#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#key EcsDaemon#key}
 
 ---
 
@@ -1464,7 +1468,7 @@ The optional part of a key-value pair that make up a tag.
 
 A ``value`` acts as a descriptor within a tag category (key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon#value EcsDaemon#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_daemon#value EcsDaemon#value}
 
 ---
 
