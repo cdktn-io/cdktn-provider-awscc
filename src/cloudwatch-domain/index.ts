@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface CloudwatchDomainConfig extends cdktn.TerraformMetaArguments {
   /**
   * Identity provider configuration for the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_provider_configuration CloudwatchDomain#identity_provider_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_provider_configuration CloudwatchDomain#identity_provider_configuration}
   */
   readonly identityProviderConfiguration?: CloudwatchDomainIdentityProviderConfiguration;
   /**
   * The identity providers configured for the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_providers CloudwatchDomain#identity_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_providers CloudwatchDomain#identity_providers}
   */
   readonly identityProviders: string[];
   /**
   * A name that identifies the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#name CloudwatchDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#name CloudwatchDomain#name}
   */
   readonly name: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#tags CloudwatchDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#tags CloudwatchDomain#tags}
   */
   readonly tags?: CloudwatchDomainTags[] | cdktn.IResolvable;
 }
@@ -41,7 +41,7 @@ export interface CloudwatchDomainIdentityProviderConfigurationIdentityCenterConf
   /**
   * Identity Center instance ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_center_instance_arn CloudwatchDomain#identity_center_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_center_instance_arn CloudwatchDomain#identity_center_instance_arn}
   */
   readonly identityCenterInstanceArn?: string;
 }
@@ -137,7 +137,7 @@ export interface CloudwatchDomainIdentityProviderConfiguration {
   /**
   * Identity Center configuration. Required when identityProviders includes IDC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_center_configuration CloudwatchDomain#identity_center_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_center_configuration CloudwatchDomain#identity_center_configuration}
   */
   readonly identityCenterConfiguration?: CloudwatchDomainIdentityProviderConfigurationIdentityCenterConfiguration;
 }
@@ -233,13 +233,13 @@ export interface CloudwatchDomainTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#key CloudwatchDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#key CloudwatchDomain#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#value CloudwatchDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#value CloudwatchDomain#value}
   */
   readonly value?: string;
 }
@@ -384,7 +384,7 @@ export class CloudwatchDomainTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain awscc_cloudwatch_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain awscc_cloudwatch_domain}
 */
 export class CloudwatchDomain extends cdktn.TerraformResource {
 
@@ -400,7 +400,7 @@ export class CloudwatchDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchDomain to import
-  * @param importFromId The id of the existing CloudwatchDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -412,7 +412,7 @@ export class CloudwatchDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain awscc_cloudwatch_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain awscc_cloudwatch_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -423,7 +423,7 @@ export class CloudwatchDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudwatch_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

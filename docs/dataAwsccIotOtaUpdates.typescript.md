@@ -4,7 +4,7 @@
 
 ### DataAwsccIotOtaUpdates <a name="DataAwsccIotOtaUpdates" id="@cdktn/provider-awscc.dataAwsccIotOtaUpdates.DataAwsccIotOtaUpdates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/iot_ota_updates awscc_iot_ota_updates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/iot_ota_updates awscc_iot_ota_updates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotOtaUpdates.DataAwsccIotOtaUpdates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotOtaUpdates to 
 
 The id of the existing DataAwsccIotOtaUpdates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/iot_ota_updates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/iot_ota_updates#import import section} in the documentation of this resource for the id to use
 
 ---
 

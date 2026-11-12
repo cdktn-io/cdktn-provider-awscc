@@ -4,7 +4,7 @@
 
 ### MgnWave <a name="MgnWave" id="@cdktn/provider-awscc.mgnWave.MgnWave"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave awscc_mgn_wave}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave awscc_mgn_wave}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnWave.MgnWave.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MgnWave to import.
 
 The id of the existing MgnWave that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,7 +972,7 @@ public string Name { get; set; }
 
 The name of the wave.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave#name MgnWave#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave#name MgnWave#name}
 
 ---
 
@@ -986,7 +986,7 @@ public string Description { get; set; }
 
 A description of the wave.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave#description MgnWave#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave#description MgnWave#description}
 
 ---
 
@@ -1000,7 +1000,7 @@ public IResolvable|MgnWaveTags[] Tags { get; set; }
 
 Tags to assign to the wave.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave#tags MgnWave#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave#tags MgnWave#tags}
 
 ---
 
@@ -1036,7 +1036,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave#key MgnWave#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave#key MgnWave#key}
 
 ---
 
@@ -1050,7 +1050,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mgn_wave#value MgnWave#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_wave#value MgnWave#value}
 
 ---
 

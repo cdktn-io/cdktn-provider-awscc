@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,53 +15,53 @@ export interface NetworkmonitorProbeConfig extends cdktn.TerraformMetaArguments 
   /**
   * The literal IPv4 or IPv6 address the probe sends traffic to. The service rejects a domain name and a CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#destination NetworkmonitorProbe#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#destination NetworkmonitorProbe#destination}
   */
   readonly destination: string;
   /**
   * The port the probe sends traffic to. Applies to the TCP protocol only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#destination_port NetworkmonitorProbe#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#destination_port NetworkmonitorProbe#destination_port}
   */
   readonly destinationPort?: number;
   /**
   * The name of the monitor the probe belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#monitor_name NetworkmonitorProbe#monitor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#monitor_name NetworkmonitorProbe#monitor_name}
   */
   readonly monitorName: string;
   /**
   * The size, in bytes, of the packets the probe sends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#packet_size NetworkmonitorProbe#packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#packet_size NetworkmonitorProbe#packet_size}
   */
   readonly packetSize?: number;
   /**
   * The protocol the probe uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#protocol NetworkmonitorProbe#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#protocol NetworkmonitorProbe#protocol}
   */
   readonly protocol: string;
   /**
   * The ARN of the subnet the probe sends traffic from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#source_arn NetworkmonitorProbe#source_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#source_arn NetworkmonitorProbe#source_arn}
   */
   readonly sourceArn: string;
   /**
   * The tags for the probe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#tags NetworkmonitorProbe#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#tags NetworkmonitorProbe#tags}
   */
   readonly tags?: NetworkmonitorProbeTags[] | cdktn.IResolvable;
 }
 export interface NetworkmonitorProbeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#key NetworkmonitorProbe#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#key NetworkmonitorProbe#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#value NetworkmonitorProbe#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#value NetworkmonitorProbe#value}
   */
   readonly value?: string;
 }
@@ -206,7 +206,7 @@ export class NetworkmonitorProbeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe awscc_networkmonitor_probe}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe awscc_networkmonitor_probe}
 */
 export class NetworkmonitorProbe extends cdktn.TerraformResource {
 
@@ -222,7 +222,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmonitorProbe resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmonitorProbe to import
-  * @param importFromId The id of the existing NetworkmonitorProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmonitorProbe that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmonitorProbe to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -234,7 +234,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe awscc_networkmonitor_probe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe awscc_networkmonitor_probe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,7 +245,7 @@ export class NetworkmonitorProbe extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmonitor_probe',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

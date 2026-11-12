@@ -4,7 +4,7 @@
 
 ### AppfabricIngestion <a name="AppfabricIngestion" id="@cdktn/provider-awscc.appfabricIngestion.AppfabricIngestion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion awscc_appfabric_ingestion}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion awscc_appfabric_ingestion}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricIngestion.AppfabricIngestion.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the AppfabricIngestion to impo
 
 The id of the existing AppfabricIngestion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,7 +978,7 @@ public readonly app: string;
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#app AppfabricIngestion#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#app AppfabricIngestion#app}
 
 ---
 
@@ -992,7 +992,7 @@ public readonly appBundleArn: string;
 
 The Amazon Resource Name (ARN) of the app bundle for the ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#app_bundle_arn AppfabricIngestion#app_bundle_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#app_bundle_arn AppfabricIngestion#app_bundle_arn}
 
 ---
 
@@ -1006,7 +1006,7 @@ public readonly ingestionType: string;
 
 The type of the ingestion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#ingestion_type AppfabricIngestion#ingestion_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#ingestion_type AppfabricIngestion#ingestion_type}
 
 ---
 
@@ -1020,7 +1020,7 @@ public readonly tenantId: string;
 
 The ID of the application tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#tenant_id AppfabricIngestion#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#tenant_id AppfabricIngestion#tenant_id}
 
 ---
 
@@ -1034,7 +1034,7 @@ public readonly tags: IResolvable | AppfabricIngestionTags[];
 
 A map of the key-value pairs of the tag or tags to assign to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#tags AppfabricIngestion#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#tags AppfabricIngestion#tags}
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly key: string;
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#key AppfabricIngestion#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#key AppfabricIngestion#key}
 
 ---
 
@@ -1081,7 +1081,7 @@ public readonly value: string;
 
 Tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appfabric_ingestion#value AppfabricIngestion#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_ingestion#value AppfabricIngestion#value}
 
 ---
 

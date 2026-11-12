@@ -4,7 +4,7 @@
 
 ### DataAwsccEcsDaemonTaskDefinition <a name="DataAwsccEcsDaemonTaskDefinition" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_daemon_task_definition awscc_ecs_daemon_task_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_daemon_task_definition awscc_ecs_daemon_task_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinition.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_daemon_task_definition#id DataAwsccEcsDaemonTaskDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_daemon_task_definition#id DataAwsccEcsDaemonTaskDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccEcsDaemonTaskDefi
 
 The id of the existing DataAwsccEcsDaemonTaskDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_daemon_task_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_daemon_task_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -882,7 +882,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_daemon_task_definition#id DataAwsccEcsDaemonTaskDefinition#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_daemon_task_definition#id DataAwsccEcsDaemonTaskDefinition#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1137,6 +1137,18 @@ DataAwsccEcsDaemonTaskDefinitionVolumes.builder()
 import io.cdktn.providers.awscc.data_awscc_ecs_daemon_task_definition.DataAwsccEcsDaemonTaskDefinitionVolumesHost;
 
 DataAwsccEcsDaemonTaskDefinitionVolumesHost.builder()
+    .build();
+```
+
+
+### DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration <a name="DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_ecs_daemon_task_definition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration;
+
+DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration.builder()
     .build();
 ```
 
@@ -9112,6 +9124,266 @@ public java.lang.String getFqn();
 ---
 
 
+### DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference <a name="DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_ecs_daemon_task_definition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference;
+
+new DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.property.driver">driver</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration">DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `driver`<sup>Required</sup> <a name="driver" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.property.driver"></a>
+
+```java
+public java.lang.String getDriver();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference.property.internalValue"></a>
+
+```java
+public DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration">DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfiguration</a>
+
+---
+
+
 ### DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference <a name="DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference.Initializer"></a>
@@ -9341,6 +9613,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference.property.host">host</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesHostOutputReference">DataAwsccEcsDaemonTaskDefinitionVolumesHostOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference.property.logDriverVolumeConfiguration">logDriverVolumeConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference">DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumes">DataAwsccEcsDaemonTaskDefinitionVolumes</a></code> | *No description.* |
 
@@ -9377,6 +9650,16 @@ public DataAwsccEcsDaemonTaskDefinitionVolumesHostOutputReference getHost();
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesHostOutputReference">DataAwsccEcsDaemonTaskDefinitionVolumesHostOutputReference</a>
+
+---
+
+##### `logDriverVolumeConfiguration`<sup>Required</sup> <a name="logDriverVolumeConfiguration" id="@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesOutputReference.property.logDriverVolumeConfiguration"></a>
+
+```java
+public DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference getLogDriverVolumeConfiguration();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcsDaemonTaskDefinition.DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference">DataAwsccEcsDaemonTaskDefinitionVolumesLogDriverVolumeConfigurationOutputReference</a>
 
 ---
 

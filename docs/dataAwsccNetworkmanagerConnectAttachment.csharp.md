@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkmanagerConnectAttachment <a name="DataAwsccNetworkmanagerConnectAttachment" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkmanagerCon
 
 The id of the existing DataAwsccNetworkmanagerConnectAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_connect_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_connect_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -423,6 +423,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.createdAt">CreatedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.edgeLocation">EdgeLocation</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.lastModificationErrors">LastModificationErrors</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.natGatewayRules">NatGatewayRules</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList">DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.natGatewaySupport">NatGatewaySupport</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.natSystemRouteSupport">NatSystemRouteSupport</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.networkFunctionGroupName">NetworkFunctionGroupName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.options">Options</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentOptionsOutputReference">DataAwsccNetworkmanagerConnectAttachmentOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.ownerAccountId">OwnerAccountId</a></code> | <code>string</code> | *No description.* |
@@ -639,6 +642,36 @@ public string[] LastModificationErrors { get; }
 ```
 
 - *Type:* string[]
+
+---
+
+##### `NatGatewayRules`<sup>Required</sup> <a name="NatGatewayRules" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.natGatewayRules"></a>
+
+```csharp
+public DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList NatGatewayRules { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList">DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList</a>
+
+---
+
+##### `NatGatewaySupport`<sup>Required</sup> <a name="NatGatewaySupport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.natGatewaySupport"></a>
+
+```csharp
+public string NatGatewaySupport { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NatSystemRouteSupport`<sup>Required</sup> <a name="NatSystemRouteSupport" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachment.property.natSystemRouteSupport"></a>
+
+```csharp
+public IResolvable NatSystemRouteSupport { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable
 
 ---
 
@@ -916,12 +949,25 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_connect_attachment#id DataAwsccNetworkmanagerConnectAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_connect_attachment#id DataAwsccNetworkmanagerConnectAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
+
+### DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules <a name="DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules {
+
+};
+```
+
 
 ### DataAwsccNetworkmanagerConnectAttachmentOptions <a name="DataAwsccNetworkmanagerConnectAttachmentOptions" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentOptions"></a>
 
@@ -1002,6 +1048,455 @@ new DataAwsccNetworkmanagerConnectAttachmentTags {
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList <a name="DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.get"></a>
+
+```csharp
+private DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference <a name="DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.matchSourceCidr">MatchSourceCidr</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.natCidr">NatCidr</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.ruleNumber">RuleNumber</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules">DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `MatchSourceCidr`<sup>Required</sup> <a name="MatchSourceCidr" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.matchSourceCidr"></a>
+
+```csharp
+public string MatchSourceCidr { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NatCidr`<sup>Required</sup> <a name="NatCidr" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.natCidr"></a>
+
+```csharp
+public string NatCidr { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RuleNumber`<sup>Required</sup> <a name="RuleNumber" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.ruleNumber"></a>
+
+```csharp
+public double RuleNumber { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRulesOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules">DataAwsccNetworkmanagerConnectAttachmentNatGatewayRules</a>
+
+---
+
 
 ### DataAwsccNetworkmanagerConnectAttachmentOptionsOutputReference <a name="DataAwsccNetworkmanagerConnectAttachmentOptionsOutputReference" id="@cdktn/provider-awscc.dataAwsccNetworkmanagerConnectAttachment.DataAwsccNetworkmanagerConnectAttachmentOptionsOutputReference"></a>
 

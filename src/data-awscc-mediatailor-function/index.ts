@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediatailor_function
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediatailor_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,76 @@ export interface DataAwsccMediatailorFunctionConfig extends cdktn.TerraformMetaA
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediatailor_function#id DataAwsccMediatailorFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediatailor_function#id DataAwsccMediatailorFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCache {
+}
+
+export function dataAwsccMediatailorFunctionAwsServiceRequestConfigurationCacheToTerraform(struct?: DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCache): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediatailorFunctionAwsServiceRequestConfigurationCacheToHclTerraform(struct?: DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCache): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCache | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCache | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // ttl_maximum_seconds - computed: true, optional: false, required: false
+  public get ttlMaximumSeconds() {
+    return this.getNumberAttribute('ttl_maximum_seconds');
+  }
+
+  // ttl_minimum_seconds - computed: true, optional: false, required: false
+  public get ttlMinimumSeconds() {
+    return this.getNumberAttribute('ttl_minimum_seconds');
+  }
 }
 export interface DataAwsccMediatailorFunctionAwsServiceRequestConfiguration {
 }
@@ -74,6 +138,12 @@ export class DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputRef
   // body - computed: true, optional: false, required: false
   public get body() {
     return this.getStringAttribute('body');
+  }
+
+  // cache - computed: true, optional: false, required: false
+  private _cache = new DataAwsccMediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference(this, "cache");
+  public get cache() {
+    return this._cache;
   }
 
   // headers - computed: true, optional: false, required: false
@@ -339,6 +409,70 @@ export class DataAwsccMediatailorFunctionCustomOutputConfigurationOutputReferenc
     return this.getStringAttribute('runtime');
   }
 }
+export interface DataAwsccMediatailorFunctionHttpRequestConfigurationCache {
+}
+
+export function dataAwsccMediatailorFunctionHttpRequestConfigurationCacheToTerraform(struct?: DataAwsccMediatailorFunctionHttpRequestConfigurationCache): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediatailorFunctionHttpRequestConfigurationCacheToHclTerraform(struct?: DataAwsccMediatailorFunctionHttpRequestConfigurationCache): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediatailorFunctionHttpRequestConfigurationCacheOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediatailorFunctionHttpRequestConfigurationCache | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediatailorFunctionHttpRequestConfigurationCache | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // ttl_maximum_seconds - computed: true, optional: false, required: false
+  public get ttlMaximumSeconds() {
+    return this.getNumberAttribute('ttl_maximum_seconds');
+  }
+
+  // ttl_minimum_seconds - computed: true, optional: false, required: false
+  public get ttlMinimumSeconds() {
+    return this.getNumberAttribute('ttl_minimum_seconds');
+  }
+}
 export interface DataAwsccMediatailorFunctionHttpRequestConfiguration {
 }
 
@@ -391,6 +525,12 @@ export class DataAwsccMediatailorFunctionHttpRequestConfigurationOutputReference
   // body - computed: true, optional: false, required: false
   public get body() {
     return this.getStringAttribute('body');
+  }
+
+  // cache - computed: true, optional: false, required: false
+  private _cache = new DataAwsccMediatailorFunctionHttpRequestConfigurationCacheOutputReference(this, "cache");
+  public get cache() {
+    return this._cache;
   }
 
   // headers - computed: true, optional: false, required: false
@@ -661,6 +801,70 @@ export class DataAwsccMediatailorFunctionTagsList extends cdktn.ComplexList {
     return new DataAwsccMediatailorFunctionTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccMediatailorFunctionVastRequestConfigurationCache {
+}
+
+export function dataAwsccMediatailorFunctionVastRequestConfigurationCacheToTerraform(struct?: DataAwsccMediatailorFunctionVastRequestConfigurationCache): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediatailorFunctionVastRequestConfigurationCacheToHclTerraform(struct?: DataAwsccMediatailorFunctionVastRequestConfigurationCache): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediatailorFunctionVastRequestConfigurationCacheOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediatailorFunctionVastRequestConfigurationCache | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediatailorFunctionVastRequestConfigurationCache | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // ttl_maximum_seconds - computed: true, optional: false, required: false
+  public get ttlMaximumSeconds() {
+    return this.getNumberAttribute('ttl_maximum_seconds');
+  }
+
+  // ttl_minimum_seconds - computed: true, optional: false, required: false
+  public get ttlMinimumSeconds() {
+    return this.getNumberAttribute('ttl_minimum_seconds');
+  }
+}
 export interface DataAwsccMediatailorFunctionVastRequestConfiguration {
 }
 
@@ -715,6 +919,12 @@ export class DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference
     return this.getStringAttribute('body');
   }
 
+  // cache - computed: true, optional: false, required: false
+  private _cache = new DataAwsccMediatailorFunctionVastRequestConfigurationCacheOutputReference(this, "cache");
+  public get cache() {
+    return this._cache;
+  }
+
   // headers - computed: true, optional: false, required: false
   private _headers = new cdktn.StringMap(this, "headers");
   public get headers() {
@@ -749,7 +959,7 @@ export class DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediatailor_function awscc_mediatailor_function}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediatailor_function awscc_mediatailor_function}
 */
 export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
 
@@ -765,7 +975,7 @@ export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccMediatailorFunction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediatailorFunction to import
-  * @param importFromId The id of the existing DataAwsccMediatailorFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediatailor_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediatailorFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediatailor_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediatailorFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -777,7 +987,7 @@ export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediatailor_function awscc_mediatailor_function} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediatailor_function awscc_mediatailor_function} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -788,7 +998,7 @@ export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_mediatailor_function',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,53 +13,53 @@ import * as cdktn from 'cdktn';
 
 export interface CloudwatchSpaceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * The Amazon Resource Name (ARN) of the IAM role used for AgentCore evaluation.
+  * The ARN of the IAM role used by AgentCore online evaluation. Absent when the space was created without one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#agent_core_evaluation_role_arn CloudwatchSpace#agent_core_evaluation_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#agent_core_evaluation_role_arn CloudwatchSpace#agent_core_evaluation_role_arn}
   */
   readonly agentCoreEvaluationRoleArn?: string;
   /**
-  * The Amazon Resource Name (ARN) of the IAM role the space uses to access observability data.
+  * The ARN of the IAM role used for data access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#data_access_role_arn CloudwatchSpace#data_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#data_access_role_arn CloudwatchSpace#data_access_role_arn}
   */
   readonly dataAccessRoleArn: string;
   /**
-  * The identifier of the domain the space belongs to.
+  * The ID of the domain to create the space in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#domain_id CloudwatchSpace#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#domain_id CloudwatchSpace#domain_id}
   */
   readonly domainId: string;
   /**
-  * The encryption configuration for the space.
+  * How the space's data at rest is encrypted. Always populated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#encryption_configuration CloudwatchSpace#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#encryption_configuration CloudwatchSpace#encryption_configuration}
   */
   readonly encryptionConfiguration?: CloudwatchSpaceEncryptionConfiguration;
   /**
-  * The name of the space.
+  * A name that identifies the space.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#name CloudwatchSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#name CloudwatchSpace#name}
   */
   readonly name: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#tags CloudwatchSpace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#tags CloudwatchSpace#tags}
   */
   readonly tags?: CloudwatchSpaceTags[] | cdktn.IResolvable;
 }
 export interface CloudwatchSpaceEncryptionConfiguration {
   /**
-  * Whether the space is encrypted with an AWS owned key or a customer managed key.
+  * Which kind of key to use. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#encryption_strategy CloudwatchSpace#encryption_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#encryption_strategy CloudwatchSpace#encryption_strategy}
   */
   readonly encryptionStrategy?: string;
   /**
-  * The Amazon Resource Name (ARN) of the customer managed KMS key. Required when encryptionStrategy is CUSTOMER_MANAGED.
+  * Customer managed KMS key ARN. Required when encryptionStrategy is CUSTOMER_MANAGED, and must be omitted when it is AWS_OWNED. Must be a symmetric ENCRYPT_DECRYPT key in the caller's account and region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#kms_key_arn CloudwatchSpace#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#kms_key_arn CloudwatchSpace#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -184,13 +184,13 @@ export interface CloudwatchSpaceTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#key CloudwatchSpace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#key CloudwatchSpace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#value CloudwatchSpace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#value CloudwatchSpace#value}
   */
   readonly value?: string;
 }
@@ -335,7 +335,7 @@ export class CloudwatchSpaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space awscc_cloudwatch_space}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space awscc_cloudwatch_space}
 */
 export class CloudwatchSpace extends cdktn.TerraformResource {
 
@@ -351,7 +351,7 @@ export class CloudwatchSpace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchSpace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchSpace to import
-  * @param importFromId The id of the existing CloudwatchSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchSpace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -363,7 +363,7 @@ export class CloudwatchSpace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space awscc_cloudwatch_space} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space awscc_cloudwatch_space} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,7 +374,7 @@ export class CloudwatchSpace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudwatch_space',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### DataAwsccImagebuilderImagePipeline <a name="DataAwsccImagebuilderImagePipeline" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipeline.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccImagebuilderImage
 
 The id of the existing DataAwsccImagebuilderImagePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -894,7 +894,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/imagebuilder_image_pipeline#id DataAwsccImagebuilderImagePipeline#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/imagebuilder_image_pipeline#id DataAwsccImagebuilderImagePipeline#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -922,6 +922,19 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuild
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
 
 &dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration {
+
+}
+```
+
+
+### DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition <a name="DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
+
+&dataawsccimagebuilderimagepipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition {
 
 }
 ```
@@ -1490,6 +1503,8 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.ecrConfiguration">EcrConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference">DataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningEnabled">ImageScanningEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningTypes">ImageScanningTypes</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.scanResultCondition">ScanResultCondition</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference">DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfiguration">DataAwsccImagebuilderImagePipelineImageScanningConfiguration</a></code> | *No description.* |
 
 ---
@@ -1538,6 +1553,26 @@ func ImageScanningEnabled() IResolvable
 
 ---
 
+##### `ImageScanningTypes`<sup>Required</sup> <a name="ImageScanningTypes" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningTypes"></a>
+
+```go
+func ImageScanningTypes() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `ScanResultCondition`<sup>Required</sup> <a name="ScanResultCondition" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.scanResultCondition"></a>
+
+```go
+func ScanResultCondition() DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference">DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference</a>
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.internalValue"></a>
 
 ```go
@@ -1545,6 +1580,277 @@ func InternalValue() DataAwsccImagebuilderImagePipelineImageScanningConfiguratio
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfiguration">DataAwsccImagebuilderImagePipelineImageScanningConfiguration</a>
+
+---
+
+
+### DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference <a name="DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagepipeline"
+
+dataawsccimagebuilderimagepipeline.NewDataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailable">FixAvailable</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabel">MaximumSeverityLabel</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `FixAvailable`<sup>Required</sup> <a name="FixAvailable" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailable"></a>
+
+```go
+func FixAvailable() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
+##### `MaximumSeverityLabel`<sup>Required</sup> <a name="MaximumSeverityLabel" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabel"></a>
+
+```go
+func MaximumSeverityLabel() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccImagebuilderImagePipeline.DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a>
 
 ---
 

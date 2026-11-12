@@ -4,7 +4,7 @@
 
 ### DataAwsccTransferWorkflow <a name="DataAwsccTransferWorkflow" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/transfer_workflow awscc_transfer_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/transfer_workflow awscc_transfer_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/transfer_workflow#id DataAwsccTransferWorkflow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/transfer_workflow#id DataAwsccTransferWorkflow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccTransferWorkflow 
 
 The id of the existing DataAwsccTransferWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/transfer_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/transfer_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -484,6 +484,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.property.onExceptionSteps">onExceptionSteps</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowOnExceptionStepsList">DataAwsccTransferWorkflowOnExceptionStepsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.property.steps">steps</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsList">DataAwsccTransferWorkflowStepsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.property.structuredLogDestinations">structuredLogDestinations</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowTagsList">DataAwsccTransferWorkflowTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.property.workflowId">workflowId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -650,6 +651,16 @@ public DataAwsccTransferWorkflowStepsList getSteps();
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflowStepsList">DataAwsccTransferWorkflowStepsList</a>
+
+---
+
+##### `structuredLogDestinations`<sup>Required</sup> <a name="structuredLogDestinations" id="@cdktn/provider-awscc.dataAwsccTransferWorkflow.DataAwsccTransferWorkflow.property.structuredLogDestinations"></a>
+
+```java
+public java.util.List<java.lang.String> getStructuredLogDestinations();
+```
+
+- *Type:* java.util.List<java.lang.String>
 
 ---
 
@@ -827,7 +838,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/transfer_workflow#id DataAwsccTransferWorkflow#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/transfer_workflow#id DataAwsccTransferWorkflow#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

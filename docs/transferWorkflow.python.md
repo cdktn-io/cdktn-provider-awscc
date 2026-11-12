@@ -4,7 +4,7 @@
 
 ### TransferWorkflow <a name="TransferWorkflow" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow awscc_transfer_workflow}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow awscc_transfer_workflow}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.Initializer"></a>
 
@@ -24,6 +24,7 @@ transferWorkflow.TransferWorkflow(
   steps: IResolvable | typing.List[TransferWorkflowSteps],
   description: str = None,
   on_exception_steps: IResolvable | typing.List[TransferWorkflowOnExceptionSteps] = None,
+  structured_log_destinations: typing.List[str] = None,
   tags: IResolvable | typing.List[TransferWorkflowTags] = None
 )
 ```
@@ -42,6 +43,7 @@ transferWorkflow.TransferWorkflow(
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.Initializer.parameter.steps">steps</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps">TransferWorkflowSteps</a>]</code> | Specifies the details for the steps that are in the specified workflow. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.Initializer.parameter.description">description</a></code> | <code>str</code> | A textual description for the workflow. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.Initializer.parameter.onExceptionSteps">on_exception_steps</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps">TransferWorkflowOnExceptionSteps</a>]</code> | Specifies the steps (actions) to take if any errors are encountered during execution of the workflow. |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.Initializer.parameter.structuredLogDestinations">structured_log_destinations</a></code> | <code>typing.List[str]</code> | Specifies the log destinations for the workflow. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowTags">TransferWorkflowTags</a>]</code> | Key-value pairs that can be used to group and search for workflows. |
 
 ---
@@ -112,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 Specifies the details for the steps that are in the specified workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#steps TransferWorkflow#steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#steps TransferWorkflow#steps}
 
 ---
 
@@ -122,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A textual description for the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#description TransferWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#description TransferWorkflow#description}
 
 ---
 
@@ -132,7 +134,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the steps (actions) to take if any errors are encountered during execution of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#on_exception_steps TransferWorkflow#on_exception_steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#on_exception_steps TransferWorkflow#on_exception_steps}
+
+---
+
+##### `structured_log_destinations`<sup>Optional</sup> <a name="structured_log_destinations" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.Initializer.parameter.structuredLogDestinations"></a>
+
+- *Type:* typing.List[str]
+
+Specifies the log destinations for the workflow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#structured_log_destinations TransferWorkflow#structured_log_destinations}
 
 ---
 
@@ -144,7 +156,7 @@ Key-value pairs that can be used to group and search for workflows.
 
 Tags are metadata attached to workflows for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 
@@ -181,6 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.resetOnExceptionSteps">reset_on_exception_steps</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.resetStructuredLogDestinations">reset_structured_log_destinations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.resetTags">reset_tags</a></code> | *No description.* |
 
 ---
@@ -587,6 +600,12 @@ def reset_description() -> None
 def reset_on_exception_steps() -> None
 ```
 
+##### `reset_structured_log_destinations` <a name="reset_structured_log_destinations" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.resetStructuredLogDestinations"></a>
+
+```python
+def reset_structured_log_destinations() -> None
+```
+
 ##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.resetTags"></a>
 
 ```python
@@ -707,7 +726,7 @@ The construct id used in the generated config for the TransferWorkflow to import
 
 The id of the existing TransferWorkflow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -746,8 +765,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.onExceptionStepsInput">on_exception_steps_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps">TransferWorkflowOnExceptionSteps</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.stepsInput">steps_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps">TransferWorkflowSteps</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.structuredLogDestinationsInput">structured_log_destinations_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowTags">TransferWorkflowTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.description">description</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.structuredLogDestinations">structured_log_destinations</a></code> | <code>typing.List[str]</code> | *No description.* |
 
 ---
 
@@ -983,6 +1004,16 @@ steps_input: IResolvable | typing.List[TransferWorkflowSteps]
 
 ---
 
+##### `structured_log_destinations_input`<sup>Optional</sup> <a name="structured_log_destinations_input" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.structuredLogDestinationsInput"></a>
+
+```python
+structured_log_destinations_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `tags_input`<sup>Optional</sup> <a name="tags_input" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.tagsInput"></a>
 
 ```python
@@ -1000,6 +1031,16 @@ description: str
 ```
 
 - *Type:* str
+
+---
+
+##### `structured_log_destinations`<sup>Required</sup> <a name="structured_log_destinations" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflow.property.structuredLogDestinations"></a>
+
+```python
+structured_log_destinations: typing.List[str]
+```
+
+- *Type:* typing.List[str]
 
 ---
 
@@ -1041,6 +1082,7 @@ transferWorkflow.TransferWorkflowConfig(
   steps: IResolvable | typing.List[TransferWorkflowSteps],
   description: str = None,
   on_exception_steps: IResolvable | typing.List[TransferWorkflowOnExceptionSteps] = None,
+  structured_log_destinations: typing.List[str] = None,
   tags: IResolvable | typing.List[TransferWorkflowTags] = None
 )
 ```
@@ -1059,6 +1101,7 @@ transferWorkflow.TransferWorkflowConfig(
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowConfig.property.steps">steps</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps">TransferWorkflowSteps</a>]</code> | Specifies the details for the steps that are in the specified workflow. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowConfig.property.description">description</a></code> | <code>str</code> | A textual description for the workflow. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowConfig.property.onExceptionSteps">on_exception_steps</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps">TransferWorkflowOnExceptionSteps</a>]</code> | Specifies the steps (actions) to take if any errors are encountered during execution of the workflow. |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowConfig.property.structuredLogDestinations">structured_log_destinations</a></code> | <code>typing.List[str]</code> | Specifies the log destinations for the workflow. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowTags">TransferWorkflowTags</a>]</code> | Key-value pairs that can be used to group and search for workflows. |
 
 ---
@@ -1143,7 +1186,7 @@ steps: IResolvable | typing.List[TransferWorkflowSteps]
 
 Specifies the details for the steps that are in the specified workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#steps TransferWorkflow#steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#steps TransferWorkflow#steps}
 
 ---
 
@@ -1157,7 +1200,7 @@ description: str
 
 A textual description for the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#description TransferWorkflow#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#description TransferWorkflow#description}
 
 ---
 
@@ -1171,7 +1214,21 @@ on_exception_steps: IResolvable | typing.List[TransferWorkflowOnExceptionSteps]
 
 Specifies the steps (actions) to take if any errors are encountered during execution of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#on_exception_steps TransferWorkflow#on_exception_steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#on_exception_steps TransferWorkflow#on_exception_steps}
+
+---
+
+##### `structured_log_destinations`<sup>Optional</sup> <a name="structured_log_destinations" id="@cdktn/provider-awscc.transferWorkflow.TransferWorkflowConfig.property.structuredLogDestinations"></a>
+
+```python
+structured_log_destinations: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Specifies the log destinations for the workflow.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#structured_log_destinations TransferWorkflow#structured_log_destinations}
 
 ---
 
@@ -1187,7 +1244,7 @@ Key-value pairs that can be used to group and search for workflows.
 
 Tags are metadata attached to workflows for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 
@@ -1217,7 +1274,7 @@ transferWorkflow.TransferWorkflowOnExceptionSteps(
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.decryptStepDetails">decrypt_step_details</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDecryptStepDetails">TransferWorkflowOnExceptionStepsDecryptStepDetails</a></code> | Details for a step that performs a file decryption. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.deleteStepDetails">delete_step_details</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsDeleteStepDetails">TransferWorkflowOnExceptionStepsDeleteStepDetails</a></code> | Details for a step that deletes the file. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.tagStepDetails">tag_step_details</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionStepsTagStepDetails">TransferWorkflowOnExceptionStepsTagStepDetails</a></code> | Details for a step that creates one or more tags. |
-| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#type TransferWorkflow#type}. |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowOnExceptionSteps.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#type TransferWorkflow#type}. |
 
 ---
 
@@ -1231,7 +1288,7 @@ copy_step_details: TransferWorkflowOnExceptionStepsCopyStepDetails
 
 Details for a step that performs a file copy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
 
 ---
 
@@ -1245,7 +1302,7 @@ custom_step_details: TransferWorkflowOnExceptionStepsCustomStepDetails
 
 Details for a step that invokes a lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
 
 ---
 
@@ -1259,7 +1316,7 @@ decrypt_step_details: TransferWorkflowOnExceptionStepsDecryptStepDetails
 
 Details for a step that performs a file decryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
 
 ---
 
@@ -1273,7 +1330,7 @@ delete_step_details: TransferWorkflowOnExceptionStepsDeleteStepDetails
 
 Details for a step that deletes the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
 
 ---
 
@@ -1287,7 +1344,7 @@ tag_step_details: TransferWorkflowOnExceptionStepsTagStepDetails
 
 Details for a step that creates one or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
 
 ---
 
@@ -1299,7 +1356,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#type TransferWorkflow#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#type TransferWorkflow#type}.
 
 ---
 
@@ -1339,7 +1396,7 @@ destination_file_location: TransferWorkflowOnExceptionStepsCopyStepDetailsDestin
 
 Specifies the location for the file being copied. Only applicable for the Copy type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -1353,7 +1410,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1369,7 +1426,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -1383,7 +1440,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1417,7 +1474,7 @@ s3_file_location: TransferWorkflowOnExceptionStepsCopyStepDetailsDestinationFile
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -1453,7 +1510,7 @@ bucket: str
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -1469,7 +1526,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -1509,7 +1566,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1523,7 +1580,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1537,7 +1594,7 @@ target: str
 
 The ARN for the lambda function that is being called.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
 
 ---
 
@@ -1551,7 +1608,7 @@ timeout_seconds: typing.Union[int, float]
 
 Timeout, in seconds, for the step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
 
 ---
 
@@ -1593,7 +1650,7 @@ destination_file_location: TransferWorkflowOnExceptionStepsDecryptStepDetailsDes
 
 Specifies the location for the file being decrypted. Only applicable for the Decrypt type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -1607,7 +1664,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1623,7 +1680,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -1637,7 +1694,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1651,7 +1708,7 @@ type: str
 
 Specifies which encryption method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
 
 ---
 
@@ -1687,7 +1744,7 @@ efs_file_location: TransferWorkflowOnExceptionStepsDecryptStepDetailsDestination
 
 Specifies the details for an EFS file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
 
 ---
 
@@ -1701,7 +1758,7 @@ s3_file_location: TransferWorkflowOnExceptionStepsDecryptStepDetailsDestinationF
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -1737,7 +1794,7 @@ file_system_id: str
 
 Specifies the EFS filesystem that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
 
 ---
 
@@ -1753,7 +1810,7 @@ The name assigned to the file when it was created in EFS.
 
 You use the object path to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
 
 ---
 
@@ -1789,7 +1846,7 @@ bucket: str
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -1805,7 +1862,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -1841,7 +1898,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1855,7 +1912,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1893,7 +1950,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -1907,7 +1964,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -1921,7 +1978,7 @@ tags: IResolvable | typing.List[TransferWorkflowOnExceptionStepsTagStepDetailsTa
 
 Array that contains from 1 to 10 key/value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 
@@ -1957,7 +2014,7 @@ key: str
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -1971,7 +2028,7 @@ value: str
 
 The value that corresponds to the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
 
 ---
 
@@ -2001,7 +2058,7 @@ transferWorkflow.TransferWorkflowSteps(
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.decryptStepDetails">decrypt_step_details</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDecryptStepDetails">TransferWorkflowStepsDecryptStepDetails</a></code> | Details for a step that performs a file decryption. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.deleteStepDetails">delete_step_details</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsDeleteStepDetails">TransferWorkflowStepsDeleteStepDetails</a></code> | Details for a step that deletes the file. |
 | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.tagStepDetails">tag_step_details</a></code> | <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowStepsTagStepDetails">TransferWorkflowStepsTagStepDetails</a></code> | Details for a step that creates one or more tags. |
-| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#type TransferWorkflow#type}. |
+| <code><a href="#@cdktn/provider-awscc.transferWorkflow.TransferWorkflowSteps.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#type TransferWorkflow#type}. |
 
 ---
 
@@ -2015,7 +2072,7 @@ copy_step_details: TransferWorkflowStepsCopyStepDetails
 
 Details for a step that performs a file copy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#copy_step_details TransferWorkflow#copy_step_details}
 
 ---
 
@@ -2029,7 +2086,7 @@ custom_step_details: TransferWorkflowStepsCustomStepDetails
 
 Details for a step that invokes a lambda function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#custom_step_details TransferWorkflow#custom_step_details}
 
 ---
 
@@ -2043,7 +2100,7 @@ decrypt_step_details: TransferWorkflowStepsDecryptStepDetails
 
 Details for a step that performs a file decryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#decrypt_step_details TransferWorkflow#decrypt_step_details}
 
 ---
 
@@ -2057,7 +2114,7 @@ delete_step_details: TransferWorkflowStepsDeleteStepDetails
 
 Details for a step that deletes the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#delete_step_details TransferWorkflow#delete_step_details}
 
 ---
 
@@ -2071,7 +2128,7 @@ tag_step_details: TransferWorkflowStepsTagStepDetails
 
 Details for a step that creates one or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#tag_step_details TransferWorkflow#tag_step_details}
 
 ---
 
@@ -2083,7 +2140,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#type TransferWorkflow#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#type TransferWorkflow#type}.
 
 ---
 
@@ -2123,7 +2180,7 @@ destination_file_location: TransferWorkflowStepsCopyStepDetailsDestinationFileLo
 
 Specifies the location for the file being copied. Only applicable for the Copy type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -2137,7 +2194,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2153,7 +2210,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -2167,7 +2224,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2201,7 +2258,7 @@ s3_file_location: TransferWorkflowStepsCopyStepDetailsDestinationFileLocationS3F
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -2237,7 +2294,7 @@ bucket: str
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -2253,7 +2310,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -2293,7 +2350,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2307,7 +2364,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2321,7 +2378,7 @@ target: str
 
 The ARN for the lambda function that is being called.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
 
 ---
 
@@ -2335,7 +2392,7 @@ timeout_seconds: typing.Union[int, float]
 
 Timeout, in seconds, for the step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
 
 ---
 
@@ -2377,7 +2434,7 @@ destination_file_location: TransferWorkflowStepsDecryptStepDetailsDestinationFil
 
 Specifies the location for the file being decrypted. Only applicable for the Decrypt type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -2391,7 +2448,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2407,7 +2464,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -2421,7 +2478,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2435,7 +2492,7 @@ type: str
 
 Specifies which encryption method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
 
 ---
 
@@ -2471,7 +2528,7 @@ efs_file_location: TransferWorkflowStepsDecryptStepDetailsDestinationFileLocatio
 
 Specifies the details for an EFS file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
 
 ---
 
@@ -2485,7 +2542,7 @@ s3_file_location: TransferWorkflowStepsDecryptStepDetailsDestinationFileLocation
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -2521,7 +2578,7 @@ file_system_id: str
 
 Specifies the EFS filesystem that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
 
 ---
 
@@ -2537,7 +2594,7 @@ The name assigned to the file when it was created in EFS.
 
 You use the object path to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
 
 ---
 
@@ -2573,7 +2630,7 @@ bucket: str
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -2589,7 +2646,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -2625,7 +2682,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2639,7 +2696,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2677,7 +2734,7 @@ name: str
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -2691,7 +2748,7 @@ source_file_location: str
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -2705,7 +2762,7 @@ tags: IResolvable | typing.List[TransferWorkflowStepsTagStepDetailsTags]
 
 Array that contains from 1 to 10 key/value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 
@@ -2741,7 +2798,7 @@ key: str
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -2755,7 +2812,7 @@ value: str
 
 The value that corresponds to the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
 
 ---
 
@@ -2791,7 +2848,7 @@ key: str
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -2805,7 +2862,7 @@ value: str
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
 
 ---
 
@@ -3056,7 +3113,7 @@ def put_s3_file_location(
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -3068,7 +3125,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -3725,7 +3782,7 @@ def put_destination_file_location(
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -4856,7 +4913,7 @@ def put_efs_file_location(
 
 Specifies the EFS filesystem that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
 
 ---
 
@@ -4868,7 +4925,7 @@ The name assigned to the file when it was created in EFS.
 
 You use the object path to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
 
 ---
 
@@ -4887,7 +4944,7 @@ def put_s3_file_location(
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -4899,7 +4956,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -5586,7 +5643,7 @@ def put_destination_file_location(
 
 Specifies the details for an EFS file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
 
 ---
 
@@ -5596,7 +5653,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -6564,7 +6621,7 @@ def put_copy_step_details(
 
 Specifies the location for the file being copied. Only applicable for the Copy type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -6574,7 +6631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -6586,7 +6643,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -6596,7 +6653,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -6617,7 +6674,7 @@ def put_custom_step_details(
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -6627,7 +6684,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -6637,7 +6694,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN for the lambda function that is being called.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
 
 ---
 
@@ -6647,7 +6704,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Timeout, in seconds, for the step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
 
 ---
 
@@ -6669,7 +6726,7 @@ def put_decrypt_step_details(
 
 Specifies the location for the file being decrypted. Only applicable for the Decrypt type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -6679,7 +6736,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -6691,7 +6748,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -6701,7 +6758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -6711,7 +6768,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which encryption method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
 
 ---
 
@@ -6730,7 +6787,7 @@ def put_delete_step_details(
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -6740,7 +6797,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -6760,7 +6817,7 @@ def put_tag_step_details(
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -6770,7 +6827,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -6780,7 +6837,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Array that contains from 1 to 10 key/value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 
@@ -8141,7 +8198,7 @@ def put_s3_file_location(
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -8153,7 +8210,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -8810,7 +8867,7 @@ def put_destination_file_location(
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -9941,7 +9998,7 @@ def put_efs_file_location(
 
 Specifies the EFS filesystem that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#file_system_id TransferWorkflow#file_system_id}
 
 ---
 
@@ -9953,7 +10010,7 @@ The name assigned to the file when it was created in EFS.
 
 You use the object path to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#path TransferWorkflow#path}
 
 ---
 
@@ -9972,7 +10029,7 @@ def put_s3_file_location(
 
 Specifies the S3 bucket that contains the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#bucket TransferWorkflow#bucket}
 
 ---
 
@@ -9984,7 +10041,7 @@ The name assigned to the file when it was created in S3.
 
 You use the object key to retrieve the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 
 ---
 
@@ -10671,7 +10728,7 @@ def put_destination_file_location(
 
 Specifies the details for an EFS file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#efs_file_location TransferWorkflow#efs_file_location}
 
 ---
 
@@ -10681,7 +10738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the details for a S3 file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#s3_file_location TransferWorkflow#s3_file_location}
 
 ---
 
@@ -11649,7 +11706,7 @@ def put_copy_step_details(
 
 Specifies the location for the file being copied. Only applicable for the Copy type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -11659,7 +11716,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -11671,7 +11728,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -11681,7 +11738,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -11702,7 +11759,7 @@ def put_custom_step_details(
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -11712,7 +11769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -11722,7 +11779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN for the lambda function that is being called.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#target TransferWorkflow#target}
 
 ---
 
@@ -11732,7 +11789,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Timeout, in seconds, for the step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#timeout_seconds TransferWorkflow#timeout_seconds}
 
 ---
 
@@ -11754,7 +11811,7 @@ def put_decrypt_step_details(
 
 Specifies the location for the file being decrypted. Only applicable for the Decrypt type of workflow steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#destination_file_location TransferWorkflow#destination_file_location}
 
 ---
 
@@ -11764,7 +11821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -11776,7 +11833,7 @@ A flag that indicates whether or not to overwrite an existing file of the same n
 
 The default is FALSE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#overwrite_existing TransferWorkflow#overwrite_existing}
 
 ---
 
@@ -11786,7 +11843,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -11796,7 +11853,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which encryption method to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#type TransferWorkflow#type}
 
 ---
 
@@ -11815,7 +11872,7 @@ def put_delete_step_details(
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -11825,7 +11882,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -11845,7 +11902,7 @@ def put_tag_step_details(
 
 The name of the step, used as an identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#name TransferWorkflow#name}
 
 ---
 
@@ -11855,7 +11912,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies which file to use as input to the workflow step.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#source_file_location TransferWorkflow#source_file_location}
 
 ---
 
@@ -11865,7 +11922,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Array that contains from 1 to 10 key/value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_workflow#tags TransferWorkflow#tags}
 
 ---
 

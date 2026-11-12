@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchDomainAccessGrantForOrganizations <a name="DataAwsccCloudwatchDomainAccessGrantForOrganizations" id="@cdktn/provider-awscc.dataAwsccCloudwatchDomainAccessGrantForOrganizations.DataAwsccCloudwatchDomainAccessGrantForOrganizations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations awscc_cloudwatch_domain_access_grant_for_organizations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations awscc_cloudwatch_domain_access_grant_for_organizations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchDomainAccessGrantForOrganizations.DataAwsccCloudwatchDomainAccessGrantForOrganizations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchDomainA
 
 The id of the existing DataAwsccCloudwatchDomainAccessGrantForOrganizations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_domain_access_grant_for_organizations#import import section} in the documentation of this resource for the id to use
 
 ---
 

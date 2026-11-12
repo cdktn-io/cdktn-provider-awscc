@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconnect_router_input
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_router_input
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,251 @@ export interface DataAwsccMediaconnectRouterInputConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconnect_router_input#id DataAwsccMediaconnectRouterInput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_router_input#id DataAwsccMediaconnectRouterInput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret {
+}
+
+export function dataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretToTerraform(struct?: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretToHclTerraform(struct?: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // secret_arn - computed: true, optional: false, required: false
+  public get secretArn() {
+    return this.getStringAttribute('secret_arn');
+  }
+}
+export interface DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager {
+}
+
+export function dataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerToTerraform(struct?: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerToHclTerraform(struct?: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // encryption_secret - computed: true, optional: false, required: false
+  private _encryptionSecret = new DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference(this, "encryption_secret");
+  public get encryptionSecret() {
+    return this._encryptionSecret;
+  }
+
+  // encryption_secret_type - computed: true, optional: false, required: false
+  public get encryptionSecretType() {
+    return this.getStringAttribute('encryption_secret_type');
+  }
+}
+export interface DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption {
+}
+
+export function dataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionToTerraform(struct?: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionToHclTerraform(struct?: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // automatic - computed: true, optional: false, required: false
+  public get automatic() {
+    return this.getStringAttribute('automatic');
+  }
+
+  // secrets_manager - computed: true, optional: false, required: false
+  private _secretsManager = new DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference(this, "secrets_manager");
+  public get secretsManager() {
+    return this._secretsManager;
+  }
+}
+export interface DataAwsccMediaconnectRouterInputConfigurationDestinationEndpoint {
+}
+
+export function dataAwsccMediaconnectRouterInputConfigurationDestinationEndpointToTerraform(struct?: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpoint): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectRouterInputConfigurationDestinationEndpointToHclTerraform(struct?: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpoint): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectRouterInputConfigurationDestinationEndpoint | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectRouterInputConfigurationDestinationEndpoint | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // endpoint_lifecycle_management - computed: true, optional: false, required: false
+  public get endpointLifecycleManagement() {
+    return this.getStringAttribute('endpoint_lifecycle_management');
+  }
+
+  // source_transit_decryption - computed: true, optional: false, required: false
+  private _sourceTransitDecryption = new DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference(this, "source_transit_decryption");
+  public get sourceTransitDecryption() {
+    return this._sourceTransitDecryption;
+  }
+
+  // source_transit_decryption_type - computed: true, optional: false, required: false
+  public get sourceTransitDecryptionType() {
+    return this.getStringAttribute('source_transit_decryption_type');
+  }
 }
 export interface DataAwsccMediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRist {
 }
@@ -2103,6 +2342,12 @@ export class DataAwsccMediaconnectRouterInputConfigurationOutputReference extend
     }
   }
 
+  // destination_endpoint - computed: true, optional: false, required: false
+  private _destinationEndpoint = new DataAwsccMediaconnectRouterInputConfigurationDestinationEndpointOutputReference(this, "destination_endpoint");
+  public get destinationEndpoint() {
+    return this._destinationEndpoint;
+  }
+
   // failover - computed: true, optional: false, required: false
   private _failover = new DataAwsccMediaconnectRouterInputConfigurationFailoverOutputReference(this, "failover");
   public get failover() {
@@ -2812,7 +3057,7 @@ export class DataAwsccMediaconnectRouterInputTransitEncryptionOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input}
 */
 export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource {
 
@@ -2828,7 +3073,7 @@ export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccMediaconnectRouterInput resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediaconnectRouterInput to import
-  * @param importFromId The id of the existing DataAwsccMediaconnectRouterInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediaconnectRouterInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediaconnectRouterInput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2840,7 +3085,7 @@ export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2851,7 +3096,7 @@ export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_mediaconnect_router_input',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2872,6 +3117,11 @@ export class DataAwsccMediaconnectRouterInput extends cdktn.TerraformDataSource 
   // arn - computed: true, optional: false, required: false
   public get arn() {
     return this.getStringAttribute('arn');
+  }
+
+  // associated_destination_endpoint_arns - computed: true, optional: false, required: false
+  public get associatedDestinationEndpointArns() {
+    return this.getListAttribute('associated_destination_endpoint_arns');
   }
 
   // availability_zone - computed: true, optional: false, required: false

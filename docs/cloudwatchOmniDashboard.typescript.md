@@ -4,7 +4,7 @@
 
 ### CloudwatchOmniDashboard <a name="CloudwatchOmniDashboard" id="@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard awscc_cloudwatch_omni_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard awscc_cloudwatch_omni_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboard.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the CloudwatchOmniDashboard to
 
 The id of the existing CloudwatchOmniDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,10 +908,10 @@ const cloudwatchOmniDashboardConfig: cloudwatchOmniDashboard.CloudwatchOmniDashb
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.body">body</a></code> | <code>string</code> | The dashboard body, a JSON document describing the dashboard's widgets and layout. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.name">name</a></code> | <code>string</code> | The name of the dashboard. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.spaceId">spaceId</a></code> | <code>string</code> | The unique identifier of the space the dashboard belongs to. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.description">description</a></code> | <code>string</code> | The description of the dashboard. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.body">body</a></code> | <code>string</code> | The dashboard definition. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.name">name</a></code> | <code>string</code> | A name that identifies the dashboard. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.spaceId">spaceId</a></code> | <code>string</code> | The unique ID of the space to create the dashboard in. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.description">description</a></code> | <code>string</code> | An optional description of the dashboard. |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudwatchOmniDashboard.CloudwatchOmniDashboardTags">CloudwatchOmniDashboardTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -994,9 +994,9 @@ public readonly body: string;
 
 - *Type:* string
 
-The dashboard body, a JSON document describing the dashboard's widgets and layout.
+The dashboard definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#body CloudwatchOmniDashboard#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#body CloudwatchOmniDashboard#body}
 
 ---
 
@@ -1008,9 +1008,9 @@ public readonly name: string;
 
 - *Type:* string
 
-The name of the dashboard.
+A name that identifies the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#name CloudwatchOmniDashboard#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#name CloudwatchOmniDashboard#name}
 
 ---
 
@@ -1022,9 +1022,9 @@ public readonly spaceId: string;
 
 - *Type:* string
 
-The unique identifier of the space the dashboard belongs to.
+The unique ID of the space to create the dashboard in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#space_id CloudwatchOmniDashboard#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#space_id CloudwatchOmniDashboard#space_id}
 
 ---
 
@@ -1036,9 +1036,9 @@ public readonly description: string;
 
 - *Type:* string
 
-The description of the dashboard.
+An optional description of the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#description CloudwatchOmniDashboard#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#description CloudwatchOmniDashboard#description}
 
 ---
 
@@ -1052,7 +1052,7 @@ public readonly tags: IResolvable | CloudwatchOmniDashboardTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#tags CloudwatchOmniDashboard#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#tags CloudwatchOmniDashboard#tags}
 
 ---
 
@@ -1085,7 +1085,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#key CloudwatchOmniDashboard#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#key CloudwatchOmniDashboard#key}
 
 ---
 
@@ -1099,7 +1099,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_omni_dashboard#value CloudwatchOmniDashboard#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_omni_dashboard#value CloudwatchOmniDashboard#value}
 
 ---
 

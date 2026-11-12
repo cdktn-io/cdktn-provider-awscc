@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/pcs_compute_node_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/pcs_compute_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccPcsComputeNodeGroupConfig extends cdktn.TerraformMetaA
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/pcs_compute_node_group#id DataAwsccPcsComputeNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/pcs_compute_node_group#id DataAwsccPcsComputeNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -938,7 +938,7 @@ export class DataAwsccPcsComputeNodeGroupSpotOptionsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group}
 */
 export class DataAwsccPcsComputeNodeGroup extends cdktn.TerraformDataSource {
 
@@ -954,7 +954,7 @@ export class DataAwsccPcsComputeNodeGroup extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccPcsComputeNodeGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccPcsComputeNodeGroup to import
-  * @param importFromId The id of the existing DataAwsccPcsComputeNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/pcs_compute_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccPcsComputeNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/pcs_compute_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccPcsComputeNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -966,7 +966,7 @@ export class DataAwsccPcsComputeNodeGroup extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -977,7 +977,7 @@ export class DataAwsccPcsComputeNodeGroup extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_pcs_compute_node_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1051,6 +1051,11 @@ export class DataAwsccPcsComputeNodeGroup extends cdktn.TerraformDataSource {
     return this._instanceConfigs;
   }
 
+  // launch_template_mode - computed: true, optional: false, required: false
+  public get launchTemplateMode() {
+    return this.getStringAttribute('launch_template_mode');
+  }
+
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
@@ -1073,6 +1078,11 @@ export class DataAwsccPcsComputeNodeGroup extends cdktn.TerraformDataSource {
     return this._scalingConfiguration;
   }
 
+  // security_group_ids - computed: true, optional: false, required: false
+  public get securityGroupIds() {
+    return this.getListAttribute('security_group_ids');
+  }
+
   // slurm_configuration - computed: true, optional: false, required: false
   private _slurmConfiguration = new DataAwsccPcsComputeNodeGroupSlurmConfigurationOutputReference(this, "slurm_configuration");
   public get slurmConfiguration() {
@@ -1083,6 +1093,11 @@ export class DataAwsccPcsComputeNodeGroup extends cdktn.TerraformDataSource {
   private _spotOptions = new DataAwsccPcsComputeNodeGroupSpotOptionsOutputReference(this, "spot_options");
   public get spotOptions() {
     return this._spotOptions;
+  }
+
+  // ssh_key_name - computed: true, optional: false, required: false
+  public get sshKeyName() {
+    return this.getStringAttribute('ssh_key_name');
   }
 
   // status - computed: true, optional: false, required: false

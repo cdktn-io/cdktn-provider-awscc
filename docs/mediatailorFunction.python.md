@@ -4,7 +4,7 @@
 
 ### MediatailorFunction <a name="MediatailorFunction" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function awscc_mediatailor_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function awscc_mediatailor_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunction.Initializer"></a>
 
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 The unique identifier for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the function. Determines which configuration object is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
 
 ---
 
@@ -146,7 +146,7 @@ The configuration for an AWS_SERVICE_REQUEST function.
 
 Contains the target service, target Region, and request parameters that the function uses to call an AWS service API. For more information, see AWS_SERVICE_REQUEST (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-types-aws-service-request.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#aws_service_request_configuration MediatailorFunction#aws_service_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#aws_service_request_configuration MediatailorFunction#aws_service_request_configuration}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration for a CONCURRENT_EXECUTOR function. Required when FunctionType is CONCURRENT_EXECUTOR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#concurrent_executor_configuration MediatailorFunction#concurrent_executor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#concurrent_executor_configuration MediatailorFunction#concurrent_executor_configuration}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for custom output functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
 
 ---
 
@@ -176,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
 
 ---
 
@@ -186,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for HTTP request functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
 
 ---
 
@@ -198,7 +198,7 @@ The configuration for a SEQUENTIAL_EXECUTOR function.
 
 A SEQUENTIAL_EXECUTOR runs an ordered list of child functions one at a time, passing data between them. For more information about functions, see Working with functions (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
 
 ---
 
@@ -208,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags to assign to the function resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
 
 ---
 
@@ -220,7 +220,7 @@ The configuration for a VAST_REQUEST function.
 
 Specifies the HTTP method, URL, headers, body, timeout, and output expressions for a request to a VAST endpoint. MediaTailor parses the response as VAST and resolves wrapper redirects, then makes the parsed ads available to the function's output expressions. For more information, see Function types and composition (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-types.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#vast_request_configuration MediatailorFunction#vast_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#vast_request_configuration MediatailorFunction#vast_request_configuration}
 
 ---
 
@@ -623,6 +623,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 ```python
 def put_aws_service_request_configuration(
   body: str = None,
+  cache: MediatailorFunctionAwsServiceRequestConfigurationCache = None,
   headers: typing.Mapping[str] = None,
   method_type: str = None,
   output: typing.Mapping[str] = None,
@@ -642,7 +643,19 @@ An expression that evaluates to the request body for the AWS service API call.
 
 The body must conform to the input format that the target service operation expects. Applies only when the target operation accepts a request body. The maximum size after evaluation is 64 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+###### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunction.putAwsServiceRequestConfiguration.parameter.cache"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the AWS service, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -654,7 +667,7 @@ A map of HTTP header names to expression values.
 
 MediaTailor evaluates each header value expression at runtime and includes the result in the outbound request to the AWS service. Use this to pass any headers required by the target service operation. You can include a maximum of 50 headers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -662,7 +675,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
 
 ---
 
@@ -674,7 +687,7 @@ A map of output bindings.
 
 Each key is a namespaced output path, such as player_params.device_type. Each value is an expression that MediaTailor evaluates at runtime and can reference the response object from the target service. For more information, see JSONata expression reference (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-jsonata.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -686,7 +699,7 @@ The maximum time, in milliseconds, that MediaTailor waits for a response from th
 
 If the call exceeds this timeout, MediaTailor sets the response status code to null and proceeds with output expression evaluation. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -696,7 +709,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -708,7 +721,7 @@ The AWS Region for the target service.
 
 Specify a static Region code (for example, us-east-1) or a JSONata expression that resolves to a Region code at runtime (for example, {%inference.region%}).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#target_region MediatailorFunction#target_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#target_region MediatailorFunction#target_region}
 
 ---
 
@@ -718,7 +731,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS service to call. Valid value: elemental-inference (AWS Elemental Inference).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#target_service MediatailorFunction#target_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#target_service MediatailorFunction#target_service}
 
 ---
 
@@ -730,7 +743,7 @@ An expression that evaluates to the endpoint URL for the target AWS service API 
 
 Use {%...%} delimiters for dynamic expressions. The URL must correspond to a valid endpoint for the service specified in TargetService. The maximum length after evaluation is 2,048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
 
 ---
 
@@ -754,7 +767,7 @@ The list of 1 to 10 child functions that MediaTailor runs in parallel.
 
 Each entry specifies a child function to execute and an optional run condition expression that controls whether the function runs. Child functions cannot themselves be executors, and each child function's resolved namespace must be unique across the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
 
 ---
 
@@ -766,7 +779,7 @@ The maximum number of child functions that MediaTailor runs simultaneously.
 
 When the list contains more functions than MaxConcurrency, MediaTailor starts additional functions as running ones complete, so that no more than MaxConcurrency functions run at the same time. Valid values are 1 to 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#max_concurrency MediatailorFunction#max_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#max_concurrency MediatailorFunction#max_concurrency}
 
 ---
 
@@ -778,7 +791,7 @@ A map of output bindings that controls which bindings the executor commits to th
 
 Each key is a namespaced output path, and each value is an expression that MediaTailor evaluates against the combined results of the child functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -788,7 +801,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -800,7 +813,7 @@ The maximum time, in milliseconds, for all child functions to complete.
 
 This timeout covers every function in the list, including any HTTP calls the child functions make. If the executor exceeds this timeout, MediaTailor discards all output from the executor and proceeds with default behavior. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
 
 ---
 
@@ -819,7 +832,7 @@ def put_custom_output_configuration(
 
 A map of output key-value pairs that define the custom output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -829,7 +842,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The runtime environment for the function expression language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -838,6 +851,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 ```python
 def put_http_request_configuration(
   body: str = None,
+  cache: MediatailorFunctionHttpRequestConfigurationCache = None,
   headers: typing.Mapping[str] = None,
   method_type: str = None,
   output: typing.Mapping[str] = None,
@@ -853,7 +867,19 @@ def put_http_request_configuration(
 
 The body of the HTTP request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+###### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunction.putHttpRequestConfiguration.parameter.cache"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the HTTP endpoint, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -863,7 +889,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A map of HTTP headers to include in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -873,7 +899,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The HTTP method type for the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}
 
 ---
 
@@ -885,7 +911,7 @@ A map of output key-value pairs.
 
 Keys must start with session., temp., avail., scte., or be a valid adsRequest directive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -895,7 +921,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The timeout in milliseconds for the HTTP request. Maximum value is 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -905,7 +931,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The runtime environment for the function expression language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -915,7 +941,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URL endpoint for the HTTP request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
 
 ---
 
@@ -938,7 +964,7 @@ An ordered list of 1 to 10 steps.
 
 Each step specifies a child function to execute and an optional run condition expression that controls whether the step runs. MediaTailor executes the steps in order, passing data between steps through temporary data. Each step's resolved namespace must be unique across the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
 
 ---
 
@@ -950,7 +976,7 @@ A map of output bindings that controls which bindings the sequence commits to th
 
 Each key is a namespaced output path, and each value is an expression that MediaTailor evaluates against the accumulated results of the steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -960,7 +986,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -972,7 +998,7 @@ The maximum time, in milliseconds, for the entire sequence to complete.
 
 This timeout covers all steps, including any HTTP calls made by child functions. If the sequence exceeds this timeout, MediaTailor discards all output from the sequence and proceeds with default behavior. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
 
 ---
 
@@ -995,6 +1021,7 @@ def put_tags(
 ```python
 def put_vast_request_configuration(
   body: str = None,
+  cache: MediatailorFunctionVastRequestConfigurationCache = None,
   headers: typing.Mapping[str] = None,
   method_type: str = None,
   output: typing.Mapping[str] = None,
@@ -1012,7 +1039,19 @@ An expression that evaluates to the request body, for example to send an OpenRTB
 
 The expression can be up to 100,000 characters, and the body after evaluation can be up to 64 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+###### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunction.putVastRequestConfiguration.parameter.cache"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the HTTP endpoint, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -1024,7 +1063,7 @@ A map of HTTP header names to expression values.
 
 MediaTailor evaluates each header value expression at runtime and includes the result in the outbound request. Headers beginning with X-Amz- are reserved by the service, and method override headers are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -1032,7 +1071,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
 
 ---
 
@@ -1044,7 +1083,7 @@ A map of output bindings.
 
 Each key is a namespaced output path (such as temp.wrappedAds), and each value is an expression that MediaTailor evaluates at runtime. Output expressions in a VAST_REQUEST function can reference the response object, which exposes response.parsedAds, the ads parsed from the VAST response after schema validation and wrapper resolution, and response.statusCode. For more information about expression syntax, see JSONata expression reference (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-jsonata.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -1056,7 +1095,7 @@ The maximum time, in milliseconds, that MediaTailor waits for a response from th
 
 The timeout covers the entire response, including any wrapper redirects that MediaTailor follows. If the call exceeds this timeout, MediaTailor proceeds with an empty ad list and continues output expression evaluation. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -1066,7 +1105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -1078,7 +1117,7 @@ An expression that evaluates to the VAST endpoint URL.
 
 Use {%...%} delimiters for dynamic expressions. A literal value must be an https:// URL. The expression can be up to 25,000 characters, and the URL after evaluation can be up to 2,048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
 
 ---
 
@@ -1244,7 +1283,7 @@ The construct id used in the generated config for the MediatailorFunction to imp
 
 The id of the existing MediatailorFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1690,6 +1729,7 @@ from cdktn_provider_awscc import mediatailor_function
 
 mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration(
   body: str = None,
+  cache: MediatailorFunctionAwsServiceRequestConfigurationCache = None,
   headers: typing.Mapping[str] = None,
   method_type: str = None,
   output: typing.Mapping[str] = None,
@@ -1706,8 +1746,9 @@ mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.body">body</a></code> | <code>str</code> | An expression that evaluates to the request body for the AWS service API call. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a></code> | The optional response-caching configuration for the function. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.headers">headers</a></code> | <code>typing.Mapping[str]</code> | A map of HTTP header names to expression values. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.methodType">method_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.methodType">method_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.output">output</a></code> | <code>typing.Mapping[str]</code> | A map of output bindings. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.requestTimeoutMilliseconds">request_timeout_milliseconds</a></code> | <code>typing.Union[int, float]</code> | The maximum time, in milliseconds, that MediaTailor waits for a response from the AWS service. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.runtime">runtime</a></code> | <code>str</code> | The expression language used to evaluate expressions in the function configuration. Set this to JSONATA. |
@@ -1729,7 +1770,23 @@ An expression that evaluates to the request body for the AWS service API call.
 
 The body must conform to the input format that the target service operation expects. Applies only when the target operation accepts a request body. The maximum size after evaluation is 64 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+##### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.cache"></a>
+
+```python
+cache: MediatailorFunctionAwsServiceRequestConfigurationCache
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the AWS service, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -1745,7 +1802,7 @@ A map of HTTP header names to expression values.
 
 MediaTailor evaluates each header value expression at runtime and includes the result in the outbound request to the AWS service. Use this to pass any headers required by the target service operation. You can include a maximum of 50 headers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -1757,7 +1814,7 @@ method_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
 
 ---
 
@@ -1773,7 +1830,7 @@ A map of output bindings.
 
 Each key is a namespaced output path, such as player_params.device_type. Each value is an expression that MediaTailor evaluates at runtime and can reference the response object from the target service. For more information, see JSONata expression reference (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-jsonata.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -1789,7 +1846,7 @@ The maximum time, in milliseconds, that MediaTailor waits for a response from th
 
 If the call exceeds this timeout, MediaTailor sets the response status code to null and proceeds with output expression evaluation. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -1803,7 +1860,7 @@ runtime: str
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -1819,7 +1876,7 @@ The AWS Region for the target service.
 
 Specify a static Region code (for example, us-east-1) or a JSONata expression that resolves to a Region code at runtime (for example, {%inference.region%}).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#target_region MediatailorFunction#target_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#target_region MediatailorFunction#target_region}
 
 ---
 
@@ -1833,7 +1890,7 @@ target_service: str
 
 The AWS service to call. Valid value: elemental-inference (AWS Elemental Inference).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#target_service MediatailorFunction#target_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#target_service MediatailorFunction#target_service}
 
 ---
 
@@ -1849,7 +1906,79 @@ An expression that evaluates to the endpoint URL for the target AWS service API 
 
 Use {%...%} delimiters for dynamic expressions. The URL must correspond to a valid endpoint for the service specified in TargetService. The maximum length after evaluation is 2,048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+
+---
+
+### MediatailorFunctionAwsServiceRequestConfigurationCache <a name="MediatailorFunctionAwsServiceRequestConfigurationCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediatailor_function
+
+mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache(
+  key: str = None,
+  ttl_maximum_seconds: typing.Union[int, float] = None,
+  ttl_minimum_seconds: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.key">key</a></code> | <code>str</code> | A JSONata expression that MediaTailor evaluates to a custom cache key. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.ttlMaximumSeconds">ttl_maximum_seconds</a></code> | <code>typing.Union[int, float]</code> | The upper bound, in seconds, on how long MediaTailor caches a response. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.ttlMinimumSeconds">ttl_minimum_seconds</a></code> | <code>typing.Union[int, float]</code> | The lower bound, in seconds, on how long MediaTailor caches a response. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+##### `ttl_maximum_seconds`<sup>Optional</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.ttlMaximumSeconds"></a>
+
+```python
+ttl_maximum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+##### `ttl_minimum_seconds`<sup>Optional</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.ttlMinimumSeconds"></a>
+
+```python
+ttl_minimum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
 
 ---
 
@@ -1893,7 +2022,7 @@ The list of 1 to 10 child functions that MediaTailor runs in parallel.
 
 Each entry specifies a child function to execute and an optional run condition expression that controls whether the function runs. Child functions cannot themselves be executors, and each child function's resolved namespace must be unique across the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
 
 ---
 
@@ -1909,7 +2038,7 @@ The maximum number of child functions that MediaTailor runs simultaneously.
 
 When the list contains more functions than MaxConcurrency, MediaTailor starts additional functions as running ones complete, so that no more than MaxConcurrency functions run at the same time. Valid values are 1 to 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#max_concurrency MediatailorFunction#max_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#max_concurrency MediatailorFunction#max_concurrency}
 
 ---
 
@@ -1925,7 +2054,7 @@ A map of output bindings that controls which bindings the executor commits to th
 
 Each key is a namespaced output path, and each value is an expression that MediaTailor evaluates against the combined results of the child functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -1939,7 +2068,7 @@ runtime: str
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -1955,7 +2084,7 @@ The maximum time, in milliseconds, for all child functions to complete.
 
 This timeout covers every function in the list, including any HTTP calls the child functions make. If the executor exceeds this timeout, MediaTailor discards all output from the executor and proceeds with default behavior. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
 
 ---
 
@@ -1995,7 +2124,7 @@ An optional alternate name for the child function within the executor.
 
 MediaTailor uses this value as the namespace for the child function's output. If omitted, MediaTailor uses the function identifier. The resolved namespace must be unique across all child functions in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
 
 ---
 
@@ -2009,7 +2138,7 @@ function_id: str
 
 The identifier of the child function to execute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 
 ---
 
@@ -2025,7 +2154,7 @@ An optional expression that evaluates to a boolean.
 
 MediaTailor evaluates this expression immediately before running the child function, using the accumulated state at that point. If the expression evaluates to false, MediaTailor skips the child function. If omitted, the child function always runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
 
 ---
 
@@ -2161,7 +2290,7 @@ function_id: str
 
 The unique identifier for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 
 ---
 
@@ -2175,7 +2304,7 @@ function_type: str
 
 The type of the function. Determines which configuration object is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
 
 ---
 
@@ -2191,7 +2320,7 @@ The configuration for an AWS_SERVICE_REQUEST function.
 
 Contains the target service, target Region, and request parameters that the function uses to call an AWS service API. For more information, see AWS_SERVICE_REQUEST (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-types-aws-service-request.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#aws_service_request_configuration MediatailorFunction#aws_service_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#aws_service_request_configuration MediatailorFunction#aws_service_request_configuration}
 
 ---
 
@@ -2205,7 +2334,7 @@ concurrent_executor_configuration: MediatailorFunctionConcurrentExecutorConfigur
 
 The configuration for a CONCURRENT_EXECUTOR function. Required when FunctionType is CONCURRENT_EXECUTOR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#concurrent_executor_configuration MediatailorFunction#concurrent_executor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#concurrent_executor_configuration MediatailorFunction#concurrent_executor_configuration}
 
 ---
 
@@ -2219,7 +2348,7 @@ custom_output_configuration: MediatailorFunctionCustomOutputConfiguration
 
 Configuration for custom output functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
 
 ---
 
@@ -2233,7 +2362,7 @@ description: str
 
 A description of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
 
 ---
 
@@ -2247,7 +2376,7 @@ http_request_configuration: MediatailorFunctionHttpRequestConfiguration
 
 Configuration for HTTP request functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
 
 ---
 
@@ -2263,7 +2392,7 @@ The configuration for a SEQUENTIAL_EXECUTOR function.
 
 A SEQUENTIAL_EXECUTOR runs an ordered list of child functions one at a time, passing data between them. For more information about functions, see Working with functions (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
 
 ---
 
@@ -2277,7 +2406,7 @@ tags: IResolvable | typing.List[MediatailorFunctionTags]
 
 The tags to assign to the function resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
 
 ---
 
@@ -2293,7 +2422,7 @@ The configuration for a VAST_REQUEST function.
 
 Specifies the HTTP method, URL, headers, body, timeout, and output expressions for a request to a VAST endpoint. MediaTailor parses the response as VAST and resolves wrapper redirects, then makes the parsed ads available to the function's output expressions. For more information, see Function types and composition (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-types.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#vast_request_configuration MediatailorFunction#vast_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#vast_request_configuration MediatailorFunction#vast_request_configuration}
 
 ---
 
@@ -2329,7 +2458,7 @@ output: typing.Mapping[str]
 
 A map of output key-value pairs that define the custom output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -2343,7 +2472,7 @@ runtime: str
 
 The runtime environment for the function expression language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -2356,6 +2485,7 @@ from cdktn_provider_awscc import mediatailor_function
 
 mediatailorFunction.MediatailorFunctionHttpRequestConfiguration(
   body: str = None,
+  cache: MediatailorFunctionHttpRequestConfigurationCache = None,
   headers: typing.Mapping[str] = None,
   method_type: str = None,
   output: typing.Mapping[str] = None,
@@ -2370,6 +2500,7 @@ mediatailorFunction.MediatailorFunctionHttpRequestConfiguration(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.body">body</a></code> | <code>str</code> | The body of the HTTP request. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a></code> | The optional response-caching configuration for the function. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.headers">headers</a></code> | <code>typing.Mapping[str]</code> | A map of HTTP headers to include in the request. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.methodType">method_type</a></code> | <code>str</code> | The HTTP method type for the request. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.output">output</a></code> | <code>typing.Mapping[str]</code> | A map of output key-value pairs. |
@@ -2389,7 +2520,23 @@ body: str
 
 The body of the HTTP request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+##### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.cache"></a>
+
+```python
+cache: MediatailorFunctionHttpRequestConfigurationCache
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the HTTP endpoint, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -2403,7 +2550,7 @@ headers: typing.Mapping[str]
 
 A map of HTTP headers to include in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -2417,7 +2564,7 @@ method_type: str
 
 The HTTP method type for the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}
 
 ---
 
@@ -2433,7 +2580,7 @@ A map of output key-value pairs.
 
 Keys must start with session., temp., avail., scte., or be a valid adsRequest directive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -2447,7 +2594,7 @@ request_timeout_milliseconds: typing.Union[int, float]
 
 The timeout in milliseconds for the HTTP request. Maximum value is 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -2461,7 +2608,7 @@ runtime: str
 
 The runtime environment for the function expression language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -2475,7 +2622,79 @@ url: str
 
 The URL endpoint for the HTTP request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+
+---
+
+### MediatailorFunctionHttpRequestConfigurationCache <a name="MediatailorFunctionHttpRequestConfigurationCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediatailor_function
+
+mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache(
+  key: str = None,
+  ttl_maximum_seconds: typing.Union[int, float] = None,
+  ttl_minimum_seconds: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.key">key</a></code> | <code>str</code> | A JSONata expression that MediaTailor evaluates to a custom cache key. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.ttlMaximumSeconds">ttl_maximum_seconds</a></code> | <code>typing.Union[int, float]</code> | The upper bound, in seconds, on how long MediaTailor caches a response. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.ttlMinimumSeconds">ttl_minimum_seconds</a></code> | <code>typing.Union[int, float]</code> | The lower bound, in seconds, on how long MediaTailor caches a response. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+##### `ttl_maximum_seconds`<sup>Optional</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.ttlMaximumSeconds"></a>
+
+```python
+ttl_maximum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+##### `ttl_minimum_seconds`<sup>Optional</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.ttlMinimumSeconds"></a>
+
+```python
+ttl_minimum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
 
 ---
 
@@ -2517,7 +2736,7 @@ An ordered list of 1 to 10 steps.
 
 Each step specifies a child function to execute and an optional run condition expression that controls whether the step runs. MediaTailor executes the steps in order, passing data between steps through temporary data. Each step's resolved namespace must be unique across the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
 
 ---
 
@@ -2533,7 +2752,7 @@ A map of output bindings that controls which bindings the sequence commits to th
 
 Each key is a namespaced output path, and each value is an expression that MediaTailor evaluates against the accumulated results of the steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -2547,7 +2766,7 @@ runtime: str
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -2563,7 +2782,7 @@ The maximum time, in milliseconds, for the entire sequence to complete.
 
 This timeout covers all steps, including any HTTP calls made by child functions. If the sequence exceeds this timeout, MediaTailor discards all output from the sequence and proceeds with default behavior. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
 
 ---
 
@@ -2603,7 +2822,7 @@ An optional alternate name for the child function within the executor.
 
 MediaTailor uses this value as the namespace for the child function's output. If omitted, MediaTailor uses the function identifier. The resolved namespace must be unique across all child functions in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
 
 ---
 
@@ -2617,7 +2836,7 @@ function_id: str
 
 The identifier of the child function to execute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 
 ---
 
@@ -2633,7 +2852,7 @@ An optional expression that evaluates to a boolean.
 
 MediaTailor evaluates this expression immediately before running the child function, using the accumulated state at that point. If the expression evaluates to false, MediaTailor skips the child function. If omitted, the child function always runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
 
 ---
 
@@ -2654,8 +2873,8 @@ mediatailorFunction.MediatailorFunctionTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#key MediatailorFunction#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#value MediatailorFunction#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#value MediatailorFunction#value}. |
 
 ---
 
@@ -2667,7 +2886,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#key MediatailorFunction#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}.
 
 ---
 
@@ -2679,7 +2898,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#value MediatailorFunction#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#value MediatailorFunction#value}.
 
 ---
 
@@ -2692,6 +2911,7 @@ from cdktn_provider_awscc import mediatailor_function
 
 mediatailorFunction.MediatailorFunctionVastRequestConfiguration(
   body: str = None,
+  cache: MediatailorFunctionVastRequestConfigurationCache = None,
   headers: typing.Mapping[str] = None,
   method_type: str = None,
   output: typing.Mapping[str] = None,
@@ -2706,8 +2926,9 @@ mediatailorFunction.MediatailorFunctionVastRequestConfiguration(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.body">body</a></code> | <code>str</code> | An expression that evaluates to the request body, for example to send an OpenRTB bid request. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a></code> | The optional response-caching configuration for the function. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.headers">headers</a></code> | <code>typing.Mapping[str]</code> | A map of HTTP header names to expression values. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.methodType">method_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.methodType">method_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.output">output</a></code> | <code>typing.Mapping[str]</code> | A map of output bindings. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.requestTimeoutMilliseconds">request_timeout_milliseconds</a></code> | <code>typing.Union[int, float]</code> | The maximum time, in milliseconds, that MediaTailor waits for a response from the VAST endpoint. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.runtime">runtime</a></code> | <code>str</code> | The expression language used to evaluate expressions in the function configuration. Set this to JSONATA. |
@@ -2727,7 +2948,23 @@ An expression that evaluates to the request body, for example to send an OpenRTB
 
 The expression can be up to 100,000 characters, and the body after evaluation can be up to 64 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+##### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.cache"></a>
+
+```python
+cache: MediatailorFunctionVastRequestConfigurationCache
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the HTTP endpoint, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -2743,7 +2980,7 @@ A map of HTTP header names to expression values.
 
 MediaTailor evaluates each header value expression at runtime and includes the result in the outbound request. Headers beginning with X-Amz- are reserved by the service, and method override headers are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -2755,7 +2992,7 @@ method_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
 
 ---
 
@@ -2771,7 +3008,7 @@ A map of output bindings.
 
 Each key is a namespaced output path (such as temp.wrappedAds), and each value is an expression that MediaTailor evaluates at runtime. Output expressions in a VAST_REQUEST function can reference the response object, which exposes response.parsedAds, the ads parsed from the VAST response after schema validation and wrapper resolution, and response.statusCode. For more information about expression syntax, see JSONata expression reference (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-jsonata.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -2787,7 +3024,7 @@ The maximum time, in milliseconds, that MediaTailor waits for a response from th
 
 The timeout covers the entire response, including any wrapper redirects that MediaTailor follows. If the call exceeds this timeout, MediaTailor proceeds with an empty ad list and continues output expression evaluation. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -2801,7 +3038,7 @@ runtime: str
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -2817,11 +3054,444 @@ An expression that evaluates to the VAST endpoint URL.
 
 Use {%...%} delimiters for dynamic expressions. A literal value must be an https:// URL. The expression can be up to 25,000 characters, and the URL after evaluation can be up to 2,048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+
+---
+
+### MediatailorFunctionVastRequestConfigurationCache <a name="MediatailorFunctionVastRequestConfigurationCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediatailor_function
+
+mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache(
+  key: str = None,
+  ttl_maximum_seconds: typing.Union[int, float] = None,
+  ttl_minimum_seconds: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.key">key</a></code> | <code>str</code> | A JSONata expression that MediaTailor evaluates to a custom cache key. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.ttlMaximumSeconds">ttl_maximum_seconds</a></code> | <code>typing.Union[int, float]</code> | The upper bound, in seconds, on how long MediaTailor caches a response. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.ttlMinimumSeconds">ttl_minimum_seconds</a></code> | <code>typing.Union[int, float]</code> | The lower bound, in seconds, on how long MediaTailor caches a response. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+##### `ttl_maximum_seconds`<sup>Optional</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.ttlMaximumSeconds"></a>
+
+```python
+ttl_maximum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+##### `ttl_minimum_seconds`<sup>Optional</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.ttlMinimumSeconds"></a>
+
+```python
+ttl_minimum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference <a name="MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediatailor_function
+
+mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetKey">reset_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds">reset_ttl_maximum_seconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds">reset_ttl_minimum_seconds</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_key` <a name="reset_key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetKey"></a>
+
+```python
+def reset_key() -> None
+```
+
+##### `reset_ttl_maximum_seconds` <a name="reset_ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds"></a>
+
+```python
+def reset_ttl_maximum_seconds() -> None
+```
+
+##### `reset_ttl_minimum_seconds` <a name="reset_ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds"></a>
+
+```python
+def reset_ttl_minimum_seconds() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput">ttl_maximum_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput">ttl_minimum_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds">ttl_maximum_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds">ttl_minimum_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `ttl_maximum_seconds_input`<sup>Optional</sup> <a name="ttl_maximum_seconds_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput"></a>
+
+```python
+ttl_maximum_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `ttl_minimum_seconds_input`<sup>Optional</sup> <a name="ttl_minimum_seconds_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput"></a>
+
+```python
+ttl_minimum_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `ttl_maximum_seconds`<sup>Required</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds"></a>
+
+```python
+ttl_maximum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `ttl_minimum_seconds`<sup>Required</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds"></a>
+
+```python
+ttl_minimum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediatailorFunctionAwsServiceRequestConfigurationCache
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a>
+
+---
+
 
 ### MediatailorFunctionAwsServiceRequestConfigurationOutputReference <a name="MediatailorFunctionAwsServiceRequestConfigurationOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference"></a>
 
@@ -2876,7 +3546,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.putCache">put_cache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetBody">reset_body</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetCache">reset_cache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetHeaders">reset_headers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetMethodType">reset_method_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetOutput">reset_output</a></code> | *No description.* |
@@ -3060,10 +3732,62 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_cache` <a name="put_cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.putCache"></a>
+
+```python
+def put_cache(
+  key: str = None,
+  ttl_maximum_seconds: typing.Union[int, float] = None,
+  ttl_minimum_seconds: typing.Union[int, float] = None
+) -> None
+```
+
+###### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.putCache.parameter.key"></a>
+
+- *Type:* str
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+###### `ttl_maximum_seconds`<sup>Optional</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.putCache.parameter.ttlMaximumSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+###### `ttl_minimum_seconds`<sup>Optional</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.putCache.parameter.ttlMinimumSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
+
+---
+
 ##### `reset_body` <a name="reset_body" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetBody"></a>
 
 ```python
 def reset_body() -> None
+```
+
+##### `reset_cache` <a name="reset_cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetCache"></a>
+
+```python
+def reset_cache() -> None
 ```
 
 ##### `reset_headers` <a name="reset_headers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetHeaders"></a>
@@ -3121,7 +3845,9 @@ def reset_url() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference">MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.bodyInput">body_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.cacheInput">cache_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.headersInput">headers_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.methodTypeInput">method_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.outputInput">output_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
@@ -3167,6 +3893,16 @@ fqn: str
 
 ---
 
+##### `cache`<sup>Required</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.cache"></a>
+
+```python
+cache: MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference">MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference</a>
+
+---
+
 ##### `body_input`<sup>Optional</sup> <a name="body_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.bodyInput"></a>
 
 ```python
@@ -3174,6 +3910,16 @@ body_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `cache_input`<sup>Optional</sup> <a name="cache_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.cacheInput"></a>
+
+```python
+cache_input: IResolvable | MediatailorFunctionAwsServiceRequestConfigurationCache
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a>
 
 ---
 
@@ -4675,6 +5421,367 @@ internal_value: IResolvable | MediatailorFunctionCustomOutputConfiguration
 ---
 
 
+### MediatailorFunctionHttpRequestConfigurationCacheOutputReference <a name="MediatailorFunctionHttpRequestConfigurationCacheOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediatailor_function
+
+mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetKey">reset_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds">reset_ttl_maximum_seconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds">reset_ttl_minimum_seconds</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_key` <a name="reset_key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetKey"></a>
+
+```python
+def reset_key() -> None
+```
+
+##### `reset_ttl_maximum_seconds` <a name="reset_ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds"></a>
+
+```python
+def reset_ttl_maximum_seconds() -> None
+```
+
+##### `reset_ttl_minimum_seconds` <a name="reset_ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds"></a>
+
+```python
+def reset_ttl_minimum_seconds() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput">ttl_maximum_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput">ttl_minimum_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds">ttl_maximum_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds">ttl_minimum_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `ttl_maximum_seconds_input`<sup>Optional</sup> <a name="ttl_maximum_seconds_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput"></a>
+
+```python
+ttl_maximum_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `ttl_minimum_seconds_input`<sup>Optional</sup> <a name="ttl_minimum_seconds_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput"></a>
+
+```python
+ttl_minimum_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `ttl_maximum_seconds`<sup>Required</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds"></a>
+
+```python
+ttl_maximum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `ttl_minimum_seconds`<sup>Required</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds"></a>
+
+```python
+ttl_minimum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediatailorFunctionHttpRequestConfigurationCache
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a>
+
+---
+
+
 ### MediatailorFunctionHttpRequestConfigurationOutputReference <a name="MediatailorFunctionHttpRequestConfigurationOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.Initializer"></a>
@@ -4728,7 +5835,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.putCache">put_cache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetBody">reset_body</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetCache">reset_cache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetHeaders">reset_headers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetMethodType">reset_method_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetOutput">reset_output</a></code> | *No description.* |
@@ -4910,10 +6019,62 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_cache` <a name="put_cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.putCache"></a>
+
+```python
+def put_cache(
+  key: str = None,
+  ttl_maximum_seconds: typing.Union[int, float] = None,
+  ttl_minimum_seconds: typing.Union[int, float] = None
+) -> None
+```
+
+###### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.putCache.parameter.key"></a>
+
+- *Type:* str
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+###### `ttl_maximum_seconds`<sup>Optional</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.putCache.parameter.ttlMaximumSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+###### `ttl_minimum_seconds`<sup>Optional</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.putCache.parameter.ttlMinimumSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
+
+---
+
 ##### `reset_body` <a name="reset_body" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetBody"></a>
 
 ```python
 def reset_body() -> None
+```
+
+##### `reset_cache` <a name="reset_cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetCache"></a>
+
+```python
+def reset_cache() -> None
 ```
 
 ##### `reset_headers` <a name="reset_headers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetHeaders"></a>
@@ -4959,7 +6120,9 @@ def reset_url() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference">MediatailorFunctionHttpRequestConfigurationCacheOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.bodyInput">body_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.cacheInput">cache_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.headersInput">headers_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.methodTypeInput">method_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.outputInput">output_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
@@ -5001,6 +6164,16 @@ fqn: str
 
 ---
 
+##### `cache`<sup>Required</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.cache"></a>
+
+```python
+cache: MediatailorFunctionHttpRequestConfigurationCacheOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference">MediatailorFunctionHttpRequestConfigurationCacheOutputReference</a>
+
+---
+
 ##### `body_input`<sup>Optional</sup> <a name="body_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.bodyInput"></a>
 
 ```python
@@ -5008,6 +6181,16 @@ body_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `cache_input`<sup>Optional</sup> <a name="cache_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.cacheInput"></a>
+
+```python
+cache_input: IResolvable | MediatailorFunctionHttpRequestConfigurationCache
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a>
 
 ---
 
@@ -6630,6 +7813,367 @@ internal_value: IResolvable | MediatailorFunctionTags
 ---
 
 
+### MediatailorFunctionVastRequestConfigurationCacheOutputReference <a name="MediatailorFunctionVastRequestConfigurationCacheOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediatailor_function
+
+mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetKey">reset_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds">reset_ttl_maximum_seconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds">reset_ttl_minimum_seconds</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_key` <a name="reset_key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetKey"></a>
+
+```python
+def reset_key() -> None
+```
+
+##### `reset_ttl_maximum_seconds` <a name="reset_ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds"></a>
+
+```python
+def reset_ttl_maximum_seconds() -> None
+```
+
+##### `reset_ttl_minimum_seconds` <a name="reset_ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds"></a>
+
+```python
+def reset_ttl_minimum_seconds() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput">ttl_maximum_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput">ttl_minimum_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds">ttl_maximum_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds">ttl_minimum_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `ttl_maximum_seconds_input`<sup>Optional</sup> <a name="ttl_maximum_seconds_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput"></a>
+
+```python
+ttl_maximum_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `ttl_minimum_seconds_input`<sup>Optional</sup> <a name="ttl_minimum_seconds_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput"></a>
+
+```python
+ttl_minimum_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `ttl_maximum_seconds`<sup>Required</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds"></a>
+
+```python
+ttl_maximum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `ttl_minimum_seconds`<sup>Required</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds"></a>
+
+```python
+ttl_minimum_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | MediatailorFunctionVastRequestConfigurationCache
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a>
+
+---
+
+
 ### MediatailorFunctionVastRequestConfigurationOutputReference <a name="MediatailorFunctionVastRequestConfigurationOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.Initializer"></a>
@@ -6683,7 +8227,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.putCache">put_cache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetBody">reset_body</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetCache">reset_cache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetHeaders">reset_headers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetMethodType">reset_method_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetOutput">reset_output</a></code> | *No description.* |
@@ -6865,10 +8411,62 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_cache` <a name="put_cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.putCache"></a>
+
+```python
+def put_cache(
+  key: str = None,
+  ttl_maximum_seconds: typing.Union[int, float] = None,
+  ttl_minimum_seconds: typing.Union[int, float] = None
+) -> None
+```
+
+###### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.putCache.parameter.key"></a>
+
+- *Type:* str
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+###### `ttl_maximum_seconds`<sup>Optional</sup> <a name="ttl_maximum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.putCache.parameter.ttlMaximumSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+###### `ttl_minimum_seconds`<sup>Optional</sup> <a name="ttl_minimum_seconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.putCache.parameter.ttlMinimumSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
+
+---
+
 ##### `reset_body` <a name="reset_body" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetBody"></a>
 
 ```python
 def reset_body() -> None
+```
+
+##### `reset_cache` <a name="reset_cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetCache"></a>
+
+```python
+def reset_cache() -> None
 ```
 
 ##### `reset_headers` <a name="reset_headers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetHeaders"></a>
@@ -6914,7 +8512,9 @@ def reset_url() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference">MediatailorFunctionVastRequestConfigurationCacheOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.bodyInput">body_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.cacheInput">cache_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.headersInput">headers_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.methodTypeInput">method_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.outputInput">output_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
@@ -6956,6 +8556,16 @@ fqn: str
 
 ---
 
+##### `cache`<sup>Required</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.cache"></a>
+
+```python
+cache: MediatailorFunctionVastRequestConfigurationCacheOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference">MediatailorFunctionVastRequestConfigurationCacheOutputReference</a>
+
+---
+
 ##### `body_input`<sup>Optional</sup> <a name="body_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.bodyInput"></a>
 
 ```python
@@ -6963,6 +8573,16 @@ body_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `cache_input`<sup>Optional</sup> <a name="cache_input" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.cacheInput"></a>
+
+```python
+cache_input: IResolvable | MediatailorFunctionVastRequestConfigurationCache
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a>
 
 ---
 

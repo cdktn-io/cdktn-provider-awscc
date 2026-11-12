@@ -4,7 +4,7 @@
 
 ### ImagebuilderImage <a name="ImagebuilderImage" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image awscc_imagebuilder_image}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image awscc_imagebuilder_image}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImage.Initializer"></a>
 
@@ -130,7 +130,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) of the container recipe that defines how images are configured and tested.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#container_recipe_arn ImagebuilderImage#container_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#container_recipe_arn ImagebuilderImage#container_recipe_arn}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The deletion settings of the image, indicating whether to delete the underlying resources in addition to the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#deletion_settings ImagebuilderImage#deletion_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#deletion_settings ImagebuilderImage#deletion_settings}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the distribution configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#distribution_configuration_arn ImagebuilderImage#distribution_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#distribution_configuration_arn ImagebuilderImage#distribution_configuration_arn}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Collects additional information about the image being created, including the operating system (OS) version and package list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#enhanced_image_metadata_enabled ImagebuilderImage#enhanced_image_metadata_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#enhanced_image_metadata_enabled ImagebuilderImage#enhanced_image_metadata_enabled}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The execution role name/ARN for the image build, if provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The image pipeline execution settings of the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_pipeline_execution_settings ImagebuilderImage#image_pipeline_execution_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_pipeline_execution_settings ImagebuilderImage#image_pipeline_execution_settings}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the image recipe that defines how images are configured, tested, and assessed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_recipe_arn ImagebuilderImage#image_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_recipe_arn ImagebuilderImage#image_recipe_arn}
 
 ---
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains settings for vulnerability scans that Amazon Inspector runs against the test instance during image creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_scanning_configuration ImagebuilderImage#image_scanning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_configuration ImagebuilderImage#image_scanning_configuration}
 
 ---
 
@@ -210,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The image tests configuration used when creating this image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_tests_configuration ImagebuilderImage#image_tests_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_tests_configuration ImagebuilderImage#image_tests_configuration}
 
 ---
 
@@ -220,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the infrastructure configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#infrastructure_configuration_arn ImagebuilderImage#infrastructure_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#infrastructure_configuration_arn ImagebuilderImage#infrastructure_configuration_arn}
 
 ---
 
@@ -230,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The logging configuration settings for the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#logging_configuration ImagebuilderImage#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#logging_configuration ImagebuilderImage#logging_configuration}
 
 ---
 
@@ -240,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags associated with the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#tags ImagebuilderImage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#tags ImagebuilderImage#tags}
 
 ---
 
@@ -250,7 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Workflows to define the image build process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#workflows ImagebuilderImage#workflows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#workflows ImagebuilderImage#workflows}
 
 ---
 
@@ -666,7 +666,7 @@ def put_deletion_settings(
 
 The execution role to use for deleting the image, as well as underlying resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
 
 ---
 
@@ -685,7 +685,7 @@ def put_image_pipeline_execution_settings(
 
 The deployment ID of the pipeline, used to trigger new image pipeline executions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#deployment_id ImagebuilderImage#deployment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#deployment_id ImagebuilderImage#deployment_id}
 
 ---
 
@@ -695,7 +695,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether to trigger the image pipeline when the pipeline is updated. False by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#on_update ImagebuilderImage#on_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#on_update ImagebuilderImage#on_update}
 
 ---
 
@@ -704,7 +704,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 ```python
 def put_image_scanning_configuration(
   ecr_configuration: ImagebuilderImageImageScanningConfigurationEcrConfiguration = None,
-  image_scanning_enabled: bool | IResolvable = None
+  image_scanning_enabled: bool | IResolvable = None,
+  image_scanning_types: typing.List[str] = None,
+  scan_result_condition: ImagebuilderImageImageScanningConfigurationScanResultCondition = None
 ) -> None
 ```
 
@@ -714,7 +716,7 @@ def put_image_scanning_configuration(
 
 Contains ECR settings for vulnerability scans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#ecr_configuration ImagebuilderImage#ecr_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#ecr_configuration ImagebuilderImage#ecr_configuration}
 
 ---
 
@@ -724,7 +726,31 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This sets whether Image Builder keeps a snapshot of the vulnerability scans that Amazon Inspector runs against the test instance when you create a new image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_scanning_enabled ImagebuilderImage#image_scanning_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_enabled ImagebuilderImage#image_scanning_enabled}
+
+---
+
+###### `image_scanning_types`<sup>Optional</sup> <a name="image_scanning_types" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImage.putImageScanningConfiguration.parameter.imageScanningTypes"></a>
+
+- *Type:* typing.List[str]
+
+The type of vulnerability scan that Image Builder runs for AMI output when ImageScanningEnabled is true.
+
+Specify a single value. If you omit ImageScanningTypes, Image Builder uses TEST_INSTANCE_CVE. With TEST_INSTANCE_CVE, Amazon Inspector scans the test instance during image tests, and you must activate Amazon Inspector for Amazon EC2 scanning in your account. With ON_DEMAND_AMI_CVE, Amazon Inspector starts an on-demand scan of the output AMI during image tests. You must build from an image recipe, but you do not need to activate Amazon Inspector in your account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_types ImagebuilderImage#image_scanning_types}
+
+---
+
+###### `scan_result_condition`<sup>Optional</sup> <a name="scan_result_condition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImage.putImageScanningConfiguration.parameter.scanResultCondition"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a>
+
+The condition that the output AMI's scan results must meet for the image to pass.
+
+You can set ScanResultCondition only when ImageScanningTypes is ON_DEMAND_AMI_CVE. If you omit it, Image Builder starts the scan but does not wait for it or use its results to pass or fail the image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#scan_result_condition ImagebuilderImage#scan_result_condition}
 
 ---
 
@@ -743,7 +769,7 @@ def put_image_tests_configuration(
 
 ImageTestsEnabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_tests_enabled ImagebuilderImage#image_tests_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_tests_enabled ImagebuilderImage#image_tests_enabled}
 
 ---
 
@@ -753,7 +779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 TimeoutMinutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#timeout_minutes ImagebuilderImage#timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#timeout_minutes ImagebuilderImage#timeout_minutes}
 
 ---
 
@@ -771,7 +797,7 @@ def put_logging_configuration(
 
 The name of the log group for image build logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}
 
 ---
 
@@ -981,7 +1007,7 @@ The construct id used in the generated config for the ImagebuilderImage to impor
 
 The id of the existing ImagebuilderImage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1666,7 +1692,7 @@ container_recipe_arn: str
 
 The Amazon Resource Name (ARN) of the container recipe that defines how images are configured and tested.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#container_recipe_arn ImagebuilderImage#container_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#container_recipe_arn ImagebuilderImage#container_recipe_arn}
 
 ---
 
@@ -1680,7 +1706,7 @@ deletion_settings: ImagebuilderImageDeletionSettings
 
 The deletion settings of the image, indicating whether to delete the underlying resources in addition to the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#deletion_settings ImagebuilderImage#deletion_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#deletion_settings ImagebuilderImage#deletion_settings}
 
 ---
 
@@ -1694,7 +1720,7 @@ distribution_configuration_arn: str
 
 The Amazon Resource Name (ARN) of the distribution configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#distribution_configuration_arn ImagebuilderImage#distribution_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#distribution_configuration_arn ImagebuilderImage#distribution_configuration_arn}
 
 ---
 
@@ -1708,7 +1734,7 @@ enhanced_image_metadata_enabled: bool | IResolvable
 
 Collects additional information about the image being created, including the operating system (OS) version and package list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#enhanced_image_metadata_enabled ImagebuilderImage#enhanced_image_metadata_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#enhanced_image_metadata_enabled ImagebuilderImage#enhanced_image_metadata_enabled}
 
 ---
 
@@ -1722,7 +1748,7 @@ execution_role: str
 
 The execution role name/ARN for the image build, if provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
 
 ---
 
@@ -1736,7 +1762,7 @@ image_pipeline_execution_settings: ImagebuilderImageImagePipelineExecutionSettin
 
 The image pipeline execution settings of the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_pipeline_execution_settings ImagebuilderImage#image_pipeline_execution_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_pipeline_execution_settings ImagebuilderImage#image_pipeline_execution_settings}
 
 ---
 
@@ -1750,7 +1776,7 @@ image_recipe_arn: str
 
 The Amazon Resource Name (ARN) of the image recipe that defines how images are configured, tested, and assessed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_recipe_arn ImagebuilderImage#image_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_recipe_arn ImagebuilderImage#image_recipe_arn}
 
 ---
 
@@ -1764,7 +1790,7 @@ image_scanning_configuration: ImagebuilderImageImageScanningConfiguration
 
 Contains settings for vulnerability scans that Amazon Inspector runs against the test instance during image creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_scanning_configuration ImagebuilderImage#image_scanning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_configuration ImagebuilderImage#image_scanning_configuration}
 
 ---
 
@@ -1778,7 +1804,7 @@ image_tests_configuration: ImagebuilderImageImageTestsConfiguration
 
 The image tests configuration used when creating this image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_tests_configuration ImagebuilderImage#image_tests_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_tests_configuration ImagebuilderImage#image_tests_configuration}
 
 ---
 
@@ -1792,7 +1818,7 @@ infrastructure_configuration_arn: str
 
 The Amazon Resource Name (ARN) of the infrastructure configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#infrastructure_configuration_arn ImagebuilderImage#infrastructure_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#infrastructure_configuration_arn ImagebuilderImage#infrastructure_configuration_arn}
 
 ---
 
@@ -1806,7 +1832,7 @@ logging_configuration: ImagebuilderImageLoggingConfiguration
 
 The logging configuration settings for the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#logging_configuration ImagebuilderImage#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#logging_configuration ImagebuilderImage#logging_configuration}
 
 ---
 
@@ -1820,7 +1846,7 @@ tags: typing.Mapping[str]
 
 The tags associated with the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#tags ImagebuilderImage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#tags ImagebuilderImage#tags}
 
 ---
 
@@ -1834,7 +1860,7 @@ workflows: IResolvable | typing.List[ImagebuilderImageWorkflows]
 
 Workflows to define the image build process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#workflows ImagebuilderImage#workflows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#workflows ImagebuilderImage#workflows}
 
 ---
 
@@ -1868,7 +1894,7 @@ execution_role: str
 
 The execution role to use for deleting the image, as well as underlying resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
 
 ---
 
@@ -1904,7 +1930,7 @@ deployment_id: str
 
 The deployment ID of the pipeline, used to trigger new image pipeline executions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#deployment_id ImagebuilderImage#deployment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#deployment_id ImagebuilderImage#deployment_id}
 
 ---
 
@@ -1918,7 +1944,7 @@ on_update: bool | IResolvable
 
 Whether to trigger the image pipeline when the pipeline is updated. False by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#on_update ImagebuilderImage#on_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#on_update ImagebuilderImage#on_update}
 
 ---
 
@@ -1931,7 +1957,9 @@ from cdktn_provider_awscc import imagebuilder_image
 
 imagebuilderImage.ImagebuilderImageImageScanningConfiguration(
   ecr_configuration: ImagebuilderImageImageScanningConfigurationEcrConfiguration = None,
-  image_scanning_enabled: bool | IResolvable = None
+  image_scanning_enabled: bool | IResolvable = None,
+  image_scanning_types: typing.List[str] = None,
+  scan_result_condition: ImagebuilderImageImageScanningConfigurationScanResultCondition = None
 )
 ```
 
@@ -1941,6 +1969,8 @@ imagebuilderImage.ImagebuilderImageImageScanningConfiguration(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.ecrConfiguration">ecr_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationEcrConfiguration">ImagebuilderImageImageScanningConfigurationEcrConfiguration</a></code> | Contains ECR settings for vulnerability scans. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.imageScanningEnabled">image_scanning_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | This sets whether Image Builder keeps a snapshot of the vulnerability scans that Amazon Inspector runs against the test instance when you create a new image. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.imageScanningTypes">image_scanning_types</a></code> | <code>typing.List[str]</code> | The type of vulnerability scan that Image Builder runs for AMI output when ImageScanningEnabled is true. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.scanResultCondition">scan_result_condition</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a></code> | The condition that the output AMI's scan results must meet for the image to pass. |
 
 ---
 
@@ -1954,7 +1984,7 @@ ecr_configuration: ImagebuilderImageImageScanningConfigurationEcrConfiguration
 
 Contains ECR settings for vulnerability scans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#ecr_configuration ImagebuilderImage#ecr_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#ecr_configuration ImagebuilderImage#ecr_configuration}
 
 ---
 
@@ -1968,7 +1998,39 @@ image_scanning_enabled: bool | IResolvable
 
 This sets whether Image Builder keeps a snapshot of the vulnerability scans that Amazon Inspector runs against the test instance when you create a new image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_scanning_enabled ImagebuilderImage#image_scanning_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_enabled ImagebuilderImage#image_scanning_enabled}
+
+---
+
+##### `image_scanning_types`<sup>Optional</sup> <a name="image_scanning_types" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.imageScanningTypes"></a>
+
+```python
+image_scanning_types: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The type of vulnerability scan that Image Builder runs for AMI output when ImageScanningEnabled is true.
+
+Specify a single value. If you omit ImageScanningTypes, Image Builder uses TEST_INSTANCE_CVE. With TEST_INSTANCE_CVE, Amazon Inspector scans the test instance during image tests, and you must activate Amazon Inspector for Amazon EC2 scanning in your account. With ON_DEMAND_AMI_CVE, Amazon Inspector starts an on-demand scan of the output AMI during image tests. You must build from an image recipe, but you do not need to activate Amazon Inspector in your account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_types ImagebuilderImage#image_scanning_types}
+
+---
+
+##### `scan_result_condition`<sup>Optional</sup> <a name="scan_result_condition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.scanResultCondition"></a>
+
+```python
+scan_result_condition: ImagebuilderImageImageScanningConfigurationScanResultCondition
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a>
+
+The condition that the output AMI's scan results must meet for the image to pass.
+
+You can set ScanResultCondition only when ImageScanningTypes is ON_DEMAND_AMI_CVE. If you omit it, Image Builder starts the scan but does not wait for it or use its results to pass or fail the image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#scan_result_condition ImagebuilderImage#scan_result_condition}
 
 ---
 
@@ -2006,7 +2068,7 @@ Tags for Image Builder to apply the output container image that is scanned.
 
 Tags can help you identify and manage your scanned images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}
 
 ---
 
@@ -2022,7 +2084,61 @@ The name of the container repository that Amazon Inspector scans to identify fin
 
 The name includes the path for the repository location. If you don’t provide this information, Image Builder creates a repository in your account named image-builder-image-scanning-repository to use for vulnerability scans for your output container images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}
+
+---
+
+### ImagebuilderImageImageScanningConfigurationScanResultCondition <a name="ImagebuilderImageImageScanningConfigurationScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import imagebuilder_image
+
+imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition(
+  fix_available: bool | IResolvable = None,
+  maximum_severity_label: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.property.fixAvailable">fix_available</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether only findings that have a fix available count toward MaximumSeverityLabel. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.property.maximumSeverityLabel">maximum_severity_label</a></code> | <code>str</code> | The maximum severity allowed for findings on the output AMI. |
+
+---
+
+##### `fix_available`<sup>Optional</sup> <a name="fix_available" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.property.fixAvailable"></a>
+
+```python
+fix_available: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Specifies whether only findings that have a fix available count toward MaximumSeverityLabel.
+
+When false, Image Builder counts every finding. The default is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#fix_available ImagebuilderImage#fix_available}
+
+---
+
+##### `maximum_severity_label`<sup>Optional</sup> <a name="maximum_severity_label" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.property.maximumSeverityLabel"></a>
+
+```python
+maximum_severity_label: str
+```
+
+- *Type:* str
+
+The maximum severity allowed for findings on the output AMI.
+
+A finding above this severity fails the image, unless FixAvailable excludes it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#maximum_severity_label ImagebuilderImage#maximum_severity_label}
 
 ---
 
@@ -2058,7 +2174,7 @@ image_tests_enabled: bool | IResolvable
 
 ImageTestsEnabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_tests_enabled ImagebuilderImage#image_tests_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_tests_enabled ImagebuilderImage#image_tests_enabled}
 
 ---
 
@@ -2072,7 +2188,7 @@ timeout_minutes: typing.Union[int, float]
 
 TimeoutMinutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#timeout_minutes ImagebuilderImage#timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#timeout_minutes ImagebuilderImage#timeout_minutes}
 
 ---
 
@@ -2117,7 +2233,7 @@ log_group_name: str
 
 The name of the log group for image build logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}
 
 ---
 
@@ -2157,7 +2273,7 @@ on_failure: str
 
 Define execution decision in case of workflow failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#on_failure ImagebuilderImage#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#on_failure ImagebuilderImage#on_failure}
 
 ---
 
@@ -2171,7 +2287,7 @@ parallel_group: str
 
 The parallel group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#parallel_group ImagebuilderImage#parallel_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#parallel_group ImagebuilderImage#parallel_group}
 
 ---
 
@@ -2185,7 +2301,7 @@ parameters: IResolvable | typing.List[ImagebuilderImageWorkflowsParameters]
 
 The parameters associated with the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#parameters ImagebuilderImage#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#parameters ImagebuilderImage#parameters}
 
 ---
 
@@ -2199,7 +2315,7 @@ workflow_arn: str
 
 The Amazon Resource Name (ARN) of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#workflow_arn ImagebuilderImage#workflow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#workflow_arn ImagebuilderImage#workflow_arn}
 
 ---
 
@@ -2220,8 +2336,8 @@ imagebuilderImage.ImagebuilderImageWorkflowsParameters(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageWorkflowsParameters.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}. |
-| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageWorkflowsParameters.property.value">value</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageWorkflowsParameters.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageWorkflowsParameters.property.value">value</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}. |
 
 ---
 
@@ -2233,7 +2349,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}.
 
 ---
 
@@ -2245,7 +2361,7 @@ value: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}.
 
 ---
 
@@ -3272,8 +3388,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putEcrConfiguration">put_ecr_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putScanResultCondition">put_scan_result_condition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetEcrConfiguration">reset_ecr_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetImageScanningEnabled">reset_image_scanning_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetImageScanningTypes">reset_image_scanning_types</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetScanResultCondition">reset_scan_result_condition</a></code> | *No description.* |
 
 ---
 
@@ -3466,7 +3585,7 @@ Tags for Image Builder to apply the output container image that is scanned.
 
 Tags can help you identify and manage your scanned images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}
 
 ---
 
@@ -3478,7 +3597,40 @@ The name of the container repository that Amazon Inspector scans to identify fin
 
 The name includes the path for the repository location. If you don’t provide this information, Image Builder creates a repository in your account named image-builder-image-scanning-repository to use for vulnerability scans for your output container images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}
+
+---
+
+##### `put_scan_result_condition` <a name="put_scan_result_condition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putScanResultCondition"></a>
+
+```python
+def put_scan_result_condition(
+  fix_available: bool | IResolvable = None,
+  maximum_severity_label: str = None
+) -> None
+```
+
+###### `fix_available`<sup>Optional</sup> <a name="fix_available" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putScanResultCondition.parameter.fixAvailable"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Specifies whether only findings that have a fix available count toward MaximumSeverityLabel.
+
+When false, Image Builder counts every finding. The default is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#fix_available ImagebuilderImage#fix_available}
+
+---
+
+###### `maximum_severity_label`<sup>Optional</sup> <a name="maximum_severity_label" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putScanResultCondition.parameter.maximumSeverityLabel"></a>
+
+- *Type:* str
+
+The maximum severity allowed for findings on the output AMI.
+
+A finding above this severity fails the image, unless FixAvailable excludes it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#maximum_severity_label ImagebuilderImage#maximum_severity_label}
 
 ---
 
@@ -3494,6 +3646,18 @@ def reset_ecr_configuration() -> None
 def reset_image_scanning_enabled() -> None
 ```
 
+##### `reset_image_scanning_types` <a name="reset_image_scanning_types" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetImageScanningTypes"></a>
+
+```python
+def reset_image_scanning_types() -> None
+```
+
+##### `reset_scan_result_condition` <a name="reset_scan_result_condition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetScanResultCondition"></a>
+
+```python
+def reset_scan_result_condition() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -3502,9 +3666,13 @@ def reset_image_scanning_enabled() -> None
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.ecrConfiguration">ecr_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationEcrConfigurationOutputReference">ImagebuilderImageImageScanningConfigurationEcrConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.scanResultCondition">scan_result_condition</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference">ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.ecrConfigurationInput">ecr_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationEcrConfiguration">ImagebuilderImageImageScanningConfigurationEcrConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningEnabledInput">image_scanning_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningTypesInput">image_scanning_types_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.scanResultConditionInput">scan_result_condition_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningEnabled">image_scanning_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningTypes">image_scanning_types</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration">ImagebuilderImageImageScanningConfiguration</a></code> | *No description.* |
 
 ---
@@ -3543,6 +3711,16 @@ ecr_configuration: ImagebuilderImageImageScanningConfigurationEcrConfigurationOu
 
 ---
 
+##### `scan_result_condition`<sup>Required</sup> <a name="scan_result_condition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.scanResultCondition"></a>
+
+```python
+scan_result_condition: ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference">ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference</a>
+
+---
+
 ##### `ecr_configuration_input`<sup>Optional</sup> <a name="ecr_configuration_input" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.ecrConfigurationInput"></a>
 
 ```python
@@ -3563,6 +3741,26 @@ image_scanning_enabled_input: bool | IResolvable
 
 ---
 
+##### `image_scanning_types_input`<sup>Optional</sup> <a name="image_scanning_types_input" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningTypesInput"></a>
+
+```python
+image_scanning_types_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `scan_result_condition_input`<sup>Optional</sup> <a name="scan_result_condition_input" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.scanResultConditionInput"></a>
+
+```python
+scan_result_condition_input: IResolvable | ImagebuilderImageImageScanningConfigurationScanResultCondition
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a>
+
+---
+
 ##### `image_scanning_enabled`<sup>Required</sup> <a name="image_scanning_enabled" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningEnabled"></a>
 
 ```python
@@ -3573,6 +3771,16 @@ image_scanning_enabled: bool | IResolvable
 
 ---
 
+##### `image_scanning_types`<sup>Required</sup> <a name="image_scanning_types" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningTypes"></a>
+
+```python
+image_scanning_types: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.internalValue"></a>
 
 ```python
@@ -3580,6 +3788,338 @@ internal_value: IResolvable | ImagebuilderImageImageScanningConfiguration
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration">ImagebuilderImageImageScanningConfiguration</a>
+
+---
+
+
+### ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference <a name="ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import imagebuilder_image
+
+imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resetFixAvailable">reset_fix_available</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resetMaximumSeverityLabel">reset_maximum_severity_label</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_fix_available` <a name="reset_fix_available" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resetFixAvailable"></a>
+
+```python
+def reset_fix_available() -> None
+```
+
+##### `reset_maximum_severity_label` <a name="reset_maximum_severity_label" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resetMaximumSeverityLabel"></a>
+
+```python
+def reset_maximum_severity_label() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailableInput">fix_available_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabelInput">maximum_severity_label_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailable">fix_available</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabel">maximum_severity_label</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `fix_available_input`<sup>Optional</sup> <a name="fix_available_input" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailableInput"></a>
+
+```python
+fix_available_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `maximum_severity_label_input`<sup>Optional</sup> <a name="maximum_severity_label_input" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabelInput"></a>
+
+```python
+maximum_severity_label_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `fix_available`<sup>Required</sup> <a name="fix_available" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailable"></a>
+
+```python
+fix_available: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `maximum_severity_label`<sup>Required</sup> <a name="maximum_severity_label" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabel"></a>
+
+```python
+maximum_severity_label: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | ImagebuilderImageImageScanningConfigurationScanResultCondition
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a>
 
 ---
 

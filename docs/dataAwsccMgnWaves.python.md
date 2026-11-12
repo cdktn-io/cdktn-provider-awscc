@@ -4,7 +4,7 @@
 
 ### DataAwsccMgnWaves <a name="DataAwsccMgnWaves" id="@cdktn/provider-awscc.dataAwsccMgnWaves.DataAwsccMgnWaves"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mgn_waves awscc_mgn_waves}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mgn_waves awscc_mgn_waves}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMgnWaves.DataAwsccMgnWaves.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccMgnWaves to impor
 
 The id of the existing DataAwsccMgnWaves that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mgn_waves#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mgn_waves#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### CloudwatchDomain <a name="CloudwatchDomain" id="@cdktn/provider-awscc.cloudwatchDomain.CloudwatchDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain awscc_cloudwatch_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain awscc_cloudwatch_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchDomain.CloudwatchDomain.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the CloudwatchDomain to import
 
 The id of the existing CloudwatchDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1030,7 +1030,7 @@ public readonly identityProviders: string[];
 
 The identity providers configured for the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_providers CloudwatchDomain#identity_providers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_providers CloudwatchDomain#identity_providers}
 
 ---
 
@@ -1044,7 +1044,7 @@ public readonly name: string;
 
 A name that identifies the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#name CloudwatchDomain#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#name CloudwatchDomain#name}
 
 ---
 
@@ -1058,7 +1058,7 @@ public readonly identityProviderConfiguration: CloudwatchDomainIdentityProviderC
 
 Identity provider configuration for the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_provider_configuration CloudwatchDomain#identity_provider_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_provider_configuration CloudwatchDomain#identity_provider_configuration}
 
 ---
 
@@ -1072,7 +1072,7 @@ public readonly tags: IResolvable | CloudwatchDomainTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#tags CloudwatchDomain#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#tags CloudwatchDomain#tags}
 
 ---
 
@@ -1104,7 +1104,7 @@ public readonly identityCenterConfiguration: CloudwatchDomainIdentityProviderCon
 
 Identity Center configuration. Required when identityProviders includes IDC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_center_configuration CloudwatchDomain#identity_center_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_center_configuration CloudwatchDomain#identity_center_configuration}
 
 ---
 
@@ -1136,7 +1136,7 @@ public readonly identityCenterInstanceArn: string;
 
 Identity Center instance ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#identity_center_instance_arn CloudwatchDomain#identity_center_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#identity_center_instance_arn CloudwatchDomain#identity_center_instance_arn}
 
 ---
 
@@ -1169,7 +1169,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#key CloudwatchDomain#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#key CloudwatchDomain#key}
 
 ---
 
@@ -1183,7 +1183,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain#value CloudwatchDomain#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain#value CloudwatchDomain#value}
 
 ---
 

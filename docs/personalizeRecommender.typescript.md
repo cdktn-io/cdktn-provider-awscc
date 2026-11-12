@@ -4,7 +4,7 @@
 
 ### PersonalizeRecommender <a name="PersonalizeRecommender" id="@cdktn/provider-awscc.personalizeRecommender.PersonalizeRecommender"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender awscc_personalize_recommender}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender awscc_personalize_recommender}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeRecommender.PersonalizeRecommender.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the PersonalizeRecommender to 
 
 The id of the existing PersonalizeRecommender that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -998,7 +998,7 @@ public readonly datasetGroupArn: string;
 
 The ARN of the Domain dataset group that the recommender is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#dataset_group_arn PersonalizeRecommender#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#dataset_group_arn PersonalizeRecommender#dataset_group_arn}
 
 ---
 
@@ -1012,7 +1012,7 @@ public readonly name: string;
 
 The name of the recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#name PersonalizeRecommender#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#name PersonalizeRecommender#name}
 
 ---
 
@@ -1026,7 +1026,7 @@ public readonly recipeArn: string;
 
 The ARN of the recipe (Domain dataset group use case) that the recommender uses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#recipe_arn PersonalizeRecommender#recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#recipe_arn PersonalizeRecommender#recipe_arn}
 
 ---
 
@@ -1040,7 +1040,7 @@ public readonly recommenderConfig: PersonalizeRecommenderRecommenderConfig;
 
 The configuration details of the recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#recommender_config PersonalizeRecommender#recommender_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#recommender_config PersonalizeRecommender#recommender_config}
 
 ---
 
@@ -1054,7 +1054,7 @@ public readonly tags: IResolvable | PersonalizeRecommenderTags[];
 
 Tags to associate with the recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#tags PersonalizeRecommender#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#tags PersonalizeRecommender#tags}
 
 ---
 
@@ -1089,7 +1089,7 @@ public readonly enableMetadataWithRecommendations: boolean | IResolvable;
 
 Whether metadata with recommendations is enabled for the recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#enable_metadata_with_recommendations PersonalizeRecommender#enable_metadata_with_recommendations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#enable_metadata_with_recommendations PersonalizeRecommender#enable_metadata_with_recommendations}
 
 ---
 
@@ -1103,7 +1103,7 @@ public readonly itemExplorationConfig: {[ key: string ]: string};
 
 Specifies the exploration configuration hyperparameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#item_exploration_config PersonalizeRecommender#item_exploration_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#item_exploration_config PersonalizeRecommender#item_exploration_config}
 
 ---
 
@@ -1117,7 +1117,7 @@ public readonly minRecommendationRequestsPerSecond: number;
 
 Specifies the requested minimum provisioned recommendation requests per second.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#min_recommendation_requests_per_second PersonalizeRecommender#min_recommendation_requests_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#min_recommendation_requests_per_second PersonalizeRecommender#min_recommendation_requests_per_second}
 
 ---
 
@@ -1131,7 +1131,7 @@ public readonly trainingDataConfig: PersonalizeRecommenderRecommenderConfigTrain
 
 The training data configuration to use when creating a domain recommender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#training_data_config PersonalizeRecommender#training_data_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#training_data_config PersonalizeRecommender#training_data_config}
 
 ---
 
@@ -1165,7 +1165,7 @@ Specifies the columns to exclude from training.
 
 Each key is a dataset type, and each value is a list of columns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#excluded_dataset_columns PersonalizeRecommender#excluded_dataset_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#excluded_dataset_columns PersonalizeRecommender#excluded_dataset_columns}
 
 ---
 
@@ -1198,7 +1198,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#key PersonalizeRecommender#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#key PersonalizeRecommender#key}
 
 ---
 
@@ -1212,7 +1212,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#value PersonalizeRecommender#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#value PersonalizeRecommender#value}
 
 ---
 

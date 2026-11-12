@@ -4,7 +4,7 @@
 
 ### NetworkmonitorProbe <a name="NetworkmonitorProbe" id="@cdktn/provider-awscc.networkmonitorProbe.NetworkmonitorProbe"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe awscc_networkmonitor_probe}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe awscc_networkmonitor_probe}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkmonitorProbe.NetworkmonitorProbe.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the NetworkmonitorProbe to imp
 
 The id of the existing NetworkmonitorProbe that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1088,7 +1088,7 @@ The literal IPv4 or IPv6 address the probe sends traffic to.
 
 The service rejects a domain name and a CIDR block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#destination NetworkmonitorProbe#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#destination NetworkmonitorProbe#destination}
 
 ---
 
@@ -1102,7 +1102,7 @@ MonitorName *string
 
 The name of the monitor the probe belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#monitor_name NetworkmonitorProbe#monitor_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#monitor_name NetworkmonitorProbe#monitor_name}
 
 ---
 
@@ -1116,7 +1116,7 @@ Protocol *string
 
 The protocol the probe uses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#protocol NetworkmonitorProbe#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#protocol NetworkmonitorProbe#protocol}
 
 ---
 
@@ -1130,7 +1130,7 @@ SourceArn *string
 
 The ARN of the subnet the probe sends traffic from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#source_arn NetworkmonitorProbe#source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#source_arn NetworkmonitorProbe#source_arn}
 
 ---
 
@@ -1144,7 +1144,7 @@ DestinationPort *f64
 
 The port the probe sends traffic to. Applies to the TCP protocol only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#destination_port NetworkmonitorProbe#destination_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#destination_port NetworkmonitorProbe#destination_port}
 
 ---
 
@@ -1158,7 +1158,7 @@ PacketSize *f64
 
 The size, in bytes, of the packets the probe sends.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#packet_size NetworkmonitorProbe#packet_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#packet_size NetworkmonitorProbe#packet_size}
 
 ---
 
@@ -1172,7 +1172,7 @@ Tags interface{}
 
 The tags for the probe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#tags NetworkmonitorProbe#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#tags NetworkmonitorProbe#tags}
 
 ---
 
@@ -1193,8 +1193,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmonitorprobe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networkmonitorProbe.NetworkmonitorProbeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#key NetworkmonitorProbe#key}. |
-| <code><a href="#@cdktn/provider-awscc.networkmonitorProbe.NetworkmonitorProbeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#value NetworkmonitorProbe#value}. |
+| <code><a href="#@cdktn/provider-awscc.networkmonitorProbe.NetworkmonitorProbeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#key NetworkmonitorProbe#key}. |
+| <code><a href="#@cdktn/provider-awscc.networkmonitorProbe.NetworkmonitorProbeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#value NetworkmonitorProbe#value}. |
 
 ---
 
@@ -1206,7 +1206,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#key NetworkmonitorProbe#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#key NetworkmonitorProbe#key}.
 
 ---
 
@@ -1218,7 +1218,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmonitor_probe#value NetworkmonitorProbe#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmonitor_probe#value NetworkmonitorProbe#value}.
 
 ---
 

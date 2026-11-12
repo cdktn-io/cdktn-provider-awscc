@@ -4,7 +4,7 @@
 
 ### ImagebuilderImage <a name="ImagebuilderImage" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image awscc_imagebuilder_image}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image awscc_imagebuilder_image}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImage.Initializer"></a>
 
@@ -658,7 +658,7 @@ The construct id used in the generated config for the ImagebuilderImage to impor
 
 The id of the existing ImagebuilderImage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1343,7 +1343,7 @@ ContainerRecipeArn *string
 
 The Amazon Resource Name (ARN) of the container recipe that defines how images are configured and tested.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#container_recipe_arn ImagebuilderImage#container_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#container_recipe_arn ImagebuilderImage#container_recipe_arn}
 
 ---
 
@@ -1357,7 +1357,7 @@ DeletionSettings ImagebuilderImageDeletionSettings
 
 The deletion settings of the image, indicating whether to delete the underlying resources in addition to the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#deletion_settings ImagebuilderImage#deletion_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#deletion_settings ImagebuilderImage#deletion_settings}
 
 ---
 
@@ -1371,7 +1371,7 @@ DistributionConfigurationArn *string
 
 The Amazon Resource Name (ARN) of the distribution configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#distribution_configuration_arn ImagebuilderImage#distribution_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#distribution_configuration_arn ImagebuilderImage#distribution_configuration_arn}
 
 ---
 
@@ -1385,7 +1385,7 @@ EnhancedImageMetadataEnabled interface{}
 
 Collects additional information about the image being created, including the operating system (OS) version and package list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#enhanced_image_metadata_enabled ImagebuilderImage#enhanced_image_metadata_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#enhanced_image_metadata_enabled ImagebuilderImage#enhanced_image_metadata_enabled}
 
 ---
 
@@ -1399,7 +1399,7 @@ ExecutionRole *string
 
 The execution role name/ARN for the image build, if provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
 
 ---
 
@@ -1413,7 +1413,7 @@ ImagePipelineExecutionSettings ImagebuilderImageImagePipelineExecutionSettings
 
 The image pipeline execution settings of the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_pipeline_execution_settings ImagebuilderImage#image_pipeline_execution_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_pipeline_execution_settings ImagebuilderImage#image_pipeline_execution_settings}
 
 ---
 
@@ -1427,7 +1427,7 @@ ImageRecipeArn *string
 
 The Amazon Resource Name (ARN) of the image recipe that defines how images are configured, tested, and assessed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_recipe_arn ImagebuilderImage#image_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_recipe_arn ImagebuilderImage#image_recipe_arn}
 
 ---
 
@@ -1441,7 +1441,7 @@ ImageScanningConfiguration ImagebuilderImageImageScanningConfiguration
 
 Contains settings for vulnerability scans that Amazon Inspector runs against the test instance during image creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_scanning_configuration ImagebuilderImage#image_scanning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_configuration ImagebuilderImage#image_scanning_configuration}
 
 ---
 
@@ -1455,7 +1455,7 @@ ImageTestsConfiguration ImagebuilderImageImageTestsConfiguration
 
 The image tests configuration used when creating this image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_tests_configuration ImagebuilderImage#image_tests_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_tests_configuration ImagebuilderImage#image_tests_configuration}
 
 ---
 
@@ -1469,7 +1469,7 @@ InfrastructureConfigurationArn *string
 
 The Amazon Resource Name (ARN) of the infrastructure configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#infrastructure_configuration_arn ImagebuilderImage#infrastructure_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#infrastructure_configuration_arn ImagebuilderImage#infrastructure_configuration_arn}
 
 ---
 
@@ -1483,7 +1483,7 @@ LoggingConfiguration ImagebuilderImageLoggingConfiguration
 
 The logging configuration settings for the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#logging_configuration ImagebuilderImage#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#logging_configuration ImagebuilderImage#logging_configuration}
 
 ---
 
@@ -1497,7 +1497,7 @@ Tags *map[string]*string
 
 The tags associated with the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#tags ImagebuilderImage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#tags ImagebuilderImage#tags}
 
 ---
 
@@ -1511,7 +1511,7 @@ Workflows interface{}
 
 Workflows to define the image build process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#workflows ImagebuilderImage#workflows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#workflows ImagebuilderImage#workflows}
 
 ---
 
@@ -1545,7 +1545,7 @@ ExecutionRole *string
 
 The execution role to use for deleting the image, as well as underlying resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#execution_role ImagebuilderImage#execution_role}
 
 ---
 
@@ -1581,7 +1581,7 @@ DeploymentId *string
 
 The deployment ID of the pipeline, used to trigger new image pipeline executions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#deployment_id ImagebuilderImage#deployment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#deployment_id ImagebuilderImage#deployment_id}
 
 ---
 
@@ -1595,7 +1595,7 @@ OnUpdate interface{}
 
 Whether to trigger the image pipeline when the pipeline is updated. False by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#on_update ImagebuilderImage#on_update}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#on_update ImagebuilderImage#on_update}
 
 ---
 
@@ -1609,6 +1609,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderimage"
 &imagebuilderimage.ImagebuilderImageImageScanningConfiguration {
 	EcrConfiguration: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderImage.ImagebuilderImageImageScanningConfigurationEcrConfiguration,
 	ImageScanningEnabled: interface{},
+	ImageScanningTypes: *[]*string,
+	ScanResultCondition: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition,
 }
 ```
 
@@ -1618,6 +1620,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderimage"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.ecrConfiguration">EcrConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationEcrConfiguration">ImagebuilderImageImageScanningConfigurationEcrConfiguration</a></code> | Contains ECR settings for vulnerability scans. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.imageScanningEnabled">ImageScanningEnabled</a></code> | <code>interface{}</code> | This sets whether Image Builder keeps a snapshot of the vulnerability scans that Amazon Inspector runs against the test instance when you create a new image. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.imageScanningTypes">ImageScanningTypes</a></code> | <code>*[]*string</code> | The type of vulnerability scan that Image Builder runs for AMI output when ImageScanningEnabled is true. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.scanResultCondition">ScanResultCondition</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a></code> | The condition that the output AMI's scan results must meet for the image to pass. |
 
 ---
 
@@ -1631,7 +1635,7 @@ EcrConfiguration ImagebuilderImageImageScanningConfigurationEcrConfiguration
 
 Contains ECR settings for vulnerability scans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#ecr_configuration ImagebuilderImage#ecr_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#ecr_configuration ImagebuilderImage#ecr_configuration}
 
 ---
 
@@ -1645,7 +1649,39 @@ ImageScanningEnabled interface{}
 
 This sets whether Image Builder keeps a snapshot of the vulnerability scans that Amazon Inspector runs against the test instance when you create a new image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_scanning_enabled ImagebuilderImage#image_scanning_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_enabled ImagebuilderImage#image_scanning_enabled}
+
+---
+
+##### `ImageScanningTypes`<sup>Optional</sup> <a name="ImageScanningTypes" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.imageScanningTypes"></a>
+
+```go
+ImageScanningTypes *[]*string
+```
+
+- *Type:* *[]*string
+
+The type of vulnerability scan that Image Builder runs for AMI output when ImageScanningEnabled is true.
+
+Specify a single value. If you omit ImageScanningTypes, Image Builder uses TEST_INSTANCE_CVE. With TEST_INSTANCE_CVE, Amazon Inspector scans the test instance during image tests, and you must activate Amazon Inspector for Amazon EC2 scanning in your account. With ON_DEMAND_AMI_CVE, Amazon Inspector starts an on-demand scan of the output AMI during image tests. You must build from an image recipe, but you do not need to activate Amazon Inspector in your account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_scanning_types ImagebuilderImage#image_scanning_types}
+
+---
+
+##### `ScanResultCondition`<sup>Optional</sup> <a name="ScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfiguration.property.scanResultCondition"></a>
+
+```go
+ScanResultCondition ImagebuilderImageImageScanningConfigurationScanResultCondition
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a>
+
+The condition that the output AMI's scan results must meet for the image to pass.
+
+You can set ScanResultCondition only when ImageScanningTypes is ON_DEMAND_AMI_CVE. If you omit it, Image Builder starts the scan but does not wait for it or use its results to pass or fail the image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#scan_result_condition ImagebuilderImage#scan_result_condition}
 
 ---
 
@@ -1683,7 +1719,7 @@ Tags for Image Builder to apply the output container image that is scanned.
 
 Tags can help you identify and manage your scanned images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#container_tags ImagebuilderImage#container_tags}
 
 ---
 
@@ -1699,7 +1735,61 @@ The name of the container repository that Amazon Inspector scans to identify fin
 
 The name includes the path for the repository location. If you don’t provide this information, Image Builder creates a repository in your account named image-builder-image-scanning-repository to use for vulnerability scans for your output container images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#repository_name ImagebuilderImage#repository_name}
+
+---
+
+### ImagebuilderImageImageScanningConfigurationScanResultCondition <a name="ImagebuilderImageImageScanningConfigurationScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderimage"
+
+&imagebuilderimage.ImagebuilderImageImageScanningConfigurationScanResultCondition {
+	FixAvailable: interface{},
+	MaximumSeverityLabel: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.property.fixAvailable">FixAvailable</a></code> | <code>interface{}</code> | Specifies whether only findings that have a fix available count toward MaximumSeverityLabel. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.property.maximumSeverityLabel">MaximumSeverityLabel</a></code> | <code>*string</code> | The maximum severity allowed for findings on the output AMI. |
+
+---
+
+##### `FixAvailable`<sup>Optional</sup> <a name="FixAvailable" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.property.fixAvailable"></a>
+
+```go
+FixAvailable interface{}
+```
+
+- *Type:* interface{}
+
+Specifies whether only findings that have a fix available count toward MaximumSeverityLabel.
+
+When false, Image Builder counts every finding. The default is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#fix_available ImagebuilderImage#fix_available}
+
+---
+
+##### `MaximumSeverityLabel`<sup>Optional</sup> <a name="MaximumSeverityLabel" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition.property.maximumSeverityLabel"></a>
+
+```go
+MaximumSeverityLabel *string
+```
+
+- *Type:* *string
+
+The maximum severity allowed for findings on the output AMI.
+
+A finding above this severity fails the image, unless FixAvailable excludes it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#maximum_severity_label ImagebuilderImage#maximum_severity_label}
 
 ---
 
@@ -1735,7 +1825,7 @@ ImageTestsEnabled interface{}
 
 ImageTestsEnabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#image_tests_enabled ImagebuilderImage#image_tests_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#image_tests_enabled ImagebuilderImage#image_tests_enabled}
 
 ---
 
@@ -1749,7 +1839,7 @@ TimeoutMinutes *f64
 
 TimeoutMinutes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#timeout_minutes ImagebuilderImage#timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#timeout_minutes ImagebuilderImage#timeout_minutes}
 
 ---
 
@@ -1796,7 +1886,7 @@ LogGroupName *string
 
 The name of the log group for image build logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}
 
 ---
 
@@ -1836,7 +1926,7 @@ OnFailure *string
 
 Define execution decision in case of workflow failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#on_failure ImagebuilderImage#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#on_failure ImagebuilderImage#on_failure}
 
 ---
 
@@ -1850,7 +1940,7 @@ ParallelGroup *string
 
 The parallel group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#parallel_group ImagebuilderImage#parallel_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#parallel_group ImagebuilderImage#parallel_group}
 
 ---
 
@@ -1864,7 +1954,7 @@ Parameters interface{}
 
 The parameters associated with the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#parameters ImagebuilderImage#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#parameters ImagebuilderImage#parameters}
 
 ---
 
@@ -1878,7 +1968,7 @@ WorkflowArn *string
 
 The Amazon Resource Name (ARN) of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#workflow_arn ImagebuilderImage#workflow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#workflow_arn ImagebuilderImage#workflow_arn}
 
 ---
 
@@ -1899,8 +1989,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderimage"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageWorkflowsParameters.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}. |
-| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageWorkflowsParameters.property.value">Value</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageWorkflowsParameters.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageWorkflowsParameters.property.value">Value</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}. |
 
 ---
 
@@ -1912,7 +2002,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}.
 
 ---
 
@@ -1924,7 +2014,7 @@ Value *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}.
 
 ---
 
@@ -2873,8 +2963,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putEcrConfiguration">PutEcrConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putScanResultCondition">PutScanResultCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetEcrConfiguration">ResetEcrConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetImageScanningEnabled">ResetImageScanningEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetImageScanningTypes">ResetImageScanningTypes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetScanResultCondition">ResetScanResultCondition</a></code> | *No description.* |
 
 ---
 
@@ -3040,6 +3133,18 @@ func PutEcrConfiguration(value ImagebuilderImageImageScanningConfigurationEcrCon
 
 ---
 
+##### `PutScanResultCondition` <a name="PutScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putScanResultCondition"></a>
+
+```go
+func PutScanResultCondition(value ImagebuilderImageImageScanningConfigurationScanResultCondition)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.putScanResultCondition.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultCondition">ImagebuilderImageImageScanningConfigurationScanResultCondition</a>
+
+---
+
 ##### `ResetEcrConfiguration` <a name="ResetEcrConfiguration" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetEcrConfiguration"></a>
 
 ```go
@@ -3052,6 +3157,18 @@ func ResetEcrConfiguration()
 func ResetImageScanningEnabled()
 ```
 
+##### `ResetImageScanningTypes` <a name="ResetImageScanningTypes" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetImageScanningTypes"></a>
+
+```go
+func ResetImageScanningTypes()
+```
+
+##### `ResetScanResultCondition` <a name="ResetScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.resetScanResultCondition"></a>
+
+```go
+func ResetScanResultCondition()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -3060,9 +3177,13 @@ func ResetImageScanningEnabled()
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.ecrConfiguration">EcrConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationEcrConfigurationOutputReference">ImagebuilderImageImageScanningConfigurationEcrConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.scanResultCondition">ScanResultCondition</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference">ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.ecrConfigurationInput">EcrConfigurationInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningEnabledInput">ImageScanningEnabledInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningTypesInput">ImageScanningTypesInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.scanResultConditionInput">ScanResultConditionInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningEnabled">ImageScanningEnabled</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningTypes">ImageScanningTypes</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
 
 ---
@@ -3101,6 +3222,16 @@ func EcrConfiguration() ImagebuilderImageImageScanningConfigurationEcrConfigurat
 
 ---
 
+##### `ScanResultCondition`<sup>Required</sup> <a name="ScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.scanResultCondition"></a>
+
+```go
+func ScanResultCondition() ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference">ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference</a>
+
+---
+
 ##### `EcrConfigurationInput`<sup>Optional</sup> <a name="EcrConfigurationInput" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.ecrConfigurationInput"></a>
 
 ```go
@@ -3121,6 +3252,26 @@ func ImageScanningEnabledInput() interface{}
 
 ---
 
+##### `ImageScanningTypesInput`<sup>Optional</sup> <a name="ImageScanningTypesInput" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningTypesInput"></a>
+
+```go
+func ImageScanningTypesInput() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `ScanResultConditionInput`<sup>Optional</sup> <a name="ScanResultConditionInput" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.scanResultConditionInput"></a>
+
+```go
+func ScanResultConditionInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `ImageScanningEnabled`<sup>Required</sup> <a name="ImageScanningEnabled" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningEnabled"></a>
 
 ```go
@@ -3131,7 +3282,324 @@ func ImageScanningEnabled() interface{}
 
 ---
 
+##### `ImageScanningTypes`<sup>Required</sup> <a name="ImageScanningTypes" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.imageScanningTypes"></a>
+
+```go
+func ImageScanningTypes() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference <a name="ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderimage"
+
+imagebuilderimage.NewImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resetFixAvailable">ResetFixAvailable</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resetMaximumSeverityLabel">ResetMaximumSeverityLabel</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetFixAvailable` <a name="ResetFixAvailable" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resetFixAvailable"></a>
+
+```go
+func ResetFixAvailable()
+```
+
+##### `ResetMaximumSeverityLabel` <a name="ResetMaximumSeverityLabel" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.resetMaximumSeverityLabel"></a>
+
+```go
+func ResetMaximumSeverityLabel()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailableInput">FixAvailableInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabelInput">MaximumSeverityLabelInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailable">FixAvailable</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabel">MaximumSeverityLabel</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `FixAvailableInput`<sup>Optional</sup> <a name="FixAvailableInput" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailableInput"></a>
+
+```go
+func FixAvailableInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `MaximumSeverityLabelInput`<sup>Optional</sup> <a name="MaximumSeverityLabelInput" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabelInput"></a>
+
+```go
+func MaximumSeverityLabelInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `FixAvailable`<sup>Required</sup> <a name="FixAvailable" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailable"></a>
+
+```go
+func FixAvailable() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `MaximumSeverityLabel`<sup>Required</sup> <a name="MaximumSeverityLabel" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabel"></a>
+
+```go
+func MaximumSeverityLabel() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.imagebuilderImage.ImagebuilderImageImageScanningConfigurationScanResultConditionOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}

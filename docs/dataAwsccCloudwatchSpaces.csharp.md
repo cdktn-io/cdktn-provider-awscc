@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchSpaces <a name="DataAwsccCloudwatchSpaces" id="@cdktn/provider-awscc.dataAwsccCloudwatchSpaces.DataAwsccCloudwatchSpaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_spaces awscc_cloudwatch_spaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_spaces awscc_cloudwatch_spaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchSpaces.DataAwsccCloudwatchSpaces.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchSpaces 
 
 The id of the existing DataAwsccCloudwatchSpaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_spaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudwatch_spaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### CloudwatchDomainAccessGrantForOrganization <a name="CloudwatchDomainAccessGrantForOrganization" id="@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization awscc_cloudwatch_domain_access_grant_for_organization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization awscc_cloudwatch_domain_access_grant_for_organization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganization.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the CloudwatchDomainAccessGran
 
 The id of the existing CloudwatchDomainAccessGrantForOrganization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -938,10 +938,10 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchdomainacc
 | <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.domainId">DomainId</a></code> | <code>*string</code> | The unique identifier of the organization domain the grant applies to. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.name">Name</a></code> | <code>*string</code> | The name of the grant. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.permission">Permission</a></code> | <code>*string</code> | The permission level the grant confers. Organization grants are administrative only. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.principal">Principal</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationPrincipal">CloudwatchDomainAccessGrantForOrganizationPrincipal</a></code> | The principal the grant is issued to. Supply PrincipalId, or PrincipalAttributes for an attribute-based grant. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.domainId">DomainId</a></code> | <code>*string</code> | The ID of the organization domain the grant belongs to. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.name">Name</a></code> | <code>*string</code> | A name that identifies the access grant. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.permission">Permission</a></code> | <code>*string</code> | The permission granted. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.principal">Principal</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationPrincipal">CloudwatchDomainAccessGrantForOrganizationPrincipal</a></code> | The principal receiving the grant. |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationConfig.property.tags">Tags</a></code> | <code>interface{}</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1024,9 +1024,9 @@ DomainId *string
 
 - *Type:* *string
 
-The unique identifier of the organization domain the grant applies to.
+The ID of the organization domain the grant belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#domain_id CloudwatchDomainAccessGrantForOrganization#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#domain_id CloudwatchDomainAccessGrantForOrganization#domain_id}
 
 ---
 
@@ -1038,9 +1038,9 @@ Name *string
 
 - *Type:* *string
 
-The name of the grant.
+A name that identifies the access grant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#name CloudwatchDomainAccessGrantForOrganization#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#name CloudwatchDomainAccessGrantForOrganization#name}
 
 ---
 
@@ -1052,9 +1052,9 @@ Permission *string
 
 - *Type:* *string
 
-The permission level the grant confers. Organization grants are administrative only.
+The permission granted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#permission CloudwatchDomainAccessGrantForOrganization#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#permission CloudwatchDomainAccessGrantForOrganization#permission}
 
 ---
 
@@ -1066,9 +1066,9 @@ Principal CloudwatchDomainAccessGrantForOrganizationPrincipal
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudwatchDomainAccessGrantForOrganization.CloudwatchDomainAccessGrantForOrganizationPrincipal">CloudwatchDomainAccessGrantForOrganizationPrincipal</a>
 
-The principal the grant is issued to. Supply PrincipalId, or PrincipalAttributes for an attribute-based grant.
+The principal receiving the grant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#principal CloudwatchDomainAccessGrantForOrganization#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#principal CloudwatchDomainAccessGrantForOrganization#principal}
 
 ---
 
@@ -1082,7 +1082,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#tags CloudwatchDomainAccessGrantForOrganization#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#tags CloudwatchDomainAccessGrantForOrganization#tags}
 
 ---
 
@@ -1120,7 +1120,7 @@ PrincipalType *string
 
 The type of principal the grant is issued to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#principal_type CloudwatchDomainAccessGrantForOrganization#principal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#principal_type CloudwatchDomainAccessGrantForOrganization#principal_type}
 
 ---
 
@@ -1134,7 +1134,7 @@ PrincipalAttributes interface{}
 
 Attribute key-value pairs that select the principals the grant applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#principal_attributes CloudwatchDomainAccessGrantForOrganization#principal_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#principal_attributes CloudwatchDomainAccessGrantForOrganization#principal_attributes}
 
 ---
 
@@ -1148,7 +1148,7 @@ PrincipalId *string
 
 The identifier of the principal, such as an IAM role ARN or an Identity Center user ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#principal_id CloudwatchDomainAccessGrantForOrganization#principal_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#principal_id CloudwatchDomainAccessGrantForOrganization#principal_id}
 
 ---
 
@@ -1184,7 +1184,7 @@ Key *string
 
 The attribute name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#key CloudwatchDomainAccessGrantForOrganization#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#key CloudwatchDomainAccessGrantForOrganization#key}
 
 ---
 
@@ -1198,7 +1198,7 @@ Value *string
 
 The attribute value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#value CloudwatchDomainAccessGrantForOrganization#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#value CloudwatchDomainAccessGrantForOrganization#value}
 
 ---
 
@@ -1234,7 +1234,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#key CloudwatchDomainAccessGrantForOrganization#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#key CloudwatchDomainAccessGrantForOrganization#key}
 
 ---
 
@@ -1248,7 +1248,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_domain_access_grant_for_organization#value CloudwatchDomainAccessGrantForOrganization#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_domain_access_grant_for_organization#value CloudwatchDomainAccessGrantForOrganization#value}
 
 ---
 

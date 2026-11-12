@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface PersonalizeRecommenderConfig extends cdktn.TerraformMetaArgumen
   /**
   * The ARN of the Domain dataset group that the recommender is created for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#dataset_group_arn PersonalizeRecommender#dataset_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#dataset_group_arn PersonalizeRecommender#dataset_group_arn}
   */
   readonly datasetGroupArn: string;
   /**
   * The name of the recommender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#name PersonalizeRecommender#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#name PersonalizeRecommender#name}
   */
   readonly name: string;
   /**
   * The ARN of the recipe (Domain dataset group use case) that the recommender uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#recipe_arn PersonalizeRecommender#recipe_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#recipe_arn PersonalizeRecommender#recipe_arn}
   */
   readonly recipeArn: string;
   /**
   * The configuration details of the recommender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#recommender_config PersonalizeRecommender#recommender_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#recommender_config PersonalizeRecommender#recommender_config}
   */
   readonly recommenderConfig?: PersonalizeRecommenderRecommenderConfig;
   /**
   * Tags to associate with the recommender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#tags PersonalizeRecommender#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#tags PersonalizeRecommender#tags}
   */
   readonly tags?: PersonalizeRecommenderTags[] | cdktn.IResolvable;
 }
@@ -47,7 +47,7 @@ export interface PersonalizeRecommenderRecommenderConfigTrainingDataConfig {
   /**
   * Specifies the columns to exclude from training. Each key is a dataset type, and each value is a list of columns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#excluded_dataset_columns PersonalizeRecommender#excluded_dataset_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#excluded_dataset_columns PersonalizeRecommender#excluded_dataset_columns}
   */
   readonly excludedDatasetColumns?: { [key: string]: string[] } | cdktn.IResolvable;
 }
@@ -143,25 +143,25 @@ export interface PersonalizeRecommenderRecommenderConfig {
   /**
   * Whether metadata with recommendations is enabled for the recommender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#enable_metadata_with_recommendations PersonalizeRecommender#enable_metadata_with_recommendations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#enable_metadata_with_recommendations PersonalizeRecommender#enable_metadata_with_recommendations}
   */
   readonly enableMetadataWithRecommendations?: boolean | cdktn.IResolvable;
   /**
   * Specifies the exploration configuration hyperparameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#item_exploration_config PersonalizeRecommender#item_exploration_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#item_exploration_config PersonalizeRecommender#item_exploration_config}
   */
   readonly itemExplorationConfig?: { [key: string]: string };
   /**
   * Specifies the requested minimum provisioned recommendation requests per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#min_recommendation_requests_per_second PersonalizeRecommender#min_recommendation_requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#min_recommendation_requests_per_second PersonalizeRecommender#min_recommendation_requests_per_second}
   */
   readonly minRecommendationRequestsPerSecond?: number;
   /**
   * The training data configuration to use when creating a domain recommender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#training_data_config PersonalizeRecommender#training_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#training_data_config PersonalizeRecommender#training_data_config}
   */
   readonly trainingDataConfig?: PersonalizeRecommenderRecommenderConfigTrainingDataConfig;
 }
@@ -344,13 +344,13 @@ export interface PersonalizeRecommenderTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#key PersonalizeRecommender#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#key PersonalizeRecommender#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#value PersonalizeRecommender#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#value PersonalizeRecommender#value}
   */
   readonly value?: string;
 }
@@ -495,7 +495,7 @@ export class PersonalizeRecommenderTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender awscc_personalize_recommender}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender awscc_personalize_recommender}
 */
 export class PersonalizeRecommender extends cdktn.TerraformResource {
 
@@ -511,7 +511,7 @@ export class PersonalizeRecommender extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PersonalizeRecommender resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PersonalizeRecommender to import
-  * @param importFromId The id of the existing PersonalizeRecommender that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PersonalizeRecommender that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PersonalizeRecommender to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -523,7 +523,7 @@ export class PersonalizeRecommender extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender awscc_personalize_recommender} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/personalize_recommender awscc_personalize_recommender} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,7 +534,7 @@ export class PersonalizeRecommender extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_personalize_recommender',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### CustomerprofilesEventTrigger <a name="CustomerprofilesEventTrigger" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.Initializer"></a>
 
@@ -27,6 +27,7 @@ customerprofilesEventTrigger.CustomerprofilesEventTrigger(
   object_type_name: str,
   description: str = None,
   event_trigger_limits: CustomerprofilesEventTriggerEventTriggerLimits = None,
+  intent_filter_definition: CustomerprofilesEventTriggerIntentFilterDefinition = None,
   segment_filter: str = None,
   tags: IResolvable | typing.List[CustomerprofilesEventTriggerTags] = None
 )
@@ -49,6 +50,7 @@ customerprofilesEventTrigger.CustomerprofilesEventTrigger(
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.Initializer.parameter.objectTypeName">object_type_name</a></code> | <code>str</code> | The unique name of the object type. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the event trigger. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.Initializer.parameter.eventTriggerLimits">event_trigger_limits</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerEventTriggerLimits">CustomerprofilesEventTriggerEventTriggerLimits</a></code> | Defines limits controlling whether an event triggers the destination, based on ingestion latency and the number of invocations per profile over specific time periods. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.Initializer.parameter.intentFilterDefinition">intent_filter_definition</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition">CustomerprofilesEventTriggerIntentFilterDefinition</a></code> | Filters the destination to profiles whose predicted intents meet the specified conditions. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.Initializer.parameter.segmentFilter">segment_filter</a></code> | <code>str</code> | The destination is triggered only for profiles that meet the criteria of a segment definition. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerTags">CustomerprofilesEventTriggerTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
@@ -120,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The unique name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
 
 ---
 
@@ -130,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of conditions that determine when an event should trigger the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
 
 ---
 
@@ -140,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique name of the event trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
 
 ---
 
@@ -150,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique name of the object type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
 
 ---
 
@@ -160,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the event trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
 
 ---
 
@@ -170,7 +172,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Defines limits controlling whether an event triggers the destination, based on ingestion latency and the number of invocations per profile over specific time periods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
+
+---
+
+##### `intent_filter_definition`<sup>Optional</sup> <a name="intent_filter_definition" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.Initializer.parameter.intentFilterDefinition"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition">CustomerprofilesEventTriggerIntentFilterDefinition</a>
+
+Filters the destination to profiles whose predicted intents meet the specified conditions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent_filter_definition CustomerprofilesEventTrigger#intent_filter_definition}
 
 ---
 
@@ -180,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The destination is triggered only for profiles that meet the criteria of a segment definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
 
 ---
 
@@ -190,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
 
 ---
 
@@ -224,9 +236,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.putEventTriggerConditions">put_event_trigger_conditions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.putEventTriggerLimits">put_event_trigger_limits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.putIntentFilterDefinition">put_intent_filter_definition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.resetEventTriggerLimits">reset_event_trigger_limits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.resetIntentFilterDefinition">reset_intent_filter_definition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.resetSegmentFilter">reset_segment_filter</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.resetTags">reset_tags</a></code> | *No description.* |
 
@@ -609,7 +623,7 @@ def put_event_trigger_limits(
 
 Specifies that an event will only trigger the destination if it is processed within a certain latency period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
 
 ---
 
@@ -619,7 +633,36 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of time periods during which the limits apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
+
+---
+
+##### `put_intent_filter_definition` <a name="put_intent_filter_definition" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.putIntentFilterDefinition"></a>
+
+```python
+def put_intent_filter_definition(
+  groups: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroups] = None,
+  logical_operator: str = None
+) -> None
+```
+
+###### `groups`<sup>Optional</sup> <a name="groups" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.putIntentFilterDefinition.parameter.groups"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>]
+
+A list of intent filter groups combined by the definition's logical operator.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#groups CustomerprofilesEventTrigger#groups}
+
+---
+
+###### `logical_operator`<sup>Optional</sup> <a name="logical_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.putIntentFilterDefinition.parameter.logicalOperator"></a>
+
+- *Type:* str
+
+The operator used to combine multiple dimensions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
 
 ---
 
@@ -647,6 +690,12 @@ def reset_description() -> None
 
 ```python
 def reset_event_trigger_limits() -> None
+```
+
+##### `reset_intent_filter_definition` <a name="reset_intent_filter_definition" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.resetIntentFilterDefinition"></a>
+
+```python
+def reset_intent_filter_definition() -> None
 ```
 
 ##### `reset_segment_filter` <a name="reset_segment_filter" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.resetSegmentFilter"></a>
@@ -775,7 +824,7 @@ The construct id used in the generated config for the CustomerprofilesEventTrigg
 
 The id of the existing CustomerprofilesEventTrigger that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -809,6 +858,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.eventTriggerConditions">event_trigger_conditions</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerEventTriggerConditionsList">CustomerprofilesEventTriggerEventTriggerConditionsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.eventTriggerLimits">event_trigger_limits</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerEventTriggerLimitsOutputReference">CustomerprofilesEventTriggerEventTriggerLimitsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.intentFilterDefinition">intent_filter_definition</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference">CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.lastUpdatedAt">last_updated_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerTagsList">CustomerprofilesEventTriggerTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
@@ -816,6 +866,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.eventTriggerConditionsInput">event_trigger_conditions_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerEventTriggerConditions">CustomerprofilesEventTriggerEventTriggerConditions</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.eventTriggerLimitsInput">event_trigger_limits_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerEventTriggerLimits">CustomerprofilesEventTriggerEventTriggerLimits</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.eventTriggerNameInput">event_trigger_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.intentFilterDefinitionInput">intent_filter_definition_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition">CustomerprofilesEventTriggerIntentFilterDefinition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.objectTypeNameInput">object_type_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.segmentFilterInput">segment_filter_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerTags">CustomerprofilesEventTriggerTags</a>]</code> | *No description.* |
@@ -1009,6 +1060,16 @@ id: str
 
 ---
 
+##### `intent_filter_definition`<sup>Required</sup> <a name="intent_filter_definition" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.intentFilterDefinition"></a>
+
+```python
+intent_filter_definition: CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference">CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference</a>
+
+---
+
 ##### `last_updated_at`<sup>Required</sup> <a name="last_updated_at" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.lastUpdatedAt"></a>
 
 ```python
@@ -1076,6 +1137,16 @@ event_trigger_name_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `intent_filter_definition_input`<sup>Optional</sup> <a name="intent_filter_definition_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTrigger.property.intentFilterDefinitionInput"></a>
+
+```python
+intent_filter_definition_input: IResolvable | CustomerprofilesEventTriggerIntentFilterDefinition
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition">CustomerprofilesEventTriggerIntentFilterDefinition</a>
 
 ---
 
@@ -1200,6 +1271,7 @@ customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig(
   object_type_name: str,
   description: str = None,
   event_trigger_limits: CustomerprofilesEventTriggerEventTriggerLimits = None,
+  intent_filter_definition: CustomerprofilesEventTriggerIntentFilterDefinition = None,
   segment_filter: str = None,
   tags: IResolvable | typing.List[CustomerprofilesEventTriggerTags] = None
 )
@@ -1222,6 +1294,7 @@ customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig(
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig.property.objectTypeName">object_type_name</a></code> | <code>str</code> | The unique name of the object type. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig.property.description">description</a></code> | <code>str</code> | The description of the event trigger. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig.property.eventTriggerLimits">event_trigger_limits</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerEventTriggerLimits">CustomerprofilesEventTriggerEventTriggerLimits</a></code> | Defines limits controlling whether an event triggers the destination, based on ingestion latency and the number of invocations per profile over specific time periods. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig.property.intentFilterDefinition">intent_filter_definition</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition">CustomerprofilesEventTriggerIntentFilterDefinition</a></code> | Filters the destination to profiles whose predicted intents meet the specified conditions. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig.property.segmentFilter">segment_filter</a></code> | <code>str</code> | The destination is triggered only for profiles that meet the criteria of a segment definition. |
 | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerTags">CustomerprofilesEventTriggerTags</a>]</code> | An array of key-value pairs to apply to this resource. |
 
@@ -1307,7 +1380,7 @@ domain_name: str
 
 The unique name of the domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
 
 ---
 
@@ -1321,7 +1394,7 @@ event_trigger_conditions: IResolvable | typing.List[CustomerprofilesEventTrigger
 
 A list of conditions that determine when an event should trigger the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
 
 ---
 
@@ -1335,7 +1408,7 @@ event_trigger_name: str
 
 The unique name of the event trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
 
 ---
 
@@ -1349,7 +1422,7 @@ object_type_name: str
 
 The unique name of the object type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
 
 ---
 
@@ -1363,7 +1436,7 @@ description: str
 
 The description of the event trigger.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
 
 ---
 
@@ -1377,7 +1450,21 @@ event_trigger_limits: CustomerprofilesEventTriggerEventTriggerLimits
 
 Defines limits controlling whether an event triggers the destination, based on ingestion latency and the number of invocations per profile over specific time periods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
+
+---
+
+##### `intent_filter_definition`<sup>Optional</sup> <a name="intent_filter_definition" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerConfig.property.intentFilterDefinition"></a>
+
+```python
+intent_filter_definition: CustomerprofilesEventTriggerIntentFilterDefinition
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition">CustomerprofilesEventTriggerIntentFilterDefinition</a>
+
+Filters the destination to profiles whose predicted intents meet the specified conditions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent_filter_definition CustomerprofilesEventTrigger#intent_filter_definition}
 
 ---
 
@@ -1391,7 +1478,7 @@ segment_filter: str
 
 The destination is triggered only for profiles that meet the criteria of a segment definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
 
 ---
 
@@ -1405,7 +1492,7 @@ tags: IResolvable | typing.List[CustomerprofilesEventTriggerTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
 
 ---
 
@@ -1441,7 +1528,7 @@ event_trigger_dimensions: IResolvable | typing.List[CustomerprofilesEventTrigger
 
 A list of dimensions to be evaluated for the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_dimensions CustomerprofilesEventTrigger#event_trigger_dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_dimensions CustomerprofilesEventTrigger#event_trigger_dimensions}
 
 ---
 
@@ -1455,7 +1542,7 @@ logical_operator: str
 
 The operator used to combine multiple dimensions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
 
 ---
 
@@ -1489,7 +1576,7 @@ object_attributes: IResolvable | typing.List[CustomerprofilesEventTriggerEventTr
 
 A list of object attributes to be evaluated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#object_attributes CustomerprofilesEventTrigger#object_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#object_attributes CustomerprofilesEventTrigger#object_attributes}
 
 ---
 
@@ -1529,7 +1616,7 @@ comparison_operator: str
 
 The operator used to compare an attribute against a list of values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#comparison_operator CustomerprofilesEventTrigger#comparison_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#comparison_operator CustomerprofilesEventTrigger#comparison_operator}
 
 ---
 
@@ -1543,7 +1630,7 @@ values: typing.List[str]
 
 A list of attribute values used for comparison.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#values CustomerprofilesEventTrigger#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#values CustomerprofilesEventTrigger#values}
 
 ---
 
@@ -1557,7 +1644,7 @@ field_name: str
 
 A field defined within an object type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#field_name CustomerprofilesEventTrigger#field_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#field_name CustomerprofilesEventTrigger#field_name}
 
 ---
 
@@ -1571,7 +1658,7 @@ source: str
 
 An attribute contained within a source object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#source CustomerprofilesEventTrigger#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#source CustomerprofilesEventTrigger#source}
 
 ---
 
@@ -1607,7 +1694,7 @@ event_expiration: typing.Union[int, float]
 
 Specifies that an event will only trigger the destination if it is processed within a certain latency period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
 
 ---
 
@@ -1621,7 +1708,7 @@ periods: IResolvable | typing.List[CustomerprofilesEventTriggerEventTriggerLimit
 
 A list of time periods during which the limits apply.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
 
 ---
 
@@ -1661,7 +1748,7 @@ max_invocations_per_profile: typing.Union[int, float]
 
 The maximum allowed number of destination invocations per profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#max_invocations_per_profile CustomerprofilesEventTrigger#max_invocations_per_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#max_invocations_per_profile CustomerprofilesEventTrigger#max_invocations_per_profile}
 
 ---
 
@@ -1675,7 +1762,7 @@ unit: str
 
 The unit of time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#unit CustomerprofilesEventTrigger#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#unit CustomerprofilesEventTrigger#unit}
 
 ---
 
@@ -1691,7 +1778,7 @@ If set to true, there is no limit on the number of destination invocations per p
 
 The default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#unlimited CustomerprofilesEventTrigger#unlimited}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#unlimited CustomerprofilesEventTrigger#unlimited}
 
 ---
 
@@ -1705,7 +1792,223 @@ value: typing.Union[int, float]
 
 The amount of time of the specified unit.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
+
+---
+
+### CustomerprofilesEventTriggerIntentFilterDefinition <a name="CustomerprofilesEventTriggerIntentFilterDefinition" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition(
+  groups: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroups] = None,
+  logical_operator: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition.property.groups">groups</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>]</code> | A list of intent filter groups combined by the definition's logical operator. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition.property.logicalOperator">logical_operator</a></code> | <code>str</code> | The operator used to combine multiple dimensions. |
+
+---
+
+##### `groups`<sup>Optional</sup> <a name="groups" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition.property.groups"></a>
+
+```python
+groups: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>]
+
+A list of intent filter groups combined by the definition's logical operator.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#groups CustomerprofilesEventTrigger#groups}
+
+---
+
+##### `logical_operator`<sup>Optional</sup> <a name="logical_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition.property.logicalOperator"></a>
+
+```python
+logical_operator: str
+```
+
+- *Type:* str
+
+The operator used to combine multiple dimensions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
+
+---
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionGroups <a name="CustomerprofilesEventTriggerIntentFilterDefinitionGroups" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups(
+  conditions: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions] = None,
+  logical_operator: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups.property.conditions">conditions</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a>]</code> | A list of intent filter conditions. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups.property.logicalOperator">logical_operator</a></code> | <code>str</code> | The operator used to combine multiple dimensions. |
+
+---
+
+##### `conditions`<sup>Optional</sup> <a name="conditions" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups.property.conditions"></a>
+
+```python
+conditions: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a>]
+
+A list of intent filter conditions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#conditions CustomerprofilesEventTrigger#conditions}
+
+---
+
+##### `logical_operator`<sup>Optional</sup> <a name="logical_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups.property.logicalOperator"></a>
+
+```python
+logical_operator: str
+```
+
+- *Type:* str
+
+The operator used to combine multiple dimensions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
+
+---
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions <a name="CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions(
+  comparison_operator: str = None,
+  intent: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent = None,
+  values: typing.List[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions.property.comparisonOperator">comparison_operator</a></code> | <code>str</code> | The operator used to compare the predicted intent against a list of values. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions.property.intent">intent</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent</a></code> | Identifies a predicted intent by domain and type. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions.property.values">values</a></code> | <code>typing.List[str]</code> | A list of intent values used for comparison. |
+
+---
+
+##### `comparison_operator`<sup>Optional</sup> <a name="comparison_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions.property.comparisonOperator"></a>
+
+```python
+comparison_operator: str
+```
+
+- *Type:* str
+
+The operator used to compare the predicted intent against a list of values.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#comparison_operator CustomerprofilesEventTrigger#comparison_operator}
+
+---
+
+##### `intent`<sup>Optional</sup> <a name="intent" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions.property.intent"></a>
+
+```python
+intent: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent</a>
+
+Identifies a predicted intent by domain and type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent CustomerprofilesEventTrigger#intent}
+
+---
+
+##### `values`<sup>Optional</sup> <a name="values" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions.property.values"></a>
+
+```python
+values: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+A list of intent values used for comparison.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#values CustomerprofilesEventTrigger#values}
+
+---
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent <a name="CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent(
+  intent_domain: str = None,
+  type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent.property.intentDomain">intent_domain</a></code> | <code>str</code> | The domain of the intent. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent.property.type">type</a></code> | <code>str</code> | The type of the intent. |
+
+---
+
+##### `intent_domain`<sup>Optional</sup> <a name="intent_domain" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent.property.intentDomain"></a>
+
+```python
+intent_domain: str
+```
+
+- *Type:* str
+
+The domain of the intent.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent_domain CustomerprofilesEventTrigger#intent_domain}
+
+---
+
+##### `type`<sup>Optional</sup> <a name="type" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+The type of the intent.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#type CustomerprofilesEventTrigger#type}
 
 ---
 
@@ -1743,7 +2046,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#key CustomerprofilesEventTrigger#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#key CustomerprofilesEventTrigger#key}
 
 ---
 
@@ -1759,7 +2062,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
 
 ---
 
@@ -4278,6 +4581,1803 @@ internal_value: IResolvable | CustomerprofilesEventTriggerEventTriggerLimitsPeri
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerEventTriggerLimitsPeriods">CustomerprofilesEventTriggerEventTriggerLimitsPeriods</a>
+
+---
+
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference <a name="CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.resetIntentDomain">reset_intent_domain</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.resetType">reset_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_intent_domain` <a name="reset_intent_domain" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.resetIntentDomain"></a>
+
+```python
+def reset_intent_domain() -> None
+```
+
+##### `reset_type` <a name="reset_type" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.resetType"></a>
+
+```python
+def reset_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.intentDomainInput">intent_domain_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.typeInput">type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.intentDomain">intent_domain</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.type">type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `intent_domain_input`<sup>Optional</sup> <a name="intent_domain_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.intentDomainInput"></a>
+
+```python
+intent_domain_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `type_input`<sup>Optional</sup> <a name="type_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.typeInput"></a>
+
+```python
+type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `intent_domain`<sup>Required</sup> <a name="intent_domain" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.intentDomain"></a>
+
+```python
+intent_domain: str
+```
+
+- *Type:* str
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.type"></a>
+
+```python
+type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent</a>
+
+---
+
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList <a name="CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a>]
+
+---
+
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference <a name="CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.putIntent">put_intent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resetComparisonOperator">reset_comparison_operator</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resetIntent">reset_intent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resetValues">reset_values</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_intent` <a name="put_intent" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.putIntent"></a>
+
+```python
+def put_intent(
+  intent_domain: str = None,
+  type: str = None
+) -> None
+```
+
+###### `intent_domain`<sup>Optional</sup> <a name="intent_domain" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.putIntent.parameter.intentDomain"></a>
+
+- *Type:* str
+
+The domain of the intent.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent_domain CustomerprofilesEventTrigger#intent_domain}
+
+---
+
+###### `type`<sup>Optional</sup> <a name="type" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.putIntent.parameter.type"></a>
+
+- *Type:* str
+
+The type of the intent.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#type CustomerprofilesEventTrigger#type}
+
+---
+
+##### `reset_comparison_operator` <a name="reset_comparison_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resetComparisonOperator"></a>
+
+```python
+def reset_comparison_operator() -> None
+```
+
+##### `reset_intent` <a name="reset_intent" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resetIntent"></a>
+
+```python
+def reset_intent() -> None
+```
+
+##### `reset_values` <a name="reset_values" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.resetValues"></a>
+
+```python
+def reset_values() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.intent">intent</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.comparisonOperatorInput">comparison_operator_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.intentInput">intent_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.valuesInput">values_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.comparisonOperator">comparison_operator</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.values">values</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `intent`<sup>Required</sup> <a name="intent" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.intent"></a>
+
+```python
+intent: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference</a>
+
+---
+
+##### `comparison_operator_input`<sup>Optional</sup> <a name="comparison_operator_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.comparisonOperatorInput"></a>
+
+```python
+comparison_operator_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `intent_input`<sup>Optional</sup> <a name="intent_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.intentInput"></a>
+
+```python
+intent_input: IResolvable | CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent</a>
+
+---
+
+##### `values_input`<sup>Optional</sup> <a name="values_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.valuesInput"></a>
+
+```python
+values_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `comparison_operator`<sup>Required</sup> <a name="comparison_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.comparisonOperator"></a>
+
+```python
+comparison_operator: str
+```
+
+- *Type:* str
+
+---
+
+##### `values`<sup>Required</sup> <a name="values" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.values"></a>
+
+```python
+values: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a>
+
+---
+
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList <a name="CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>]
+
+---
+
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference <a name="CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.putConditions">put_conditions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.resetConditions">reset_conditions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.resetLogicalOperator">reset_logical_operator</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_conditions` <a name="put_conditions" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.putConditions"></a>
+
+```python
+def put_conditions(
+  value: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.putConditions.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a>]
+
+---
+
+##### `reset_conditions` <a name="reset_conditions" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.resetConditions"></a>
+
+```python
+def reset_conditions() -> None
+```
+
+##### `reset_logical_operator` <a name="reset_logical_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.resetLogicalOperator"></a>
+
+```python
+def reset_logical_operator() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.conditions">conditions</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.conditionsInput">conditions_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.logicalOperatorInput">logical_operator_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.logicalOperator">logical_operator</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `conditions`<sup>Required</sup> <a name="conditions" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.conditions"></a>
+
+```python
+conditions: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList</a>
+
+---
+
+##### `conditions_input`<sup>Optional</sup> <a name="conditions_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.conditionsInput"></a>
+
+```python
+conditions_input: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions</a>]
+
+---
+
+##### `logical_operator_input`<sup>Optional</sup> <a name="logical_operator_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.logicalOperatorInput"></a>
+
+```python
+logical_operator_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `logical_operator`<sup>Required</sup> <a name="logical_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.logicalOperator"></a>
+
+```python
+logical_operator: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | CustomerprofilesEventTriggerIntentFilterDefinitionGroups
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>
+
+---
+
+
+### CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference <a name="CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import customerprofiles_event_trigger
+
+customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.putGroups">put_groups</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.resetGroups">reset_groups</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.resetLogicalOperator">reset_logical_operator</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_groups` <a name="put_groups" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.putGroups"></a>
+
+```python
+def put_groups(
+  value: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroups]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.putGroups.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>]
+
+---
+
+##### `reset_groups` <a name="reset_groups" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.resetGroups"></a>
+
+```python
+def reset_groups() -> None
+```
+
+##### `reset_logical_operator` <a name="reset_logical_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.resetLogicalOperator"></a>
+
+```python
+def reset_logical_operator() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.groups">groups</a></code> | <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.groupsInput">groups_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.logicalOperatorInput">logical_operator_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.logicalOperator">logical_operator</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition">CustomerprofilesEventTriggerIntentFilterDefinition</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `groups`<sup>Required</sup> <a name="groups" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.groups"></a>
+
+```python
+groups: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList">CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList</a>
+
+---
+
+##### `groups_input`<sup>Optional</sup> <a name="groups_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.groupsInput"></a>
+
+```python
+groups_input: IResolvable | typing.List[CustomerprofilesEventTriggerIntentFilterDefinitionGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionGroups">CustomerprofilesEventTriggerIntentFilterDefinitionGroups</a>]
+
+---
+
+##### `logical_operator_input`<sup>Optional</sup> <a name="logical_operator_input" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.logicalOperatorInput"></a>
+
+```python
+logical_operator_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `logical_operator`<sup>Required</sup> <a name="logical_operator" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.logicalOperator"></a>
+
+```python
+logical_operator: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | CustomerprofilesEventTriggerIntentFilterDefinition
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.customerprofilesEventTrigger.CustomerprofilesEventTriggerIntentFilterDefinition">CustomerprofilesEventTriggerIntentFilterDefinition</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccGameliftGameSessionQueue <a name="DataAwsccGameliftGameSessionQueue" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/gamelift_game_session_queue awscc_gamelift_game_session_queue}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/gamelift_game_session_queue awscc_gamelift_game_session_queue}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGameliftGameSessi
 
 The id of the existing DataAwsccGameliftGameSessionQueue that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/gamelift_game_session_queue#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/gamelift_game_session_queue#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -419,6 +419,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.property.customEventData">CustomEventData</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.property.destinations">Destinations</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueDestinationsList">DataAwsccGameliftGameSessionQueueDestinationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.property.filterConfiguration">FilterConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueFilterConfigurationOutputReference">DataAwsccGameliftGameSessionQueueFilterConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.property.logConfiguration">LogConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference">DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.property.name">Name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.property.notificationTarget">NotificationTarget</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.property.playerLatencyPolicies">PlayerLatencyPolicies</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueuePlayerLatencyPoliciesList">DataAwsccGameliftGameSessionQueuePlayerLatencyPoliciesList</a></code> | *No description.* |
@@ -589,6 +590,16 @@ public DataAwsccGameliftGameSessionQueueFilterConfigurationOutputReference Filte
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueFilterConfigurationOutputReference">DataAwsccGameliftGameSessionQueueFilterConfigurationOutputReference</a>
+
+---
+
+##### `LogConfiguration`<sup>Required</sup> <a name="LogConfiguration" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueue.property.logConfiguration"></a>
+
+```csharp
+public DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference LogConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference">DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference</a>
 
 ---
 
@@ -806,7 +817,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/gamelift_game_session_queue#id DataAwsccGameliftGameSessionQueue#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/gamelift_game_session_queue#id DataAwsccGameliftGameSessionQueue#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -834,6 +845,32 @@ new DataAwsccGameliftGameSessionQueueDestinations {
 using Io.Cdktn.Providers.Awscc;
 
 new DataAwsccGameliftGameSessionQueueFilterConfiguration {
+
+};
+```
+
+
+### DataAwsccGameliftGameSessionQueueLogConfiguration <a name="DataAwsccGameliftGameSessionQueueLogConfiguration" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccGameliftGameSessionQueueLogConfiguration {
+
+};
+```
+
+
+### DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations <a name="DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations {
 
 };
 ```
@@ -1563,6 +1600,704 @@ public DataAwsccGameliftGameSessionQueueFilterConfiguration InternalValue { get;
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueFilterConfiguration">DataAwsccGameliftGameSessionQueueFilterConfiguration</a>
+
+---
+
+
+### DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList <a name="DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.get"></a>
+
+```csharp
+private DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference <a name="DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.destinationArn">DestinationArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.logDestination">LogDestination</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations">DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DestinationArn`<sup>Required</sup> <a name="DestinationArn" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.destinationArn"></a>
+
+```csharp
+public string DestinationArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `LogDestination`<sup>Required</sup> <a name="LogDestination" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.logDestination"></a>
+
+```csharp
+public string LogDestination { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations">DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinations</a>
+
+---
+
+
+### DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference <a name="DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.property.deliveryDestinations">DeliveryDestinations</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList">DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfiguration">DataAwsccGameliftGameSessionQueueLogConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DeliveryDestinations`<sup>Required</sup> <a name="DeliveryDestinations" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.property.deliveryDestinations"></a>
+
+```csharp
+public DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList DeliveryDestinations { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList">DataAwsccGameliftGameSessionQueueLogConfigurationDeliveryDestinationsList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccGameliftGameSessionQueueLogConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccGameliftGameSessionQueue.DataAwsccGameliftGameSessionQueueLogConfiguration">DataAwsccGameliftGameSessionQueueLogConfiguration</a>
 
 ---
 
