@@ -4,7 +4,7 @@
 
 ### DataAwsccPersonalizeRecommenders <a name="DataAwsccPersonalizeRecommenders" id="@cdktn/provider-awscc.dataAwsccPersonalizeRecommenders.DataAwsccPersonalizeRecommenders"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/personalize_recommenders awscc_personalize_recommenders}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/personalize_recommenders awscc_personalize_recommenders}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeRecommenders.DataAwsccPersonalizeRecommenders.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeRecomm
 
 The id of the existing DataAwsccPersonalizeRecommenders that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/personalize_recommenders#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/personalize_recommenders#import import section} in the documentation of this resource for the id to use
 
 ---
 

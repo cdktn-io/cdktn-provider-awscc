@@ -4,7 +4,7 @@
 
 ### MediatailorFunction <a name="MediatailorFunction" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function awscc_mediatailor_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function awscc_mediatailor_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunction.Initializer"></a>
 
@@ -122,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The unique identifier for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the function. Determines which configuration object is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
 
 ---
 
@@ -144,7 +144,7 @@ The configuration for an AWS_SERVICE_REQUEST function.
 
 Contains the target service, target Region, and request parameters that the function uses to call an AWS service API. For more information, see AWS_SERVICE_REQUEST (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-types-aws-service-request.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#aws_service_request_configuration MediatailorFunction#aws_service_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#aws_service_request_configuration MediatailorFunction#aws_service_request_configuration}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration for a CONCURRENT_EXECUTOR function. Required when FunctionType is CONCURRENT_EXECUTOR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#concurrent_executor_configuration MediatailorFunction#concurrent_executor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#concurrent_executor_configuration MediatailorFunction#concurrent_executor_configuration}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for custom output functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for HTTP request functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
 
 ---
 
@@ -196,7 +196,7 @@ The configuration for a SEQUENTIAL_EXECUTOR function.
 
 A SEQUENTIAL_EXECUTOR runs an ordered list of child functions one at a time, passing data between them. For more information about functions, see Working with functions (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags to assign to the function resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
 
 ---
 
@@ -218,7 +218,7 @@ The configuration for a VAST_REQUEST function.
 
 Specifies the HTTP method, URL, headers, body, timeout, and output expressions for a request to a VAST endpoint. MediaTailor parses the response as VAST and resolves wrapper redirects, then makes the parsed ads available to the function's output expressions. For more information, see Function types and composition (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-types.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#vast_request_configuration MediatailorFunction#vast_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#vast_request_configuration MediatailorFunction#vast_request_configuration}
 
 ---
 
@@ -814,7 +814,7 @@ The construct id used in the generated config for the MediatailorFunction to imp
 
 The id of the existing MediatailorFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1260,6 +1260,7 @@ import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionAwsServi
 
 MediatailorFunctionAwsServiceRequestConfiguration.builder()
 //  .body(java.lang.String)
+//  .cache(MediatailorFunctionAwsServiceRequestConfigurationCache)
 //  .headers(java.util.Map<java.lang.String, java.lang.String>)
 //  .methodType(java.lang.String)
 //  .output(java.util.Map<java.lang.String, java.lang.String>)
@@ -1276,8 +1277,9 @@ MediatailorFunctionAwsServiceRequestConfiguration.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.body">body</a></code> | <code>java.lang.String</code> | An expression that evaluates to the request body for the AWS service API call. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a></code> | The optional response-caching configuration for the function. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.headers">headers</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A map of HTTP header names to expression values. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.methodType">methodType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.methodType">methodType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.output">output</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A map of output bindings. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.requestTimeoutMilliseconds">requestTimeoutMilliseconds</a></code> | <code>java.lang.Number</code> | The maximum time, in milliseconds, that MediaTailor waits for a response from the AWS service. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.runtime">runtime</a></code> | <code>java.lang.String</code> | The expression language used to evaluate expressions in the function configuration. Set this to JSONATA. |
@@ -1299,7 +1301,23 @@ An expression that evaluates to the request body for the AWS service API call.
 
 The body must conform to the input format that the target service operation expects. Applies only when the target operation accepts a request body. The maximum size after evaluation is 64 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+##### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfiguration.property.cache"></a>
+
+```java
+public MediatailorFunctionAwsServiceRequestConfigurationCache getCache();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the AWS service, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -1315,7 +1333,7 @@ A map of HTTP header names to expression values.
 
 MediaTailor evaluates each header value expression at runtime and includes the result in the outbound request to the AWS service. Use this to pass any headers required by the target service operation. You can include a maximum of 50 headers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -1327,7 +1345,7 @@ public java.lang.String getMethodType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
 
 ---
 
@@ -1343,7 +1361,7 @@ A map of output bindings.
 
 Each key is a namespaced output path, such as player_params.device_type. Each value is an expression that MediaTailor evaluates at runtime and can reference the response object from the target service. For more information, see JSONata expression reference (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-jsonata.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -1359,7 +1377,7 @@ The maximum time, in milliseconds, that MediaTailor waits for a response from th
 
 If the call exceeds this timeout, MediaTailor sets the response status code to null and proceeds with output expression evaluation. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -1373,7 +1391,7 @@ public java.lang.String getRuntime();
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -1389,7 +1407,7 @@ The AWS Region for the target service.
 
 Specify a static Region code (for example, us-east-1) or a JSONata expression that resolves to a Region code at runtime (for example, {%inference.region%}).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#target_region MediatailorFunction#target_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#target_region MediatailorFunction#target_region}
 
 ---
 
@@ -1403,7 +1421,7 @@ public java.lang.String getTargetService();
 
 The AWS service to call. Valid value: elemental-inference (AWS Elemental Inference).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#target_service MediatailorFunction#target_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#target_service MediatailorFunction#target_service}
 
 ---
 
@@ -1419,7 +1437,79 @@ An expression that evaluates to the endpoint URL for the target AWS service API 
 
 Use {%...%} delimiters for dynamic expressions. The URL must correspond to a valid endpoint for the service specified in TargetService. The maximum length after evaluation is 2,048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+
+---
+
+### MediatailorFunctionAwsServiceRequestConfigurationCache <a name="MediatailorFunctionAwsServiceRequestConfigurationCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionAwsServiceRequestConfigurationCache;
+
+MediatailorFunctionAwsServiceRequestConfigurationCache.builder()
+//  .key(java.lang.String)
+//  .ttlMaximumSeconds(java.lang.Number)
+//  .ttlMinimumSeconds(java.lang.Number)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.key">key</a></code> | <code>java.lang.String</code> | A JSONata expression that MediaTailor evaluates to a custom cache key. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.ttlMaximumSeconds">ttlMaximumSeconds</a></code> | <code>java.lang.Number</code> | The upper bound, in seconds, on how long MediaTailor caches a response. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.ttlMinimumSeconds">ttlMinimumSeconds</a></code> | <code>java.lang.Number</code> | The lower bound, in seconds, on how long MediaTailor caches a response. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.key"></a>
+
+```java
+public java.lang.String getKey();
+```
+
+- *Type:* java.lang.String
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+##### `ttlMaximumSeconds`<sup>Optional</sup> <a name="ttlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.ttlMaximumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMaximumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+##### `ttlMinimumSeconds`<sup>Optional</sup> <a name="ttlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache.property.ttlMinimumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMinimumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
 
 ---
 
@@ -1463,7 +1553,7 @@ The list of 1 to 10 child functions that MediaTailor runs in parallel.
 
 Each entry specifies a child function to execute and an optional run condition expression that controls whether the function runs. Child functions cannot themselves be executors, and each child function's resolved namespace must be unique across the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
 
 ---
 
@@ -1479,7 +1569,7 @@ The maximum number of child functions that MediaTailor runs simultaneously.
 
 When the list contains more functions than MaxConcurrency, MediaTailor starts additional functions as running ones complete, so that no more than MaxConcurrency functions run at the same time. Valid values are 1 to 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#max_concurrency MediatailorFunction#max_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#max_concurrency MediatailorFunction#max_concurrency}
 
 ---
 
@@ -1495,7 +1585,7 @@ A map of output bindings that controls which bindings the executor commits to th
 
 Each key is a namespaced output path, and each value is an expression that MediaTailor evaluates against the combined results of the child functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -1509,7 +1599,7 @@ public java.lang.String getRuntime();
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -1525,7 +1615,7 @@ The maximum time, in milliseconds, for all child functions to complete.
 
 This timeout covers every function in the list, including any HTTP calls the child functions make. If the executor exceeds this timeout, MediaTailor discards all output from the executor and proceeds with default behavior. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
 
 ---
 
@@ -1565,7 +1655,7 @@ An optional alternate name for the child function within the executor.
 
 MediaTailor uses this value as the namespace for the child function's output. If omitted, MediaTailor uses the function identifier. The resolved namespace must be unique across all child functions in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
 
 ---
 
@@ -1579,7 +1669,7 @@ public java.lang.String getFunctionId();
 
 The identifier of the child function to execute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 
 ---
 
@@ -1595,7 +1685,7 @@ An optional expression that evaluates to a boolean.
 
 MediaTailor evaluates this expression immediately before running the child function, using the accumulated state at that point. If the expression evaluates to false, MediaTailor skips the child function. If omitted, the child function always runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
 
 ---
 
@@ -1731,7 +1821,7 @@ public java.lang.String getFunctionId();
 
 The unique identifier for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 
 ---
 
@@ -1745,7 +1835,7 @@ public java.lang.String getFunctionType();
 
 The type of the function. Determines which configuration object is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_type MediatailorFunction#function_type}
 
 ---
 
@@ -1761,7 +1851,7 @@ The configuration for an AWS_SERVICE_REQUEST function.
 
 Contains the target service, target Region, and request parameters that the function uses to call an AWS service API. For more information, see AWS_SERVICE_REQUEST (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-types-aws-service-request.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#aws_service_request_configuration MediatailorFunction#aws_service_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#aws_service_request_configuration MediatailorFunction#aws_service_request_configuration}
 
 ---
 
@@ -1775,7 +1865,7 @@ public MediatailorFunctionConcurrentExecutorConfiguration getConcurrentExecutorC
 
 The configuration for a CONCURRENT_EXECUTOR function. Required when FunctionType is CONCURRENT_EXECUTOR.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#concurrent_executor_configuration MediatailorFunction#concurrent_executor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#concurrent_executor_configuration MediatailorFunction#concurrent_executor_configuration}
 
 ---
 
@@ -1789,7 +1879,7 @@ public MediatailorFunctionCustomOutputConfiguration getCustomOutputConfiguration
 
 Configuration for custom output functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#custom_output_configuration MediatailorFunction#custom_output_configuration}
 
 ---
 
@@ -1803,7 +1893,7 @@ public java.lang.String getDescription();
 
 A description of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#description MediatailorFunction#description}
 
 ---
 
@@ -1817,7 +1907,7 @@ public MediatailorFunctionHttpRequestConfiguration getHttpRequestConfiguration()
 
 Configuration for HTTP request functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#http_request_configuration MediatailorFunction#http_request_configuration}
 
 ---
 
@@ -1833,7 +1923,7 @@ The configuration for a SEQUENTIAL_EXECUTOR function.
 
 A SEQUENTIAL_EXECUTOR runs an ordered list of child functions one at a time, passing data between them. For more information about functions, see Working with functions (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#sequential_executor_configuration MediatailorFunction#sequential_executor_configuration}
 
 ---
 
@@ -1847,7 +1937,7 @@ public IResolvable|java.util.List<MediatailorFunctionTags> getTags();
 
 The tags to assign to the function resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#tags MediatailorFunction#tags}
 
 ---
 
@@ -1863,7 +1953,7 @@ The configuration for a VAST_REQUEST function.
 
 Specifies the HTTP method, URL, headers, body, timeout, and output expressions for a request to a VAST endpoint. MediaTailor parses the response as VAST and resolves wrapper redirects, then makes the parsed ads available to the function's output expressions. For more information, see Function types and composition (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-types.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#vast_request_configuration MediatailorFunction#vast_request_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#vast_request_configuration MediatailorFunction#vast_request_configuration}
 
 ---
 
@@ -1899,7 +1989,7 @@ public java.util.Map<java.lang.String, java.lang.String> getOutput();
 
 A map of output key-value pairs that define the custom output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -1913,7 +2003,7 @@ public java.lang.String getRuntime();
 
 The runtime environment for the function expression language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -1926,6 +2016,7 @@ import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionHttpRequ
 
 MediatailorFunctionHttpRequestConfiguration.builder()
 //  .body(java.lang.String)
+//  .cache(MediatailorFunctionHttpRequestConfigurationCache)
 //  .headers(java.util.Map<java.lang.String, java.lang.String>)
 //  .methodType(java.lang.String)
 //  .output(java.util.Map<java.lang.String, java.lang.String>)
@@ -1940,6 +2031,7 @@ MediatailorFunctionHttpRequestConfiguration.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.body">body</a></code> | <code>java.lang.String</code> | The body of the HTTP request. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a></code> | The optional response-caching configuration for the function. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.headers">headers</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A map of HTTP headers to include in the request. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.methodType">methodType</a></code> | <code>java.lang.String</code> | The HTTP method type for the request. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.output">output</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A map of output key-value pairs. |
@@ -1959,7 +2051,23 @@ public java.lang.String getBody();
 
 The body of the HTTP request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+##### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfiguration.property.cache"></a>
+
+```java
+public MediatailorFunctionHttpRequestConfigurationCache getCache();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the HTTP endpoint, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -1973,7 +2081,7 @@ public java.util.Map<java.lang.String, java.lang.String> getHeaders();
 
 A map of HTTP headers to include in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -1987,7 +2095,7 @@ public java.lang.String getMethodType();
 
 The HTTP method type for the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}
 
 ---
 
@@ -2003,7 +2111,7 @@ A map of output key-value pairs.
 
 Keys must start with session., temp., avail., scte., or be a valid adsRequest directive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -2017,7 +2125,7 @@ public java.lang.Number getRequestTimeoutMilliseconds();
 
 The timeout in milliseconds for the HTTP request. Maximum value is 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -2031,7 +2139,7 @@ public java.lang.String getRuntime();
 
 The runtime environment for the function expression language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -2045,7 +2153,79 @@ public java.lang.String getUrl();
 
 The URL endpoint for the HTTP request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+
+---
+
+### MediatailorFunctionHttpRequestConfigurationCache <a name="MediatailorFunctionHttpRequestConfigurationCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionHttpRequestConfigurationCache;
+
+MediatailorFunctionHttpRequestConfigurationCache.builder()
+//  .key(java.lang.String)
+//  .ttlMaximumSeconds(java.lang.Number)
+//  .ttlMinimumSeconds(java.lang.Number)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.key">key</a></code> | <code>java.lang.String</code> | A JSONata expression that MediaTailor evaluates to a custom cache key. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.ttlMaximumSeconds">ttlMaximumSeconds</a></code> | <code>java.lang.Number</code> | The upper bound, in seconds, on how long MediaTailor caches a response. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.ttlMinimumSeconds">ttlMinimumSeconds</a></code> | <code>java.lang.Number</code> | The lower bound, in seconds, on how long MediaTailor caches a response. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.key"></a>
+
+```java
+public java.lang.String getKey();
+```
+
+- *Type:* java.lang.String
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+##### `ttlMaximumSeconds`<sup>Optional</sup> <a name="ttlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.ttlMaximumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMaximumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+##### `ttlMinimumSeconds`<sup>Optional</sup> <a name="ttlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache.property.ttlMinimumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMinimumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
 
 ---
 
@@ -2087,7 +2267,7 @@ An ordered list of 1 to 10 steps.
 
 Each step specifies a child function to execute and an optional run condition expression that controls whether the step runs. MediaTailor executes the steps in order, passing data between steps through temporary data. Each step's resolved namespace must be unique across the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
 
 ---
 
@@ -2103,7 +2283,7 @@ A map of output bindings that controls which bindings the sequence commits to th
 
 Each key is a namespaced output path, and each value is an expression that MediaTailor evaluates against the accumulated results of the steps.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -2117,7 +2297,7 @@ public java.lang.String getRuntime();
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -2133,7 +2313,7 @@ The maximum time, in milliseconds, for the entire sequence to complete.
 
 This timeout covers all steps, including any HTTP calls made by child functions. If the sequence exceeds this timeout, MediaTailor discards all output from the sequence and proceeds with default behavior. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
 
 ---
 
@@ -2173,7 +2353,7 @@ An optional alternate name for the child function within the executor.
 
 MediaTailor uses this value as the namespace for the child function's output. If omitted, MediaTailor uses the function identifier. The resolved namespace must be unique across all child functions in the list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
 
 ---
 
@@ -2187,7 +2367,7 @@ public java.lang.String getFunctionId();
 
 The identifier of the child function to execute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 
 ---
 
@@ -2203,7 +2383,7 @@ An optional expression that evaluates to a boolean.
 
 MediaTailor evaluates this expression immediately before running the child function, using the accumulated state at that point. If the expression evaluates to false, MediaTailor skips the child function. If omitted, the child function always runs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
 
 ---
 
@@ -2224,8 +2404,8 @@ MediatailorFunctionTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#key MediatailorFunction#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#value MediatailorFunction#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#value MediatailorFunction#value}. |
 
 ---
 
@@ -2237,7 +2417,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#key MediatailorFunction#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}.
 
 ---
 
@@ -2249,7 +2429,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#value MediatailorFunction#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#value MediatailorFunction#value}.
 
 ---
 
@@ -2262,6 +2442,7 @@ import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionVastRequ
 
 MediatailorFunctionVastRequestConfiguration.builder()
 //  .body(java.lang.String)
+//  .cache(MediatailorFunctionVastRequestConfigurationCache)
 //  .headers(java.util.Map<java.lang.String, java.lang.String>)
 //  .methodType(java.lang.String)
 //  .output(java.util.Map<java.lang.String, java.lang.String>)
@@ -2276,8 +2457,9 @@ MediatailorFunctionVastRequestConfiguration.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.body">body</a></code> | <code>java.lang.String</code> | An expression that evaluates to the request body, for example to send an OpenRTB bid request. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a></code> | The optional response-caching configuration for the function. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.headers">headers</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A map of HTTP header names to expression values. |
-| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.methodType">methodType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.methodType">methodType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.output">output</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A map of output bindings. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.requestTimeoutMilliseconds">requestTimeoutMilliseconds</a></code> | <code>java.lang.Number</code> | The maximum time, in milliseconds, that MediaTailor waits for a response from the VAST endpoint. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.runtime">runtime</a></code> | <code>java.lang.String</code> | The expression language used to evaluate expressions in the function configuration. Set this to JSONATA. |
@@ -2297,7 +2479,23 @@ An expression that evaluates to the request body, for example to send an OpenRTB
 
 The expression can be up to 100,000 characters, and the body after evaluation can be up to 64 KB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#body MediatailorFunction#body}
+
+---
+
+##### `cache`<sup>Optional</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfiguration.property.cache"></a>
+
+```java
+public MediatailorFunctionVastRequestConfigurationCache getCache();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a>
+
+The optional response-caching configuration for the function.
+
+When present, MediaTailor caches the responses that the function receives from the HTTP endpoint, within the time-to-live (TTL) bounds that you specify. Omit this configuration to disable response caching.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#cache MediatailorFunction#cache}
 
 ---
 
@@ -2313,7 +2511,7 @@ A map of HTTP header names to expression values.
 
 MediaTailor evaluates each header value expression at runtime and includes the result in the outbound request. Headers beginning with X-Amz- are reserved by the service, and method override headers are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#headers MediatailorFunction#headers}
 
 ---
 
@@ -2325,7 +2523,7 @@ public java.lang.String getMethodType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#method_type MediatailorFunction#method_type}.
 
 ---
 
@@ -2341,7 +2539,7 @@ A map of output bindings.
 
 Each key is a namespaced output path (such as temp.wrappedAds), and each value is an expression that MediaTailor evaluates at runtime. Output expressions in a VAST_REQUEST function can reference the response object, which exposes response.parsedAds, the ads parsed from the VAST response after schema validation and wrapper resolution, and response.statusCode. For more information about expression syntax, see JSONata expression reference (https://docs.aws.amazon.com/mediatailor/latest/ug/monetization-functions-jsonata.html) in the MediaTailor User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 
 ---
 
@@ -2357,7 +2555,7 @@ The maximum time, in milliseconds, that MediaTailor waits for a response from th
 
 The timeout covers the entire response, including any wrapper redirects that MediaTailor follows. If the call exceeds this timeout, MediaTailor proceeds with an empty ad list and continues output expression evaluation. Valid values are 100 to 2000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#request_timeout_milliseconds MediatailorFunction#request_timeout_milliseconds}
 
 ---
 
@@ -2371,7 +2569,7 @@ public java.lang.String getRuntime();
 
 The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 
 ---
 
@@ -2387,11 +2585,419 @@ An expression that evaluates to the VAST endpoint URL.
 
 Use {%...%} delimiters for dynamic expressions. A literal value must be an https:// URL. The expression can be up to 25,000 characters, and the URL after evaluation can be up to 2,048 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#url MediatailorFunction#url}
+
+---
+
+### MediatailorFunctionVastRequestConfigurationCache <a name="MediatailorFunctionVastRequestConfigurationCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionVastRequestConfigurationCache;
+
+MediatailorFunctionVastRequestConfigurationCache.builder()
+//  .key(java.lang.String)
+//  .ttlMaximumSeconds(java.lang.Number)
+//  .ttlMinimumSeconds(java.lang.Number)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.key">key</a></code> | <code>java.lang.String</code> | A JSONata expression that MediaTailor evaluates to a custom cache key. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.ttlMaximumSeconds">ttlMaximumSeconds</a></code> | <code>java.lang.Number</code> | The upper bound, in seconds, on how long MediaTailor caches a response. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.ttlMinimumSeconds">ttlMinimumSeconds</a></code> | <code>java.lang.Number</code> | The lower bound, in seconds, on how long MediaTailor caches a response. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.key"></a>
+
+```java
+public java.lang.String getKey();
+```
+
+- *Type:* java.lang.String
+
+A JSONata expression that MediaTailor evaluates to a custom cache key.
+
+By default, the cache key is a hash of the HTTP URL, request body, and HTTP method; request headers are not included. The evaluated key must be smaller than 1 KB.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#key MediatailorFunction#key}
+
+---
+
+##### `ttlMaximumSeconds`<sup>Optional</sup> <a name="ttlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.ttlMaximumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMaximumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+The upper bound, in seconds, on how long MediaTailor caches a response.
+
+This value must be greater than or equal to TtlMinimumSeconds.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_maximum_seconds MediatailorFunction#ttl_maximum_seconds}
+
+---
+
+##### `ttlMinimumSeconds`<sup>Optional</sup> <a name="ttlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache.property.ttlMinimumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMinimumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+The lower bound, in seconds, on how long MediaTailor caches a response.
+
+MediaTailor also uses this value as the cache duration when a response has no Cache-Control max-age directive.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediatailor_function#ttl_minimum_seconds MediatailorFunction#ttl_minimum_seconds}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference <a name="MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference;
+
+new MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetKey">resetKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds">resetTtlMaximumSeconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds">resetTtlMinimumSeconds</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetKey` <a name="resetKey" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetKey"></a>
+
+```java
+public void resetKey()
+```
+
+##### `resetTtlMaximumSeconds` <a name="resetTtlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds"></a>
+
+```java
+public void resetTtlMaximumSeconds()
+```
+
+##### `resetTtlMinimumSeconds` <a name="resetTtlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds"></a>
+
+```java
+public void resetTtlMinimumSeconds()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.keyInput">keyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput">ttlMaximumSecondsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput">ttlMinimumSecondsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.key">key</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds">ttlMaximumSeconds</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds">ttlMinimumSeconds</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `keyInput`<sup>Optional</sup> <a name="keyInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.keyInput"></a>
+
+```java
+public java.lang.String getKeyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ttlMaximumSecondsInput`<sup>Optional</sup> <a name="ttlMaximumSecondsInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput"></a>
+
+```java
+public java.lang.Number getTtlMaximumSecondsInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `ttlMinimumSecondsInput`<sup>Optional</sup> <a name="ttlMinimumSecondsInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput"></a>
+
+```java
+public java.lang.Number getTtlMinimumSecondsInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.key"></a>
+
+```java
+public java.lang.String getKey();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ttlMaximumSeconds`<sup>Required</sup> <a name="ttlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMaximumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `ttlMinimumSeconds`<sup>Required</sup> <a name="ttlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMinimumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|MediatailorFunctionAwsServiceRequestConfigurationCache getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a>
+
+---
+
 
 ### MediatailorFunctionAwsServiceRequestConfigurationOutputReference <a name="MediatailorFunctionAwsServiceRequestConfigurationOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference"></a>
 
@@ -2443,7 +3049,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.putCache">putCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetBody">resetBody</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetCache">resetCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetHeaders">resetHeaders</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetMethodType">resetMethodType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetOutput">resetOutput</a></code> | *No description.* |
@@ -2605,10 +3213,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putCache` <a name="putCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.putCache"></a>
+
+```java
+public void putCache(MediatailorFunctionAwsServiceRequestConfigurationCache value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.putCache.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a>
+
+---
+
 ##### `resetBody` <a name="resetBody" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetBody"></a>
 
 ```java
 public void resetBody()
+```
+
+##### `resetCache` <a name="resetCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetCache"></a>
+
+```java
+public void resetCache()
 ```
 
 ##### `resetHeaders` <a name="resetHeaders" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.resetHeaders"></a>
@@ -2666,7 +3292,9 @@ public void resetUrl()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference">MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.bodyInput">bodyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.cacheInput">cacheInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.headersInput">headersInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.methodTypeInput">methodTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.outputInput">outputInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -2712,6 +3340,16 @@ public java.lang.String getFqn();
 
 ---
 
+##### `cache`<sup>Required</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.cache"></a>
+
+```java
+public MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference getCache();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference">MediatailorFunctionAwsServiceRequestConfigurationCacheOutputReference</a>
+
+---
+
 ##### `bodyInput`<sup>Optional</sup> <a name="bodyInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.bodyInput"></a>
 
 ```java
@@ -2719,6 +3357,16 @@ public java.lang.String getBodyInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `cacheInput`<sup>Optional</sup> <a name="cacheInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.cacheInput"></a>
+
+```java
+public IResolvable|MediatailorFunctionAwsServiceRequestConfigurationCache getCacheInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionAwsServiceRequestConfigurationCache">MediatailorFunctionAwsServiceRequestConfigurationCache</a>
 
 ---
 
@@ -4131,6 +4779,342 @@ public IResolvable|MediatailorFunctionCustomOutputConfiguration getInternalValue
 ---
 
 
+### MediatailorFunctionHttpRequestConfigurationCacheOutputReference <a name="MediatailorFunctionHttpRequestConfigurationCacheOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionHttpRequestConfigurationCacheOutputReference;
+
+new MediatailorFunctionHttpRequestConfigurationCacheOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetKey">resetKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds">resetTtlMaximumSeconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds">resetTtlMinimumSeconds</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetKey` <a name="resetKey" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetKey"></a>
+
+```java
+public void resetKey()
+```
+
+##### `resetTtlMaximumSeconds` <a name="resetTtlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds"></a>
+
+```java
+public void resetTtlMaximumSeconds()
+```
+
+##### `resetTtlMinimumSeconds` <a name="resetTtlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds"></a>
+
+```java
+public void resetTtlMinimumSeconds()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.keyInput">keyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput">ttlMaximumSecondsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput">ttlMinimumSecondsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.key">key</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds">ttlMaximumSeconds</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds">ttlMinimumSeconds</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `keyInput`<sup>Optional</sup> <a name="keyInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.keyInput"></a>
+
+```java
+public java.lang.String getKeyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ttlMaximumSecondsInput`<sup>Optional</sup> <a name="ttlMaximumSecondsInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput"></a>
+
+```java
+public java.lang.Number getTtlMaximumSecondsInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `ttlMinimumSecondsInput`<sup>Optional</sup> <a name="ttlMinimumSecondsInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput"></a>
+
+```java
+public java.lang.Number getTtlMinimumSecondsInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.key"></a>
+
+```java
+public java.lang.String getKey();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ttlMaximumSeconds`<sup>Required</sup> <a name="ttlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMaximumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `ttlMinimumSeconds`<sup>Required</sup> <a name="ttlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMinimumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|MediatailorFunctionHttpRequestConfigurationCache getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a>
+
+---
+
+
 ### MediatailorFunctionHttpRequestConfigurationOutputReference <a name="MediatailorFunctionHttpRequestConfigurationOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.Initializer"></a>
@@ -4181,7 +5165,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.putCache">putCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetBody">resetBody</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetCache">resetCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetHeaders">resetHeaders</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetMethodType">resetMethodType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetOutput">resetOutput</a></code> | *No description.* |
@@ -4341,10 +5327,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putCache` <a name="putCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.putCache"></a>
+
+```java
+public void putCache(MediatailorFunctionHttpRequestConfigurationCache value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.putCache.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a>
+
+---
+
 ##### `resetBody` <a name="resetBody" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetBody"></a>
 
 ```java
 public void resetBody()
+```
+
+##### `resetCache` <a name="resetCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetCache"></a>
+
+```java
+public void resetCache()
 ```
 
 ##### `resetHeaders` <a name="resetHeaders" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.resetHeaders"></a>
@@ -4390,7 +5394,9 @@ public void resetUrl()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference">MediatailorFunctionHttpRequestConfigurationCacheOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.bodyInput">bodyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.cacheInput">cacheInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.headersInput">headersInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.methodTypeInput">methodTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.outputInput">outputInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -4432,6 +5438,16 @@ public java.lang.String getFqn();
 
 ---
 
+##### `cache`<sup>Required</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.cache"></a>
+
+```java
+public MediatailorFunctionHttpRequestConfigurationCacheOutputReference getCache();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCacheOutputReference">MediatailorFunctionHttpRequestConfigurationCacheOutputReference</a>
+
+---
+
 ##### `bodyInput`<sup>Optional</sup> <a name="bodyInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.bodyInput"></a>
 
 ```java
@@ -4439,6 +5455,16 @@ public java.lang.String getBodyInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `cacheInput`<sup>Optional</sup> <a name="cacheInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationOutputReference.property.cacheInput"></a>
+
+```java
+public IResolvable|MediatailorFunctionHttpRequestConfigurationCache getCacheInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionHttpRequestConfigurationCache">MediatailorFunctionHttpRequestConfigurationCache</a>
 
 ---
 
@@ -5960,6 +6986,342 @@ public IResolvable|MediatailorFunctionTags getInternalValue();
 ---
 
 
+### MediatailorFunctionVastRequestConfigurationCacheOutputReference <a name="MediatailorFunctionVastRequestConfigurationCacheOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediatailor_function.MediatailorFunctionVastRequestConfigurationCacheOutputReference;
+
+new MediatailorFunctionVastRequestConfigurationCacheOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetKey">resetKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds">resetTtlMaximumSeconds</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds">resetTtlMinimumSeconds</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetKey` <a name="resetKey" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetKey"></a>
+
+```java
+public void resetKey()
+```
+
+##### `resetTtlMaximumSeconds` <a name="resetTtlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetTtlMaximumSeconds"></a>
+
+```java
+public void resetTtlMaximumSeconds()
+```
+
+##### `resetTtlMinimumSeconds` <a name="resetTtlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.resetTtlMinimumSeconds"></a>
+
+```java
+public void resetTtlMinimumSeconds()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.keyInput">keyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput">ttlMaximumSecondsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput">ttlMinimumSecondsInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.key">key</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds">ttlMaximumSeconds</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds">ttlMinimumSeconds</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `keyInput`<sup>Optional</sup> <a name="keyInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.keyInput"></a>
+
+```java
+public java.lang.String getKeyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ttlMaximumSecondsInput`<sup>Optional</sup> <a name="ttlMaximumSecondsInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMaximumSecondsInput"></a>
+
+```java
+public java.lang.Number getTtlMaximumSecondsInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `ttlMinimumSecondsInput`<sup>Optional</sup> <a name="ttlMinimumSecondsInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMinimumSecondsInput"></a>
+
+```java
+public java.lang.Number getTtlMinimumSecondsInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.key"></a>
+
+```java
+public java.lang.String getKey();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `ttlMaximumSeconds`<sup>Required</sup> <a name="ttlMaximumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMaximumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMaximumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `ttlMinimumSeconds`<sup>Required</sup> <a name="ttlMinimumSeconds" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.ttlMinimumSeconds"></a>
+
+```java
+public java.lang.Number getTtlMinimumSeconds();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|MediatailorFunctionVastRequestConfigurationCache getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a>
+
+---
+
+
 ### MediatailorFunctionVastRequestConfigurationOutputReference <a name="MediatailorFunctionVastRequestConfigurationOutputReference" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.Initializer"></a>
@@ -6010,7 +7372,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.putCache">putCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetBody">resetBody</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetCache">resetCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetHeaders">resetHeaders</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetMethodType">resetMethodType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetOutput">resetOutput</a></code> | *No description.* |
@@ -6170,10 +7534,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putCache` <a name="putCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.putCache"></a>
+
+```java
+public void putCache(MediatailorFunctionVastRequestConfigurationCache value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.putCache.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a>
+
+---
+
 ##### `resetBody` <a name="resetBody" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetBody"></a>
 
 ```java
 public void resetBody()
+```
+
+##### `resetCache` <a name="resetCache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetCache"></a>
+
+```java
+public void resetCache()
 ```
 
 ##### `resetHeaders` <a name="resetHeaders" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.resetHeaders"></a>
@@ -6219,7 +7601,9 @@ public void resetUrl()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.cache">cache</a></code> | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference">MediatailorFunctionVastRequestConfigurationCacheOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.bodyInput">bodyInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.cacheInput">cacheInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.headersInput">headersInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.methodTypeInput">methodTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.outputInput">outputInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -6261,6 +7645,16 @@ public java.lang.String getFqn();
 
 ---
 
+##### `cache`<sup>Required</sup> <a name="cache" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.cache"></a>
+
+```java
+public MediatailorFunctionVastRequestConfigurationCacheOutputReference getCache();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCacheOutputReference">MediatailorFunctionVastRequestConfigurationCacheOutputReference</a>
+
+---
+
 ##### `bodyInput`<sup>Optional</sup> <a name="bodyInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.bodyInput"></a>
 
 ```java
@@ -6268,6 +7662,16 @@ public java.lang.String getBodyInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `cacheInput`<sup>Optional</sup> <a name="cacheInput" id="@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationOutputReference.property.cacheInput"></a>
+
+```java
+public IResolvable|MediatailorFunctionVastRequestConfigurationCache getCacheInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionVastRequestConfigurationCache">MediatailorFunctionVastRequestConfigurationCache</a>
 
 ---
 

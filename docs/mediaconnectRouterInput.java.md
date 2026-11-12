@@ -4,7 +4,7 @@
 
 ### MediaconnectRouterInput <a name="MediaconnectRouterInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer"></a>
 
@@ -47,8 +47,8 @@ MediaconnectRouterInput.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration">MediaconnectRouterInputConfiguration</a></code> | The configuration settings for a router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.maximumBitrate">maximumBitrate</a></code> | <code>java.lang.Number</code> | The maximum bitrate for the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The name of the router input. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.routingScope">routingScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.tier">tier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.routingScope">routingScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.tier">tier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.availabilityZone">availabilityZone</a></code> | <code>java.lang.String</code> | The Availability Zone where you want to create the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.contentQualityAnalysisConfiguration">contentQualityAnalysisConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfiguration">MediaconnectRouterInputContentQualityAnalysisConfiguration</a></code> | The content quality analysis configuration for the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.Initializer.parameter.maintenanceConfiguration">maintenanceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfiguration">MediaconnectRouterInputMaintenanceConfiguration</a></code> | The configuration settings for maintenance operations, including preferred maintenance windows and schedules. |
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 The configuration settings for a router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#configuration MediaconnectRouterInput#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#configuration MediaconnectRouterInput#configuration}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The maximum bitrate for the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#maximum_bitrate MediaconnectRouterInput#maximum_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#maximum_bitrate MediaconnectRouterInput#maximum_bitrate}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#name MediaconnectRouterInput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#name MediaconnectRouterInput#name}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}.
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}.
 
 ---
 
@@ -172,7 +172,7 @@ The Availability Zone where you want to create the router input.
 
 This must be a valid Availability Zone for the region specified by regionName, or the current region if no regionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#availability_zone MediaconnectRouterInput#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#availability_zone MediaconnectRouterInput#availability_zone}
 
 ---
 
@@ -184,7 +184,7 @@ The content quality analysis configuration for the router input.
 
 The content quality analysis feature only monitors the first video stream and the first audio stream it encounters within the router input source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#content_quality_analysis_configuration MediaconnectRouterInput#content_quality_analysis_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#content_quality_analysis_configuration MediaconnectRouterInput#content_quality_analysis_configuration}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration settings for maintenance operations, including preferred maintenance windows and schedules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#maintenance_configuration MediaconnectRouterInput#maintenance_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#maintenance_configuration MediaconnectRouterInput#maintenance_configuration}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Web Services Region for the router input. Defaults to the current region if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#region_name MediaconnectRouterInput#region_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#region_name MediaconnectRouterInput#region_name}
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key-value pairs that can be used to tag and organize this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#tags MediaconnectRouterInput#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#tags MediaconnectRouterInput#tags}
 
 ---
 
@@ -224,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The transit encryption settings for a router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#transit_encryption MediaconnectRouterInput#transit_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#transit_encryption MediaconnectRouterInput#transit_encryption}
 
 ---
 
@@ -780,7 +780,7 @@ The construct id used in the generated config for the MediaconnectRouterInput to
 
 The id of the existing MediaconnectRouterInput that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -811,6 +811,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.property.arn">arn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.property.associatedDestinationEndpointArns">associatedDestinationEndpointArns</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference">MediaconnectRouterInputConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.property.contentQualityAnalysisConfiguration">contentQualityAnalysisConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationOutputReference">MediaconnectRouterInputContentQualityAnalysisConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.property.contentQualityAnalysisType">contentQualityAnalysisType</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -995,6 +996,16 @@ public java.lang.String getArn();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `associatedDestinationEndpointArns`<sup>Required</sup> <a name="associatedDestinationEndpointArns" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInput.property.associatedDestinationEndpointArns"></a>
+
+```java
+public java.util.List<java.lang.String> getAssociatedDestinationEndpointArns();
+```
+
+- *Type:* java.util.List<java.lang.String>
 
 ---
 
@@ -1381,8 +1392,8 @@ MediaconnectRouterInputConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration">MediaconnectRouterInputConfiguration</a></code> | The configuration settings for a router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.maximumBitrate">maximumBitrate</a></code> | <code>java.lang.Number</code> | The maximum bitrate for the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.name">name</a></code> | <code>java.lang.String</code> | The name of the router input. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.routingScope">routingScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.tier">tier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.routingScope">routingScope</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.tier">tier</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.availabilityZone">availabilityZone</a></code> | <code>java.lang.String</code> | The Availability Zone where you want to create the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.contentQualityAnalysisConfiguration">contentQualityAnalysisConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfiguration">MediaconnectRouterInputContentQualityAnalysisConfiguration</a></code> | The content quality analysis configuration for the router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfig.property.maintenanceConfiguration">maintenanceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfiguration">MediaconnectRouterInputMaintenanceConfiguration</a></code> | The configuration settings for maintenance operations, including preferred maintenance windows and schedules. |
@@ -1472,7 +1483,7 @@ public MediaconnectRouterInputConfiguration getConfiguration();
 
 The configuration settings for a router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#configuration MediaconnectRouterInput#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#configuration MediaconnectRouterInput#configuration}
 
 ---
 
@@ -1486,7 +1497,7 @@ public java.lang.Number getMaximumBitrate();
 
 The maximum bitrate for the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#maximum_bitrate MediaconnectRouterInput#maximum_bitrate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#maximum_bitrate MediaconnectRouterInput#maximum_bitrate}
 
 ---
 
@@ -1500,7 +1511,7 @@ public java.lang.String getName();
 
 The name of the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#name MediaconnectRouterInput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#name MediaconnectRouterInput#name}
 
 ---
 
@@ -1512,7 +1523,7 @@ public java.lang.String getRoutingScope();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}.
 
 ---
 
@@ -1524,7 +1535,7 @@ public java.lang.String getTier();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}.
 
 ---
 
@@ -1540,7 +1551,7 @@ The Availability Zone where you want to create the router input.
 
 This must be a valid Availability Zone for the region specified by regionName, or the current region if no regionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#availability_zone MediaconnectRouterInput#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#availability_zone MediaconnectRouterInput#availability_zone}
 
 ---
 
@@ -1556,7 +1567,7 @@ The content quality analysis configuration for the router input.
 
 The content quality analysis feature only monitors the first video stream and the first audio stream it encounters within the router input source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#content_quality_analysis_configuration MediaconnectRouterInput#content_quality_analysis_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#content_quality_analysis_configuration MediaconnectRouterInput#content_quality_analysis_configuration}
 
 ---
 
@@ -1570,7 +1581,7 @@ public MediaconnectRouterInputMaintenanceConfiguration getMaintenanceConfigurati
 
 The configuration settings for maintenance operations, including preferred maintenance windows and schedules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#maintenance_configuration MediaconnectRouterInput#maintenance_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#maintenance_configuration MediaconnectRouterInput#maintenance_configuration}
 
 ---
 
@@ -1584,7 +1595,7 @@ public java.lang.String getRegionName();
 
 The Amazon Web Services Region for the router input. Defaults to the current region if not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#region_name MediaconnectRouterInput#region_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#region_name MediaconnectRouterInput#region_name}
 
 ---
 
@@ -1598,7 +1609,7 @@ public IResolvable|java.util.List<MediaconnectRouterInputTags> getTags();
 
 Key-value pairs that can be used to tag and organize this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#tags MediaconnectRouterInput#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#tags MediaconnectRouterInput#tags}
 
 ---
 
@@ -1612,7 +1623,7 @@ public MediaconnectRouterInputTransitEncryption getTransitEncryption();
 
 The transit encryption settings for a router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#transit_encryption MediaconnectRouterInput#transit_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#transit_encryption MediaconnectRouterInput#transit_encryption}
 
 ---
 
@@ -1624,6 +1635,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfiguration;
 
 MediaconnectRouterInputConfiguration.builder()
+//  .destinationEndpoint(MediaconnectRouterInputConfigurationDestinationEndpoint)
 //  .failover(MediaconnectRouterInputConfigurationFailover)
 //  .mediaConnectFlow(MediaconnectRouterInputConfigurationMediaConnectFlow)
 //  .mediaLiveChannel(MediaconnectRouterInputConfigurationMediaLiveChannel)
@@ -1636,11 +1648,26 @@ MediaconnectRouterInputConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration.property.destinationEndpoint">destinationEndpoint</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint">MediaconnectRouterInputConfigurationDestinationEndpoint</a></code> | Configuration settings for a router input that is represented by a destination endpoint. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration.property.failover">failover</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover">MediaconnectRouterInputConfigurationFailover</a></code> | Configuration settings for a failover router input that allows switching between two input sources. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration.property.mediaConnectFlow">mediaConnectFlow</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlow">MediaconnectRouterInputConfigurationMediaConnectFlow</a></code> | Configuration settings for connecting a router input to a flow output. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration.property.mediaLiveChannel">mediaLiveChannel</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel">MediaconnectRouterInputConfigurationMediaLiveChannel</a></code> | Configuration settings for connecting a router input to a MediaLive channel output. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration.property.merge">merge</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMerge">MediaconnectRouterInputConfigurationMerge</a></code> | Configuration settings for a merge router input that combines two input sources. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration.property.standard">standard</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard">MediaconnectRouterInputConfigurationStandard</a></code> | The configuration settings for a standard router input, including the protocol, protocol-specific configuration, network interface, and availability zone. |
+
+---
+
+##### `destinationEndpoint`<sup>Optional</sup> <a name="destinationEndpoint" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfiguration.property.destinationEndpoint"></a>
+
+```java
+public MediaconnectRouterInputConfigurationDestinationEndpoint getDestinationEndpoint();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint">MediaconnectRouterInputConfigurationDestinationEndpoint</a>
+
+Configuration settings for a router input that is represented by a destination endpoint.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#destination_endpoint MediaconnectRouterInput#destination_endpoint}
 
 ---
 
@@ -1654,7 +1681,7 @@ public MediaconnectRouterInputConfigurationFailover getFailover();
 
 Configuration settings for a failover router input that allows switching between two input sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#failover MediaconnectRouterInput#failover}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#failover MediaconnectRouterInput#failover}
 
 ---
 
@@ -1668,7 +1695,9 @@ public MediaconnectRouterInputConfigurationMediaConnectFlow getMediaConnectFlow(
 
 Configuration settings for connecting a router input to a flow output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#media_connect_flow MediaconnectRouterInput#media_connect_flow}
+To connect the router input to the flow output, provide both flowArn and flowOutputArn. To disconnect it, call the update operation and omit both fields while keeping this configuration object. You can't change sourceTransitDecryption while the router input is connected to a flow output. To change it, first disconnect the router input, then update the decryption.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_connect_flow MediaconnectRouterInput#media_connect_flow}
 
 ---
 
@@ -1682,7 +1711,9 @@ public MediaconnectRouterInputConfigurationMediaLiveChannel getMediaLiveChannel(
 
 Configuration settings for connecting a router input to a MediaLive channel output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#media_live_channel MediaconnectRouterInput#media_live_channel}
+To connect the router input to the MediaLive channel output, provide all three of mediaLiveChannelArn, mediaLivePipelineId, and mediaLiveChannelOutputName. To disconnect it, call the update operation and omit all three fields while keeping this configuration object. You can't change sourceTransitDecryption while the router input is connected to a MediaLive channel output. To change it, first disconnect the router input, then update the decryption.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_channel MediaconnectRouterInput#media_live_channel}
 
 ---
 
@@ -1696,7 +1727,7 @@ public MediaconnectRouterInputConfigurationMerge getMerge();
 
 Configuration settings for a merge router input that combines two input sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#merge MediaconnectRouterInput#merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#merge MediaconnectRouterInput#merge}
 
 ---
 
@@ -1710,7 +1741,207 @@ public MediaconnectRouterInputConfigurationStandard getStandard();
 
 The configuration settings for a standard router input, including the protocol, protocol-specific configuration, network interface, and availability zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#standard MediaconnectRouterInput#standard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#standard MediaconnectRouterInput#standard}
+
+---
+
+### MediaconnectRouterInputConfigurationDestinationEndpoint <a name="MediaconnectRouterInputConfigurationDestinationEndpoint" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfigurationDestinationEndpoint;
+
+MediaconnectRouterInputConfigurationDestinationEndpoint.builder()
+//  .endpointLifecycleManagement(java.lang.String)
+//  .sourceTransitDecryption(MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption)
+//  .sourceTransitDecryptionType(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint.property.endpointLifecycleManagement">endpointLifecycleManagement</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#endpoint_lifecycle_management MediaconnectRouterInput#endpoint_lifecycle_management}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint.property.sourceTransitDecryption">sourceTransitDecryption</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption</a></code> | The encryption settings for an endpoint connection. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint.property.sourceTransitDecryptionType">sourceTransitDecryptionType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption_type MediaconnectRouterInput#source_transit_decryption_type}. |
+
+---
+
+##### `endpointLifecycleManagement`<sup>Optional</sup> <a name="endpointLifecycleManagement" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint.property.endpointLifecycleManagement"></a>
+
+```java
+public java.lang.String getEndpointLifecycleManagement();
+```
+
+- *Type:* java.lang.String
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#endpoint_lifecycle_management MediaconnectRouterInput#endpoint_lifecycle_management}.
+
+---
+
+##### `sourceTransitDecryption`<sup>Optional</sup> <a name="sourceTransitDecryption" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint.property.sourceTransitDecryption"></a>
+
+```java
+public MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption getSourceTransitDecryption();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption</a>
+
+The encryption settings for an endpoint connection.
+
+This is a union type, so exactly one of its members is set: secretsManager when you store the encryption key or passphrase in Secrets Manager, or automatic when you let MediaConnect determine the encryption key when the endpoint connects.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
+
+---
+
+##### `sourceTransitDecryptionType`<sup>Optional</sup> <a name="sourceTransitDecryptionType" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint.property.sourceTransitDecryptionType"></a>
+
+```java
+public java.lang.String getSourceTransitDecryptionType();
+```
+
+- *Type:* java.lang.String
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption_type MediaconnectRouterInput#source_transit_decryption_type}.
+
+---
+
+### MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption <a name="MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption;
+
+MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption.builder()
+//  .automatic(java.lang.String)
+//  .secretsManager(MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption.property.automatic">automatic</a></code> | <code>java.lang.String</code> | The configuration for automatic endpoint encryption. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption.property.secretsManager">secretsManager</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager</a></code> | The endpoint encryption configuration for connections that use a key or passphrase that you store in Secrets Manager. |
+
+---
+
+##### `automatic`<sup>Optional</sup> <a name="automatic" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption.property.automatic"></a>
+
+```java
+public java.lang.String getAutomatic();
+```
+
+- *Type:* java.lang.String
+
+The configuration for automatic endpoint encryption.
+
+In this mode, MediaConnect determines the encryption key when the endpoint connects. This type does not require any additional settings.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+
+---
+
+##### `secretsManager`<sup>Optional</sup> <a name="secretsManager" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption.property.secretsManager"></a>
+
+```java
+public MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager getSecretsManager();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager</a>
+
+The endpoint encryption configuration for connections that use a key or passphrase that you store in Secrets Manager.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+
+---
+
+### MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager <a name="MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager;
+
+MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager.builder()
+//  .encryptionSecret(MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret)
+//  .encryptionSecretType(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager.property.encryptionSecret">encryptionSecret</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret</a></code> | The configuration for the Secrets Manager secret that holds the key or passphrase used to encrypt an endpoint connection. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager.property.encryptionSecretType">encryptionSecretType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_secret_type MediaconnectRouterInput#encryption_secret_type}. |
+
+---
+
+##### `encryptionSecret`<sup>Optional</sup> <a name="encryptionSecret" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager.property.encryptionSecret"></a>
+
+```java
+public MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret getEncryptionSecret();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret</a>
+
+The configuration for the Secrets Manager secret that holds the key or passphrase used to encrypt an endpoint connection.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_secret MediaconnectRouterInput#encryption_secret}
+
+---
+
+##### `encryptionSecretType`<sup>Optional</sup> <a name="encryptionSecretType" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager.property.encryptionSecretType"></a>
+
+```java
+public java.lang.String getEncryptionSecretType();
+```
+
+- *Type:* java.lang.String
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_secret_type MediaconnectRouterInput#encryption_secret_type}.
+
+---
+
+### MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret <a name="MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret;
+
+MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret.builder()
+//  .secretArn(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | The ARN of the Secrets Manager secret that holds the key or passphrase. |
+
+---
+
+##### `secretArn`<sup>Optional</sup> <a name="secretArn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret.property.secretArn"></a>
+
+```java
+public java.lang.String getSecretArn();
+```
+
+- *Type:* java.lang.String
+
+The ARN of the Secrets Manager secret that holds the key or passphrase.
+
+The secret must be encrypted with a customer managed Amazon Web Services KMS key that is enabled and symmetric; it cannot use the Amazon Web Services managed key aws/secretsmanager. The secret must be in the same Amazon Web Services account and Region as the endpoint.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -1736,7 +1967,7 @@ MediaconnectRouterInputConfigurationFailover.builder()
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.networkInterfaceArn">networkInterfaceArn</a></code> | <code>java.lang.String</code> | The ARN of the network interface to use for this failover router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.primarySourceIndex">primarySourceIndex</a></code> | <code>java.lang.Number</code> | The index (0 or 1) that specifies which source in the protocol configurations list is currently active. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.protocolConfigurations">protocolConfigurations</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverProtocolConfigurations">MediaconnectRouterInputConfigurationFailoverProtocolConfigurations</a>></code> | A list of exactly two protocol configurations for the failover input sources. Both must use the same protocol type. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.sourcePriorityMode">sourcePriorityMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover.property.sourcePriorityMode">sourcePriorityMode</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}. |
 
 ---
 
@@ -1750,7 +1981,7 @@ public java.lang.String getNetworkInterfaceArn();
 
 The ARN of the network interface to use for this failover router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
 
 ---
 
@@ -1766,7 +1997,7 @@ The index (0 or 1) that specifies which source in the protocol configurations li
 
 Used to control which of the two failover sources is currently selected. This field is ignored when sourcePriorityMode is set to NO_PRIORITY
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#primary_source_index MediaconnectRouterInput#primary_source_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#primary_source_index MediaconnectRouterInput#primary_source_index}
 
 ---
 
@@ -1780,7 +2011,7 @@ public IResolvable|java.util.List<MediaconnectRouterInputConfigurationFailoverPr
 
 A list of exactly two protocol configurations for the failover input sources. Both must use the same protocol type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
 
 ---
 
@@ -1792,7 +2023,7 @@ public java.lang.String getSourcePriorityMode();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}.
 
 ---
 
@@ -1832,7 +2063,7 @@ public MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRist ge
 
 The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
 
 ---
 
@@ -1846,7 +2077,7 @@ public MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp get
 
 The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
 
 ---
 
@@ -1860,7 +2091,7 @@ public MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtCall
 
 The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in caller mode, including the source address and port, minimum latency, stream ID, and decryption key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
 
 ---
 
@@ -1874,7 +2105,7 @@ public MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtList
 
 The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in listener mode, including the port, minimum latency, and decryption key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
 
 ---
 
@@ -1910,7 +2141,7 @@ public java.lang.Number getPort();
 
 The port number used for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -1924,7 +2155,7 @@ public java.lang.Number getRecoveryLatencyMilliseconds();
 
 The recovery latency in milliseconds for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
 
 ---
 
@@ -1945,7 +2176,7 @@ MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp.property.forwardErrorCorrection">forwardErrorCorrection</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp.property.forwardErrorCorrection">forwardErrorCorrection</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp.property.port">port</a></code> | <code>java.lang.Number</code> | The port number used for the RTP protocol in the router input configuration. |
 
 ---
@@ -1958,7 +2189,7 @@ public java.lang.String getForwardErrorCorrection();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
 
 ---
 
@@ -1972,7 +2203,7 @@ public java.lang.Number getPort();
 
 The port number used for the RTP protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -2014,7 +2245,7 @@ public MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtCall
 
 Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
 
 ---
 
@@ -2028,7 +2259,7 @@ public java.lang.Number getMinimumLatencyMilliseconds();
 
 The minimum latency in milliseconds for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
 
 ---
 
@@ -2042,7 +2273,7 @@ public java.lang.String getSourceAddress();
 
 The source IP address for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
 
 ---
 
@@ -2056,7 +2287,7 @@ public java.lang.Number getSourcePort();
 
 The source port number for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
 
 ---
 
@@ -2070,7 +2301,7 @@ public java.lang.String getStreamId();
 
 The stream ID for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
 
 ---
 
@@ -2104,7 +2335,7 @@ public MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtCall
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 
 ---
 
@@ -2140,7 +2371,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -2154,7 +2385,7 @@ public java.lang.String getSecretArn();
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -2192,7 +2423,7 @@ public MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtList
 
 Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
 
 ---
 
@@ -2206,7 +2437,7 @@ public java.lang.Number getMinimumLatencyMilliseconds();
 
 The minimum latency in milliseconds for the SRT protocol in listener mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
 
 ---
 
@@ -2220,7 +2451,7 @@ public java.lang.Number getPort();
 
 The port number for the SRT protocol in listener mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -2254,7 +2485,7 @@ public MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtList
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 
 ---
 
@@ -2290,7 +2521,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -2304,7 +2535,7 @@ public java.lang.String getSecretArn();
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -2342,7 +2573,7 @@ public java.lang.String getFlowArn();
 
 The ARN of the flow to connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#flow_arn MediaconnectRouterInput#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#flow_arn MediaconnectRouterInput#flow_arn}
 
 ---
 
@@ -2356,7 +2587,7 @@ public java.lang.String getFlowOutputArn();
 
 The ARN of the flow output to connect to this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#flow_output_arn MediaconnectRouterInput#flow_output_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#flow_output_arn MediaconnectRouterInput#flow_output_arn}
 
 ---
 
@@ -2370,7 +2601,7 @@ public MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecrypti
 
 The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
 
 ---
 
@@ -2392,7 +2623,7 @@ MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryption.buil
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryption.property.encryptionKeyConfiguration">encryptionKeyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryptionEncryptionKeyConfiguration">MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryptionEncryptionKeyConfiguration</a></code> | Configuration settings for flow transit encryption keys. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryption.property.encryptionKeyType">encryptionKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryption.property.encryptionKeyType">encryptionKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
 
 ---
 
@@ -2406,7 +2637,7 @@ public MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecrypti
 
 Configuration settings for flow transit encryption keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
 
 ---
 
@@ -2418,7 +2649,7 @@ public java.lang.String getEncryptionKeyType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
 
 ---
 
@@ -2454,7 +2685,7 @@ public java.lang.String getAutomatic();
 
 Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
 
 ---
 
@@ -2468,7 +2699,7 @@ public MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecrypti
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
 
 ---
 
@@ -2504,7 +2735,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -2518,7 +2749,7 @@ public java.lang.String getSecretArn();
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -2543,7 +2774,7 @@ MediaconnectRouterInputConfigurationMediaLiveChannel.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.mediaLiveChannelArn">mediaLiveChannelArn</a></code> | <code>java.lang.String</code> | The ARN of the MediaLive channel to connect to this router input. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.mediaLiveChannelOutputName">mediaLiveChannelOutputName</a></code> | <code>java.lang.String</code> | The name of the MediaLive channel output to connect to this router input. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.mediaLivePipelineId">mediaLivePipelineId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.mediaLivePipelineId">mediaLivePipelineId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel.property.sourceTransitDecryption">sourceTransitDecryption</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption">MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption</a></code> | The encryption configuration that defines how content is encrypted during transit between MediaConnect Router and MediaLive. |
 
 ---
@@ -2558,7 +2789,7 @@ public java.lang.String getMediaLiveChannelArn();
 
 The ARN of the MediaLive channel to connect to this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#media_live_channel_arn MediaconnectRouterInput#media_live_channel_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_channel_arn MediaconnectRouterInput#media_live_channel_arn}
 
 ---
 
@@ -2572,7 +2803,7 @@ public java.lang.String getMediaLiveChannelOutputName();
 
 The name of the MediaLive channel output to connect to this router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#media_live_channel_output_name MediaconnectRouterInput#media_live_channel_output_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_channel_output_name MediaconnectRouterInput#media_live_channel_output_name}
 
 ---
 
@@ -2584,7 +2815,7 @@ public java.lang.String getMediaLivePipelineId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}.
 
 ---
 
@@ -2600,7 +2831,7 @@ The encryption configuration that defines how content is encrypted during transi
 
 This configuration determines whether encryption keys are automatically managed by the service or manually managed through Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
 
 ---
 
@@ -2622,7 +2853,7 @@ MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption.buil
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption.property.encryptionKeyConfiguration">encryptionKeyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryptionEncryptionKeyConfiguration">MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryptionEncryptionKeyConfiguration</a></code> | Configuration settings for the MediaLive transit encryption key. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption.property.encryptionKeyType">encryptionKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption.property.encryptionKeyType">encryptionKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
 
 ---
 
@@ -2636,7 +2867,7 @@ public MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecrypti
 
 Configuration settings for the MediaLive transit encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
 
 ---
 
@@ -2648,7 +2879,7 @@ public java.lang.String getEncryptionKeyType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
 
 ---
 
@@ -2684,7 +2915,7 @@ public java.lang.String getAutomatic();
 
 Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
 
 ---
 
@@ -2698,7 +2929,7 @@ public MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecrypti
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
 
 ---
 
@@ -2734,7 +2965,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -2748,7 +2979,7 @@ public java.lang.String getSecretArn();
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -2786,7 +3017,7 @@ public java.lang.Number getMergeRecoveryWindowMilliseconds();
 
 The time window in milliseconds for merging the two input sources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#merge_recovery_window_milliseconds MediaconnectRouterInput#merge_recovery_window_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#merge_recovery_window_milliseconds MediaconnectRouterInput#merge_recovery_window_milliseconds}
 
 ---
 
@@ -2800,7 +3031,7 @@ public java.lang.String getNetworkInterfaceArn();
 
 The ARN of the network interface to use for this merge router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
 
 ---
 
@@ -2814,7 +3045,7 @@ public IResolvable|java.util.List<MediaconnectRouterInputConfigurationMergeProto
 
 A list of exactly two protocol configurations for the merge input sources. Both must use the same protocol type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
 
 ---
 
@@ -2850,7 +3081,7 @@ public MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRist getRi
 
 The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
 
 ---
 
@@ -2864,7 +3095,7 @@ public MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp getRtp
 
 The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
 
 ---
 
@@ -2900,7 +3131,7 @@ public java.lang.Number getPort();
 
 The port number used for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -2914,7 +3145,7 @@ public java.lang.Number getRecoveryLatencyMilliseconds();
 
 The recovery latency in milliseconds for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
 
 ---
 
@@ -2935,7 +3166,7 @@ MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp.property.forwardErrorCorrection">forwardErrorCorrection</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp.property.forwardErrorCorrection">forwardErrorCorrection</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp.property.port">port</a></code> | <code>java.lang.Number</code> | The port number used for the RTP protocol in the router input configuration. |
 
 ---
@@ -2948,7 +3179,7 @@ public java.lang.String getForwardErrorCorrection();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
 
 ---
 
@@ -2962,7 +3193,7 @@ public java.lang.Number getPort();
 
 The port number used for the RTP protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -2985,7 +3216,7 @@ MediaconnectRouterInputConfigurationStandard.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard.property.networkInterfaceArn">networkInterfaceArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the network interface associated with the standard router input. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard.property.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard.property.protocol">protocol</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandard.property.protocolConfiguration">protocolConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardProtocolConfiguration">MediaconnectRouterInputConfigurationStandardProtocolConfiguration</a></code> | The protocol configuration settings for a router input. |
 
 ---
@@ -3000,7 +3231,7 @@ public java.lang.String getNetworkInterfaceArn();
 
 The Amazon Resource Name (ARN) of the network interface associated with the standard router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
 
 ---
 
@@ -3012,7 +3243,7 @@ public java.lang.String getProtocol();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}.
 
 ---
 
@@ -3026,7 +3257,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfiguration getProt
 
 The protocol configuration settings for a router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#protocol_configuration MediaconnectRouterInput#protocol_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol_configuration MediaconnectRouterInput#protocol_configuration}
 
 ---
 
@@ -3066,7 +3297,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfigurationRist get
 
 The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
 
 ---
 
@@ -3080,7 +3311,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp getR
 
 The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
 
 ---
 
@@ -3094,7 +3325,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCalle
 
 The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in caller mode, including the source address and port, minimum latency, stream ID, and decryption key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
 
 ---
 
@@ -3108,7 +3339,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtListe
 
 The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in listener mode, including the port, minimum latency, and decryption key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
 
 ---
 
@@ -3144,7 +3375,7 @@ public java.lang.Number getPort();
 
 The port number used for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -3158,7 +3389,7 @@ public java.lang.Number getRecoveryLatencyMilliseconds();
 
 The recovery latency in milliseconds for the RIST protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
 
 ---
 
@@ -3179,7 +3410,7 @@ MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp.property.forwardErrorCorrection">forwardErrorCorrection</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp.property.forwardErrorCorrection">forwardErrorCorrection</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp.property.port">port</a></code> | <code>java.lang.Number</code> | The port number used for the RTP protocol in the router input configuration. |
 
 ---
@@ -3192,7 +3423,7 @@ public java.lang.String getForwardErrorCorrection();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}.
 
 ---
 
@@ -3206,7 +3437,7 @@ public java.lang.Number getPort();
 
 The port number used for the RTP protocol in the router input configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -3248,7 +3479,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCalle
 
 Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
 
 ---
 
@@ -3262,7 +3493,7 @@ public java.lang.Number getMinimumLatencyMilliseconds();
 
 The minimum latency in milliseconds for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
 
 ---
 
@@ -3276,7 +3507,7 @@ public java.lang.String getSourceAddress();
 
 The source IP address for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
 
 ---
 
@@ -3290,7 +3521,7 @@ public java.lang.Number getSourcePort();
 
 The source port number for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
 
 ---
 
@@ -3304,7 +3535,7 @@ public java.lang.String getStreamId();
 
 The stream ID for the SRT protocol in caller mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
 
 ---
 
@@ -3338,7 +3569,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCalle
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 
 ---
 
@@ -3374,7 +3605,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -3388,7 +3619,7 @@ public java.lang.String getSecretArn();
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -3426,7 +3657,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtListe
 
 Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
 
 ---
 
@@ -3440,7 +3671,7 @@ public java.lang.Number getMinimumLatencyMilliseconds();
 
 The minimum latency in milliseconds for the SRT protocol in listener mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
 
 ---
 
@@ -3454,7 +3685,7 @@ public java.lang.Number getPort();
 
 The port number for the SRT protocol in listener mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
 
 ---
 
@@ -3488,7 +3719,7 @@ public MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtListe
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 
 ---
 
@@ -3524,7 +3755,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -3538,7 +3769,7 @@ public java.lang.String getSecretArn();
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
@@ -3572,7 +3803,7 @@ public MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevel ge
 
 Configures the content quality analysis features for the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#content_level MediaconnectRouterInput#content_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#content_level MediaconnectRouterInput#content_level}
 
 ---
 
@@ -3610,7 +3841,7 @@ public MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBla
 
 Detects black frames in the router input's source content and reports them through a CloudWatch metric, an EventBridge event, and a router input message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#black_frames MediaconnectRouterInput#black_frames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#black_frames MediaconnectRouterInput#black_frames}
 
 ---
 
@@ -3624,7 +3855,7 @@ public MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFro
 
 Detects frozen video frames in the router input's source content and reports them through a CloudWatch metric, an EventBridge event, and a router input message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#frozen_frames MediaconnectRouterInput#frozen_frames}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#frozen_frames MediaconnectRouterInput#frozen_frames}
 
 ---
 
@@ -3638,7 +3869,7 @@ public MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSil
 
 Detects silent audio in the router input's source content and reports it through a CloudWatch metric, an EventBridge event, and a router input message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#silent_audio MediaconnectRouterInput#silent_audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#silent_audio MediaconnectRouterInput#silent_audio}
 
 ---
 
@@ -3659,7 +3890,7 @@ MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrame
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames.property.state">state</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames.property.state">state</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames.property.thresholdSeconds">thresholdSeconds</a></code> | <code>java.lang.Number</code> | The number of consecutive seconds of black frames that MediaConnect must detect before it reports an issue. |
 
 ---
@@ -3672,7 +3903,7 @@ public java.lang.String getState();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
 
 ---
 
@@ -3686,7 +3917,7 @@ public java.lang.Number getThresholdSeconds();
 
 The number of consecutive seconds of black frames that MediaConnect must detect before it reports an issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
 
 ---
 
@@ -3707,7 +3938,7 @@ MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFram
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames.property.state">state</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames.property.state">state</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames.property.thresholdSeconds">thresholdSeconds</a></code> | <code>java.lang.Number</code> | The number of consecutive seconds of a frozen frame that MediaConnect must detect before it reports an issue. |
 
 ---
@@ -3720,7 +3951,7 @@ public java.lang.String getState();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
 
 ---
 
@@ -3734,7 +3965,7 @@ public java.lang.Number getThresholdSeconds();
 
 The number of consecutive seconds of a frozen frame that MediaConnect must detect before it reports an issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
 
 ---
 
@@ -3755,7 +3986,7 @@ MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio.property.state">state</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio.property.state">state</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio.property.thresholdSeconds">thresholdSeconds</a></code> | <code>java.lang.Number</code> | The number of consecutive seconds of silence that MediaConnect must detect before it reports an issue. |
 
 ---
@@ -3768,7 +3999,7 @@ public java.lang.String getState();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
 
 ---
 
@@ -3782,7 +4013,7 @@ public java.lang.Number getThresholdSeconds();
 
 The number of consecutive seconds of silence that MediaConnect must detect before it reports an issue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
 
 ---
 
@@ -3818,7 +4049,7 @@ public java.lang.String getDefault();
 
 Configuration settings for default maintenance scheduling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#default MediaconnectRouterInput#default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#default MediaconnectRouterInput#default}
 
 ---
 
@@ -3832,7 +4063,7 @@ public MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime getPrefer
 
 Configuration for preferred day and time maintenance settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#preferred_day_time MediaconnectRouterInput#preferred_day_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#preferred_day_time MediaconnectRouterInput#preferred_day_time}
 
 ---
 
@@ -3853,7 +4084,7 @@ MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime.property.day">day</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime.property.day">day</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime.property.time">time</a></code> | <code>java.lang.String</code> | The preferred time for maintenance operations. |
 
 ---
@@ -3866,7 +4097,7 @@ public java.lang.String getDay();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}.
 
 ---
 
@@ -3880,7 +4111,7 @@ public java.lang.String getTime();
 
 The preferred time for maintenance operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#time MediaconnectRouterInput#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#time MediaconnectRouterInput#time}
 
 ---
 
@@ -3901,8 +4132,8 @@ MediaconnectRouterInputTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}. |
 
 ---
 
@@ -3914,7 +4145,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}.
 
 ---
 
@@ -3926,7 +4157,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}.
 
 ---
 
@@ -3948,7 +4179,7 @@ MediaconnectRouterInputTransitEncryption.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTransitEncryption.property.encryptionKeyConfiguration">encryptionKeyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTransitEncryptionEncryptionKeyConfiguration">MediaconnectRouterInputTransitEncryptionEncryptionKeyConfiguration</a></code> | Defines the configuration settings for transit encryption keys. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTransitEncryption.property.encryptionKeyType">encryptionKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputTransitEncryption.property.encryptionKeyType">encryptionKeyType</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}. |
 
 ---
 
@@ -3962,7 +4193,7 @@ public MediaconnectRouterInputTransitEncryptionEncryptionKeyConfiguration getEnc
 
 Defines the configuration settings for transit encryption keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
 
 ---
 
@@ -3974,7 +4205,7 @@ public java.lang.String getEncryptionKeyType();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}.
 
 ---
 
@@ -4010,7 +4241,7 @@ public java.lang.String getAutomatic();
 
 Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
 
 ---
 
@@ -4024,7 +4255,7 @@ public MediaconnectRouterInputTransitEncryptionEncryptionKeyConfigurationSecrets
 
 The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
 
 ---
 
@@ -4060,7 +4291,7 @@ public java.lang.String getRoleArn();
 
 The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 
 ---
 
@@ -4074,11 +4305,1278 @@ public java.lang.String getSecretArn();
 
 The ARN of the Secrets Manager secret used for transit encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### MediaconnectRouterInputConfigurationDestinationEndpointOutputReference <a name="MediaconnectRouterInputConfigurationDestinationEndpointOutputReference" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference;
+
+new MediaconnectRouterInputConfigurationDestinationEndpointOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.putSourceTransitDecryption">putSourceTransitDecryption</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resetEndpointLifecycleManagement">resetEndpointLifecycleManagement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resetSourceTransitDecryption">resetSourceTransitDecryption</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resetSourceTransitDecryptionType">resetSourceTransitDecryptionType</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putSourceTransitDecryption` <a name="putSourceTransitDecryption" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.putSourceTransitDecryption"></a>
+
+```java
+public void putSourceTransitDecryption(MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.putSourceTransitDecryption.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption</a>
+
+---
+
+##### `resetEndpointLifecycleManagement` <a name="resetEndpointLifecycleManagement" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resetEndpointLifecycleManagement"></a>
+
+```java
+public void resetEndpointLifecycleManagement()
+```
+
+##### `resetSourceTransitDecryption` <a name="resetSourceTransitDecryption" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resetSourceTransitDecryption"></a>
+
+```java
+public void resetSourceTransitDecryption()
+```
+
+##### `resetSourceTransitDecryptionType` <a name="resetSourceTransitDecryptionType" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.resetSourceTransitDecryptionType"></a>
+
+```java
+public void resetSourceTransitDecryptionType()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.sourceTransitDecryption">sourceTransitDecryption</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.endpointLifecycleManagementInput">endpointLifecycleManagementInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.sourceTransitDecryptionInput">sourceTransitDecryptionInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.sourceTransitDecryptionTypeInput">sourceTransitDecryptionTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.endpointLifecycleManagement">endpointLifecycleManagement</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.sourceTransitDecryptionType">sourceTransitDecryptionType</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint">MediaconnectRouterInputConfigurationDestinationEndpoint</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sourceTransitDecryption`<sup>Required</sup> <a name="sourceTransitDecryption" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.sourceTransitDecryption"></a>
+
+```java
+public MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference getSourceTransitDecryption();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference</a>
+
+---
+
+##### `endpointLifecycleManagementInput`<sup>Optional</sup> <a name="endpointLifecycleManagementInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.endpointLifecycleManagementInput"></a>
+
+```java
+public java.lang.String getEndpointLifecycleManagementInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sourceTransitDecryptionInput`<sup>Optional</sup> <a name="sourceTransitDecryptionInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.sourceTransitDecryptionInput"></a>
+
+```java
+public IResolvable|MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption getSourceTransitDecryptionInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption</a>
+
+---
+
+##### `sourceTransitDecryptionTypeInput`<sup>Optional</sup> <a name="sourceTransitDecryptionTypeInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.sourceTransitDecryptionTypeInput"></a>
+
+```java
+public java.lang.String getSourceTransitDecryptionTypeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `endpointLifecycleManagement`<sup>Required</sup> <a name="endpointLifecycleManagement" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.endpointLifecycleManagement"></a>
+
+```java
+public java.lang.String getEndpointLifecycleManagement();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sourceTransitDecryptionType`<sup>Required</sup> <a name="sourceTransitDecryptionType" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.sourceTransitDecryptionType"></a>
+
+```java
+public java.lang.String getSourceTransitDecryptionType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|MediaconnectRouterInputConfigurationDestinationEndpoint getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint">MediaconnectRouterInputConfigurationDestinationEndpoint</a>
+
+---
+
+
+### MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference <a name="MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference;
+
+new MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.putSecretsManager">putSecretsManager</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.resetAutomatic">resetAutomatic</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.resetSecretsManager">resetSecretsManager</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putSecretsManager` <a name="putSecretsManager" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.putSecretsManager"></a>
+
+```java
+public void putSecretsManager(MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.putSecretsManager.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager</a>
+
+---
+
+##### `resetAutomatic` <a name="resetAutomatic" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.resetAutomatic"></a>
+
+```java
+public void resetAutomatic()
+```
+
+##### `resetSecretsManager` <a name="resetSecretsManager" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.resetSecretsManager"></a>
+
+```java
+public void resetSecretsManager()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.secretsManager">secretsManager</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.automaticInput">automaticInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.secretsManagerInput">secretsManagerInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.automatic">automatic</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `secretsManager`<sup>Required</sup> <a name="secretsManager" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.secretsManager"></a>
+
+```java
+public MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference getSecretsManager();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference</a>
+
+---
+
+##### `automaticInput`<sup>Optional</sup> <a name="automaticInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.automaticInput"></a>
+
+```java
+public java.lang.String getAutomaticInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `secretsManagerInput`<sup>Optional</sup> <a name="secretsManagerInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.secretsManagerInput"></a>
+
+```java
+public IResolvable|MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager getSecretsManagerInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager</a>
+
+---
+
+##### `automatic`<sup>Required</sup> <a name="automatic" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.automatic"></a>
+
+```java
+public java.lang.String getAutomatic();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption</a>
+
+---
+
+
+### MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference <a name="MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference;
+
+new MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.resetSecretArn">resetSecretArn</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetSecretArn` <a name="resetSecretArn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.resetSecretArn"></a>
+
+```java
+public void resetSecretArn()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.secretArnInput">secretArnInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.secretArn">secretArn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `secretArnInput`<sup>Optional</sup> <a name="secretArnInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.secretArnInput"></a>
+
+```java
+public java.lang.String getSecretArnInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `secretArn`<sup>Required</sup> <a name="secretArn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.secretArn"></a>
+
+```java
+public java.lang.String getSecretArn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret</a>
+
+---
+
+
+### MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference <a name="MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.mediaconnect_router_input.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference;
+
+new MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.putEncryptionSecret">putEncryptionSecret</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.resetEncryptionSecret">resetEncryptionSecret</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.resetEncryptionSecretType">resetEncryptionSecretType</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putEncryptionSecret` <a name="putEncryptionSecret" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.putEncryptionSecret"></a>
+
+```java
+public void putEncryptionSecret(MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.putEncryptionSecret.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret</a>
+
+---
+
+##### `resetEncryptionSecret` <a name="resetEncryptionSecret" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.resetEncryptionSecret"></a>
+
+```java
+public void resetEncryptionSecret()
+```
+
+##### `resetEncryptionSecretType` <a name="resetEncryptionSecretType" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.resetEncryptionSecretType"></a>
+
+```java
+public void resetEncryptionSecretType()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.encryptionSecret">encryptionSecret</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.encryptionSecretInput">encryptionSecretInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.encryptionSecretTypeInput">encryptionSecretTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.encryptionSecretType">encryptionSecretType</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `encryptionSecret`<sup>Required</sup> <a name="encryptionSecret" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.encryptionSecret"></a>
+
+```java
+public MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference getEncryptionSecret();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecretOutputReference</a>
+
+---
+
+##### `encryptionSecretInput`<sup>Optional</sup> <a name="encryptionSecretInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.encryptionSecretInput"></a>
+
+```java
+public IResolvable|MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret getEncryptionSecretInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret</a>
+
+---
+
+##### `encryptionSecretTypeInput`<sup>Optional</sup> <a name="encryptionSecretTypeInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.encryptionSecretTypeInput"></a>
+
+```java
+public java.lang.String getEncryptionSecretTypeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `encryptionSecretType`<sup>Required</sup> <a name="encryptionSecretType" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.encryptionSecretType"></a>
+
+```java
+public java.lang.String getEncryptionSecretType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager">MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager</a>
+
+---
+
 
 ### MediaconnectRouterInputConfigurationFailoverOutputReference <a name="MediaconnectRouterInputConfigurationFailoverOutputReference" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverOutputReference"></a>
 
@@ -11764,11 +13262,13 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putDestinationEndpoint">putDestinationEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putFailover">putFailover</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putMediaConnectFlow">putMediaConnectFlow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putMediaLiveChannel">putMediaLiveChannel</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putMerge">putMerge</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putStandard">putStandard</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.resetDestinationEndpoint">resetDestinationEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.resetFailover">resetFailover</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.resetMediaConnectFlow">resetMediaConnectFlow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.resetMediaLiveChannel">resetMediaLiveChannel</a></code> | *No description.* |
@@ -11927,6 +13427,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putDestinationEndpoint` <a name="putDestinationEndpoint" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putDestinationEndpoint"></a>
+
+```java
+public void putDestinationEndpoint(MediaconnectRouterInputConfigurationDestinationEndpoint value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putDestinationEndpoint.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint">MediaconnectRouterInputConfigurationDestinationEndpoint</a>
+
+---
+
 ##### `putFailover` <a name="putFailover" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.putFailover"></a>
 
 ```java
@@ -11987,6 +13499,12 @@ public void putStandard(MediaconnectRouterInputConfigurationStandard value)
 
 ---
 
+##### `resetDestinationEndpoint` <a name="resetDestinationEndpoint" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.resetDestinationEndpoint"></a>
+
+```java
+public void resetDestinationEndpoint()
+```
+
 ##### `resetFailover` <a name="resetFailover" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.resetFailover"></a>
 
 ```java
@@ -12024,11 +13542,13 @@ public void resetStandard()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.destinationEndpoint">destinationEndpoint</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference">MediaconnectRouterInputConfigurationDestinationEndpointOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.failover">failover</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailoverOutputReference">MediaconnectRouterInputConfigurationFailoverOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.mediaConnectFlow">mediaConnectFlow</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlowOutputReference">MediaconnectRouterInputConfigurationMediaConnectFlowOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.mediaLiveChannel">mediaLiveChannel</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannelOutputReference">MediaconnectRouterInputConfigurationMediaLiveChannelOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.merge">merge</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMergeOutputReference">MediaconnectRouterInputConfigurationMergeOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.standard">standard</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardOutputReference">MediaconnectRouterInputConfigurationStandardOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.destinationEndpointInput">destinationEndpointInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint">MediaconnectRouterInputConfigurationDestinationEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.failoverInput">failoverInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationFailover">MediaconnectRouterInputConfigurationFailover</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.mediaConnectFlowInput">mediaConnectFlowInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaConnectFlow">MediaconnectRouterInputConfigurationMediaConnectFlow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.mediaLiveChannelInput">mediaLiveChannelInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationMediaLiveChannel">MediaconnectRouterInputConfigurationMediaLiveChannel</a></code> | *No description.* |
@@ -12059,6 +13579,16 @@ public java.lang.String getFqn();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `destinationEndpoint`<sup>Required</sup> <a name="destinationEndpoint" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.destinationEndpoint"></a>
+
+```java
+public MediaconnectRouterInputConfigurationDestinationEndpointOutputReference getDestinationEndpoint();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpointOutputReference">MediaconnectRouterInputConfigurationDestinationEndpointOutputReference</a>
 
 ---
 
@@ -12109,6 +13639,16 @@ public MediaconnectRouterInputConfigurationStandardOutputReference getStandard()
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationStandardOutputReference">MediaconnectRouterInputConfigurationStandardOutputReference</a>
+
+---
+
+##### `destinationEndpointInput`<sup>Optional</sup> <a name="destinationEndpointInput" id="@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationOutputReference.property.destinationEndpointInput"></a>
+
+```java
+public IResolvable|MediaconnectRouterInputConfigurationDestinationEndpoint getDestinationEndpointInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediaconnectRouterInput.MediaconnectRouterInputConfigurationDestinationEndpoint">MediaconnectRouterInputConfigurationDestinationEndpoint</a>
 
 ---
 

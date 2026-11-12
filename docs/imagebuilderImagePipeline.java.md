@@ -4,7 +4,7 @@
 
 ### ImagebuilderImagePipeline <a name="ImagebuilderImagePipeline" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipeline.Initializer"></a>
 
@@ -134,7 +134,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) of the container recipe that defines how images are configured and tested.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#container_recipe_arn ImagebuilderImagePipeline#container_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#container_recipe_arn ImagebuilderImagePipeline#container_recipe_arn}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#description ImagebuilderImagePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#description ImagebuilderImagePipeline#description}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the distribution configuration associated with this image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#distribution_configuration_arn ImagebuilderImagePipeline#distribution_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#distribution_configuration_arn ImagebuilderImagePipeline#distribution_configuration_arn}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Collects additional information about the image being created, including the operating system (OS) version and package list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#enhanced_image_metadata_enabled ImagebuilderImagePipeline#enhanced_image_metadata_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#enhanced_image_metadata_enabled ImagebuilderImagePipeline#enhanced_image_metadata_enabled}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The execution role name/ARN for the image build, if provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#execution_role ImagebuilderImagePipeline#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#execution_role ImagebuilderImagePipeline#execution_role}
 
 ---
 
@@ -184,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the image recipe that defines how images are configured, tested, and assessed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_recipe_arn ImagebuilderImagePipeline#image_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_recipe_arn ImagebuilderImagePipeline#image_recipe_arn}
 
 ---
 
@@ -194,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Contains settings for vulnerability scans that Amazon Inspector runs against the test instance during image creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_scanning_configuration ImagebuilderImagePipeline#image_scanning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_scanning_configuration ImagebuilderImagePipeline#image_scanning_configuration}
 
 ---
 
@@ -204,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags to be applied to images created by this pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_tags ImagebuilderImagePipeline#image_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_tags ImagebuilderImagePipeline#image_tags}
 
 ---
 
@@ -214,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The image tests configuration of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_tests_configuration ImagebuilderImagePipeline#image_tests_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_tests_configuration ImagebuilderImagePipeline#image_tests_configuration}
 
 ---
 
@@ -224,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the infrastructure configuration associated with this image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#infrastructure_configuration_arn ImagebuilderImagePipeline#infrastructure_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#infrastructure_configuration_arn ImagebuilderImagePipeline#infrastructure_configuration_arn}
 
 ---
 
@@ -234,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The logging configuration settings for the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#logging_configuration ImagebuilderImagePipeline#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#logging_configuration ImagebuilderImagePipeline#logging_configuration}
 
 ---
 
@@ -244,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}
 
 ---
 
@@ -254,7 +254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The schedule of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#schedule ImagebuilderImagePipeline#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#schedule ImagebuilderImagePipeline#schedule}
 
 ---
 
@@ -264,7 +264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The status of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#status ImagebuilderImagePipeline#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#status ImagebuilderImagePipeline#status}
 
 ---
 
@@ -274,7 +274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags of this image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#tags ImagebuilderImagePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#tags ImagebuilderImagePipeline#tags}
 
 ---
 
@@ -284,7 +284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Workflows to define the image build process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#workflows ImagebuilderImagePipeline#workflows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#workflows ImagebuilderImagePipeline#workflows}
 
 ---
 
@@ -910,7 +910,7 @@ The construct id used in the generated config for the ImagebuilderImagePipeline 
 
 The id of the existing ImagebuilderImagePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1634,7 +1634,7 @@ public java.lang.String getContainerRecipeArn();
 
 The Amazon Resource Name (ARN) of the container recipe that defines how images are configured and tested.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#container_recipe_arn ImagebuilderImagePipeline#container_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#container_recipe_arn ImagebuilderImagePipeline#container_recipe_arn}
 
 ---
 
@@ -1648,7 +1648,7 @@ public java.lang.String getDescription();
 
 The description of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#description ImagebuilderImagePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#description ImagebuilderImagePipeline#description}
 
 ---
 
@@ -1662,7 +1662,7 @@ public java.lang.String getDistributionConfigurationArn();
 
 The Amazon Resource Name (ARN) of the distribution configuration associated with this image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#distribution_configuration_arn ImagebuilderImagePipeline#distribution_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#distribution_configuration_arn ImagebuilderImagePipeline#distribution_configuration_arn}
 
 ---
 
@@ -1676,7 +1676,7 @@ public java.lang.Boolean|IResolvable getEnhancedImageMetadataEnabled();
 
 Collects additional information about the image being created, including the operating system (OS) version and package list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#enhanced_image_metadata_enabled ImagebuilderImagePipeline#enhanced_image_metadata_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#enhanced_image_metadata_enabled ImagebuilderImagePipeline#enhanced_image_metadata_enabled}
 
 ---
 
@@ -1690,7 +1690,7 @@ public java.lang.String getExecutionRole();
 
 The execution role name/ARN for the image build, if provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#execution_role ImagebuilderImagePipeline#execution_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#execution_role ImagebuilderImagePipeline#execution_role}
 
 ---
 
@@ -1704,7 +1704,7 @@ public java.lang.String getImageRecipeArn();
 
 The Amazon Resource Name (ARN) of the image recipe that defines how images are configured, tested, and assessed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_recipe_arn ImagebuilderImagePipeline#image_recipe_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_recipe_arn ImagebuilderImagePipeline#image_recipe_arn}
 
 ---
 
@@ -1718,7 +1718,7 @@ public ImagebuilderImagePipelineImageScanningConfiguration getImageScanningConfi
 
 Contains settings for vulnerability scans that Amazon Inspector runs against the test instance during image creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_scanning_configuration ImagebuilderImagePipeline#image_scanning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_scanning_configuration ImagebuilderImagePipeline#image_scanning_configuration}
 
 ---
 
@@ -1732,7 +1732,7 @@ public java.util.Map<java.lang.String, java.lang.String> getImageTags();
 
 The tags to be applied to images created by this pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_tags ImagebuilderImagePipeline#image_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_tags ImagebuilderImagePipeline#image_tags}
 
 ---
 
@@ -1746,7 +1746,7 @@ public ImagebuilderImagePipelineImageTestsConfiguration getImageTestsConfigurati
 
 The image tests configuration of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_tests_configuration ImagebuilderImagePipeline#image_tests_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_tests_configuration ImagebuilderImagePipeline#image_tests_configuration}
 
 ---
 
@@ -1760,7 +1760,7 @@ public java.lang.String getInfrastructureConfigurationArn();
 
 The Amazon Resource Name (ARN) of the infrastructure configuration associated with this image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#infrastructure_configuration_arn ImagebuilderImagePipeline#infrastructure_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#infrastructure_configuration_arn ImagebuilderImagePipeline#infrastructure_configuration_arn}
 
 ---
 
@@ -1774,7 +1774,7 @@ public ImagebuilderImagePipelineLoggingConfiguration getLoggingConfiguration();
 
 The logging configuration settings for the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#logging_configuration ImagebuilderImagePipeline#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#logging_configuration ImagebuilderImagePipeline#logging_configuration}
 
 ---
 
@@ -1788,7 +1788,7 @@ public java.lang.String getName();
 
 The name of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}
 
 ---
 
@@ -1802,7 +1802,7 @@ public ImagebuilderImagePipelineSchedule getSchedule();
 
 The schedule of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#schedule ImagebuilderImagePipeline#schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#schedule ImagebuilderImagePipeline#schedule}
 
 ---
 
@@ -1816,7 +1816,7 @@ public java.lang.String getStatus();
 
 The status of the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#status ImagebuilderImagePipeline#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#status ImagebuilderImagePipeline#status}
 
 ---
 
@@ -1830,7 +1830,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 The tags of this image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#tags ImagebuilderImagePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#tags ImagebuilderImagePipeline#tags}
 
 ---
 
@@ -1844,7 +1844,7 @@ public IResolvable|java.util.List<ImagebuilderImagePipelineWorkflows> getWorkflo
 
 Workflows to define the image build process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#workflows ImagebuilderImagePipeline#workflows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#workflows ImagebuilderImagePipeline#workflows}
 
 ---
 
@@ -1858,6 +1858,8 @@ import io.cdktn.providers.awscc.imagebuilder_image_pipeline.ImagebuilderImagePip
 ImagebuilderImagePipelineImageScanningConfiguration.builder()
 //  .ecrConfiguration(ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration)
 //  .imageScanningEnabled(java.lang.Boolean|IResolvable)
+//  .imageScanningTypes(java.util.List<java.lang.String>)
+//  .scanResultCondition(ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition)
     .build();
 ```
 
@@ -1867,6 +1869,8 @@ ImagebuilderImagePipelineImageScanningConfiguration.builder()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration.property.ecrConfiguration">ecrConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration">ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration</a></code> | Contains ECR settings for vulnerability scans. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration.property.imageScanningEnabled">imageScanningEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | This sets whether Image Builder keeps a snapshot of the vulnerability scans that Amazon Inspector runs against the test instance when you create a new image. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration.property.imageScanningTypes">imageScanningTypes</a></code> | <code>java.util.List<java.lang.String></code> | The type of vulnerability scan that Image Builder runs for AMI output when ImageScanningEnabled is true. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration.property.scanResultCondition">scanResultCondition</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a></code> | The condition that the output AMI's scan results must meet for the image to pass. |
 
 ---
 
@@ -1880,7 +1884,7 @@ public ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration getEc
 
 Contains ECR settings for vulnerability scans.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#ecr_configuration ImagebuilderImagePipeline#ecr_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#ecr_configuration ImagebuilderImagePipeline#ecr_configuration}
 
 ---
 
@@ -1894,7 +1898,39 @@ public java.lang.Boolean|IResolvable getImageScanningEnabled();
 
 This sets whether Image Builder keeps a snapshot of the vulnerability scans that Amazon Inspector runs against the test instance when you create a new image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_scanning_enabled ImagebuilderImagePipeline#image_scanning_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_scanning_enabled ImagebuilderImagePipeline#image_scanning_enabled}
+
+---
+
+##### `imageScanningTypes`<sup>Optional</sup> <a name="imageScanningTypes" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration.property.imageScanningTypes"></a>
+
+```java
+public java.util.List<java.lang.String> getImageScanningTypes();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The type of vulnerability scan that Image Builder runs for AMI output when ImageScanningEnabled is true.
+
+Specify a single value. If you omit ImageScanningTypes, Image Builder uses TEST_INSTANCE_CVE. With TEST_INSTANCE_CVE, Amazon Inspector scans the test instance during image tests, and you must activate Amazon Inspector for Amazon EC2 scanning in your account. With ON_DEMAND_AMI_CVE, Amazon Inspector starts an on-demand scan of the output AMI during image tests. You must build from an image recipe, but you do not need to activate Amazon Inspector in your account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_scanning_types ImagebuilderImagePipeline#image_scanning_types}
+
+---
+
+##### `scanResultCondition`<sup>Optional</sup> <a name="scanResultCondition" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration.property.scanResultCondition"></a>
+
+```java
+public ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition getScanResultCondition();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a>
+
+The condition that the output AMI's scan results must meet for the image to pass.
+
+You can set ScanResultCondition only when ImageScanningTypes is ON_DEMAND_AMI_CVE. If you omit it, Image Builder starts the scan but does not wait for it or use its results to pass or fail the image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#scan_result_condition ImagebuilderImagePipeline#scan_result_condition}
 
 ---
 
@@ -1932,7 +1968,7 @@ Tags for Image Builder to apply the output container image that is scanned.
 
 Tags can help you identify and manage your scanned images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#container_tags ImagebuilderImagePipeline#container_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#container_tags ImagebuilderImagePipeline#container_tags}
 
 ---
 
@@ -1948,7 +1984,61 @@ The name of the container repository that Amazon Inspector scans to identify fin
 
 The name includes the path for the repository location. If you don't provide this information, Image Builder creates a repository in your account named image-builder-image-scanning-repository to use for vulnerability scans for your output container images.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#repository_name ImagebuilderImagePipeline#repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#repository_name ImagebuilderImagePipeline#repository_name}
+
+---
+
+### ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition <a name="ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.imagebuilder_image_pipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition;
+
+ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition.builder()
+//  .fixAvailable(java.lang.Boolean|IResolvable)
+//  .maximumSeverityLabel(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition.property.fixAvailable">fixAvailable</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Specifies whether only findings that have a fix available count toward MaximumSeverityLabel. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition.property.maximumSeverityLabel">maximumSeverityLabel</a></code> | <code>java.lang.String</code> | The maximum severity allowed for findings on the output AMI. |
+
+---
+
+##### `fixAvailable`<sup>Optional</sup> <a name="fixAvailable" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition.property.fixAvailable"></a>
+
+```java
+public java.lang.Boolean|IResolvable getFixAvailable();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+Specifies whether only findings that have a fix available count toward MaximumSeverityLabel.
+
+When false, Image Builder counts every finding. The default is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#fix_available ImagebuilderImagePipeline#fix_available}
+
+---
+
+##### `maximumSeverityLabel`<sup>Optional</sup> <a name="maximumSeverityLabel" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition.property.maximumSeverityLabel"></a>
+
+```java
+public java.lang.String getMaximumSeverityLabel();
+```
+
+- *Type:* java.lang.String
+
+The maximum severity allowed for findings on the output AMI.
+
+A finding above this severity fails the image, unless FixAvailable excludes it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#maximum_severity_label ImagebuilderImagePipeline#maximum_severity_label}
 
 ---
 
@@ -1984,7 +2074,7 @@ public java.lang.Boolean|IResolvable getImageTestsEnabled();
 
 Defines if tests should be executed when building this image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_tests_enabled ImagebuilderImagePipeline#image_tests_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_tests_enabled ImagebuilderImagePipeline#image_tests_enabled}
 
 ---
 
@@ -1998,7 +2088,7 @@ public java.lang.Number getTimeoutMinutes();
 
 The maximum time in minutes that tests are permitted to run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#timeout_minutes ImagebuilderImagePipeline#timeout_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#timeout_minutes ImagebuilderImagePipeline#timeout_minutes}
 
 ---
 
@@ -2034,7 +2124,7 @@ public java.lang.String getImageLogGroupName();
 
 The name of the log group for image build logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_log_group_name ImagebuilderImagePipeline#image_log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_log_group_name ImagebuilderImagePipeline#image_log_group_name}
 
 ---
 
@@ -2048,7 +2138,7 @@ public java.lang.String getPipelineLogGroupName();
 
 The name of the log group for pipeline execution logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#pipeline_log_group_name ImagebuilderImagePipeline#pipeline_log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#pipeline_log_group_name ImagebuilderImagePipeline#pipeline_log_group_name}
 
 ---
 
@@ -2088,7 +2178,7 @@ public ImagebuilderImagePipelineScheduleAutoDisablePolicy getAutoDisablePolicy()
 
 The auto-disable policy for the image pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#auto_disable_policy ImagebuilderImagePipeline#auto_disable_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#auto_disable_policy ImagebuilderImagePipeline#auto_disable_policy}
 
 ---
 
@@ -2102,7 +2192,7 @@ public java.lang.String getPipelineExecutionStartCondition();
 
 The condition configures when the pipeline should trigger a new image build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#pipeline_execution_start_condition ImagebuilderImagePipeline#pipeline_execution_start_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#pipeline_execution_start_condition ImagebuilderImagePipeline#pipeline_execution_start_condition}
 
 ---
 
@@ -2116,7 +2206,7 @@ public java.lang.String getScheduleExpression();
 
 The expression determines how often EC2 Image Builder evaluates your pipelineExecutionStartCondition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#schedule_expression ImagebuilderImagePipeline#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#schedule_expression ImagebuilderImagePipeline#schedule_expression}
 
 ---
 
@@ -2132,7 +2222,7 @@ The timezone that applies to the scheduling expression, for example "Etc/UTC" or
 
 If not specified, this defaults to UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#timezone ImagebuilderImagePipeline#timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#timezone ImagebuilderImagePipeline#timezone}
 
 ---
 
@@ -2166,7 +2256,7 @@ public java.lang.Number getFailureCount();
 
 The number of consecutive failures after which the pipeline should be automatically disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#failure_count ImagebuilderImagePipeline#failure_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#failure_count ImagebuilderImagePipeline#failure_count}
 
 ---
 
@@ -2206,7 +2296,7 @@ public java.lang.String getOnFailure();
 
 Define execution decision in case of workflow failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#on_failure ImagebuilderImagePipeline#on_failure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#on_failure ImagebuilderImagePipeline#on_failure}
 
 ---
 
@@ -2220,7 +2310,7 @@ public java.lang.String getParallelGroup();
 
 The parallel group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#parallel_group ImagebuilderImagePipeline#parallel_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#parallel_group ImagebuilderImagePipeline#parallel_group}
 
 ---
 
@@ -2234,7 +2324,7 @@ public IResolvable|java.util.List<ImagebuilderImagePipelineWorkflowsParameters> 
 
 The parameters associated with the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#parameters ImagebuilderImagePipeline#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#parameters ImagebuilderImagePipeline#parameters}
 
 ---
 
@@ -2248,7 +2338,7 @@ public java.lang.String getWorkflowArn();
 
 The Amazon Resource Name (ARN) of the workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#workflow_arn ImagebuilderImagePipeline#workflow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#workflow_arn ImagebuilderImagePipeline#workflow_arn}
 
 ---
 
@@ -2269,8 +2359,8 @@ ImagebuilderImagePipelineWorkflowsParameters.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowsParameters.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}. |
-| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowsParameters.property.value">value</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#value ImagebuilderImagePipeline#value}. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowsParameters.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineWorkflowsParameters.property.value">value</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#value ImagebuilderImagePipeline#value}. |
 
 ---
 
@@ -2282,7 +2372,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}.
 
 ---
 
@@ -2294,7 +2384,7 @@ public java.util.List<java.lang.String> getValue();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#value ImagebuilderImagePipeline#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#value ImagebuilderImagePipeline#value}.
 
 ---
 
@@ -2658,8 +2748,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.putEcrConfiguration">putEcrConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.putScanResultCondition">putScanResultCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.resetEcrConfiguration">resetEcrConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.resetImageScanningEnabled">resetImageScanningEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.resetImageScanningTypes">resetImageScanningTypes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.resetScanResultCondition">resetScanResultCondition</a></code> | *No description.* |
 
 ---
 
@@ -2825,6 +2918,18 @@ public void putEcrConfiguration(ImagebuilderImagePipelineImageScanningConfigurat
 
 ---
 
+##### `putScanResultCondition` <a name="putScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.putScanResultCondition"></a>
+
+```java
+public void putScanResultCondition(ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.putScanResultCondition.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a>
+
+---
+
 ##### `resetEcrConfiguration` <a name="resetEcrConfiguration" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.resetEcrConfiguration"></a>
 
 ```java
@@ -2837,6 +2942,18 @@ public void resetEcrConfiguration()
 public void resetImageScanningEnabled()
 ```
 
+##### `resetImageScanningTypes` <a name="resetImageScanningTypes" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.resetImageScanningTypes"></a>
+
+```java
+public void resetImageScanningTypes()
+```
+
+##### `resetScanResultCondition` <a name="resetScanResultCondition" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.resetScanResultCondition"></a>
+
+```java
+public void resetScanResultCondition()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2845,9 +2962,13 @@ public void resetImageScanningEnabled()
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.ecrConfiguration">ecrConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference">ImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.scanResultCondition">scanResultCondition</a></code> | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference">ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.ecrConfigurationInput">ecrConfigurationInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration">ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningEnabledInput">imageScanningEnabledInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningTypesInput">imageScanningTypesInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.scanResultConditionInput">scanResultConditionInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningEnabled">imageScanningEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningTypes">imageScanningTypes</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration">ImagebuilderImagePipelineImageScanningConfiguration</a></code> | *No description.* |
 
 ---
@@ -2886,6 +3007,16 @@ public ImagebuilderImagePipelineImageScanningConfigurationEcrConfigurationOutput
 
 ---
 
+##### `scanResultCondition`<sup>Required</sup> <a name="scanResultCondition" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.scanResultCondition"></a>
+
+```java
+public ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference getScanResultCondition();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference">ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference</a>
+
+---
+
 ##### `ecrConfigurationInput`<sup>Optional</sup> <a name="ecrConfigurationInput" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.ecrConfigurationInput"></a>
 
 ```java
@@ -2906,6 +3037,26 @@ public java.lang.Boolean|IResolvable getImageScanningEnabledInput();
 
 ---
 
+##### `imageScanningTypesInput`<sup>Optional</sup> <a name="imageScanningTypesInput" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningTypesInput"></a>
+
+```java
+public java.util.List<java.lang.String> getImageScanningTypesInput();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `scanResultConditionInput`<sup>Optional</sup> <a name="scanResultConditionInput" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.scanResultConditionInput"></a>
+
+```java
+public IResolvable|ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition getScanResultConditionInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a>
+
+---
+
 ##### `imageScanningEnabled`<sup>Required</sup> <a name="imageScanningEnabled" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningEnabled"></a>
 
 ```java
@@ -2916,6 +3067,16 @@ public java.lang.Boolean|IResolvable getImageScanningEnabled();
 
 ---
 
+##### `imageScanningTypes`<sup>Required</sup> <a name="imageScanningTypes" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.imageScanningTypes"></a>
+
+```java
+public java.util.List<java.lang.String> getImageScanningTypes();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationOutputReference.property.internalValue"></a>
 
 ```java
@@ -2923,6 +3084,313 @@ public IResolvable|ImagebuilderImagePipelineImageScanningConfiguration getIntern
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfiguration">ImagebuilderImagePipelineImageScanningConfiguration</a>
+
+---
+
+
+### ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference <a name="ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.imagebuilder_image_pipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference;
+
+new ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resetFixAvailable">resetFixAvailable</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resetMaximumSeverityLabel">resetMaximumSeverityLabel</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetFixAvailable` <a name="resetFixAvailable" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resetFixAvailable"></a>
+
+```java
+public void resetFixAvailable()
+```
+
+##### `resetMaximumSeverityLabel` <a name="resetMaximumSeverityLabel" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.resetMaximumSeverityLabel"></a>
+
+```java
+public void resetMaximumSeverityLabel()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailableInput">fixAvailableInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabelInput">maximumSeverityLabelInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailable">fixAvailable</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabel">maximumSeverityLabel</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `fixAvailableInput`<sup>Optional</sup> <a name="fixAvailableInput" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailableInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getFixAvailableInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `maximumSeverityLabelInput`<sup>Optional</sup> <a name="maximumSeverityLabelInput" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabelInput"></a>
+
+```java
+public java.lang.String getMaximumSeverityLabelInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `fixAvailable`<sup>Required</sup> <a name="fixAvailable" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.fixAvailable"></a>
+
+```java
+public java.lang.Boolean|IResolvable getFixAvailable();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `maximumSeverityLabel`<sup>Required</sup> <a name="maximumSeverityLabel" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.maximumSeverityLabel"></a>
+
+```java
+public java.lang.String getMaximumSeverityLabel();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.imagebuilderImagePipeline.ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition">ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition</a>
 
 ---
 

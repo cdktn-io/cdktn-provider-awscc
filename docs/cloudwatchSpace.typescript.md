@@ -4,7 +4,7 @@
 
 ### CloudwatchSpace <a name="CloudwatchSpace" id="@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space awscc_cloudwatch_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space awscc_cloudwatch_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpace.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the CloudwatchSpace to import.
 
 The id of the existing CloudwatchSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -972,11 +972,11 @@ const cloudwatchSpaceConfig: cloudwatchSpace.CloudwatchSpaceConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.dataAccessRoleArn">dataAccessRoleArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the IAM role the space uses to access observability data. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.domainId">domainId</a></code> | <code>string</code> | The identifier of the domain the space belongs to. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.name">name</a></code> | <code>string</code> | The name of the space. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.agentCoreEvaluationRoleArn">agentCoreEvaluationRoleArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the IAM role used for AgentCore evaluation. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.encryptionConfiguration">encryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceEncryptionConfiguration">CloudwatchSpaceEncryptionConfiguration</a></code> | The encryption configuration for the space. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.dataAccessRoleArn">dataAccessRoleArn</a></code> | <code>string</code> | The ARN of the IAM role used for data access. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.domainId">domainId</a></code> | <code>string</code> | The ID of the domain to create the space in. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.name">name</a></code> | <code>string</code> | A name that identifies the space. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.agentCoreEvaluationRoleArn">agentCoreEvaluationRoleArn</a></code> | <code>string</code> | The ARN of the IAM role used by AgentCore online evaluation. Absent when the space was created without one. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.encryptionConfiguration">encryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceEncryptionConfiguration">CloudwatchSpaceEncryptionConfiguration</a></code> | How the space's data at rest is encrypted. Always populated. |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceTags">CloudwatchSpaceTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1059,9 +1059,9 @@ public readonly dataAccessRoleArn: string;
 
 - *Type:* string
 
-The Amazon Resource Name (ARN) of the IAM role the space uses to access observability data.
+The ARN of the IAM role used for data access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#data_access_role_arn CloudwatchSpace#data_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#data_access_role_arn CloudwatchSpace#data_access_role_arn}
 
 ---
 
@@ -1073,9 +1073,9 @@ public readonly domainId: string;
 
 - *Type:* string
 
-The identifier of the domain the space belongs to.
+The ID of the domain to create the space in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#domain_id CloudwatchSpace#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#domain_id CloudwatchSpace#domain_id}
 
 ---
 
@@ -1087,9 +1087,9 @@ public readonly name: string;
 
 - *Type:* string
 
-The name of the space.
+A name that identifies the space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#name CloudwatchSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#name CloudwatchSpace#name}
 
 ---
 
@@ -1101,9 +1101,9 @@ public readonly agentCoreEvaluationRoleArn: string;
 
 - *Type:* string
 
-The Amazon Resource Name (ARN) of the IAM role used for AgentCore evaluation.
+The ARN of the IAM role used by AgentCore online evaluation. Absent when the space was created without one.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#agent_core_evaluation_role_arn CloudwatchSpace#agent_core_evaluation_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#agent_core_evaluation_role_arn CloudwatchSpace#agent_core_evaluation_role_arn}
 
 ---
 
@@ -1115,9 +1115,9 @@ public readonly encryptionConfiguration: CloudwatchSpaceEncryptionConfiguration;
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceEncryptionConfiguration">CloudwatchSpaceEncryptionConfiguration</a>
 
-The encryption configuration for the space.
+How the space's data at rest is encrypted. Always populated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#encryption_configuration CloudwatchSpace#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#encryption_configuration CloudwatchSpace#encryption_configuration}
 
 ---
 
@@ -1131,7 +1131,7 @@ public readonly tags: IResolvable | CloudwatchSpaceTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#tags CloudwatchSpace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#tags CloudwatchSpace#tags}
 
 ---
 
@@ -1149,8 +1149,8 @@ const cloudwatchSpaceEncryptionConfiguration: cloudwatchSpace.CloudwatchSpaceEnc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceEncryptionConfiguration.property.encryptionStrategy">encryptionStrategy</a></code> | <code>string</code> | Whether the space is encrypted with an AWS owned key or a customer managed key. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceEncryptionConfiguration.property.kmsKeyArn">kmsKeyArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the customer managed KMS key. Required when encryptionStrategy is CUSTOMER_MANAGED. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceEncryptionConfiguration.property.encryptionStrategy">encryptionStrategy</a></code> | <code>string</code> | Which kind of key to use. Required. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchSpace.CloudwatchSpaceEncryptionConfiguration.property.kmsKeyArn">kmsKeyArn</a></code> | <code>string</code> | Customer managed KMS key ARN. |
 
 ---
 
@@ -1162,9 +1162,9 @@ public readonly encryptionStrategy: string;
 
 - *Type:* string
 
-Whether the space is encrypted with an AWS owned key or a customer managed key.
+Which kind of key to use. Required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#encryption_strategy CloudwatchSpace#encryption_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#encryption_strategy CloudwatchSpace#encryption_strategy}
 
 ---
 
@@ -1176,9 +1176,11 @@ public readonly kmsKeyArn: string;
 
 - *Type:* string
 
-The Amazon Resource Name (ARN) of the customer managed KMS key. Required when encryptionStrategy is CUSTOMER_MANAGED.
+Customer managed KMS key ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#kms_key_arn CloudwatchSpace#kms_key_arn}
+Required when encryptionStrategy is CUSTOMER_MANAGED, and must be omitted when it is AWS_OWNED. Must be a symmetric ENCRYPT_DECRYPT key in the caller's account and region.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#kms_key_arn CloudwatchSpace#kms_key_arn}
 
 ---
 
@@ -1211,7 +1213,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#key CloudwatchSpace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#key CloudwatchSpace#key}
 
 ---
 
@@ -1225,7 +1227,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_space#value CloudwatchSpace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_space#value CloudwatchSpace#value}
 
 ---
 

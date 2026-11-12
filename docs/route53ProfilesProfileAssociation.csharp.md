@@ -4,7 +4,7 @@
 
 ### Route53ProfilesProfileAssociation <a name="Route53ProfilesProfileAssociation" id="@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association awscc_route53profiles_profile_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association awscc_route53profiles_profile_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.resetArn">ResetArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.resetPriority">ResetPriority</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.resetTags">ResetTags</a></code> | *No description.* |
 
 ---
@@ -407,6 +408,12 @@ private void PutTags(IResolvable|Route53ProfilesProfileAssociationTags[] Value)
 private void ResetArn()
 ```
 
+##### `ResetPriority` <a name="ResetPriority" id="@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.resetPriority"></a>
+
+```csharp
+private void ResetPriority()
+```
+
 ##### `ResetTags` <a name="ResetTags" id="@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.resetTags"></a>
 
 ```csharp
@@ -516,7 +523,7 @@ The construct id used in the generated config for the Route53ProfilesProfileAsso
 
 The id of the existing Route53ProfilesProfileAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -551,11 +558,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationTagsList">Route53ProfilesProfileAssociationTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.arnInput">ArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.priorityInput">PriorityInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.profileIdInput">ProfileIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.resourceIdInput">ResourceIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.tagsInput">TagsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationTags">Route53ProfilesProfileAssociationTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.arn">Arn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.priority">Priority</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.profileId">ProfileId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.resourceId">ResourceId</a></code> | <code>string</code> | *No description.* |
 
@@ -753,6 +762,16 @@ public string NameInput { get; }
 
 ---
 
+##### `PriorityInput`<sup>Optional</sup> <a name="PriorityInput" id="@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.priorityInput"></a>
+
+```csharp
+public double PriorityInput { get; }
+```
+
+- *Type:* double
+
+---
+
 ##### `ProfileIdInput`<sup>Optional</sup> <a name="ProfileIdInput" id="@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.profileIdInput"></a>
 
 ```csharp
@@ -800,6 +819,16 @@ public string Name { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `Priority`<sup>Required</sup> <a name="Priority" id="@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociation.property.priority"></a>
+
+```csharp
+public double Priority { get; }
+```
+
+- *Type:* double
 
 ---
 
@@ -862,6 +891,7 @@ new Route53ProfilesProfileAssociationConfig {
     string ProfileId,
     string ResourceId,
     string Arn = null,
+    double Priority = null,
     IResolvable|Route53ProfilesProfileAssociationTags[] Tags = null
 };
 ```
@@ -881,6 +911,7 @@ new Route53ProfilesProfileAssociationConfig {
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationConfig.property.profileId">ProfileId</a></code> | <code>string</code> | The ID of the  profile that you associated with the resource that is specified by ResourceId. |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationConfig.property.resourceId">ResourceId</a></code> | <code>string</code> | The resource that you associated the  profile with. |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationConfig.property.arn">Arn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the profile association. |
+| <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationConfig.property.priority">Priority</a></code> | <code>double</code> | The priority of the profile association, used to order the profiles applied to a VPC when multiple profiles are associated with it. |
 | <code><a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationTags">Route53ProfilesProfileAssociationTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -965,7 +996,7 @@ public string Name { get; set; }
 
 The name of an association between a  Profile and a VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association#name Route53ProfilesProfileAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#name Route53ProfilesProfileAssociation#name}
 
 ---
 
@@ -979,7 +1010,7 @@ public string ProfileId { get; set; }
 
 The ID of the  profile that you associated with the resource that is specified by ResourceId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association#profile_id Route53ProfilesProfileAssociation#profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#profile_id Route53ProfilesProfileAssociation#profile_id}
 
 ---
 
@@ -993,7 +1024,7 @@ public string ResourceId { get; set; }
 
 The resource that you associated the  profile with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association#resource_id Route53ProfilesProfileAssociation#resource_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#resource_id Route53ProfilesProfileAssociation#resource_id}
 
 ---
 
@@ -1007,7 +1038,23 @@ public string Arn { get; set; }
 
 The Amazon Resource Name (ARN) of the profile association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association#arn Route53ProfilesProfileAssociation#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#arn Route53ProfilesProfileAssociation#arn}
+
+---
+
+##### `Priority`<sup>Optional</sup> <a name="Priority" id="@cdktn/provider-awscc.route53ProfilesProfileAssociation.Route53ProfilesProfileAssociationConfig.property.priority"></a>
+
+```csharp
+public double Priority { get; set; }
+```
+
+- *Type:* double
+
+The priority of the profile association, used to order the profiles applied to a VPC when multiple profiles are associated with it.
+
+Lower values have higher precedence. Omit for the first profile associated with a VPC. This orders whole profiles on a VPC and is distinct from the DNS Firewall rule group priority carried in a ProfileResourceAssociation's ResourceProperties.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#priority Route53ProfilesProfileAssociation#priority}
 
 ---
 
@@ -1021,7 +1068,7 @@ public IResolvable|Route53ProfilesProfileAssociationTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association#tags Route53ProfilesProfileAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#tags Route53ProfilesProfileAssociation#tags}
 
 ---
 
@@ -1059,7 +1106,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association#key Route53ProfilesProfileAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#key Route53ProfilesProfileAssociation#key}
 
 ---
 
@@ -1075,7 +1122,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53profiles_profile_association#value Route53ProfilesProfileAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53profiles_profile_association#value Route53ProfilesProfileAssociation#value}
 
 ---
 

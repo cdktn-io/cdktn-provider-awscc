@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityagentPrivateConnections <a name="DataAwsccSecurityagentPrivateConnections" id="@cdktn/provider-awscc.dataAwsccSecurityagentPrivateConnections.DataAwsccSecurityagentPrivateConnections"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/securityagent_private_connections awscc_securityagent_private_connections}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityagent_private_connections awscc_securityagent_private_connections}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityagentPrivateConnections.DataAwsccSecurityagentPrivateConnections.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityagentPriv
 
 The id of the existing DataAwsccSecurityagentPrivateConnections that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/securityagent_private_connections#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityagent_private_connections#import import section} in the documentation of this resource for the id to use
 
 ---
 

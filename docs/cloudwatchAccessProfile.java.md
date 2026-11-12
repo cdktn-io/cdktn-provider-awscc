@@ -4,7 +4,7 @@
 
 ### CloudwatchAccessProfile <a name="CloudwatchAccessProfile" id="@cdktn/provider-awscc.cloudwatchAccessProfile.CloudwatchAccessProfile"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile awscc_cloudwatch_access_profile}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile awscc_cloudwatch_access_profile}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAccessProfile.CloudwatchAccessProfile.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the access profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#name CloudwatchAccessProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#name CloudwatchAccessProfile#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier of the space the access profile belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#space_id CloudwatchAccessProfile#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#space_id CloudwatchAccessProfile#space_id}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the access profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#description CloudwatchAccessProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#description CloudwatchAccessProfile#description}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#tags CloudwatchAccessProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#tags CloudwatchAccessProfile#tags}
 
 ---
 
@@ -616,7 +616,7 @@ The construct id used in the generated config for the CloudwatchAccessProfile to
 
 The id of the existing CloudwatchAccessProfile that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1096,7 +1096,7 @@ public java.lang.String getName();
 
 The name of the access profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#name CloudwatchAccessProfile#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#name CloudwatchAccessProfile#name}
 
 ---
 
@@ -1110,7 +1110,7 @@ public java.lang.String getSpaceId();
 
 The unique identifier of the space the access profile belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#space_id CloudwatchAccessProfile#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#space_id CloudwatchAccessProfile#space_id}
 
 ---
 
@@ -1124,7 +1124,7 @@ public java.lang.String getDescription();
 
 The description of the access profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#description CloudwatchAccessProfile#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#description CloudwatchAccessProfile#description}
 
 ---
 
@@ -1138,7 +1138,7 @@ public IResolvable|java.util.List<CloudwatchAccessProfileTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#tags CloudwatchAccessProfile#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#tags CloudwatchAccessProfile#tags}
 
 ---
 
@@ -1174,7 +1174,7 @@ public java.lang.String getKey();
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#key CloudwatchAccessProfile#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#key CloudwatchAccessProfile#key}
 
 ---
 
@@ -1188,7 +1188,7 @@ public java.lang.String getValue();
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_access_profile#value CloudwatchAccessProfile#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_access_profile#value CloudwatchAccessProfile#value}
 
 ---
 

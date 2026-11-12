@@ -4,7 +4,7 @@
 
 ### DataAwsccTimestreamInfluxDbInstance <a name="DataAwsccTimestreamInfluxDbInstance" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_instance awscc_timestream_influx_db_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_instance awscc_timestream_influx_db_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_instance#id DataAwsccTimestreamInfluxDbInstance#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_instance#id DataAwsccTimestreamInfluxDbInstance#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccTimestreamInfluxD
 
 The id of the existing DataAwsccTimestreamInfluxDbInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -524,6 +524,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.arn">arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.availabilityZone">availability_zone</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.bucket">bucket</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.dbClusterId">db_cluster_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.dbInstanceType">db_instance_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.dbParameterGroupIdentifier">db_parameter_group_identifier</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.dbStorageType">db_storage_type</a></code> | <code>str</code> | *No description.* |
@@ -531,6 +532,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.endpoint">endpoint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.influxAuthParametersSecretArn">influx_auth_parameters_secret_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.influxDbInstanceId">influx_db_instance_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.kmsKeyId">kms_key_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.logDeliveryConfiguration">log_delivery_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstanceLogDeliveryConfigurationOutputReference">DataAwsccTimestreamInfluxDbInstanceLogDeliveryConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.maintenanceSchedule">maintenance_schedule</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstanceMaintenanceScheduleOutputReference">DataAwsccTimestreamInfluxDbInstanceMaintenanceScheduleOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.name">name</a></code> | <code>str</code> | *No description.* |
@@ -713,6 +715,16 @@ bucket: str
 
 ---
 
+##### `db_cluster_id`<sup>Required</sup> <a name="db_cluster_id" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.dbClusterId"></a>
+
+```python
+db_cluster_id: str
+```
+
+- *Type:* str
+
+---
+
 ##### `db_instance_type`<sup>Required</sup> <a name="db_instance_type" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.dbInstanceType"></a>
 
 ```python
@@ -777,6 +789,16 @@ influx_auth_parameters_secret_arn: str
 
 ```python
 influx_db_instance_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_id`<sup>Required</sup> <a name="kms_key_id" id="@cdktn/provider-awscc.dataAwsccTimestreamInfluxDbInstance.DataAwsccTimestreamInfluxDbInstance.property.kmsKeyId"></a>
+
+```python
+kms_key_id: str
 ```
 
 - *Type:* str
@@ -1087,7 +1109,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/timestream_influx_db_instance#id DataAwsccTimestreamInfluxDbInstance#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/timestream_influx_db_instance#id DataAwsccTimestreamInfluxDbInstance#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

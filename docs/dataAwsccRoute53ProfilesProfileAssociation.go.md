@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53ProfilesProfileAssociation <a name="DataAwsccRoute53ProfilesProfileAssociation" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/route53profiles_profile_association awscc_route53profiles_profile_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53profiles_profile_association awscc_route53profiles_profile_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53ProfilesPr
 
 The id of the existing DataAwsccRoute53ProfilesProfileAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/route53profiles_profile_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53profiles_profile_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -417,6 +417,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.property.arn">Arn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.property.priority">Priority</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.property.profileAssociationId">ProfileAssociationId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.property.profileId">ProfileId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.property.resourceId">ResourceId</a></code> | <code>*string</code> | *No description.* |
@@ -565,6 +566,16 @@ func Name() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `Priority`<sup>Required</sup> <a name="Priority" id="@cdktn/provider-awscc.dataAwsccRoute53ProfilesProfileAssociation.DataAwsccRoute53ProfilesProfileAssociation.property.priority"></a>
+
+```go
+func Priority() *f64
+```
+
+- *Type:* *f64
 
 ---
 
@@ -762,7 +773,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/route53profiles_profile_association#id DataAwsccRoute53ProfilesProfileAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53profiles_profile_association#id DataAwsccRoute53ProfilesProfileAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
