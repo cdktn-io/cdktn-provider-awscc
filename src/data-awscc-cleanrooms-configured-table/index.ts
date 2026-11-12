@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cleanrooms_configured_table
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cleanrooms_configured_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCleanroomsConfiguredTableConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cleanrooms_configured_table#id DataAwsccCleanroomsConfiguredTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cleanrooms_configured_table#id DataAwsccCleanroomsConfiguredTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1081,6 +1081,190 @@ export class DataAwsccCleanroomsConfiguredTableTableReferenceAthenaOutputReferen
     return this.getStringAttribute('work_group');
   }
 }
+export interface DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharing {
+}
+
+export function dataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharingToTerraform(struct?: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharing): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharingToHclTerraform(struct?: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharing): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharingOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharing | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharing | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // delta_share_endpoint - computed: true, optional: false, required: false
+  public get deltaShareEndpoint() {
+    return this.getStringAttribute('delta_share_endpoint');
+  }
+
+  // share_name - computed: true, optional: false, required: false
+  public get shareName() {
+    return this.getStringAttribute('share_name');
+  }
+}
+export interface DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionType {
+}
+
+export function dataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeToTerraform(struct?: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionType): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeToHclTerraform(struct?: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionType): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // delta_sharing - computed: true, optional: false, required: false
+  private _deltaSharing = new DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeDeltaSharingOutputReference(this, "delta_sharing");
+  public get deltaSharing() {
+    return this._deltaSharing;
+  }
+}
+export interface DataAwsccCleanroomsConfiguredTableTableReferenceDatabricks {
+}
+
+export function dataAwsccCleanroomsConfiguredTableTableReferenceDatabricksToTerraform(struct?: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricks): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCleanroomsConfiguredTableTableReferenceDatabricksToHclTerraform(struct?: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricks): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccCleanroomsConfiguredTableTableReferenceDatabricks | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCleanroomsConfiguredTableTableReferenceDatabricks | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // connection_type - computed: true, optional: false, required: false
+  private _connectionType = new DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksConnectionTypeOutputReference(this, "connection_type");
+  public get connectionType() {
+    return this._connectionType;
+  }
+
+  // schema_name - computed: true, optional: false, required: false
+  public get schemaName() {
+    return this.getStringAttribute('schema_name');
+  }
+
+  // table_name - computed: true, optional: false, required: false
+  public get tableName() {
+    return this.getStringAttribute('table_name');
+  }
+
+  // workspace_url - computed: true, optional: false, required: false
+  public get workspaceUrl() {
+    return this.getStringAttribute('workspace_url');
+  }
+}
 export interface DataAwsccCleanroomsConfiguredTableTableReferenceGlue {
 }
 
@@ -1415,6 +1599,12 @@ export class DataAwsccCleanroomsConfiguredTableTableReferenceOutputReference ext
     return this._athena;
   }
 
+  // databricks - computed: true, optional: false, required: false
+  private _databricks = new DataAwsccCleanroomsConfiguredTableTableReferenceDatabricksOutputReference(this, "databricks");
+  public get databricks() {
+    return this._databricks;
+  }
+
   // glue - computed: true, optional: false, required: false
   private _glue = new DataAwsccCleanroomsConfiguredTableTableReferenceGlueOutputReference(this, "glue");
   public get glue() {
@@ -1509,7 +1699,7 @@ export class DataAwsccCleanroomsConfiguredTableTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table}
 */
 export class DataAwsccCleanroomsConfiguredTable extends cdktn.TerraformDataSource {
 
@@ -1525,7 +1715,7 @@ export class DataAwsccCleanroomsConfiguredTable extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccCleanroomsConfiguredTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCleanroomsConfiguredTable to import
-  * @param importFromId The id of the existing DataAwsccCleanroomsConfiguredTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cleanrooms_configured_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCleanroomsConfiguredTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cleanrooms_configured_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCleanroomsConfiguredTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1537,7 +1727,7 @@ export class DataAwsccCleanroomsConfiguredTable extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1548,7 +1738,7 @@ export class DataAwsccCleanroomsConfiguredTable extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_cleanrooms_configured_table',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

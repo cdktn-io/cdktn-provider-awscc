@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,97 @@ export interface DataAwsccNetworkmanagerSiteToSiteVpnAttachmentConfig extends cd
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment#id DataAwsccNetworkmanagerSiteToSiteVpnAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment#id DataAwsccNetworkmanagerSiteToSiteVpnAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules {
+}
+
+export function dataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesToTerraform(struct?: DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesToHclTerraform(struct?: DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRules | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // match_source_cidr - computed: true, optional: false, required: false
+  public get matchSourceCidr() {
+    return this.getStringAttribute('match_source_cidr');
+  }
+
+  // nat_cidr - computed: true, optional: false, required: false
+  public get natCidr() {
+    return this.getStringAttribute('nat_cidr');
+  }
+
+  // rule_number - computed: true, optional: false, required: false
+  public get ruleNumber() {
+    return this.getNumberAttribute('rule_number');
+  }
+}
+
+export class DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesOutputReference {
+    return new DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataAwsccNetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags {
 }
@@ -394,7 +479,7 @@ export class DataAwsccNetworkmanagerSiteToSiteVpnAttachmentTagsList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment}
 */
 export class DataAwsccNetworkmanagerSiteToSiteVpnAttachment extends cdktn.TerraformDataSource {
 
@@ -410,7 +495,7 @@ export class DataAwsccNetworkmanagerSiteToSiteVpnAttachment extends cdktn.Terraf
   * Generates CDKTN code for importing a DataAwsccNetworkmanagerSiteToSiteVpnAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccNetworkmanagerSiteToSiteVpnAttachment to import
-  * @param importFromId The id of the existing DataAwsccNetworkmanagerSiteToSiteVpnAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccNetworkmanagerSiteToSiteVpnAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccNetworkmanagerSiteToSiteVpnAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -422,7 +507,7 @@ export class DataAwsccNetworkmanagerSiteToSiteVpnAttachment extends cdktn.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -433,7 +518,7 @@ export class DataAwsccNetworkmanagerSiteToSiteVpnAttachment extends cdktn.Terraf
       terraformResourceType: 'awscc_networkmanager_site_to_site_vpn_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -502,6 +587,22 @@ export class DataAwsccNetworkmanagerSiteToSiteVpnAttachment extends cdktn.Terraf
   // last_modification_errors - computed: true, optional: false, required: false
   public get lastModificationErrors() {
     return this.getListAttribute('last_modification_errors');
+  }
+
+  // nat_gateway_rules - computed: true, optional: false, required: false
+  private _natGatewayRules = new DataAwsccNetworkmanagerSiteToSiteVpnAttachmentNatGatewayRulesList(this, "nat_gateway_rules", true);
+  public get natGatewayRules() {
+    return this._natGatewayRules;
+  }
+
+  // nat_gateway_support - computed: true, optional: false, required: false
+  public get natGatewaySupport() {
+    return this.getStringAttribute('nat_gateway_support');
+  }
+
+  // nat_system_route_support - computed: true, optional: false, required: false
+  public get natSystemRouteSupport() {
+    return this.getBooleanAttribute('nat_system_route_support');
   }
 
   // network_function_group_name - computed: true, optional: false, required: false

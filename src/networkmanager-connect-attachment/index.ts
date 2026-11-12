@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,51 +15,251 @@ export interface NetworkmanagerConnectAttachmentConfig extends cdktn.TerraformMe
   /**
   * ID of the CoreNetwork that the attachment will be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#core_network_id NetworkmanagerConnectAttachment#core_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#core_network_id NetworkmanagerConnectAttachment#core_network_id}
   */
   readonly coreNetworkId: string;
   /**
   * Edge location of the attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#edge_location NetworkmanagerConnectAttachment#edge_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#edge_location NetworkmanagerConnectAttachment#edge_location}
   */
   readonly edgeLocation: string;
   /**
+  * The complete set of NAT gateway rules on the attachment. Updating this property replaces the entire rule set, and rules left out of the new value are removed. To remove all rules, specify an empty list or remove this property. NAT gateway support can't be enabled without rules, so it is then disabled unless NatGatewaySupport is specified. Only the core network owner can configure NAT gateway rules. The rules aren't returned when the attachment is read, so drift detection doesn't check them. Not available in AWS GovCloud (US).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#nat_gateway_rules NetworkmanagerConnectAttachment#nat_gateway_rules}
+  */
+  readonly natGatewayRules?: NetworkmanagerConnectAttachmentNatGatewayRules[] | cdktn.IResolvable;
+  /**
+  * Whether NAT gateway support is enabled on the attachment. Required when NatGatewayRules lists rules. Set to DISABLE with NatGatewayRules to keep the rules on the attachment without translating traffic, and set it to ENABLE to activate them again. An attachment that is pending acceptance applies this setting once it is accepted. Only the core network owner can configure or read NAT gateway settings. Not available in AWS GovCloud (US).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#nat_gateway_support NetworkmanagerConnectAttachment#nat_gateway_support}
+  */
+  readonly natGatewaySupport?: string;
+  /**
   * The name of the network function group attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#network_function_group_name NetworkmanagerConnectAttachment#network_function_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#network_function_group_name NetworkmanagerConnectAttachment#network_function_group_name}
   */
   readonly networkFunctionGroupName?: string;
   /**
   * Protocol options for connect attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#options NetworkmanagerConnectAttachment#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#options NetworkmanagerConnectAttachment#options}
   */
   readonly options: NetworkmanagerConnectAttachmentOptions;
   /**
   * Routing policy label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#routing_policy_label NetworkmanagerConnectAttachment#routing_policy_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#routing_policy_label NetworkmanagerConnectAttachment#routing_policy_label}
   */
   readonly routingPolicyLabel?: string;
   /**
   * Tags for the attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#tags NetworkmanagerConnectAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#tags NetworkmanagerConnectAttachment#tags}
   */
   readonly tags?: NetworkmanagerConnectAttachmentTags[] | cdktn.IResolvable;
   /**
   * Id of transport attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#transport_attachment_id NetworkmanagerConnectAttachment#transport_attachment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#transport_attachment_id NetworkmanagerConnectAttachment#transport_attachment_id}
   */
   readonly transportAttachmentId: string;
+}
+export interface NetworkmanagerConnectAttachmentNatGatewayRules {
+  /**
+  * The IPv4 CIDR that source traffic is matched against for translation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#match_source_cidr NetworkmanagerConnectAttachment#match_source_cidr}
+  */
+  readonly matchSourceCidr?: string;
+  /**
+  * The IPv4 CIDR that matched source traffic is translated into. Must have the same prefix length as MatchSourceCidr.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#nat_cidr NetworkmanagerConnectAttachment#nat_cidr}
+  */
+  readonly natCidr?: string;
+  /**
+  * The rule number that uniquely identifies the NAT rule on the attachment.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#rule_number NetworkmanagerConnectAttachment#rule_number}
+  */
+  readonly ruleNumber?: number;
+}
+
+export function networkmanagerConnectAttachmentNatGatewayRulesToTerraform(struct?: NetworkmanagerConnectAttachmentNatGatewayRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    match_source_cidr: cdktn.stringToTerraform(struct!.matchSourceCidr),
+    nat_cidr: cdktn.stringToTerraform(struct!.natCidr),
+    rule_number: cdktn.numberToTerraform(struct!.ruleNumber),
+  }
+}
+
+
+export function networkmanagerConnectAttachmentNatGatewayRulesToHclTerraform(struct?: NetworkmanagerConnectAttachmentNatGatewayRules | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    match_source_cidr: {
+      value: cdktn.stringToHclTerraform(struct!.matchSourceCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    nat_cidr: {
+      value: cdktn.stringToHclTerraform(struct!.natCidr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    rule_number: {
+      value: cdktn.numberToHclTerraform(struct!.ruleNumber),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkmanagerConnectAttachmentNatGatewayRulesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): NetworkmanagerConnectAttachmentNatGatewayRules | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._matchSourceCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matchSourceCidr = this._matchSourceCidr;
+    }
+    if (this._natCidr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.natCidr = this._natCidr;
+    }
+    if (this._ruleNumber !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ruleNumber = this._ruleNumber;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkmanagerConnectAttachmentNatGatewayRules | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._matchSourceCidr = undefined;
+      this._natCidr = undefined;
+      this._ruleNumber = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._matchSourceCidr = value.matchSourceCidr;
+      this._natCidr = value.natCidr;
+      this._ruleNumber = value.ruleNumber;
+    }
+  }
+
+  // match_source_cidr - computed: true, optional: true, required: false
+  private _matchSourceCidr?: string; 
+  public get matchSourceCidr() {
+    return this.getStringAttribute('match_source_cidr');
+  }
+  public set matchSourceCidr(value: string) {
+    this._matchSourceCidr = value;
+  }
+  public resetMatchSourceCidr() {
+    this._matchSourceCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchSourceCidrInput() {
+    return this._matchSourceCidr;
+  }
+
+  // nat_cidr - computed: true, optional: true, required: false
+  private _natCidr?: string; 
+  public get natCidr() {
+    return this.getStringAttribute('nat_cidr');
+  }
+  public set natCidr(value: string) {
+    this._natCidr = value;
+  }
+  public resetNatCidr() {
+    this._natCidr = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get natCidrInput() {
+    return this._natCidr;
+  }
+
+  // rule_number - computed: true, optional: true, required: false
+  private _ruleNumber?: number; 
+  public get ruleNumber() {
+    return this.getNumberAttribute('rule_number');
+  }
+  public set ruleNumber(value: number) {
+    this._ruleNumber = value;
+  }
+  public resetRuleNumber() {
+    this._ruleNumber = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleNumberInput() {
+    return this._ruleNumber;
+  }
+}
+
+export class NetworkmanagerConnectAttachmentNatGatewayRulesList extends cdktn.ComplexList {
+  public internalValue? : NetworkmanagerConnectAttachmentNatGatewayRules[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): NetworkmanagerConnectAttachmentNatGatewayRulesOutputReference {
+    return new NetworkmanagerConnectAttachmentNatGatewayRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface NetworkmanagerConnectAttachmentOptions {
   /**
   * Tunnel protocol for connect attachment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#protocol NetworkmanagerConnectAttachment#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#protocol NetworkmanagerConnectAttachment#protocol}
   */
   readonly protocol?: string;
 }
@@ -445,13 +645,13 @@ export interface NetworkmanagerConnectAttachmentTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#key NetworkmanagerConnectAttachment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#key NetworkmanagerConnectAttachment#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#value NetworkmanagerConnectAttachment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#value NetworkmanagerConnectAttachment#value}
   */
   readonly value?: string;
 }
@@ -596,7 +796,7 @@ export class NetworkmanagerConnectAttachmentTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}
 */
 export class NetworkmanagerConnectAttachment extends cdktn.TerraformResource {
 
@@ -612,7 +812,7 @@ export class NetworkmanagerConnectAttachment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkmanagerConnectAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkmanagerConnectAttachment to import
-  * @param importFromId The id of the existing NetworkmanagerConnectAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkmanagerConnectAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkmanagerConnectAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -624,7 +824,7 @@ export class NetworkmanagerConnectAttachment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,7 +835,7 @@ export class NetworkmanagerConnectAttachment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkmanager_connect_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -648,6 +848,8 @@ export class NetworkmanagerConnectAttachment extends cdktn.TerraformResource {
     });
     this._coreNetworkId = config.coreNetworkId;
     this._edgeLocation = config.edgeLocation;
+    this._natGatewayRules.internalValue = config.natGatewayRules;
+    this._natGatewaySupport = config.natGatewaySupport;
     this._networkFunctionGroupName = config.networkFunctionGroupName;
     this._options.internalValue = config.options;
     this._routingPolicyLabel = config.routingPolicyLabel;
@@ -718,6 +920,43 @@ export class NetworkmanagerConnectAttachment extends cdktn.TerraformResource {
   // last_modification_errors - computed: true, optional: false, required: false
   public get lastModificationErrors() {
     return this.getListAttribute('last_modification_errors');
+  }
+
+  // nat_gateway_rules - computed: true, optional: true, required: false
+  private _natGatewayRules = new NetworkmanagerConnectAttachmentNatGatewayRulesList(this, "nat_gateway_rules", true);
+  public get natGatewayRules() {
+    return this._natGatewayRules;
+  }
+  public putNatGatewayRules(value: NetworkmanagerConnectAttachmentNatGatewayRules[] | cdktn.IResolvable) {
+    this._natGatewayRules.internalValue = value;
+  }
+  public resetNatGatewayRules() {
+    this._natGatewayRules.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get natGatewayRulesInput() {
+    return this._natGatewayRules.internalValue;
+  }
+
+  // nat_gateway_support - computed: true, optional: true, required: false
+  private _natGatewaySupport?: string; 
+  public get natGatewaySupport() {
+    return this.getStringAttribute('nat_gateway_support');
+  }
+  public set natGatewaySupport(value: string) {
+    this._natGatewaySupport = value;
+  }
+  public resetNatGatewaySupport() {
+    this._natGatewaySupport = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get natGatewaySupportInput() {
+    return this._natGatewaySupport;
+  }
+
+  // nat_system_route_support - computed: true, optional: false, required: false
+  public get natSystemRouteSupport() {
+    return this.getBooleanAttribute('nat_system_route_support');
   }
 
   // network_function_group_name - computed: true, optional: true, required: false
@@ -839,6 +1078,8 @@ export class NetworkmanagerConnectAttachment extends cdktn.TerraformResource {
     return {
       core_network_id: cdktn.stringToTerraform(this._coreNetworkId),
       edge_location: cdktn.stringToTerraform(this._edgeLocation),
+      nat_gateway_rules: cdktn.listMapper(networkmanagerConnectAttachmentNatGatewayRulesToTerraform, false)(this._natGatewayRules.internalValue),
+      nat_gateway_support: cdktn.stringToTerraform(this._natGatewaySupport),
       network_function_group_name: cdktn.stringToTerraform(this._networkFunctionGroupName),
       options: networkmanagerConnectAttachmentOptionsToTerraform(this._options.internalValue),
       routing_policy_label: cdktn.stringToTerraform(this._routingPolicyLabel),
@@ -857,6 +1098,18 @@ export class NetworkmanagerConnectAttachment extends cdktn.TerraformResource {
       },
       edge_location: {
         value: cdktn.stringToHclTerraform(this._edgeLocation),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      nat_gateway_rules: {
+        value: cdktn.listMapperHcl(networkmanagerConnectAttachmentNatGatewayRulesToHclTerraform, false)(this._natGatewayRules.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "NetworkmanagerConnectAttachmentNatGatewayRulesList",
+      },
+      nat_gateway_support: {
+        value: cdktn.stringToHclTerraform(this._natGatewaySupport),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

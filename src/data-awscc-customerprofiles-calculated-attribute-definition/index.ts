@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/customerprofiles_calculated_attribute_definition
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/customerprofiles_calculated_attribute_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccCustomerprofilesCalculatedAttributeDefinitionConfig ex
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/customerprofiles_calculated_attribute_definition#id DataAwsccCustomerprofilesCalculatedAttributeDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/customerprofiles_calculated_attribute_definition#id DataAwsccCustomerprofilesCalculatedAttributeDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -416,6 +416,301 @@ export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionConditionsOut
     return this._threshold;
   }
 }
+export interface DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributes {
+}
+
+export function dataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesToTerraform(struct?: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributes): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesToHclTerraform(struct?: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributes): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectKey the key of this item in the map
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectKey: string) {
+    super(terraformResource, terraformAttribute, false, complexObjectKey);
+  }
+
+  public get internalValue(): DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // dimension_type - computed: true, optional: false, required: false
+  public get dimensionType() {
+    return this.getStringAttribute('dimension_type');
+  }
+
+  // values - computed: true, optional: false, required: false
+  public get values() {
+    return cdktn.Fn.tolist(this.getListAttribute('values'));
+  }
+}
+
+export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesMap extends cdktn.ComplexMap {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute);
+  }
+
+  /**
+  * @param key the key of the item to return
+  */
+  public get(key: string): DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference {
+    return new DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesOutputReference(this.terraformResource, this.terraformAttribute, key);
+  }
+}
+export interface DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensions {
+}
+
+export function dataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsToTerraform(struct?: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsToHclTerraform(struct?: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attributes - computed: true, optional: false, required: false
+  private _attributes = new DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsAttributesMap(this, "attributes");
+  public get attributes() {
+    return this._attributes;
+  }
+}
+
+export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsOutputReference {
+    return new DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroups {
+}
+
+export function dataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsToTerraform(struct?: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroups): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsToHclTerraform(struct?: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroups): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroups | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroups | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // dimensions - computed: true, optional: false, required: false
+  private _dimensions = new DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsDimensionsList(this, "dimensions", true);
+  public get dimensions() {
+    return this._dimensions;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+
+export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsOutputReference {
+    return new DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilter {
+}
+
+export function dataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterToTerraform(struct?: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilter): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterToHclTerraform(struct?: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilter): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilter | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilter | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // groups - computed: true, optional: false, required: false
+  private _groups = new DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterGroupsList(this, "groups", true);
+  public get groups() {
+    return this._groups;
+  }
+
+  // include - computed: true, optional: false, required: false
+  public get include() {
+    return this.getStringAttribute('include');
+  }
+}
 export interface DataAwsccCustomerprofilesCalculatedAttributeDefinitionReadiness {
 }
 
@@ -557,7 +852,7 @@ export class DataAwsccCustomerprofilesCalculatedAttributeDefinitionTagsList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}
 */
 export class DataAwsccCustomerprofilesCalculatedAttributeDefinition extends cdktn.TerraformDataSource {
 
@@ -573,7 +868,7 @@ export class DataAwsccCustomerprofilesCalculatedAttributeDefinition extends cdkt
   * Generates CDKTN code for importing a DataAwsccCustomerprofilesCalculatedAttributeDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCustomerprofilesCalculatedAttributeDefinition to import
-  * @param importFromId The id of the existing DataAwsccCustomerprofilesCalculatedAttributeDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/customerprofiles_calculated_attribute_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCustomerprofilesCalculatedAttributeDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/customerprofiles_calculated_attribute_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCustomerprofilesCalculatedAttributeDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -585,7 +880,7 @@ export class DataAwsccCustomerprofilesCalculatedAttributeDefinition extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -596,7 +891,7 @@ export class DataAwsccCustomerprofilesCalculatedAttributeDefinition extends cdkt
       terraformResourceType: 'awscc_customerprofiles_calculated_attribute_definition',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -649,6 +944,12 @@ export class DataAwsccCustomerprofilesCalculatedAttributeDefinition extends cdkt
   // domain_name - computed: true, optional: false, required: false
   public get domainName() {
     return this.getStringAttribute('domain_name');
+  }
+
+  // filter - computed: true, optional: false, required: false
+  private _filter = new DataAwsccCustomerprofilesCalculatedAttributeDefinitionFilterOutputReference(this, "filter");
+  public get filter() {
+    return this._filter;
   }
 
   // id - computed: false, optional: false, required: true

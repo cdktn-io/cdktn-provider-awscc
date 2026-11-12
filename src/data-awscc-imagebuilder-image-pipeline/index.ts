@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/imagebuilder_image_pipeline
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/imagebuilder_image_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccImagebuilderImagePipelineConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/imagebuilder_image_pipeline#id DataAwsccImagebuilderImagePipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/imagebuilder_image_pipeline#id DataAwsccImagebuilderImagePipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,6 +81,65 @@ export class DataAwsccImagebuilderImagePipelineImageScanningConfigurationEcrConf
     return this.getStringAttribute('repository_name');
   }
 }
+export interface DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition {
+}
+
+export function dataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionToTerraform(struct?: DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionToHclTerraform(struct?: DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultCondition | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // fix_available - computed: true, optional: false, required: false
+  public get fixAvailable() {
+    return this.getBooleanAttribute('fix_available');
+  }
+
+  // maximum_severity_label - computed: true, optional: false, required: false
+  public get maximumSeverityLabel() {
+    return this.getStringAttribute('maximum_severity_label');
+  }
+}
 export interface DataAwsccImagebuilderImagePipelineImageScanningConfiguration {
 }
 
@@ -139,6 +198,17 @@ export class DataAwsccImagebuilderImagePipelineImageScanningConfigurationOutputR
   // image_scanning_enabled - computed: true, optional: false, required: false
   public get imageScanningEnabled() {
     return this.getBooleanAttribute('image_scanning_enabled');
+  }
+
+  // image_scanning_types - computed: true, optional: false, required: false
+  public get imageScanningTypes() {
+    return this.getListAttribute('image_scanning_types');
+  }
+
+  // scan_result_condition - computed: true, optional: false, required: false
+  private _scanResultCondition = new DataAwsccImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference(this, "scan_result_condition");
+  public get scanResultCondition() {
+    return this._scanResultCondition;
   }
 }
 export interface DataAwsccImagebuilderImagePipelineImageTestsConfiguration {
@@ -556,7 +626,7 @@ export class DataAwsccImagebuilderImagePipelineWorkflowsList extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}
 */
 export class DataAwsccImagebuilderImagePipeline extends cdktn.TerraformDataSource {
 
@@ -572,7 +642,7 @@ export class DataAwsccImagebuilderImagePipeline extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccImagebuilderImagePipeline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccImagebuilderImagePipeline to import
-  * @param importFromId The id of the existing DataAwsccImagebuilderImagePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccImagebuilderImagePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccImagebuilderImagePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -584,7 +654,7 @@ export class DataAwsccImagebuilderImagePipeline extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -595,7 +665,7 @@ export class DataAwsccImagebuilderImagePipeline extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_imagebuilder_image_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

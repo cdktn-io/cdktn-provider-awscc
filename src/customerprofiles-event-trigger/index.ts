@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,55 @@ export interface CustomerprofilesEventTriggerConfig extends cdktn.TerraformMetaA
   /**
   * The description of the event trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#description CustomerprofilesEventTrigger#description}
   */
   readonly description?: string;
   /**
   * The unique name of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#domain_name CustomerprofilesEventTrigger#domain_name}
   */
   readonly domainName: string;
   /**
   * A list of conditions that determine when an event should trigger the destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_conditions CustomerprofilesEventTrigger#event_trigger_conditions}
   */
   readonly eventTriggerConditions: CustomerprofilesEventTriggerEventTriggerConditions[] | cdktn.IResolvable;
   /**
   * Defines limits controlling whether an event triggers the destination, based on ingestion latency and the number of invocations per profile over specific time periods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_limits CustomerprofilesEventTrigger#event_trigger_limits}
   */
   readonly eventTriggerLimits?: CustomerprofilesEventTriggerEventTriggerLimits;
   /**
   * The unique name of the event trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_name CustomerprofilesEventTrigger#event_trigger_name}
   */
   readonly eventTriggerName: string;
   /**
+  * Filters the destination to profiles whose predicted intents meet the specified conditions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent_filter_definition CustomerprofilesEventTrigger#intent_filter_definition}
+  */
+  readonly intentFilterDefinition?: CustomerprofilesEventTriggerIntentFilterDefinition;
+  /**
   * The unique name of the object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#object_type_name CustomerprofilesEventTrigger#object_type_name}
   */
   readonly objectTypeName: string;
   /**
   * The destination is triggered only for profiles that meet the criteria of a segment definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#segment_filter CustomerprofilesEventTrigger#segment_filter}
   */
   readonly segmentFilter?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#tags CustomerprofilesEventTrigger#tags}
   */
   readonly tags?: CustomerprofilesEventTriggerTags[] | cdktn.IResolvable;
 }
@@ -65,25 +71,25 @@ export interface CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerD
   /**
   * The operator used to compare an attribute against a list of values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#comparison_operator CustomerprofilesEventTrigger#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#comparison_operator CustomerprofilesEventTrigger#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
   * A field defined within an object type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#field_name CustomerprofilesEventTrigger#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#field_name CustomerprofilesEventTrigger#field_name}
   */
   readonly fieldName?: string;
   /**
   * An attribute contained within a source object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#source CustomerprofilesEventTrigger#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#source CustomerprofilesEventTrigger#source}
   */
   readonly source?: string;
   /**
   * A list of attribute values used for comparison.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#values CustomerprofilesEventTrigger#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#values CustomerprofilesEventTrigger#values}
   */
   readonly values: string[];
 }
@@ -282,7 +288,7 @@ export interface CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerD
   /**
   * A list of object attributes to be evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#object_attributes CustomerprofilesEventTrigger#object_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#object_attributes CustomerprofilesEventTrigger#object_attributes}
   */
   readonly objectAttributes: CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensionsObjectAttributes[] | cdktn.IResolvable;
 }
@@ -397,13 +403,13 @@ export interface CustomerprofilesEventTriggerEventTriggerConditions {
   /**
   * A list of dimensions to be evaluated for the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_trigger_dimensions CustomerprofilesEventTrigger#event_trigger_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_trigger_dimensions CustomerprofilesEventTrigger#event_trigger_dimensions}
   */
   readonly eventTriggerDimensions: CustomerprofilesEventTriggerEventTriggerConditionsEventTriggerDimensions[] | cdktn.IResolvable;
   /**
   * The operator used to combine multiple dimensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
   */
   readonly logicalOperator: string;
 }
@@ -544,25 +550,25 @@ export interface CustomerprofilesEventTriggerEventTriggerLimitsPeriods {
   /**
   * The maximum allowed number of destination invocations per profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#max_invocations_per_profile CustomerprofilesEventTrigger#max_invocations_per_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#max_invocations_per_profile CustomerprofilesEventTrigger#max_invocations_per_profile}
   */
   readonly maxInvocationsPerProfile?: number;
   /**
   * The unit of time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#unit CustomerprofilesEventTrigger#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#unit CustomerprofilesEventTrigger#unit}
   */
   readonly unit?: string;
   /**
   * If set to true, there is no limit on the number of destination invocations per profile. The default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#unlimited CustomerprofilesEventTrigger#unlimited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#unlimited CustomerprofilesEventTrigger#unlimited}
   */
   readonly unlimited?: boolean | cdktn.IResolvable;
   /**
   * The amount of time of the specified unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
   */
   readonly value?: number;
 }
@@ -767,13 +773,13 @@ export interface CustomerprofilesEventTriggerEventTriggerLimits {
   /**
   * Specifies that an event will only trigger the destination if it is processed within a certain latency period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
   */
   readonly eventExpiration?: number;
   /**
   * A list of time periods during which the limits apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
   */
   readonly periods?: CustomerprofilesEventTriggerEventTriggerLimitsPeriods[] | cdktn.IResolvable;
 }
@@ -894,17 +900,620 @@ export class CustomerprofilesEventTriggerEventTriggerLimitsOutputReference exten
     return this._periods.internalValue;
   }
 }
+export interface CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent {
+  /**
+  * The domain of the intent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent_domain CustomerprofilesEventTrigger#intent_domain}
+  */
+  readonly intentDomain?: string;
+  /**
+  * The type of the intent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#type CustomerprofilesEventTrigger#type}
+  */
+  readonly type?: string;
+}
+
+export function customerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentToTerraform(struct?: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    intent_domain: cdktn.stringToTerraform(struct!.intentDomain),
+    type: cdktn.stringToTerraform(struct!.type),
+  }
+}
+
+
+export function customerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentToHclTerraform(struct?: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    intent_domain: {
+      value: cdktn.stringToHclTerraform(struct!.intentDomain),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    type: {
+      value: cdktn.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._intentDomain !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.intentDomain = this._intentDomain;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._intentDomain = undefined;
+      this._type = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._intentDomain = value.intentDomain;
+      this._type = value.type;
+    }
+  }
+
+  // intent_domain - computed: true, optional: true, required: false
+  private _intentDomain?: string; 
+  public get intentDomain() {
+    return this.getStringAttribute('intent_domain');
+  }
+  public set intentDomain(value: string) {
+    this._intentDomain = value;
+  }
+  public resetIntentDomain() {
+    this._intentDomain = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intentDomainInput() {
+    return this._intentDomain;
+  }
+
+  // type - computed: true, optional: true, required: false
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  public resetType() {
+    this._type = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+}
+export interface CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions {
+  /**
+  * The operator used to compare the predicted intent against a list of values.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#comparison_operator CustomerprofilesEventTrigger#comparison_operator}
+  */
+  readonly comparisonOperator?: string;
+  /**
+  * Identifies a predicted intent by domain and type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#intent CustomerprofilesEventTrigger#intent}
+  */
+  readonly intent?: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent;
+  /**
+  * A list of intent values used for comparison.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#values CustomerprofilesEventTrigger#values}
+  */
+  readonly values?: string[];
+}
+
+export function customerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsToTerraform(struct?: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    comparison_operator: cdktn.stringToTerraform(struct!.comparisonOperator),
+    intent: customerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentToTerraform(struct!.intent),
+    values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.values),
+  }
+}
+
+
+export function customerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsToHclTerraform(struct?: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    comparison_operator: {
+      value: cdktn.stringToHclTerraform(struct!.comparisonOperator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    intent: {
+      value: customerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentToHclTerraform(struct!.intent),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent",
+    },
+    values: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.values),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._comparisonOperator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.comparisonOperator = this._comparisonOperator;
+    }
+    if (this._intent?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.intent = this._intent?.internalValue;
+    }
+    if (this._values !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._comparisonOperator = undefined;
+      this._intent.internalValue = undefined;
+      this._values = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._comparisonOperator = value.comparisonOperator;
+      this._intent.internalValue = value.intent;
+      this._values = value.values;
+    }
+  }
+
+  // comparison_operator - computed: true, optional: true, required: false
+  private _comparisonOperator?: string; 
+  public get comparisonOperator() {
+    return this.getStringAttribute('comparison_operator');
+  }
+  public set comparisonOperator(value: string) {
+    this._comparisonOperator = value;
+  }
+  public resetComparisonOperator() {
+    this._comparisonOperator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get comparisonOperatorInput() {
+    return this._comparisonOperator;
+  }
+
+  // intent - computed: true, optional: true, required: false
+  private _intent = new CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntentOutputReference(this, "intent");
+  public get intent() {
+    return this._intent;
+  }
+  public putIntent(value: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsIntent) {
+    this._intent.internalValue = value;
+  }
+  public resetIntent() {
+    this._intent.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intentInput() {
+    return this._intent.internalValue;
+  }
+
+  // values - computed: true, optional: true, required: false
+  private _values?: string[]; 
+  public get values() {
+    return this.getListAttribute('values');
+  }
+  public set values(value: string[]) {
+    this._values = value;
+  }
+  public resetValues() {
+    this._values = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values;
+  }
+}
+
+export class CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList extends cdktn.ComplexList {
+  public internalValue? : CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference {
+    return new CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface CustomerprofilesEventTriggerIntentFilterDefinitionGroups {
+  /**
+  * A list of intent filter conditions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#conditions CustomerprofilesEventTrigger#conditions}
+  */
+  readonly conditions?: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions[] | cdktn.IResolvable;
+  /**
+  * The operator used to combine multiple dimensions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
+  */
+  readonly logicalOperator?: string;
+}
+
+export function customerprofilesEventTriggerIntentFilterDefinitionGroupsToTerraform(struct?: CustomerprofilesEventTriggerIntentFilterDefinitionGroups | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    conditions: cdktn.listMapper(customerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsToTerraform, false)(struct!.conditions),
+    logical_operator: cdktn.stringToTerraform(struct!.logicalOperator),
+  }
+}
+
+
+export function customerprofilesEventTriggerIntentFilterDefinitionGroupsToHclTerraform(struct?: CustomerprofilesEventTriggerIntentFilterDefinitionGroups | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    conditions: {
+      value: cdktn.listMapperHcl(customerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsToHclTerraform, false)(struct!.conditions),
+      isBlock: true,
+      type: "list",
+      storageClassType: "CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList",
+    },
+    logical_operator: {
+      value: cdktn.stringToHclTerraform(struct!.logicalOperator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): CustomerprofilesEventTriggerIntentFilterDefinitionGroups | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._conditions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.conditions = this._conditions?.internalValue;
+    }
+    if (this._logicalOperator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logicalOperator = this._logicalOperator;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CustomerprofilesEventTriggerIntentFilterDefinitionGroups | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._conditions.internalValue = undefined;
+      this._logicalOperator = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._conditions.internalValue = value.conditions;
+      this._logicalOperator = value.logicalOperator;
+    }
+  }
+
+  // conditions - computed: true, optional: true, required: false
+  private _conditions = new CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditionsList(this, "conditions", false);
+  public get conditions() {
+    return this._conditions;
+  }
+  public putConditions(value: CustomerprofilesEventTriggerIntentFilterDefinitionGroupsConditions[] | cdktn.IResolvable) {
+    this._conditions.internalValue = value;
+  }
+  public resetConditions() {
+    this._conditions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get conditionsInput() {
+    return this._conditions.internalValue;
+  }
+
+  // logical_operator - computed: true, optional: true, required: false
+  private _logicalOperator?: string; 
+  public get logicalOperator() {
+    return this.getStringAttribute('logical_operator');
+  }
+  public set logicalOperator(value: string) {
+    this._logicalOperator = value;
+  }
+  public resetLogicalOperator() {
+    this._logicalOperator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logicalOperatorInput() {
+    return this._logicalOperator;
+  }
+}
+
+export class CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList extends cdktn.ComplexList {
+  public internalValue? : CustomerprofilesEventTriggerIntentFilterDefinitionGroups[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference {
+    return new CustomerprofilesEventTriggerIntentFilterDefinitionGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface CustomerprofilesEventTriggerIntentFilterDefinition {
+  /**
+  * A list of intent filter groups combined by the definition's logical operator.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#groups CustomerprofilesEventTrigger#groups}
+  */
+  readonly groups?: CustomerprofilesEventTriggerIntentFilterDefinitionGroups[] | cdktn.IResolvable;
+  /**
+  * The operator used to combine multiple dimensions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#logical_operator CustomerprofilesEventTrigger#logical_operator}
+  */
+  readonly logicalOperator?: string;
+}
+
+export function customerprofilesEventTriggerIntentFilterDefinitionToTerraform(struct?: CustomerprofilesEventTriggerIntentFilterDefinition | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    groups: cdktn.listMapper(customerprofilesEventTriggerIntentFilterDefinitionGroupsToTerraform, false)(struct!.groups),
+    logical_operator: cdktn.stringToTerraform(struct!.logicalOperator),
+  }
+}
+
+
+export function customerprofilesEventTriggerIntentFilterDefinitionToHclTerraform(struct?: CustomerprofilesEventTriggerIntentFilterDefinition | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    groups: {
+      value: cdktn.listMapperHcl(customerprofilesEventTriggerIntentFilterDefinitionGroupsToHclTerraform, false)(struct!.groups),
+      isBlock: true,
+      type: "list",
+      storageClassType: "CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList",
+    },
+    logical_operator: {
+      value: cdktn.stringToHclTerraform(struct!.logicalOperator),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): CustomerprofilesEventTriggerIntentFilterDefinition | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._groups?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.groups = this._groups?.internalValue;
+    }
+    if (this._logicalOperator !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logicalOperator = this._logicalOperator;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CustomerprofilesEventTriggerIntentFilterDefinition | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._groups.internalValue = undefined;
+      this._logicalOperator = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._groups.internalValue = value.groups;
+      this._logicalOperator = value.logicalOperator;
+    }
+  }
+
+  // groups - computed: true, optional: true, required: false
+  private _groups = new CustomerprofilesEventTriggerIntentFilterDefinitionGroupsList(this, "groups", false);
+  public get groups() {
+    return this._groups;
+  }
+  public putGroups(value: CustomerprofilesEventTriggerIntentFilterDefinitionGroups[] | cdktn.IResolvable) {
+    this._groups.internalValue = value;
+  }
+  public resetGroups() {
+    this._groups.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupsInput() {
+    return this._groups.internalValue;
+  }
+
+  // logical_operator - computed: true, optional: true, required: false
+  private _logicalOperator?: string; 
+  public get logicalOperator() {
+    return this.getStringAttribute('logical_operator');
+  }
+  public set logicalOperator(value: string) {
+    this._logicalOperator = value;
+  }
+  public resetLogicalOperator() {
+    this._logicalOperator = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logicalOperatorInput() {
+    return this._logicalOperator;
+  }
+}
 export interface CustomerprofilesEventTriggerTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#key CustomerprofilesEventTrigger#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#key CustomerprofilesEventTrigger#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#value CustomerprofilesEventTrigger#value}
   */
   readonly value?: string;
 }
@@ -1049,7 +1658,7 @@ export class CustomerprofilesEventTriggerTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}
 */
 export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
 
@@ -1065,7 +1674,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CustomerprofilesEventTrigger resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomerprofilesEventTrigger to import
-  * @param importFromId The id of the existing CustomerprofilesEventTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomerprofilesEventTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomerprofilesEventTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1077,7 +1686,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1088,7 +1697,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_customerprofiles_event_trigger',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1104,6 +1713,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
     this._eventTriggerConditions.internalValue = config.eventTriggerConditions;
     this._eventTriggerLimits.internalValue = config.eventTriggerLimits;
     this._eventTriggerName = config.eventTriggerName;
+    this._intentFilterDefinition.internalValue = config.intentFilterDefinition;
     this._objectTypeName = config.objectTypeName;
     this._segmentFilter = config.segmentFilter;
     this._tags.internalValue = config.tags;
@@ -1194,6 +1804,22 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
     return this.getStringAttribute('id');
   }
 
+  // intent_filter_definition - computed: true, optional: true, required: false
+  private _intentFilterDefinition = new CustomerprofilesEventTriggerIntentFilterDefinitionOutputReference(this, "intent_filter_definition");
+  public get intentFilterDefinition() {
+    return this._intentFilterDefinition;
+  }
+  public putIntentFilterDefinition(value: CustomerprofilesEventTriggerIntentFilterDefinition) {
+    this._intentFilterDefinition.internalValue = value;
+  }
+  public resetIntentFilterDefinition() {
+    this._intentFilterDefinition.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intentFilterDefinitionInput() {
+    return this._intentFilterDefinition.internalValue;
+  }
+
   // last_updated_at - computed: true, optional: false, required: false
   public get lastUpdatedAt() {
     return this.getStringAttribute('last_updated_at');
@@ -1255,6 +1881,7 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
       event_trigger_conditions: cdktn.listMapper(customerprofilesEventTriggerEventTriggerConditionsToTerraform, false)(this._eventTriggerConditions.internalValue),
       event_trigger_limits: customerprofilesEventTriggerEventTriggerLimitsToTerraform(this._eventTriggerLimits.internalValue),
       event_trigger_name: cdktn.stringToTerraform(this._eventTriggerName),
+      intent_filter_definition: customerprofilesEventTriggerIntentFilterDefinitionToTerraform(this._intentFilterDefinition.internalValue),
       object_type_name: cdktn.stringToTerraform(this._objectTypeName),
       segment_filter: cdktn.stringToTerraform(this._segmentFilter),
       tags: cdktn.listMapper(customerprofilesEventTriggerTagsToTerraform, false)(this._tags.internalValue),
@@ -1292,6 +1919,12 @@ export class CustomerprofilesEventTrigger extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      intent_filter_definition: {
+        value: customerprofilesEventTriggerIntentFilterDefinitionToHclTerraform(this._intentFilterDefinition.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "CustomerprofilesEventTriggerIntentFilterDefinition",
       },
       object_type_name: {
         value: cdktn.stringToHclTerraform(this._objectTypeName),

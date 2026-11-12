@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,61 +15,67 @@ export interface GameliftGameSessionQueueConfig extends cdktn.TerraformMetaArgum
   /**
   * Information that is added to all events that are related to this game session queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#custom_event_data GameliftGameSessionQueue#custom_event_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#custom_event_data GameliftGameSessionQueue#custom_event_data}
   */
   readonly customEventData?: string;
   /**
   * A list of fleets and/or fleet aliases that can be used to fulfill game session placement requests in the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#destinations GameliftGameSessionQueue#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#destinations GameliftGameSessionQueue#destinations}
   */
   readonly destinations?: GameliftGameSessionQueueDestinations[] | cdktn.IResolvable;
   /**
   * A list of locations where a queue is allowed to place new game sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#filter_configuration GameliftGameSessionQueue#filter_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#filter_configuration GameliftGameSessionQueue#filter_configuration}
   */
   readonly filterConfiguration?: GameliftGameSessionQueueFilterConfiguration;
   /**
+  * A policy that determines where a game session queue's placement logs are delivered.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#log_configuration GameliftGameSessionQueue#log_configuration}
+  */
+  readonly logConfiguration?: GameliftGameSessionQueueLogConfiguration;
+  /**
   * A descriptive label that is associated with game session queue. Queue names must be unique within each Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#name GameliftGameSessionQueue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#name GameliftGameSessionQueue#name}
   */
   readonly name: string;
   /**
   * An SNS topic ARN that is set up to receive game session placement notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#notification_target GameliftGameSessionQueue#notification_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#notification_target GameliftGameSessionQueue#notification_target}
   */
   readonly notificationTarget?: string;
   /**
   * A set of policies that act as a sliding cap on player latency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#player_latency_policies GameliftGameSessionQueue#player_latency_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#player_latency_policies GameliftGameSessionQueue#player_latency_policies}
   */
   readonly playerLatencyPolicies?: GameliftGameSessionQueuePlayerLatencyPolicies[] | cdktn.IResolvable;
   /**
   * Custom settings to use when prioritizing destinations and locations for game session placements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#priority_configuration GameliftGameSessionQueue#priority_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#priority_configuration GameliftGameSessionQueue#priority_configuration}
   */
   readonly priorityConfiguration?: GameliftGameSessionQueuePriorityConfiguration;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#tags GameliftGameSessionQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#tags GameliftGameSessionQueue#tags}
   */
   readonly tags?: GameliftGameSessionQueueTags[] | cdktn.IResolvable;
   /**
   * The maximum time, in seconds, that a new game session placement request remains in the queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#timeout_in_seconds GameliftGameSessionQueue#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#timeout_in_seconds GameliftGameSessionQueue#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
 }
 export interface GameliftGameSessionQueueDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#destination_arn GameliftGameSessionQueue#destination_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#destination_arn GameliftGameSessionQueue#destination_arn}
   */
   readonly destinationArn?: string;
 }
@@ -187,7 +193,7 @@ export interface GameliftGameSessionQueueFilterConfiguration {
   /**
   * A list of locations to allow game session placement in, in the form of AWS Region codes such as us-west-2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#allowed_locations GameliftGameSessionQueue#allowed_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#allowed_locations GameliftGameSessionQueue#allowed_locations}
   */
   readonly allowedLocations?: string[];
 }
@@ -279,17 +285,266 @@ export class GameliftGameSessionQueueFilterConfigurationOutputReference extends 
     return this._allowedLocations;
   }
 }
+export interface GameliftGameSessionQueueLogConfigurationDeliveryDestinations {
+  /**
+  * The Amazon Resource Name (ARN) of the resource that receives the placement logs. The resource type must match LogDestination (a CloudWatch Logs log group, S3 bucket, or Firehose delivery stream). Required for FIREHOSE; optional for CLOUDWATCH and S3.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#destination_arn GameliftGameSessionQueue#destination_arn}
+  */
+  readonly destinationArn?: string;
+  /**
+  * The type of service that receives the game session queue's placement logs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#log_destination GameliftGameSessionQueue#log_destination}
+  */
+  readonly logDestination?: string;
+}
+
+export function gameliftGameSessionQueueLogConfigurationDeliveryDestinationsToTerraform(struct?: GameliftGameSessionQueueLogConfigurationDeliveryDestinations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    destination_arn: cdktn.stringToTerraform(struct!.destinationArn),
+    log_destination: cdktn.stringToTerraform(struct!.logDestination),
+  }
+}
+
+
+export function gameliftGameSessionQueueLogConfigurationDeliveryDestinationsToHclTerraform(struct?: GameliftGameSessionQueueLogConfigurationDeliveryDestinations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    destination_arn: {
+      value: cdktn.stringToHclTerraform(struct!.destinationArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    log_destination: {
+      value: cdktn.stringToHclTerraform(struct!.logDestination),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GameliftGameSessionQueueLogConfigurationDeliveryDestinations | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._destinationArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationArn = this._destinationArn;
+    }
+    if (this._logDestination !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.logDestination = this._logDestination;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GameliftGameSessionQueueLogConfigurationDeliveryDestinations | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._destinationArn = undefined;
+      this._logDestination = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._destinationArn = value.destinationArn;
+      this._logDestination = value.logDestination;
+    }
+  }
+
+  // destination_arn - computed: true, optional: true, required: false
+  private _destinationArn?: string; 
+  public get destinationArn() {
+    return this.getStringAttribute('destination_arn');
+  }
+  public set destinationArn(value: string) {
+    this._destinationArn = value;
+  }
+  public resetDestinationArn() {
+    this._destinationArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationArnInput() {
+    return this._destinationArn;
+  }
+
+  // log_destination - computed: true, optional: true, required: false
+  private _logDestination?: string; 
+  public get logDestination() {
+    return this.getStringAttribute('log_destination');
+  }
+  public set logDestination(value: string) {
+    this._logDestination = value;
+  }
+  public resetLogDestination() {
+    this._logDestination = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logDestinationInput() {
+    return this._logDestination;
+  }
+}
+
+export class GameliftGameSessionQueueLogConfigurationDeliveryDestinationsList extends cdktn.ComplexList {
+  public internalValue? : GameliftGameSessionQueueLogConfigurationDeliveryDestinations[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference {
+    return new GameliftGameSessionQueueLogConfigurationDeliveryDestinationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GameliftGameSessionQueueLogConfiguration {
+  /**
+  * The set of destinations that receive the game session queue's placement logs. A queue can deliver logs to between 1 and 3 destinations.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#delivery_destinations GameliftGameSessionQueue#delivery_destinations}
+  */
+  readonly deliveryDestinations?: GameliftGameSessionQueueLogConfigurationDeliveryDestinations[] | cdktn.IResolvable;
+}
+
+export function gameliftGameSessionQueueLogConfigurationToTerraform(struct?: GameliftGameSessionQueueLogConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    delivery_destinations: cdktn.listMapper(gameliftGameSessionQueueLogConfigurationDeliveryDestinationsToTerraform, false)(struct!.deliveryDestinations),
+  }
+}
+
+
+export function gameliftGameSessionQueueLogConfigurationToHclTerraform(struct?: GameliftGameSessionQueueLogConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    delivery_destinations: {
+      value: cdktn.listMapperHcl(gameliftGameSessionQueueLogConfigurationDeliveryDestinationsToHclTerraform, false)(struct!.deliveryDestinations),
+      isBlock: true,
+      type: "set",
+      storageClassType: "GameliftGameSessionQueueLogConfigurationDeliveryDestinationsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GameliftGameSessionQueueLogConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GameliftGameSessionQueueLogConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deliveryDestinations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deliveryDestinations = this._deliveryDestinations?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GameliftGameSessionQueueLogConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._deliveryDestinations.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._deliveryDestinations.internalValue = value.deliveryDestinations;
+    }
+  }
+
+  // delivery_destinations - computed: true, optional: true, required: false
+  private _deliveryDestinations = new GameliftGameSessionQueueLogConfigurationDeliveryDestinationsList(this, "delivery_destinations", true);
+  public get deliveryDestinations() {
+    return this._deliveryDestinations;
+  }
+  public putDeliveryDestinations(value: GameliftGameSessionQueueLogConfigurationDeliveryDestinations[] | cdktn.IResolvable) {
+    this._deliveryDestinations.internalValue = value;
+  }
+  public resetDeliveryDestinations() {
+    this._deliveryDestinations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deliveryDestinationsInput() {
+    return this._deliveryDestinations.internalValue;
+  }
+}
 export interface GameliftGameSessionQueuePlayerLatencyPolicies {
   /**
   * The maximum latency value that is allowed for any player, in milliseconds. All policies must have a value set for this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#maximum_individual_player_latency_milliseconds GameliftGameSessionQueue#maximum_individual_player_latency_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#maximum_individual_player_latency_milliseconds GameliftGameSessionQueue#maximum_individual_player_latency_milliseconds}
   */
   readonly maximumIndividualPlayerLatencyMilliseconds?: number;
   /**
   * The length of time, in seconds, that the policy is enforced while placing a new game session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#policy_duration_seconds GameliftGameSessionQueue#policy_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#policy_duration_seconds GameliftGameSessionQueue#policy_duration_seconds}
   */
   readonly policyDurationSeconds?: number;
 }
@@ -436,13 +691,13 @@ export interface GameliftGameSessionQueuePriorityConfiguration {
   /**
   * The prioritization order to use for fleet locations, when the PriorityOrder property includes LOCATION.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#location_order GameliftGameSessionQueue#location_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#location_order GameliftGameSessionQueue#location_order}
   */
   readonly locationOrder?: string[];
   /**
   * The recommended sequence to use when prioritizing where to place new game sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#priority_order GameliftGameSessionQueue#priority_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#priority_order GameliftGameSessionQueue#priority_order}
   */
   readonly priorityOrder?: string[];
 }
@@ -567,13 +822,13 @@ export interface GameliftGameSessionQueueTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#key GameliftGameSessionQueue#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#key GameliftGameSessionQueue#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#value GameliftGameSessionQueue#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#value GameliftGameSessionQueue#value}
   */
   readonly value?: string;
 }
@@ -718,7 +973,7 @@ export class GameliftGameSessionQueueTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue}
 */
 export class GameliftGameSessionQueue extends cdktn.TerraformResource {
 
@@ -734,7 +989,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GameliftGameSessionQueue resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GameliftGameSessionQueue to import
-  * @param importFromId The id of the existing GameliftGameSessionQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GameliftGameSessionQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GameliftGameSessionQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -746,7 +1001,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/gamelift_game_session_queue awscc_gamelift_game_session_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -757,7 +1012,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_gamelift_game_session_queue',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -771,6 +1026,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
     this._customEventData = config.customEventData;
     this._destinations.internalValue = config.destinations;
     this._filterConfiguration.internalValue = config.filterConfiguration;
+    this._logConfiguration.internalValue = config.logConfiguration;
     this._name = config.name;
     this._notificationTarget = config.notificationTarget;
     this._playerLatencyPolicies.internalValue = config.playerLatencyPolicies;
@@ -839,6 +1095,22 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // log_configuration - computed: true, optional: true, required: false
+  private _logConfiguration = new GameliftGameSessionQueueLogConfigurationOutputReference(this, "log_configuration");
+  public get logConfiguration() {
+    return this._logConfiguration;
+  }
+  public putLogConfiguration(value: GameliftGameSessionQueueLogConfiguration) {
+    this._logConfiguration.internalValue = value;
+  }
+  public resetLogConfiguration() {
+    this._logConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logConfigurationInput() {
+    return this._logConfiguration.internalValue;
   }
 
   // name - computed: false, optional: false, required: true
@@ -943,6 +1215,7 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
       custom_event_data: cdktn.stringToTerraform(this._customEventData),
       destinations: cdktn.listMapper(gameliftGameSessionQueueDestinationsToTerraform, false)(this._destinations.internalValue),
       filter_configuration: gameliftGameSessionQueueFilterConfigurationToTerraform(this._filterConfiguration.internalValue),
+      log_configuration: gameliftGameSessionQueueLogConfigurationToTerraform(this._logConfiguration.internalValue),
       name: cdktn.stringToTerraform(this._name),
       notification_target: cdktn.stringToTerraform(this._notificationTarget),
       player_latency_policies: cdktn.listMapper(gameliftGameSessionQueuePlayerLatencyPoliciesToTerraform, false)(this._playerLatencyPolicies.internalValue),
@@ -971,6 +1244,12 @@ export class GameliftGameSessionQueue extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "GameliftGameSessionQueueFilterConfiguration",
+      },
+      log_configuration: {
+        value: gameliftGameSessionQueueLogConfigurationToHclTerraform(this._logConfiguration.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "GameliftGameSessionQueueLogConfiguration",
       },
       name: {
         value: cdktn.stringToHclTerraform(this._name),

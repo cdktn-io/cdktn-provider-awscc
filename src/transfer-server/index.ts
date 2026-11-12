@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,99 +13,99 @@ import * as cdktn from 'cdktn';
 
 export interface TransferServerConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#certificate TransferServer#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#certificate TransferServer#certificate}
   */
   readonly certificate?: string;
   /**
   * When this property is `true`, AWS Transfer Family will generate an initial host key for your server, making it immediately available to SFTP clients. When set to `false`, clients will not be able to establish an SFTP session until you import one or more host keys (see AWS::Transfer::HostKey). This property cannot be changed after resource creation. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#create_with_host_key TransferServer#create_with_host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#create_with_host_key TransferServer#create_with_host_key}
   */
   readonly createWithHostKey?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#domain TransferServer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#domain TransferServer#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#endpoint_details TransferServer#endpoint_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#endpoint_details TransferServer#endpoint_details}
   */
   readonly endpointDetails?: TransferServerEndpointDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#endpoint_type TransferServer#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#endpoint_type TransferServer#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#identity_provider_details TransferServer#identity_provider_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#identity_provider_details TransferServer#identity_provider_details}
   */
   readonly identityProviderDetails?: TransferServerIdentityProviderDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#identity_provider_type TransferServer#identity_provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#identity_provider_type TransferServer#identity_provider_type}
   */
   readonly identityProviderType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#ip_address_type TransferServer#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#ip_address_type TransferServer#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#logging_role TransferServer#logging_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#logging_role TransferServer#logging_role}
   */
   readonly loggingRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#post_authentication_login_banner TransferServer#post_authentication_login_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#post_authentication_login_banner TransferServer#post_authentication_login_banner}
   */
   readonly postAuthenticationLoginBanner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#pre_authentication_login_banner TransferServer#pre_authentication_login_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#pre_authentication_login_banner TransferServer#pre_authentication_login_banner}
   */
   readonly preAuthenticationLoginBanner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#protocol_details TransferServer#protocol_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#protocol_details TransferServer#protocol_details}
   */
   readonly protocolDetails?: TransferServerProtocolDetails;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#protocols TransferServer#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#protocols TransferServer#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#s3_storage_options TransferServer#s3_storage_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#s3_storage_options TransferServer#s3_storage_options}
   */
   readonly s3StorageOptions?: TransferServerS3StorageOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#security_policy_name TransferServer#security_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#security_policy_name TransferServer#security_policy_name}
   */
   readonly securityPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#structured_log_destinations TransferServer#structured_log_destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#structured_log_destinations TransferServer#structured_log_destinations}
   */
   readonly structuredLogDestinations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#tags TransferServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#tags TransferServer#tags}
   */
   readonly tags?: TransferServerTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#workflow_details TransferServer#workflow_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#workflow_details TransferServer#workflow_details}
   */
   readonly workflowDetails?: TransferServerWorkflowDetails;
 }
 export interface TransferServerEndpointDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#address_allocation_ids TransferServer#address_allocation_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#address_allocation_ids TransferServer#address_allocation_ids}
   */
   readonly addressAllocationIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#security_group_ids TransferServer#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#security_group_ids TransferServer#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#subnet_ids TransferServer#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#subnet_ids TransferServer#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#vpc_endpoint_id TransferServer#vpc_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#vpc_endpoint_id TransferServer#vpc_endpoint_id}
   */
   readonly vpcEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#vpc_id TransferServer#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#vpc_id TransferServer#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -315,23 +315,23 @@ export class TransferServerEndpointDetailsOutputReference extends cdktn.ComplexO
 }
 export interface TransferServerIdentityProviderDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#directory_id TransferServer#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#directory_id TransferServer#directory_id}
   */
   readonly directoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#function TransferServer#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#function TransferServer#function}
   */
   readonly function?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#invocation_role TransferServer#invocation_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#invocation_role TransferServer#invocation_role}
   */
   readonly invocationRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#sftp_authentication_methods TransferServer#sftp_authentication_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#sftp_authentication_methods TransferServer#sftp_authentication_methods}
   */
   readonly sftpAuthenticationMethods?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#url TransferServer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#url TransferServer#url}
   */
   readonly url?: string;
 }
@@ -541,7 +541,7 @@ export class TransferServerIdentityProviderDetailsOutputReference extends cdktn.
 }
 export interface TransferServerProtocolDetailsProxyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#sftp_mode TransferServer#sftp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#sftp_mode TransferServer#sftp_mode}
   */
   readonly sftpMode?: string;
 }
@@ -633,25 +633,178 @@ export class TransferServerProtocolDetailsProxyConfigOutputReference extends cdk
     return this._sftpMode;
   }
 }
+export interface TransferServerProtocolDetailsSftpPorts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#communication_mode TransferServer#communication_mode}
+  */
+  readonly communicationMode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#sftp_port TransferServer#sftp_port}
+  */
+  readonly sftpPort?: number;
+}
+
+export function transferServerProtocolDetailsSftpPortsToTerraform(struct?: TransferServerProtocolDetailsSftpPorts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    communication_mode: cdktn.stringToTerraform(struct!.communicationMode),
+    sftp_port: cdktn.numberToTerraform(struct!.sftpPort),
+  }
+}
+
+
+export function transferServerProtocolDetailsSftpPortsToHclTerraform(struct?: TransferServerProtocolDetailsSftpPorts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    communication_mode: {
+      value: cdktn.stringToHclTerraform(struct!.communicationMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    sftp_port: {
+      value: cdktn.numberToHclTerraform(struct!.sftpPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class TransferServerProtocolDetailsSftpPortsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): TransferServerProtocolDetailsSftpPorts | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._communicationMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.communicationMode = this._communicationMode;
+    }
+    if (this._sftpPort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sftpPort = this._sftpPort;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: TransferServerProtocolDetailsSftpPorts | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._communicationMode = undefined;
+      this._sftpPort = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._communicationMode = value.communicationMode;
+      this._sftpPort = value.sftpPort;
+    }
+  }
+
+  // communication_mode - computed: true, optional: true, required: false
+  private _communicationMode?: string; 
+  public get communicationMode() {
+    return this.getStringAttribute('communication_mode');
+  }
+  public set communicationMode(value: string) {
+    this._communicationMode = value;
+  }
+  public resetCommunicationMode() {
+    this._communicationMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get communicationModeInput() {
+    return this._communicationMode;
+  }
+
+  // sftp_port - computed: true, optional: true, required: false
+  private _sftpPort?: number; 
+  public get sftpPort() {
+    return this.getNumberAttribute('sftp_port');
+  }
+  public set sftpPort(value: number) {
+    this._sftpPort = value;
+  }
+  public resetSftpPort() {
+    this._sftpPort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sftpPortInput() {
+    return this._sftpPort;
+  }
+}
+
+export class TransferServerProtocolDetailsSftpPortsList extends cdktn.ComplexList {
+  public internalValue? : TransferServerProtocolDetailsSftpPorts[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): TransferServerProtocolDetailsSftpPortsOutputReference {
+    return new TransferServerProtocolDetailsSftpPortsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface TransferServerProtocolDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#as_2_transports TransferServer#as_2_transports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#as_2_transports TransferServer#as_2_transports}
   */
   readonly as2Transports?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#passive_ip TransferServer#passive_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#passive_ip TransferServer#passive_ip}
   */
   readonly passiveIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#proxy_config TransferServer#proxy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#proxy_config TransferServer#proxy_config}
   */
   readonly proxyConfig?: TransferServerProtocolDetailsProxyConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#set_stat_option TransferServer#set_stat_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#set_stat_option TransferServer#set_stat_option}
   */
   readonly setStatOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#tls_session_resumption_mode TransferServer#tls_session_resumption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#sftp_ports TransferServer#sftp_ports}
+  */
+  readonly sftpPorts?: TransferServerProtocolDetailsSftpPorts[] | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#tls_session_resumption_mode TransferServer#tls_session_resumption_mode}
   */
   readonly tlsSessionResumptionMode?: string;
 }
@@ -666,6 +819,7 @@ export function transferServerProtocolDetailsToTerraform(struct?: TransferServer
     passive_ip: cdktn.stringToTerraform(struct!.passiveIp),
     proxy_config: transferServerProtocolDetailsProxyConfigToTerraform(struct!.proxyConfig),
     set_stat_option: cdktn.stringToTerraform(struct!.setStatOption),
+    sftp_ports: cdktn.listMapper(transferServerProtocolDetailsSftpPortsToTerraform, false)(struct!.sftpPorts),
     tls_session_resumption_mode: cdktn.stringToTerraform(struct!.tlsSessionResumptionMode),
   }
 }
@@ -700,6 +854,12 @@ export function transferServerProtocolDetailsToHclTerraform(struct?: TransferSer
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    sftp_ports: {
+      value: cdktn.listMapperHcl(transferServerProtocolDetailsSftpPortsToHclTerraform, false)(struct!.sftpPorts),
+      isBlock: true,
+      type: "list",
+      storageClassType: "TransferServerProtocolDetailsSftpPortsList",
     },
     tls_session_resumption_mode: {
       value: cdktn.stringToHclTerraform(struct!.tlsSessionResumptionMode),
@@ -747,6 +907,10 @@ export class TransferServerProtocolDetailsOutputReference extends cdktn.ComplexO
       hasAnyValues = true;
       internalValueResult.setStatOption = this._setStatOption;
     }
+    if (this._sftpPorts?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sftpPorts = this._sftpPorts?.internalValue;
+    }
     if (this._tlsSessionResumptionMode !== undefined) {
       hasAnyValues = true;
       internalValueResult.tlsSessionResumptionMode = this._tlsSessionResumptionMode;
@@ -762,6 +926,7 @@ export class TransferServerProtocolDetailsOutputReference extends cdktn.ComplexO
       this._passiveIp = undefined;
       this._proxyConfig.internalValue = undefined;
       this._setStatOption = undefined;
+      this._sftpPorts.internalValue = undefined;
       this._tlsSessionResumptionMode = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -775,6 +940,7 @@ export class TransferServerProtocolDetailsOutputReference extends cdktn.ComplexO
       this._passiveIp = value.passiveIp;
       this._proxyConfig.internalValue = value.proxyConfig;
       this._setStatOption = value.setStatOption;
+      this._sftpPorts.internalValue = value.sftpPorts;
       this._tlsSessionResumptionMode = value.tlsSessionResumptionMode;
     }
   }
@@ -843,6 +1009,22 @@ export class TransferServerProtocolDetailsOutputReference extends cdktn.ComplexO
     return this._setStatOption;
   }
 
+  // sftp_ports - computed: true, optional: true, required: false
+  private _sftpPorts = new TransferServerProtocolDetailsSftpPortsList(this, "sftp_ports", false);
+  public get sftpPorts() {
+    return this._sftpPorts;
+  }
+  public putSftpPorts(value: TransferServerProtocolDetailsSftpPorts[] | cdktn.IResolvable) {
+    this._sftpPorts.internalValue = value;
+  }
+  public resetSftpPorts() {
+    this._sftpPorts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sftpPortsInput() {
+    return this._sftpPorts.internalValue;
+  }
+
   // tls_session_resumption_mode - computed: true, optional: true, required: false
   private _tlsSessionResumptionMode?: string; 
   public get tlsSessionResumptionMode() {
@@ -863,7 +1045,7 @@ export interface TransferServerS3StorageOptions {
   /**
   * Indicates whether optimization to directory listing on S3 servers is used. Disabled by default for compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#directory_listing_optimization TransferServer#directory_listing_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#directory_listing_optimization TransferServer#directory_listing_optimization}
   */
   readonly directoryListingOptimization?: string;
 }
@@ -957,11 +1139,11 @@ export class TransferServerS3StorageOptionsOutputReference extends cdktn.Complex
 }
 export interface TransferServerTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#key TransferServer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#key TransferServer#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#value TransferServer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#value TransferServer#value}
   */
   readonly value?: string;
 }
@@ -1106,11 +1288,11 @@ export class TransferServerTagsList extends cdktn.ComplexList {
 }
 export interface TransferServerWorkflowDetailsOnPartialUpload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}
   */
   readonly executionRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}
   */
   readonly workflowId?: string;
 }
@@ -1255,11 +1437,11 @@ export class TransferServerWorkflowDetailsOnPartialUploadList extends cdktn.Comp
 }
 export interface TransferServerWorkflowDetailsOnUpload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#execution_role TransferServer#execution_role}
   */
   readonly executionRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#workflow_id TransferServer#workflow_id}
   */
   readonly workflowId?: string;
 }
@@ -1404,11 +1586,11 @@ export class TransferServerWorkflowDetailsOnUploadList extends cdktn.ComplexList
 }
 export interface TransferServerWorkflowDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#on_partial_upload TransferServer#on_partial_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#on_partial_upload TransferServer#on_partial_upload}
   */
   readonly onPartialUpload?: TransferServerWorkflowDetailsOnPartialUpload[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#on_upload TransferServer#on_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#on_upload TransferServer#on_upload}
   */
   readonly onUpload?: TransferServerWorkflowDetailsOnUpload[] | cdktn.IResolvable;
 }
@@ -1531,7 +1713,7 @@ export class TransferServerWorkflowDetailsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server awscc_transfer_server}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server awscc_transfer_server}
 */
 export class TransferServer extends cdktn.TerraformResource {
 
@@ -1547,7 +1729,7 @@ export class TransferServer extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TransferServer resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransferServer to import
-  * @param importFromId The id of the existing TransferServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransferServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransferServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1559,7 +1741,7 @@ export class TransferServer extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/transfer_server awscc_transfer_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/transfer_server awscc_transfer_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1570,7 +1752,7 @@ export class TransferServer extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_transfer_server',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

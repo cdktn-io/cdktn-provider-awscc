@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline
+// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,97 +15,97 @@ export interface ImagebuilderImagePipelineConfig extends cdktn.TerraformMetaArgu
   /**
   * The Amazon Resource Name (ARN) of the container recipe that defines how images are configured and tested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#container_recipe_arn ImagebuilderImagePipeline#container_recipe_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#container_recipe_arn ImagebuilderImagePipeline#container_recipe_arn}
   */
   readonly containerRecipeArn?: string;
   /**
   * The description of the image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#description ImagebuilderImagePipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#description ImagebuilderImagePipeline#description}
   */
   readonly description?: string;
   /**
   * The Amazon Resource Name (ARN) of the distribution configuration associated with this image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#distribution_configuration_arn ImagebuilderImagePipeline#distribution_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#distribution_configuration_arn ImagebuilderImagePipeline#distribution_configuration_arn}
   */
   readonly distributionConfigurationArn?: string;
   /**
   * Collects additional information about the image being created, including the operating system (OS) version and package list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#enhanced_image_metadata_enabled ImagebuilderImagePipeline#enhanced_image_metadata_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#enhanced_image_metadata_enabled ImagebuilderImagePipeline#enhanced_image_metadata_enabled}
   */
   readonly enhancedImageMetadataEnabled?: boolean | cdktn.IResolvable;
   /**
   * The execution role name/ARN for the image build, if provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#execution_role ImagebuilderImagePipeline#execution_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#execution_role ImagebuilderImagePipeline#execution_role}
   */
   readonly executionRole?: string;
   /**
   * The Amazon Resource Name (ARN) of the image recipe that defines how images are configured, tested, and assessed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_recipe_arn ImagebuilderImagePipeline#image_recipe_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_recipe_arn ImagebuilderImagePipeline#image_recipe_arn}
   */
   readonly imageRecipeArn?: string;
   /**
   * Contains settings for vulnerability scans that Amazon Inspector runs against the test instance during image creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_scanning_configuration ImagebuilderImagePipeline#image_scanning_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_scanning_configuration ImagebuilderImagePipeline#image_scanning_configuration}
   */
   readonly imageScanningConfiguration?: ImagebuilderImagePipelineImageScanningConfiguration;
   /**
   * The tags to be applied to images created by this pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_tags ImagebuilderImagePipeline#image_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_tags ImagebuilderImagePipeline#image_tags}
   */
   readonly imageTags?: { [key: string]: string };
   /**
   * The image tests configuration of the image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_tests_configuration ImagebuilderImagePipeline#image_tests_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_tests_configuration ImagebuilderImagePipeline#image_tests_configuration}
   */
   readonly imageTestsConfiguration?: ImagebuilderImagePipelineImageTestsConfiguration;
   /**
   * The Amazon Resource Name (ARN) of the infrastructure configuration associated with this image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#infrastructure_configuration_arn ImagebuilderImagePipeline#infrastructure_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#infrastructure_configuration_arn ImagebuilderImagePipeline#infrastructure_configuration_arn}
   */
   readonly infrastructureConfigurationArn?: string;
   /**
   * The logging configuration settings for the image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#logging_configuration ImagebuilderImagePipeline#logging_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#logging_configuration ImagebuilderImagePipeline#logging_configuration}
   */
   readonly loggingConfiguration?: ImagebuilderImagePipelineLoggingConfiguration;
   /**
   * The name of the image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}
   */
   readonly name?: string;
   /**
   * The schedule of the image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#schedule ImagebuilderImagePipeline#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#schedule ImagebuilderImagePipeline#schedule}
   */
   readonly schedule?: ImagebuilderImagePipelineSchedule;
   /**
   * The status of the image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#status ImagebuilderImagePipeline#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#status ImagebuilderImagePipeline#status}
   */
   readonly status?: string;
   /**
   * The tags of this image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#tags ImagebuilderImagePipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#tags ImagebuilderImagePipeline#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Workflows to define the image build process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#workflows ImagebuilderImagePipeline#workflows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#workflows ImagebuilderImagePipeline#workflows}
   */
   readonly workflows?: ImagebuilderImagePipelineWorkflows[] | cdktn.IResolvable;
 }
@@ -113,13 +113,13 @@ export interface ImagebuilderImagePipelineImageScanningConfigurationEcrConfigura
   /**
   * Tags for Image Builder to apply the output container image that is scanned. Tags can help you identify and manage your scanned images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#container_tags ImagebuilderImagePipeline#container_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#container_tags ImagebuilderImagePipeline#container_tags}
   */
   readonly containerTags?: string[];
   /**
   * The name of the container repository that Amazon Inspector scans to identify findings for your container images. The name includes the path for the repository location. If you don't provide this information, Image Builder creates a repository in your account named image-builder-image-scanning-repository to use for vulnerability scans for your output container images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#repository_name ImagebuilderImagePipeline#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#repository_name ImagebuilderImagePipeline#repository_name}
   */
   readonly repositoryName?: string;
 }
@@ -240,19 +240,162 @@ export class ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration
     return this._repositoryName;
   }
 }
+export interface ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition {
+  /**
+  * Specifies whether only findings that have a fix available count toward MaximumSeverityLabel. When false, Image Builder counts every finding. The default is true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#fix_available ImagebuilderImagePipeline#fix_available}
+  */
+  readonly fixAvailable?: boolean | cdktn.IResolvable;
+  /**
+  * The maximum severity allowed for findings on the output AMI. A finding above this severity fails the image, unless FixAvailable excludes it.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#maximum_severity_label ImagebuilderImagePipeline#maximum_severity_label}
+  */
+  readonly maximumSeverityLabel?: string;
+}
+
+export function imagebuilderImagePipelineImageScanningConfigurationScanResultConditionToTerraform(struct?: ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    fix_available: cdktn.booleanToTerraform(struct!.fixAvailable),
+    maximum_severity_label: cdktn.stringToTerraform(struct!.maximumSeverityLabel),
+  }
+}
+
+
+export function imagebuilderImagePipelineImageScanningConfigurationScanResultConditionToHclTerraform(struct?: ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    fix_available: {
+      value: cdktn.booleanToHclTerraform(struct!.fixAvailable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    maximum_severity_label: {
+      value: cdktn.stringToHclTerraform(struct!.maximumSeverityLabel),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._fixAvailable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.fixAvailable = this._fixAvailable;
+    }
+    if (this._maximumSeverityLabel !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maximumSeverityLabel = this._maximumSeverityLabel;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._fixAvailable = undefined;
+      this._maximumSeverityLabel = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._fixAvailable = value.fixAvailable;
+      this._maximumSeverityLabel = value.maximumSeverityLabel;
+    }
+  }
+
+  // fix_available - computed: true, optional: true, required: false
+  private _fixAvailable?: boolean | cdktn.IResolvable; 
+  public get fixAvailable() {
+    return this.getBooleanAttribute('fix_available');
+  }
+  public set fixAvailable(value: boolean | cdktn.IResolvable) {
+    this._fixAvailable = value;
+  }
+  public resetFixAvailable() {
+    this._fixAvailable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixAvailableInput() {
+    return this._fixAvailable;
+  }
+
+  // maximum_severity_label - computed: true, optional: true, required: false
+  private _maximumSeverityLabel?: string; 
+  public get maximumSeverityLabel() {
+    return this.getStringAttribute('maximum_severity_label');
+  }
+  public set maximumSeverityLabel(value: string) {
+    this._maximumSeverityLabel = value;
+  }
+  public resetMaximumSeverityLabel() {
+    this._maximumSeverityLabel = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maximumSeverityLabelInput() {
+    return this._maximumSeverityLabel;
+  }
+}
 export interface ImagebuilderImagePipelineImageScanningConfiguration {
   /**
   * Contains ECR settings for vulnerability scans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#ecr_configuration ImagebuilderImagePipeline#ecr_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#ecr_configuration ImagebuilderImagePipeline#ecr_configuration}
   */
   readonly ecrConfiguration?: ImagebuilderImagePipelineImageScanningConfigurationEcrConfiguration;
   /**
   * This sets whether Image Builder keeps a snapshot of the vulnerability scans that Amazon Inspector runs against the test instance when you create a new image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_scanning_enabled ImagebuilderImagePipeline#image_scanning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_scanning_enabled ImagebuilderImagePipeline#image_scanning_enabled}
   */
   readonly imageScanningEnabled?: boolean | cdktn.IResolvable;
+  /**
+  * The type of vulnerability scan that Image Builder runs for AMI output when ImageScanningEnabled is true. Specify a single value. If you omit ImageScanningTypes, Image Builder uses TEST_INSTANCE_CVE. With TEST_INSTANCE_CVE, Amazon Inspector scans the test instance during image tests, and you must activate Amazon Inspector for Amazon EC2 scanning in your account. With ON_DEMAND_AMI_CVE, Amazon Inspector starts an on-demand scan of the output AMI during image tests. You must build from an image recipe, but you do not need to activate Amazon Inspector in your account.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_scanning_types ImagebuilderImagePipeline#image_scanning_types}
+  */
+  readonly imageScanningTypes?: string[];
+  /**
+  * The condition that the output AMI's scan results must meet for the image to pass. You can set ScanResultCondition only when ImageScanningTypes is ON_DEMAND_AMI_CVE. If you omit it, Image Builder starts the scan but does not wait for it or use its results to pass or fail the image.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#scan_result_condition ImagebuilderImagePipeline#scan_result_condition}
+  */
+  readonly scanResultCondition?: ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition;
 }
 
 export function imagebuilderImagePipelineImageScanningConfigurationToTerraform(struct?: ImagebuilderImagePipelineImageScanningConfiguration | cdktn.IResolvable): any {
@@ -263,6 +406,8 @@ export function imagebuilderImagePipelineImageScanningConfigurationToTerraform(s
   return {
     ecr_configuration: imagebuilderImagePipelineImageScanningConfigurationEcrConfigurationToTerraform(struct!.ecrConfiguration),
     image_scanning_enabled: cdktn.booleanToTerraform(struct!.imageScanningEnabled),
+    image_scanning_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.imageScanningTypes),
+    scan_result_condition: imagebuilderImagePipelineImageScanningConfigurationScanResultConditionToTerraform(struct!.scanResultCondition),
   }
 }
 
@@ -284,6 +429,18 @@ export function imagebuilderImagePipelineImageScanningConfigurationToHclTerrafor
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    image_scanning_types: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.imageScanningTypes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    scan_result_condition: {
+      value: imagebuilderImagePipelineImageScanningConfigurationScanResultConditionToHclTerraform(struct!.scanResultCondition),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition",
     },
   };
 
@@ -317,6 +474,14 @@ export class ImagebuilderImagePipelineImageScanningConfigurationOutputReference 
       hasAnyValues = true;
       internalValueResult.imageScanningEnabled = this._imageScanningEnabled;
     }
+    if (this._imageScanningTypes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.imageScanningTypes = this._imageScanningTypes;
+    }
+    if (this._scanResultCondition?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scanResultCondition = this._scanResultCondition?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -326,6 +491,8 @@ export class ImagebuilderImagePipelineImageScanningConfigurationOutputReference 
       this.resolvableValue = undefined;
       this._ecrConfiguration.internalValue = undefined;
       this._imageScanningEnabled = undefined;
+      this._imageScanningTypes = undefined;
+      this._scanResultCondition.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -336,6 +503,8 @@ export class ImagebuilderImagePipelineImageScanningConfigurationOutputReference 
       this.resolvableValue = undefined;
       this._ecrConfiguration.internalValue = value.ecrConfiguration;
       this._imageScanningEnabled = value.imageScanningEnabled;
+      this._imageScanningTypes = value.imageScanningTypes;
+      this._scanResultCondition.internalValue = value.scanResultCondition;
     }
   }
 
@@ -370,18 +539,50 @@ export class ImagebuilderImagePipelineImageScanningConfigurationOutputReference 
   public get imageScanningEnabledInput() {
     return this._imageScanningEnabled;
   }
+
+  // image_scanning_types - computed: true, optional: true, required: false
+  private _imageScanningTypes?: string[]; 
+  public get imageScanningTypes() {
+    return this.getListAttribute('image_scanning_types');
+  }
+  public set imageScanningTypes(value: string[]) {
+    this._imageScanningTypes = value;
+  }
+  public resetImageScanningTypes() {
+    this._imageScanningTypes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageScanningTypesInput() {
+    return this._imageScanningTypes;
+  }
+
+  // scan_result_condition - computed: true, optional: true, required: false
+  private _scanResultCondition = new ImagebuilderImagePipelineImageScanningConfigurationScanResultConditionOutputReference(this, "scan_result_condition");
+  public get scanResultCondition() {
+    return this._scanResultCondition;
+  }
+  public putScanResultCondition(value: ImagebuilderImagePipelineImageScanningConfigurationScanResultCondition) {
+    this._scanResultCondition.internalValue = value;
+  }
+  public resetScanResultCondition() {
+    this._scanResultCondition.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scanResultConditionInput() {
+    return this._scanResultCondition.internalValue;
+  }
 }
 export interface ImagebuilderImagePipelineImageTestsConfiguration {
   /**
   * Defines if tests should be executed when building this image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_tests_enabled ImagebuilderImagePipeline#image_tests_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_tests_enabled ImagebuilderImagePipeline#image_tests_enabled}
   */
   readonly imageTestsEnabled?: boolean | cdktn.IResolvable;
   /**
   * The maximum time in minutes that tests are permitted to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#timeout_minutes ImagebuilderImagePipeline#timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#timeout_minutes ImagebuilderImagePipeline#timeout_minutes}
   */
   readonly timeoutMinutes?: number;
 }
@@ -506,13 +707,13 @@ export interface ImagebuilderImagePipelineLoggingConfiguration {
   /**
   * The name of the log group for image build logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#image_log_group_name ImagebuilderImagePipeline#image_log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#image_log_group_name ImagebuilderImagePipeline#image_log_group_name}
   */
   readonly imageLogGroupName?: string;
   /**
   * The name of the log group for pipeline execution logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#pipeline_log_group_name ImagebuilderImagePipeline#pipeline_log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#pipeline_log_group_name ImagebuilderImagePipeline#pipeline_log_group_name}
   */
   readonly pipelineLogGroupName?: string;
 }
@@ -637,7 +838,7 @@ export interface ImagebuilderImagePipelineScheduleAutoDisablePolicy {
   /**
   * The number of consecutive failures after which the pipeline should be automatically disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#failure_count ImagebuilderImagePipeline#failure_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#failure_count ImagebuilderImagePipeline#failure_count}
   */
   readonly failureCount?: number;
 }
@@ -733,25 +934,25 @@ export interface ImagebuilderImagePipelineSchedule {
   /**
   * The auto-disable policy for the image pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#auto_disable_policy ImagebuilderImagePipeline#auto_disable_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#auto_disable_policy ImagebuilderImagePipeline#auto_disable_policy}
   */
   readonly autoDisablePolicy?: ImagebuilderImagePipelineScheduleAutoDisablePolicy;
   /**
   * The condition configures when the pipeline should trigger a new image build.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#pipeline_execution_start_condition ImagebuilderImagePipeline#pipeline_execution_start_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#pipeline_execution_start_condition ImagebuilderImagePipeline#pipeline_execution_start_condition}
   */
   readonly pipelineExecutionStartCondition?: string;
   /**
   * The expression determines how often EC2 Image Builder evaluates your pipelineExecutionStartCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#schedule_expression ImagebuilderImagePipeline#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#schedule_expression ImagebuilderImagePipeline#schedule_expression}
   */
   readonly scheduleExpression?: string;
   /**
   * The timezone that applies to the scheduling expression, for example "Etc/UTC" or "America/Los_Angeles" in IANA timezone format. If not specified, this defaults to UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#timezone ImagebuilderImagePipeline#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#timezone ImagebuilderImagePipeline#timezone}
   */
   readonly timezone?: string;
 }
@@ -932,11 +1133,11 @@ export class ImagebuilderImagePipelineScheduleOutputReference extends cdktn.Comp
 }
 export interface ImagebuilderImagePipelineWorkflowsParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#name ImagebuilderImagePipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#value ImagebuilderImagePipeline#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#value ImagebuilderImagePipeline#value}
   */
   readonly value?: string[];
 }
@@ -1083,25 +1284,25 @@ export interface ImagebuilderImagePipelineWorkflows {
   /**
   * Define execution decision in case of workflow failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#on_failure ImagebuilderImagePipeline#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#on_failure ImagebuilderImagePipeline#on_failure}
   */
   readonly onFailure?: string;
   /**
   * The parallel group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#parallel_group ImagebuilderImagePipeline#parallel_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#parallel_group ImagebuilderImagePipeline#parallel_group}
   */
   readonly parallelGroup?: string;
   /**
   * The parameters associated with the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#parameters ImagebuilderImagePipeline#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#parameters ImagebuilderImagePipeline#parameters}
   */
   readonly parameters?: ImagebuilderImagePipelineWorkflowsParameters[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#workflow_arn ImagebuilderImagePipeline#workflow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#workflow_arn ImagebuilderImagePipeline#workflow_arn}
   */
   readonly workflowArn?: string;
 }
@@ -1304,7 +1505,7 @@ export class ImagebuilderImagePipelineWorkflowsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}
 */
 export class ImagebuilderImagePipeline extends cdktn.TerraformResource {
 
@@ -1320,7 +1521,7 @@ export class ImagebuilderImagePipeline extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ImagebuilderImagePipeline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImagebuilderImagePipeline to import
-  * @param importFromId The id of the existing ImagebuilderImagePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImagebuilderImagePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImagebuilderImagePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1332,7 +1533,7 @@ export class ImagebuilderImagePipeline extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1343,7 +1544,7 @@ export class ImagebuilderImagePipeline extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_imagebuilder_image_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.108.0',
+        providerVersion: '1.110.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
