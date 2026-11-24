@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,21 +13,17 @@ import * as cdktn from 'cdktn';
 
 export interface EventschemasRegistryPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}
   */
   readonly registryName: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#revision_id EventschemasRegistryPolicy#revision_id}
-  */
-  readonly revisionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy awscc_eventschemas_registry_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy awscc_eventschemas_registry_policy}
 */
 export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
 
@@ -43,7 +39,7 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EventschemasRegistryPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventschemasRegistryPolicy to import
-  * @param importFromId The id of the existing EventschemasRegistryPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventschemasRegistryPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventschemasRegistryPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +51,7 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy awscc_eventschemas_registry_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy awscc_eventschemas_registry_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +62,7 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_eventschemas_registry_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -79,7 +75,6 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
     });
     this._policy = config.policy;
     this._registryName = config.registryName;
-    this._revisionId = config.revisionId;
   }
 
   // ==========
@@ -122,20 +117,9 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
     return this.getStringAttribute('registry_policy_id');
   }
 
-  // revision_id - computed: true, optional: true, required: false
-  private _revisionId?: string; 
+  // revision_id - computed: true, optional: false, required: false
   public get revisionId() {
     return this.getStringAttribute('revision_id');
-  }
-  public set revisionId(value: string) {
-    this._revisionId = value;
-  }
-  public resetRevisionId() {
-    this._revisionId = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get revisionIdInput() {
-    return this._revisionId;
   }
 
   // =========
@@ -146,7 +130,6 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
     return {
       policy: cdktn.stringToTerraform(this._policy),
       registry_name: cdktn.stringToTerraform(this._registryName),
-      revision_id: cdktn.stringToTerraform(this._revisionId),
     };
   }
 
@@ -160,12 +143,6 @@ export class EventschemasRegistryPolicy extends cdktn.TerraformResource {
       },
       registry_name: {
         value: cdktn.stringToHclTerraform(this._registryName),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      revision_id: {
-        value: cdktn.stringToHclTerraform(this._revisionId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

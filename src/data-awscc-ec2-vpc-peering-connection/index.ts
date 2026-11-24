@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_vpc_peering_connection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_vpc_peering_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,76 @@ export interface DataAwsccEc2VpcPeeringConnectionConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_vpc_peering_connection#id DataAwsccEc2VpcPeeringConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_vpc_peering_connection#id DataAwsccEc2VpcPeeringConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions {
+}
+
+export function dataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsToTerraform(struct?: DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsToHclTerraform(struct?: DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allow_dns_resolution_from_remote_vpc - computed: true, optional: false, required: false
+  public get allowDnsResolutionFromRemoteVpc() {
+    return this.getBooleanAttribute('allow_dns_resolution_from_remote_vpc');
+  }
+
+  // allow_multipath_resilience - computed: true, optional: false, required: false
+  public get allowMultipathResilience() {
+    return this.getBooleanAttribute('allow_multipath_resilience');
+  }
+
+  // multipath_resilience_mode - computed: true, optional: false, required: false
+  public get multipathResilienceMode() {
+    return this.getStringAttribute('multipath_resilience_mode');
+  }
 }
 export interface DataAwsccEc2VpcPeeringConnectionTags {
 }
@@ -102,9 +166,73 @@ export class DataAwsccEc2VpcPeeringConnectionTagsList extends cdktn.ComplexList 
     return new DataAwsccEc2VpcPeeringConnectionTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions {
+}
+
+export function dataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsToTerraform(struct?: DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsToHclTerraform(struct?: DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allow_dns_resolution_from_remote_vpc - computed: true, optional: false, required: false
+  public get allowDnsResolutionFromRemoteVpc() {
+    return this.getBooleanAttribute('allow_dns_resolution_from_remote_vpc');
+  }
+
+  // allow_multipath_resilience - computed: true, optional: false, required: false
+  public get allowMultipathResilience() {
+    return this.getBooleanAttribute('allow_multipath_resilience');
+  }
+
+  // multipath_resilience_mode - computed: true, optional: false, required: false
+  public get multipathResilienceMode() {
+    return this.getStringAttribute('multipath_resilience_mode');
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}
 */
 export class DataAwsccEc2VpcPeeringConnection extends cdktn.TerraformDataSource {
 
@@ -120,7 +248,7 @@ export class DataAwsccEc2VpcPeeringConnection extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccEc2VpcPeeringConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2VpcPeeringConnection to import
-  * @param importFromId The id of the existing DataAwsccEc2VpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2VpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2VpcPeeringConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -132,7 +260,7 @@ export class DataAwsccEc2VpcPeeringConnection extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,7 +271,7 @@ export class DataAwsccEc2VpcPeeringConnection extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_ec2_vpc_peering_connection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -179,6 +307,11 @@ export class DataAwsccEc2VpcPeeringConnection extends cdktn.TerraformDataSource 
     return this._id;
   }
 
+  // multipath_resilience_status - computed: true, optional: false, required: false
+  public get multipathResilienceStatus() {
+    return this.getStringAttribute('multipath_resilience_status');
+  }
+
   // peer_owner_id - computed: true, optional: false, required: false
   public get peerOwnerId() {
     return this.getStringAttribute('peer_owner_id');
@@ -199,6 +332,12 @@ export class DataAwsccEc2VpcPeeringConnection extends cdktn.TerraformDataSource 
     return this.getStringAttribute('peer_vpc_id');
   }
 
+  // peer_vpc_peering_connection_options - computed: true, optional: false, required: false
+  private _peerVpcPeeringConnectionOptions = new DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference(this, "peer_vpc_peering_connection_options");
+  public get peerVpcPeeringConnectionOptions() {
+    return this._peerVpcPeeringConnectionOptions;
+  }
+
   // tags - computed: true, optional: false, required: false
   private _tags = new DataAwsccEc2VpcPeeringConnectionTagsList(this, "tags", false);
   public get tags() {
@@ -213,6 +352,12 @@ export class DataAwsccEc2VpcPeeringConnection extends cdktn.TerraformDataSource 
   // vpc_peering_connection_id - computed: true, optional: false, required: false
   public get vpcPeeringConnectionId() {
     return this.getStringAttribute('vpc_peering_connection_id');
+  }
+
+  // vpc_peering_connection_options - computed: true, optional: false, required: false
+  private _vpcPeeringConnectionOptions = new DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference(this, "vpc_peering_connection_options");
+  public get vpcPeeringConnectionOptions() {
+    return this._vpcPeeringConnectionOptions;
   }
 
   // =========

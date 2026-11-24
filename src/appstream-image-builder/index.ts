@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,81 +13,87 @@ import * as cdktn from 'cdktn';
 
 export interface AppstreamImageBuilderConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#access_endpoints AppstreamImageBuilder#access_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#access_endpoints AppstreamImageBuilder#access_endpoints}
   */
   readonly accessEndpoints?: AppstreamImageBuilderAccessEndpoints[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#appstream_agent_version AppstreamImageBuilder#appstream_agent_version}
+  * The configuration for agent access on the image builder. If specified, agent access is enabled for the image builder.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#agent_access_config AppstreamImageBuilder#agent_access_config}
+  */
+  readonly agentAccessConfig?: AppstreamImageBuilderAgentAccessConfig;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#appstream_agent_version AppstreamImageBuilder#appstream_agent_version}
   */
   readonly appstreamAgentVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#description AppstreamImageBuilder#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#description AppstreamImageBuilder#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#disable_imdsv1 AppstreamImageBuilder#disable_imdsv1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#disable_imdsv1 AppstreamImageBuilder#disable_imdsv1}
   */
   readonly disableImdsv1?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#display_name AppstreamImageBuilder#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#display_name AppstreamImageBuilder#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#domain_join_info AppstreamImageBuilder#domain_join_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#domain_join_info AppstreamImageBuilder#domain_join_info}
   */
   readonly domainJoinInfo?: AppstreamImageBuilderDomainJoinInfo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#enable_default_internet_access AppstreamImageBuilder#enable_default_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#enable_default_internet_access AppstreamImageBuilder#enable_default_internet_access}
   */
   readonly enableDefaultInternetAccess?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#iam_role_arn AppstreamImageBuilder#iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#iam_role_arn AppstreamImageBuilder#iam_role_arn}
   */
   readonly iamRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#image_arn AppstreamImageBuilder#image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#image_arn AppstreamImageBuilder#image_arn}
   */
   readonly imageArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#image_name AppstreamImageBuilder#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#image_name AppstreamImageBuilder#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#instance_type AppstreamImageBuilder#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#instance_type AppstreamImageBuilder#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#name AppstreamImageBuilder#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#name AppstreamImageBuilder#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#root_volume_config AppstreamImageBuilder#root_volume_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#root_volume_config AppstreamImageBuilder#root_volume_config}
   */
   readonly rootVolumeConfig?: AppstreamImageBuilderRootVolumeConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#softwares_to_install AppstreamImageBuilder#softwares_to_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#softwares_to_install AppstreamImageBuilder#softwares_to_install}
   */
   readonly softwaresToInstall?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#softwares_to_uninstall AppstreamImageBuilder#softwares_to_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#softwares_to_uninstall AppstreamImageBuilder#softwares_to_uninstall}
   */
   readonly softwaresToUninstall?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#tags AppstreamImageBuilder#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#tags AppstreamImageBuilder#tags}
   */
   readonly tags?: AppstreamImageBuilderTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#vpc_config AppstreamImageBuilder#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#vpc_config AppstreamImageBuilder#vpc_config}
   */
   readonly vpcConfig?: AppstreamImageBuilderVpcConfig;
 }
 export interface AppstreamImageBuilderAccessEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#endpoint_type AppstreamImageBuilder#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#endpoint_type AppstreamImageBuilder#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#vpce_id AppstreamImageBuilder#vpce_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#vpce_id AppstreamImageBuilder#vpce_id}
   */
   readonly vpceId?: string;
 }
@@ -230,13 +236,437 @@ export class AppstreamImageBuilderAccessEndpointsList extends cdktn.ComplexList 
     return new AppstreamImageBuilderAccessEndpointsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface AppstreamImageBuilderAgentAccessConfigSettings {
+  /**
+  * The agent action to configure. Valid values are COMPUTER_VISION, COMPUTER_INPUT, and FORWARD_MCP_TOOLS. COMPUTER_VISION allows agents to take screenshots of the desktop. COMPUTER_INPUT allows agents to click, type, and scroll on the desktop and requires COMPUTER_VISION to also be enabled. FORWARD_MCP_TOOLS allows agents to interact with applications and the desktop operating system through direct MCP calls rather than using computer use tools.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#agent_action AppstreamImageBuilder#agent_action}
+  */
+  readonly agentAction?: string;
+  /**
+  * Whether the agent action is enabled or disabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#permission AppstreamImageBuilder#permission}
+  */
+  readonly permission?: string;
+}
+
+export function appstreamImageBuilderAgentAccessConfigSettingsToTerraform(struct?: AppstreamImageBuilderAgentAccessConfigSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    agent_action: cdktn.stringToTerraform(struct!.agentAction),
+    permission: cdktn.stringToTerraform(struct!.permission),
+  }
+}
+
+
+export function appstreamImageBuilderAgentAccessConfigSettingsToHclTerraform(struct?: AppstreamImageBuilderAgentAccessConfigSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    agent_action: {
+      value: cdktn.stringToHclTerraform(struct!.agentAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    permission: {
+      value: cdktn.stringToHclTerraform(struct!.permission),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AppstreamImageBuilderAgentAccessConfigSettingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): AppstreamImageBuilderAgentAccessConfigSettings | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agentAction !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentAction = this._agentAction;
+    }
+    if (this._permission !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.permission = this._permission;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AppstreamImageBuilderAgentAccessConfigSettings | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._agentAction = undefined;
+      this._permission = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._agentAction = value.agentAction;
+      this._permission = value.permission;
+    }
+  }
+
+  // agent_action - computed: true, optional: true, required: false
+  private _agentAction?: string; 
+  public get agentAction() {
+    return this.getStringAttribute('agent_action');
+  }
+  public set agentAction(value: string) {
+    this._agentAction = value;
+  }
+  public resetAgentAction() {
+    this._agentAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentActionInput() {
+    return this._agentAction;
+  }
+
+  // permission - computed: true, optional: true, required: false
+  private _permission?: string; 
+  public get permission() {
+    return this.getStringAttribute('permission');
+  }
+  public set permission(value: string) {
+    this._permission = value;
+  }
+  public resetPermission() {
+    this._permission = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get permissionInput() {
+    return this._permission;
+  }
+}
+
+export class AppstreamImageBuilderAgentAccessConfigSettingsList extends cdktn.ComplexList {
+  public internalValue? : AppstreamImageBuilderAgentAccessConfigSettings[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): AppstreamImageBuilderAgentAccessConfigSettingsOutputReference {
+    return new AppstreamImageBuilderAgentAccessConfigSettingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface AppstreamImageBuilderAgentAccessConfig {
+  /**
+  * The Amazon Resource Name (ARN) of the Amazon S3 bucket where agent screenshots are stored. Required when ScreenshotsUploadEnabled is true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#s3_bucket_arn AppstreamImageBuilder#s3_bucket_arn}
+  */
+  readonly s3BucketArn?: string;
+  /**
+  * The image format for agent screen captures.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#screen_image_format AppstreamImageBuilder#screen_image_format}
+  */
+  readonly screenImageFormat?: string;
+  /**
+  * The screen resolution for the agent streaming environment.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#screen_resolution AppstreamImageBuilder#screen_resolution}
+  */
+  readonly screenResolution?: string;
+  /**
+  * Indicates whether screenshot uploads to Amazon S3 are enabled for agent sessions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#screenshots_upload_enabled AppstreamImageBuilder#screenshots_upload_enabled}
+  */
+  readonly screenshotsUploadEnabled?: boolean | cdktn.IResolvable;
+  /**
+  * The list of agent access settings that define permissions for each agent action. You must specify at least one setting. Agent actions that aren't listed are disabled, so list only the actions that you enable.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#settings AppstreamImageBuilder#settings}
+  */
+  readonly settings?: AppstreamImageBuilderAgentAccessConfigSettings[] | cdktn.IResolvable;
+  /**
+  * The user control mode for agent sessions. This setting determines how users can interact with agent sessions. Valid values are VIEW_ONLY, VIEW_STOP, and DISABLED.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#user_control_mode AppstreamImageBuilder#user_control_mode}
+  */
+  readonly userControlMode?: string;
+}
+
+export function appstreamImageBuilderAgentAccessConfigToTerraform(struct?: AppstreamImageBuilderAgentAccessConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    s3_bucket_arn: cdktn.stringToTerraform(struct!.s3BucketArn),
+    screen_image_format: cdktn.stringToTerraform(struct!.screenImageFormat),
+    screen_resolution: cdktn.stringToTerraform(struct!.screenResolution),
+    screenshots_upload_enabled: cdktn.booleanToTerraform(struct!.screenshotsUploadEnabled),
+    settings: cdktn.listMapper(appstreamImageBuilderAgentAccessConfigSettingsToTerraform, false)(struct!.settings),
+    user_control_mode: cdktn.stringToTerraform(struct!.userControlMode),
+  }
+}
+
+
+export function appstreamImageBuilderAgentAccessConfigToHclTerraform(struct?: AppstreamImageBuilderAgentAccessConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    s3_bucket_arn: {
+      value: cdktn.stringToHclTerraform(struct!.s3BucketArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    screen_image_format: {
+      value: cdktn.stringToHclTerraform(struct!.screenImageFormat),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    screen_resolution: {
+      value: cdktn.stringToHclTerraform(struct!.screenResolution),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    screenshots_upload_enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.screenshotsUploadEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    settings: {
+      value: cdktn.listMapperHcl(appstreamImageBuilderAgentAccessConfigSettingsToHclTerraform, false)(struct!.settings),
+      isBlock: true,
+      type: "list",
+      storageClassType: "AppstreamImageBuilderAgentAccessConfigSettingsList",
+    },
+    user_control_mode: {
+      value: cdktn.stringToHclTerraform(struct!.userControlMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AppstreamImageBuilderAgentAccessConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AppstreamImageBuilderAgentAccessConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._s3BucketArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.s3BucketArn = this._s3BucketArn;
+    }
+    if (this._screenImageFormat !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.screenImageFormat = this._screenImageFormat;
+    }
+    if (this._screenResolution !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.screenResolution = this._screenResolution;
+    }
+    if (this._screenshotsUploadEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.screenshotsUploadEnabled = this._screenshotsUploadEnabled;
+    }
+    if (this._settings?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.settings = this._settings?.internalValue;
+    }
+    if (this._userControlMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userControlMode = this._userControlMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AppstreamImageBuilderAgentAccessConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._s3BucketArn = undefined;
+      this._screenImageFormat = undefined;
+      this._screenResolution = undefined;
+      this._screenshotsUploadEnabled = undefined;
+      this._settings.internalValue = undefined;
+      this._userControlMode = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._s3BucketArn = value.s3BucketArn;
+      this._screenImageFormat = value.screenImageFormat;
+      this._screenResolution = value.screenResolution;
+      this._screenshotsUploadEnabled = value.screenshotsUploadEnabled;
+      this._settings.internalValue = value.settings;
+      this._userControlMode = value.userControlMode;
+    }
+  }
+
+  // s3_bucket_arn - computed: true, optional: true, required: false
+  private _s3BucketArn?: string; 
+  public get s3BucketArn() {
+    return this.getStringAttribute('s3_bucket_arn');
+  }
+  public set s3BucketArn(value: string) {
+    this._s3BucketArn = value;
+  }
+  public resetS3BucketArn() {
+    this._s3BucketArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get s3BucketArnInput() {
+    return this._s3BucketArn;
+  }
+
+  // screen_image_format - computed: true, optional: true, required: false
+  private _screenImageFormat?: string; 
+  public get screenImageFormat() {
+    return this.getStringAttribute('screen_image_format');
+  }
+  public set screenImageFormat(value: string) {
+    this._screenImageFormat = value;
+  }
+  public resetScreenImageFormat() {
+    this._screenImageFormat = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get screenImageFormatInput() {
+    return this._screenImageFormat;
+  }
+
+  // screen_resolution - computed: true, optional: true, required: false
+  private _screenResolution?: string; 
+  public get screenResolution() {
+    return this.getStringAttribute('screen_resolution');
+  }
+  public set screenResolution(value: string) {
+    this._screenResolution = value;
+  }
+  public resetScreenResolution() {
+    this._screenResolution = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get screenResolutionInput() {
+    return this._screenResolution;
+  }
+
+  // screenshots_upload_enabled - computed: true, optional: true, required: false
+  private _screenshotsUploadEnabled?: boolean | cdktn.IResolvable; 
+  public get screenshotsUploadEnabled() {
+    return this.getBooleanAttribute('screenshots_upload_enabled');
+  }
+  public set screenshotsUploadEnabled(value: boolean | cdktn.IResolvable) {
+    this._screenshotsUploadEnabled = value;
+  }
+  public resetScreenshotsUploadEnabled() {
+    this._screenshotsUploadEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get screenshotsUploadEnabledInput() {
+    return this._screenshotsUploadEnabled;
+  }
+
+  // settings - computed: true, optional: true, required: false
+  private _settings = new AppstreamImageBuilderAgentAccessConfigSettingsList(this, "settings", false);
+  public get settings() {
+    return this._settings;
+  }
+  public putSettings(value: AppstreamImageBuilderAgentAccessConfigSettings[] | cdktn.IResolvable) {
+    this._settings.internalValue = value;
+  }
+  public resetSettings() {
+    this._settings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get settingsInput() {
+    return this._settings.internalValue;
+  }
+
+  // user_control_mode - computed: true, optional: true, required: false
+  private _userControlMode?: string; 
+  public get userControlMode() {
+    return this.getStringAttribute('user_control_mode');
+  }
+  public set userControlMode(value: string) {
+    this._userControlMode = value;
+  }
+  public resetUserControlMode() {
+    this._userControlMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userControlModeInput() {
+    return this._userControlMode;
+  }
+}
 export interface AppstreamImageBuilderDomainJoinInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#directory_name AppstreamImageBuilder#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#directory_name AppstreamImageBuilder#directory_name}
   */
   readonly directoryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#organizational_unit_distinguished_name AppstreamImageBuilder#organizational_unit_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#organizational_unit_distinguished_name AppstreamImageBuilder#organizational_unit_distinguished_name}
   */
   readonly organizationalUnitDistinguishedName?: string;
 }
@@ -359,7 +789,7 @@ export class AppstreamImageBuilderDomainJoinInfoOutputReference extends cdktn.Co
 }
 export interface AppstreamImageBuilderRootVolumeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#volume_size_in_gb AppstreamImageBuilder#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#volume_size_in_gb AppstreamImageBuilder#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -453,11 +883,11 @@ export class AppstreamImageBuilderRootVolumeConfigOutputReference extends cdktn.
 }
 export interface AppstreamImageBuilderTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#key AppstreamImageBuilder#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#key AppstreamImageBuilder#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#value AppstreamImageBuilder#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#value AppstreamImageBuilder#value}
   */
   readonly value?: string;
 }
@@ -602,11 +1032,11 @@ export class AppstreamImageBuilderTagsList extends cdktn.ComplexList {
 }
 export interface AppstreamImageBuilderVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#security_group_ids AppstreamImageBuilder#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#security_group_ids AppstreamImageBuilder#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#subnet_ids AppstreamImageBuilder#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#subnet_ids AppstreamImageBuilder#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -729,7 +1159,7 @@ export class AppstreamImageBuilderVpcConfigOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder awscc_appstream_image_builder}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder awscc_appstream_image_builder}
 */
 export class AppstreamImageBuilder extends cdktn.TerraformResource {
 
@@ -745,7 +1175,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppstreamImageBuilder resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppstreamImageBuilder to import
-  * @param importFromId The id of the existing AppstreamImageBuilder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppstreamImageBuilder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppstreamImageBuilder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -757,7 +1187,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder awscc_appstream_image_builder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder awscc_appstream_image_builder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -768,7 +1198,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appstream_image_builder',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -780,6 +1210,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._accessEndpoints.internalValue = config.accessEndpoints;
+    this._agentAccessConfig.internalValue = config.agentAccessConfig;
     this._appstreamAgentVersion = config.appstreamAgentVersion;
     this._description = config.description;
     this._disableImdsv1 = config.disableImdsv1;
@@ -816,6 +1247,22 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get accessEndpointsInput() {
     return this._accessEndpoints.internalValue;
+  }
+
+  // agent_access_config - computed: true, optional: true, required: false
+  private _agentAccessConfig = new AppstreamImageBuilderAgentAccessConfigOutputReference(this, "agent_access_config");
+  public get agentAccessConfig() {
+    return this._agentAccessConfig;
+  }
+  public putAgentAccessConfig(value: AppstreamImageBuilderAgentAccessConfig) {
+    this._agentAccessConfig.internalValue = value;
+  }
+  public resetAgentAccessConfig() {
+    this._agentAccessConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentAccessConfigInput() {
+    return this._agentAccessConfig.internalValue;
   }
 
   // appstream_agent_version - computed: true, optional: true, required: false
@@ -1085,6 +1532,7 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       access_endpoints: cdktn.listMapper(appstreamImageBuilderAccessEndpointsToTerraform, false)(this._accessEndpoints.internalValue),
+      agent_access_config: appstreamImageBuilderAgentAccessConfigToTerraform(this._agentAccessConfig.internalValue),
       appstream_agent_version: cdktn.stringToTerraform(this._appstreamAgentVersion),
       description: cdktn.stringToTerraform(this._description),
       disable_imdsv1: cdktn.booleanToTerraform(this._disableImdsv1),
@@ -1111,6 +1559,12 @@ export class AppstreamImageBuilder extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "AppstreamImageBuilderAccessEndpointsList",
+      },
+      agent_access_config: {
+        value: appstreamImageBuilderAgentAccessConfigToHclTerraform(this._agentAccessConfig.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "AppstreamImageBuilderAgentAccessConfig",
       },
       appstream_agent_version: {
         value: cdktn.stringToHclTerraform(this._appstreamAgentVersion),

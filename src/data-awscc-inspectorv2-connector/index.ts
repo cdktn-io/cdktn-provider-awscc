@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/inspectorv2_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/inspectorv2_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccInspectorv2ConnectorConfig extends cdktn.TerraformMeta
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/inspectorv2_connector#id DataAwsccInspectorv2Connector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/inspectorv2_connector#id DataAwsccInspectorv2Connector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -430,6 +430,350 @@ export class DataAwsccInspectorv2ConnectorProviderConfigurationAzureOutputRefere
     return this._scopeConfiguration;
   }
 }
+export interface DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning {
+}
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningToTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningToHclTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // scope_type - computed: true, optional: false, required: false
+  public get scopeType() {
+    return this.getStringAttribute('scope_type');
+  }
+
+  // scope_values - computed: true, optional: false, required: false
+  public get scopeValues() {
+    return this.getListAttribute('scope_values');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_reason - computed: true, optional: false, required: false
+  public get stateReason() {
+    return this.getStringAttribute('state_reason');
+  }
+}
+export interface DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning {
+}
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningToTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningToHclTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // scope_type - computed: true, optional: false, required: false
+  public get scopeType() {
+    return this.getStringAttribute('scope_type');
+  }
+
+  // scope_values - computed: true, optional: false, required: false
+  public get scopeValues() {
+    return this.getListAttribute('scope_values');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_reason - computed: true, optional: false, required: false
+  public get stateReason() {
+    return this.getStringAttribute('state_reason');
+  }
+}
+export interface DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning {
+}
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningToTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningToHclTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // scope_type - computed: true, optional: false, required: false
+  public get scopeType() {
+    return this.getStringAttribute('scope_type');
+  }
+
+  // scope_values - computed: true, optional: false, required: false
+  public get scopeValues() {
+    return this.getListAttribute('scope_values');
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_reason - computed: true, optional: false, required: false
+  public get stateReason() {
+    return this.getStringAttribute('state_reason');
+  }
+}
+export interface DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration {
+}
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationToTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationToHclTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // container_image_scanning - computed: true, optional: false, required: false
+  private _containerImageScanning = new DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference(this, "container_image_scanning");
+  public get containerImageScanning() {
+    return this._containerImageScanning;
+  }
+
+  // serverless_scanning - computed: true, optional: false, required: false
+  private _serverlessScanning = new DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference(this, "serverless_scanning");
+  public get serverlessScanning() {
+    return this._serverlessScanning;
+  }
+
+  // vm_scanning - computed: true, optional: false, required: false
+  private _vmScanning = new DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference(this, "vm_scanning");
+  public get vmScanning() {
+    return this._vmScanning;
+  }
+}
+export interface DataAwsccInspectorv2ConnectorProviderConfigurationGcp {
+}
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpToTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcp): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccInspectorv2ConnectorProviderConfigurationGcpToHclTerraform(struct?: DataAwsccInspectorv2ConnectorProviderConfigurationGcp): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccInspectorv2ConnectorProviderConfigurationGcp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccInspectorv2ConnectorProviderConfigurationGcp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // auto_install_vm_scanner - computed: true, optional: false, required: false
+  public get autoInstallVmScanner() {
+    return this.getBooleanAttribute('auto_install_vm_scanner');
+  }
+
+  // aws_config_connector_arn - computed: true, optional: false, required: false
+  public get awsConfigConnectorArn() {
+    return this.getStringAttribute('aws_config_connector_arn');
+  }
+
+  // gcp_regions - computed: true, optional: false, required: false
+  public get gcpRegions() {
+    return this.getListAttribute('gcp_regions');
+  }
+
+  // scope_configuration - computed: true, optional: false, required: false
+  private _scopeConfiguration = new DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference(this, "scope_configuration");
+  public get scopeConfiguration() {
+    return this._scopeConfiguration;
+  }
+}
 export interface DataAwsccInspectorv2ConnectorProviderConfiguration {
 }
 
@@ -483,6 +827,12 @@ export class DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference e
   private _azure = new DataAwsccInspectorv2ConnectorProviderConfigurationAzureOutputReference(this, "azure");
   public get azure() {
     return this._azure;
+  }
+
+  // gcp - computed: true, optional: false, required: false
+  private _gcp = new DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference(this, "gcp");
+  public get gcp() {
+    return this._gcp;
   }
 }
 export interface DataAwsccInspectorv2ConnectorTags {
@@ -567,7 +917,7 @@ export class DataAwsccInspectorv2ConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector}
 */
 export class DataAwsccInspectorv2Connector extends cdktn.TerraformDataSource {
 
@@ -583,7 +933,7 @@ export class DataAwsccInspectorv2Connector extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccInspectorv2Connector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccInspectorv2Connector to import
-  * @param importFromId The id of the existing DataAwsccInspectorv2Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/inspectorv2_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccInspectorv2Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/inspectorv2_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccInspectorv2Connector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -595,7 +945,7 @@ export class DataAwsccInspectorv2Connector extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -606,7 +956,7 @@ export class DataAwsccInspectorv2Connector extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_inspectorv2_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

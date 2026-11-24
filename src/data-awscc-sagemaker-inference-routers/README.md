@@ -1,0 +1,3 @@
+# `data_awscc_sagemaker_inference_routers`
+
+Refer to the Terraform Registry for docs: [`data_awscc_sagemaker_inference_routers`](https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/sagemaker_inference_routers).

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface Inspectorv2ConnectorConfig extends cdktn.TerraformMetaArguments
   /**
   * Optional description of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#description Inspectorv2Connector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#description Inspectorv2Connector#description}
   */
   readonly description?: string;
   /**
   * Display name for the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#name Inspectorv2Connector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#name Inspectorv2Connector#name}
   */
   readonly name: string;
   /**
   * Provider-specific configuration including regions and scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#provider_configuration Inspectorv2Connector#provider_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#provider_configuration Inspectorv2Connector#provider_configuration}
   */
   readonly providerConfiguration: Inspectorv2ConnectorProviderConfiguration;
   /**
   * The cloud provider for this connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#provider_name Inspectorv2Connector#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#provider_name Inspectorv2Connector#provider_name}
   */
   readonly providerName: string;
   /**
   * Tags to apply to the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#tags Inspectorv2Connector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#tags Inspectorv2Connector#tags}
   */
   readonly tags?: Inspectorv2ConnectorTags[] | cdktn.IResolvable;
 }
@@ -109,13 +109,13 @@ export class Inspectorv2ConnectorHealthOutputReference extends cdktn.ComplexObje
 }
 export interface Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationContainerImageScanning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
   */
   readonly scopeType?: string;
   /**
-  * List of subscription IDs. Empty for TENANT scope.
+  * List of scope identifiers. For Azure, subscription IDs (empty for TENANT scope). For GCP, project IDs or organization ID (empty for ORGANIZATION scope).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
   */
   readonly scopeValues?: string[];
 }
@@ -248,13 +248,13 @@ export class Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationCon
 }
 export interface Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationServerlessScanning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
   */
   readonly scopeType?: string;
   /**
-  * List of subscription IDs. Empty for TENANT scope.
+  * List of scope identifiers. For Azure, subscription IDs (empty for TENANT scope). For GCP, project IDs or organization ID (empty for ORGANIZATION scope).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
   */
   readonly scopeValues?: string[];
 }
@@ -387,13 +387,13 @@ export class Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationSer
 }
 export interface Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
   */
   readonly scopeType?: string;
   /**
-  * List of subscription IDs. Empty for TENANT scope.
+  * List of scope identifiers. For Azure, subscription IDs (empty for TENANT scope). For GCP, project IDs or organization ID (empty for ORGANIZATION scope).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
   */
   readonly scopeValues?: string[];
 }
@@ -526,21 +526,21 @@ export class Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmS
 }
 export interface Inspectorv2ConnectorProviderConfigurationAzureScopeConfiguration {
   /**
-  * Defines the scope of Azure resources to monitor for a specific resource type.
+  * Defines the scope of cloud resources to monitor for a specific resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#container_image_scanning Inspectorv2Connector#container_image_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#container_image_scanning Inspectorv2Connector#container_image_scanning}
   */
   readonly containerImageScanning?: Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationContainerImageScanning;
   /**
-  * Defines the scope of Azure resources to monitor for a specific resource type.
+  * Defines the scope of cloud resources to monitor for a specific resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#serverless_scanning Inspectorv2Connector#serverless_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#serverless_scanning Inspectorv2Connector#serverless_scanning}
   */
   readonly serverlessScanning?: Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationServerlessScanning;
   /**
-  * Defines the scope of Azure resources to monitor for a specific resource type.
+  * Defines the scope of cloud resources to monitor for a specific resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#vm_scanning Inspectorv2Connector#vm_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#vm_scanning Inspectorv2Connector#vm_scanning}
   */
   readonly vmScanning?: Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning;
 }
@@ -694,27 +694,27 @@ export interface Inspectorv2ConnectorProviderConfigurationAzure {
   /**
   * Whether to automatically install the VM scanner. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#auto_install_vm_scanner Inspectorv2Connector#auto_install_vm_scanner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#auto_install_vm_scanner Inspectorv2Connector#auto_install_vm_scanner}
   */
   readonly autoInstallVmScanner?: boolean | cdktn.IResolvable;
   /**
   * The ARN of the AWS Config connector used for Azure resource discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#aws_config_connector_arn Inspectorv2Connector#aws_config_connector_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#aws_config_connector_arn Inspectorv2Connector#aws_config_connector_arn}
   */
-  readonly awsConfigConnectorArn: string;
+  readonly awsConfigConnectorArn?: string;
   /**
   * List of Azure regions to scan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#azure_regions Inspectorv2Connector#azure_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#azure_regions Inspectorv2Connector#azure_regions}
   */
-  readonly azureRegions: string[];
+  readonly azureRegions?: string[];
   /**
   * Defines which resource types to scan and at what scope level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#scope_configuration Inspectorv2Connector#scope_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_configuration Inspectorv2Connector#scope_configuration}
   */
-  readonly scopeConfiguration: Inspectorv2ConnectorProviderConfigurationAzureScopeConfiguration;
+  readonly scopeConfiguration?: Inspectorv2ConnectorProviderConfigurationAzureScopeConfiguration;
 }
 
 export function inspectorv2ConnectorProviderConfigurationAzureToTerraform(struct?: Inspectorv2ConnectorProviderConfigurationAzure | cdktn.IResolvable): any {
@@ -843,7 +843,7 @@ export class Inspectorv2ConnectorProviderConfigurationAzureOutputReference exten
     return this._autoInstallVmScanner;
   }
 
-  // aws_config_connector_arn - computed: false, optional: false, required: true
+  // aws_config_connector_arn - computed: true, optional: true, required: false
   private _awsConfigConnectorArn?: string; 
   public get awsConfigConnectorArn() {
     return this.getStringAttribute('aws_config_connector_arn');
@@ -851,12 +851,15 @@ export class Inspectorv2ConnectorProviderConfigurationAzureOutputReference exten
   public set awsConfigConnectorArn(value: string) {
     this._awsConfigConnectorArn = value;
   }
+  public resetAwsConfigConnectorArn() {
+    this._awsConfigConnectorArn = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get awsConfigConnectorArnInput() {
     return this._awsConfigConnectorArn;
   }
 
-  // azure_regions - computed: false, optional: false, required: true
+  // azure_regions - computed: true, optional: true, required: false
   private _azureRegions?: string[]; 
   public get azureRegions() {
     return this.getListAttribute('azure_regions');
@@ -864,18 +867,808 @@ export class Inspectorv2ConnectorProviderConfigurationAzureOutputReference exten
   public set azureRegions(value: string[]) {
     this._azureRegions = value;
   }
+  public resetAzureRegions() {
+    this._azureRegions = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get azureRegionsInput() {
     return this._azureRegions;
   }
 
-  // scope_configuration - computed: false, optional: false, required: true
+  // scope_configuration - computed: true, optional: true, required: false
   private _scopeConfiguration = new Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationOutputReference(this, "scope_configuration");
   public get scopeConfiguration() {
     return this._scopeConfiguration;
   }
   public putScopeConfiguration(value: Inspectorv2ConnectorProviderConfigurationAzureScopeConfiguration) {
     this._scopeConfiguration.internalValue = value;
+  }
+  public resetScopeConfiguration() {
+    this._scopeConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeConfigurationInput() {
+    return this._scopeConfiguration.internalValue;
+  }
+}
+export interface Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
+  */
+  readonly scopeType?: string;
+  /**
+  * List of scope identifiers. For Azure, subscription IDs (empty for TENANT scope). For GCP, project IDs or organization ID (empty for ORGANIZATION scope).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+  */
+  readonly scopeValues?: string[];
+}
+
+export function inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningToTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    scope_type: cdktn.stringToTerraform(struct!.scopeType),
+    scope_values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scopeValues),
+  }
+}
+
+
+export function inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningToHclTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    scope_type: {
+      value: cdktn.stringToHclTerraform(struct!.scopeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scope_values: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scopeValues),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scopeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeType = this._scopeType;
+    }
+    if (this._scopeValues !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeValues = this._scopeValues;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scopeType = undefined;
+      this._scopeValues = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scopeType = value.scopeType;
+      this._scopeValues = value.scopeValues;
+    }
+  }
+
+  // scope_type - computed: true, optional: true, required: false
+  private _scopeType?: string; 
+  public get scopeType() {
+    return this.getStringAttribute('scope_type');
+  }
+  public set scopeType(value: string) {
+    this._scopeType = value;
+  }
+  public resetScopeType() {
+    this._scopeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeTypeInput() {
+    return this._scopeType;
+  }
+
+  // scope_values - computed: true, optional: true, required: false
+  private _scopeValues?: string[]; 
+  public get scopeValues() {
+    return this.getListAttribute('scope_values');
+  }
+  public set scopeValues(value: string[]) {
+    this._scopeValues = value;
+  }
+  public resetScopeValues() {
+    this._scopeValues = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeValuesInput() {
+    return this._scopeValues;
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_reason - computed: true, optional: false, required: false
+  public get stateReason() {
+    return this.getStringAttribute('state_reason');
+  }
+}
+export interface Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
+  */
+  readonly scopeType?: string;
+  /**
+  * List of scope identifiers. For Azure, subscription IDs (empty for TENANT scope). For GCP, project IDs or organization ID (empty for ORGANIZATION scope).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+  */
+  readonly scopeValues?: string[];
+}
+
+export function inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningToTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    scope_type: cdktn.stringToTerraform(struct!.scopeType),
+    scope_values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scopeValues),
+  }
+}
+
+
+export function inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningToHclTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    scope_type: {
+      value: cdktn.stringToHclTerraform(struct!.scopeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scope_values: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scopeValues),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scopeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeType = this._scopeType;
+    }
+    if (this._scopeValues !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeValues = this._scopeValues;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scopeType = undefined;
+      this._scopeValues = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scopeType = value.scopeType;
+      this._scopeValues = value.scopeValues;
+    }
+  }
+
+  // scope_type - computed: true, optional: true, required: false
+  private _scopeType?: string; 
+  public get scopeType() {
+    return this.getStringAttribute('scope_type');
+  }
+  public set scopeType(value: string) {
+    this._scopeType = value;
+  }
+  public resetScopeType() {
+    this._scopeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeTypeInput() {
+    return this._scopeType;
+  }
+
+  // scope_values - computed: true, optional: true, required: false
+  private _scopeValues?: string[]; 
+  public get scopeValues() {
+    return this.getListAttribute('scope_values');
+  }
+  public set scopeValues(value: string[]) {
+    this._scopeValues = value;
+  }
+  public resetScopeValues() {
+    this._scopeValues = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeValuesInput() {
+    return this._scopeValues;
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_reason - computed: true, optional: false, required: false
+  public get stateReason() {
+    return this.getStringAttribute('state_reason');
+  }
+}
+export interface Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_type Inspectorv2Connector#scope_type}
+  */
+  readonly scopeType?: string;
+  /**
+  * List of scope identifiers. For Azure, subscription IDs (empty for TENANT scope). For GCP, project IDs or organization ID (empty for ORGANIZATION scope).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_values Inspectorv2Connector#scope_values}
+  */
+  readonly scopeValues?: string[];
+}
+
+export function inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningToTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    scope_type: cdktn.stringToTerraform(struct!.scopeType),
+    scope_values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scopeValues),
+  }
+}
+
+
+export function inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningToHclTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    scope_type: {
+      value: cdktn.stringToHclTerraform(struct!.scopeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scope_values: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scopeValues),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scopeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeType = this._scopeType;
+    }
+    if (this._scopeValues !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeValues = this._scopeValues;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scopeType = undefined;
+      this._scopeValues = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scopeType = value.scopeType;
+      this._scopeValues = value.scopeValues;
+    }
+  }
+
+  // scope_type - computed: true, optional: true, required: false
+  private _scopeType?: string; 
+  public get scopeType() {
+    return this.getStringAttribute('scope_type');
+  }
+  public set scopeType(value: string) {
+    this._scopeType = value;
+  }
+  public resetScopeType() {
+    this._scopeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeTypeInput() {
+    return this._scopeType;
+  }
+
+  // scope_values - computed: true, optional: true, required: false
+  private _scopeValues?: string[]; 
+  public get scopeValues() {
+    return this.getListAttribute('scope_values');
+  }
+  public set scopeValues(value: string[]) {
+    this._scopeValues = value;
+  }
+  public resetScopeValues() {
+    this._scopeValues = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeValuesInput() {
+    return this._scopeValues;
+  }
+
+  // state - computed: true, optional: false, required: false
+  public get state() {
+    return this.getStringAttribute('state');
+  }
+
+  // state_reason - computed: true, optional: false, required: false
+  public get stateReason() {
+    return this.getStringAttribute('state_reason');
+  }
+}
+export interface Inspectorv2ConnectorProviderConfigurationGcpScopeConfiguration {
+  /**
+  * Defines the scope of cloud resources to monitor for a specific resource type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#container_image_scanning Inspectorv2Connector#container_image_scanning}
+  */
+  readonly containerImageScanning?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning;
+  /**
+  * Defines the scope of cloud resources to monitor for a specific resource type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#serverless_scanning Inspectorv2Connector#serverless_scanning}
+  */
+  readonly serverlessScanning?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning;
+  /**
+  * Defines the scope of cloud resources to monitor for a specific resource type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#vm_scanning Inspectorv2Connector#vm_scanning}
+  */
+  readonly vmScanning?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning;
+}
+
+export function inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationToTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    container_image_scanning: inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningToTerraform(struct!.containerImageScanning),
+    serverless_scanning: inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningToTerraform(struct!.serverlessScanning),
+    vm_scanning: inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningToTerraform(struct!.vmScanning),
+  }
+}
+
+
+export function inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationToHclTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    container_image_scanning: {
+      value: inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningToHclTerraform(struct!.containerImageScanning),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning",
+    },
+    serverless_scanning: {
+      value: inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningToHclTerraform(struct!.serverlessScanning),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning",
+    },
+    vm_scanning: {
+      value: inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningToHclTerraform(struct!.vmScanning),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Inspectorv2ConnectorProviderConfigurationGcpScopeConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._containerImageScanning?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.containerImageScanning = this._containerImageScanning?.internalValue;
+    }
+    if (this._serverlessScanning?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serverlessScanning = this._serverlessScanning?.internalValue;
+    }
+    if (this._vmScanning?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.vmScanning = this._vmScanning?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Inspectorv2ConnectorProviderConfigurationGcpScopeConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._containerImageScanning.internalValue = undefined;
+      this._serverlessScanning.internalValue = undefined;
+      this._vmScanning.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._containerImageScanning.internalValue = value.containerImageScanning;
+      this._serverlessScanning.internalValue = value.serverlessScanning;
+      this._vmScanning.internalValue = value.vmScanning;
+    }
+  }
+
+  // container_image_scanning - computed: true, optional: true, required: false
+  private _containerImageScanning = new Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference(this, "container_image_scanning");
+  public get containerImageScanning() {
+    return this._containerImageScanning;
+  }
+  public putContainerImageScanning(value: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning) {
+    this._containerImageScanning.internalValue = value;
+  }
+  public resetContainerImageScanning() {
+    this._containerImageScanning.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get containerImageScanningInput() {
+    return this._containerImageScanning.internalValue;
+  }
+
+  // serverless_scanning - computed: true, optional: true, required: false
+  private _serverlessScanning = new Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference(this, "serverless_scanning");
+  public get serverlessScanning() {
+    return this._serverlessScanning;
+  }
+  public putServerlessScanning(value: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning) {
+    this._serverlessScanning.internalValue = value;
+  }
+  public resetServerlessScanning() {
+    this._serverlessScanning.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverlessScanningInput() {
+    return this._serverlessScanning.internalValue;
+  }
+
+  // vm_scanning - computed: true, optional: true, required: false
+  private _vmScanning = new Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference(this, "vm_scanning");
+  public get vmScanning() {
+    return this._vmScanning;
+  }
+  public putVmScanning(value: Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning) {
+    this._vmScanning.internalValue = value;
+  }
+  public resetVmScanning() {
+    this._vmScanning.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vmScanningInput() {
+    return this._vmScanning.internalValue;
+  }
+}
+export interface Inspectorv2ConnectorProviderConfigurationGcp {
+  /**
+  * Whether to automatically install the VM scanner. Defaults to true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#auto_install_vm_scanner Inspectorv2Connector#auto_install_vm_scanner}
+  */
+  readonly autoInstallVmScanner?: boolean | cdktn.IResolvable;
+  /**
+  * The ARN of the AWS Config connector used for GCP resource discovery.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#aws_config_connector_arn Inspectorv2Connector#aws_config_connector_arn}
+  */
+  readonly awsConfigConnectorArn?: string;
+  /**
+  * List of GCP regions to scan (e.g. us-central1).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#gcp_regions Inspectorv2Connector#gcp_regions}
+  */
+  readonly gcpRegions?: string[];
+  /**
+  * Defines which GCP resource types to scan and at what scope level. GCP supports multiple capabilities per connector.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#scope_configuration Inspectorv2Connector#scope_configuration}
+  */
+  readonly scopeConfiguration?: Inspectorv2ConnectorProviderConfigurationGcpScopeConfiguration;
+}
+
+export function inspectorv2ConnectorProviderConfigurationGcpToTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcp | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    auto_install_vm_scanner: cdktn.booleanToTerraform(struct!.autoInstallVmScanner),
+    aws_config_connector_arn: cdktn.stringToTerraform(struct!.awsConfigConnectorArn),
+    gcp_regions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.gcpRegions),
+    scope_configuration: inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationToTerraform(struct!.scopeConfiguration),
+  }
+}
+
+
+export function inspectorv2ConnectorProviderConfigurationGcpToHclTerraform(struct?: Inspectorv2ConnectorProviderConfigurationGcp | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    auto_install_vm_scanner: {
+      value: cdktn.booleanToHclTerraform(struct!.autoInstallVmScanner),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    aws_config_connector_arn: {
+      value: cdktn.stringToHclTerraform(struct!.awsConfigConnectorArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    gcp_regions: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.gcpRegions),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    scope_configuration: {
+      value: inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationToHclTerraform(struct!.scopeConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "Inspectorv2ConnectorProviderConfigurationGcpScopeConfiguration",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Inspectorv2ConnectorProviderConfigurationGcpOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Inspectorv2ConnectorProviderConfigurationGcp | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._autoInstallVmScanner !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.autoInstallVmScanner = this._autoInstallVmScanner;
+    }
+    if (this._awsConfigConnectorArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.awsConfigConnectorArn = this._awsConfigConnectorArn;
+    }
+    if (this._gcpRegions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcpRegions = this._gcpRegions;
+    }
+    if (this._scopeConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeConfiguration = this._scopeConfiguration?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Inspectorv2ConnectorProviderConfigurationGcp | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._autoInstallVmScanner = undefined;
+      this._awsConfigConnectorArn = undefined;
+      this._gcpRegions = undefined;
+      this._scopeConfiguration.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._autoInstallVmScanner = value.autoInstallVmScanner;
+      this._awsConfigConnectorArn = value.awsConfigConnectorArn;
+      this._gcpRegions = value.gcpRegions;
+      this._scopeConfiguration.internalValue = value.scopeConfiguration;
+    }
+  }
+
+  // auto_install_vm_scanner - computed: true, optional: true, required: false
+  private _autoInstallVmScanner?: boolean | cdktn.IResolvable; 
+  public get autoInstallVmScanner() {
+    return this.getBooleanAttribute('auto_install_vm_scanner');
+  }
+  public set autoInstallVmScanner(value: boolean | cdktn.IResolvable) {
+    this._autoInstallVmScanner = value;
+  }
+  public resetAutoInstallVmScanner() {
+    this._autoInstallVmScanner = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get autoInstallVmScannerInput() {
+    return this._autoInstallVmScanner;
+  }
+
+  // aws_config_connector_arn - computed: true, optional: true, required: false
+  private _awsConfigConnectorArn?: string; 
+  public get awsConfigConnectorArn() {
+    return this.getStringAttribute('aws_config_connector_arn');
+  }
+  public set awsConfigConnectorArn(value: string) {
+    this._awsConfigConnectorArn = value;
+  }
+  public resetAwsConfigConnectorArn() {
+    this._awsConfigConnectorArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get awsConfigConnectorArnInput() {
+    return this._awsConfigConnectorArn;
+  }
+
+  // gcp_regions - computed: true, optional: true, required: false
+  private _gcpRegions?: string[]; 
+  public get gcpRegions() {
+    return this.getListAttribute('gcp_regions');
+  }
+  public set gcpRegions(value: string[]) {
+    this._gcpRegions = value;
+  }
+  public resetGcpRegions() {
+    this._gcpRegions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpRegionsInput() {
+    return this._gcpRegions;
+  }
+
+  // scope_configuration - computed: true, optional: true, required: false
+  private _scopeConfiguration = new Inspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference(this, "scope_configuration");
+  public get scopeConfiguration() {
+    return this._scopeConfiguration;
+  }
+  public putScopeConfiguration(value: Inspectorv2ConnectorProviderConfigurationGcpScopeConfiguration) {
+    this._scopeConfiguration.internalValue = value;
+  }
+  public resetScopeConfiguration() {
+    this._scopeConfiguration.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scopeConfigurationInput() {
@@ -884,9 +1677,13 @@ export class Inspectorv2ConnectorProviderConfigurationAzureOutputReference exten
 }
 export interface Inspectorv2ConnectorProviderConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#azure Inspectorv2Connector#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#azure Inspectorv2Connector#azure}
   */
-  readonly azure: Inspectorv2ConnectorProviderConfigurationAzure;
+  readonly azure?: Inspectorv2ConnectorProviderConfigurationAzure;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#gcp Inspectorv2Connector#gcp}
+  */
+  readonly gcp?: Inspectorv2ConnectorProviderConfigurationGcp;
 }
 
 export function inspectorv2ConnectorProviderConfigurationToTerraform(struct?: Inspectorv2ConnectorProviderConfiguration | cdktn.IResolvable): any {
@@ -896,6 +1693,7 @@ export function inspectorv2ConnectorProviderConfigurationToTerraform(struct?: In
   }
   return {
     azure: inspectorv2ConnectorProviderConfigurationAzureToTerraform(struct!.azure),
+    gcp: inspectorv2ConnectorProviderConfigurationGcpToTerraform(struct!.gcp),
   }
 }
 
@@ -911,6 +1709,12 @@ export function inspectorv2ConnectorProviderConfigurationToHclTerraform(struct?:
       isBlock: true,
       type: "struct",
       storageClassType: "Inspectorv2ConnectorProviderConfigurationAzure",
+    },
+    gcp: {
+      value: inspectorv2ConnectorProviderConfigurationGcpToHclTerraform(struct!.gcp),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "Inspectorv2ConnectorProviderConfigurationGcp",
     },
   };
 
@@ -940,6 +1744,10 @@ export class Inspectorv2ConnectorProviderConfigurationOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.azure = this._azure?.internalValue;
     }
+    if (this._gcp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcp = this._gcp?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -948,6 +1756,7 @@ export class Inspectorv2ConnectorProviderConfigurationOutputReference extends cd
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._azure.internalValue = undefined;
+      this._gcp.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -957,10 +1766,11 @@ export class Inspectorv2ConnectorProviderConfigurationOutputReference extends cd
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._azure.internalValue = value.azure;
+      this._gcp.internalValue = value.gcp;
     }
   }
 
-  // azure - computed: false, optional: false, required: true
+  // azure - computed: true, optional: true, required: false
   private _azure = new Inspectorv2ConnectorProviderConfigurationAzureOutputReference(this, "azure");
   public get azure() {
     return this._azure;
@@ -968,18 +1778,37 @@ export class Inspectorv2ConnectorProviderConfigurationOutputReference extends cd
   public putAzure(value: Inspectorv2ConnectorProviderConfigurationAzure) {
     this._azure.internalValue = value;
   }
+  public resetAzure() {
+    this._azure.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get azureInput() {
     return this._azure.internalValue;
   }
+
+  // gcp - computed: true, optional: true, required: false
+  private _gcp = new Inspectorv2ConnectorProviderConfigurationGcpOutputReference(this, "gcp");
+  public get gcp() {
+    return this._gcp;
+  }
+  public putGcp(value: Inspectorv2ConnectorProviderConfigurationGcp) {
+    this._gcp.internalValue = value;
+  }
+  public resetGcp() {
+    this._gcp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpInput() {
+    return this._gcp.internalValue;
+  }
 }
 export interface Inspectorv2ConnectorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#key Inspectorv2Connector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#key Inspectorv2Connector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#value Inspectorv2Connector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#value Inspectorv2Connector#value}
   */
   readonly value?: string;
 }
@@ -1124,7 +1953,7 @@ export class Inspectorv2ConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector awscc_inspectorv2_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector awscc_inspectorv2_connector}
 */
 export class Inspectorv2Connector extends cdktn.TerraformResource {
 
@@ -1140,7 +1969,7 @@ export class Inspectorv2Connector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Inspectorv2Connector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Inspectorv2Connector to import
-  * @param importFromId The id of the existing Inspectorv2Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Inspectorv2Connector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Inspectorv2Connector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1152,7 +1981,7 @@ export class Inspectorv2Connector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/inspectorv2_connector awscc_inspectorv2_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/inspectorv2_connector awscc_inspectorv2_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1163,7 +1992,7 @@ export class Inspectorv2Connector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_inspectorv2_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

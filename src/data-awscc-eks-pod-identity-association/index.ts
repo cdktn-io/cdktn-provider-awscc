@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/eks_pod_identity_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/eks_pod_identity_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccEksPodIdentityAssociationConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/eks_pod_identity_association#id DataAwsccEksPodIdentityAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/eks_pod_identity_association#id DataAwsccEksPodIdentityAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,9 +102,73 @@ export class DataAwsccEksPodIdentityAssociationTagsList extends cdktn.ComplexLis
     return new DataAwsccEksPodIdentityAssociationTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig {
+}
+
+export function dataAwsccEksPodIdentityAssociationWorkloadIdentityConfigToTerraform(struct?: DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEksPodIdentityAssociationWorkloadIdentityConfigToHclTerraform(struct?: DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+
+  // provider_arn - computed: true, optional: false, required: false
+  public get providerArn() {
+    return this.getStringAttribute('provider_arn');
+  }
+
+  // template_arn - computed: true, optional: false, required: false
+  public get templateArn() {
+    return this.getStringAttribute('template_arn');
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association}
 */
 export class DataAwsccEksPodIdentityAssociation extends cdktn.TerraformDataSource {
 
@@ -120,7 +184,7 @@ export class DataAwsccEksPodIdentityAssociation extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccEksPodIdentityAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEksPodIdentityAssociation to import
-  * @param importFromId The id of the existing DataAwsccEksPodIdentityAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEksPodIdentityAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEksPodIdentityAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -132,7 +196,7 @@ export class DataAwsccEksPodIdentityAssociation extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,7 +207,7 @@ export class DataAwsccEksPodIdentityAssociation extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_eks_pod_identity_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -228,6 +292,12 @@ export class DataAwsccEksPodIdentityAssociation extends cdktn.TerraformDataSourc
   // target_role_arn - computed: true, optional: false, required: false
   public get targetRoleArn() {
     return this.getStringAttribute('target_role_arn');
+  }
+
+  // workload_identity_config - computed: true, optional: false, required: false
+  private _workloadIdentityConfig = new DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference(this, "workload_identity_config");
+  public get workloadIdentityConfig() {
+    return this._workloadIdentityConfig;
   }
 
   // =========

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,85 +15,97 @@ export interface BedrockagentcoreRuntimeConfig extends cdktn.TerraformMetaArgume
   /**
   * The artifact of the agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#agent_runtime_artifact BedrockagentcoreRuntime#agent_runtime_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#agent_runtime_artifact BedrockagentcoreRuntime#agent_runtime_artifact}
   */
   readonly agentRuntimeArtifact: BedrockagentcoreRuntimeAgentRuntimeArtifact;
   /**
   * Name for a resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#agent_runtime_name BedrockagentcoreRuntime#agent_runtime_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#agent_runtime_name BedrockagentcoreRuntime#agent_runtime_name}
   */
   readonly agentRuntimeName: string;
   /**
   * Authorizer configuration for the agent runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#authorizer_configuration BedrockagentcoreRuntime#authorizer_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#authorizer_configuration BedrockagentcoreRuntime#authorizer_configuration}
   */
   readonly authorizerConfiguration?: BedrockagentcoreRuntimeAuthorizerConfiguration;
   /**
   * Capacity provider configuration for the agent runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#capacity_provider_configuration BedrockagentcoreRuntime#capacity_provider_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#capacity_provider_configuration BedrockagentcoreRuntime#capacity_provider_configuration}
   */
   readonly capacityProviderConfiguration?: BedrockagentcoreRuntimeCapacityProviderConfiguration;
   /**
   * Description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#description BedrockagentcoreRuntime#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#description BedrockagentcoreRuntime#description}
   */
   readonly description?: string;
   /**
   * Environment variables for the agent runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#environment_variables BedrockagentcoreRuntime#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#environment_variables BedrockagentcoreRuntime#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
   * Filesystem configurations for the agent runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#filesystem_configurations BedrockagentcoreRuntime#filesystem_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#filesystem_configurations BedrockagentcoreRuntime#filesystem_configurations}
   */
   readonly filesystemConfigurations?: BedrockagentcoreRuntimeFilesystemConfigurations[] | cdktn.IResolvable;
   /**
+  * Lifecycle hooks for the agent runtime
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#hooks_configuration BedrockagentcoreRuntime#hooks_configuration}
+  */
+  readonly hooksConfiguration?: BedrockagentcoreRuntimeHooksConfiguration;
+  /**
   * Lifecycle configuration for managing runtime sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#lifecycle_configuration BedrockagentcoreRuntime#lifecycle_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#lifecycle_configuration BedrockagentcoreRuntime#lifecycle_configuration}
   */
   readonly lifecycleConfiguration?: BedrockagentcoreRuntimeLifecycleConfiguration;
   /**
   * Network access configuration for the Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#network_configuration BedrockagentcoreRuntime#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#network_configuration BedrockagentcoreRuntime#network_configuration}
   */
   readonly networkConfiguration?: BedrockagentcoreRuntimeNetworkConfiguration;
   /**
   * The version of the runtime platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#platform_version BedrockagentcoreRuntime#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#platform_version BedrockagentcoreRuntime#platform_version}
   */
   readonly platformVersion?: string;
   /**
   * Protocol configuration for the agent runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#protocol_configuration BedrockagentcoreRuntime#protocol_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#protocol_configuration BedrockagentcoreRuntime#protocol_configuration}
   */
   readonly protocolConfiguration?: string;
   /**
   * Configuration for HTTP request headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#request_header_configuration BedrockagentcoreRuntime#request_header_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#request_header_configuration BedrockagentcoreRuntime#request_header_configuration}
   */
   readonly requestHeaderConfiguration?: BedrockagentcoreRuntimeRequestHeaderConfiguration;
   /**
+  * Resource configurations for the agent runtime
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#resource_configurations BedrockagentcoreRuntime#resource_configurations}
+  */
+  readonly resourceConfigurations?: BedrockagentcoreRuntimeResourceConfigurations[] | cdktn.IResolvable;
+  /**
   * Amazon Resource Name (ARN) of an IAM role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#role_arn BedrockagentcoreRuntime#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#role_arn BedrockagentcoreRuntime#role_arn}
   */
   readonly roleArn: string;
   /**
   * A map of tag keys and values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#tags BedrockagentcoreRuntime#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#tags BedrockagentcoreRuntime#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -101,19 +113,19 @@ export interface BedrockagentcoreRuntimeAgentRuntimeArtifactCodeConfigurationCod
   /**
   * S3 bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#bucket BedrockagentcoreRuntime#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#bucket BedrockagentcoreRuntime#bucket}
   */
   readonly bucket?: string;
   /**
   * S3 object key prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#prefix BedrockagentcoreRuntime#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#prefix BedrockagentcoreRuntime#prefix}
   */
   readonly prefix?: string;
   /**
   * S3 object version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#version_id BedrockagentcoreRuntime#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#version_id BedrockagentcoreRuntime#version_id}
   */
   readonly versionId?: string;
 }
@@ -267,7 +279,7 @@ export interface BedrockagentcoreRuntimeAgentRuntimeArtifactCodeConfigurationCod
   /**
   * S3 Location Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#s3 BedrockagentcoreRuntime#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#s3 BedrockagentcoreRuntime#s3}
   */
   readonly s3?: BedrockagentcoreRuntimeAgentRuntimeArtifactCodeConfigurationCodeS3;
 }
@@ -363,19 +375,19 @@ export interface BedrockagentcoreRuntimeAgentRuntimeArtifactCodeConfiguration {
   /**
   * Object represents source code from zip file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#code BedrockagentcoreRuntime#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#code BedrockagentcoreRuntime#code}
   */
   readonly code?: BedrockagentcoreRuntimeAgentRuntimeArtifactCodeConfigurationCode;
   /**
   * List of entry points
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#entry_point BedrockagentcoreRuntime#entry_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#entry_point BedrockagentcoreRuntime#entry_point}
   */
   readonly entryPoint?: string[];
   /**
   * Managed runtime types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#runtime BedrockagentcoreRuntime#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#runtime BedrockagentcoreRuntime#runtime}
   */
   readonly runtime?: string;
 }
@@ -529,7 +541,7 @@ export interface BedrockagentcoreRuntimeAgentRuntimeArtifactContainerConfigurati
   /**
   * The ECR URI of the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#container_uri BedrockagentcoreRuntime#container_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#container_uri BedrockagentcoreRuntime#container_uri}
   */
   readonly containerUri?: string;
 }
@@ -625,11 +637,11 @@ export interface BedrockagentcoreRuntimeAgentRuntimeArtifact {
   /**
   * Representation of a code configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#code_configuration BedrockagentcoreRuntime#code_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#code_configuration BedrockagentcoreRuntime#code_configuration}
   */
   readonly codeConfiguration?: BedrockagentcoreRuntimeAgentRuntimeArtifactCodeConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#container_configuration BedrockagentcoreRuntime#container_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#container_configuration BedrockagentcoreRuntime#container_configuration}
   */
   readonly containerConfiguration?: BedrockagentcoreRuntimeAgentRuntimeArtifactContainerConfiguration;
 }
@@ -754,7 +766,7 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The ARN of the bedrock-agentcore hosting environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#arn BedrockagentcoreRuntime#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#arn BedrockagentcoreRuntime#arn}
   */
   readonly arn?: string;
 }
@@ -872,13 +884,13 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * List of allow-listed hosting environments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#hosting_environments BedrockagentcoreRuntime#hosting_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#hosting_environments BedrockagentcoreRuntime#hosting_environments}
   */
   readonly hostingEnvironments?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerAllowedWorkloadConfigurationHostingEnvironments[] | cdktn.IResolvable;
   /**
   * List of allow-listed workload identity names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#workload_identities BedrockagentcoreRuntime#workload_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#workload_identities BedrockagentcoreRuntime#workload_identities}
   */
   readonly workloadIdentities?: string[];
 }
@@ -1003,13 +1015,13 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The string value to match for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#match_value_string BedrockagentcoreRuntime#match_value_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#match_value_string BedrockagentcoreRuntime#match_value_string}
   */
   readonly matchValueString?: string;
   /**
   * The list of strings to check for a match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#match_value_string_list BedrockagentcoreRuntime#match_value_string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#match_value_string_list BedrockagentcoreRuntime#match_value_string_list}
   */
   readonly matchValueStringList?: string[];
 }
@@ -1134,13 +1146,13 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The relationship between the claim field value and the value or values being matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#claim_match_operator BedrockagentcoreRuntime#claim_match_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#claim_match_operator BedrockagentcoreRuntime#claim_match_operator}
   */
   readonly claimMatchOperator?: string;
   /**
   * The value or values in the custom claim to match for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#claim_match_value BedrockagentcoreRuntime#claim_match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#claim_match_value BedrockagentcoreRuntime#claim_match_value}
   */
   readonly claimMatchValue?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue;
 }
@@ -1265,19 +1277,19 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The value or values in the custom claim to match and relationship of match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#authorizing_claim_match_value BedrockagentcoreRuntime#authorizing_claim_match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#authorizing_claim_match_value BedrockagentcoreRuntime#authorizing_claim_match_value}
   */
   readonly authorizingClaimMatchValue?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValue;
   /**
   * The name of the custom claim to validate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#inbound_token_claim_name BedrockagentcoreRuntime#inbound_token_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#inbound_token_claim_name BedrockagentcoreRuntime#inbound_token_claim_name}
   */
   readonly inboundTokenClaimName?: string;
   /**
   * Token claim data type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#inbound_token_claim_value_type BedrockagentcoreRuntime#inbound_token_claim_value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#inbound_token_claim_value_type BedrockagentcoreRuntime#inbound_token_claim_value_type}
   */
   readonly inboundTokenClaimValueType?: string;
 }
@@ -1453,37 +1465,37 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The IP address type for the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#endpoint_ip_address_type BedrockagentcoreRuntime#endpoint_ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#endpoint_ip_address_type BedrockagentcoreRuntime#endpoint_ip_address_type}
   */
   readonly endpointIpAddressType?: string;
   /**
   * An intermediate domain to use as the resource configuration endpoint instead of the actual target domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#routing_domain BedrockagentcoreRuntime#routing_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#routing_domain BedrockagentcoreRuntime#routing_domain}
   */
   readonly routingDomain?: string;
   /**
   * The security group IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#security_group_ids BedrockagentcoreRuntime#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#security_group_ids BedrockagentcoreRuntime#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The subnet IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#subnet_ids BedrockagentcoreRuntime#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#subnet_ids BedrockagentcoreRuntime#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Tags to apply to the managed VPC Lattice resource gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#tags BedrockagentcoreRuntime#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#tags BedrockagentcoreRuntime#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The VPC identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#vpc_identifier BedrockagentcoreRuntime#vpc_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#vpc_identifier BedrockagentcoreRuntime#vpc_identifier}
   */
   readonly vpcIdentifier?: string;
 }
@@ -1724,7 +1736,7 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The identifier of the VPC Lattice resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#resource_configuration_identifier BedrockagentcoreRuntime#resource_configuration_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#resource_configuration_identifier BedrockagentcoreRuntime#resource_configuration_identifier}
   */
   readonly resourceConfigurationIdentifier?: string;
 }
@@ -1820,13 +1832,13 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * Managed VPC resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#managed_vpc_resource BedrockagentcoreRuntime#managed_vpc_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#managed_vpc_resource BedrockagentcoreRuntime#managed_vpc_resource}
   */
   readonly managedVpcResource?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResource;
   /**
   * Self-managed VPC Lattice resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#self_managed_lattice_resource BedrockagentcoreRuntime#self_managed_lattice_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#self_managed_lattice_resource BedrockagentcoreRuntime#self_managed_lattice_resource}
   */
   readonly selfManagedLatticeResource?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResource;
 }
@@ -1951,37 +1963,37 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The IP address type for the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#endpoint_ip_address_type BedrockagentcoreRuntime#endpoint_ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#endpoint_ip_address_type BedrockagentcoreRuntime#endpoint_ip_address_type}
   */
   readonly endpointIpAddressType?: string;
   /**
   * An intermediate domain to use as the resource configuration endpoint instead of the actual target domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#routing_domain BedrockagentcoreRuntime#routing_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#routing_domain BedrockagentcoreRuntime#routing_domain}
   */
   readonly routingDomain?: string;
   /**
   * The security group IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#security_group_ids BedrockagentcoreRuntime#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#security_group_ids BedrockagentcoreRuntime#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The subnet IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#subnet_ids BedrockagentcoreRuntime#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#subnet_ids BedrockagentcoreRuntime#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * Tags to apply to the managed VPC Lattice resource gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#tags BedrockagentcoreRuntime#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#tags BedrockagentcoreRuntime#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The VPC identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#vpc_identifier BedrockagentcoreRuntime#vpc_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#vpc_identifier BedrockagentcoreRuntime#vpc_identifier}
   */
   readonly vpcIdentifier?: string;
 }
@@ -2222,7 +2234,7 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The identifier of the VPC Lattice resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#resource_configuration_identifier BedrockagentcoreRuntime#resource_configuration_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#resource_configuration_identifier BedrockagentcoreRuntime#resource_configuration_identifier}
   */
   readonly resourceConfigurationIdentifier?: string;
 }
@@ -2318,13 +2330,13 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * Managed VPC resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#managed_vpc_resource BedrockagentcoreRuntime#managed_vpc_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#managed_vpc_resource BedrockagentcoreRuntime#managed_vpc_resource}
   */
   readonly managedVpcResource?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResource;
   /**
   * Self-managed VPC Lattice resource configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#self_managed_lattice_resource BedrockagentcoreRuntime#self_managed_lattice_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#self_managed_lattice_resource BedrockagentcoreRuntime#self_managed_lattice_resource}
   */
   readonly selfManagedLatticeResource?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResource;
 }
@@ -2449,13 +2461,13 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * The domain to override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#domain BedrockagentcoreRuntime#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#domain BedrockagentcoreRuntime#domain}
   */
   readonly domain?: string;
   /**
   * Private endpoint configuration. Exactly one of SelfManagedLatticeResource or ManagedVpcResource must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#private_endpoint BedrockagentcoreRuntime#private_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#private_endpoint BedrockagentcoreRuntime#private_endpoint}
   */
   readonly privateEndpoint?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpoint;
 }
@@ -2602,49 +2614,49 @@ export interface BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthoriz
   /**
   * List of allowed audiences
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#allowed_audience BedrockagentcoreRuntime#allowed_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#allowed_audience BedrockagentcoreRuntime#allowed_audience}
   */
   readonly allowedAudience?: string[];
   /**
   * List of allowed clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#allowed_clients BedrockagentcoreRuntime#allowed_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#allowed_clients BedrockagentcoreRuntime#allowed_clients}
   */
   readonly allowedClients?: string[];
   /**
   * List of allowed scopes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#allowed_scopes BedrockagentcoreRuntime#allowed_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#allowed_scopes BedrockagentcoreRuntime#allowed_scopes}
   */
   readonly allowedScopes?: string[];
   /**
   * Allow-list of upstream workloads permitted to reach this resource via the workload identity chain. When set, the data plane enforces that the introspected workload chain's caller matches one of the configured hosting environments or workload identities; absent means no chain enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#allowed_workload_configuration BedrockagentcoreRuntime#allowed_workload_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#allowed_workload_configuration BedrockagentcoreRuntime#allowed_workload_configuration}
   */
   readonly allowedWorkloadConfiguration?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerAllowedWorkloadConfiguration;
   /**
   * List of required custom claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#custom_claims BedrockagentcoreRuntime#custom_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#custom_claims BedrockagentcoreRuntime#custom_claims}
   */
   readonly customClaims?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerCustomClaims[] | cdktn.IResolvable;
   /**
-  * OpenID Connect discovery URL
+  * OpenID Connect discovery URL or OAuth 2.0 authorization server metadata URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#discovery_url BedrockagentcoreRuntime#discovery_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#discovery_url BedrockagentcoreRuntime#discovery_url}
   */
   readonly discoveryUrl?: string;
   /**
   * Private endpoint configuration. Exactly one of SelfManagedLatticeResource or ManagedVpcResource must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#private_endpoint BedrockagentcoreRuntime#private_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#private_endpoint BedrockagentcoreRuntime#private_endpoint}
   */
   readonly privateEndpoint?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpoint;
   /**
   * List of private endpoint overrides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#private_endpoint_overrides BedrockagentcoreRuntime#private_endpoint_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#private_endpoint_overrides BedrockagentcoreRuntime#private_endpoint_overrides}
   */
   readonly privateEndpointOverrides?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrides[] | cdktn.IResolvable;
 }
@@ -2943,7 +2955,7 @@ export interface BedrockagentcoreRuntimeAuthorizerConfiguration {
   /**
   * Configuration for custom JWT authorizer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#custom_jwt_authorizer BedrockagentcoreRuntime#custom_jwt_authorizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#custom_jwt_authorizer BedrockagentcoreRuntime#custom_jwt_authorizer}
   */
   readonly customJwtAuthorizer?: BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizer;
 }
@@ -3039,7 +3051,7 @@ export interface BedrockagentcoreRuntimeCapacityProviderConfiguration {
   /**
   * ARN of the capacity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#capacity_provider_arn BedrockagentcoreRuntime#capacity_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#capacity_provider_arn BedrockagentcoreRuntime#capacity_provider_arn}
   */
   readonly capacityProviderArn?: string;
 }
@@ -3135,13 +3147,13 @@ export interface BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProvider
   /**
   * Mount path for filesystem configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name of the capacity provider volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#volume_name BedrockagentcoreRuntime#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#volume_name BedrockagentcoreRuntime#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -3266,13 +3278,13 @@ export interface BedrockagentcoreRuntimeFilesystemConfigurationsEfsAccessPoint {
   /**
   * ARN of the EFS access point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#access_point_arn BedrockagentcoreRuntime#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#access_point_arn BedrockagentcoreRuntime#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
   * Mount path for filesystem configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -3397,13 +3409,13 @@ export interface BedrockagentcoreRuntimeFilesystemConfigurationsS3FilesAccessPoi
   /**
   * ARN of the S3 Files access point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#access_point_arn BedrockagentcoreRuntime#access_point_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#access_point_arn BedrockagentcoreRuntime#access_point_arn}
   */
   readonly accessPointArn?: string;
   /**
   * Mount path for filesystem configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -3528,7 +3540,7 @@ export interface BedrockagentcoreRuntimeFilesystemConfigurationsSessionStorage {
   /**
   * Mount path for filesystem configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
   */
   readonly mountPath?: string;
 }
@@ -3624,25 +3636,25 @@ export interface BedrockagentcoreRuntimeFilesystemConfigurations {
   /**
   * Configuration for a CapacityProvider-managed volume to mount into the agent runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#capacity_provider_volume BedrockagentcoreRuntime#capacity_provider_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#capacity_provider_volume BedrockagentcoreRuntime#capacity_provider_volume}
   */
   readonly capacityProviderVolume?: BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume;
   /**
   * Configuration for EFS access point filesystem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#efs_access_point BedrockagentcoreRuntime#efs_access_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#efs_access_point BedrockagentcoreRuntime#efs_access_point}
   */
   readonly efsAccessPoint?: BedrockagentcoreRuntimeFilesystemConfigurationsEfsAccessPoint;
   /**
   * Configuration for S3 Files access point filesystem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#s3_files_access_point BedrockagentcoreRuntime#s3_files_access_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#s3_files_access_point BedrockagentcoreRuntime#s3_files_access_point}
   */
   readonly s3FilesAccessPoint?: BedrockagentcoreRuntimeFilesystemConfigurationsS3FilesAccessPoint;
   /**
   * Configuration for session storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#session_storage BedrockagentcoreRuntime#session_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#session_storage BedrockagentcoreRuntime#session_storage}
   */
   readonly sessionStorage?: BedrockagentcoreRuntimeFilesystemConfigurationsSessionStorage;
 }
@@ -3843,17 +3855,532 @@ export class BedrockagentcoreRuntimeFilesystemConfigurationsList extends cdktn.C
     return new BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost {
+  /**
+  * Path the platform sends the POST to. Must start with a slash.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#path BedrockagentcoreRuntime#path}
+  */
+  readonly path?: string;
+  /**
+  * Port in the agent's container the platform sends the POST to. Defaults to the runtime's server port.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#port BedrockagentcoreRuntime#port}
+  */
+  readonly port?: number;
+}
+
+export function bedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostToTerraform(struct?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    path: cdktn.stringToTerraform(struct!.path),
+    port: cdktn.numberToTerraform(struct!.port),
+  }
+}
+
+
+export function bedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostToHclTerraform(struct?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    path: {
+      value: cdktn.stringToHclTerraform(struct!.path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port: {
+      value: cdktn.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.path = this._path;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._path = undefined;
+      this._port = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._path = value.path;
+      this._port = value.port;
+    }
+  }
+
+  // path - computed: true, optional: true, required: false
+  private _path?: string; 
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+  public set path(value: string) {
+    this._path = value;
+  }
+  public resetPath() {
+    this._path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pathInput() {
+    return this._path;
+  }
+
+  // port - computed: true, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+}
+export interface BedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction {
+  /**
+  * Sends an HTTP POST to the agent's container. Any 2xx response ends the hook; anything else fails it. The path and port must not be a route the platform already calls on the container, such as the protocol's invocation path or the default health check.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#http_post BedrockagentcoreRuntime#http_post}
+  */
+  readonly httpPost?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost;
+}
+
+export function bedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionToTerraform(struct?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    http_post: bedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostToTerraform(struct!.httpPost),
+  }
+}
+
+
+export function bedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionToHclTerraform(struct?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    http_post: {
+      value: bedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostToHclTerraform(struct!.httpPost),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._httpPost?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.httpPost = this._httpPost?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._httpPost.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._httpPost.internalValue = value.httpPost;
+    }
+  }
+
+  // http_post - computed: true, optional: true, required: false
+  private _httpPost = new BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostOutputReference(this, "http_post");
+  public get httpPost() {
+    return this._httpPost;
+  }
+  public putHttpPost(value: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost) {
+    this._httpPost.internalValue = value;
+  }
+  public resetHttpPost() {
+    this._httpPost.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpPostInput() {
+    return this._httpPost.internalValue;
+  }
+}
+export interface BedrockagentcoreRuntimeHooksConfigurationBuildWarmup {
+  /**
+  * The action a lifecycle hook runs. HttpPost is the only action.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#action BedrockagentcoreRuntime#action}
+  */
+  readonly action?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction;
+}
+
+export function bedrockagentcoreRuntimeHooksConfigurationBuildWarmupToTerraform(struct?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmup | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    action: bedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionToTerraform(struct!.action),
+  }
+}
+
+
+export function bedrockagentcoreRuntimeHooksConfigurationBuildWarmupToHclTerraform(struct?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmup | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    action: {
+      value: bedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionToHclTerraform(struct!.action),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreRuntimeHooksConfigurationBuildWarmupOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcoreRuntimeHooksConfigurationBuildWarmup | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._action?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreRuntimeHooksConfigurationBuildWarmup | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._action.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._action.internalValue = value.action;
+    }
+  }
+
+  // action - computed: true, optional: true, required: false
+  private _action = new BedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionOutputReference(this, "action");
+  public get action() {
+    return this._action;
+  }
+  public putAction(value: BedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction) {
+    this._action.internalValue = value;
+  }
+  public resetAction() {
+    this._action.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action.internalValue;
+  }
+}
+export interface BedrockagentcoreRuntimeHooksConfigurationBuild {
+  /**
+  * A lifecycle hook and the action it runs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#warmup BedrockagentcoreRuntime#warmup}
+  */
+  readonly warmup?: BedrockagentcoreRuntimeHooksConfigurationBuildWarmup;
+}
+
+export function bedrockagentcoreRuntimeHooksConfigurationBuildToTerraform(struct?: BedrockagentcoreRuntimeHooksConfigurationBuild | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    warmup: bedrockagentcoreRuntimeHooksConfigurationBuildWarmupToTerraform(struct!.warmup),
+  }
+}
+
+
+export function bedrockagentcoreRuntimeHooksConfigurationBuildToHclTerraform(struct?: BedrockagentcoreRuntimeHooksConfigurationBuild | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    warmup: {
+      value: bedrockagentcoreRuntimeHooksConfigurationBuildWarmupToHclTerraform(struct!.warmup),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BedrockagentcoreRuntimeHooksConfigurationBuildWarmup",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreRuntimeHooksConfigurationBuildOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcoreRuntimeHooksConfigurationBuild | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._warmup?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.warmup = this._warmup?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreRuntimeHooksConfigurationBuild | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._warmup.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._warmup.internalValue = value.warmup;
+    }
+  }
+
+  // warmup - computed: true, optional: true, required: false
+  private _warmup = new BedrockagentcoreRuntimeHooksConfigurationBuildWarmupOutputReference(this, "warmup");
+  public get warmup() {
+    return this._warmup;
+  }
+  public putWarmup(value: BedrockagentcoreRuntimeHooksConfigurationBuildWarmup) {
+    this._warmup.internalValue = value;
+  }
+  public resetWarmup() {
+    this._warmup.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warmupInput() {
+    return this._warmup.internalValue;
+  }
+}
+export interface BedrockagentcoreRuntimeHooksConfiguration {
+  /**
+  * Hooks that run while the platform builds a runtime version, before any session exists
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#build BedrockagentcoreRuntime#build}
+  */
+  readonly buildAttribute?: BedrockagentcoreRuntimeHooksConfigurationBuild;
+}
+
+export function bedrockagentcoreRuntimeHooksConfigurationToTerraform(struct?: BedrockagentcoreRuntimeHooksConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    build: bedrockagentcoreRuntimeHooksConfigurationBuildToTerraform(struct!.buildAttribute),
+  }
+}
+
+
+export function bedrockagentcoreRuntimeHooksConfigurationToHclTerraform(struct?: BedrockagentcoreRuntimeHooksConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    build: {
+      value: bedrockagentcoreRuntimeHooksConfigurationBuildToHclTerraform(struct!.buildAttribute),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BedrockagentcoreRuntimeHooksConfigurationBuild",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreRuntimeHooksConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcoreRuntimeHooksConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._build?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.buildAttribute = this._build?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreRuntimeHooksConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._build.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._build.internalValue = value.buildAttribute;
+    }
+  }
+
+  // build - computed: true, optional: true, required: false
+  private _build = new BedrockagentcoreRuntimeHooksConfigurationBuildOutputReference(this, "build");
+  public get buildAttribute() {
+    return this._build;
+  }
+  public putBuildAttribute(value: BedrockagentcoreRuntimeHooksConfigurationBuild) {
+    this._build.internalValue = value;
+  }
+  public resetBuildAttribute() {
+    this._build.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get buildAttributeInput() {
+    return this._build.internalValue;
+  }
+}
 export interface BedrockagentcoreRuntimeLifecycleConfiguration {
   /**
   * Timeout in seconds for idle runtime sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#idle_runtime_session_timeout BedrockagentcoreRuntime#idle_runtime_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#idle_runtime_session_timeout BedrockagentcoreRuntime#idle_runtime_session_timeout}
   */
   readonly idleRuntimeSessionTimeout?: number;
   /**
   * Maximum lifetime in seconds for runtime sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#max_lifetime BedrockagentcoreRuntime#max_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#max_lifetime BedrockagentcoreRuntime#max_lifetime}
   */
   readonly maxLifetime?: number;
 }
@@ -3978,13 +4505,13 @@ export interface BedrockagentcoreRuntimeNetworkConfigurationNetworkModeConfig {
   /**
   * Security groups for VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#security_groups BedrockagentcoreRuntime#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#security_groups BedrockagentcoreRuntime#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Subnets for VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#subnets BedrockagentcoreRuntime#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#subnets BedrockagentcoreRuntime#subnets}
   */
   readonly subnets?: string[];
 }
@@ -4109,13 +4636,13 @@ export interface BedrockagentcoreRuntimeNetworkConfiguration {
   /**
   * Network mode configuration type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#network_mode BedrockagentcoreRuntime#network_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#network_mode BedrockagentcoreRuntime#network_mode}
   */
   readonly networkMode?: string;
   /**
   * Network mode configuration for VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#network_mode_config BedrockagentcoreRuntime#network_mode_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#network_mode_config BedrockagentcoreRuntime#network_mode_config}
   */
   readonly networkModeConfig?: BedrockagentcoreRuntimeNetworkConfigurationNetworkModeConfig;
 }
@@ -4240,7 +4767,7 @@ export interface BedrockagentcoreRuntimeRequestHeaderConfiguration {
   /**
   * List of allowed HTTP headers for agent runtime requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#request_header_allowlist BedrockagentcoreRuntime#request_header_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#request_header_allowlist BedrockagentcoreRuntime#request_header_allowlist}
   */
   readonly requestHeaderAllowlist?: string[];
 }
@@ -4332,6 +4859,124 @@ export class BedrockagentcoreRuntimeRequestHeaderConfigurationOutputReference ex
     return this._requestHeaderAllowlist;
   }
 }
+export interface BedrockagentcoreRuntimeResourceConfigurations {
+  /**
+  * The minimum amount of memory in MiB to allocate to the agent runtime
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#minimum_memory_in_mi_b BedrockagentcoreRuntime#minimum_memory_in_mi_b}
+  */
+  readonly minimumMemoryInMiB?: number;
+}
+
+export function bedrockagentcoreRuntimeResourceConfigurationsToTerraform(struct?: BedrockagentcoreRuntimeResourceConfigurations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    minimum_memory_in_mi_b: cdktn.numberToTerraform(struct!.minimumMemoryInMiB),
+  }
+}
+
+
+export function bedrockagentcoreRuntimeResourceConfigurationsToHclTerraform(struct?: BedrockagentcoreRuntimeResourceConfigurations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    minimum_memory_in_mi_b: {
+      value: cdktn.numberToHclTerraform(struct!.minimumMemoryInMiB),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcoreRuntimeResourceConfigurationsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): BedrockagentcoreRuntimeResourceConfigurations | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._minimumMemoryInMiB !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumMemoryInMiB = this._minimumMemoryInMiB;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcoreRuntimeResourceConfigurations | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._minimumMemoryInMiB = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._minimumMemoryInMiB = value.minimumMemoryInMiB;
+    }
+  }
+
+  // minimum_memory_in_mi_b - computed: true, optional: true, required: false
+  private _minimumMemoryInMiB?: number; 
+  public get minimumMemoryInMiB() {
+    return this.getNumberAttribute('minimum_memory_in_mi_b');
+  }
+  public set minimumMemoryInMiB(value: number) {
+    this._minimumMemoryInMiB = value;
+  }
+  public resetMinimumMemoryInMiB() {
+    this._minimumMemoryInMiB = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumMemoryInMiBInput() {
+    return this._minimumMemoryInMiB;
+  }
+}
+
+export class BedrockagentcoreRuntimeResourceConfigurationsList extends cdktn.ComplexList {
+  public internalValue? : BedrockagentcoreRuntimeResourceConfigurations[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): BedrockagentcoreRuntimeResourceConfigurationsOutputReference {
+    return new BedrockagentcoreRuntimeResourceConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface BedrockagentcoreRuntimeWorkloadIdentityDetails {
 }
 
@@ -4388,7 +5033,7 @@ export class BedrockagentcoreRuntimeWorkloadIdentityDetailsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}
 */
 export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
 
@@ -4404,7 +5049,7 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentcoreRuntime resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentcoreRuntime to import
-  * @param importFromId The id of the existing BedrockagentcoreRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentcoreRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentcoreRuntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4416,7 +5061,7 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4427,7 +5072,7 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrockagentcore_runtime',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -4445,11 +5090,13 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
     this._description = config.description;
     this._environmentVariables = config.environmentVariables;
     this._filesystemConfigurations.internalValue = config.filesystemConfigurations;
+    this._hooksConfiguration.internalValue = config.hooksConfiguration;
     this._lifecycleConfiguration.internalValue = config.lifecycleConfiguration;
     this._networkConfiguration.internalValue = config.networkConfiguration;
     this._platformVersion = config.platformVersion;
     this._protocolConfiguration = config.protocolConfiguration;
     this._requestHeaderConfiguration.internalValue = config.requestHeaderConfiguration;
+    this._resourceConfigurations.internalValue = config.resourceConfigurations;
     this._roleArn = config.roleArn;
     this._tags = config.tags;
   }
@@ -4589,6 +5236,22 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
     return this._filesystemConfigurations.internalValue;
   }
 
+  // hooks_configuration - computed: true, optional: true, required: false
+  private _hooksConfiguration = new BedrockagentcoreRuntimeHooksConfigurationOutputReference(this, "hooks_configuration");
+  public get hooksConfiguration() {
+    return this._hooksConfiguration;
+  }
+  public putHooksConfiguration(value: BedrockagentcoreRuntimeHooksConfiguration) {
+    this._hooksConfiguration.internalValue = value;
+  }
+  public resetHooksConfiguration() {
+    this._hooksConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hooksConfigurationInput() {
+    return this._hooksConfiguration.internalValue;
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
@@ -4679,6 +5342,22 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
     return this._requestHeaderConfiguration.internalValue;
   }
 
+  // resource_configurations - computed: true, optional: true, required: false
+  private _resourceConfigurations = new BedrockagentcoreRuntimeResourceConfigurationsList(this, "resource_configurations", false);
+  public get resourceConfigurations() {
+    return this._resourceConfigurations;
+  }
+  public putResourceConfigurations(value: BedrockagentcoreRuntimeResourceConfigurations[] | cdktn.IResolvable) {
+    this._resourceConfigurations.internalValue = value;
+  }
+  public resetResourceConfigurations() {
+    this._resourceConfigurations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get resourceConfigurationsInput() {
+    return this._resourceConfigurations.internalValue;
+  }
+
   // role_arn - computed: false, optional: false, required: true
   private _roleArn?: string; 
   public get roleArn() {
@@ -4732,11 +5411,13 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
       description: cdktn.stringToTerraform(this._description),
       environment_variables: cdktn.hashMapper(cdktn.stringToTerraform)(this._environmentVariables),
       filesystem_configurations: cdktn.listMapper(bedrockagentcoreRuntimeFilesystemConfigurationsToTerraform, false)(this._filesystemConfigurations.internalValue),
+      hooks_configuration: bedrockagentcoreRuntimeHooksConfigurationToTerraform(this._hooksConfiguration.internalValue),
       lifecycle_configuration: bedrockagentcoreRuntimeLifecycleConfigurationToTerraform(this._lifecycleConfiguration.internalValue),
       network_configuration: bedrockagentcoreRuntimeNetworkConfigurationToTerraform(this._networkConfiguration.internalValue),
       platform_version: cdktn.stringToTerraform(this._platformVersion),
       protocol_configuration: cdktn.stringToTerraform(this._protocolConfiguration),
       request_header_configuration: bedrockagentcoreRuntimeRequestHeaderConfigurationToTerraform(this._requestHeaderConfiguration.internalValue),
+      resource_configurations: cdktn.listMapper(bedrockagentcoreRuntimeResourceConfigurationsToTerraform, false)(this._resourceConfigurations.internalValue),
       role_arn: cdktn.stringToTerraform(this._roleArn),
       tags: cdktn.hashMapper(cdktn.stringToTerraform)(this._tags),
     };
@@ -4786,6 +5467,12 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
         type: "list",
         storageClassType: "BedrockagentcoreRuntimeFilesystemConfigurationsList",
       },
+      hooks_configuration: {
+        value: bedrockagentcoreRuntimeHooksConfigurationToHclTerraform(this._hooksConfiguration.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "BedrockagentcoreRuntimeHooksConfiguration",
+      },
       lifecycle_configuration: {
         value: bedrockagentcoreRuntimeLifecycleConfigurationToHclTerraform(this._lifecycleConfiguration.internalValue),
         isBlock: true,
@@ -4815,6 +5502,12 @@ export class BedrockagentcoreRuntime extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "BedrockagentcoreRuntimeRequestHeaderConfiguration",
+      },
+      resource_configurations: {
+        value: cdktn.listMapperHcl(bedrockagentcoreRuntimeResourceConfigurationsToHclTerraform, false)(this._resourceConfigurations.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "BedrockagentcoreRuntimeResourceConfigurationsList",
       },
       role_arn: {
         value: cdktn.stringToHclTerraform(this._roleArn),

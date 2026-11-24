@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_catalog
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccGlueCatalogConfig extends cdktn.TerraformMetaArguments
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_catalog#id DataAwsccGlueCatalog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_catalog#id DataAwsccGlueCatalog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -442,6 +442,450 @@ export class DataAwsccGlueCatalogCreateTableDefaultPermissionsList extends cdktn
     return new DataAwsccGlueCatalogCreateTableDefaultPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError {
+}
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorToTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorToHclTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // error_code - computed: true, optional: false, required: false
+  public get errorCode() {
+    return this.getStringAttribute('error_code');
+  }
+
+  // error_message - computed: true, optional: false, required: false
+  public get errorMessage() {
+    return this.getStringAttribute('error_message');
+  }
+}
+export interface DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails {
+}
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsToTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsToHclTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // crawler_arn - computed: true, optional: false, required: false
+  public get crawlerArn() {
+    return this.getStringAttribute('crawler_arn');
+  }
+
+  // error - computed: true, optional: false, required: false
+  private _error = new DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference(this, "error");
+  public get error() {
+    return this._error;
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
+export interface DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration {
+}
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationToTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationToHclTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // managed_crawler_details - computed: true, optional: false, required: false
+  private _managedCrawlerDetails = new DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference(this, "managed_crawler_details");
+  public get managedCrawlerDetails() {
+    return this._managedCrawlerDetails;
+  }
+
+  // refresh_interval_minutes - computed: true, optional: false, required: false
+  public get refreshIntervalMinutes() {
+    return this.getNumberAttribute('refresh_interval_minutes');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
+export interface DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError {
+}
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorToTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorToHclTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // error_code - computed: true, optional: false, required: false
+  public get errorCode() {
+    return this.getStringAttribute('error_code');
+  }
+
+  // error_message - computed: true, optional: false, required: false
+  public get errorMessage() {
+    return this.getStringAttribute('error_message');
+  }
+}
+export interface DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails {
+}
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsToTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsToHclTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // crawler_arn - computed: true, optional: false, required: false
+  public get crawlerArn() {
+    return this.getStringAttribute('crawler_arn');
+  }
+
+  // error - computed: true, optional: false, required: false
+  private _error = new DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference(this, "error");
+  public get error() {
+    return this._error;
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
+export interface DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration {
+}
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationToTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationToHclTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // managed_crawler_details - computed: true, optional: false, required: false
+  private _managedCrawlerDetails = new DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference(this, "managed_crawler_details");
+  public get managedCrawlerDetails() {
+    return this._managedCrawlerDetails;
+  }
+
+  // refresh_interval_minutes - computed: true, optional: false, required: false
+  public get refreshIntervalMinutes() {
+    return this.getNumberAttribute('refresh_interval_minutes');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
+export interface DataAwsccGlueCatalogFederatedCatalogSyncConfiguration {
+}
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationToTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccGlueCatalogFederatedCatalogSyncConfigurationToHclTerraform(struct?: DataAwsccGlueCatalogFederatedCatalogSyncConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccGlueCatalogFederatedCatalogSyncConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccGlueCatalogFederatedCatalogSyncConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccGlueCatalogFederatedCatalogSyncConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // assets_sync_configuration - computed: true, optional: false, required: false
+  private _assetsSyncConfiguration = new DataAwsccGlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference(this, "assets_sync_configuration");
+  public get assetsSyncConfiguration() {
+    return this._assetsSyncConfiguration;
+  }
+
+  // lineage_sync_configuration - computed: true, optional: false, required: false
+  private _lineageSyncConfiguration = new DataAwsccGlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference(this, "lineage_sync_configuration");
+  public get lineageSyncConfiguration() {
+    return this._lineageSyncConfiguration;
+  }
+
+  // role_arn - computed: true, optional: false, required: false
+  public get roleArn() {
+    return this.getStringAttribute('role_arn');
+  }
+}
 export interface DataAwsccGlueCatalogFederatedCatalog {
 }
 
@@ -496,9 +940,20 @@ export class DataAwsccGlueCatalogFederatedCatalogOutputReference extends cdktn.C
     return this.getStringAttribute('connection_name');
   }
 
+  // connection_type - computed: true, optional: false, required: false
+  public get connectionType() {
+    return this.getStringAttribute('connection_type');
+  }
+
   // identifier - computed: true, optional: false, required: false
   public get identifier() {
     return this.getStringAttribute('identifier');
+  }
+
+  // sync_configuration - computed: true, optional: false, required: false
+  private _syncConfiguration = new DataAwsccGlueCatalogFederatedCatalogSyncConfigurationOutputReference(this, "sync_configuration");
+  public get syncConfiguration() {
+    return this._syncConfiguration;
   }
 }
 export interface DataAwsccGlueCatalogTags {
@@ -637,7 +1092,7 @@ export class DataAwsccGlueCatalogTargetRedshiftCatalogOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_catalog awscc_glue_catalog}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_catalog awscc_glue_catalog}
 */
 export class DataAwsccGlueCatalog extends cdktn.TerraformDataSource {
 
@@ -653,7 +1108,7 @@ export class DataAwsccGlueCatalog extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccGlueCatalog resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccGlueCatalog to import
-  * @param importFromId The id of the existing DataAwsccGlueCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccGlueCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccGlueCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -665,7 +1120,7 @@ export class DataAwsccGlueCatalog extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -676,7 +1131,7 @@ export class DataAwsccGlueCatalog extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_glue_catalog',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

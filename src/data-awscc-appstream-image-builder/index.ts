@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appstream_image_builder
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appstream_image_builder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccAppstreamImageBuilderConfig extends cdktn.TerraformMet
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appstream_image_builder#id DataAwsccAppstreamImageBuilder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appstream_image_builder#id DataAwsccAppstreamImageBuilder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,6 +100,166 @@ export class DataAwsccAppstreamImageBuilderAccessEndpointsList extends cdktn.Com
   */
   public get(index: number): DataAwsccAppstreamImageBuilderAccessEndpointsOutputReference {
     return new DataAwsccAppstreamImageBuilderAccessEndpointsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccAppstreamImageBuilderAgentAccessConfigSettings {
+}
+
+export function dataAwsccAppstreamImageBuilderAgentAccessConfigSettingsToTerraform(struct?: DataAwsccAppstreamImageBuilderAgentAccessConfigSettings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccAppstreamImageBuilderAgentAccessConfigSettingsToHclTerraform(struct?: DataAwsccAppstreamImageBuilderAgentAccessConfigSettings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccAppstreamImageBuilderAgentAccessConfigSettingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccAppstreamImageBuilderAgentAccessConfigSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccAppstreamImageBuilderAgentAccessConfigSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // agent_action - computed: true, optional: false, required: false
+  public get agentAction() {
+    return this.getStringAttribute('agent_action');
+  }
+
+  // permission - computed: true, optional: false, required: false
+  public get permission() {
+    return this.getStringAttribute('permission');
+  }
+}
+
+export class DataAwsccAppstreamImageBuilderAgentAccessConfigSettingsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccAppstreamImageBuilderAgentAccessConfigSettingsOutputReference {
+    return new DataAwsccAppstreamImageBuilderAgentAccessConfigSettingsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccAppstreamImageBuilderAgentAccessConfig {
+}
+
+export function dataAwsccAppstreamImageBuilderAgentAccessConfigToTerraform(struct?: DataAwsccAppstreamImageBuilderAgentAccessConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccAppstreamImageBuilderAgentAccessConfigToHclTerraform(struct?: DataAwsccAppstreamImageBuilderAgentAccessConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccAppstreamImageBuilderAgentAccessConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccAppstreamImageBuilderAgentAccessConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccAppstreamImageBuilderAgentAccessConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // s3_bucket_arn - computed: true, optional: false, required: false
+  public get s3BucketArn() {
+    return this.getStringAttribute('s3_bucket_arn');
+  }
+
+  // screen_image_format - computed: true, optional: false, required: false
+  public get screenImageFormat() {
+    return this.getStringAttribute('screen_image_format');
+  }
+
+  // screen_resolution - computed: true, optional: false, required: false
+  public get screenResolution() {
+    return this.getStringAttribute('screen_resolution');
+  }
+
+  // screenshots_upload_enabled - computed: true, optional: false, required: false
+  public get screenshotsUploadEnabled() {
+    return this.getBooleanAttribute('screenshots_upload_enabled');
+  }
+
+  // settings - computed: true, optional: false, required: false
+  private _settings = new DataAwsccAppstreamImageBuilderAgentAccessConfigSettingsList(this, "settings", false);
+  public get settings() {
+    return this._settings;
+  }
+
+  // user_control_mode - computed: true, optional: false, required: false
+  public get userControlMode() {
+    return this.getStringAttribute('user_control_mode');
   }
 }
 export interface DataAwsccAppstreamImageBuilderDomainJoinInfo {
@@ -356,7 +516,7 @@ export class DataAwsccAppstreamImageBuilderVpcConfigOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}
 */
 export class DataAwsccAppstreamImageBuilder extends cdktn.TerraformDataSource {
 
@@ -372,7 +532,7 @@ export class DataAwsccAppstreamImageBuilder extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccAppstreamImageBuilder resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccAppstreamImageBuilder to import
-  * @param importFromId The id of the existing DataAwsccAppstreamImageBuilder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccAppstreamImageBuilder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccAppstreamImageBuilder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -384,7 +544,7 @@ export class DataAwsccAppstreamImageBuilder extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -395,7 +555,7 @@ export class DataAwsccAppstreamImageBuilder extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_appstream_image_builder',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -417,6 +577,12 @@ export class DataAwsccAppstreamImageBuilder extends cdktn.TerraformDataSource {
   private _accessEndpoints = new DataAwsccAppstreamImageBuilderAccessEndpointsList(this, "access_endpoints", false);
   public get accessEndpoints() {
     return this._accessEndpoints;
+  }
+
+  // agent_access_config - computed: true, optional: false, required: false
+  private _agentAccessConfig = new DataAwsccAppstreamImageBuilderAgentAccessConfigOutputReference(this, "agent_access_config");
+  public get agentAccessConfig() {
+    return this._agentAccessConfig;
   }
 
   // appstream_agent_version - computed: true, optional: false, required: false

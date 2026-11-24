@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,61 @@ export interface ConfigConformancePackConfig extends cdktn.TerraformMetaArgument
   /**
   * A list of ConformancePackInputParameter objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#conformance_pack_input_parameters ConfigConformancePack#conformance_pack_input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#conformance_pack_input_parameters ConfigConformancePack#conformance_pack_input_parameters}
   */
   readonly conformancePackInputParameters?: ConfigConformancePackConformancePackInputParameters[] | cdktn.IResolvable;
   /**
   * Name of the conformance pack which will be assigned as the unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#conformance_pack_name ConfigConformancePack#conformance_pack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#conformance_pack_name ConfigConformancePack#conformance_pack_name}
   */
   readonly conformancePackName: string;
   /**
   * AWS Config stores intermediate files while processing conformance pack template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#delivery_s3_bucket ConfigConformancePack#delivery_s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#delivery_s3_bucket ConfigConformancePack#delivery_s3_bucket}
   */
   readonly deliveryS3Bucket?: string;
   /**
   * The prefix for delivery S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#delivery_s3_key_prefix ConfigConformancePack#delivery_s3_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#delivery_s3_key_prefix ConfigConformancePack#delivery_s3_key_prefix}
   */
   readonly deliveryS3KeyPrefix?: string;
   /**
+  * The global tag scope of the managed conformance pack. If specified, only resources with this tag key and value pair are in scope of the conformance pack.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#scope ConfigConformancePack#scope}
+  */
+  readonly scope?: ConfigConformancePackScope;
+  /**
+  * The source of a managed conformance pack. Specifying Source creates a managed conformance pack, whose Config rules are managed by AWS. You can only specify one of Source or the template body or template S3Uri fields.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#source ConfigConformancePack#source}
+  */
+  readonly source?: ConfigConformancePackSource;
+  /**
   * The tags for the conformance pack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#tags ConfigConformancePack#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#tags ConfigConformancePack#tags}
   */
   readonly tags?: ConfigConformancePackTags[] | cdktn.IResolvable;
   /**
   * A string containing full conformance pack template body. You can only specify one of the template body or template S3Uri fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#template_body ConfigConformancePack#template_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#template_body ConfigConformancePack#template_body}
   */
   readonly templateBody?: string;
   /**
   * Location of file containing the template body which points to the conformance pack template that is located in an Amazon S3 bucket. You can only specify one of the template body or template S3Uri fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#template_s3_uri ConfigConformancePack#template_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#template_s3_uri ConfigConformancePack#template_s3_uri}
   */
   readonly templateS3Uri?: string;
   /**
   * The TemplateSSMDocumentDetails object contains the name of the SSM document and the version of the SSM document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#template_ssm_document_details ConfigConformancePack#template_ssm_document_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#template_ssm_document_details ConfigConformancePack#template_ssm_document_details}
   */
   readonly templateSsmDocumentDetails?: ConfigConformancePackTemplateSsmDocumentDetails;
 }
@@ -65,13 +77,13 @@ export interface ConfigConformancePackConformancePackInputParameters {
   /**
   * Key part of key-value pair with value being parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#parameter_name ConfigConformancePack#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#parameter_name ConfigConformancePack#parameter_name}
   */
   readonly parameterName?: string;
   /**
   * Value part of key-value pair with key being parameter Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#parameter_value ConfigConformancePack#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#parameter_value ConfigConformancePack#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -214,17 +226,244 @@ export class ConfigConformancePackConformancePackInputParametersList extends cdk
     return new ConfigConformancePackConformancePackInputParametersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ConfigConformancePackScope {
+  /**
+  * The tag key of the tag scope. Only resources with this tag key are in scope of the conformance pack.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#tag_key ConfigConformancePack#tag_key}
+  */
+  readonly tagKey?: string;
+  /**
+  * The tag value of the tag scope. If omitted, resources are in scope based on the presence of the tag key alone, regardless of its value.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#tag_value ConfigConformancePack#tag_value}
+  */
+  readonly tagValue?: string;
+}
+
+export function configConformancePackScopeToTerraform(struct?: ConfigConformancePackScope | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    tag_key: cdktn.stringToTerraform(struct!.tagKey),
+    tag_value: cdktn.stringToTerraform(struct!.tagValue),
+  }
+}
+
+
+export function configConformancePackScopeToHclTerraform(struct?: ConfigConformancePackScope | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    tag_key: {
+      value: cdktn.stringToHclTerraform(struct!.tagKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tag_value: {
+      value: cdktn.stringToHclTerraform(struct!.tagValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ConfigConformancePackScopeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ConfigConformancePackScope | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tagKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tagKey = this._tagKey;
+    }
+    if (this._tagValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tagValue = this._tagValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ConfigConformancePackScope | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tagKey = undefined;
+      this._tagValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tagKey = value.tagKey;
+      this._tagValue = value.tagValue;
+    }
+  }
+
+  // tag_key - computed: true, optional: true, required: false
+  private _tagKey?: string; 
+  public get tagKey() {
+    return this.getStringAttribute('tag_key');
+  }
+  public set tagKey(value: string) {
+    this._tagKey = value;
+  }
+  public resetTagKey() {
+    this._tagKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagKeyInput() {
+    return this._tagKey;
+  }
+
+  // tag_value - computed: true, optional: true, required: false
+  private _tagValue?: string; 
+  public get tagValue() {
+    return this.getStringAttribute('tag_value');
+  }
+  public set tagValue(value: string) {
+    this._tagValue = value;
+  }
+  public resetTagValue() {
+    this._tagValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagValueInput() {
+    return this._tagValue;
+  }
+}
+export interface ConfigConformancePackSource {
+  /**
+  * The identifier specifying which managed conformance pack is being deployed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#source_identifier ConfigConformancePack#source_identifier}
+  */
+  readonly sourceIdentifier?: string;
+}
+
+export function configConformancePackSourceToTerraform(struct?: ConfigConformancePackSource | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    source_identifier: cdktn.stringToTerraform(struct!.sourceIdentifier),
+  }
+}
+
+
+export function configConformancePackSourceToHclTerraform(struct?: ConfigConformancePackSource | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    source_identifier: {
+      value: cdktn.stringToHclTerraform(struct!.sourceIdentifier),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ConfigConformancePackSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ConfigConformancePackSource | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._sourceIdentifier !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceIdentifier = this._sourceIdentifier;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ConfigConformancePackSource | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._sourceIdentifier = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._sourceIdentifier = value.sourceIdentifier;
+    }
+  }
+
+  // source_identifier - computed: true, optional: true, required: false
+  private _sourceIdentifier?: string; 
+  public get sourceIdentifier() {
+    return this.getStringAttribute('source_identifier');
+  }
+  public set sourceIdentifier(value: string) {
+    this._sourceIdentifier = value;
+  }
+  public resetSourceIdentifier() {
+    this._sourceIdentifier = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceIdentifierInput() {
+    return this._sourceIdentifier;
+  }
+}
 export interface ConfigConformancePackTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#key ConfigConformancePack#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#key ConfigConformancePack#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#value ConfigConformancePack#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#value ConfigConformancePack#value}
   */
   readonly value?: string;
 }
@@ -369,11 +608,11 @@ export class ConfigConformancePackTagsList extends cdktn.ComplexList {
 }
 export interface ConfigConformancePackTemplateSsmDocumentDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#document_name ConfigConformancePack#document_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#document_name ConfigConformancePack#document_name}
   */
   readonly documentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#document_version ConfigConformancePack#document_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#document_version ConfigConformancePack#document_version}
   */
   readonly documentVersion?: string;
 }
@@ -496,7 +735,7 @@ export class ConfigConformancePackTemplateSsmDocumentDetailsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack awscc_config_conformance_pack}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack awscc_config_conformance_pack}
 */
 export class ConfigConformancePack extends cdktn.TerraformResource {
 
@@ -512,7 +751,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConfigConformancePack resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigConformancePack to import
-  * @param importFromId The id of the existing ConfigConformancePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigConformancePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigConformancePack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -524,7 +763,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack awscc_config_conformance_pack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack awscc_config_conformance_pack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -535,7 +774,7 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_config_conformance_pack',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -550,6 +789,8 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
     this._conformancePackName = config.conformancePackName;
     this._deliveryS3Bucket = config.deliveryS3Bucket;
     this._deliveryS3KeyPrefix = config.deliveryS3KeyPrefix;
+    this._scope.internalValue = config.scope;
+    this._source.internalValue = config.source;
     this._tags.internalValue = config.tags;
     this._templateBody = config.templateBody;
     this._templateS3Uri = config.templateS3Uri;
@@ -631,6 +872,38 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
     return this.getStringAttribute('id');
   }
 
+  // scope - computed: true, optional: true, required: false
+  private _scope = new ConfigConformancePackScopeOutputReference(this, "scope");
+  public get scope() {
+    return this._scope;
+  }
+  public putScope(value: ConfigConformancePackScope) {
+    this._scope.internalValue = value;
+  }
+  public resetScope() {
+    this._scope.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeInput() {
+    return this._scope.internalValue;
+  }
+
+  // source - computed: true, optional: true, required: false
+  private _source = new ConfigConformancePackSourceOutputReference(this, "source");
+  public get source() {
+    return this._source;
+  }
+  public putSource(value: ConfigConformancePackSource) {
+    this._source.internalValue = value;
+  }
+  public resetSource() {
+    this._source.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceInput() {
+    return this._source.internalValue;
+  }
+
   // tags - computed: true, optional: true, required: false
   private _tags = new ConfigConformancePackTagsList(this, "tags", false);
   public get tags() {
@@ -695,6 +968,11 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
     return this._templateSsmDocumentDetails.internalValue;
   }
 
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -705,6 +983,8 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
       conformance_pack_name: cdktn.stringToTerraform(this._conformancePackName),
       delivery_s3_bucket: cdktn.stringToTerraform(this._deliveryS3Bucket),
       delivery_s3_key_prefix: cdktn.stringToTerraform(this._deliveryS3KeyPrefix),
+      scope: configConformancePackScopeToTerraform(this._scope.internalValue),
+      source: configConformancePackSourceToTerraform(this._source.internalValue),
       tags: cdktn.listMapper(configConformancePackTagsToTerraform, false)(this._tags.internalValue),
       template_body: cdktn.stringToTerraform(this._templateBody),
       template_s3_uri: cdktn.stringToTerraform(this._templateS3Uri),
@@ -737,6 +1017,18 @@ export class ConfigConformancePack extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      scope: {
+        value: configConformancePackScopeToHclTerraform(this._scope.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ConfigConformancePackScope",
+      },
+      source: {
+        value: configConformancePackSourceToHclTerraform(this._source.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ConfigConformancePackSource",
       },
       tags: {
         value: cdktn.listMapperHcl(configConformancePackTagsToHclTerraform, false)(this._tags.internalValue),

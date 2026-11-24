@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,69 +15,81 @@ export interface CertificatemanagerCertificateConfig extends cdktn.TerraformMeta
   /**
   * The Amazon Resource Name (ARN) of the private certificate authority (CA) that will be used to issue the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_authority_arn CertificatemanagerCertificate#certificate_authority_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_authority_arn CertificatemanagerCertificate#certificate_authority_arn}
   */
   readonly certificateAuthorityArn?: string;
   /**
   * Specifies whether the certificate can be exported. ENABLED allows the certificate to be exported, DISABLED prevents export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_export CertificatemanagerCertificate#certificate_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_export CertificatemanagerCertificate#certificate_export}
   */
   readonly certificateExport?: string;
   /**
   * You can opt out of certificate transparency logging by specifying the DISABLED option. Opt in by specifying ENABLED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_transparency_logging_preference CertificatemanagerCertificate#certificate_transparency_logging_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_transparency_logging_preference CertificatemanagerCertificate#certificate_transparency_logging_preference}
   */
   readonly certificateTransparencyLoggingPreference?: string;
   /**
+  * The extended key usage of an Amazon N2 certificate. Valid only with RootHierarchyType. Defaults to CLIENT_AND_SERVER_AUTH. CLIENT_AUTH_ONLY requires N2_AMAZON_MANAGED.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_usage CertificatemanagerCertificate#certificate_usage}
+  */
+  readonly certificateUsage?: string;
+  /**
   * The fully qualified domain name (FQDN), such as www.example.com, with which you want to secure an ACM certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}
   */
   readonly domainName: string;
   /**
   * Domain information that domain name registrars use to verify your identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_validation_options CertificatemanagerCertificate#domain_validation_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_validation_options CertificatemanagerCertificate#domain_validation_options}
   */
   readonly domainValidationOptions?: CertificatemanagerCertificateDomainValidationOptions[] | cdktn.IResolvable;
   /**
   * Specifies the algorithm of the public and private key pair that your certificate uses to encrypt data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#key_algorithm CertificatemanagerCertificate#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#key_algorithm CertificatemanagerCertificate#key_algorithm}
   */
   readonly keyAlgorithm?: string;
   /**
+  * The Amazon N2 root hierarchy that issues the certificate. Omit for a public TLS certificate. Amazon N2 roots are not trusted by browsers.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#root_hierarchy_type CertificatemanagerCertificate#root_hierarchy_type}
+  */
+  readonly rootHierarchyType?: string;
+  /**
   * Additional FQDNs to be included in the Subject Alternative Name extension of the ACM certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#subject_alternative_names CertificatemanagerCertificate#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#subject_alternative_names CertificatemanagerCertificate#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: string[];
   /**
   * Key-value pairs that can identify the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#tags CertificatemanagerCertificate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#tags CertificatemanagerCertificate#tags}
   */
   readonly tags?: CertificatemanagerCertificateTags[] | cdktn.IResolvable;
   /**
   * The method you want to use to validate that you own or control the domain associated with a public certificate. Valid values are DNS, EMAIL or HTTP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#validation_method CertificatemanagerCertificate#validation_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#validation_method CertificatemanagerCertificate#validation_method}
   */
   readonly validationMethod?: string;
 }
 export interface CertificatemanagerCertificateDomainValidationOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#hosted_zone_id CertificatemanagerCertificate#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#hosted_zone_id CertificatemanagerCertificate#hosted_zone_id}
   */
   readonly hostedZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#validation_domain CertificatemanagerCertificate#validation_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#validation_domain CertificatemanagerCertificate#validation_domain}
   */
   readonly validationDomain?: string;
 }
@@ -253,13 +265,13 @@ export interface CertificatemanagerCertificateTags {
   /**
   * The tag's key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#key CertificatemanagerCertificate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#key CertificatemanagerCertificate#key}
   */
   readonly key?: string;
   /**
   * The tag's value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#value CertificatemanagerCertificate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#value CertificatemanagerCertificate#value}
   */
   readonly value?: string;
 }
@@ -404,7 +416,7 @@ export class CertificatemanagerCertificateTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate}
 */
 export class CertificatemanagerCertificate extends cdktn.TerraformResource {
 
@@ -420,7 +432,7 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CertificatemanagerCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CertificatemanagerCertificate to import
-  * @param importFromId The id of the existing CertificatemanagerCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CertificatemanagerCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CertificatemanagerCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -432,7 +444,7 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -443,7 +455,7 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_certificatemanager_certificate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -457,9 +469,11 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
     this._certificateAuthorityArn = config.certificateAuthorityArn;
     this._certificateExport = config.certificateExport;
     this._certificateTransparencyLoggingPreference = config.certificateTransparencyLoggingPreference;
+    this._certificateUsage = config.certificateUsage;
     this._domainName = config.domainName;
     this._domainValidationOptions.internalValue = config.domainValidationOptions;
     this._keyAlgorithm = config.keyAlgorithm;
+    this._rootHierarchyType = config.rootHierarchyType;
     this._subjectAlternativeNames = config.subjectAlternativeNames;
     this._tags.internalValue = config.tags;
     this._validationMethod = config.validationMethod;
@@ -522,6 +536,22 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
     return this._certificateTransparencyLoggingPreference;
   }
 
+  // certificate_usage - computed: true, optional: true, required: false
+  private _certificateUsage?: string; 
+  public get certificateUsage() {
+    return this.getStringAttribute('certificate_usage');
+  }
+  public set certificateUsage(value: string) {
+    this._certificateUsage = value;
+  }
+  public resetCertificateUsage() {
+    this._certificateUsage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get certificateUsageInput() {
+    return this._certificateUsage;
+  }
+
   // domain_name - computed: false, optional: false, required: true
   private _domainName?: string; 
   public get domainName() {
@@ -570,6 +600,22 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get keyAlgorithmInput() {
     return this._keyAlgorithm;
+  }
+
+  // root_hierarchy_type - computed: true, optional: true, required: false
+  private _rootHierarchyType?: string; 
+  public get rootHierarchyType() {
+    return this.getStringAttribute('root_hierarchy_type');
+  }
+  public set rootHierarchyType(value: string) {
+    this._rootHierarchyType = value;
+  }
+  public resetRootHierarchyType() {
+    this._rootHierarchyType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rootHierarchyTypeInput() {
+    return this._rootHierarchyType;
   }
 
   // subject_alternative_names - computed: true, optional: true, required: false
@@ -629,9 +675,11 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
       certificate_authority_arn: cdktn.stringToTerraform(this._certificateAuthorityArn),
       certificate_export: cdktn.stringToTerraform(this._certificateExport),
       certificate_transparency_logging_preference: cdktn.stringToTerraform(this._certificateTransparencyLoggingPreference),
+      certificate_usage: cdktn.stringToTerraform(this._certificateUsage),
       domain_name: cdktn.stringToTerraform(this._domainName),
       domain_validation_options: cdktn.listMapper(certificatemanagerCertificateDomainValidationOptionsToTerraform, false)(this._domainValidationOptions.internalValue),
       key_algorithm: cdktn.stringToTerraform(this._keyAlgorithm),
+      root_hierarchy_type: cdktn.stringToTerraform(this._rootHierarchyType),
       subject_alternative_names: cdktn.listMapper(cdktn.stringToTerraform, false)(this._subjectAlternativeNames),
       tags: cdktn.listMapper(certificatemanagerCertificateTagsToTerraform, false)(this._tags.internalValue),
       validation_method: cdktn.stringToTerraform(this._validationMethod),
@@ -658,6 +706,12 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      certificate_usage: {
+        value: cdktn.stringToHclTerraform(this._certificateUsage),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       domain_name: {
         value: cdktn.stringToHclTerraform(this._domainName),
         isBlock: false,
@@ -672,6 +726,12 @@ export class CertificatemanagerCertificate extends cdktn.TerraformResource {
       },
       key_algorithm: {
         value: cdktn.stringToHclTerraform(this._keyAlgorithm),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      root_hierarchy_type: {
+        value: cdktn.stringToHclTerraform(this._rootHierarchyType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_peering_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_transit_gateway_peering_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,71 @@ export interface DataAwsccEc2TransitGatewayPeeringAttachmentConfig extends cdktn
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_peering_attachment#id DataAwsccEc2TransitGatewayPeeringAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_transit_gateway_peering_attachment#id DataAwsccEc2TransitGatewayPeeringAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccEc2TransitGatewayPeeringAttachmentOptions {
+}
+
+export function dataAwsccEc2TransitGatewayPeeringAttachmentOptionsToTerraform(struct?: DataAwsccEc2TransitGatewayPeeringAttachmentOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEc2TransitGatewayPeeringAttachmentOptionsToHclTerraform(struct?: DataAwsccEc2TransitGatewayPeeringAttachmentOptions): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEc2TransitGatewayPeeringAttachmentOptions | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEc2TransitGatewayPeeringAttachmentOptions | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allow_multipath_resilience - computed: true, optional: false, required: false
+  public get allowMultipathResilience() {
+    return this.getBooleanAttribute('allow_multipath_resilience');
+  }
+
+  // multipath_resilience_mode - computed: true, optional: false, required: false
+  public get multipathResilienceMode() {
+    return this.getStringAttribute('multipath_resilience_mode');
+  }
 }
 export interface DataAwsccEc2TransitGatewayPeeringAttachmentStatus {
 }
@@ -163,7 +222,7 @@ export class DataAwsccEc2TransitGatewayPeeringAttachmentTagsList extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment}
 */
 export class DataAwsccEc2TransitGatewayPeeringAttachment extends cdktn.TerraformDataSource {
 
@@ -179,7 +238,7 @@ export class DataAwsccEc2TransitGatewayPeeringAttachment extends cdktn.Terraform
   * Generates CDKTN code for importing a DataAwsccEc2TransitGatewayPeeringAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEc2TransitGatewayPeeringAttachment to import
-  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayPeeringAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_peering_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEc2TransitGatewayPeeringAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_transit_gateway_peering_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEc2TransitGatewayPeeringAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -191,7 +250,7 @@ export class DataAwsccEc2TransitGatewayPeeringAttachment extends cdktn.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -202,7 +261,7 @@ export class DataAwsccEc2TransitGatewayPeeringAttachment extends cdktn.Terraform
       terraformResourceType: 'awscc_ec2_transit_gateway_peering_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -219,6 +278,11 @@ export class DataAwsccEc2TransitGatewayPeeringAttachment extends cdktn.Terraform
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // accepter_allow_multipath_resilience - computed: true, optional: false, required: false
+  public get accepterAllowMultipathResilience() {
+    return this.getBooleanAttribute('accepter_allow_multipath_resilience');
+  }
 
   // creation_time - computed: true, optional: false, required: false
   public get creationTime() {
@@ -238,6 +302,17 @@ export class DataAwsccEc2TransitGatewayPeeringAttachment extends cdktn.Terraform
     return this._id;
   }
 
+  // multipath_resilience_status - computed: true, optional: false, required: false
+  public get multipathResilienceStatus() {
+    return this.getStringAttribute('multipath_resilience_status');
+  }
+
+  // options - computed: true, optional: false, required: false
+  private _options = new DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference(this, "options");
+  public get options() {
+    return this._options;
+  }
+
   // peer_account_id - computed: true, optional: false, required: false
   public get peerAccountId() {
     return this.getStringAttribute('peer_account_id');
@@ -251,6 +326,16 @@ export class DataAwsccEc2TransitGatewayPeeringAttachment extends cdktn.Terraform
   // peer_transit_gateway_id - computed: true, optional: false, required: false
   public get peerTransitGatewayId() {
     return this.getStringAttribute('peer_transit_gateway_id');
+  }
+
+  // requester_allow_multipath_resilience - computed: true, optional: false, required: false
+  public get requesterAllowMultipathResilience() {
+    return this.getBooleanAttribute('requester_allow_multipath_resilience');
+  }
+
+  // requester_multipath_resilience_mode - computed: true, optional: false, required: false
+  public get requesterMultipathResilienceMode() {
+    return this.getStringAttribute('requester_multipath_resilience_mode');
   }
 
   // state - computed: true, optional: false, required: false

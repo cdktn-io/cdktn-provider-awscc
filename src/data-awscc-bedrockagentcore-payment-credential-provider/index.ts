@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_payment_credential_provider
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_payment_credential_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,156 @@ export interface DataAwsccBedrockagentcorePaymentCredentialProviderConfig extend
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_payment_credential_provider#id DataAwsccBedrockagentcorePaymentCredentialProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_payment_credential_provider#id DataAwsccBedrockagentcorePaymentCredentialProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfig {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfigToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfigToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // json_key - computed: true, optional: false, required: false
+  public get jsonKey() {
+    return this.getStringAttribute('json_key');
+  }
+
+  // secret_id - computed: true, optional: false, required: false
+  public get secretId() {
+    return this.getStringAttribute('secret_id');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfiguration {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // amazon_pay_region - computed: true, optional: false, required: false
+  public get amazonPayRegion() {
+    return this.getStringAttribute('amazon_pay_region');
+  }
+
+  // authorization_token - computed: true, optional: false, required: false
+  public get authorizationToken() {
+    return this.getStringAttribute('authorization_token');
+  }
+
+  // authorization_token_config - computed: true, optional: false, required: false
+  private _authorizationTokenConfig = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationAuthorizationTokenConfigOutputReference(this, "authorization_token_config");
+  public get authorizationTokenConfig() {
+    return this._authorizationTokenConfig;
+  }
+
+  // authorization_token_source - computed: true, optional: false, required: false
+  public get authorizationTokenSource() {
+    return this.getStringAttribute('authorization_token_source');
+  }
+
+  // environment - computed: true, optional: false, required: false
+  public get environment() {
+    return this.getStringAttribute('environment');
+  }
+
+  // merchant_id - computed: true, optional: false, required: false
+  public get merchantId() {
+    return this.getStringAttribute('merchant_id');
+  }
+
+  // store_id - computed: true, optional: false, required: false
+  public get storeId() {
+    return this.getStringAttribute('store_id');
+  }
 }
 export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputCoinbaseCdpConfigurationApiKeySecretConfig {
 }
@@ -224,6 +368,269 @@ export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigura
   // wallet_secret_source - computed: true, optional: false, required: false
   public get walletSecretSource() {
     return this.getStringAttribute('wallet_secret_source');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfig {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfigToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfigToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // json_key - computed: true, optional: false, required: false
+  public get jsonKey() {
+    return this.getStringAttribute('json_key');
+  }
+
+  // secret_id - computed: true, optional: false, required: false
+  public get secretId() {
+    return this.getStringAttribute('secret_id');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfiguration {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_id - computed: true, optional: false, required: false
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+
+  // client_secret - computed: true, optional: false, required: false
+  public get clientSecret() {
+    return this.getStringAttribute('client_secret');
+  }
+
+  // client_secret_config - computed: true, optional: false, required: false
+  private _clientSecretConfig = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationClientSecretConfigOutputReference(this, "client_secret_config");
+  public get clientSecretConfig() {
+    return this._clientSecretConfig;
+  }
+
+  // client_secret_source - computed: true, optional: false, required: false
+  public get clientSecretSource() {
+    return this.getStringAttribute('client_secret_source');
+  }
+
+  // environment - computed: true, optional: false, required: false
+  public get environment() {
+    return this.getStringAttribute('environment');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfig {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfigToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfigToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // json_key - computed: true, optional: false, required: false
+  public get jsonKey() {
+    return this.getStringAttribute('json_key');
+  }
+
+  // secret_id - computed: true, optional: false, required: false
+  public get secretId() {
+    return this.getStringAttribute('secret_id');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfiguration {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // publishable_key - computed: true, optional: false, required: false
+  public get publishableKey() {
+    return this.getStringAttribute('publishable_key');
+  }
+
+  // restricted_key - computed: true, optional: false, required: false
+  public get restrictedKey() {
+    return this.getStringAttribute('restricted_key');
+  }
+
+  // restricted_key_config - computed: true, optional: false, required: false
+  private _restrictedKeyConfig = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationRestrictedKeyConfigOutputReference(this, "restricted_key_config");
+  public get restrictedKeyConfig() {
+    return this._restrictedKeyConfig;
+  }
+
+  // restricted_key_source - computed: true, optional: false, required: false
+  public get restrictedKeySource() {
+    return this.getStringAttribute('restricted_key_source');
   }
 }
 export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripePrivyConfigurationAppSecretConfig {
@@ -484,16 +891,173 @@ export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigura
     }
   }
 
+  // amazon_pay_configuration - computed: true, optional: false, required: false
+  private _amazonPayConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputAmazonPayConfigurationOutputReference(this, "amazon_pay_configuration");
+  public get amazonPayConfiguration() {
+    return this._amazonPayConfiguration;
+  }
+
   // coinbase_cdp_configuration - computed: true, optional: false, required: false
   private _coinbaseCdpConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputCoinbaseCdpConfigurationOutputReference(this, "coinbase_cdp_configuration");
   public get coinbaseCdpConfiguration() {
     return this._coinbaseCdpConfiguration;
   }
 
+  // pay_pal_configuration - computed: true, optional: false, required: false
+  private _payPalConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputPayPalConfigurationOutputReference(this, "pay_pal_configuration");
+  public get payPalConfiguration() {
+    return this._payPalConfiguration;
+  }
+
+  // stripe_configuration - computed: true, optional: false, required: false
+  private _stripeConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripeConfigurationOutputReference(this, "stripe_configuration");
+  public get stripeConfiguration() {
+    return this._stripeConfiguration;
+  }
+
   // stripe_privy_configuration - computed: true, optional: false, required: false
   private _stripePrivyConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationInputStripePrivyConfigurationOutputReference(this, "stripe_privy_configuration");
   public get stripePrivyConfiguration() {
     return this._stripePrivyConfiguration;
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArn {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArnToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArn): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArnToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArn): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArnOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArn | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArn | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // secret_arn - computed: true, optional: false, required: false
+  public get secretArn() {
+    return this.getStringAttribute('secret_arn');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfiguration {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // amazon_pay_region - computed: true, optional: false, required: false
+  public get amazonPayRegion() {
+    return this.getStringAttribute('amazon_pay_region');
+  }
+
+  // authorization_token_arn - computed: true, optional: false, required: false
+  private _authorizationTokenArn = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationAuthorizationTokenArnOutputReference(this, "authorization_token_arn");
+  public get authorizationTokenArn() {
+    return this._authorizationTokenArn;
+  }
+
+  // authorization_token_json_key - computed: true, optional: false, required: false
+  public get authorizationTokenJsonKey() {
+    return this.getStringAttribute('authorization_token_json_key');
+  }
+
+  // authorization_token_source - computed: true, optional: false, required: false
+  public get authorizationTokenSource() {
+    return this.getStringAttribute('authorization_token_source');
+  }
+
+  // environment - computed: true, optional: false, required: false
+  public get environment() {
+    return this.getStringAttribute('environment');
+  }
+
+  // merchant_id - computed: true, optional: false, required: false
+  public get merchantId() {
+    return this.getStringAttribute('merchant_id');
+  }
+
+  // store_id - computed: true, optional: false, required: false
+  public get storeId() {
+    return this.getStringAttribute('store_id');
   }
 }
 export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputCoinbaseCdpConfigurationApiKeySecretArn {
@@ -688,6 +1252,259 @@ export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigura
   // wallet_secret_source - computed: true, optional: false, required: false
   public get walletSecretSource() {
     return this.getStringAttribute('wallet_secret_source');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArn {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArnToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArn): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArnToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArn): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArnOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArn | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArn | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // secret_arn - computed: true, optional: false, required: false
+  public get secretArn() {
+    return this.getStringAttribute('secret_arn');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfiguration {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_id - computed: true, optional: false, required: false
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+
+  // client_secret_arn - computed: true, optional: false, required: false
+  private _clientSecretArn = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationClientSecretArnOutputReference(this, "client_secret_arn");
+  public get clientSecretArn() {
+    return this._clientSecretArn;
+  }
+
+  // client_secret_json_key - computed: true, optional: false, required: false
+  public get clientSecretJsonKey() {
+    return this.getStringAttribute('client_secret_json_key');
+  }
+
+  // client_secret_source - computed: true, optional: false, required: false
+  public get clientSecretSource() {
+    return this.getStringAttribute('client_secret_source');
+  }
+
+  // environment - computed: true, optional: false, required: false
+  public get environment() {
+    return this.getStringAttribute('environment');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArn {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArnToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArn): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArnToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArn): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArnOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArn | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArn | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // secret_arn - computed: true, optional: false, required: false
+  public get secretArn() {
+    return this.getStringAttribute('secret_arn');
+  }
+}
+export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfiguration {
+}
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationToTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationToHclTerraform(struct?: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // publishable_key - computed: true, optional: false, required: false
+  public get publishableKey() {
+    return this.getStringAttribute('publishable_key');
+  }
+
+  // restricted_key_arn - computed: true, optional: false, required: false
+  private _restrictedKeyArn = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationRestrictedKeyArnOutputReference(this, "restricted_key_arn");
+  public get restrictedKeyArn() {
+    return this._restrictedKeyArn;
+  }
+
+  // restricted_key_json_key - computed: true, optional: false, required: false
+  public get restrictedKeyJsonKey() {
+    return this.getStringAttribute('restricted_key_json_key');
+  }
+
+  // restricted_key_source - computed: true, optional: false, required: false
+  public get restrictedKeySource() {
+    return this.getStringAttribute('restricted_key_source');
   }
 }
 export interface DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripePrivyConfigurationAppSecretArn {
@@ -938,10 +1755,28 @@ export class DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigura
     }
   }
 
+  // amazon_pay_configuration - computed: true, optional: false, required: false
+  private _amazonPayConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputAmazonPayConfigurationOutputReference(this, "amazon_pay_configuration");
+  public get amazonPayConfiguration() {
+    return this._amazonPayConfiguration;
+  }
+
   // coinbase_cdp_configuration - computed: true, optional: false, required: false
   private _coinbaseCdpConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputCoinbaseCdpConfigurationOutputReference(this, "coinbase_cdp_configuration");
   public get coinbaseCdpConfiguration() {
     return this._coinbaseCdpConfiguration;
+  }
+
+  // pay_pal_configuration - computed: true, optional: false, required: false
+  private _payPalConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputPayPalConfigurationOutputReference(this, "pay_pal_configuration");
+  public get payPalConfiguration() {
+    return this._payPalConfiguration;
+  }
+
+  // stripe_configuration - computed: true, optional: false, required: false
+  private _stripeConfiguration = new DataAwsccBedrockagentcorePaymentCredentialProviderProviderConfigurationOutputStripeConfigurationOutputReference(this, "stripe_configuration");
+  public get stripeConfiguration() {
+    return this._stripeConfiguration;
   }
 
   // stripe_privy_configuration - computed: true, optional: false, required: false
@@ -1032,7 +1867,7 @@ export class DataAwsccBedrockagentcorePaymentCredentialProviderTagsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider}
 */
 export class DataAwsccBedrockagentcorePaymentCredentialProvider extends cdktn.TerraformDataSource {
 
@@ -1048,7 +1883,7 @@ export class DataAwsccBedrockagentcorePaymentCredentialProvider extends cdktn.Te
   * Generates CDKTN code for importing a DataAwsccBedrockagentcorePaymentCredentialProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBedrockagentcorePaymentCredentialProvider to import
-  * @param importFromId The id of the existing DataAwsccBedrockagentcorePaymentCredentialProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_payment_credential_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBedrockagentcorePaymentCredentialProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_payment_credential_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBedrockagentcorePaymentCredentialProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1060,7 +1895,7 @@ export class DataAwsccBedrockagentcorePaymentCredentialProvider extends cdktn.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1071,7 +1906,7 @@ export class DataAwsccBedrockagentcorePaymentCredentialProvider extends cdktn.Te
       terraformResourceType: 'awscc_bedrockagentcore_payment_credential_provider',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

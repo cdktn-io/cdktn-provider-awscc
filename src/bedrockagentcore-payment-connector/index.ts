@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,139 @@ export interface BedrockagentcorePaymentConnectorConfig extends cdktn.TerraformM
   /**
   * The name of the payment connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#connector_name BedrockagentcorePaymentConnector#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#connector_name BedrockagentcorePaymentConnector#connector_name}
   */
   readonly connectorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#connector_type BedrockagentcorePaymentConnector#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#connector_type BedrockagentcorePaymentConnector#connector_type}
   */
   readonly connectorType: string;
   /**
   * The credential provider configurations for the connector. Required when ProvisionMode is MANUAL or not specified. Empty for QUICK_CREATE until provisioning completes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_configurations BedrockagentcorePaymentConnector#credential_provider_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_configurations BedrockagentcorePaymentConnector#credential_provider_configurations}
   */
   readonly credentialProviderConfigurations?: BedrockagentcorePaymentConnectorCredentialProviderConfigurations[] | cdktn.IResolvable;
   /**
   * A description of the payment connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#description BedrockagentcorePaymentConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#description BedrockagentcorePaymentConnector#description}
   */
   readonly description?: string;
   /**
   * The identifier of the parent payment manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#payment_manager_id BedrockagentcorePaymentConnector#payment_manager_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#payment_manager_id BedrockagentcorePaymentConnector#payment_manager_id}
   */
   readonly paymentManagerId: string;
   /**
   * The provision mode for creating the connector. MANUAL requires CredentialProviderConfigurations; QUICK_CREATE orchestrates OAuth consent and credential provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#provision_mode BedrockagentcorePaymentConnector#provision_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#provision_mode BedrockagentcorePaymentConnector#provision_mode}
   */
   readonly provisionMode?: string;
+}
+export interface BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPay {
+  /**
+  * The ARN of the payment credential provider
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
+  */
+  readonly credentialProviderArn?: string;
+}
+
+export function bedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPayToTerraform(struct?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPay | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    credential_provider_arn: cdktn.stringToTerraform(struct!.credentialProviderArn),
+  }
+}
+
+
+export function bedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPayToHclTerraform(struct?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPay | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    credential_provider_arn: {
+      value: cdktn.stringToHclTerraform(struct!.credentialProviderArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPayOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPay | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._credentialProviderArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.credentialProviderArn = this._credentialProviderArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPay | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._credentialProviderArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._credentialProviderArn = value.credentialProviderArn;
+    }
+  }
+
+  // credential_provider_arn - computed: true, optional: true, required: false
+  private _credentialProviderArn?: string; 
+  public get credentialProviderArn() {
+    return this.getStringAttribute('credential_provider_arn');
+  }
+  public set credentialProviderArn(value: string) {
+    this._credentialProviderArn = value;
+  }
+  public resetCredentialProviderArn() {
+    this._credentialProviderArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get credentialProviderArnInput() {
+    return this._credentialProviderArn;
+  }
 }
 export interface BedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoinbaseCdp {
   /**
   * The ARN of the payment credential provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
   */
   readonly credentialProviderArn?: string;
 }
@@ -143,11 +239,203 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoi
     return this._credentialProviderArn;
   }
 }
+export interface BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPal {
+  /**
+  * The ARN of the payment credential provider
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
+  */
+  readonly credentialProviderArn?: string;
+}
+
+export function bedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPalToTerraform(struct?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPal | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    credential_provider_arn: cdktn.stringToTerraform(struct!.credentialProviderArn),
+  }
+}
+
+
+export function bedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPalToHclTerraform(struct?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPal | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    credential_provider_arn: {
+      value: cdktn.stringToHclTerraform(struct!.credentialProviderArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPalOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPal | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._credentialProviderArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.credentialProviderArn = this._credentialProviderArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPal | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._credentialProviderArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._credentialProviderArn = value.credentialProviderArn;
+    }
+  }
+
+  // credential_provider_arn - computed: true, optional: true, required: false
+  private _credentialProviderArn?: string; 
+  public get credentialProviderArn() {
+    return this.getStringAttribute('credential_provider_arn');
+  }
+  public set credentialProviderArn(value: string) {
+    this._credentialProviderArn = value;
+  }
+  public resetCredentialProviderArn() {
+    this._credentialProviderArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get credentialProviderArnInput() {
+    return this._credentialProviderArn;
+  }
+}
+export interface BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripe {
+  /**
+  * The ARN of the payment credential provider
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
+  */
+  readonly credentialProviderArn?: string;
+}
+
+export function bedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripeToTerraform(struct?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripe | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    credential_provider_arn: cdktn.stringToTerraform(struct!.credentialProviderArn),
+  }
+}
+
+
+export function bedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripeToHclTerraform(struct?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripe | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    credential_provider_arn: {
+      value: cdktn.stringToHclTerraform(struct!.credentialProviderArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripe | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._credentialProviderArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.credentialProviderArn = this._credentialProviderArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripe | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._credentialProviderArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._credentialProviderArn = value.credentialProviderArn;
+    }
+  }
+
+  // credential_provider_arn - computed: true, optional: true, required: false
+  private _credentialProviderArn?: string; 
+  public get credentialProviderArn() {
+    return this.getStringAttribute('credential_provider_arn');
+  }
+  public set credentialProviderArn(value: string) {
+    this._credentialProviderArn = value;
+  }
+  public resetCredentialProviderArn() {
+    this._credentialProviderArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get credentialProviderArnInput() {
+    return this._credentialProviderArn;
+  }
+}
 export interface BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripePrivy {
   /**
   * The ARN of the payment credential provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
   */
   readonly credentialProviderArn?: string;
 }
@@ -241,11 +529,23 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStr
 }
 export interface BedrockagentcorePaymentConnectorCredentialProviderConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#coinbase_cdp BedrockagentcorePaymentConnector#coinbase_cdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#amazon_pay BedrockagentcorePaymentConnector#amazon_pay}
+  */
+  readonly amazonPay?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPay;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#coinbase_cdp BedrockagentcorePaymentConnector#coinbase_cdp}
   */
   readonly coinbaseCdp?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoinbaseCdp;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#stripe_privy BedrockagentcorePaymentConnector#stripe_privy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#pay_pal BedrockagentcorePaymentConnector#pay_pal}
+  */
+  readonly payPal?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPal;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#stripe BedrockagentcorePaymentConnector#stripe}
+  */
+  readonly stripe?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripe;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#stripe_privy BedrockagentcorePaymentConnector#stripe_privy}
   */
   readonly stripePrivy?: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripePrivy;
 }
@@ -256,7 +556,10 @@ export function bedrockagentcorePaymentConnectorCredentialProviderConfigurations
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    amazon_pay: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPayToTerraform(struct!.amazonPay),
     coinbase_cdp: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoinbaseCdpToTerraform(struct!.coinbaseCdp),
+    pay_pal: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPalToTerraform(struct!.payPal),
+    stripe: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripeToTerraform(struct!.stripe),
     stripe_privy: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripePrivyToTerraform(struct!.stripePrivy),
   }
 }
@@ -268,11 +571,29 @@ export function bedrockagentcorePaymentConnectorCredentialProviderConfigurations
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    amazon_pay: {
+      value: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPayToHclTerraform(struct!.amazonPay),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPay",
+    },
     coinbase_cdp: {
       value: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoinbaseCdpToHclTerraform(struct!.coinbaseCdp),
       isBlock: true,
       type: "struct",
       storageClassType: "BedrockagentcorePaymentConnectorCredentialProviderConfigurationsCoinbaseCdp",
+    },
+    pay_pal: {
+      value: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPalToHclTerraform(struct!.payPal),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPal",
+    },
+    stripe: {
+      value: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripeToHclTerraform(struct!.stripe),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripe",
     },
     stripe_privy: {
       value: bedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripePrivyToHclTerraform(struct!.stripePrivy),
@@ -306,9 +627,21 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsOut
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._amazonPay?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.amazonPay = this._amazonPay?.internalValue;
+    }
     if (this._coinbaseCdp?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.coinbaseCdp = this._coinbaseCdp?.internalValue;
+    }
+    if (this._payPal?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.payPal = this._payPal?.internalValue;
+    }
+    if (this._stripe?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.stripe = this._stripe?.internalValue;
     }
     if (this._stripePrivy?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -321,7 +654,10 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsOut
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._amazonPay.internalValue = undefined;
       this._coinbaseCdp.internalValue = undefined;
+      this._payPal.internalValue = undefined;
+      this._stripe.internalValue = undefined;
       this._stripePrivy.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -331,9 +667,28 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsOut
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._amazonPay.internalValue = value.amazonPay;
       this._coinbaseCdp.internalValue = value.coinbaseCdp;
+      this._payPal.internalValue = value.payPal;
+      this._stripe.internalValue = value.stripe;
       this._stripePrivy.internalValue = value.stripePrivy;
     }
+  }
+
+  // amazon_pay - computed: true, optional: true, required: false
+  private _amazonPay = new BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPayOutputReference(this, "amazon_pay");
+  public get amazonPay() {
+    return this._amazonPay;
+  }
+  public putAmazonPay(value: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsAmazonPay) {
+    this._amazonPay.internalValue = value;
+  }
+  public resetAmazonPay() {
+    this._amazonPay.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get amazonPayInput() {
+    return this._amazonPay.internalValue;
   }
 
   // coinbase_cdp - computed: true, optional: true, required: false
@@ -350,6 +705,38 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsOut
   // Temporarily expose input value. Use with caution.
   public get coinbaseCdpInput() {
     return this._coinbaseCdp.internalValue;
+  }
+
+  // pay_pal - computed: true, optional: true, required: false
+  private _payPal = new BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPalOutputReference(this, "pay_pal");
+  public get payPal() {
+    return this._payPal;
+  }
+  public putPayPal(value: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsPayPal) {
+    this._payPal.internalValue = value;
+  }
+  public resetPayPal() {
+    this._payPal.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get payPalInput() {
+    return this._payPal.internalValue;
+  }
+
+  // stripe - computed: true, optional: true, required: false
+  private _stripe = new BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripeOutputReference(this, "stripe");
+  public get stripe() {
+    return this._stripe;
+  }
+  public putStripe(value: BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripe) {
+    this._stripe.internalValue = value;
+  }
+  public resetStripe() {
+    this._stripe.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stripeInput() {
+    return this._stripe.internalValue;
   }
 
   // stripe_privy - computed: true, optional: true, required: false
@@ -390,7 +777,7 @@ export class BedrockagentcorePaymentConnectorCredentialProviderConfigurationsLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}
 */
 export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
 
@@ -406,7 +793,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a BedrockagentcorePaymentConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BedrockagentcorePaymentConnector to import
-  * @param importFromId The id of the existing BedrockagentcorePaymentConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BedrockagentcorePaymentConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BedrockagentcorePaymentConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -418,7 +805,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,7 +816,7 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_bedrockagentcore_payment_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -455,6 +842,11 @@ export class BedrockagentcorePaymentConnector extends cdktn.TerraformResource {
   // authorization_url - computed: true, optional: false, required: false
   public get authorizationUrl() {
     return this.getStringAttribute('authorization_url');
+  }
+
+  // aws_billing_iam_role_arn - computed: true, optional: false, required: false
+  public get awsBillingIamRoleArn() {
+    return this.getStringAttribute('aws_billing_iam_role_arn');
   }
 
   // connector_created_at - computed: true, optional: false, required: false

@@ -1,3 +1,3 @@
 # `awscc_connect_view`
 
-Refer to the Terraform Registry for docs: [`awscc_connect_view`](https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_view).
+Refer to the Terraform Registry for docs: [`awscc_connect_view`](https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_view).

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wellarchitected_agent_profile_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wellarchitected_agent_profile_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface WellarchitectedAgentProfilePolicyConfig extends cdktn.Terraform
   /**
   * The IAM resource-based policy document as a JSON string. Allow-only statements, no negation condition operators, maximum 51200 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wellarchitected_agent_profile_policy#policy WellarchitectedAgentProfilePolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wellarchitected_agent_profile_policy#policy WellarchitectedAgentProfilePolicy#policy}
   */
   readonly policy: string;
   /**
   * The Amazon Resource Name (ARN) of the parent Agent Profile the policy is attached to. Pass `!GetAtt` (or `!Ref`) of the parent AWS::WellArchitected::AgentProfile to flow its ARN here. Also serves as the primary identifier of this policy attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wellarchitected_agent_profile_policy#profile_arn WellarchitectedAgentProfilePolicy#profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wellarchitected_agent_profile_policy#profile_arn WellarchitectedAgentProfilePolicy#profile_arn}
   */
   readonly profileArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wellarchitected_agent_profile_policy awscc_wellarchitected_agent_profile_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wellarchitected_agent_profile_policy awscc_wellarchitected_agent_profile_policy}
 */
 export class WellarchitectedAgentProfilePolicy extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class WellarchitectedAgentProfilePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WellarchitectedAgentProfilePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WellarchitectedAgentProfilePolicy to import
-  * @param importFromId The id of the existing WellarchitectedAgentProfilePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wellarchitected_agent_profile_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WellarchitectedAgentProfilePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wellarchitected_agent_profile_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WellarchitectedAgentProfilePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class WellarchitectedAgentProfilePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wellarchitected_agent_profile_policy awscc_wellarchitected_agent_profile_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wellarchitected_agent_profile_policy awscc_wellarchitected_agent_profile_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class WellarchitectedAgentProfilePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wellarchitected_agent_profile_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

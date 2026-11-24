@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,35 @@ export interface DsqlClusterConfig extends cdktn.TerraformMetaArguments {
   /**
   * Whether deletion protection is enabled in this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
   */
   readonly deletionProtectionEnabled?: boolean | cdktn.IResolvable;
   /**
   * The KMS key that encrypts data on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
   */
   readonly kmsEncryptionKey?: string;
   /**
+  * The Advanced monitoring metric groups to enable on the cluster. Omit to enable none.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#metric_groups DsqlCluster#metric_groups}
+  */
+  readonly metricGroups?: DsqlClusterMetricGroups[] | cdktn.IResolvable;
+  /**
   * The Multi-region properties associated to this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
   */
   readonly multiRegionProperties?: DsqlClusterMultiRegionProperties;
   /**
   * The IAM policy applied to the cluster resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
   */
   readonly policyDocument?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}
   */
   readonly tags?: DsqlClusterTags[] | cdktn.IResolvable;
 }
@@ -105,15 +111,133 @@ export class DsqlClusterEncryptionDetailsOutputReference extends cdktn.ComplexOb
     return this.getStringAttribute('kms_key_arn');
   }
 }
+export interface DsqlClusterMetricGroups {
+  /**
+  * The name of the metric group. Valid values: STATEMENT_STATISTICS.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#metric_group DsqlCluster#metric_group}
+  */
+  readonly metricGroup?: string;
+}
+
+export function dsqlClusterMetricGroupsToTerraform(struct?: DsqlClusterMetricGroups | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    metric_group: cdktn.stringToTerraform(struct!.metricGroup),
+  }
+}
+
+
+export function dsqlClusterMetricGroupsToHclTerraform(struct?: DsqlClusterMetricGroups | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    metric_group: {
+      value: cdktn.stringToHclTerraform(struct!.metricGroup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DsqlClusterMetricGroupsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DsqlClusterMetricGroups | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._metricGroup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metricGroup = this._metricGroup;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DsqlClusterMetricGroups | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._metricGroup = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._metricGroup = value.metricGroup;
+    }
+  }
+
+  // metric_group - computed: true, optional: true, required: false
+  private _metricGroup?: string; 
+  public get metricGroup() {
+    return this.getStringAttribute('metric_group');
+  }
+  public set metricGroup(value: string) {
+    this._metricGroup = value;
+  }
+  public resetMetricGroup() {
+    this._metricGroup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricGroupInput() {
+    return this._metricGroup;
+  }
+}
+
+export class DsqlClusterMetricGroupsList extends cdktn.ComplexList {
+  public internalValue? : DsqlClusterMetricGroups[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DsqlClusterMetricGroupsOutputReference {
+    return new DsqlClusterMetricGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DsqlClusterMultiRegionProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}
   */
   readonly clusters?: string[];
   /**
   * The witness region in a multi-region cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
   */
   readonly witnessRegion?: string;
 }
@@ -238,13 +362,13 @@ export interface DsqlClusterTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#key DsqlCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#key DsqlCluster#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#value DsqlCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#value DsqlCluster#value}
   */
   readonly value?: string;
 }
@@ -389,7 +513,7 @@ export class DsqlClusterTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster awscc_dsql_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster awscc_dsql_cluster}
 */
 export class DsqlCluster extends cdktn.TerraformResource {
 
@@ -405,7 +529,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DsqlCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DsqlCluster to import
-  * @param importFromId The id of the existing DsqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DsqlCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DsqlCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -417,7 +541,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster awscc_dsql_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster awscc_dsql_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,7 +552,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dsql_cluster',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -441,6 +565,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
     });
     this._deletionProtectionEnabled = config.deletionProtectionEnabled;
     this._kmsEncryptionKey = config.kmsEncryptionKey;
+    this._metricGroups.internalValue = config.metricGroups;
     this._multiRegionProperties.internalValue = config.multiRegionProperties;
     this._policyDocument = config.policyDocument;
     this._tags.internalValue = config.tags;
@@ -506,6 +631,22 @@ export class DsqlCluster extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get kmsEncryptionKeyInput() {
     return this._kmsEncryptionKey;
+  }
+
+  // metric_groups - computed: true, optional: true, required: false
+  private _metricGroups = new DsqlClusterMetricGroupsList(this, "metric_groups", true);
+  public get metricGroups() {
+    return this._metricGroups;
+  }
+  public putMetricGroups(value: DsqlClusterMetricGroups[] | cdktn.IResolvable) {
+    this._metricGroups.internalValue = value;
+  }
+  public resetMetricGroups() {
+    this._metricGroups.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metricGroupsInput() {
+    return this._metricGroups.internalValue;
   }
 
   // multi_region_properties - computed: true, optional: true, required: false
@@ -589,6 +730,7 @@ export class DsqlCluster extends cdktn.TerraformResource {
     return {
       deletion_protection_enabled: cdktn.booleanToTerraform(this._deletionProtectionEnabled),
       kms_encryption_key: cdktn.stringToTerraform(this._kmsEncryptionKey),
+      metric_groups: cdktn.listMapper(dsqlClusterMetricGroupsToTerraform, false)(this._metricGroups.internalValue),
       multi_region_properties: dsqlClusterMultiRegionPropertiesToTerraform(this._multiRegionProperties.internalValue),
       policy_document: cdktn.stringToTerraform(this._policyDocument),
       tags: cdktn.listMapper(dsqlClusterTagsToTerraform, false)(this._tags.internalValue),
@@ -608,6 +750,12 @@ export class DsqlCluster extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      metric_groups: {
+        value: cdktn.listMapperHcl(dsqlClusterMetricGroupsToHclTerraform, false)(this._metricGroups.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "DsqlClusterMetricGroupsList",
       },
       multi_region_properties: {
         value: dsqlClusterMultiRegionPropertiesToHclTerraform(this._multiRegionProperties.internalValue),

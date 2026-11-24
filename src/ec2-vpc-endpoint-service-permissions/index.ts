@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_endpoint_service_permissions
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_endpoint_service_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,17 +13,23 @@ import * as cdktn from 'cdktn';
 
 export interface Ec2VpcEndpointServicePermissionsConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_endpoint_service_permissions#allowed_principals Ec2VpcEndpointServicePermissions#allowed_principals}
   */
   readonly allowedPrincipals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_endpoint_service_permissions#service_id Ec2VpcEndpointServicePermissions#service_id}
   */
   readonly serviceId: string;
+  /**
+  * The AWS account root ARNs (arn:aws:iam::account-id:root) allowed to create transit gateway attachments that connect to this Gateway Load Balancer endpoint service.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_endpoint_service_permissions#transit_gateway_attachment_allowed_principals Ec2VpcEndpointServicePermissions#transit_gateway_attachment_allowed_principals}
+  */
+  readonly transitGatewayAttachmentAllowedPrincipals?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions}
 */
 export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
 
@@ -39,7 +45,7 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VpcEndpointServicePermissions resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpcEndpointServicePermissions to import
-  * @param importFromId The id of the existing Ec2VpcEndpointServicePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_endpoint_service_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpcEndpointServicePermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_endpoint_service_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpcEndpointServicePermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -51,7 +57,7 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,7 +68,7 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpc_endpoint_service_permissions',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -75,6 +81,7 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
     });
     this._allowedPrincipals = config.allowedPrincipals;
     this._serviceId = config.serviceId;
+    this._transitGatewayAttachmentAllowedPrincipals = config.transitGatewayAttachmentAllowedPrincipals;
   }
 
   // ==========
@@ -115,6 +122,22 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
     return this._serviceId;
   }
 
+  // transit_gateway_attachment_allowed_principals - computed: true, optional: true, required: false
+  private _transitGatewayAttachmentAllowedPrincipals?: string[]; 
+  public get transitGatewayAttachmentAllowedPrincipals() {
+    return this.getListAttribute('transit_gateway_attachment_allowed_principals');
+  }
+  public set transitGatewayAttachmentAllowedPrincipals(value: string[]) {
+    this._transitGatewayAttachmentAllowedPrincipals = value;
+  }
+  public resetTransitGatewayAttachmentAllowedPrincipals() {
+    this._transitGatewayAttachmentAllowedPrincipals = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get transitGatewayAttachmentAllowedPrincipalsInput() {
+    return this._transitGatewayAttachmentAllowedPrincipals;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -123,6 +146,7 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
     return {
       allowed_principals: cdktn.listMapper(cdktn.stringToTerraform, false)(this._allowedPrincipals),
       service_id: cdktn.stringToTerraform(this._serviceId),
+      transit_gateway_attachment_allowed_principals: cdktn.listMapper(cdktn.stringToTerraform, false)(this._transitGatewayAttachmentAllowedPrincipals),
     };
   }
 
@@ -139,6 +163,12 @@ export class Ec2VpcEndpointServicePermissions extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      transit_gateway_attachment_allowed_principals: {
+        value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(this._transitGatewayAttachmentAllowedPrincipals),
+        isBlock: false,
+        type: "list",
+        storageClassType: "stringList",
       },
     };
 

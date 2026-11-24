@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,21 +15,117 @@ export interface EcrReplicationConfigurationConfig extends cdktn.TerraformMetaAr
   /**
   * The replication configuration for a registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#replication_configuration EcrReplicationConfiguration#replication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#replication_configuration EcrReplicationConfiguration#replication_configuration}
   */
   readonly replicationConfiguration: EcrReplicationConfigurationReplicationConfiguration;
+}
+export interface EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication {
+  /**
+  * Whether image deletions and image tag removals in the source registry are replicated to the replication destinations.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#enabled EcrReplicationConfiguration#enabled}
+  */
+  readonly enabled?: boolean | cdktn.IResolvable;
+}
+
+export function ecrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationToTerraform(struct?: EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    enabled: cdktn.booleanToTerraform(struct!.enabled),
+  }
+}
+
+
+export function ecrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationToHclTerraform(struct?: EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._enabled = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._enabled = value.enabled;
+    }
+  }
+
+  // enabled - computed: true, optional: true, required: false
+  private _enabled?: boolean | cdktn.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktn.IResolvable) {
+    this._enabled = value;
+  }
+  public resetEnabled() {
+    this._enabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
 }
 export interface EcrReplicationConfigurationReplicationConfigurationRulesDestinations {
   /**
   * The Region to replicate to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#region EcrReplicationConfiguration#region}
   */
   readonly region: string;
   /**
   * The AWS account ID of the Amazon ECR private registry to replicate to. When configuring cross-Region replication within your own registry, specify your own account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#registry_id EcrReplicationConfiguration#registry_id}
   */
   readonly registryId: string;
 }
@@ -170,13 +266,13 @@ export interface EcrReplicationConfigurationReplicationConfigurationRulesReposit
   /**
   * The repository filter details. When the ``PREFIX_MATCH`` filter type is specified, this value is required and should be the repository name prefix to configure replication for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#filter EcrReplicationConfiguration#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#filter EcrReplicationConfiguration#filter}
   */
   readonly filter?: string;
   /**
   * The repository filter type. The only supported value is ``PREFIX_MATCH``, which is a repository name prefix specified with the ``filter`` parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#filter_type EcrReplicationConfiguration#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#filter_type EcrReplicationConfiguration#filter_type}
   */
   readonly filterType?: string;
 }
@@ -321,15 +417,19 @@ export class EcrReplicationConfigurationReplicationConfigurationRulesRepositoryF
 }
 export interface EcrReplicationConfigurationReplicationConfigurationRules {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#delete_replication EcrReplicationConfiguration#delete_replication}
+  */
+  readonly deleteReplication?: EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication;
+  /**
   * An array of objects representing the destination for a replication rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#destinations EcrReplicationConfiguration#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#destinations EcrReplicationConfiguration#destinations}
   */
   readonly destinations: EcrReplicationConfigurationReplicationConfigurationRulesDestinations[] | cdktn.IResolvable;
   /**
   * An array of objects representing the filters for a replication rule. Specifying a repository filter for a replication rule provides a method for controlling which repositories in a private registry are replicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#repository_filters EcrReplicationConfiguration#repository_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#repository_filters EcrReplicationConfiguration#repository_filters}
   */
   readonly repositoryFilters?: EcrReplicationConfigurationReplicationConfigurationRulesRepositoryFilters[] | cdktn.IResolvable;
 }
@@ -340,6 +440,7 @@ export function ecrReplicationConfigurationReplicationConfigurationRulesToTerraf
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    delete_replication: ecrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationToTerraform(struct!.deleteReplication),
     destinations: cdktn.listMapper(ecrReplicationConfigurationReplicationConfigurationRulesDestinationsToTerraform, false)(struct!.destinations),
     repository_filters: cdktn.listMapper(ecrReplicationConfigurationReplicationConfigurationRulesRepositoryFiltersToTerraform, false)(struct!.repositoryFilters),
   }
@@ -352,6 +453,12 @@ export function ecrReplicationConfigurationReplicationConfigurationRulesToHclTer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    delete_replication: {
+      value: ecrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationToHclTerraform(struct!.deleteReplication),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication",
+    },
     destinations: {
       value: cdktn.listMapperHcl(ecrReplicationConfigurationReplicationConfigurationRulesDestinationsToHclTerraform, false)(struct!.destinations),
       isBlock: true,
@@ -390,6 +497,10 @@ export class EcrReplicationConfigurationReplicationConfigurationRulesOutputRefer
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._deleteReplication?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deleteReplication = this._deleteReplication?.internalValue;
+    }
     if (this._destinations?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.destinations = this._destinations?.internalValue;
@@ -405,6 +516,7 @@ export class EcrReplicationConfigurationReplicationConfigurationRulesOutputRefer
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._deleteReplication.internalValue = undefined;
       this._destinations.internalValue = undefined;
       this._repositoryFilters.internalValue = undefined;
     }
@@ -415,9 +527,26 @@ export class EcrReplicationConfigurationReplicationConfigurationRulesOutputRefer
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._deleteReplication.internalValue = value.deleteReplication;
       this._destinations.internalValue = value.destinations;
       this._repositoryFilters.internalValue = value.repositoryFilters;
     }
+  }
+
+  // delete_replication - computed: true, optional: true, required: false
+  private _deleteReplication = new EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference(this, "delete_replication");
+  public get deleteReplication() {
+    return this._deleteReplication;
+  }
+  public putDeleteReplication(value: EcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication) {
+    this._deleteReplication.internalValue = value;
+  }
+  public resetDeleteReplication() {
+    this._deleteReplication.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteReplicationInput() {
+    return this._deleteReplication.internalValue;
   }
 
   // destinations - computed: false, optional: false, required: true
@@ -473,7 +602,7 @@ export interface EcrReplicationConfigurationReplicationConfiguration {
   /**
   * An array of objects representing the replication destinations and repository filters for a replication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#rules EcrReplicationConfiguration#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#rules EcrReplicationConfiguration#rules}
   */
   readonly rules: EcrReplicationConfigurationReplicationConfigurationRules[] | cdktn.IResolvable;
 }
@@ -564,7 +693,7 @@ export class EcrReplicationConfigurationReplicationConfigurationOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration awscc_ecr_replication_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration awscc_ecr_replication_configuration}
 */
 export class EcrReplicationConfiguration extends cdktn.TerraformResource {
 
@@ -580,7 +709,7 @@ export class EcrReplicationConfiguration extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a EcrReplicationConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcrReplicationConfiguration to import
-  * @param importFromId The id of the existing EcrReplicationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcrReplicationConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcrReplicationConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -592,7 +721,7 @@ export class EcrReplicationConfiguration extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ecr_replication_configuration awscc_ecr_replication_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ecr_replication_configuration awscc_ecr_replication_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,7 +732,7 @@ export class EcrReplicationConfiguration extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ecr_replication_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

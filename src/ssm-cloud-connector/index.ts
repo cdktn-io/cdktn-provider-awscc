@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface SsmCloudConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ARN of the AWS Config connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
   */
   readonly configConnectorArn: string;
   /**
   * The configuration for the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
   */
   readonly configuration: SsmCloudConnectorConfiguration;
   /**
   * The description of the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
   */
   readonly description?: string;
   /**
   * The display name of the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
   */
   readonly displayName: string;
   /**
   * The IAM role ARN used by the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
   */
   readonly roleArn: string;
   /**
   * Tags to apply to the cloud connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
   */
   readonly tags?: SsmCloudConnectorTags[] | cdktn.IResolvable;
 }
@@ -53,13 +53,13 @@ export interface SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscrip
   /**
   * The display name of the Azure subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
   */
   readonly displayName?: string;
   /**
   * The Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#id SsmCloudConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#id SsmCloudConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -209,7 +209,7 @@ export interface SsmCloudConnectorConfigurationAzureConfigurationTargets {
   /**
   * List of Azure subscriptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
   */
   readonly subscriptions?: SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptions[] | cdktn.IResolvable;
 }
@@ -305,33 +305,33 @@ export interface SsmCloudConnectorConfigurationAzureConfiguration {
   /**
   * The display name of the Azure AD application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#application_display_name SsmCloudConnector#application_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#application_display_name SsmCloudConnector#application_display_name}
   */
   readonly applicationDisplayName?: string;
   /**
   * The Azure AD application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#application_id SsmCloudConnector#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#application_id SsmCloudConnector#application_id}
   */
-  readonly applicationId: string;
+  readonly applicationId?: string;
   /**
   * The targets for the cloud connector. If omitted, the entire tenant is targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
   */
   readonly targets?: SsmCloudConnectorConfigurationAzureConfigurationTargets;
   /**
   * The display name of the Azure AD tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#tenant_display_name SsmCloudConnector#tenant_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#tenant_display_name SsmCloudConnector#tenant_display_name}
   */
   readonly tenantDisplayName?: string;
   /**
   * The Azure AD tenant ID. Cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#tenant_id SsmCloudConnector#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#tenant_id SsmCloudConnector#tenant_id}
   */
-  readonly tenantId: string;
+  readonly tenantId?: string;
 }
 
 export function ssmCloudConnectorConfigurationAzureConfigurationToTerraform(struct?: SsmCloudConnectorConfigurationAzureConfiguration | cdktn.IResolvable): any {
@@ -473,13 +473,16 @@ export class SsmCloudConnectorConfigurationAzureConfigurationOutputReference ext
     return this._applicationDisplayName;
   }
 
-  // application_id - computed: false, optional: false, required: true
+  // application_id - computed: true, optional: true, required: false
   private _applicationId?: string; 
   public get applicationId() {
     return this.getStringAttribute('application_id');
   }
   public set applicationId(value: string) {
     this._applicationId = value;
+  }
+  public resetApplicationId() {
+    this._applicationId = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get applicationIdInput() {
@@ -518,7 +521,7 @@ export class SsmCloudConnectorConfigurationAzureConfigurationOutputReference ext
     return this._tenantDisplayName;
   }
 
-  // tenant_id - computed: false, optional: false, required: true
+  // tenant_id - computed: true, optional: true, required: false
   private _tenantId?: string; 
   public get tenantId() {
     return this.getStringAttribute('tenant_id');
@@ -526,18 +529,477 @@ export class SsmCloudConnectorConfigurationAzureConfigurationOutputReference ext
   public set tenantId(value: string) {
     this._tenantId = value;
   }
+  public resetTenantId() {
+    this._tenantId = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get tenantIdInput() {
     return this._tenantId;
+  }
+}
+export interface SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects {
+  /**
+  * The display name of the GCP project.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#project_display_name SsmCloudConnector#project_display_name}
+  */
+  readonly projectDisplayName?: string;
+  /**
+  * The GCP project ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#project_id SsmCloudConnector#project_id}
+  */
+  readonly projectId?: string;
+}
+
+export function ssmCloudConnectorConfigurationGcpConfigurationTargetsProjectsToTerraform(struct?: SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    project_display_name: cdktn.stringToTerraform(struct!.projectDisplayName),
+    project_id: cdktn.stringToTerraform(struct!.projectId),
+  }
+}
+
+
+export function ssmCloudConnectorConfigurationGcpConfigurationTargetsProjectsToHclTerraform(struct?: SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    project_display_name: {
+      value: cdktn.stringToHclTerraform(struct!.projectDisplayName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    project_id: {
+      value: cdktn.stringToHclTerraform(struct!.projectId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._projectDisplayName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.projectDisplayName = this._projectDisplayName;
+    }
+    if (this._projectId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.projectId = this._projectId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._projectDisplayName = undefined;
+      this._projectId = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._projectDisplayName = value.projectDisplayName;
+      this._projectId = value.projectId;
+    }
+  }
+
+  // project_display_name - computed: true, optional: true, required: false
+  private _projectDisplayName?: string; 
+  public get projectDisplayName() {
+    return this.getStringAttribute('project_display_name');
+  }
+  public set projectDisplayName(value: string) {
+    this._projectDisplayName = value;
+  }
+  public resetProjectDisplayName() {
+    this._projectDisplayName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectDisplayNameInput() {
+    return this._projectDisplayName;
+  }
+
+  // project_id - computed: true, optional: true, required: false
+  private _projectId?: string; 
+  public get projectId() {
+    return this.getStringAttribute('project_id');
+  }
+  public set projectId(value: string) {
+    this._projectId = value;
+  }
+  public resetProjectId() {
+    this._projectId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectIdInput() {
+    return this._projectId;
+  }
+}
+
+export class SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList extends cdktn.ComplexList {
+  public internalValue? : SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference {
+    return new SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface SsmCloudConnectorConfigurationGcpConfigurationTargets {
+  /**
+  * List of GCP projects.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#projects SsmCloudConnector#projects}
+  */
+  readonly projects?: SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects[] | cdktn.IResolvable;
+}
+
+export function ssmCloudConnectorConfigurationGcpConfigurationTargetsToTerraform(struct?: SsmCloudConnectorConfigurationGcpConfigurationTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    projects: cdktn.listMapper(ssmCloudConnectorConfigurationGcpConfigurationTargetsProjectsToTerraform, false)(struct!.projects),
+  }
+}
+
+
+export function ssmCloudConnectorConfigurationGcpConfigurationTargetsToHclTerraform(struct?: SsmCloudConnectorConfigurationGcpConfigurationTargets | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    projects: {
+      value: cdktn.listMapperHcl(ssmCloudConnectorConfigurationGcpConfigurationTargetsProjectsToHclTerraform, false)(struct!.projects),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SsmCloudConnectorConfigurationGcpConfigurationTargets | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._projects?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.projects = this._projects?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SsmCloudConnectorConfigurationGcpConfigurationTargets | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._projects.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._projects.internalValue = value.projects;
+    }
+  }
+
+  // projects - computed: true, optional: true, required: false
+  private _projects = new SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList(this, "projects", false);
+  public get projects() {
+    return this._projects;
+  }
+  public putProjects(value: SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects[] | cdktn.IResolvable) {
+    this._projects.internalValue = value;
+  }
+  public resetProjects() {
+    this._projects.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectsInput() {
+    return this._projects.internalValue;
+  }
+}
+export interface SsmCloudConnectorConfigurationGcpConfiguration {
+  /**
+  * The GCP organization ID. Required when Targets is omitted, which targets the entire organization. Cannot be changed after creation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#organization_id SsmCloudConnector#organization_id}
+  */
+  readonly organizationId?: string;
+  /**
+  * The GCP service account the connector impersonates. Its project is the connector's management project. Cannot be changed after creation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#service_account_email SsmCloudConnector#service_account_email}
+  */
+  readonly serviceAccountEmail?: string;
+  /**
+  * The targets for the cloud connector. If omitted, the entire organization is targeted.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
+  */
+  readonly targets?: SsmCloudConnectorConfigurationGcpConfigurationTargets;
+  /**
+  * The resource name of the workload identity pool provider that trusts the connector's IAM role.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#workload_identity_pool_provider SsmCloudConnector#workload_identity_pool_provider}
+  */
+  readonly workloadIdentityPoolProvider?: string;
+}
+
+export function ssmCloudConnectorConfigurationGcpConfigurationToTerraform(struct?: SsmCloudConnectorConfigurationGcpConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    organization_id: cdktn.stringToTerraform(struct!.organizationId),
+    service_account_email: cdktn.stringToTerraform(struct!.serviceAccountEmail),
+    targets: ssmCloudConnectorConfigurationGcpConfigurationTargetsToTerraform(struct!.targets),
+    workload_identity_pool_provider: cdktn.stringToTerraform(struct!.workloadIdentityPoolProvider),
+  }
+}
+
+
+export function ssmCloudConnectorConfigurationGcpConfigurationToHclTerraform(struct?: SsmCloudConnectorConfigurationGcpConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    organization_id: {
+      value: cdktn.stringToHclTerraform(struct!.organizationId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    service_account_email: {
+      value: cdktn.stringToHclTerraform(struct!.serviceAccountEmail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    targets: {
+      value: ssmCloudConnectorConfigurationGcpConfigurationTargetsToHclTerraform(struct!.targets),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SsmCloudConnectorConfigurationGcpConfigurationTargets",
+    },
+    workload_identity_pool_provider: {
+      value: cdktn.stringToHclTerraform(struct!.workloadIdentityPoolProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SsmCloudConnectorConfigurationGcpConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SsmCloudConnectorConfigurationGcpConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._organizationId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.organizationId = this._organizationId;
+    }
+    if (this._serviceAccountEmail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccountEmail = this._serviceAccountEmail;
+    }
+    if (this._targets?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targets = this._targets?.internalValue;
+    }
+    if (this._workloadIdentityPoolProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.workloadIdentityPoolProvider = this._workloadIdentityPoolProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SsmCloudConnectorConfigurationGcpConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._organizationId = undefined;
+      this._serviceAccountEmail = undefined;
+      this._targets.internalValue = undefined;
+      this._workloadIdentityPoolProvider = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._organizationId = value.organizationId;
+      this._serviceAccountEmail = value.serviceAccountEmail;
+      this._targets.internalValue = value.targets;
+      this._workloadIdentityPoolProvider = value.workloadIdentityPoolProvider;
+    }
+  }
+
+  // organization_id - computed: true, optional: true, required: false
+  private _organizationId?: string; 
+  public get organizationId() {
+    return this.getStringAttribute('organization_id');
+  }
+  public set organizationId(value: string) {
+    this._organizationId = value;
+  }
+  public resetOrganizationId() {
+    this._organizationId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get organizationIdInput() {
+    return this._organizationId;
+  }
+
+  // service_account_email - computed: true, optional: true, required: false
+  private _serviceAccountEmail?: string; 
+  public get serviceAccountEmail() {
+    return this.getStringAttribute('service_account_email');
+  }
+  public set serviceAccountEmail(value: string) {
+    this._serviceAccountEmail = value;
+  }
+  public resetServiceAccountEmail() {
+    this._serviceAccountEmail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountEmailInput() {
+    return this._serviceAccountEmail;
+  }
+
+  // targets - computed: true, optional: true, required: false
+  private _targets = new SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference(this, "targets");
+  public get targets() {
+    return this._targets;
+  }
+  public putTargets(value: SsmCloudConnectorConfigurationGcpConfigurationTargets) {
+    this._targets.internalValue = value;
+  }
+  public resetTargets() {
+    this._targets.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetsInput() {
+    return this._targets.internalValue;
+  }
+
+  // workload_identity_pool_provider - computed: true, optional: true, required: false
+  private _workloadIdentityPoolProvider?: string; 
+  public get workloadIdentityPoolProvider() {
+    return this.getStringAttribute('workload_identity_pool_provider');
+  }
+  public set workloadIdentityPoolProvider(value: string) {
+    this._workloadIdentityPoolProvider = value;
+  }
+  public resetWorkloadIdentityPoolProvider() {
+    this._workloadIdentityPoolProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workloadIdentityPoolProviderInput() {
+    return this._workloadIdentityPoolProvider;
   }
 }
 export interface SsmCloudConnectorConfiguration {
   /**
   * Configuration for connecting to Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#azure_configuration SsmCloudConnector#azure_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#azure_configuration SsmCloudConnector#azure_configuration}
   */
-  readonly azureConfiguration: SsmCloudConnectorConfigurationAzureConfiguration;
+  readonly azureConfiguration?: SsmCloudConnectorConfigurationAzureConfiguration;
+  /**
+  * Configuration for connecting to Google Cloud.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#gcp_configuration SsmCloudConnector#gcp_configuration}
+  */
+  readonly gcpConfiguration?: SsmCloudConnectorConfigurationGcpConfiguration;
 }
 
 export function ssmCloudConnectorConfigurationToTerraform(struct?: SsmCloudConnectorConfiguration | cdktn.IResolvable): any {
@@ -547,6 +1009,7 @@ export function ssmCloudConnectorConfigurationToTerraform(struct?: SsmCloudConne
   }
   return {
     azure_configuration: ssmCloudConnectorConfigurationAzureConfigurationToTerraform(struct!.azureConfiguration),
+    gcp_configuration: ssmCloudConnectorConfigurationGcpConfigurationToTerraform(struct!.gcpConfiguration),
   }
 }
 
@@ -562,6 +1025,12 @@ export function ssmCloudConnectorConfigurationToHclTerraform(struct?: SsmCloudCo
       isBlock: true,
       type: "struct",
       storageClassType: "SsmCloudConnectorConfigurationAzureConfiguration",
+    },
+    gcp_configuration: {
+      value: ssmCloudConnectorConfigurationGcpConfigurationToHclTerraform(struct!.gcpConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SsmCloudConnectorConfigurationGcpConfiguration",
     },
   };
 
@@ -591,6 +1060,10 @@ export class SsmCloudConnectorConfigurationOutputReference extends cdktn.Complex
       hasAnyValues = true;
       internalValueResult.azureConfiguration = this._azureConfiguration?.internalValue;
     }
+    if (this._gcpConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcpConfiguration = this._gcpConfiguration?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -599,6 +1072,7 @@ export class SsmCloudConnectorConfigurationOutputReference extends cdktn.Complex
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._azureConfiguration.internalValue = undefined;
+      this._gcpConfiguration.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -608,10 +1082,11 @@ export class SsmCloudConnectorConfigurationOutputReference extends cdktn.Complex
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._azureConfiguration.internalValue = value.azureConfiguration;
+      this._gcpConfiguration.internalValue = value.gcpConfiguration;
     }
   }
 
-  // azure_configuration - computed: false, optional: false, required: true
+  // azure_configuration - computed: true, optional: true, required: false
   private _azureConfiguration = new SsmCloudConnectorConfigurationAzureConfigurationOutputReference(this, "azure_configuration");
   public get azureConfiguration() {
     return this._azureConfiguration;
@@ -619,18 +1094,37 @@ export class SsmCloudConnectorConfigurationOutputReference extends cdktn.Complex
   public putAzureConfiguration(value: SsmCloudConnectorConfigurationAzureConfiguration) {
     this._azureConfiguration.internalValue = value;
   }
+  public resetAzureConfiguration() {
+    this._azureConfiguration.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get azureConfigurationInput() {
     return this._azureConfiguration.internalValue;
   }
+
+  // gcp_configuration - computed: true, optional: true, required: false
+  private _gcpConfiguration = new SsmCloudConnectorConfigurationGcpConfigurationOutputReference(this, "gcp_configuration");
+  public get gcpConfiguration() {
+    return this._gcpConfiguration;
+  }
+  public putGcpConfiguration(value: SsmCloudConnectorConfigurationGcpConfiguration) {
+    this._gcpConfiguration.internalValue = value;
+  }
+  public resetGcpConfiguration() {
+    this._gcpConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpConfigurationInput() {
+    return this._gcpConfiguration.internalValue;
+  }
 }
 export interface SsmCloudConnectorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}
   */
   readonly value?: string;
 }
@@ -775,7 +1269,7 @@ export class SsmCloudConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}
 */
 export class SsmCloudConnector extends cdktn.TerraformResource {
 
@@ -791,7 +1285,7 @@ export class SsmCloudConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SsmCloudConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SsmCloudConnector to import
-  * @param importFromId The id of the existing SsmCloudConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SsmCloudConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SsmCloudConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -803,7 +1297,7 @@ export class SsmCloudConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,7 +1308,7 @@ export class SsmCloudConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ssm_cloud_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

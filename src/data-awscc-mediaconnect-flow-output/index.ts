@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_flow_output
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mediaconnect_flow_output
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccMediaconnectFlowOutputConfig extends cdktn.TerraformMe
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_flow_output#id DataAwsccMediaconnectFlowOutput#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mediaconnect_flow_output#id DataAwsccMediaconnectFlowOutput#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -561,6 +561,185 @@ export class DataAwsccMediaconnectFlowOutputRouterIntegrationTransitEncryptionOu
     return this.getStringAttribute('encryption_key_type');
   }
 }
+export interface DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration {
+}
+
+export function dataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationToTerraform(struct?: DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationToHclTerraform(struct?: DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // public - computed: true, optional: false, required: false
+  public get public() {
+    return this.getStringAttribute('public');
+  }
+}
+export interface DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryption {
+}
+
+export function dataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionToTerraform(struct?: DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryption): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionToHclTerraform(struct?: DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryption): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryption | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryption | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // encryption_configuration - computed: true, optional: false, required: false
+  private _encryptionConfiguration = new DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationOutputReference(this, "encryption_configuration");
+  public get encryptionConfiguration() {
+    return this._encryptionConfiguration;
+  }
+
+  // encryption_type - computed: true, optional: false, required: false
+  public get encryptionType() {
+    return this.getStringAttribute('encryption_type');
+  }
+}
+export interface DataAwsccMediaconnectFlowOutputRtmpPushSettings {
+}
+
+export function dataAwsccMediaconnectFlowOutputRtmpPushSettingsToTerraform(struct?: DataAwsccMediaconnectFlowOutputRtmpPushSettings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediaconnectFlowOutputRtmpPushSettingsToHclTerraform(struct?: DataAwsccMediaconnectFlowOutputRtmpPushSettings): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediaconnectFlowOutputRtmpPushSettingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediaconnectFlowOutputRtmpPushSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediaconnectFlowOutputRtmpPushSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // application_name - computed: true, optional: false, required: false
+  public get applicationName() {
+    return this.getStringAttribute('application_name');
+  }
+
+  // stream_name - computed: true, optional: false, required: false
+  public get streamName() {
+    return this.getStringAttribute('stream_name');
+  }
+
+  // tls_encryption - computed: true, optional: false, required: false
+  private _tlsEncryption = new DataAwsccMediaconnectFlowOutputRtmpPushSettingsTlsEncryptionOutputReference(this, "tls_encryption");
+  public get tlsEncryption() {
+    return this._tlsEncryption;
+  }
+}
 export interface DataAwsccMediaconnectFlowOutputTags {
 }
 
@@ -697,7 +876,7 @@ export class DataAwsccMediaconnectFlowOutputVpcInterfaceAttachmentOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output}
 */
 export class DataAwsccMediaconnectFlowOutput extends cdktn.TerraformDataSource {
 
@@ -713,7 +892,7 @@ export class DataAwsccMediaconnectFlowOutput extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccMediaconnectFlowOutput resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediaconnectFlowOutput to import
-  * @param importFromId The id of the existing DataAwsccMediaconnectFlowOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_flow_output#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediaconnectFlowOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mediaconnect_flow_output#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediaconnectFlowOutput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -725,7 +904,7 @@ export class DataAwsccMediaconnectFlowOutput extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -736,7 +915,7 @@ export class DataAwsccMediaconnectFlowOutput extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_mediaconnect_flow_output',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -868,6 +1047,12 @@ export class DataAwsccMediaconnectFlowOutput extends cdktn.TerraformDataSource {
   private _routerIntegrationTransitEncryption = new DataAwsccMediaconnectFlowOutputRouterIntegrationTransitEncryptionOutputReference(this, "router_integration_transit_encryption");
   public get routerIntegrationTransitEncryption() {
     return this._routerIntegrationTransitEncryption;
+  }
+
+  // rtmp_push_settings - computed: true, optional: false, required: false
+  private _rtmpPushSettings = new DataAwsccMediaconnectFlowOutputRtmpPushSettingsOutputReference(this, "rtmp_push_settings");
+  public get rtmpPushSettings() {
+    return this._rtmpPushSettings;
   }
 
   // smoothing_latency - computed: true, optional: false, required: false

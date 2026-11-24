@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3tables_table_bucket
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3tables_table_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccS3TablesTableBucketConfig extends cdktn.TerraformMetaA
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3tables_table_bucket#id DataAwsccS3TablesTableBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3tables_table_bucket#id DataAwsccS3TablesTableBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,6 +79,180 @@ export class DataAwsccS3TablesTableBucketEncryptionConfigurationOutputReference 
   // sse_algorithm - computed: true, optional: false, required: false
   public get sseAlgorithm() {
     return this.getStringAttribute('sse_algorithm');
+  }
+}
+export interface DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix {
+}
+
+export function dataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixToTerraform(struct?: DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixToHclTerraform(struct?: DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // partition_date_source - computed: true, optional: false, required: false
+  public get partitionDateSource() {
+    return this.getStringAttribute('partition_date_source');
+  }
+}
+export interface DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat {
+}
+
+export function dataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatToTerraform(struct?: DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatToHclTerraform(struct?: DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // partitioned_prefix - computed: true, optional: false, required: false
+  private _partitionedPrefix = new DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference(this, "partitioned_prefix");
+  public get partitionedPrefix() {
+    return this._partitionedPrefix;
+  }
+}
+export interface DataAwsccS3TablesTableBucketLoggingConfiguration {
+}
+
+export function dataAwsccS3TablesTableBucketLoggingConfigurationToTerraform(struct?: DataAwsccS3TablesTableBucketLoggingConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3TablesTableBucketLoggingConfigurationToHclTerraform(struct?: DataAwsccS3TablesTableBucketLoggingConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3TablesTableBucketLoggingConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3TablesTableBucketLoggingConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3TablesTableBucketLoggingConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // target_bucket - computed: true, optional: false, required: false
+  public get targetBucket() {
+    return this.getStringAttribute('target_bucket');
+  }
+
+  // target_object_key_format - computed: true, optional: false, required: false
+  private _targetObjectKeyFormat = new DataAwsccS3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference(this, "target_object_key_format");
+  public get targetObjectKeyFormat() {
+    return this._targetObjectKeyFormat;
+  }
+
+  // target_prefix - computed: true, optional: false, required: false
+  public get targetPrefix() {
+    return this.getStringAttribute('target_prefix');
   }
 }
 export interface DataAwsccS3TablesTableBucketMetricsConfiguration {
@@ -546,7 +720,7 @@ export class DataAwsccS3TablesTableBucketUnreferencedFileRemovalOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket}
 */
 export class DataAwsccS3TablesTableBucket extends cdktn.TerraformDataSource {
 
@@ -562,7 +736,7 @@ export class DataAwsccS3TablesTableBucket extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccS3TablesTableBucket resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccS3TablesTableBucket to import
-  * @param importFromId The id of the existing DataAwsccS3TablesTableBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccS3TablesTableBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccS3TablesTableBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -574,7 +748,7 @@ export class DataAwsccS3TablesTableBucket extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -585,7 +759,7 @@ export class DataAwsccS3TablesTableBucket extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_s3tables_table_bucket',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -620,6 +794,12 @@ export class DataAwsccS3TablesTableBucket extends cdktn.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // logging_configuration - computed: true, optional: false, required: false
+  private _loggingConfiguration = new DataAwsccS3TablesTableBucketLoggingConfigurationOutputReference(this, "logging_configuration");
+  public get loggingConfiguration() {
+    return this._loggingConfiguration;
   }
 
   // metrics_configuration - computed: true, optional: false, required: false
