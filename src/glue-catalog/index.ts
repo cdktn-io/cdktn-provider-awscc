@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,67 +15,67 @@ export interface GlueCatalogConfig extends cdktn.TerraformMetaArguments {
   /**
   * Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
   */
   readonly allowFullTableExternalDataAccess?: string;
   /**
   * A structure that specifies data lake access properties and other custom properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
   */
   readonly catalogProperties?: GlueCatalogCatalogProperties;
   /**
   * An array of PrincipalPermissions objects for default database permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
   */
   readonly createDatabaseDefaultPermissions?: GlueCatalogCreateDatabaseDefaultPermissions[] | cdktn.IResolvable;
   /**
   * An array of PrincipalPermissions objects for default table permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
   */
   readonly createTableDefaultPermissions?: GlueCatalogCreateTableDefaultPermissions[] | cdktn.IResolvable;
   /**
   * A description of the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#description GlueCatalog#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#description GlueCatalog#description}
   */
   readonly description?: string;
   /**
   * A FederatedCatalog structure that references an entity outside the Glue Data Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
   */
   readonly federatedCatalog?: GlueCatalogFederatedCatalog;
   /**
   * The name of the catalog to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#name GlueCatalog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#name GlueCatalog#name}
   */
   readonly name: string;
   /**
   * Specifies whether to overwrite child resource permissions with the default permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
   */
   readonly overwriteChildResourcePermissionsWithDefault?: string;
   /**
   * A map of key-value pairs that define parameters and properties of the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
   */
   readonly tags?: GlueCatalogTags[] | cdktn.IResolvable;
   /**
   * A structure that describes a target catalog for resource linking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
   */
   readonly targetRedshiftCatalog?: GlueCatalogTargetRedshiftCatalog;
 }
@@ -83,31 +83,31 @@ export interface GlueCatalogCatalogPropertiesDataLakeAccessProperties {
   /**
   * Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
   */
   readonly allowFullTableExternalDataAccess?: string;
   /**
   * Specifies a federated catalog type for the native catalog resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
   */
   readonly catalogType?: string;
   /**
   * Turns on or off data lake access for Apache Spark applications that access Amazon Redshift databases in the Data Catalog from any non-Redshift engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
   */
   readonly dataLakeAccess?: boolean | cdktn.IResolvable;
   /**
   * A role that will be assumed by Glue for transferring data into/out of the staging bucket during a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
   */
   readonly dataTransferRole?: string;
   /**
   * An encryption key that will be used for the staging bucket that will be created along with the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
   */
   readonly kmsKey?: string;
 }
@@ -334,7 +334,7 @@ export interface GlueCatalogCatalogProperties {
   /**
   * Data lake access properties for the catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
   */
   readonly dataLakeAccessProperties?: GlueCatalogCatalogPropertiesDataLakeAccessProperties;
 }
@@ -436,7 +436,7 @@ export interface GlueCatalogCreateDatabaseDefaultPermissionsPrincipal {
   /**
   * An identifier for the Lake Formation principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
   */
   readonly dataLakePrincipalIdentifier?: string;
 }
@@ -532,13 +532,13 @@ export interface GlueCatalogCreateDatabaseDefaultPermissions {
   /**
   * The permissions that are granted to the principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
   */
   readonly permissions?: string[];
   /**
   * The Lake Formation principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
   */
   readonly principal?: GlueCatalogCreateDatabaseDefaultPermissionsPrincipal;
 }
@@ -685,7 +685,7 @@ export interface GlueCatalogCreateTableDefaultPermissionsPrincipal {
   /**
   * An identifier for the Lake Formation principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
   */
   readonly dataLakePrincipalIdentifier?: string;
 }
@@ -781,13 +781,13 @@ export interface GlueCatalogCreateTableDefaultPermissions {
   /**
   * The permissions that are granted to the principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
   */
   readonly permissions?: string[];
   /**
   * The Lake Formation principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
   */
   readonly principal?: GlueCatalogCreateTableDefaultPermissionsPrincipal;
 }
@@ -930,19 +930,719 @@ export class GlueCatalogCreateTableDefaultPermissionsList extends cdktn.ComplexL
     return new GlueCatalogCreateTableDefaultPermissionsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError {
+}
+
+export function glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorToTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorToHclTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // error_code - computed: true, optional: false, required: false
+  public get errorCode() {
+    return this.getStringAttribute('error_code');
+  }
+
+  // error_message - computed: true, optional: false, required: false
+  public get errorMessage() {
+    return this.getStringAttribute('error_message');
+  }
+}
+export interface GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails {
+}
+
+export function glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsToTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsToHclTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // crawler_arn - computed: true, optional: false, required: false
+  public get crawlerArn() {
+    return this.getStringAttribute('crawler_arn');
+  }
+
+  // error - computed: true, optional: false, required: false
+  private _error = new GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference(this, "error");
+  public get error() {
+    return this._error;
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
+export interface GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration {
+  /**
+  * How often the crawler synchronizes assets, in minutes. Glue enforces a service-side minimum that may be higher than the minimum accepted here.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#refresh_interval_minutes GlueCatalog#refresh_interval_minutes}
+  */
+  readonly refreshIntervalMinutes?: number;
+  /**
+  * Whether asset synchronization is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#status GlueCatalog#status}
+  */
+  readonly status?: string;
+}
+
+export function glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationToTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    refresh_interval_minutes: cdktn.numberToTerraform(struct!.refreshIntervalMinutes),
+    status: cdktn.stringToTerraform(struct!.status),
+  }
+}
+
+
+export function glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationToHclTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    refresh_interval_minutes: {
+      value: cdktn.numberToHclTerraform(struct!.refreshIntervalMinutes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    status: {
+      value: cdktn.stringToHclTerraform(struct!.status),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._refreshIntervalMinutes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refreshIntervalMinutes = this._refreshIntervalMinutes;
+    }
+    if (this._status !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status = this._status;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._refreshIntervalMinutes = undefined;
+      this._status = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._refreshIntervalMinutes = value.refreshIntervalMinutes;
+      this._status = value.status;
+    }
+  }
+
+  // managed_crawler_details - computed: true, optional: false, required: false
+  private _managedCrawlerDetails = new GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference(this, "managed_crawler_details");
+  public get managedCrawlerDetails() {
+    return this._managedCrawlerDetails;
+  }
+
+  // refresh_interval_minutes - computed: true, optional: true, required: false
+  private _refreshIntervalMinutes?: number; 
+  public get refreshIntervalMinutes() {
+    return this.getNumberAttribute('refresh_interval_minutes');
+  }
+  public set refreshIntervalMinutes(value: number) {
+    this._refreshIntervalMinutes = value;
+  }
+  public resetRefreshIntervalMinutes() {
+    this._refreshIntervalMinutes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refreshIntervalMinutesInput() {
+    return this._refreshIntervalMinutes;
+  }
+
+  // status - computed: true, optional: true, required: false
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  public resetStatus() {
+    this._status = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
+  }
+}
+export interface GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError {
+}
+
+export function glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorToTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorToHclTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // error_code - computed: true, optional: false, required: false
+  public get errorCode() {
+    return this.getStringAttribute('error_code');
+  }
+
+  // error_message - computed: true, optional: false, required: false
+  public get errorMessage() {
+    return this.getStringAttribute('error_message');
+  }
+}
+export interface GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails {
+}
+
+export function glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsToTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsToHclTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // crawler_arn - computed: true, optional: false, required: false
+  public get crawlerArn() {
+    return this.getStringAttribute('crawler_arn');
+  }
+
+  // error - computed: true, optional: false, required: false
+  private _error = new GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference(this, "error");
+  public get error() {
+    return this._error;
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
+export interface GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration {
+  /**
+  * How often the crawler synchronizes lineage, in minutes. Glue enforces a service-side minimum that may be higher than the minimum accepted here.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#refresh_interval_minutes GlueCatalog#refresh_interval_minutes}
+  */
+  readonly refreshIntervalMinutes?: number;
+  /**
+  * Whether lineage synchronization is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#status GlueCatalog#status}
+  */
+  readonly status?: string;
+}
+
+export function glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationToTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    refresh_interval_minutes: cdktn.numberToTerraform(struct!.refreshIntervalMinutes),
+    status: cdktn.stringToTerraform(struct!.status),
+  }
+}
+
+
+export function glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationToHclTerraform(struct?: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    refresh_interval_minutes: {
+      value: cdktn.numberToHclTerraform(struct!.refreshIntervalMinutes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    status: {
+      value: cdktn.stringToHclTerraform(struct!.status),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._refreshIntervalMinutes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.refreshIntervalMinutes = this._refreshIntervalMinutes;
+    }
+    if (this._status !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.status = this._status;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._refreshIntervalMinutes = undefined;
+      this._status = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._refreshIntervalMinutes = value.refreshIntervalMinutes;
+      this._status = value.status;
+    }
+  }
+
+  // managed_crawler_details - computed: true, optional: false, required: false
+  private _managedCrawlerDetails = new GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference(this, "managed_crawler_details");
+  public get managedCrawlerDetails() {
+    return this._managedCrawlerDetails;
+  }
+
+  // refresh_interval_minutes - computed: true, optional: true, required: false
+  private _refreshIntervalMinutes?: number; 
+  public get refreshIntervalMinutes() {
+    return this.getNumberAttribute('refresh_interval_minutes');
+  }
+  public set refreshIntervalMinutes(value: number) {
+    this._refreshIntervalMinutes = value;
+  }
+  public resetRefreshIntervalMinutes() {
+    this._refreshIntervalMinutes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get refreshIntervalMinutesInput() {
+    return this._refreshIntervalMinutes;
+  }
+
+  // status - computed: true, optional: true, required: false
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  public resetStatus() {
+    this._status = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
+  }
+}
+export interface GlueCatalogFederatedCatalogSyncConfiguration {
+  /**
+  * Configuration for synchronizing assets from the external data source. Omitting this property on an update leaves the stored configuration unchanged; set Status to DISABLED to stop synchronizing assets.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#assets_sync_configuration GlueCatalog#assets_sync_configuration}
+  */
+  readonly assetsSyncConfiguration?: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration;
+  /**
+  * Configuration for synchronizing lineage from the external data source. Omitting this property on an update leaves the stored configuration unchanged; set Status to DISABLED to stop synchronizing lineage.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#lineage_sync_configuration GlueCatalog#lineage_sync_configuration}
+  */
+  readonly lineageSyncConfiguration?: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration;
+  /**
+  * The IAM role, in the catalog owner's account, that the crawlers Glue manages on your behalf assume.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#role_arn GlueCatalog#role_arn}
+  */
+  readonly roleArn?: string;
+}
+
+export function glueCatalogFederatedCatalogSyncConfigurationToTerraform(struct?: GlueCatalogFederatedCatalogSyncConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    assets_sync_configuration: glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationToTerraform(struct!.assetsSyncConfiguration),
+    lineage_sync_configuration: glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationToTerraform(struct!.lineageSyncConfiguration),
+    role_arn: cdktn.stringToTerraform(struct!.roleArn),
+  }
+}
+
+
+export function glueCatalogFederatedCatalogSyncConfigurationToHclTerraform(struct?: GlueCatalogFederatedCatalogSyncConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    assets_sync_configuration: {
+      value: glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationToHclTerraform(struct!.assetsSyncConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration",
+    },
+    lineage_sync_configuration: {
+      value: glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationToHclTerraform(struct!.lineageSyncConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration",
+    },
+    role_arn: {
+      value: cdktn.stringToHclTerraform(struct!.roleArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GlueCatalogFederatedCatalogSyncConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): GlueCatalogFederatedCatalogSyncConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._assetsSyncConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.assetsSyncConfiguration = this._assetsSyncConfiguration?.internalValue;
+    }
+    if (this._lineageSyncConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lineageSyncConfiguration = this._lineageSyncConfiguration?.internalValue;
+    }
+    if (this._roleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.roleArn = this._roleArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GlueCatalogFederatedCatalogSyncConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._assetsSyncConfiguration.internalValue = undefined;
+      this._lineageSyncConfiguration.internalValue = undefined;
+      this._roleArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._assetsSyncConfiguration.internalValue = value.assetsSyncConfiguration;
+      this._lineageSyncConfiguration.internalValue = value.lineageSyncConfiguration;
+      this._roleArn = value.roleArn;
+    }
+  }
+
+  // assets_sync_configuration - computed: true, optional: true, required: false
+  private _assetsSyncConfiguration = new GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference(this, "assets_sync_configuration");
+  public get assetsSyncConfiguration() {
+    return this._assetsSyncConfiguration;
+  }
+  public putAssetsSyncConfiguration(value: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration) {
+    this._assetsSyncConfiguration.internalValue = value;
+  }
+  public resetAssetsSyncConfiguration() {
+    this._assetsSyncConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get assetsSyncConfigurationInput() {
+    return this._assetsSyncConfiguration.internalValue;
+  }
+
+  // lineage_sync_configuration - computed: true, optional: true, required: false
+  private _lineageSyncConfiguration = new GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference(this, "lineage_sync_configuration");
+  public get lineageSyncConfiguration() {
+    return this._lineageSyncConfiguration;
+  }
+  public putLineageSyncConfiguration(value: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration) {
+    this._lineageSyncConfiguration.internalValue = value;
+  }
+  public resetLineageSyncConfiguration() {
+    this._lineageSyncConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lineageSyncConfigurationInput() {
+    return this._lineageSyncConfiguration.internalValue;
+  }
+
+  // role_arn - computed: true, optional: true, required: false
+  private _roleArn?: string; 
+  public get roleArn() {
+    return this.getStringAttribute('role_arn');
+  }
+  public set roleArn(value: string) {
+    this._roleArn = value;
+  }
+  public resetRoleArn() {
+    this._roleArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleArnInput() {
+    return this._roleArn;
+  }
+}
 export interface GlueCatalogFederatedCatalog {
   /**
   * The name of the connection to an external data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
   */
   readonly connectionName?: string;
   /**
+  * The type of connection used to access the federated catalog. Synchronization is only supported for certain connection types.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#connection_type GlueCatalog#connection_type}
+  */
+  readonly connectionType?: string;
+  /**
   * A unique identifier for the federated catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
   */
   readonly identifier?: string;
+  /**
+  * Configuration for synchronizing a federated catalog with its external data source. Removing this property does not disable synchronization: Glue keeps the stored configuration for anything omitted from an update. To stop synchronizing, set the Status of each mode to DISABLED.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#sync_configuration GlueCatalog#sync_configuration}
+  */
+  readonly syncConfiguration?: GlueCatalogFederatedCatalogSyncConfiguration;
 }
 
 export function glueCatalogFederatedCatalogToTerraform(struct?: GlueCatalogFederatedCatalog | cdktn.IResolvable): any {
@@ -952,7 +1652,9 @@ export function glueCatalogFederatedCatalogToTerraform(struct?: GlueCatalogFeder
   }
   return {
     connection_name: cdktn.stringToTerraform(struct!.connectionName),
+    connection_type: cdktn.stringToTerraform(struct!.connectionType),
     identifier: cdktn.stringToTerraform(struct!.identifier),
+    sync_configuration: glueCatalogFederatedCatalogSyncConfigurationToTerraform(struct!.syncConfiguration),
   }
 }
 
@@ -969,11 +1671,23 @@ export function glueCatalogFederatedCatalogToHclTerraform(struct?: GlueCatalogFe
       type: "simple",
       storageClassType: "string",
     },
+    connection_type: {
+      value: cdktn.stringToHclTerraform(struct!.connectionType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     identifier: {
       value: cdktn.stringToHclTerraform(struct!.identifier),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    sync_configuration: {
+      value: glueCatalogFederatedCatalogSyncConfigurationToHclTerraform(struct!.syncConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "GlueCatalogFederatedCatalogSyncConfiguration",
     },
   };
 
@@ -1003,9 +1717,17 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
       hasAnyValues = true;
       internalValueResult.connectionName = this._connectionName;
     }
+    if (this._connectionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectionType = this._connectionType;
+    }
     if (this._identifier !== undefined) {
       hasAnyValues = true;
       internalValueResult.identifier = this._identifier;
+    }
+    if (this._syncConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.syncConfiguration = this._syncConfiguration?.internalValue;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -1015,7 +1737,9 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._connectionName = undefined;
+      this._connectionType = undefined;
       this._identifier = undefined;
+      this._syncConfiguration.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -1025,7 +1749,9 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._connectionName = value.connectionName;
+      this._connectionType = value.connectionType;
       this._identifier = value.identifier;
+      this._syncConfiguration.internalValue = value.syncConfiguration;
     }
   }
 
@@ -1045,6 +1771,22 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
     return this._connectionName;
   }
 
+  // connection_type - computed: true, optional: true, required: false
+  private _connectionType?: string; 
+  public get connectionType() {
+    return this.getStringAttribute('connection_type');
+  }
+  public set connectionType(value: string) {
+    this._connectionType = value;
+  }
+  public resetConnectionType() {
+    this._connectionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectionTypeInput() {
+    return this._connectionType;
+  }
+
   // identifier - computed: true, optional: true, required: false
   private _identifier?: string; 
   public get identifier() {
@@ -1060,18 +1802,34 @@ export class GlueCatalogFederatedCatalogOutputReference extends cdktn.ComplexObj
   public get identifierInput() {
     return this._identifier;
   }
+
+  // sync_configuration - computed: true, optional: true, required: false
+  private _syncConfiguration = new GlueCatalogFederatedCatalogSyncConfigurationOutputReference(this, "sync_configuration");
+  public get syncConfiguration() {
+    return this._syncConfiguration;
+  }
+  public putSyncConfiguration(value: GlueCatalogFederatedCatalogSyncConfiguration) {
+    this._syncConfiguration.internalValue = value;
+  }
+  public resetSyncConfiguration() {
+    this._syncConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get syncConfigurationInput() {
+    return this._syncConfiguration.internalValue;
+  }
 }
 export interface GlueCatalogTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#key GlueCatalog#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#key GlueCatalog#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#value GlueCatalog#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#value GlueCatalog#value}
   */
   readonly value?: string;
 }
@@ -1218,7 +1976,7 @@ export interface GlueCatalogTargetRedshiftCatalog {
   /**
   * The Amazon Resource Name (ARN) of the catalog resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
   */
   readonly catalogArn?: string;
 }
@@ -1312,7 +2070,7 @@ export class GlueCatalogTargetRedshiftCatalogOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog awscc_glue_catalog}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog awscc_glue_catalog}
 */
 export class GlueCatalog extends cdktn.TerraformResource {
 
@@ -1328,7 +2086,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueCatalog resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueCatalog to import
-  * @param importFromId The id of the existing GlueCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1340,7 +2098,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog awscc_glue_catalog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog awscc_glue_catalog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1351,7 +2109,7 @@ export class GlueCatalog extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_catalog',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

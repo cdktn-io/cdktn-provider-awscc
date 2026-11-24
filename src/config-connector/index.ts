@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface ConfigConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
   * The configuration for the connector that specifies the third-party cloud provider connection details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
   */
   readonly connectorConfiguration: ConfigConnectorConnectorConfiguration;
   /**
   * The tags for the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#tags ConfigConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#tags ConfigConnector#tags}
   */
   readonly tags?: ConfigConnectorTags[] | cdktn.IResolvable;
 }
@@ -29,13 +29,13 @@ export interface ConfigConnectorConnectorConfigurationAzure {
   /**
   * The Azure client (application) identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
   */
   readonly clientIdentifier?: string;
   /**
   * The Azure tenant identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
   */
   readonly tenantIdentifier?: string;
 }
@@ -156,13 +156,185 @@ export class ConfigConnectorConnectorConfigurationAzureOutputReference extends c
     return this._tenantIdentifier;
   }
 }
+export interface ConfigConnectorConnectorConfigurationGcp {
+  /**
+  * The ID of the Google Cloud organization that contains the connector's management project, which is the project of the service account in ServiceAccountEmail. Required if the management project belongs to an organization. A connector needs an organization ID to record an entire organization or more than one project. Omit it only if the management project doesn't belong to an organization. In that case, the connector can record only the management project.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#gcp_organization_id ConfigConnector#gcp_organization_id}
+  */
+  readonly gcpOrganizationId?: string;
+  /**
+  * The email address of the Google Cloud service account that AWS Config uses.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#service_account_email ConfigConnector#service_account_email}
+  */
+  readonly serviceAccountEmail?: string;
+  /**
+  * The full resource name of the workload identity pool provider that AWS Config uses to federate into Google Cloud.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#workload_identity_pool_provider ConfigConnector#workload_identity_pool_provider}
+  */
+  readonly workloadIdentityPoolProvider?: string;
+}
+
+export function configConnectorConnectorConfigurationGcpToTerraform(struct?: ConfigConnectorConnectorConfigurationGcp | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    gcp_organization_id: cdktn.stringToTerraform(struct!.gcpOrganizationId),
+    service_account_email: cdktn.stringToTerraform(struct!.serviceAccountEmail),
+    workload_identity_pool_provider: cdktn.stringToTerraform(struct!.workloadIdentityPoolProvider),
+  }
+}
+
+
+export function configConnectorConnectorConfigurationGcpToHclTerraform(struct?: ConfigConnectorConnectorConfigurationGcp | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    gcp_organization_id: {
+      value: cdktn.stringToHclTerraform(struct!.gcpOrganizationId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    service_account_email: {
+      value: cdktn.stringToHclTerraform(struct!.serviceAccountEmail),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    workload_identity_pool_provider: {
+      value: cdktn.stringToHclTerraform(struct!.workloadIdentityPoolProvider),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ConfigConnectorConnectorConfigurationGcpOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ConfigConnectorConnectorConfigurationGcp | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._gcpOrganizationId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcpOrganizationId = this._gcpOrganizationId;
+    }
+    if (this._serviceAccountEmail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceAccountEmail = this._serviceAccountEmail;
+    }
+    if (this._workloadIdentityPoolProvider !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.workloadIdentityPoolProvider = this._workloadIdentityPoolProvider;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ConfigConnectorConnectorConfigurationGcp | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._gcpOrganizationId = undefined;
+      this._serviceAccountEmail = undefined;
+      this._workloadIdentityPoolProvider = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._gcpOrganizationId = value.gcpOrganizationId;
+      this._serviceAccountEmail = value.serviceAccountEmail;
+      this._workloadIdentityPoolProvider = value.workloadIdentityPoolProvider;
+    }
+  }
+
+  // gcp_organization_id - computed: true, optional: true, required: false
+  private _gcpOrganizationId?: string; 
+  public get gcpOrganizationId() {
+    return this.getStringAttribute('gcp_organization_id');
+  }
+  public set gcpOrganizationId(value: string) {
+    this._gcpOrganizationId = value;
+  }
+  public resetGcpOrganizationId() {
+    this._gcpOrganizationId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpOrganizationIdInput() {
+    return this._gcpOrganizationId;
+  }
+
+  // service_account_email - computed: true, optional: true, required: false
+  private _serviceAccountEmail?: string; 
+  public get serviceAccountEmail() {
+    return this.getStringAttribute('service_account_email');
+  }
+  public set serviceAccountEmail(value: string) {
+    this._serviceAccountEmail = value;
+  }
+  public resetServiceAccountEmail() {
+    this._serviceAccountEmail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceAccountEmailInput() {
+    return this._serviceAccountEmail;
+  }
+
+  // workload_identity_pool_provider - computed: true, optional: true, required: false
+  private _workloadIdentityPoolProvider?: string; 
+  public get workloadIdentityPoolProvider() {
+    return this.getStringAttribute('workload_identity_pool_provider');
+  }
+  public set workloadIdentityPoolProvider(value: string) {
+    this._workloadIdentityPoolProvider = value;
+  }
+  public resetWorkloadIdentityPoolProvider() {
+    this._workloadIdentityPoolProvider = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workloadIdentityPoolProviderInput() {
+    return this._workloadIdentityPoolProvider;
+  }
+}
 export interface ConfigConnectorConnectorConfiguration {
   /**
   * The configuration for connecting to Microsoft Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#azure ConfigConnector#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#azure ConfigConnector#azure}
   */
   readonly azure?: ConfigConnectorConnectorConfigurationAzure;
+  /**
+  * The configuration for connecting to Google Cloud.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#gcp ConfigConnector#gcp}
+  */
+  readonly gcp?: ConfigConnectorConnectorConfigurationGcp;
 }
 
 export function configConnectorConnectorConfigurationToTerraform(struct?: ConfigConnectorConnectorConfiguration | cdktn.IResolvable): any {
@@ -172,6 +344,7 @@ export function configConnectorConnectorConfigurationToTerraform(struct?: Config
   }
   return {
     azure: configConnectorConnectorConfigurationAzureToTerraform(struct!.azure),
+    gcp: configConnectorConnectorConfigurationGcpToTerraform(struct!.gcp),
   }
 }
 
@@ -187,6 +360,12 @@ export function configConnectorConnectorConfigurationToHclTerraform(struct?: Con
       isBlock: true,
       type: "struct",
       storageClassType: "ConfigConnectorConnectorConfigurationAzure",
+    },
+    gcp: {
+      value: configConnectorConnectorConfigurationGcpToHclTerraform(struct!.gcp),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "ConfigConnectorConnectorConfigurationGcp",
     },
   };
 
@@ -216,6 +395,10 @@ export class ConfigConnectorConnectorConfigurationOutputReference extends cdktn.
       hasAnyValues = true;
       internalValueResult.azure = this._azure?.internalValue;
     }
+    if (this._gcp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcp = this._gcp?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -224,6 +407,7 @@ export class ConfigConnectorConnectorConfigurationOutputReference extends cdktn.
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._azure.internalValue = undefined;
+      this._gcp.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -233,6 +417,7 @@ export class ConfigConnectorConnectorConfigurationOutputReference extends cdktn.
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._azure.internalValue = value.azure;
+      this._gcp.internalValue = value.gcp;
     }
   }
 
@@ -251,18 +436,34 @@ export class ConfigConnectorConnectorConfigurationOutputReference extends cdktn.
   public get azureInput() {
     return this._azure.internalValue;
   }
+
+  // gcp - computed: true, optional: true, required: false
+  private _gcp = new ConfigConnectorConnectorConfigurationGcpOutputReference(this, "gcp");
+  public get gcp() {
+    return this._gcp;
+  }
+  public putGcp(value: ConfigConnectorConnectorConfigurationGcp) {
+    this._gcp.internalValue = value;
+  }
+  public resetGcp() {
+    this._gcp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpInput() {
+    return this._gcp.internalValue;
+  }
 }
 export interface ConfigConnectorTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#key ConfigConnector#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#key ConfigConnector#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#value ConfigConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#value ConfigConnector#value}
   */
   readonly value?: string;
 }
@@ -407,7 +608,7 @@ export class ConfigConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector awscc_config_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector awscc_config_connector}
 */
 export class ConfigConnector extends cdktn.TerraformResource {
 
@@ -423,7 +624,7 @@ export class ConfigConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConfigConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigConnector to import
-  * @param importFromId The id of the existing ConfigConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -435,7 +636,7 @@ export class ConfigConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector awscc_config_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector awscc_config_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -446,7 +647,7 @@ export class ConfigConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_config_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

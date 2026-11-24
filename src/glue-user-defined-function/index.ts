@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,59 +13,77 @@ import * as cdktn from 'cdktn';
 
 export interface GlueUserDefinedFunctionConfig extends cdktn.TerraformMetaArguments {
   /**
+  * The registered Amazon S3 location that contains the function artifacts. Required when GovernanceMode is LAKE_FORMATION.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#artifact_location GlueUserDefinedFunction#artifact_location}
+  */
+  readonly artifactLocation?: string;
+  /**
   * The Java class that contains the function code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
   */
   readonly className?: string;
   /**
   * The name of the catalog database in which the function is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
   */
   readonly databaseName: string;
   /**
   * The name of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
   */
   readonly functionName: string;
   /**
   * The type of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
   */
   readonly functionType?: string;
   /**
+  * How access to the function is governed. The mode cannot be changed after creation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#governance_mode GlueUserDefinedFunction#governance_mode}
+  */
+  readonly governanceMode?: string;
+  /**
   * The owner of the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
   */
   readonly ownerName?: string;
   /**
   * The owner type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
   */
   readonly ownerType?: string;
   /**
   * The resource URIs for the function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
   */
   readonly resourceUris?: GlueUserDefinedFunctionResourceUris[] | cdktn.IResolvable;
 }
 export interface GlueUserDefinedFunctionResourceUris {
   /**
+  * The time at which Glue recorded the resource as last modified in Amazon S3 for a Lake Formation governed function.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#last_modified GlueUserDefinedFunction#last_modified}
+  */
+  readonly lastModified?: string;
+  /**
   * The type of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}
   */
   readonly resourceType?: string;
   /**
   * The URI for accessing the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}
   */
   readonly uri?: string;
 }
@@ -76,6 +94,7 @@ export function glueUserDefinedFunctionResourceUrisToTerraform(struct?: GlueUser
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    last_modified: cdktn.stringToTerraform(struct!.lastModified),
     resource_type: cdktn.stringToTerraform(struct!.resourceType),
     uri: cdktn.stringToTerraform(struct!.uri),
   }
@@ -88,6 +107,12 @@ export function glueUserDefinedFunctionResourceUrisToHclTerraform(struct?: GlueU
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    last_modified: {
+      value: cdktn.stringToHclTerraform(struct!.lastModified),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     resource_type: {
       value: cdktn.stringToHclTerraform(struct!.resourceType),
       isBlock: false,
@@ -126,6 +151,10 @@ export class GlueUserDefinedFunctionResourceUrisOutputReference extends cdktn.Co
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._lastModified !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lastModified = this._lastModified;
+    }
     if (this._resourceType !== undefined) {
       hasAnyValues = true;
       internalValueResult.resourceType = this._resourceType;
@@ -141,6 +170,7 @@ export class GlueUserDefinedFunctionResourceUrisOutputReference extends cdktn.Co
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._lastModified = undefined;
       this._resourceType = undefined;
       this._uri = undefined;
     }
@@ -151,9 +181,26 @@ export class GlueUserDefinedFunctionResourceUrisOutputReference extends cdktn.Co
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._lastModified = value.lastModified;
       this._resourceType = value.resourceType;
       this._uri = value.uri;
     }
+  }
+
+  // last_modified - computed: true, optional: true, required: false
+  private _lastModified?: string; 
+  public get lastModified() {
+    return this.getStringAttribute('last_modified');
+  }
+  public set lastModified(value: string) {
+    this._lastModified = value;
+  }
+  public resetLastModified() {
+    this._lastModified = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lastModifiedInput() {
+    return this._lastModified;
   }
 
   // resource_type - computed: true, optional: true, required: false
@@ -210,7 +257,7 @@ export class GlueUserDefinedFunctionResourceUrisList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function}
 */
 export class GlueUserDefinedFunction extends cdktn.TerraformResource {
 
@@ -226,7 +273,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueUserDefinedFunction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueUserDefinedFunction to import
-  * @param importFromId The id of the existing GlueUserDefinedFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueUserDefinedFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueUserDefinedFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -238,7 +285,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,7 +296,7 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_user_defined_function',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -260,10 +307,12 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._artifactLocation = config.artifactLocation;
     this._className = config.className;
     this._databaseName = config.databaseName;
     this._functionName = config.functionName;
     this._functionType = config.functionType;
+    this._governanceMode = config.governanceMode;
     this._ownerName = config.ownerName;
     this._ownerType = config.ownerType;
     this._resourceUris.internalValue = config.resourceUris;
@@ -276,6 +325,22 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   // arn - computed: true, optional: false, required: false
   public get arn() {
     return this.getStringAttribute('arn');
+  }
+
+  // artifact_location - computed: true, optional: true, required: false
+  private _artifactLocation?: string; 
+  public get artifactLocation() {
+    return this.getStringAttribute('artifact_location');
+  }
+  public set artifactLocation(value: string) {
+    this._artifactLocation = value;
+  }
+  public resetArtifactLocation() {
+    this._artifactLocation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get artifactLocationInput() {
+    return this._artifactLocation;
   }
 
   // class_name - computed: true, optional: true, required: false
@@ -334,6 +399,22 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get functionTypeInput() {
     return this._functionType;
+  }
+
+  // governance_mode - computed: true, optional: true, required: false
+  private _governanceMode?: string; 
+  public get governanceMode() {
+    return this.getStringAttribute('governance_mode');
+  }
+  public set governanceMode(value: string) {
+    this._governanceMode = value;
+  }
+  public resetGovernanceMode() {
+    this._governanceMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get governanceModeInput() {
+    return this._governanceMode;
   }
 
   // id - computed: true, optional: false, required: false
@@ -395,10 +476,12 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      artifact_location: cdktn.stringToTerraform(this._artifactLocation),
       class_name: cdktn.stringToTerraform(this._className),
       database_name: cdktn.stringToTerraform(this._databaseName),
       function_name: cdktn.stringToTerraform(this._functionName),
       function_type: cdktn.stringToTerraform(this._functionType),
+      governance_mode: cdktn.stringToTerraform(this._governanceMode),
       owner_name: cdktn.stringToTerraform(this._ownerName),
       owner_type: cdktn.stringToTerraform(this._ownerType),
       resource_uris: cdktn.listMapper(glueUserDefinedFunctionResourceUrisToTerraform, false)(this._resourceUris.internalValue),
@@ -407,6 +490,12 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      artifact_location: {
+        value: cdktn.stringToHclTerraform(this._artifactLocation),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       class_name: {
         value: cdktn.stringToHclTerraform(this._className),
         isBlock: false,
@@ -427,6 +516,12 @@ export class GlueUserDefinedFunction extends cdktn.TerraformResource {
       },
       function_type: {
         value: cdktn.stringToHclTerraform(this._functionType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      governance_mode: {
+        value: cdktn.stringToHclTerraform(this._governanceMode),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

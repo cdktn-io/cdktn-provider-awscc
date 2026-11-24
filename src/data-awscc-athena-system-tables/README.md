@@ -1,0 +1,3 @@
+# `data_awscc_athena_system_tables`
+
+Refer to the Terraform Registry for docs: [`data_awscc_athena_system_tables`](https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/athena_system_tables).

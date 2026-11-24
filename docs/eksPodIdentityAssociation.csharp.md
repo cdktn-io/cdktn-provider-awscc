@@ -4,7 +4,7 @@
 
 ### EksPodIdentityAssociation <a name="EksPodIdentityAssociation" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association awscc_eks_pod_identity_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.Initializer"></a>
 
@@ -75,10 +75,12 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.putTags">PutTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.putWorkloadIdentityConfig">PutWorkloadIdentityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.resetDisableSessionTags">ResetDisableSessionTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.resetPolicy">ResetPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.resetTags">ResetTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.resetTargetRoleArn">ResetTargetRoleArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.resetWorkloadIdentityConfig">ResetWorkloadIdentityConfig</a></code> | *No description.* |
 
 ---
 
@@ -403,6 +405,18 @@ private void PutTags(IResolvable|EksPodIdentityAssociationTags[] Value)
 
 ---
 
+##### `PutWorkloadIdentityConfig` <a name="PutWorkloadIdentityConfig" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.putWorkloadIdentityConfig"></a>
+
+```csharp
+private void PutWorkloadIdentityConfig(EksPodIdentityAssociationWorkloadIdentityConfig Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.putWorkloadIdentityConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig">EksPodIdentityAssociationWorkloadIdentityConfig</a>
+
+---
+
 ##### `ResetDisableSessionTags` <a name="ResetDisableSessionTags" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.resetDisableSessionTags"></a>
 
 ```csharp
@@ -425,6 +439,12 @@ private void ResetTags()
 
 ```csharp
 private void ResetTargetRoleArn()
+```
+
+##### `ResetWorkloadIdentityConfig` <a name="ResetWorkloadIdentityConfig" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.resetWorkloadIdentityConfig"></a>
+
+```csharp
+private void ResetWorkloadIdentityConfig()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -530,7 +550,7 @@ The construct id used in the generated config for the EksPodIdentityAssociation 
 
 The id of the existing EksPodIdentityAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -565,6 +585,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.externalId">ExternalId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationTagsList">EksPodIdentityAssociationTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.workloadIdentityConfig">WorkloadIdentityConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference">EksPodIdentityAssociationWorkloadIdentityConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.clusterNameInput">ClusterNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.disableSessionTagsInput">DisableSessionTagsInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.namespaceInput">NamespaceInput</a></code> | <code>string</code> | *No description.* |
@@ -573,6 +594,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.serviceAccountInput">ServiceAccountInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.tagsInput">TagsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationTags">EksPodIdentityAssociationTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.targetRoleArnInput">TargetRoleArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.workloadIdentityConfigInput">WorkloadIdentityConfigInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig">EksPodIdentityAssociationWorkloadIdentityConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.clusterName">ClusterName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.disableSessionTags">DisableSessionTags</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.namespace">Namespace</a></code> | <code>string</code> | *No description.* |
@@ -775,6 +797,16 @@ public EksPodIdentityAssociationTagsList Tags { get; }
 
 ---
 
+##### `WorkloadIdentityConfig`<sup>Required</sup> <a name="WorkloadIdentityConfig" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.workloadIdentityConfig"></a>
+
+```csharp
+public EksPodIdentityAssociationWorkloadIdentityConfigOutputReference WorkloadIdentityConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference">EksPodIdentityAssociationWorkloadIdentityConfigOutputReference</a>
+
+---
+
 ##### `ClusterNameInput`<sup>Optional</sup> <a name="ClusterNameInput" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.clusterNameInput"></a>
 
 ```csharp
@@ -852,6 +884,16 @@ public string TargetRoleArnInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `WorkloadIdentityConfigInput`<sup>Optional</sup> <a name="WorkloadIdentityConfigInput" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociation.property.workloadIdentityConfigInput"></a>
+
+```csharp
+public IResolvable|EksPodIdentityAssociationWorkloadIdentityConfig WorkloadIdentityConfigInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig">EksPodIdentityAssociationWorkloadIdentityConfig</a>
 
 ---
 
@@ -967,7 +1009,8 @@ new EksPodIdentityAssociationConfig {
     bool|IResolvable DisableSessionTags = null,
     string Policy = null,
     IResolvable|EksPodIdentityAssociationTags[] Tags = null,
-    string TargetRoleArn = null
+    string TargetRoleArn = null,
+    EksPodIdentityAssociationWorkloadIdentityConfig WorkloadIdentityConfig = null
 };
 ```
 
@@ -990,6 +1033,7 @@ new EksPodIdentityAssociationConfig {
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationConfig.property.policy">Policy</a></code> | <code>string</code> | The policy of the pod identity association. |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationTags">EksPodIdentityAssociationTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationConfig.property.targetRoleArn">TargetRoleArn</a></code> | <code>string</code> | The Target Role Arn of the pod identity association. |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationConfig.property.workloadIdentityConfig">WorkloadIdentityConfig</a></code> | <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig">EksPodIdentityAssociationWorkloadIdentityConfig</a></code> | The workload identity configuration of the pod identity association. |
 
 ---
 
@@ -1073,7 +1117,7 @@ public string ClusterName { get; set; }
 
 The cluster that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#cluster_name EksPodIdentityAssociation#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#cluster_name EksPodIdentityAssociation#cluster_name}
 
 ---
 
@@ -1087,7 +1131,7 @@ public string Namespace { get; set; }
 
 The Kubernetes namespace that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#namespace EksPodIdentityAssociation#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#namespace EksPodIdentityAssociation#namespace}
 
 ---
 
@@ -1101,7 +1145,7 @@ public string RoleArn { get; set; }
 
 The IAM role ARN that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#role_arn EksPodIdentityAssociation#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#role_arn EksPodIdentityAssociation#role_arn}
 
 ---
 
@@ -1115,7 +1159,7 @@ public string ServiceAccount { get; set; }
 
 The Kubernetes service account that the pod identity association is created for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#service_account EksPodIdentityAssociation#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#service_account EksPodIdentityAssociation#service_account}
 
 ---
 
@@ -1129,7 +1173,7 @@ public bool|IResolvable DisableSessionTags { get; set; }
 
 The Disable Session Tags of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#disable_session_tags EksPodIdentityAssociation#disable_session_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#disable_session_tags EksPodIdentityAssociation#disable_session_tags}
 
 ---
 
@@ -1143,7 +1187,7 @@ public string Policy { get; set; }
 
 The policy of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#policy EksPodIdentityAssociation#policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#policy EksPodIdentityAssociation#policy}
 
 ---
 
@@ -1157,7 +1201,7 @@ public IResolvable|EksPodIdentityAssociationTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#tags EksPodIdentityAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#tags EksPodIdentityAssociation#tags}
 
 ---
 
@@ -1171,7 +1215,23 @@ public string TargetRoleArn { get; set; }
 
 The Target Role Arn of the pod identity association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#target_role_arn EksPodIdentityAssociation#target_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#target_role_arn EksPodIdentityAssociation#target_role_arn}
+
+---
+
+##### `WorkloadIdentityConfig`<sup>Optional</sup> <a name="WorkloadIdentityConfig" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationConfig.property.workloadIdentityConfig"></a>
+
+```csharp
+public EksPodIdentityAssociationWorkloadIdentityConfig WorkloadIdentityConfig { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig">EksPodIdentityAssociationWorkloadIdentityConfig</a>
+
+The workload identity configuration of the pod identity association.
+
+When enabled, the association also provisions a SPIFFE identity for the workload. Setting Enabled to false disables workload identity and keeps the ARNs. Removing the property from the template leaves the association unchanged; set Enabled to false to disable workload identity.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#workload_identity_config EksPodIdentityAssociation#workload_identity_config}
 
 ---
 
@@ -1209,7 +1269,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#key EksPodIdentityAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#key EksPodIdentityAssociation#key}
 
 ---
 
@@ -1225,7 +1285,75 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eks_pod_identity_association#value EksPodIdentityAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#value EksPodIdentityAssociation#value}
+
+---
+
+### EksPodIdentityAssociationWorkloadIdentityConfig <a name="EksPodIdentityAssociationWorkloadIdentityConfig" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EksPodIdentityAssociationWorkloadIdentityConfig {
+    bool|IResolvable Enabled = null,
+    string ProviderArn = null,
+    string TemplateArn = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether workload identity is enabled for the association. |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig.property.providerArn">ProviderArn</a></code> | <code>string</code> | The ARN of the customer-owned IAM workload identity provider that produces the trusted context assertion for the workload. |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig.property.templateArn">TemplateArn</a></code> | <code>string</code> | The ARN of the customer-owned IAM workload identity template that renders the workload's SPIFFE identity. |
+
+---
+
+##### `Enabled`<sup>Optional</sup> <a name="Enabled" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig.property.enabled"></a>
+
+```csharp
+public bool|IResolvable Enabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Whether workload identity is enabled for the association.
+
+Enabling it requires TemplateArn and ProviderArn, and cannot be combined with TargetRoleArn.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#enabled EksPodIdentityAssociation#enabled}
+
+---
+
+##### `ProviderArn`<sup>Optional</sup> <a name="ProviderArn" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig.property.providerArn"></a>
+
+```csharp
+public string ProviderArn { get; set; }
+```
+
+- *Type:* string
+
+The ARN of the customer-owned IAM workload identity provider that produces the trusted context assertion for the workload.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#provider_arn EksPodIdentityAssociation#provider_arn}
+
+---
+
+##### `TemplateArn`<sup>Optional</sup> <a name="TemplateArn" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig.property.templateArn"></a>
+
+```csharp
+public string TemplateArn { get; set; }
+```
+
+- *Type:* string
+
+The ARN of the customer-owned IAM workload identity template that renders the workload's SPIFFE identity.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eks_pod_identity_association#template_arn EksPodIdentityAssociation#template_arn}
 
 ---
 
@@ -1712,6 +1840,342 @@ public IResolvable|EksPodIdentityAssociationTags InternalValue { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationTags">EksPodIdentityAssociationTags</a>
+
+---
+
+
+### EksPodIdentityAssociationWorkloadIdentityConfigOutputReference <a name="EksPodIdentityAssociationWorkloadIdentityConfigOutputReference" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new EksPodIdentityAssociationWorkloadIdentityConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resetEnabled">ResetEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resetProviderArn">ResetProviderArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resetTemplateArn">ResetTemplateArn</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEnabled` <a name="ResetEnabled" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resetEnabled"></a>
+
+```csharp
+private void ResetEnabled()
+```
+
+##### `ResetProviderArn` <a name="ResetProviderArn" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resetProviderArn"></a>
+
+```csharp
+private void ResetProviderArn()
+```
+
+##### `ResetTemplateArn` <a name="ResetTemplateArn" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resetTemplateArn"></a>
+
+```csharp
+private void ResetTemplateArn()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.enabledInput">EnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.providerArnInput">ProviderArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.templateArnInput">TemplateArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.providerArn">ProviderArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.templateArn">TemplateArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig">EksPodIdentityAssociationWorkloadIdentityConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EnabledInput`<sup>Optional</sup> <a name="EnabledInput" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.enabledInput"></a>
+
+```csharp
+public bool|IResolvable EnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `ProviderArnInput`<sup>Optional</sup> <a name="ProviderArnInput" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.providerArnInput"></a>
+
+```csharp
+public string ProviderArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TemplateArnInput`<sup>Optional</sup> <a name="TemplateArnInput" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.templateArnInput"></a>
+
+```csharp
+public string TemplateArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.enabled"></a>
+
+```csharp
+public bool|IResolvable Enabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `ProviderArn`<sup>Required</sup> <a name="ProviderArn" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.providerArn"></a>
+
+```csharp
+public string ProviderArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TemplateArn`<sup>Required</sup> <a name="TemplateArn" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.templateArn"></a>
+
+```csharp
+public string TemplateArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|EksPodIdentityAssociationWorkloadIdentityConfig InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.eksPodIdentityAssociation.EksPodIdentityAssociationWorkloadIdentityConfig">EksPodIdentityAssociationWorkloadIdentityConfig</a>
 
 ---
 

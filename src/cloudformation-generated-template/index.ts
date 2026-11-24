@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,19 @@ export interface CloudformationGeneratedTemplateConfig extends cdktn.TerraformMe
   /**
   * The name assigned to the generated template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#generated_template_name CloudformationGeneratedTemplate#generated_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#generated_template_name CloudformationGeneratedTemplate#generated_template_name}
   */
   readonly generatedTemplateName: string;
   /**
+  * The Amazon Resource Name (ARN) of the stack to use as the base stack for the generated template.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#stack_id CloudformationGeneratedTemplate#stack_id}
+  */
+  readonly stackId?: string;
+  /**
   * The configuration details of the generated template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#template_configuration CloudformationGeneratedTemplate#template_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#template_configuration CloudformationGeneratedTemplate#template_configuration}
   */
   readonly templateConfiguration?: CloudformationGeneratedTemplateTemplateConfiguration;
 }
@@ -98,13 +104,13 @@ export interface CloudformationGeneratedTemplateTemplateConfiguration {
   /**
   * The DeletionPolicy assigned to resources in the generated template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#deletion_policy CloudformationGeneratedTemplate#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#deletion_policy CloudformationGeneratedTemplate#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The UpdateReplacePolicy assigned to resources in the generated template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#update_replace_policy CloudformationGeneratedTemplate#update_replace_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#update_replace_policy CloudformationGeneratedTemplate#update_replace_policy}
   */
   readonly updateReplacePolicy?: string;
 }
@@ -227,7 +233,7 @@ export class CloudformationGeneratedTemplateTemplateConfigurationOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template}
 */
 export class CloudformationGeneratedTemplate extends cdktn.TerraformResource {
 
@@ -243,7 +249,7 @@ export class CloudformationGeneratedTemplate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudformationGeneratedTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudformationGeneratedTemplate to import
-  * @param importFromId The id of the existing CloudformationGeneratedTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudformationGeneratedTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudformationGeneratedTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -255,7 +261,7 @@ export class CloudformationGeneratedTemplate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,7 +272,7 @@ export class CloudformationGeneratedTemplate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudformation_generated_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -278,6 +284,7 @@ export class CloudformationGeneratedTemplate extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._generatedTemplateName = config.generatedTemplateName;
+    this._stackId = config.stackId;
     this._templateConfiguration.internalValue = config.templateConfiguration;
   }
 
@@ -324,6 +331,22 @@ export class CloudformationGeneratedTemplate extends cdktn.TerraformResource {
     return this._progress;
   }
 
+  // stack_id - computed: true, optional: true, required: false
+  private _stackId?: string; 
+  public get stackId() {
+    return this.getStringAttribute('stack_id');
+  }
+  public set stackId(value: string) {
+    this._stackId = value;
+  }
+  public resetStackId() {
+    this._stackId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get stackIdInput() {
+    return this._stackId;
+  }
+
   // status - computed: true, optional: false, required: false
   public get status() {
     return this.getStringAttribute('status');
@@ -357,6 +380,7 @@ export class CloudformationGeneratedTemplate extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       generated_template_name: cdktn.stringToTerraform(this._generatedTemplateName),
+      stack_id: cdktn.stringToTerraform(this._stackId),
       template_configuration: cloudformationGeneratedTemplateTemplateConfigurationToTerraform(this._templateConfiguration.internalValue),
     };
   }
@@ -365,6 +389,12 @@ export class CloudformationGeneratedTemplate extends cdktn.TerraformResource {
     const attrs = {
       generated_template_name: {
         value: cdktn.stringToHclTerraform(this._generatedTemplateName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      stack_id: {
+        value: cdktn.stringToHclTerraform(this._stackId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

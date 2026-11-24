@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface CloudwatchAlertConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#description CloudwatchAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#description CloudwatchAlert#description}
   */
   readonly description?: string;
   /**
   * The display name of the alert. Names don't need to be unique within a space; the alert is identified by AlertId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#name CloudwatchAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#name CloudwatchAlert#name}
   */
   readonly name: string;
   /**
   * The notification rules that determine when and where notifications are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#notification_rules CloudwatchAlert#notification_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#notification_rules CloudwatchAlert#notification_rules}
   */
   readonly notificationRules?: CloudwatchAlertNotificationRules[] | cdktn.IResolvable;
   /**
   * Whether the alert sends notifications. When false, the alert is still evaluated and records its state, but sends nothing. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#notifications_enabled CloudwatchAlert#notifications_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#notifications_enabled CloudwatchAlert#notifications_enabled}
   */
   readonly notificationsEnabled?: boolean | cdktn.IResolvable;
   /**
   * The ID of the access profile the alert uses to run its query and send notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#profile_id CloudwatchAlert#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#profile_id CloudwatchAlert#profile_id}
   */
   readonly profileId: string;
   /**
   * The rule that defines how the alert is evaluated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#rule CloudwatchAlert#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#rule CloudwatchAlert#rule}
   */
   readonly rule: CloudwatchAlertRule;
   /**
   * The ID of the space to create the alert in. Changing this value replaces the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#space_id CloudwatchAlert#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#space_id CloudwatchAlert#space_id}
   */
   readonly spaceId: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#tags CloudwatchAlert#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#tags CloudwatchAlert#tags}
   */
   readonly tags?: CloudwatchAlertTags[] | cdktn.IResolvable;
 }
@@ -65,19 +65,19 @@ export interface CloudwatchAlertNotificationRulesTarget {
   /**
   * The ARN of the target. For sns, the ARN of the Amazon SNS topic. For slack and pagerduty, the ARN of a CloudWatch Omni integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#arn CloudwatchAlert#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#arn CloudwatchAlert#arn}
   */
   readonly arn?: string;
   /**
   * Settings specific to the target, as key-value pairs (up to 20). The keys depend on the integration type. Not used for sns targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#metadata CloudwatchAlert#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#metadata CloudwatchAlert#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The target type. Valid values: sns, slack, pagerduty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#type CloudwatchAlert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#type CloudwatchAlert#type}
   */
   readonly type?: string;
 }
@@ -231,7 +231,7 @@ export interface CloudwatchAlertNotificationRulesTrigger {
   /**
   * The alert states that trigger this rule. A notification is sent when the alert enters any listed state. If omitted or empty, every state triggers the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#state_values CloudwatchAlert#state_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#state_values CloudwatchAlert#state_values}
   */
   readonly stateValues?: string[];
 }
@@ -327,13 +327,13 @@ export interface CloudwatchAlertNotificationRules {
   /**
   * Where the notification is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#target CloudwatchAlert#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#target CloudwatchAlert#target}
   */
   readonly target?: CloudwatchAlertNotificationRulesTarget;
   /**
   * The alert states that trigger the notification rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#trigger CloudwatchAlert#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#trigger CloudwatchAlert#trigger}
   */
   readonly trigger?: CloudwatchAlertNotificationRulesTrigger;
 }
@@ -480,31 +480,31 @@ export interface CloudwatchAlertRuleTelemetryRuleCondition {
   /**
   * The comparison operator. Valid values: GT, GTE, LT, LTE (greater than, greater than or equal to, less than, less than or equal to).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#comparator CloudwatchAlert#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#comparator CloudwatchAlert#comparator}
   */
   readonly comparator?: string;
   /**
   * The value at which the alert enters the CRITICAL state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#critical_threshold CloudwatchAlert#critical_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#critical_threshold CloudwatchAlert#critical_threshold}
   */
   readonly criticalThreshold?: number;
   /**
   * The result field to compare against the threshold. Required when ThresholdMode is FIELD_VALUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#threshold_field CloudwatchAlert#threshold_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#threshold_field CloudwatchAlert#threshold_field}
   */
   readonly thresholdField?: string;
   /**
   * How the threshold is applied. COUNT_OF_RESULTS compares the number of rows the query returns. FIELD_VALUE compares the value of ThresholdField in each result row; each row is tracked separately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#threshold_mode CloudwatchAlert#threshold_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#threshold_mode CloudwatchAlert#threshold_mode}
   */
   readonly thresholdMode?: string;
   /**
   * The value at which the alert enters the WARNING state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#warning_threshold CloudwatchAlert#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#warning_threshold CloudwatchAlert#warning_threshold}
   */
   readonly warningThreshold?: number;
 }
@@ -716,19 +716,19 @@ export interface CloudwatchAlertRuleTelemetryRuleEvaluation {
   /**
   * The time between evaluations, in seconds. Valid values: 30, 60, 120, 300, 600, 900, 1800, 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#interval_seconds CloudwatchAlert#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#interval_seconds CloudwatchAlert#interval_seconds}
   */
   readonly intervalSeconds: number;
   /**
   * How long a threshold breach must last before the alert changes state, in seconds. Must be a multiple of IntervalSeconds. 0 changes state immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#pending_duration_seconds CloudwatchAlert#pending_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#pending_duration_seconds CloudwatchAlert#pending_duration_seconds}
   */
   readonly pendingDurationSeconds?: number;
   /**
   * How long the result must stay within its thresholds before the alert returns to OK, in seconds. Must be a multiple of IntervalSeconds. 0 returns to OK immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#recovery_duration_seconds CloudwatchAlert#recovery_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#recovery_duration_seconds CloudwatchAlert#recovery_duration_seconds}
   */
   readonly recoveryDurationSeconds?: number;
 }
@@ -879,7 +879,7 @@ export interface CloudwatchAlertRuleTelemetryRuleNoData {
   /**
   * The state to report when an evaluation returns no data. Valid values: OK, WARNING, CRITICAL, NODATA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#treat_as CloudwatchAlert#treat_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#treat_as CloudwatchAlert#treat_as}
   */
   readonly treatAs?: string;
 }
@@ -975,13 +975,13 @@ export interface CloudwatchAlertRuleTelemetryRuleQuery {
   /**
   * The query expression. For PromQL, the series value is returned in a field named value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#expression CloudwatchAlert#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#expression CloudwatchAlert#expression}
   */
   readonly expression: string;
   /**
   * The query language. Valid values: SQL, PROMQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#language CloudwatchAlert#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#language CloudwatchAlert#language}
   */
   readonly language: string;
 }
@@ -1100,25 +1100,25 @@ export interface CloudwatchAlertRuleTelemetryRule {
   /**
   * The thresholds that set the alert's state. Specify at least one of WarningThreshold and CriticalThreshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#condition CloudwatchAlert#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#condition CloudwatchAlert#condition}
   */
   readonly condition: CloudwatchAlertRuleTelemetryRuleCondition;
   /**
   * How often the alert is evaluated, and how long a change must last before the state changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#evaluation CloudwatchAlert#evaluation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#evaluation CloudwatchAlert#evaluation}
   */
   readonly evaluation: CloudwatchAlertRuleTelemetryRuleEvaluation;
   /**
   * How the alert behaves when an evaluation returns no data. If omitted, the alert reports NODATA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#no_data CloudwatchAlert#no_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#no_data CloudwatchAlert#no_data}
   */
   readonly noData?: CloudwatchAlertRuleTelemetryRuleNoData;
   /**
   * The query the alert runs, and the language it is written in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#query CloudwatchAlert#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#query CloudwatchAlert#query}
   */
   readonly query: CloudwatchAlertRuleTelemetryRuleQuery;
 }
@@ -1292,7 +1292,7 @@ export interface CloudwatchAlertRule {
   /**
   * A rule that queries telemetry, evaluates the result against a condition, and sets how missing data is handled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#telemetry_rule CloudwatchAlert#telemetry_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#telemetry_rule CloudwatchAlert#telemetry_rule}
   */
   readonly telemetryRule: CloudwatchAlertRuleTelemetryRule;
 }
@@ -1385,13 +1385,13 @@ export interface CloudwatchAlertTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#key CloudwatchAlert#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#key CloudwatchAlert#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#value CloudwatchAlert#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#value CloudwatchAlert#value}
   */
   readonly value?: string;
 }
@@ -1536,7 +1536,7 @@ export class CloudwatchAlertTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert awscc_cloudwatch_alert}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert awscc_cloudwatch_alert}
 */
 export class CloudwatchAlert extends cdktn.TerraformResource {
 
@@ -1552,7 +1552,7 @@ export class CloudwatchAlert extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchAlert resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchAlert to import
-  * @param importFromId The id of the existing CloudwatchAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1564,7 +1564,7 @@ export class CloudwatchAlert extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert awscc_cloudwatch_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert awscc_cloudwatch_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1575,7 +1575,7 @@ export class CloudwatchAlert extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudwatch_alert',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

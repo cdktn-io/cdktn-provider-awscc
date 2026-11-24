@@ -4,7 +4,7 @@
 
 ### MgnApplication <a name="MgnApplication" id="@cdktn/provider-awscc.mgnApplication.MgnApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_application awscc_mgn_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mgn_application awscc_mgn_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnApplication.MgnApplication.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MgnApplication to import.
 
 The id of the existing MgnApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mgn_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -950,7 +950,7 @@ public readonly name: string;
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_application#name MgnApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mgn_application#name MgnApplication#name}
 
 ---
 
@@ -964,7 +964,7 @@ public readonly description: string;
 
 The description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_application#description MgnApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mgn_application#description MgnApplication#description}
 
 ---
 
@@ -978,7 +978,7 @@ public readonly tags: IResolvable | MgnApplicationTags[];
 
 A set of tags to associate with the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_application#tags MgnApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mgn_application#tags MgnApplication#tags}
 
 ---
 
@@ -1011,7 +1011,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_application#key MgnApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mgn_application#key MgnApplication#key}
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mgn_application#value MgnApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mgn_application#value MgnApplication#value}
 
 ---
 

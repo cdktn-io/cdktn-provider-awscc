@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,47 +15,51 @@ export interface CloudfrontConnectionGroupConfig extends cdktn.TerraformMetaArgu
   /**
   * The ID of the Anycast static IP list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#anycast_ip_list_id CloudfrontConnectionGroup#anycast_ip_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#anycast_ip_list_id CloudfrontConnectionGroup#anycast_ip_list_id}
   */
   readonly anycastIpListId?: string;
   /**
   * Whether the connection group is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#enabled CloudfrontConnectionGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#enabled CloudfrontConnectionGroup#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * IPv6 is enabled for the connection group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#ipv_6_enabled CloudfrontConnectionGroup#ipv_6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#ipv_6_enabled CloudfrontConnectionGroup#ipv_6_enabled}
   */
   readonly ipv6Enabled?: boolean | cdktn.IResolvable;
   /**
   * The name of the connection group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#name CloudfrontConnectionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#name CloudfrontConnectionGroup#name}
   */
   readonly name: string;
   /**
   * A complex type that contains zero or more ``Tag`` elements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#tags CloudfrontConnectionGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#tags CloudfrontConnectionGroup#tags}
   */
   readonly tags?: CloudfrontConnectionGroupTags[] | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#viewer_fallback CloudfrontConnectionGroup#viewer_fallback}
+  */
+  readonly viewerFallback?: CloudfrontConnectionGroupViewerFallback;
 }
 export interface CloudfrontConnectionGroupTags {
   /**
   * A string that contains ``Tag`` key.
   *  The string length should be between 1 and 128 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#key CloudfrontConnectionGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#key CloudfrontConnectionGroup#key}
   */
   readonly key?: string;
   /**
   * A string that contains an optional ``Tag`` value.
   *  The string length should be between 0 and 256 characters. Valid characters include ``a-z``, ``A-Z``, ``0-9``, space, and the special characters ``_ - . : / = + @``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#value CloudfrontConnectionGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#value CloudfrontConnectionGroup#value}
   */
   readonly value?: string;
 }
@@ -198,9 +202,103 @@ export class CloudfrontConnectionGroupTagsList extends cdktn.ComplexList {
     return new CloudfrontConnectionGroupTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface CloudfrontConnectionGroupViewerFallback {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#distribution_id CloudfrontConnectionGroup#distribution_id}
+  */
+  readonly distributionId?: string;
+}
+
+export function cloudfrontConnectionGroupViewerFallbackToTerraform(struct?: CloudfrontConnectionGroupViewerFallback | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    distribution_id: cdktn.stringToTerraform(struct!.distributionId),
+  }
+}
+
+
+export function cloudfrontConnectionGroupViewerFallbackToHclTerraform(struct?: CloudfrontConnectionGroupViewerFallback | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    distribution_id: {
+      value: cdktn.stringToHclTerraform(struct!.distributionId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class CloudfrontConnectionGroupViewerFallbackOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): CloudfrontConnectionGroupViewerFallback | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._distributionId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.distributionId = this._distributionId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: CloudfrontConnectionGroupViewerFallback | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._distributionId = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._distributionId = value.distributionId;
+    }
+  }
+
+  // distribution_id - computed: true, optional: true, required: false
+  private _distributionId?: string; 
+  public get distributionId() {
+    return this.getStringAttribute('distribution_id');
+  }
+  public set distributionId(value: string) {
+    this._distributionId = value;
+  }
+  public resetDistributionId() {
+    this._distributionId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get distributionIdInput() {
+    return this._distributionId;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group}
 */
 export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
 
@@ -216,7 +314,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudfrontConnectionGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudfrontConnectionGroup to import
-  * @param importFromId The id of the existing CloudfrontConnectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudfrontConnectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudfrontConnectionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -228,7 +326,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,7 +337,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudfront_connection_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -255,6 +353,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
     this._ipv6Enabled = config.ipv6Enabled;
     this._name = config.name;
     this._tags.internalValue = config.tags;
+    this._viewerFallback.internalValue = config.viewerFallback;
   }
 
   // ==========
@@ -383,6 +482,22 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
     return this._tags.internalValue;
   }
 
+  // viewer_fallback - computed: true, optional: true, required: false
+  private _viewerFallback = new CloudfrontConnectionGroupViewerFallbackOutputReference(this, "viewer_fallback");
+  public get viewerFallback() {
+    return this._viewerFallback;
+  }
+  public putViewerFallback(value: CloudfrontConnectionGroupViewerFallback) {
+    this._viewerFallback.internalValue = value;
+  }
+  public resetViewerFallback() {
+    this._viewerFallback.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get viewerFallbackInput() {
+    return this._viewerFallback.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -394,6 +509,7 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
       ipv_6_enabled: cdktn.booleanToTerraform(this._ipv6Enabled),
       name: cdktn.stringToTerraform(this._name),
       tags: cdktn.listMapper(cloudfrontConnectionGroupTagsToTerraform, false)(this._tags.internalValue),
+      viewer_fallback: cloudfrontConnectionGroupViewerFallbackToTerraform(this._viewerFallback.internalValue),
     };
   }
 
@@ -428,6 +544,12 @@ export class CloudfrontConnectionGroup extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "CloudfrontConnectionGroupTagsList",
+      },
+      viewer_fallback: {
+        value: cloudfrontConnectionGroupViewerFallbackToHclTerraform(this._viewerFallback.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "CloudfrontConnectionGroupViewerFallback",
       },
     };
 

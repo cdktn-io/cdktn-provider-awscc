@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3_storage_lens
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3_storage_lens
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccS3StorageLensConfig extends cdktn.TerraformMetaArgumen
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3_storage_lens#id DataAwsccS3StorageLens#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3_storage_lens#id DataAwsccS3StorageLens#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1085,6 +1085,180 @@ export class DataAwsccS3StorageLensStorageLensConfigurationAwsOrgOutputReference
     return this.getStringAttribute('arn');
   }
 }
+export interface DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteria {
+}
+
+export function dataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteriaToTerraform(struct?: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteria): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteriaToHclTerraform(struct?: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteria): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteriaOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteria | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteria | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // max_depth - computed: true, optional: false, required: false
+  public get maxDepth() {
+    return this.getNumberAttribute('max_depth');
+  }
+
+  // min_depth - computed: true, optional: false, required: false
+  public get minDepth() {
+    return this.getNumberAttribute('min_depth');
+  }
+}
+export interface DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevel {
+}
+
+export function dataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelToTerraform(struct?: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevel): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelToHclTerraform(struct?: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevel): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevel | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevel | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // is_enabled - computed: true, optional: false, required: false
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+
+  // selection_criteria - computed: true, optional: false, required: false
+  private _selectionCriteria = new DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelSelectionCriteriaOutputReference(this, "selection_criteria");
+  public get selectionCriteria() {
+    return this._selectionCriteria;
+  }
+}
+export interface DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublish {
+}
+
+export function dataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishToTerraform(struct?: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublish): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishToHclTerraform(struct?: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublish): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublish | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublish | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // prefix_level - computed: true, optional: false, required: false
+  private _prefixLevel = new DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishPrefixLevelOutputReference(this, "prefix_level");
+  public get prefixLevel() {
+    return this._prefixLevel;
+  }
+}
 export interface DataAwsccS3StorageLensStorageLensConfigurationDataExportCloudwatchMetrics {
 }
 
@@ -2121,6 +2295,60 @@ export class DataAwsccS3StorageLensStorageLensConfigurationIncludeOutputReferenc
     return cdktn.Fn.tolist(this.getListAttribute('regions'));
   }
 }
+export interface DataAwsccS3StorageLensStorageLensConfigurationIntAccessTiers {
+}
+
+export function dataAwsccS3StorageLensStorageLensConfigurationIntAccessTiersToTerraform(struct?: DataAwsccS3StorageLensStorageLensConfigurationIntAccessTiers): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3StorageLensStorageLensConfigurationIntAccessTiersToHclTerraform(struct?: DataAwsccS3StorageLensStorageLensConfigurationIntAccessTiers): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3StorageLensStorageLensConfigurationIntAccessTiersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3StorageLensStorageLensConfigurationIntAccessTiers | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3StorageLensStorageLensConfigurationIntAccessTiers | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // is_enabled - computed: true, optional: false, required: false
+  public get isEnabled() {
+    return this.getBooleanAttribute('is_enabled');
+  }
+}
 export interface DataAwsccS3StorageLensStorageLensConfiguration {
 }
 
@@ -2182,6 +2410,12 @@ export class DataAwsccS3StorageLensStorageLensConfigurationOutputReference exten
     return this._awsOrg;
   }
 
+  // cost_and_usage_reports_publish - computed: true, optional: false, required: false
+  private _costAndUsageReportsPublish = new DataAwsccS3StorageLensStorageLensConfigurationCostAndUsageReportsPublishOutputReference(this, "cost_and_usage_reports_publish");
+  public get costAndUsageReportsPublish() {
+    return this._costAndUsageReportsPublish;
+  }
+
   // data_export - computed: true, optional: false, required: false
   private _dataExport = new DataAwsccS3StorageLensStorageLensConfigurationDataExportOutputReference(this, "data_export");
   public get dataExport() {
@@ -2209,6 +2443,12 @@ export class DataAwsccS3StorageLensStorageLensConfigurationOutputReference exten
   private _include = new DataAwsccS3StorageLensStorageLensConfigurationIncludeOutputReference(this, "include");
   public get include() {
     return this._include;
+  }
+
+  // int_access_tiers - computed: true, optional: false, required: false
+  private _intAccessTiers = new DataAwsccS3StorageLensStorageLensConfigurationIntAccessTiersOutputReference(this, "int_access_tiers");
+  public get intAccessTiers() {
+    return this._intAccessTiers;
   }
 
   // is_enabled - computed: true, optional: false, required: false
@@ -2308,7 +2548,7 @@ export class DataAwsccS3StorageLensTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens}
 */
 export class DataAwsccS3StorageLens extends cdktn.TerraformDataSource {
 
@@ -2324,7 +2564,7 @@ export class DataAwsccS3StorageLens extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccS3StorageLens resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccS3StorageLens to import
-  * @param importFromId The id of the existing DataAwsccS3StorageLens that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3_storage_lens#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccS3StorageLens that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3_storage_lens#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccS3StorageLens to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2336,7 +2576,7 @@ export class DataAwsccS3StorageLens extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2347,7 +2587,7 @@ export class DataAwsccS3StorageLens extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_s3_storage_lens',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

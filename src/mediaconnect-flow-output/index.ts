@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,137 +15,143 @@ export interface MediaconnectFlowOutputConfig extends cdktn.TerraformMetaArgumen
   /**
   * The range of IP addresses that should be allowed to initiate output requests to this flow. These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#cidr_allow_list MediaconnectFlowOutput#cidr_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#cidr_allow_list MediaconnectFlowOutput#cidr_allow_list}
   */
   readonly cidrAllowList?: string[];
   /**
   * A description of the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#description MediaconnectFlowOutput#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#description MediaconnectFlowOutput#description}
   */
   readonly description?: string;
   /**
   * The address where you want to send the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#destination MediaconnectFlowOutput#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#destination MediaconnectFlowOutput#destination}
   */
   readonly destination?: string;
   /**
   * The type of key used for the encryption. If no keyType is provided, the service will use the default setting (static-key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#encryption MediaconnectFlowOutput#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#encryption MediaconnectFlowOutput#encryption}
   */
   readonly encryption?: MediaconnectFlowOutputEncryption;
   /**
   * The Amazon Resource Name (ARN), a unique identifier for any AWS resource, of the flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#flow_arn MediaconnectFlowOutput#flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#flow_arn MediaconnectFlowOutput#flow_arn}
   */
   readonly flowArn: string;
   /**
   * The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#max_latency MediaconnectFlowOutput#max_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#max_latency MediaconnectFlowOutput#max_latency}
   */
   readonly maxLatency?: number;
   /**
   * The definition for each media stream that is associated with the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#media_stream_output_configurations MediaconnectFlowOutput#media_stream_output_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#media_stream_output_configurations MediaconnectFlowOutput#media_stream_output_configurations}
   */
   readonly mediaStreamOutputConfigurations?: MediaconnectFlowOutputMediaStreamOutputConfigurations[] | cdktn.IResolvable;
   /**
   * The minimum latency in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#min_latency MediaconnectFlowOutput#min_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#min_latency MediaconnectFlowOutput#min_latency}
   */
   readonly minLatency?: number;
   /**
   * The name of the output. This value must be unique within the current flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#name MediaconnectFlowOutput#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#name MediaconnectFlowOutput#name}
   */
   readonly name?: string;
   /**
   * The audio reference level of the NDI receiver, in dBFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#ndi_audio_reference_level MediaconnectFlowOutput#ndi_audio_reference_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#ndi_audio_reference_level MediaconnectFlowOutput#ndi_audio_reference_level}
   */
   readonly ndiAudioReferenceLevel?: number;
   /**
   * The timecode source for the NDI output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#ndi_output_timecode_source MediaconnectFlowOutput#ndi_output_timecode_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#ndi_output_timecode_source MediaconnectFlowOutput#ndi_output_timecode_source}
   */
   readonly ndiOutputTimecodeSource?: string;
   /**
   * A suffix for the names of the NDI sources that the flow creates. If a custom name isn't specified, MediaConnect uses the output name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#ndi_program_name MediaconnectFlowOutput#ndi_program_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#ndi_program_name MediaconnectFlowOutput#ndi_program_name}
   */
   readonly ndiProgramName?: string;
   /**
   * A quality setting for the NDI Speed HQ encoder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#ndi_speed_hq_quality MediaconnectFlowOutput#ndi_speed_hq_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#ndi_speed_hq_quality MediaconnectFlowOutput#ndi_speed_hq_quality}
   */
   readonly ndiSpeedHqQuality?: number;
   /**
   * An indication of whether the output should transmit data or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#output_status MediaconnectFlowOutput#output_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#output_status MediaconnectFlowOutput#output_status}
   */
   readonly outputStatus?: string;
   /**
   * The port to use when content is distributed to this output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#port MediaconnectFlowOutput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#port MediaconnectFlowOutput#port}
   */
   readonly port?: number;
   /**
   * The protocol that is used by the source or output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#protocol MediaconnectFlowOutput#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#protocol MediaconnectFlowOutput#protocol}
   */
   readonly protocol?: string;
   /**
   * The remote ID for the Zixi-pull stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#remote_id MediaconnectFlowOutput#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#remote_id MediaconnectFlowOutput#remote_id}
   */
   readonly remoteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#router_integration_state MediaconnectFlowOutput#router_integration_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#router_integration_state MediaconnectFlowOutput#router_integration_state}
   */
   readonly routerIntegrationState?: string;
   /**
   * The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#router_integration_transit_encryption MediaconnectFlowOutput#router_integration_transit_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#router_integration_transit_encryption MediaconnectFlowOutput#router_integration_transit_encryption}
   */
   readonly routerIntegrationTransitEncryption?: MediaconnectFlowOutputRouterIntegrationTransitEncryption;
   /**
+  * The settings for an output that pushes a stream to a destination using the RTMP (Real-Time Messaging Protocol) protocol, or RTMPS (RTMP over TLS) when TLS encryption is specified. These settings include the application and stream names, and optional TLS encryption configuration.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#rtmp_push_settings MediaconnectFlowOutput#rtmp_push_settings}
+  */
+  readonly rtmpPushSettings?: MediaconnectFlowOutputRtmpPushSettings;
+  /**
   * The smoothing latency in milliseconds for RIST, RTP, and RTP-FEC streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#smoothing_latency MediaconnectFlowOutput#smoothing_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#smoothing_latency MediaconnectFlowOutput#smoothing_latency}
   */
   readonly smoothingLatency?: number;
   /**
   * The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#stream_id MediaconnectFlowOutput#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#stream_id MediaconnectFlowOutput#stream_id}
   */
   readonly streamId?: string;
   /**
   * Key-value pairs that can be used to tag and organize this flow output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#tags MediaconnectFlowOutput#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#tags MediaconnectFlowOutput#tags}
   */
   readonly tags?: MediaconnectFlowOutputTags[] | cdktn.IResolvable;
   /**
   * The name of the VPC interface attachment to use for this output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#vpc_interface_attachment MediaconnectFlowOutput#vpc_interface_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#vpc_interface_attachment MediaconnectFlowOutput#vpc_interface_attachment}
   */
   readonly vpcInterfaceAttachment?: MediaconnectFlowOutputVpcInterfaceAttachment;
 }
@@ -153,25 +159,25 @@ export interface MediaconnectFlowOutputEncryption {
   /**
   * The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#algorithm MediaconnectFlowOutput#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#algorithm MediaconnectFlowOutput#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The type of key that is used for the encryption. If no keyType is provided, the service will use the default setting (static-key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#key_type MediaconnectFlowOutput#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#key_type MediaconnectFlowOutput#key_type}
   */
   readonly keyType?: string;
   /**
   * The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#role_arn MediaconnectFlowOutput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#role_arn MediaconnectFlowOutput#role_arn}
   */
   readonly roleArn?: string;
   /**
   *  The ARN of the secret that you created in AWS Secrets Manager to store the encryption key. This parameter is required for static key encryption and is not valid for SPEKE encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#secret_arn MediaconnectFlowOutput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#secret_arn MediaconnectFlowOutput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -354,7 +360,7 @@ export interface MediaconnectFlowOutputMediaStreamOutputConfigurationsDestinatio
   /**
   * The name of the VPC interface that you want to use for the media stream associated with the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#name MediaconnectFlowOutput#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#name MediaconnectFlowOutput#name}
   */
   readonly name?: string;
 }
@@ -450,19 +456,19 @@ export interface MediaconnectFlowOutputMediaStreamOutputConfigurationsDestinatio
   /**
   * The IP address where contents of the media stream will be sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#destination_ip MediaconnectFlowOutput#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#destination_ip MediaconnectFlowOutput#destination_ip}
   */
   readonly destinationIp?: string;
   /**
   * The port to use when the content of the media stream is distributed to the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#destination_port MediaconnectFlowOutput#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#destination_port MediaconnectFlowOutput#destination_port}
   */
   readonly destinationPort?: number;
   /**
   * The VPC interface that is used for the media stream associated with the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#interface MediaconnectFlowOutput#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#interface MediaconnectFlowOutput#interface}
   */
   readonly interface?: MediaconnectFlowOutputMediaStreamOutputConfigurationsDestinationConfigurationsInterface;
 }
@@ -638,13 +644,13 @@ export interface MediaconnectFlowOutputMediaStreamOutputConfigurationsEncodingPa
   /**
   * A value that is used to calculate compression for an output. The bitrate of the output is calculated as follows: Output bitrate = (1 / compressionFactor) * (source bitrate) This property only applies to outputs that use the ST 2110 JPEG XS protocol, with a flow source that uses the CDI protocol. Valid values are in the range of 3.0 to 10.0, inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#compression_factor MediaconnectFlowOutput#compression_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#compression_factor MediaconnectFlowOutput#compression_factor}
   */
   readonly compressionFactor?: number;
   /**
   * A setting on the encoder that drives compression settings. This property only applies to video media streams associated with outputs that use the ST 2110 JPEG XS protocol, with a flow source that uses the CDI protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#encoder_profile MediaconnectFlowOutput#encoder_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#encoder_profile MediaconnectFlowOutput#encoder_profile}
   */
   readonly encoderProfile?: string;
 }
@@ -769,25 +775,25 @@ export interface MediaconnectFlowOutputMediaStreamOutputConfigurations {
   /**
   * The media streams that you want to associate with the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#destination_configurations MediaconnectFlowOutput#destination_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#destination_configurations MediaconnectFlowOutput#destination_configurations}
   */
   readonly destinationConfigurations?: MediaconnectFlowOutputMediaStreamOutputConfigurationsDestinationConfigurations[] | cdktn.IResolvable;
   /**
   * The format that will be used to encode the data. For ancillary data streams, set the encoding name to smpte291. For audio streams, set the encoding name to pcm. For video streams on sources or outputs that use the CDI protocol, set the encoding name to raw. For video streams on sources or outputs that use the ST 2110 JPEG XS protocol, set the encoding name to jxsv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#encoding_name MediaconnectFlowOutput#encoding_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#encoding_name MediaconnectFlowOutput#encoding_name}
   */
   readonly encodingName?: string;
   /**
   * A collection of parameters that determine how MediaConnect will convert the content. These fields only apply to outputs on flows that have a CDI source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#encoding_parameters MediaconnectFlowOutput#encoding_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#encoding_parameters MediaconnectFlowOutput#encoding_parameters}
   */
   readonly encodingParameters?: MediaconnectFlowOutputMediaStreamOutputConfigurationsEncodingParameters;
   /**
   * A name that helps you distinguish one media stream from another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#media_stream_name MediaconnectFlowOutput#media_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#media_stream_name MediaconnectFlowOutput#media_stream_name}
   */
   readonly mediaStreamName?: string;
 }
@@ -992,13 +998,13 @@ export interface MediaconnectFlowOutputRouterIntegrationTransitEncryptionEncrypt
   /**
   * The ARN of the IAM role used for transit encryption to the router input using AWS Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#role_arn MediaconnectFlowOutput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#role_arn MediaconnectFlowOutput#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The ARN of the AWS Secrets Manager secret used for transit encryption to the router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#secret_arn MediaconnectFlowOutput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#secret_arn MediaconnectFlowOutput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -1123,13 +1129,13 @@ export interface MediaconnectFlowOutputRouterIntegrationTransitEncryptionEncrypt
   /**
   * Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#automatic MediaconnectFlowOutput#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#automatic MediaconnectFlowOutput#automatic}
   */
   readonly automatic?: string;
   /**
   * The configuration settings for transit encryption of a flow output using AWS Secrets Manager, including the secret ARN and role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#secrets_manager MediaconnectFlowOutput#secrets_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#secrets_manager MediaconnectFlowOutput#secrets_manager}
   */
   readonly secretsManager?: MediaconnectFlowOutputRouterIntegrationTransitEncryptionEncryptionKeyConfigurationSecretsManager;
 }
@@ -1254,11 +1260,11 @@ export interface MediaconnectFlowOutputRouterIntegrationTransitEncryption {
   /**
   * Configuration settings for flow transit encryption keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#encryption_key_configuration MediaconnectFlowOutput#encryption_key_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#encryption_key_configuration MediaconnectFlowOutput#encryption_key_configuration}
   */
   readonly encryptionKeyConfiguration?: MediaconnectFlowOutputRouterIntegrationTransitEncryptionEncryptionKeyConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#encryption_key_type MediaconnectFlowOutput#encryption_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#encryption_key_type MediaconnectFlowOutput#encryption_key_type}
   */
   readonly encryptionKeyType?: string;
 }
@@ -1379,13 +1385,404 @@ export class MediaconnectFlowOutputRouterIntegrationTransitEncryptionOutputRefer
     return this._encryptionKeyType;
   }
 }
+export interface MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration {
+  /**
+  * The TLS encryption configuration for destinations that present a certificate from a publicly trusted certificate authority. This type does not require any additional settings.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#public MediaconnectFlowOutput#public}
+  */
+  readonly public?: string;
+}
+
+export function mediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationToTerraform(struct?: MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    public: cdktn.stringToTerraform(struct!.public),
+  }
+}
+
+
+export function mediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationToHclTerraform(struct?: MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    public: {
+      value: cdktn.stringToHclTerraform(struct!.public),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._public !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.public = this._public;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._public = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._public = value.public;
+    }
+  }
+
+  // public - computed: true, optional: true, required: false
+  private _public?: string; 
+  public get public() {
+    return this.getStringAttribute('public');
+  }
+  public set public(value: string) {
+    this._public = value;
+  }
+  public resetPublic() {
+    this._public = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get publicInput() {
+    return this._public;
+  }
+}
+export interface MediaconnectFlowOutputRtmpPushSettingsTlsEncryption {
+  /**
+  * The configuration settings for TLS encryption.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#encryption_configuration MediaconnectFlowOutput#encryption_configuration}
+  */
+  readonly encryptionConfiguration?: MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#encryption_type MediaconnectFlowOutput#encryption_type}
+  */
+  readonly encryptionType?: string;
+}
+
+export function mediaconnectFlowOutputRtmpPushSettingsTlsEncryptionToTerraform(struct?: MediaconnectFlowOutputRtmpPushSettingsTlsEncryption | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    encryption_configuration: mediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationToTerraform(struct!.encryptionConfiguration),
+    encryption_type: cdktn.stringToTerraform(struct!.encryptionType),
+  }
+}
+
+
+export function mediaconnectFlowOutputRtmpPushSettingsTlsEncryptionToHclTerraform(struct?: MediaconnectFlowOutputRtmpPushSettingsTlsEncryption | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    encryption_configuration: {
+      value: mediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationToHclTerraform(struct!.encryptionConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration",
+    },
+    encryption_type: {
+      value: cdktn.stringToHclTerraform(struct!.encryptionType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowOutputRtmpPushSettingsTlsEncryption | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._encryptionConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionConfiguration = this._encryptionConfiguration?.internalValue;
+    }
+    if (this._encryptionType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionType = this._encryptionType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowOutputRtmpPushSettingsTlsEncryption | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._encryptionConfiguration.internalValue = undefined;
+      this._encryptionType = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._encryptionConfiguration.internalValue = value.encryptionConfiguration;
+      this._encryptionType = value.encryptionType;
+    }
+  }
+
+  // encryption_configuration - computed: true, optional: true, required: false
+  private _encryptionConfiguration = new MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfigurationOutputReference(this, "encryption_configuration");
+  public get encryptionConfiguration() {
+    return this._encryptionConfiguration;
+  }
+  public putEncryptionConfiguration(value: MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionEncryptionConfiguration) {
+    this._encryptionConfiguration.internalValue = value;
+  }
+  public resetEncryptionConfiguration() {
+    this._encryptionConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionConfigurationInput() {
+    return this._encryptionConfiguration.internalValue;
+  }
+
+  // encryption_type - computed: true, optional: true, required: false
+  private _encryptionType?: string; 
+  public get encryptionType() {
+    return this.getStringAttribute('encryption_type');
+  }
+  public set encryptionType(value: string) {
+    this._encryptionType = value;
+  }
+  public resetEncryptionType() {
+    this._encryptionType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionTypeInput() {
+    return this._encryptionType;
+  }
+}
+export interface MediaconnectFlowOutputRtmpPushSettings {
+  /**
+  * The name of the RTMP application on the destination server. Together with the stream name, the application name forms the RTMP URL path, in the pattern rtmp://destinationAddress/applicationName/streamName.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#application_name MediaconnectFlowOutput#application_name}
+  */
+  readonly applicationName?: string;
+  /**
+  * The name of the RTMP stream that the output publishes to the destination application. The stream name forms the final segment of the RTMP URL path.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#stream_name MediaconnectFlowOutput#stream_name}
+  */
+  readonly streamName?: string;
+  /**
+  * The Transport Layer Security (TLS) encryption settings used to establish a secure connection to a destination.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#tls_encryption MediaconnectFlowOutput#tls_encryption}
+  */
+  readonly tlsEncryption?: MediaconnectFlowOutputRtmpPushSettingsTlsEncryption;
+}
+
+export function mediaconnectFlowOutputRtmpPushSettingsToTerraform(struct?: MediaconnectFlowOutputRtmpPushSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    application_name: cdktn.stringToTerraform(struct!.applicationName),
+    stream_name: cdktn.stringToTerraform(struct!.streamName),
+    tls_encryption: mediaconnectFlowOutputRtmpPushSettingsTlsEncryptionToTerraform(struct!.tlsEncryption),
+  }
+}
+
+
+export function mediaconnectFlowOutputRtmpPushSettingsToHclTerraform(struct?: MediaconnectFlowOutputRtmpPushSettings | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    application_name: {
+      value: cdktn.stringToHclTerraform(struct!.applicationName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    stream_name: {
+      value: cdktn.stringToHclTerraform(struct!.streamName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tls_encryption: {
+      value: mediaconnectFlowOutputRtmpPushSettingsTlsEncryptionToHclTerraform(struct!.tlsEncryption),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectFlowOutputRtmpPushSettingsTlsEncryption",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectFlowOutputRtmpPushSettingsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectFlowOutputRtmpPushSettings | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applicationName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationName = this._applicationName;
+    }
+    if (this._streamName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.streamName = this._streamName;
+    }
+    if (this._tlsEncryption?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tlsEncryption = this._tlsEncryption?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectFlowOutputRtmpPushSettings | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._applicationName = undefined;
+      this._streamName = undefined;
+      this._tlsEncryption.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._applicationName = value.applicationName;
+      this._streamName = value.streamName;
+      this._tlsEncryption.internalValue = value.tlsEncryption;
+    }
+  }
+
+  // application_name - computed: true, optional: true, required: false
+  private _applicationName?: string; 
+  public get applicationName() {
+    return this.getStringAttribute('application_name');
+  }
+  public set applicationName(value: string) {
+    this._applicationName = value;
+  }
+  public resetApplicationName() {
+    this._applicationName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationNameInput() {
+    return this._applicationName;
+  }
+
+  // stream_name - computed: true, optional: true, required: false
+  private _streamName?: string; 
+  public get streamName() {
+    return this.getStringAttribute('stream_name');
+  }
+  public set streamName(value: string) {
+    this._streamName = value;
+  }
+  public resetStreamName() {
+    this._streamName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get streamNameInput() {
+    return this._streamName;
+  }
+
+  // tls_encryption - computed: true, optional: true, required: false
+  private _tlsEncryption = new MediaconnectFlowOutputRtmpPushSettingsTlsEncryptionOutputReference(this, "tls_encryption");
+  public get tlsEncryption() {
+    return this._tlsEncryption;
+  }
+  public putTlsEncryption(value: MediaconnectFlowOutputRtmpPushSettingsTlsEncryption) {
+    this._tlsEncryption.internalValue = value;
+  }
+  public resetTlsEncryption() {
+    this._tlsEncryption.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsEncryptionInput() {
+    return this._tlsEncryption.internalValue;
+  }
+}
 export interface MediaconnectFlowOutputTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#key MediaconnectFlowOutput#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#key MediaconnectFlowOutput#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#value MediaconnectFlowOutput#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#value MediaconnectFlowOutput#value}
   */
   readonly value?: string;
 }
@@ -1532,7 +1929,7 @@ export interface MediaconnectFlowOutputVpcInterfaceAttachment {
   /**
   * The name of the VPC interface to use for this output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#vpc_interface_name MediaconnectFlowOutput#vpc_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#vpc_interface_name MediaconnectFlowOutput#vpc_interface_name}
   */
   readonly vpcInterfaceName?: string;
 }
@@ -1626,7 +2023,7 @@ export class MediaconnectFlowOutputVpcInterfaceAttachmentOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output}
 */
 export class MediaconnectFlowOutput extends cdktn.TerraformResource {
 
@@ -1642,7 +2039,7 @@ export class MediaconnectFlowOutput extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediaconnectFlowOutput resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconnectFlowOutput to import
-  * @param importFromId The id of the existing MediaconnectFlowOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconnectFlowOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconnectFlowOutput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1654,7 +2051,7 @@ export class MediaconnectFlowOutput extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1665,7 +2062,7 @@ export class MediaconnectFlowOutput extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediaconnect_flow_output',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1695,6 +2092,7 @@ export class MediaconnectFlowOutput extends cdktn.TerraformResource {
     this._remoteId = config.remoteId;
     this._routerIntegrationState = config.routerIntegrationState;
     this._routerIntegrationTransitEncryption.internalValue = config.routerIntegrationTransitEncryption;
+    this._rtmpPushSettings.internalValue = config.rtmpPushSettings;
     this._smoothingLatency = config.smoothingLatency;
     this._streamId = config.streamId;
     this._tags.internalValue = config.tags;
@@ -2016,6 +2414,22 @@ export class MediaconnectFlowOutput extends cdktn.TerraformResource {
     return this._routerIntegrationTransitEncryption.internalValue;
   }
 
+  // rtmp_push_settings - computed: true, optional: true, required: false
+  private _rtmpPushSettings = new MediaconnectFlowOutputRtmpPushSettingsOutputReference(this, "rtmp_push_settings");
+  public get rtmpPushSettings() {
+    return this._rtmpPushSettings;
+  }
+  public putRtmpPushSettings(value: MediaconnectFlowOutputRtmpPushSettings) {
+    this._rtmpPushSettings.internalValue = value;
+  }
+  public resetRtmpPushSettings() {
+    this._rtmpPushSettings.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rtmpPushSettingsInput() {
+    return this._rtmpPushSettings.internalValue;
+  }
+
   // smoothing_latency - computed: true, optional: true, required: false
   private _smoothingLatency?: number; 
   public get smoothingLatency() {
@@ -2105,6 +2519,7 @@ export class MediaconnectFlowOutput extends cdktn.TerraformResource {
       remote_id: cdktn.stringToTerraform(this._remoteId),
       router_integration_state: cdktn.stringToTerraform(this._routerIntegrationState),
       router_integration_transit_encryption: mediaconnectFlowOutputRouterIntegrationTransitEncryptionToTerraform(this._routerIntegrationTransitEncryption.internalValue),
+      rtmp_push_settings: mediaconnectFlowOutputRtmpPushSettingsToTerraform(this._rtmpPushSettings.internalValue),
       smoothing_latency: cdktn.numberToTerraform(this._smoothingLatency),
       stream_id: cdktn.stringToTerraform(this._streamId),
       tags: cdktn.listMapper(mediaconnectFlowOutputTagsToTerraform, false)(this._tags.internalValue),
@@ -2227,6 +2642,12 @@ export class MediaconnectFlowOutput extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "MediaconnectFlowOutputRouterIntegrationTransitEncryption",
+      },
+      rtmp_push_settings: {
+        value: mediaconnectFlowOutputRtmpPushSettingsToHclTerraform(this._rtmpPushSettings.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "MediaconnectFlowOutputRtmpPushSettings",
       },
       smoothing_latency: {
         value: cdktn.numberToHclTerraform(this._smoothingLatency),

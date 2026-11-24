@@ -4,7 +4,7 @@
 
 ### DirectconnectResiliencyGroup <a name="DirectconnectResiliencyGroup" id="@cdktn/provider-awscc.directconnectResiliencyGroup.DirectconnectResiliencyGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group awscc_directconnect_resiliency_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group awscc_directconnect_resiliency_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.directconnectResiliencyGroup.DirectconnectResiliencyGroup.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the resiliency group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#resiliency_group_name DirectconnectResiliencyGroup#resiliency_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#resiliency_group_name DirectconnectResiliencyGroup#resiliency_group_name}
 
 ---
 
@@ -124,7 +124,7 @@ The ARNs of the connections that are members of the resiliency group.
 
 When specified, this is the complete, authoritative membership list: on update, connections not present are disassociated, and an explicit empty list removes all members. Omit the property to leave the existing membership unmanaged (unchanged on update). On create, an omitted or empty list means no connections are associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#connection_arns DirectconnectResiliencyGroup#connection_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#connection_arns DirectconnectResiliencyGroup#connection_arns}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resiliency model that the resiliency group is intended to meet. Required when creating a resiliency group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#intended_resiliency_model DirectconnectResiliencyGroup#intended_resiliency_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#intended_resiliency_model DirectconnectResiliencyGroup#intended_resiliency_model}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags associated with the resiliency group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#tags DirectconnectResiliencyGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#tags DirectconnectResiliencyGroup#tags}
 
 ---
 
@@ -677,7 +677,7 @@ The construct id used in the generated config for the DirectconnectResiliencyGro
 
 The id of the existing DirectconnectResiliencyGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1113,7 +1113,7 @@ resiliency_group_name: str
 
 The name of the resiliency group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#resiliency_group_name DirectconnectResiliencyGroup#resiliency_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#resiliency_group_name DirectconnectResiliencyGroup#resiliency_group_name}
 
 ---
 
@@ -1129,7 +1129,7 @@ The ARNs of the connections that are members of the resiliency group.
 
 When specified, this is the complete, authoritative membership list: on update, connections not present are disassociated, and an explicit empty list removes all members. Omit the property to leave the existing membership unmanaged (unchanged on update). On create, an omitted or empty list means no connections are associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#connection_arns DirectconnectResiliencyGroup#connection_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#connection_arns DirectconnectResiliencyGroup#connection_arns}
 
 ---
 
@@ -1143,7 +1143,7 @@ intended_resiliency_model: str
 
 The resiliency model that the resiliency group is intended to meet. Required when creating a resiliency group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#intended_resiliency_model DirectconnectResiliencyGroup#intended_resiliency_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#intended_resiliency_model DirectconnectResiliencyGroup#intended_resiliency_model}
 
 ---
 
@@ -1157,7 +1157,7 @@ tags: IResolvable | typing.List[DirectconnectResiliencyGroupTags]
 
 The tags associated with the resiliency group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#tags DirectconnectResiliencyGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#tags DirectconnectResiliencyGroup#tags}
 
 ---
 
@@ -1195,7 +1195,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#key DirectconnectResiliencyGroup#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#key DirectconnectResiliencyGroup#key}
 
 ---
 
@@ -1211,7 +1211,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/directconnect_resiliency_group#value DirectconnectResiliencyGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/directconnect_resiliency_group#value DirectconnectResiliencyGroup#value}
 
 ---
 

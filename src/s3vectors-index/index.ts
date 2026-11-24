@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,55 +15,55 @@ export interface S3VectorsIndexConfig extends cdktn.TerraformMetaArguments {
   /**
   * The data type of the vectors to be inserted into the vector index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#data_type S3VectorsIndex#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#data_type S3VectorsIndex#data_type}
   */
   readonly dataType: string;
   /**
   * The dimensions of the vectors to be inserted into the vector index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#dimension S3VectorsIndex#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#dimension S3VectorsIndex#dimension}
   */
   readonly dimension: number;
   /**
   * The distance metric to be used for similarity search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#distance_metric S3VectorsIndex#distance_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#distance_metric S3VectorsIndex#distance_metric}
   */
   readonly distanceMetric: string;
   /**
   * The encryption configuration for the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#encryption_configuration S3VectorsIndex#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#encryption_configuration S3VectorsIndex#encryption_configuration}
   */
   readonly encryptionConfiguration?: S3VectorsIndexEncryptionConfiguration;
   /**
   * The name of the vector index to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#index_name S3VectorsIndex#index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#index_name S3VectorsIndex#index_name}
   */
   readonly indexName?: string;
   /**
   * The metadata configuration for the vector index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#metadata_configuration S3VectorsIndex#metadata_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#metadata_configuration S3VectorsIndex#metadata_configuration}
   */
   readonly metadataConfiguration?: S3VectorsIndexMetadataConfiguration;
   /**
   * User tags (key-value pairs) to associate with the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#tags S3VectorsIndex#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#tags S3VectorsIndex#tags}
   */
   readonly tags?: S3VectorsIndexTags[] | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of the vector bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#vector_bucket_arn S3VectorsIndex#vector_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#vector_bucket_arn S3VectorsIndex#vector_bucket_arn}
   */
   readonly vectorBucketArn?: string;
   /**
   * The name of the vector bucket that contains the vector index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#vector_bucket_name S3VectorsIndex#vector_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#vector_bucket_name S3VectorsIndex#vector_bucket_name}
   */
   readonly vectorBucketName?: string;
 }
@@ -71,13 +71,13 @@ export interface S3VectorsIndexEncryptionConfiguration {
   /**
   * AWS Key Management Service (KMS) customer managed key ID to use for the encryption configuration. This parameter is allowed if and only if sseType is set to aws:kms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#kms_key_arn S3VectorsIndex#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#kms_key_arn S3VectorsIndex#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * Defines the server-side encryption type for index encryption configuration. Defaults to the parent vector bucket's encryption settings when unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#sse_type S3VectorsIndex#sse_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#sse_type S3VectorsIndex#sse_type}
   */
   readonly sseType?: string;
 }
@@ -198,13 +198,166 @@ export class S3VectorsIndexEncryptionConfigurationOutputReference extends cdktn.
     return this._sseType;
   }
 }
+export interface S3VectorsIndexMetadataConfigurationTextSearchConfigurations {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#language S3VectorsIndex#language}
+  */
+  readonly language?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#metadata_key S3VectorsIndex#metadata_key}
+  */
+  readonly metadataKey?: string;
+}
+
+export function s3VectorsIndexMetadataConfigurationTextSearchConfigurationsToTerraform(struct?: S3VectorsIndexMetadataConfigurationTextSearchConfigurations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    language: cdktn.stringToTerraform(struct!.language),
+    metadata_key: cdktn.stringToTerraform(struct!.metadataKey),
+  }
+}
+
+
+export function s3VectorsIndexMetadataConfigurationTextSearchConfigurationsToHclTerraform(struct?: S3VectorsIndexMetadataConfigurationTextSearchConfigurations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    language: {
+      value: cdktn.stringToHclTerraform(struct!.language),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    metadata_key: {
+      value: cdktn.stringToHclTerraform(struct!.metadataKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class S3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): S3VectorsIndexMetadataConfigurationTextSearchConfigurations | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._language !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.language = this._language;
+    }
+    if (this._metadataKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metadataKey = this._metadataKey;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: S3VectorsIndexMetadataConfigurationTextSearchConfigurations | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._language = undefined;
+      this._metadataKey = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._language = value.language;
+      this._metadataKey = value.metadataKey;
+    }
+  }
+
+  // language - computed: true, optional: true, required: false
+  private _language?: string; 
+  public get language() {
+    return this.getStringAttribute('language');
+  }
+  public set language(value: string) {
+    this._language = value;
+  }
+  public resetLanguage() {
+    this._language = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get languageInput() {
+    return this._language;
+  }
+
+  // metadata_key - computed: true, optional: true, required: false
+  private _metadataKey?: string; 
+  public get metadataKey() {
+    return this.getStringAttribute('metadata_key');
+  }
+  public set metadataKey(value: string) {
+    this._metadataKey = value;
+  }
+  public resetMetadataKey() {
+    this._metadataKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataKeyInput() {
+    return this._metadataKey;
+  }
+}
+
+export class S3VectorsIndexMetadataConfigurationTextSearchConfigurationsList extends cdktn.ComplexList {
+  public internalValue? : S3VectorsIndexMetadataConfigurationTextSearchConfigurations[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): S3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference {
+    return new S3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface S3VectorsIndexMetadataConfiguration {
   /**
   * Non-filterable metadata keys allow you to enrich vectors with additional context during storage and retrieval. Unlike default metadata keys, these keys cannot be used as query filters. Non-filterable metadata keys can be retrieved but cannot be searched, queried, or filtered. You can access non-filterable metadata keys of your vectors after finding the vectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#non_filterable_metadata_keys S3VectorsIndex#non_filterable_metadata_keys}
   */
   readonly nonFilterableMetadataKeys?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#text_search_configurations S3VectorsIndex#text_search_configurations}
+  */
+  readonly textSearchConfigurations?: S3VectorsIndexMetadataConfigurationTextSearchConfigurations[] | cdktn.IResolvable;
 }
 
 export function s3VectorsIndexMetadataConfigurationToTerraform(struct?: S3VectorsIndexMetadataConfiguration | cdktn.IResolvable): any {
@@ -214,6 +367,7 @@ export function s3VectorsIndexMetadataConfigurationToTerraform(struct?: S3Vector
   }
   return {
     non_filterable_metadata_keys: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.nonFilterableMetadataKeys),
+    text_search_configurations: cdktn.listMapper(s3VectorsIndexMetadataConfigurationTextSearchConfigurationsToTerraform, false)(struct!.textSearchConfigurations),
   }
 }
 
@@ -229,6 +383,12 @@ export function s3VectorsIndexMetadataConfigurationToHclTerraform(struct?: S3Vec
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
+    },
+    text_search_configurations: {
+      value: cdktn.listMapperHcl(s3VectorsIndexMetadataConfigurationTextSearchConfigurationsToHclTerraform, false)(struct!.textSearchConfigurations),
+      isBlock: true,
+      type: "set",
+      storageClassType: "S3VectorsIndexMetadataConfigurationTextSearchConfigurationsList",
     },
   };
 
@@ -258,6 +418,10 @@ export class S3VectorsIndexMetadataConfigurationOutputReference extends cdktn.Co
       hasAnyValues = true;
       internalValueResult.nonFilterableMetadataKeys = this._nonFilterableMetadataKeys;
     }
+    if (this._textSearchConfigurations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.textSearchConfigurations = this._textSearchConfigurations?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -266,6 +430,7 @@ export class S3VectorsIndexMetadataConfigurationOutputReference extends cdktn.Co
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._nonFilterableMetadataKeys = undefined;
+      this._textSearchConfigurations.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -275,6 +440,7 @@ export class S3VectorsIndexMetadataConfigurationOutputReference extends cdktn.Co
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._nonFilterableMetadataKeys = value.nonFilterableMetadataKeys;
+      this._textSearchConfigurations.internalValue = value.textSearchConfigurations;
     }
   }
 
@@ -293,18 +459,34 @@ export class S3VectorsIndexMetadataConfigurationOutputReference extends cdktn.Co
   public get nonFilterableMetadataKeysInput() {
     return this._nonFilterableMetadataKeys;
   }
+
+  // text_search_configurations - computed: true, optional: true, required: false
+  private _textSearchConfigurations = new S3VectorsIndexMetadataConfigurationTextSearchConfigurationsList(this, "text_search_configurations", true);
+  public get textSearchConfigurations() {
+    return this._textSearchConfigurations;
+  }
+  public putTextSearchConfigurations(value: S3VectorsIndexMetadataConfigurationTextSearchConfigurations[] | cdktn.IResolvable) {
+    this._textSearchConfigurations.internalValue = value;
+  }
+  public resetTextSearchConfigurations() {
+    this._textSearchConfigurations.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textSearchConfigurationsInput() {
+    return this._textSearchConfigurations.internalValue;
+  }
 }
 export interface S3VectorsIndexTags {
   /**
   * Tag key must be between 1 to 128 characters in length. Tag key cannot start with 'aws:' and can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#key S3VectorsIndex#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#key S3VectorsIndex#key}
   */
   readonly key?: string;
   /**
   * Tag value must be between 0 to 256 characters in length. Tag value can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#value S3VectorsIndex#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#value S3VectorsIndex#value}
   */
   readonly value?: string;
 }
@@ -449,7 +631,7 @@ export class S3VectorsIndexTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index awscc_s3vectors_index}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index awscc_s3vectors_index}
 */
 export class S3VectorsIndex extends cdktn.TerraformResource {
 
@@ -465,7 +647,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3VectorsIndex resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3VectorsIndex to import
-  * @param importFromId The id of the existing S3VectorsIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3VectorsIndex that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3VectorsIndex to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -477,7 +659,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3vectors_index awscc_s3vectors_index} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3vectors_index awscc_s3vectors_index} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -488,7 +670,7 @@ export class S3VectorsIndex extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3vectors_index',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

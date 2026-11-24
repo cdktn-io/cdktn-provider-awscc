@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,55 +15,233 @@ export interface Ec2VpcPeeringConnectionConfig extends cdktn.TerraformMetaArgume
   /**
   * The Region code to use when calling Security Token Service (STS) to assume the PeerRoleArn, if provided. You can update this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
   */
   readonly assumeRoleRegion?: string;
   /**
   * The AWS account ID of the owner of the accepter VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
   */
   readonly peerOwnerId?: string;
   /**
   * The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
   */
   readonly peerRegion?: string;
   /**
   * The Amazon Resource Name (ARN) of the VPC peer role for the peering connection in another AWS account. You can update this property. To manage PeerVpcPeeringConnectionOptions on a peering connection with another AWS account, the role must allow ec2:DescribeVpcPeeringConnections and ec2:ModifyVpcPeeringConnectionOptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
   */
   readonly peerRoleArn?: string;
   /**
   * The ID of the VPC with which you are creating the VPC peering connection. You must specify this parameter in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
   */
   readonly peerVpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}
+  * The VPC peering connection options corresponding to the accepter side of the connection.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_peering_connection_options Ec2VpcPeeringConnection#peer_vpc_peering_connection_options}
+  */
+  readonly peerVpcPeeringConnectionOptions?: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}
   */
   readonly tags?: Ec2VpcPeeringConnectionTags[] | cdktn.IResolvable;
   /**
   * The ID of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
   */
   readonly vpcId: string;
+  /**
+  * The VPC peering connection options corresponding to the requester side of the connection.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#vpc_peering_connection_options Ec2VpcPeeringConnection#vpc_peering_connection_options}
+  */
+  readonly vpcPeeringConnectionOptions?: Ec2VpcPeeringConnectionVpcPeeringConnectionOptions;
+}
+export interface Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions {
+  /**
+  * If true, enables a local VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the peer VPC.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_dns_resolution_from_remote_vpc Ec2VpcPeeringConnection#allow_dns_resolution_from_remote_vpc}
+  */
+  readonly allowDnsResolutionFromRemoteVpc?: boolean | cdktn.IResolvable;
+  /**
+  * If true, allows multipath resilience on this side of the peering connection. Multipath resilience is enabled only when both the requester and accepter sides allow it; MultipathResilienceStatus reports the result.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_multipath_resilience Ec2VpcPeeringConnection#allow_multipath_resilience}
+  */
+  readonly allowMultipathResilience?: boolean | cdktn.IResolvable;
+  /**
+  * The mode of multipath resilience on the peering connection. Applies when AllowMultipathResilience is true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#multipath_resilience_mode Ec2VpcPeeringConnection#multipath_resilience_mode}
+  */
+  readonly multipathResilienceMode?: string;
+}
+
+export function ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsToTerraform(struct?: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    allow_dns_resolution_from_remote_vpc: cdktn.booleanToTerraform(struct!.allowDnsResolutionFromRemoteVpc),
+    allow_multipath_resilience: cdktn.booleanToTerraform(struct!.allowMultipathResilience),
+    multipath_resilience_mode: cdktn.stringToTerraform(struct!.multipathResilienceMode),
+  }
+}
+
+
+export function ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsToHclTerraform(struct?: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    allow_dns_resolution_from_remote_vpc: {
+      value: cdktn.booleanToHclTerraform(struct!.allowDnsResolutionFromRemoteVpc),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    allow_multipath_resilience: {
+      value: cdktn.booleanToHclTerraform(struct!.allowMultipathResilience),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    multipath_resilience_mode: {
+      value: cdktn.stringToHclTerraform(struct!.multipathResilienceMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowDnsResolutionFromRemoteVpc !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowDnsResolutionFromRemoteVpc = this._allowDnsResolutionFromRemoteVpc;
+    }
+    if (this._allowMultipathResilience !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowMultipathResilience = this._allowMultipathResilience;
+    }
+    if (this._multipathResilienceMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multipathResilienceMode = this._multipathResilienceMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._allowDnsResolutionFromRemoteVpc = undefined;
+      this._allowMultipathResilience = undefined;
+      this._multipathResilienceMode = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._allowDnsResolutionFromRemoteVpc = value.allowDnsResolutionFromRemoteVpc;
+      this._allowMultipathResilience = value.allowMultipathResilience;
+      this._multipathResilienceMode = value.multipathResilienceMode;
+    }
+  }
+
+  // allow_dns_resolution_from_remote_vpc - computed: true, optional: true, required: false
+  private _allowDnsResolutionFromRemoteVpc?: boolean | cdktn.IResolvable; 
+  public get allowDnsResolutionFromRemoteVpc() {
+    return this.getBooleanAttribute('allow_dns_resolution_from_remote_vpc');
+  }
+  public set allowDnsResolutionFromRemoteVpc(value: boolean | cdktn.IResolvable) {
+    this._allowDnsResolutionFromRemoteVpc = value;
+  }
+  public resetAllowDnsResolutionFromRemoteVpc() {
+    this._allowDnsResolutionFromRemoteVpc = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowDnsResolutionFromRemoteVpcInput() {
+    return this._allowDnsResolutionFromRemoteVpc;
+  }
+
+  // allow_multipath_resilience - computed: true, optional: true, required: false
+  private _allowMultipathResilience?: boolean | cdktn.IResolvable; 
+  public get allowMultipathResilience() {
+    return this.getBooleanAttribute('allow_multipath_resilience');
+  }
+  public set allowMultipathResilience(value: boolean | cdktn.IResolvable) {
+    this._allowMultipathResilience = value;
+  }
+  public resetAllowMultipathResilience() {
+    this._allowMultipathResilience = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowMultipathResilienceInput() {
+    return this._allowMultipathResilience;
+  }
+
+  // multipath_resilience_mode - computed: true, optional: true, required: false
+  private _multipathResilienceMode?: string; 
+  public get multipathResilienceMode() {
+    return this.getStringAttribute('multipath_resilience_mode');
+  }
+  public set multipathResilienceMode(value: string) {
+    this._multipathResilienceMode = value;
+  }
+  public resetMultipathResilienceMode() {
+    this._multipathResilienceMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multipathResilienceModeInput() {
+    return this._multipathResilienceMode;
+  }
 }
 export interface Ec2VpcPeeringConnectionTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#key Ec2VpcPeeringConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#key Ec2VpcPeeringConnection#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#value Ec2VpcPeeringConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#value Ec2VpcPeeringConnection#value}
   */
   readonly value?: string;
 }
@@ -206,9 +384,175 @@ export class Ec2VpcPeeringConnectionTagsList extends cdktn.ComplexList {
     return new Ec2VpcPeeringConnectionTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface Ec2VpcPeeringConnectionVpcPeeringConnectionOptions {
+  /**
+  * If true, enables a local VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the peer VPC.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_dns_resolution_from_remote_vpc Ec2VpcPeeringConnection#allow_dns_resolution_from_remote_vpc}
+  */
+  readonly allowDnsResolutionFromRemoteVpc?: boolean | cdktn.IResolvable;
+  /**
+  * If true, allows multipath resilience on this side of the peering connection. Multipath resilience is enabled only when both the requester and accepter sides allow it; MultipathResilienceStatus reports the result.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_multipath_resilience Ec2VpcPeeringConnection#allow_multipath_resilience}
+  */
+  readonly allowMultipathResilience?: boolean | cdktn.IResolvable;
+  /**
+  * The mode of multipath resilience on the peering connection. Applies when AllowMultipathResilience is true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#multipath_resilience_mode Ec2VpcPeeringConnection#multipath_resilience_mode}
+  */
+  readonly multipathResilienceMode?: string;
+}
+
+export function ec2VpcPeeringConnectionVpcPeeringConnectionOptionsToTerraform(struct?: Ec2VpcPeeringConnectionVpcPeeringConnectionOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    allow_dns_resolution_from_remote_vpc: cdktn.booleanToTerraform(struct!.allowDnsResolutionFromRemoteVpc),
+    allow_multipath_resilience: cdktn.booleanToTerraform(struct!.allowMultipathResilience),
+    multipath_resilience_mode: cdktn.stringToTerraform(struct!.multipathResilienceMode),
+  }
+}
+
+
+export function ec2VpcPeeringConnectionVpcPeeringConnectionOptionsToHclTerraform(struct?: Ec2VpcPeeringConnectionVpcPeeringConnectionOptions | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    allow_dns_resolution_from_remote_vpc: {
+      value: cdktn.booleanToHclTerraform(struct!.allowDnsResolutionFromRemoteVpc),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    allow_multipath_resilience: {
+      value: cdktn.booleanToHclTerraform(struct!.allowMultipathResilience),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    multipath_resilience_mode: {
+      value: cdktn.stringToHclTerraform(struct!.multipathResilienceMode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): Ec2VpcPeeringConnectionVpcPeeringConnectionOptions | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._allowDnsResolutionFromRemoteVpc !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowDnsResolutionFromRemoteVpc = this._allowDnsResolutionFromRemoteVpc;
+    }
+    if (this._allowMultipathResilience !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowMultipathResilience = this._allowMultipathResilience;
+    }
+    if (this._multipathResilienceMode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multipathResilienceMode = this._multipathResilienceMode;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Ec2VpcPeeringConnectionVpcPeeringConnectionOptions | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._allowDnsResolutionFromRemoteVpc = undefined;
+      this._allowMultipathResilience = undefined;
+      this._multipathResilienceMode = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._allowDnsResolutionFromRemoteVpc = value.allowDnsResolutionFromRemoteVpc;
+      this._allowMultipathResilience = value.allowMultipathResilience;
+      this._multipathResilienceMode = value.multipathResilienceMode;
+    }
+  }
+
+  // allow_dns_resolution_from_remote_vpc - computed: true, optional: true, required: false
+  private _allowDnsResolutionFromRemoteVpc?: boolean | cdktn.IResolvable; 
+  public get allowDnsResolutionFromRemoteVpc() {
+    return this.getBooleanAttribute('allow_dns_resolution_from_remote_vpc');
+  }
+  public set allowDnsResolutionFromRemoteVpc(value: boolean | cdktn.IResolvable) {
+    this._allowDnsResolutionFromRemoteVpc = value;
+  }
+  public resetAllowDnsResolutionFromRemoteVpc() {
+    this._allowDnsResolutionFromRemoteVpc = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowDnsResolutionFromRemoteVpcInput() {
+    return this._allowDnsResolutionFromRemoteVpc;
+  }
+
+  // allow_multipath_resilience - computed: true, optional: true, required: false
+  private _allowMultipathResilience?: boolean | cdktn.IResolvable; 
+  public get allowMultipathResilience() {
+    return this.getBooleanAttribute('allow_multipath_resilience');
+  }
+  public set allowMultipathResilience(value: boolean | cdktn.IResolvable) {
+    this._allowMultipathResilience = value;
+  }
+  public resetAllowMultipathResilience() {
+    this._allowMultipathResilience = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowMultipathResilienceInput() {
+    return this._allowMultipathResilience;
+  }
+
+  // multipath_resilience_mode - computed: true, optional: true, required: false
+  private _multipathResilienceMode?: string; 
+  public get multipathResilienceMode() {
+    return this.getStringAttribute('multipath_resilience_mode');
+  }
+  public set multipathResilienceMode(value: string) {
+    this._multipathResilienceMode = value;
+  }
+  public resetMultipathResilienceMode() {
+    this._multipathResilienceMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multipathResilienceModeInput() {
+    return this._multipathResilienceMode;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}
 */
 export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
 
@@ -224,7 +568,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2VpcPeeringConnection resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2VpcPeeringConnection to import
-  * @param importFromId The id of the existing Ec2VpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2VpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2VpcPeeringConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -236,7 +580,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,7 +591,7 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_vpc_peering_connection',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -263,8 +607,10 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
     this._peerRegion = config.peerRegion;
     this._peerRoleArn = config.peerRoleArn;
     this._peerVpcId = config.peerVpcId;
+    this._peerVpcPeeringConnectionOptions.internalValue = config.peerVpcPeeringConnectionOptions;
     this._tags.internalValue = config.tags;
     this._vpcId = config.vpcId;
+    this._vpcPeeringConnectionOptions.internalValue = config.vpcPeeringConnectionOptions;
   }
 
   // ==========
@@ -290,6 +636,11 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // multipath_resilience_status - computed: true, optional: false, required: false
+  public get multipathResilienceStatus() {
+    return this.getStringAttribute('multipath_resilience_status');
   }
 
   // peer_owner_id - computed: true, optional: true, required: false
@@ -353,6 +704,22 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
     return this._peerVpcId;
   }
 
+  // peer_vpc_peering_connection_options - computed: true, optional: true, required: false
+  private _peerVpcPeeringConnectionOptions = new Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference(this, "peer_vpc_peering_connection_options");
+  public get peerVpcPeeringConnectionOptions() {
+    return this._peerVpcPeeringConnectionOptions;
+  }
+  public putPeerVpcPeeringConnectionOptions(value: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions) {
+    this._peerVpcPeeringConnectionOptions.internalValue = value;
+  }
+  public resetPeerVpcPeeringConnectionOptions() {
+    this._peerVpcPeeringConnectionOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get peerVpcPeeringConnectionOptionsInput() {
+    return this._peerVpcPeeringConnectionOptions.internalValue;
+  }
+
   // tags - computed: true, optional: true, required: false
   private _tags = new Ec2VpcPeeringConnectionTagsList(this, "tags", false);
   public get tags() {
@@ -387,6 +754,22 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
     return this.getStringAttribute('vpc_peering_connection_id');
   }
 
+  // vpc_peering_connection_options - computed: true, optional: true, required: false
+  private _vpcPeeringConnectionOptions = new Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference(this, "vpc_peering_connection_options");
+  public get vpcPeeringConnectionOptions() {
+    return this._vpcPeeringConnectionOptions;
+  }
+  public putVpcPeeringConnectionOptions(value: Ec2VpcPeeringConnectionVpcPeeringConnectionOptions) {
+    this._vpcPeeringConnectionOptions.internalValue = value;
+  }
+  public resetVpcPeeringConnectionOptions() {
+    this._vpcPeeringConnectionOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcPeeringConnectionOptionsInput() {
+    return this._vpcPeeringConnectionOptions.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -398,8 +781,10 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
       peer_region: cdktn.stringToTerraform(this._peerRegion),
       peer_role_arn: cdktn.stringToTerraform(this._peerRoleArn),
       peer_vpc_id: cdktn.stringToTerraform(this._peerVpcId),
+      peer_vpc_peering_connection_options: ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsToTerraform(this._peerVpcPeeringConnectionOptions.internalValue),
       tags: cdktn.listMapper(ec2VpcPeeringConnectionTagsToTerraform, false)(this._tags.internalValue),
       vpc_id: cdktn.stringToTerraform(this._vpcId),
+      vpc_peering_connection_options: ec2VpcPeeringConnectionVpcPeeringConnectionOptionsToTerraform(this._vpcPeeringConnectionOptions.internalValue),
     };
   }
 
@@ -435,6 +820,12 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      peer_vpc_peering_connection_options: {
+        value: ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsToHclTerraform(this._peerVpcPeeringConnectionOptions.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions",
+      },
       tags: {
         value: cdktn.listMapperHcl(ec2VpcPeeringConnectionTagsToHclTerraform, false)(this._tags.internalValue),
         isBlock: true,
@@ -446,6 +837,12 @@ export class Ec2VpcPeeringConnection extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      vpc_peering_connection_options: {
+        value: ec2VpcPeeringConnectionVpcPeeringConnectionOptionsToHclTerraform(this._vpcPeeringConnectionOptions.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "Ec2VpcPeeringConnectionVpcPeeringConnectionOptions",
       },
     };
 

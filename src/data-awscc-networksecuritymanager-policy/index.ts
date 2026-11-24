@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccNetworksecuritymanagerPolicyConfig extends cdktn.Terra
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_policy#id DataAwsccNetworksecuritymanagerPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_policy#id DataAwsccNetworksecuritymanagerPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,6 +100,146 @@ export class DataAwsccNetworksecuritymanagerPolicyAssociatedTemplateAndRuleListS
   */
   public get(index: number): DataAwsccNetworksecuritymanagerPolicyAssociatedTemplateAndRuleListStructOutputReference {
     return new DataAwsccNetworksecuritymanagerPolicyAssociatedTemplateAndRuleListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides {
+}
+
+export function dataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesToTerraform(struct?: DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesToHclTerraform(struct?: DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // connectivity_type - computed: true, optional: false, required: false
+  public get connectivityType() {
+    return this.getStringAttribute('connectivity_type');
+  }
+
+  // scopes - computed: true, optional: false, required: false
+  public get scopes() {
+    return this.getListAttribute('scopes');
+  }
+}
+
+export class DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference {
+    return new DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig {
+}
+
+export function dataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigToTerraform(struct?: DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigToHclTerraform(struct?: DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default_subnet_connectivity - computed: true, optional: false, required: false
+  public get defaultSubnetConnectivity() {
+    return this.getStringAttribute('default_subnet_connectivity');
+  }
+
+  // subnet_connectivity_overrides - computed: true, optional: false, required: false
+  private _subnetConnectivityOverrides = new DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList(this, "subnet_connectivity_overrides", false);
+  public get subnetConnectivityOverrides() {
+    return this._subnetConnectivityOverrides;
   }
 }
 export interface DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationWafConfig {
@@ -210,6 +350,12 @@ export class DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputRefer
     }
   }
 
+  // igw_firewall_config - computed: true, optional: false, required: false
+  private _igwFirewallConfig = new DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference(this, "igw_firewall_config");
+  public get igwFirewallConfig() {
+    return this._igwFirewallConfig;
+  }
+
   // remediation_enabled - computed: true, optional: false, required: false
   public get remediationEnabled() {
     return this.getBooleanAttribute('remediation_enabled');
@@ -308,7 +454,7 @@ export class DataAwsccNetworksecuritymanagerPolicyTagsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_policy awscc_networksecuritymanager_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_policy awscc_networksecuritymanager_policy}
 */
 export class DataAwsccNetworksecuritymanagerPolicy extends cdktn.TerraformDataSource {
 
@@ -324,7 +470,7 @@ export class DataAwsccNetworksecuritymanagerPolicy extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccNetworksecuritymanagerPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccNetworksecuritymanagerPolicy to import
-  * @param importFromId The id of the existing DataAwsccNetworksecuritymanagerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccNetworksecuritymanagerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccNetworksecuritymanagerPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -336,7 +482,7 @@ export class DataAwsccNetworksecuritymanagerPolicy extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_policy awscc_networksecuritymanager_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_policy awscc_networksecuritymanager_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,7 +493,7 @@ export class DataAwsccNetworksecuritymanagerPolicy extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_networksecuritymanager_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

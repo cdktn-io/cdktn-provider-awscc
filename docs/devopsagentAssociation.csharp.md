@@ -4,7 +4,7 @@
 
 ### DevopsagentAssociation <a name="DevopsagentAssociation" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer"></a>
 
@@ -74,7 +74,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putCapabilities">PutCapabilities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putConfiguration">PutConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.resetCapabilities">ResetCapabilities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.resetLinkedAssociationIds">ResetLinkedAssociationIds</a></code> | *No description.* |
 
 ---
@@ -388,6 +390,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `PutCapabilities` <a name="PutCapabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putCapabilities"></a>
+
+```csharp
+private void PutCapabilities(DevopsagentAssociationCapabilities Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putCapabilities.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a>
+
+---
+
 ##### `PutConfiguration` <a name="PutConfiguration" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putConfiguration"></a>
 
 ```csharp
@@ -399,6 +413,12 @@ private void PutConfiguration(DevopsagentAssociationConfiguration Value)
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration">DevopsagentAssociationConfiguration</a>
 
 ---
+
+##### `ResetCapabilities` <a name="ResetCapabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.resetCapabilities"></a>
+
+```csharp
+private void ResetCapabilities()
+```
 
 ##### `ResetLinkedAssociationIds` <a name="ResetLinkedAssociationIds" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.resetLinkedAssociationIds"></a>
 
@@ -509,7 +529,7 @@ The construct id used in the generated config for the DevopsagentAssociation to 
 
 The id of the existing DevopsagentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -540,11 +560,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.associationId">AssociationId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.capabilities">Capabilities</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference">DevopsagentAssociationCapabilitiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference">DevopsagentAssociationConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.createdAt">CreatedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.updatedAt">UpdatedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.agentSpaceIdInput">AgentSpaceIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.capabilitiesInput">CapabilitiesInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.configurationInput">ConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration">DevopsagentAssociationConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.linkedAssociationIdsInput">LinkedAssociationIdsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.serviceIdInput">ServiceIdInput</a></code> | <code>string</code> | *No description.* |
@@ -706,6 +728,16 @@ public string AssociationId { get; }
 
 ---
 
+##### `Capabilities`<sup>Required</sup> <a name="Capabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.capabilities"></a>
+
+```csharp
+public DevopsagentAssociationCapabilitiesOutputReference Capabilities { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference">DevopsagentAssociationCapabilitiesOutputReference</a>
+
+---
+
 ##### `Configuration`<sup>Required</sup> <a name="Configuration" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.configuration"></a>
 
 ```csharp
@@ -753,6 +785,16 @@ public string AgentSpaceIdInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `CapabilitiesInput`<sup>Optional</sup> <a name="CapabilitiesInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.capabilitiesInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilities CapabilitiesInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a>
 
 ---
 
@@ -836,6 +878,226 @@ public string TfResourceType { get; }
 
 ## Structs <a name="Structs" id="Structs"></a>
 
+### DevopsagentAssociationCapabilities <a name="DevopsagentAssociationCapabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilities {
+    DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis CodeChangeRiskAnalysis = null,
+    DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting CodeChangeRiskAnalysisAutomatedTesting = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.property.codeChangeRiskAnalysis">CodeChangeRiskAnalysis</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a></code> | Configuration for code change risk analysis, in which AWS DevOps Agent automatically analyzes pull requests and merge requests for deployment risk. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.property.codeChangeRiskAnalysisAutomatedTesting">CodeChangeRiskAnalysisAutomatedTesting</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a></code> | Configuration for code change risk analysis automated testing, in which AWS DevOps Agent also runs tests against the change during the analysis. |
+
+---
+
+##### `CodeChangeRiskAnalysis`<sup>Optional</sup> <a name="CodeChangeRiskAnalysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.property.codeChangeRiskAnalysis"></a>
+
+```csharp
+public DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis CodeChangeRiskAnalysis { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a>
+
+Configuration for code change risk analysis, in which AWS DevOps Agent automatically analyzes pull requests and merge requests for deployment risk.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#code_change_risk_analysis DevopsagentAssociation#code_change_risk_analysis}
+
+---
+
+##### `CodeChangeRiskAnalysisAutomatedTesting`<sup>Optional</sup> <a name="CodeChangeRiskAnalysisAutomatedTesting" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.property.codeChangeRiskAnalysisAutomatedTesting"></a>
+
+```csharp
+public DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting CodeChangeRiskAnalysisAutomatedTesting { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a>
+
+Configuration for code change risk analysis automated testing, in which AWS DevOps Agent also runs tests against the change during the analysis.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#code_change_risk_analysis_automated_testing DevopsagentAssociation#code_change_risk_analysis_automated_testing}
+
+---
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis {
+    bool|IResolvable Enabled = null,
+    IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups[] TriggerFilterGroups = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the capability is enabled for this association. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.property.triggerFilterGroups">TriggerFilterGroups</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>[]</code> | Filter groups controlling when the capability triggers automatically. |
+
+---
+
+##### `Enabled`<sup>Optional</sup> <a name="Enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.property.enabled"></a>
+
+```csharp
+public bool|IResolvable Enabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Whether the capability is enabled for this association.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+
+---
+
+##### `TriggerFilterGroups`<sup>Optional</sup> <a name="TriggerFilterGroups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.property.triggerFilterGroups"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups[] TriggerFilterGroups { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>[]
+
+Filter groups controlling when the capability triggers automatically.
+
+The capability triggers when any group matches. When omitted, all applicable events trigger the capability. Retained while the capability is disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#trigger_filter_groups DevopsagentAssociation#trigger_filter_groups}
+
+---
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting {
+    bool|IResolvable Enabled = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether the capability is enabled for this association. |
+
+---
+
+##### `Enabled`<sup>Optional</sup> <a name="Enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting.property.enabled"></a>
+
+```csharp
+public bool|IResolvable Enabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Whether the capability is enabled for this association.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+
+---
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups {
+    string[] Events = null,
+    DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches TargetBranches = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.property.events">Events</a></code> | <code>string[]</code> | Passes when the webhook event is one of the listed events. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.property.targetBranches">TargetBranches</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a></code> | Passes when the change request target branch matches. |
+
+---
+
+##### `Events`<sup>Optional</sup> <a name="Events" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.property.events"></a>
+
+```csharp
+public string[] Events { get; set; }
+```
+
+- *Type:* string[]
+
+Passes when the webhook event is one of the listed events.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#events DevopsagentAssociation#events}
+
+---
+
+##### `TargetBranches`<sup>Optional</sup> <a name="TargetBranches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.property.targetBranches"></a>
+
+```csharp
+public DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches TargetBranches { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a>
+
+Passes when the change request target branch matches.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#target_branches DevopsagentAssociation#target_branches}
+
+---
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches {
+    string[] Patterns = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches.property.patterns">Patterns</a></code> | <code>string[]</code> | Anchored full-match regex patterns, for example 'main' or 'release/.*'. |
+
+---
+
+##### `Patterns`<sup>Optional</sup> <a name="Patterns" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches.property.patterns"></a>
+
+```csharp
+public string[] Patterns { get; set; }
+```
+
+- *Type:* string[]
+
+Anchored full-match regex patterns, for example 'main' or 'release/.*'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#patterns DevopsagentAssociation#patterns}
+
+---
+
 ### DevopsagentAssociationConfig <a name="DevopsagentAssociationConfig" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.Initializer"></a>
@@ -854,6 +1116,7 @@ new DevopsagentAssociationConfig {
     string AgentSpaceId,
     DevopsagentAssociationConfiguration Configuration,
     string ServiceId,
+    DevopsagentAssociationCapabilities Capabilities = null,
     string[] LinkedAssociationIds = null
 };
 ```
@@ -872,6 +1135,7 @@ new DevopsagentAssociationConfig {
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.agentSpaceId">AgentSpaceId</a></code> | <code>string</code> | The unique identifier of the AgentSpace. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration">DevopsagentAssociationConfiguration</a></code> | The configuration that directs how AgentSpace interacts with the given service. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.serviceId">ServiceId</a></code> | <code>string</code> | The identifier for the associated service. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.capabilities">Capabilities</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a></code> | Automated AWS DevOps Agent capabilities enabled for this association, such as code change risk analysis. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.linkedAssociationIds">LinkedAssociationIds</a></code> | <code>string[]</code> | Set of linked association IDs for parent-child relationships. |
 
 ---
@@ -956,7 +1220,7 @@ public string AgentSpaceId { get; set; }
 
 The unique identifier of the AgentSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
 
 ---
 
@@ -970,7 +1234,7 @@ public DevopsagentAssociationConfiguration Configuration { get; set; }
 
 The configuration that directs how AgentSpace interacts with the given service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
 
 ---
 
@@ -984,7 +1248,21 @@ public string ServiceId { get; set; }
 
 The identifier for the associated service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+
+---
+
+##### `Capabilities`<sup>Optional</sup> <a name="Capabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.capabilities"></a>
+
+```csharp
+public DevopsagentAssociationCapabilities Capabilities { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a>
+
+Automated AWS DevOps Agent capabilities enabled for this association, such as code change risk analysis.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#capabilities DevopsagentAssociation#capabilities}
 
 ---
 
@@ -998,7 +1276,7 @@ public string[] LinkedAssociationIds { get; set; }
 
 Set of linked association IDs for parent-child relationships.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
 
 ---
 
@@ -1023,6 +1301,7 @@ new DevopsagentAssociationConfiguration {
     DevopsagentAssociationConfigurationMcpServerSigV4 McpServerSigV4 = null,
     DevopsagentAssociationConfigurationMcpServerSplunk McpServerSplunk = null,
     DevopsagentAssociationConfigurationPagerDuty PagerDuty = null,
+    DevopsagentAssociationConfigurationReleaseManagement ReleaseManagement = null,
     DevopsagentAssociationConfigurationServiceNow ServiceNow = null,
     DevopsagentAssociationConfigurationSlack Slack = null,
     DevopsagentAssociationConfigurationSourceAws SourceAws = null
@@ -1046,6 +1325,7 @@ new DevopsagentAssociationConfiguration {
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.mcpServerSigV4">McpServerSigV4</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4">DevopsagentAssociationConfigurationMcpServerSigV4</a></code> | SigV4-authenticated MCP server configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.mcpServerSplunk">McpServerSplunk</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunk">DevopsagentAssociationConfigurationMcpServerSplunk</a></code> | Splunk MCP server configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.pagerDuty">PagerDuty</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty">DevopsagentAssociationConfigurationPagerDuty</a></code> | PagerDuty integration configuration. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.releaseManagement">ReleaseManagement</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a></code> | Configuration for a release management environment. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.serviceNow">ServiceNow</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNow">DevopsagentAssociationConfigurationServiceNow</a></code> | ServiceNow integration configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.slack">Slack</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack">DevopsagentAssociationConfigurationSlack</a></code> | Slack workspace integration configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.sourceAws">SourceAws</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws">DevopsagentAssociationConfigurationSourceAws</a></code> | AWS association for 'source' account. |
@@ -1062,7 +1342,7 @@ public DevopsagentAssociationConfigurationAws Aws { get; set; }
 
 AWS association for 'monitor' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
 
 ---
 
@@ -1076,7 +1356,7 @@ public DevopsagentAssociationConfigurationAzure Azure { get; set; }
 
 Azure subscription integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
 
 ---
 
@@ -1090,7 +1370,7 @@ public DevopsagentAssociationConfigurationDynatrace Dynatrace { get; set; }
 
 Dynatrace monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
 
 ---
 
@@ -1104,7 +1384,7 @@ public DevopsagentAssociationConfigurationEventChannel EventChannel { get; set; 
 
 EventChannelconfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
 
 ---
 
@@ -1118,7 +1398,7 @@ public DevopsagentAssociationConfigurationGitHub GitHub { get; set; }
 
 GitHub repository integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
 
 ---
 
@@ -1132,7 +1412,7 @@ public DevopsagentAssociationConfigurationGitLab GitLab { get; set; }
 
 GitLab project integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
 
 ---
 
@@ -1146,7 +1426,7 @@ public DevopsagentAssociationConfigurationMcpServer McpServer { get; set; }
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
 
 ---
 
@@ -1160,7 +1440,7 @@ public DevopsagentAssociationConfigurationMcpServerDatadog McpServerDatadog { ge
 
 Datadog MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
 
 ---
 
@@ -1174,7 +1454,7 @@ public DevopsagentAssociationConfigurationMcpServerGrafana McpServerGrafana { ge
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
 
 ---
 
@@ -1188,7 +1468,7 @@ public DevopsagentAssociationConfigurationMcpServerNewRelic McpServerNewRelic { 
 
 NewRelic MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
 
 ---
 
@@ -1202,7 +1482,7 @@ public DevopsagentAssociationConfigurationMcpServerSigV4 McpServerSigV4 { get; s
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
 
 ---
 
@@ -1216,7 +1496,7 @@ public DevopsagentAssociationConfigurationMcpServerSplunk McpServerSplunk { get;
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
 
 ---
 
@@ -1230,7 +1510,23 @@ public DevopsagentAssociationConfigurationPagerDuty PagerDuty { get; set; }
 
 PagerDuty integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+
+---
+
+##### `ReleaseManagement`<sup>Optional</sup> <a name="ReleaseManagement" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.releaseManagement"></a>
+
+```csharp
+public DevopsagentAssociationConfigurationReleaseManagement ReleaseManagement { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a>
+
+Configuration for a release management environment.
+
+A release management environment defines how AWS DevOps Agent reaches your application, and other associations reference it to run automatic verification testing against that application.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management DevopsagentAssociation#release_management}
 
 ---
 
@@ -1244,7 +1540,7 @@ public DevopsagentAssociationConfigurationServiceNow ServiceNow { get; set; }
 
 ServiceNow integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
 
 ---
 
@@ -1258,7 +1554,7 @@ public DevopsagentAssociationConfigurationSlack Slack { get; set; }
 
 Slack workspace integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
 
 ---
 
@@ -1272,7 +1568,7 @@ public DevopsagentAssociationConfigurationSourceAws SourceAws { get; set; }
 
 AWS association for 'source' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
 
 ---
 
@@ -1316,7 +1612,7 @@ public string AccountId { get; set; }
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -1330,7 +1626,7 @@ public string AccountType { get; set; }
 
 Account Type 'monitor' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -1346,7 +1642,7 @@ The IAM role that AWS DevOps Agent assumes to perform elevated directed actions 
 
 Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -1360,7 +1656,7 @@ public string AssumableRoleArn { get; set; }
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -1374,7 +1670,7 @@ public IResolvable|DevopsagentAssociationConfigurationAwsResources[] Resources {
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1388,7 +1684,7 @@ public IResolvable|DevopsagentAssociationConfigurationAwsTags[] Tags { get; set;
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -1426,7 +1722,7 @@ public string ResourceArn { get; set; }
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -1440,7 +1736,7 @@ public string ResourceMetadata { get; set; }
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -1454,7 +1750,7 @@ public string ResourceType { get; set; }
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -1475,8 +1771,8 @@ new DevopsagentAssociationConfigurationAwsTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -1488,7 +1784,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -1500,7 +1796,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
@@ -1534,7 +1830,7 @@ public string SubscriptionId { get; set; }
 
 Azure subscription ID corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
 
 ---
 
@@ -1572,7 +1868,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1586,7 +1882,7 @@ public string EnvId { get; set; }
 
 Dynatrace environment id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
 
 ---
 
@@ -1600,7 +1896,7 @@ public string[] Resources { get; set; }
 
 List of Dynatrace resources to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1634,7 +1930,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1648,6 +1944,7 @@ using Io.Cdktn.Providers.Awscc;
 new DevopsagentAssociationConfigurationGitHub {
     string Owner = null,
     string OwnerType = null,
+    string ReleaseManagementAssociationId = null,
     string RepoId = null,
     string RepoName = null
 };
@@ -1659,6 +1956,7 @@ new DevopsagentAssociationConfigurationGitHub {
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.owner">Owner</a></code> | <code>string</code> | Repository owner. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.ownerType">OwnerType</a></code> | <code>string</code> | Type of repository owner. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.releaseManagementAssociationId">ReleaseManagementAssociationId</a></code> | <code>string</code> | The ID of the release management association that this repository uses for automated testing. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.repoId">RepoId</a></code> | <code>string</code> | Associated Github repo ID. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.repoName">RepoName</a></code> | <code>string</code> | Associated Github repo name. |
 
@@ -1674,7 +1972,7 @@ public string Owner { get; set; }
 
 Repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
 
 ---
 
@@ -1688,7 +1986,21 @@ public string OwnerType { get; set; }
 
 Type of repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+
+---
+
+##### `ReleaseManagementAssociationId`<sup>Optional</sup> <a name="ReleaseManagementAssociationId" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.releaseManagementAssociationId"></a>
+
+```csharp
+public string ReleaseManagementAssociationId { get; set; }
+```
+
+- *Type:* string
+
+The ID of the release management association that this repository uses for automated testing.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management_association_id DevopsagentAssociation#release_management_association_id}
 
 ---
 
@@ -1702,7 +2014,7 @@ public string RepoId { get; set; }
 
 Associated Github repo ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
 
 ---
 
@@ -1716,7 +2028,7 @@ public string RepoName { get; set; }
 
 Associated Github repo name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
 
 ---
 
@@ -1731,7 +2043,8 @@ new DevopsagentAssociationConfigurationGitLab {
     bool|IResolvable EnableWebhookUpdates = null,
     string InstanceIdentifier = null,
     string ProjectId = null,
-    string ProjectPath = null
+    string ProjectPath = null,
+    string ReleaseManagementAssociationId = null
 };
 ```
 
@@ -1743,6 +2056,7 @@ new DevopsagentAssociationConfigurationGitLab {
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.instanceIdentifier">InstanceIdentifier</a></code> | <code>string</code> | GitLab instance identifier. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.projectId">ProjectId</a></code> | <code>string</code> | GitLab numeric project ID. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.projectPath">ProjectPath</a></code> | <code>string</code> | Full GitLab project path (e.g., namespace/project-name). |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.releaseManagementAssociationId">ReleaseManagementAssociationId</a></code> | <code>string</code> | The ID of the release management association that this project uses for automated testing. |
 
 ---
 
@@ -1756,7 +2070,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1770,7 +2084,7 @@ public string InstanceIdentifier { get; set; }
 
 GitLab instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
 
 ---
 
@@ -1784,7 +2098,7 @@ public string ProjectId { get; set; }
 
 GitLab numeric project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
 
 ---
 
@@ -1798,7 +2112,21 @@ public string ProjectPath { get; set; }
 
 Full GitLab project path (e.g., namespace/project-name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+
+---
+
+##### `ReleaseManagementAssociationId`<sup>Optional</sup> <a name="ReleaseManagementAssociationId" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.releaseManagementAssociationId"></a>
+
+```csharp
+public string ReleaseManagementAssociationId { get; set; }
+```
+
+- *Type:* string
+
+The ID of the release management association that this project uses for automated testing.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management_association_id DevopsagentAssociation#release_management_association_id}
 
 ---
 
@@ -1840,7 +2168,7 @@ public string Description { get; set; }
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -1854,7 +2182,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1868,7 +2196,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1882,7 +2210,7 @@ public string Name { get; set; }
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -1896,7 +2224,7 @@ public string[] Tools { get; set; }
 
 List of MCP tools that can be used with the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -1938,7 +2266,7 @@ public string Description { get; set; }
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -1954,7 +2282,7 @@ The mutative MCP tools enabled for this integration, by tool name.
 
 Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -1968,7 +2296,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1982,7 +2310,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1996,7 +2324,7 @@ public string Name { get; set; }
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2038,7 +2366,7 @@ The mutative MCP tools enabled for this integration, by tool name.
 
 Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools. Independent of Tools, which selects the toolsets available to the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -2052,7 +2380,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2066,7 +2394,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2080,7 +2408,7 @@ public string[] Tools { get; set; }
 
 List of tool categories to enable for the Grafana MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2116,7 +2444,7 @@ public string AccountId { get; set; }
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2130,7 +2458,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL (e.g., https://mcp.newrelic.com/mcp/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2164,7 +2492,7 @@ public string[] Tools { get; set; }
 
 List of MCP tools available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2204,7 +2532,7 @@ public string Description { get; set; }
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -2218,7 +2546,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2232,7 +2560,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2246,7 +2574,7 @@ public string Name { get; set; }
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2284,7 +2612,7 @@ public string CustomerEmail { get; set; }
 
 Email to be used in PagerDuty API header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
 
 ---
 
@@ -2298,7 +2626,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2312,7 +2640,141 @@ public string[] Services { get; set; }
 
 List of PagerDuty service IDs available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+
+---
+
+### DevopsagentAssociationConfigurationReleaseManagement <a name="DevopsagentAssociationConfigurationReleaseManagement" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationConfigurationReleaseManagement {
+    string Name = null,
+    DevopsagentAssociationConfigurationReleaseManagementNetworkAccess NetworkAccess = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.property.name">Name</a></code> | <code>string</code> | The name for this release management environment. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.property.networkAccess">NetworkAccess</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a></code> | Specifies how AWS DevOps Agent reaches your application using this release management environment. |
+
+---
+
+##### `Name`<sup>Optional</sup> <a name="Name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.property.name"></a>
+
+```csharp
+public string Name { get; set; }
+```
+
+- *Type:* string
+
+The name for this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+
+---
+
+##### `NetworkAccess`<sup>Optional</sup> <a name="NetworkAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.property.networkAccess"></a>
+
+```csharp
+public DevopsagentAssociationConfigurationReleaseManagementNetworkAccess NetworkAccess { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a>
+
+Specifies how AWS DevOps Agent reaches your application using this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#network_access DevopsagentAssociation#network_access}
+
+---
+
+### DevopsagentAssociationConfigurationReleaseManagementNetworkAccess <a name="DevopsagentAssociationConfigurationReleaseManagementNetworkAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationConfigurationReleaseManagementNetworkAccess {
+    DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess PrivateAccess = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess.property.privateAccess">PrivateAccess</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a></code> | Private network access to your application inside a VPC, reached through a private connection. |
+
+---
+
+##### `PrivateAccess`<sup>Optional</sup> <a name="PrivateAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess.property.privateAccess"></a>
+
+```csharp
+public DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess PrivateAccess { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a>
+
+Private network access to your application inside a VPC, reached through a private connection.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#private_access DevopsagentAssociation#private_access}
+
+---
+
+### DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess <a name="DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess {
+    string PrivateConnectionName = null,
+    string RuntimeRoleArn = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.property.privateConnectionName">PrivateConnectionName</a></code> | <code>string</code> | Name of the private connection that supplies the VPC configuration for this release management environment. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.property.runtimeRoleArn">RuntimeRoleArn</a></code> | <code>string</code> | Role ARN that AWS DevOps Agent assumes at runtime to connect to your VPC. |
+
+---
+
+##### `PrivateConnectionName`<sup>Optional</sup> <a name="PrivateConnectionName" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.property.privateConnectionName"></a>
+
+```csharp
+public string PrivateConnectionName { get; set; }
+```
+
+- *Type:* string
+
+Name of the private connection that supplies the VPC configuration for this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#private_connection_name DevopsagentAssociation#private_connection_name}
+
+---
+
+##### `RuntimeRoleArn`<sup>Optional</sup> <a name="RuntimeRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.property.runtimeRoleArn"></a>
+
+```csharp
+public string RuntimeRoleArn { get; set; }
+```
+
+- *Type:* string
+
+Role ARN that AWS DevOps Agent assumes at runtime to connect to your VPC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#runtime_role_arn DevopsagentAssociation#runtime_role_arn}
 
 ---
 
@@ -2348,7 +2810,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2362,7 +2824,7 @@ public string InstanceId { get; set; }
 
 ServiceNow instance ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
 
 ---
 
@@ -2404,7 +2866,7 @@ Optional bidirectional communication configuration.
 
 Supply this configuration and set Enabled to true so you can interact with the agent directly from Slack
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
 
 ---
 
@@ -2418,7 +2880,7 @@ public DevopsagentAssociationConfigurationSlackTransmissionTarget TransmissionTa
 
 Transmission targets for agent notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
 
 ---
 
@@ -2432,7 +2894,7 @@ public string WorkspaceId { get; set; }
 
 Associated Slack workspace ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
 
 ---
 
@@ -2446,7 +2908,7 @@ public string WorkspaceName { get; set; }
 
 Associated Slack workspace name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
 
 ---
 
@@ -2484,7 +2946,7 @@ Whether bidirectional communication is enabled for this association.
 
 When set to true, you can mention the agent in a configured Slack channel and it responds in that channel. When omitted or set to false, the agent ignores mentions and only sends notifications
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
 
 ---
 
@@ -2498,7 +2960,7 @@ public string RoleArn { get; set; }
 
 IAM role ARN that AWS DevOps Agent assumes to exchange messages with your Slack workspace on behalf of this association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
 
 ---
 
@@ -2532,7 +2994,7 @@ public DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentRespons
 
 Destination for IncidentResponse agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
 
 ---
 
@@ -2568,7 +3030,7 @@ public string ChannelId { get; set; }
 
 Slack channel ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
 
 ---
 
@@ -2582,7 +3044,7 @@ public string ChannelName { get; set; }
 
 Slack channel name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
 
 ---
 
@@ -2626,7 +3088,7 @@ public string AccountId { get; set; }
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2640,7 +3102,7 @@ public string AccountType { get; set; }
 
 Account Type 'source' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -2656,7 +3118,7 @@ The IAM role that AWS DevOps Agent assumes to perform elevated directed actions 
 
 Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -2670,7 +3132,7 @@ public string AssumableRoleArn { get; set; }
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -2684,7 +3146,7 @@ public IResolvable|DevopsagentAssociationConfigurationSourceAwsResources[] Resou
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -2698,7 +3160,7 @@ public IResolvable|DevopsagentAssociationConfigurationSourceAwsTags[] Tags { get
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -2736,7 +3198,7 @@ public string ResourceArn { get; set; }
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -2750,7 +3212,7 @@ public string ResourceMetadata { get; set; }
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -2764,7 +3226,7 @@ public string ResourceType { get; set; }
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -2785,8 +3247,8 @@ new DevopsagentAssociationConfigurationSourceAwsTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -2798,7 +3260,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -2810,11 +3272,1718 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resetEnabled">ResetEnabled</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEnabled` <a name="ResetEnabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resetEnabled"></a>
+
+```csharp
+private void ResetEnabled()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.enabledInput">EnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EnabledInput`<sup>Optional</sup> <a name="EnabledInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.enabledInput"></a>
+
+```csharp
+public bool|IResolvable EnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.enabled"></a>
+
+```csharp
+public bool|IResolvable Enabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a>
+
+---
+
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.putTriggerFilterGroups">PutTriggerFilterGroups</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resetEnabled">ResetEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resetTriggerFilterGroups">ResetTriggerFilterGroups</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutTriggerFilterGroups` <a name="PutTriggerFilterGroups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.putTriggerFilterGroups"></a>
+
+```csharp
+private void PutTriggerFilterGroups(IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.putTriggerFilterGroups.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>[]
+
+---
+
+##### `ResetEnabled` <a name="ResetEnabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resetEnabled"></a>
+
+```csharp
+private void ResetEnabled()
+```
+
+##### `ResetTriggerFilterGroups` <a name="ResetTriggerFilterGroups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resetTriggerFilterGroups"></a>
+
+```csharp
+private void ResetTriggerFilterGroups()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.triggerFilterGroups">TriggerFilterGroups</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.enabledInput">EnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.triggerFilterGroupsInput">TriggerFilterGroupsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TriggerFilterGroups`<sup>Required</sup> <a name="TriggerFilterGroups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.triggerFilterGroups"></a>
+
+```csharp
+public DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList TriggerFilterGroups { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList</a>
+
+---
+
+##### `EnabledInput`<sup>Optional</sup> <a name="EnabledInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.enabledInput"></a>
+
+```csharp
+public bool|IResolvable EnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `TriggerFilterGroupsInput`<sup>Optional</sup> <a name="TriggerFilterGroupsInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.triggerFilterGroupsInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups[] TriggerFilterGroupsInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>[]
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.enabled"></a>
+
+```csharp
+public bool|IResolvable Enabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a>
+
+---
+
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.get"></a>
+
+```csharp
+private DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>[]
+
+---
+
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.putTargetBranches">PutTargetBranches</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resetEvents">ResetEvents</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resetTargetBranches">ResetTargetBranches</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutTargetBranches` <a name="PutTargetBranches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.putTargetBranches"></a>
+
+```csharp
+private void PutTargetBranches(DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.putTargetBranches.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a>
+
+---
+
+##### `ResetEvents` <a name="ResetEvents" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resetEvents"></a>
+
+```csharp
+private void ResetEvents()
+```
+
+##### `ResetTargetBranches` <a name="ResetTargetBranches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resetTargetBranches"></a>
+
+```csharp
+private void ResetTargetBranches()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.targetBranches">TargetBranches</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.eventsInput">EventsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.targetBranchesInput">TargetBranchesInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.events">Events</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TargetBranches`<sup>Required</sup> <a name="TargetBranches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.targetBranches"></a>
+
+```csharp
+public DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference TargetBranches { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference</a>
+
+---
+
+##### `EventsInput`<sup>Optional</sup> <a name="EventsInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.eventsInput"></a>
+
+```csharp
+public string[] EventsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `TargetBranchesInput`<sup>Optional</sup> <a name="TargetBranchesInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.targetBranchesInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches TargetBranchesInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a>
+
+---
+
+##### `Events`<sup>Required</sup> <a name="Events" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.events"></a>
+
+```csharp
+public string[] Events { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>
+
+---
+
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resetPatterns">ResetPatterns</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetPatterns` <a name="ResetPatterns" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resetPatterns"></a>
+
+```csharp
+private void ResetPatterns()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.patternsInput">PatternsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.patterns">Patterns</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `PatternsInput`<sup>Optional</sup> <a name="PatternsInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.patternsInput"></a>
+
+```csharp
+public string[] PatternsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `Patterns`<sup>Required</sup> <a name="Patterns" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.patterns"></a>
+
+```csharp
+public string[] Patterns { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a>
+
+---
+
+
+### DevopsagentAssociationCapabilitiesOutputReference <a name="DevopsagentAssociationCapabilitiesOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationCapabilitiesOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysis">PutCodeChangeRiskAnalysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysisAutomatedTesting">PutCodeChangeRiskAnalysisAutomatedTesting</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resetCodeChangeRiskAnalysis">ResetCodeChangeRiskAnalysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resetCodeChangeRiskAnalysisAutomatedTesting">ResetCodeChangeRiskAnalysisAutomatedTesting</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutCodeChangeRiskAnalysis` <a name="PutCodeChangeRiskAnalysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysis"></a>
+
+```csharp
+private void PutCodeChangeRiskAnalysis(DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysis.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a>
+
+---
+
+##### `PutCodeChangeRiskAnalysisAutomatedTesting` <a name="PutCodeChangeRiskAnalysisAutomatedTesting" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysisAutomatedTesting"></a>
+
+```csharp
+private void PutCodeChangeRiskAnalysisAutomatedTesting(DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysisAutomatedTesting.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a>
+
+---
+
+##### `ResetCodeChangeRiskAnalysis` <a name="ResetCodeChangeRiskAnalysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resetCodeChangeRiskAnalysis"></a>
+
+```csharp
+private void ResetCodeChangeRiskAnalysis()
+```
+
+##### `ResetCodeChangeRiskAnalysisAutomatedTesting` <a name="ResetCodeChangeRiskAnalysisAutomatedTesting" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resetCodeChangeRiskAnalysisAutomatedTesting"></a>
+
+```csharp
+private void ResetCodeChangeRiskAnalysisAutomatedTesting()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysis">CodeChangeRiskAnalysis</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisAutomatedTesting">CodeChangeRiskAnalysisAutomatedTesting</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisAutomatedTestingInput">CodeChangeRiskAnalysisAutomatedTestingInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisInput">CodeChangeRiskAnalysisInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `CodeChangeRiskAnalysis`<sup>Required</sup> <a name="CodeChangeRiskAnalysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysis"></a>
+
+```csharp
+public DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference CodeChangeRiskAnalysis { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference</a>
+
+---
+
+##### `CodeChangeRiskAnalysisAutomatedTesting`<sup>Required</sup> <a name="CodeChangeRiskAnalysisAutomatedTesting" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisAutomatedTesting"></a>
+
+```csharp
+public DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference CodeChangeRiskAnalysisAutomatedTesting { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference</a>
+
+---
+
+##### `CodeChangeRiskAnalysisAutomatedTestingInput`<sup>Optional</sup> <a name="CodeChangeRiskAnalysisAutomatedTestingInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisAutomatedTestingInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting CodeChangeRiskAnalysisAutomatedTestingInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a>
+
+---
+
+##### `CodeChangeRiskAnalysisInput`<sup>Optional</sup> <a name="CodeChangeRiskAnalysisInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis CodeChangeRiskAnalysisInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationCapabilities InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a>
+
+---
+
 
 ### DevopsagentAssociationConfigurationAwsOutputReference <a name="DevopsagentAssociationConfigurationAwsOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference"></a>
 
@@ -5208,6 +7377,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetOwner">ResetOwner</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetOwnerType">ResetOwnerType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetReleaseManagementAssociationId">ResetReleaseManagementAssociationId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetRepoId">ResetRepoId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetRepoName">ResetRepoName</a></code> | *No description.* |
 
@@ -5375,6 +7545,12 @@ private void ResetOwner()
 private void ResetOwnerType()
 ```
 
+##### `ResetReleaseManagementAssociationId` <a name="ResetReleaseManagementAssociationId" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetReleaseManagementAssociationId"></a>
+
+```csharp
+private void ResetReleaseManagementAssociationId()
+```
+
 ##### `ResetRepoId` <a name="ResetRepoId" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetRepoId"></a>
 
 ```csharp
@@ -5396,10 +7572,12 @@ private void ResetRepoName()
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.ownerInput">OwnerInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.ownerTypeInput">OwnerTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.releaseManagementAssociationIdInput">ReleaseManagementAssociationIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoIdInput">RepoIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoNameInput">RepoNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.owner">Owner</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.ownerType">OwnerType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.releaseManagementAssociationId">ReleaseManagementAssociationId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoId">RepoId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoName">RepoName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub">DevopsagentAssociationConfigurationGitHub</a></code> | *No description.* |
@@ -5450,6 +7628,16 @@ public string OwnerTypeInput { get; }
 
 ---
 
+##### `ReleaseManagementAssociationIdInput`<sup>Optional</sup> <a name="ReleaseManagementAssociationIdInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.releaseManagementAssociationIdInput"></a>
+
+```csharp
+public string ReleaseManagementAssociationIdInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `RepoIdInput`<sup>Optional</sup> <a name="RepoIdInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoIdInput"></a>
 
 ```csharp
@@ -5484,6 +7672,16 @@ public string Owner { get; }
 
 ```csharp
 public string OwnerType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ReleaseManagementAssociationId`<sup>Required</sup> <a name="ReleaseManagementAssociationId" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.releaseManagementAssociationId"></a>
+
+```csharp
+public string ReleaseManagementAssociationId { get; }
 ```
 
 - *Type:* string
@@ -5575,6 +7773,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetInstanceIdentifier">ResetInstanceIdentifier</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetProjectId">ResetProjectId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetProjectPath">ResetProjectPath</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetReleaseManagementAssociationId">ResetReleaseManagementAssociationId</a></code> | *No description.* |
 
 ---
 
@@ -5752,6 +7951,12 @@ private void ResetProjectId()
 private void ResetProjectPath()
 ```
 
+##### `ResetReleaseManagementAssociationId` <a name="ResetReleaseManagementAssociationId" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetReleaseManagementAssociationId"></a>
+
+```csharp
+private void ResetReleaseManagementAssociationId()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -5763,10 +7968,12 @@ private void ResetProjectPath()
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.instanceIdentifierInput">InstanceIdentifierInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.projectIdInput">ProjectIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.projectPathInput">ProjectPathInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.releaseManagementAssociationIdInput">ReleaseManagementAssociationIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.enableWebhookUpdates">EnableWebhookUpdates</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.instanceIdentifier">InstanceIdentifier</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.projectId">ProjectId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.projectPath">ProjectPath</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.releaseManagementAssociationId">ReleaseManagementAssociationId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab">DevopsagentAssociationConfigurationGitLab</a></code> | *No description.* |
 
 ---
@@ -5835,6 +8042,16 @@ public string ProjectPathInput { get; }
 
 ---
 
+##### `ReleaseManagementAssociationIdInput`<sup>Optional</sup> <a name="ReleaseManagementAssociationIdInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.releaseManagementAssociationIdInput"></a>
+
+```csharp
+public string ReleaseManagementAssociationIdInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `EnableWebhookUpdates`<sup>Required</sup> <a name="EnableWebhookUpdates" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.enableWebhookUpdates"></a>
 
 ```csharp
@@ -5869,6 +8086,16 @@ public string ProjectId { get; }
 
 ```csharp
 public string ProjectPath { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ReleaseManagementAssociationId`<sup>Required</sup> <a name="ReleaseManagementAssociationId" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.releaseManagementAssociationId"></a>
+
+```csharp
+public string ReleaseManagementAssociationId { get; }
 ```
 
 - *Type:* string
@@ -8052,6 +10279,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putMcpServerSigV4">PutMcpServerSigV4</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putMcpServerSplunk">PutMcpServerSplunk</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putPagerDuty">PutPagerDuty</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putReleaseManagement">PutReleaseManagement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putServiceNow">PutServiceNow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putSlack">PutSlack</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putSourceAws">PutSourceAws</a></code> | *No description.* |
@@ -8068,6 +10296,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetMcpServerSigV4">ResetMcpServerSigV4</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetMcpServerSplunk">ResetMcpServerSplunk</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetPagerDuty">ResetPagerDuty</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetReleaseManagement">ResetReleaseManagement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetServiceNow">ResetServiceNow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetSlack">ResetSlack</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetSourceAws">ResetSourceAws</a></code> | *No description.* |
@@ -8380,6 +10609,18 @@ private void PutPagerDuty(DevopsagentAssociationConfigurationPagerDuty Value)
 
 ---
 
+##### `PutReleaseManagement` <a name="PutReleaseManagement" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putReleaseManagement"></a>
+
+```csharp
+private void PutReleaseManagement(DevopsagentAssociationConfigurationReleaseManagement Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putReleaseManagement.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a>
+
+---
+
 ##### `PutServiceNow` <a name="PutServiceNow" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putServiceNow"></a>
 
 ```csharp
@@ -8494,6 +10735,12 @@ private void ResetMcpServerSplunk()
 private void ResetPagerDuty()
 ```
 
+##### `ResetReleaseManagement` <a name="ResetReleaseManagement" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetReleaseManagement"></a>
+
+```csharp
+private void ResetReleaseManagement()
+```
+
 ##### `ResetServiceNow` <a name="ResetServiceNow" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetServiceNow"></a>
 
 ```csharp
@@ -8532,6 +10779,7 @@ private void ResetSourceAws()
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.mcpServerSigV4">McpServerSigV4</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4OutputReference">DevopsagentAssociationConfigurationMcpServerSigV4OutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.mcpServerSplunk">McpServerSplunk</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunkOutputReference">DevopsagentAssociationConfigurationMcpServerSplunkOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.pagerDuty">PagerDuty</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDutyOutputReference">DevopsagentAssociationConfigurationPagerDutyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.releaseManagement">ReleaseManagement</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference">DevopsagentAssociationConfigurationReleaseManagementOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.serviceNow">ServiceNow</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNowOutputReference">DevopsagentAssociationConfigurationServiceNowOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.slack">Slack</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference">DevopsagentAssociationConfigurationSlackOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.sourceAws">SourceAws</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference">DevopsagentAssociationConfigurationSourceAwsOutputReference</a></code> | *No description.* |
@@ -8548,6 +10796,7 @@ private void ResetSourceAws()
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.mcpServerSigV4Input">McpServerSigV4Input</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4">DevopsagentAssociationConfigurationMcpServerSigV4</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.mcpServerSplunkInput">McpServerSplunkInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunk">DevopsagentAssociationConfigurationMcpServerSplunk</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.pagerDutyInput">PagerDutyInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty">DevopsagentAssociationConfigurationPagerDuty</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.releaseManagementInput">ReleaseManagementInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.serviceNowInput">ServiceNowInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNow">DevopsagentAssociationConfigurationServiceNow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.slackInput">SlackInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack">DevopsagentAssociationConfigurationSlack</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.sourceAwsInput">SourceAwsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws">DevopsagentAssociationConfigurationSourceAws</a></code> | *No description.* |
@@ -8709,6 +10958,16 @@ public DevopsagentAssociationConfigurationPagerDutyOutputReference PagerDuty { g
 
 ---
 
+##### `ReleaseManagement`<sup>Required</sup> <a name="ReleaseManagement" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.releaseManagement"></a>
+
+```csharp
+public DevopsagentAssociationConfigurationReleaseManagementOutputReference ReleaseManagement { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference">DevopsagentAssociationConfigurationReleaseManagementOutputReference</a>
+
+---
+
 ##### `ServiceNow`<sup>Required</sup> <a name="ServiceNow" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.serviceNow"></a>
 
 ```csharp
@@ -8866,6 +11125,16 @@ public IResolvable|DevopsagentAssociationConfigurationPagerDuty PagerDutyInput {
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty">DevopsagentAssociationConfigurationPagerDuty</a>
+
+---
+
+##### `ReleaseManagementInput`<sup>Optional</sup> <a name="ReleaseManagementInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.releaseManagementInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationConfigurationReleaseManagement ReleaseManagementInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a>
 
 ---
 
@@ -9242,6 +11511,924 @@ public IResolvable|DevopsagentAssociationConfigurationPagerDuty InternalValue { 
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty">DevopsagentAssociationConfigurationPagerDuty</a>
+
+---
+
+
+### DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference <a name="DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.putPrivateAccess">PutPrivateAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resetPrivateAccess">ResetPrivateAccess</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutPrivateAccess` <a name="PutPrivateAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.putPrivateAccess"></a>
+
+```csharp
+private void PutPrivateAccess(DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.putPrivateAccess.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a>
+
+---
+
+##### `ResetPrivateAccess` <a name="ResetPrivateAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resetPrivateAccess"></a>
+
+```csharp
+private void ResetPrivateAccess()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.privateAccess">PrivateAccess</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.privateAccessInput">PrivateAccessInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `PrivateAccess`<sup>Required</sup> <a name="PrivateAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.privateAccess"></a>
+
+```csharp
+public DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference PrivateAccess { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference</a>
+
+---
+
+##### `PrivateAccessInput`<sup>Optional</sup> <a name="PrivateAccessInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.privateAccessInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess PrivateAccessInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationConfigurationReleaseManagementNetworkAccess InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a>
+
+---
+
+
+### DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference <a name="DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resetPrivateConnectionName">ResetPrivateConnectionName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resetRuntimeRoleArn">ResetRuntimeRoleArn</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetPrivateConnectionName` <a name="ResetPrivateConnectionName" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resetPrivateConnectionName"></a>
+
+```csharp
+private void ResetPrivateConnectionName()
+```
+
+##### `ResetRuntimeRoleArn` <a name="ResetRuntimeRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resetRuntimeRoleArn"></a>
+
+```csharp
+private void ResetRuntimeRoleArn()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.privateConnectionNameInput">PrivateConnectionNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.runtimeRoleArnInput">RuntimeRoleArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.privateConnectionName">PrivateConnectionName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.runtimeRoleArn">RuntimeRoleArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `PrivateConnectionNameInput`<sup>Optional</sup> <a name="PrivateConnectionNameInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.privateConnectionNameInput"></a>
+
+```csharp
+public string PrivateConnectionNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RuntimeRoleArnInput`<sup>Optional</sup> <a name="RuntimeRoleArnInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.runtimeRoleArnInput"></a>
+
+```csharp
+public string RuntimeRoleArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `PrivateConnectionName`<sup>Required</sup> <a name="PrivateConnectionName" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.privateConnectionName"></a>
+
+```csharp
+public string PrivateConnectionName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RuntimeRoleArn`<sup>Required</sup> <a name="RuntimeRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.runtimeRoleArn"></a>
+
+```csharp
+public string RuntimeRoleArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a>
+
+---
+
+
+### DevopsagentAssociationConfigurationReleaseManagementOutputReference <a name="DevopsagentAssociationConfigurationReleaseManagementOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationConfigurationReleaseManagementOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.putNetworkAccess">PutNetworkAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resetName">ResetName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resetNetworkAccess">ResetNetworkAccess</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutNetworkAccess` <a name="PutNetworkAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.putNetworkAccess"></a>
+
+```csharp
+private void PutNetworkAccess(DevopsagentAssociationConfigurationReleaseManagementNetworkAccess Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.putNetworkAccess.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a>
+
+---
+
+##### `ResetName` <a name="ResetName" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resetName"></a>
+
+```csharp
+private void ResetName()
+```
+
+##### `ResetNetworkAccess` <a name="ResetNetworkAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resetNetworkAccess"></a>
+
+```csharp
+private void ResetNetworkAccess()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.networkAccess">NetworkAccess</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.networkAccessInput">NetworkAccessInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NetworkAccess`<sup>Required</sup> <a name="NetworkAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.networkAccess"></a>
+
+```csharp
+public DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference NetworkAccess { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference</a>
+
+---
+
+##### `NameInput`<sup>Optional</sup> <a name="NameInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.nameInput"></a>
+
+```csharp
+public string NameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `NetworkAccessInput`<sup>Optional</sup> <a name="NetworkAccessInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.networkAccessInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationConfigurationReleaseManagementNetworkAccess NetworkAccessInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a>
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationConfigurationReleaseManagement InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a>
 
 ---
 

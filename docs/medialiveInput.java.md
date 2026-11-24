@@ -4,7 +4,7 @@
 
 ### MedialiveInput <a name="MedialiveInput" id="@cdktn/provider-awscc.medialiveInput.MedialiveInput"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input awscc_medialive_input}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input awscc_medialive_input}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.medialiveInput.MedialiveInput.Initializer"></a>
 
@@ -134,7 +134,7 @@ Must be unique amongst siblings in the same scope
 
 A list of the destinations of the input (PUSH-type).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Settings for the input devices.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#input_devices MedialiveInput#input_devices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#input_devices MedialiveInput#input_devices}
 
 ---
 
@@ -157,7 +157,7 @@ The location of this input.
 AWS, for an input existing in the AWS Cloud, On-Prem for
 an input in a customer network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#input_network_location MedialiveInput#input_network_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#input_network_location MedialiveInput#input_network_location}
 
 ---
 
@@ -167,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of security groups referenced by IDs to attach to the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#input_security_groups MedialiveInput#input_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#input_security_groups MedialiveInput#input_security_groups}
 
 ---
 
@@ -177,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of MediaConnect Flows for this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#media_connect_flows MedialiveInput#media_connect_flows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#media_connect_flows MedialiveInput#media_connect_flows}
 
 ---
 
@@ -187,7 +187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Multicast Input settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#multicast_settings MedialiveInput#multicast_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#multicast_settings MedialiveInput#multicast_settings}
 
 ---
 
@@ -197,7 +197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The user-assigned name (This is a mutable value).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#name MedialiveInput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#name MedialiveInput#name}
 
 ---
 
@@ -207,7 +207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the role this input assumes during and after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#role_arn MedialiveInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#role_arn MedialiveInput#role_arn}
 
 ---
 
@@ -217,7 +217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Information about the MediaConnect Router association for this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#router_settings MedialiveInput#router_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#router_settings MedialiveInput#router_settings}
 
 ---
 
@@ -227,7 +227,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SDI Sources for this Input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sdi_sources MedialiveInput#sdi_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sdi_sources MedialiveInput#sdi_sources}
 
 ---
 
@@ -237,7 +237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Include this parameter if the input is a SMPTE 2110 input, to identify the stream sources for this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#smpte_2110_receiver_group_settings MedialiveInput#smpte_2110_receiver_group_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#smpte_2110_receiver_group_settings MedialiveInput#smpte_2110_receiver_group_settings}
 
 ---
 
@@ -247,7 +247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of the sources of the input (PULL-type).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sources MedialiveInput#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sources MedialiveInput#sources}
 
 ---
 
@@ -257,7 +257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The settings associated with an SRT input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#srt_settings MedialiveInput#srt_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#srt_settings MedialiveInput#srt_settings}
 
 ---
 
@@ -267,7 +267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#tags MedialiveInput#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#tags MedialiveInput#tags}
 
 ---
 
@@ -277,7 +277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The different types of inputs that AWS Elemental MediaLive supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#type MedialiveInput#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#type MedialiveInput#type}
 
 ---
 
@@ -291,7 +291,7 @@ When this property is specified, the input destination addresses will be created
 This property requires setting the roleArn property on Input creation.
 Not compatible with the inputSecurityGroups property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#vpc MedialiveInput#vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#vpc MedialiveInput#vpc}
 
 ---
 
@@ -969,7 +969,7 @@ The construct id used in the generated config for the MedialiveInput to import.
 
 The id of the existing MedialiveInput that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1781,7 +1781,7 @@ public IResolvable|java.util.List<MedialiveInputDestinations> getDestinations();
 
 A list of the destinations of the input (PUSH-type).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
 
 ---
 
@@ -1795,7 +1795,7 @@ public IResolvable|java.util.List<MedialiveInputInputDevices> getInputDevices();
 
 Settings for the input devices.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#input_devices MedialiveInput#input_devices}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#input_devices MedialiveInput#input_devices}
 
 ---
 
@@ -1812,7 +1812,7 @@ The location of this input.
 AWS, for an input existing in the AWS Cloud, On-Prem for
 an input in a customer network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#input_network_location MedialiveInput#input_network_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#input_network_location MedialiveInput#input_network_location}
 
 ---
 
@@ -1826,7 +1826,7 @@ public java.util.List<java.lang.String> getInputSecurityGroups();
 
 A list of security groups referenced by IDs to attach to the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#input_security_groups MedialiveInput#input_security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#input_security_groups MedialiveInput#input_security_groups}
 
 ---
 
@@ -1840,7 +1840,7 @@ public IResolvable|java.util.List<MedialiveInputMediaConnectFlows> getMediaConne
 
 A list of MediaConnect Flows for this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#media_connect_flows MedialiveInput#media_connect_flows}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#media_connect_flows MedialiveInput#media_connect_flows}
 
 ---
 
@@ -1854,7 +1854,7 @@ public MedialiveInputMulticastSettings getMulticastSettings();
 
 Multicast Input settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#multicast_settings MedialiveInput#multicast_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#multicast_settings MedialiveInput#multicast_settings}
 
 ---
 
@@ -1868,7 +1868,7 @@ public java.lang.String getName();
 
 The user-assigned name (This is a mutable value).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#name MedialiveInput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#name MedialiveInput#name}
 
 ---
 
@@ -1882,7 +1882,7 @@ public java.lang.String getRoleArn();
 
 The Amazon Resource Name (ARN) of the role this input assumes during and after creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#role_arn MedialiveInput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#role_arn MedialiveInput#role_arn}
 
 ---
 
@@ -1896,7 +1896,7 @@ public MedialiveInputRouterSettings getRouterSettings();
 
 Information about the MediaConnect Router association for this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#router_settings MedialiveInput#router_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#router_settings MedialiveInput#router_settings}
 
 ---
 
@@ -1910,7 +1910,7 @@ public java.util.List<java.lang.String> getSdiSources();
 
 SDI Sources for this Input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sdi_sources MedialiveInput#sdi_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sdi_sources MedialiveInput#sdi_sources}
 
 ---
 
@@ -1924,7 +1924,7 @@ public MedialiveInputSmpte2110ReceiverGroupSettings getSmpte2110ReceiverGroupSet
 
 Include this parameter if the input is a SMPTE 2110 input, to identify the stream sources for this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#smpte_2110_receiver_group_settings MedialiveInput#smpte_2110_receiver_group_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#smpte_2110_receiver_group_settings MedialiveInput#smpte_2110_receiver_group_settings}
 
 ---
 
@@ -1938,7 +1938,7 @@ public IResolvable|java.util.List<MedialiveInputSources> getSources();
 
 A list of the sources of the input (PULL-type).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sources MedialiveInput#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sources MedialiveInput#sources}
 
 ---
 
@@ -1952,7 +1952,7 @@ public MedialiveInputSrtSettings getSrtSettings();
 
 The settings associated with an SRT input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#srt_settings MedialiveInput#srt_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#srt_settings MedialiveInput#srt_settings}
 
 ---
 
@@ -1966,7 +1966,7 @@ public java.util.Map<java.lang.String, java.lang.String> getTags();
 
 A collection of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#tags MedialiveInput#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#tags MedialiveInput#tags}
 
 ---
 
@@ -1980,7 +1980,7 @@ public java.lang.String getType();
 
 The different types of inputs that AWS Elemental MediaLive supports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#type MedialiveInput#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#type MedialiveInput#type}
 
 ---
 
@@ -1998,7 +1998,7 @@ When this property is specified, the input destination addresses will be created
 This property requires setting the roleArn property on Input creation.
 Not compatible with the inputSecurityGroups property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#vpc MedialiveInput#vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#vpc MedialiveInput#vpc}
 
 ---
 
@@ -2046,7 +2046,7 @@ public java.lang.String getIp();
 
 The system-generated static IP address of endpoint. It remains fixed for the lifetime of the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#ip MedialiveInput#ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#ip MedialiveInput#ip}
 
 ---
 
@@ -2060,7 +2060,7 @@ public java.lang.String getNetwork();
 
 The ID of the attached network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#network MedialiveInput#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#network MedialiveInput#network}
 
 ---
 
@@ -2074,7 +2074,7 @@ public IResolvable|java.util.List<MedialiveInputDestinationsNetworkRoutes> getNe
 
 If the push input has an input location of ON-PREM it's a requirement to specify what the route of the input is going to be on the customer local network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#network_routes MedialiveInput#network_routes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#network_routes MedialiveInput#network_routes}
 
 ---
 
@@ -2088,7 +2088,7 @@ public java.lang.String getPort();
 
 The port number for the input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#port MedialiveInput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#port MedialiveInput#port}
 
 ---
 
@@ -2102,7 +2102,7 @@ public java.lang.String getStaticIpAddress();
 
 The static IP address for the input destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#static_ip_address MedialiveInput#static_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#static_ip_address MedialiveInput#static_ip_address}
 
 ---
 
@@ -2116,7 +2116,7 @@ public java.lang.String getStreamName();
 
 The stream name for the input destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#stream_name MedialiveInput#stream_name}
 
 ---
 
@@ -2130,7 +2130,7 @@ public java.lang.String getUrl();
 
 This represents the endpoint that the customer stream will be pushed to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#url MedialiveInput#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#url MedialiveInput#url}
 
 ---
 
@@ -2144,7 +2144,7 @@ public MedialiveInputDestinationsVpc getVpc();
 
 The properties for a VPC type input destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#vpc MedialiveInput#vpc}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#vpc MedialiveInput#vpc}
 
 ---
 
@@ -2180,7 +2180,7 @@ public java.lang.String getCidr();
 
 The CIDR of the route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#cidr MedialiveInput#cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#cidr MedialiveInput#cidr}
 
 ---
 
@@ -2194,7 +2194,7 @@ public java.lang.String getGateway();
 
 An optional gateway for the route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#gateway MedialiveInput#gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#gateway MedialiveInput#gateway}
 
 ---
 
@@ -2230,7 +2230,7 @@ public java.lang.String getAvailabilityZone();
 
 The availability zone of the Input destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#availability_zone MedialiveInput#availability_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#availability_zone MedialiveInput#availability_zone}
 
 ---
 
@@ -2244,7 +2244,7 @@ public java.lang.String getNetworkInterfaceId();
 
 The network interface ID of the Input destination in the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#network_interface_id MedialiveInput#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#network_interface_id MedialiveInput#network_interface_id}
 
 ---
 
@@ -2278,7 +2278,7 @@ public java.lang.String getId();
 
 The unique ID for the device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#id MedialiveInput#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#id MedialiveInput#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2315,7 +2315,7 @@ public java.lang.String getFlowArn();
 
 The unique ARN of the MediaConnect Flow being used as a source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#flow_arn MedialiveInput#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#flow_arn MedialiveInput#flow_arn}
 
 ---
 
@@ -2349,7 +2349,7 @@ public IResolvable|java.util.List<MedialiveInputMulticastSettingsSources> getSou
 
 Placeholder documentation for __listOfMulticastSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sources MedialiveInput#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sources MedialiveInput#sources}
 
 ---
 
@@ -2385,7 +2385,7 @@ public java.lang.String getSourceIp();
 
 This represents the ip address of the device sending the multicast stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#source_ip MedialiveInput#source_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#source_ip MedialiveInput#source_ip}
 
 ---
 
@@ -2399,7 +2399,7 @@ public java.lang.String getUrl();
 
 This represents the customer's source URL where multicast stream is pulled from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#url MedialiveInput#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#url MedialiveInput#url}
 
 ---
 
@@ -2437,7 +2437,7 @@ public IResolvable|java.util.List<MedialiveInputRouterSettingsDestinations> getD
 
 MediaConnect Router destinations associated with this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#destinations MedialiveInput#destinations}
 
 ---
 
@@ -2451,7 +2451,7 @@ public java.lang.String getEncryptionType();
 
 Encryption configuration for the MediaConnect Router association. AUTOMATIC uses a service-managed secret; SECRETS_MANAGER requires SecretArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#encryption_type MedialiveInput#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#encryption_type MedialiveInput#encryption_type}
 
 ---
 
@@ -2465,7 +2465,7 @@ public java.lang.String getSecretArn();
 
 The ARN of the Secrets Manager secret used to encrypt this input. Required when EncryptionType is SECRETS_MANAGER.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#secret_arn MedialiveInput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#secret_arn MedialiveInput#secret_arn}
 
 ---
 
@@ -2501,7 +2501,7 @@ public java.lang.String getAvailabilityZoneName();
 
 The Availability Zone (AZ) name this destination is created in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#availability_zone_name MedialiveInput#availability_zone_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#availability_zone_name MedialiveInput#availability_zone_name}
 
 ---
 
@@ -2515,7 +2515,7 @@ public java.lang.String getRouterOutputArn();
 
 The ARN of the MediaConnect Router output currently connected to this input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#router_output_arn MedialiveInput#router_output_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#router_output_arn MedialiveInput#router_output_arn}
 
 ---
 
@@ -2549,7 +2549,7 @@ public IResolvable|java.util.List<MedialiveInputSmpte2110ReceiverGroupSettingsSm
 
 Placeholder documentation for __listOfSmpte2110ReceiverGroup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#smpte_2110_receiver_groups MedialiveInput#smpte_2110_receiver_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#smpte_2110_receiver_groups MedialiveInput#smpte_2110_receiver_groups}
 
 ---
 
@@ -2583,7 +2583,7 @@ public MedialiveInputSmpte2110ReceiverGroupSettingsSmpte2110ReceiverGroupsSdpSet
 
 The single Smpte2110ReceiverGroupSdpSettings that identify the video, audio, and ancillary streams for this receiver group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sdp_settings MedialiveInput#sdp_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sdp_settings MedialiveInput#sdp_settings}
 
 ---
 
@@ -2624,7 +2624,7 @@ A list of InputSdpLocations.
 Each item in the list specifies the SDP file and index for one ancillary SMPTE 2110 stream.
 Each stream encapsulates one captions stream (out of any number you can include) or the single SCTE 35 stream that you can include.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#ancillary_sdps MedialiveInput#ancillary_sdps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#ancillary_sdps MedialiveInput#ancillary_sdps}
 
 ---
 
@@ -2640,7 +2640,7 @@ A list of InputSdpLocations.
 
 Each item in the list specifies the SDP file and index for one audio SMPTE 2110 stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#audio_sdps MedialiveInput#audio_sdps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#audio_sdps MedialiveInput#audio_sdps}
 
 ---
 
@@ -2654,7 +2654,7 @@ public MedialiveInputSmpte2110ReceiverGroupSettingsSmpte2110ReceiverGroupsSdpSet
 
 The InputSdpLocation that specifies the SDP file and index for the single video SMPTE 2110 stream for this 2110 input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#video_sdp MedialiveInput#video_sdp}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#video_sdp MedialiveInput#video_sdp}
 
 ---
 
@@ -2690,7 +2690,7 @@ public java.lang.Number getMediaIndex();
 
 The index of the media stream in the SDP file for one SMPTE 2110 stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#media_index MedialiveInput#media_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#media_index MedialiveInput#media_index}
 
 ---
 
@@ -2704,7 +2704,7 @@ public java.lang.String getSdpUrl();
 
 The URL of the SDP file for one SMPTE 2110 stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sdp_url MedialiveInput#sdp_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sdp_url MedialiveInput#sdp_url}
 
 ---
 
@@ -2740,7 +2740,7 @@ public java.lang.Number getMediaIndex();
 
 The index of the media stream in the SDP file for one SMPTE 2110 stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#media_index MedialiveInput#media_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#media_index MedialiveInput#media_index}
 
 ---
 
@@ -2754,7 +2754,7 @@ public java.lang.String getSdpUrl();
 
 The URL of the SDP file for one SMPTE 2110 stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sdp_url MedialiveInput#sdp_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sdp_url MedialiveInput#sdp_url}
 
 ---
 
@@ -2790,7 +2790,7 @@ public java.lang.Number getMediaIndex();
 
 The index of the media stream in the SDP file for one SMPTE 2110 stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#media_index MedialiveInput#media_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#media_index MedialiveInput#media_index}
 
 ---
 
@@ -2804,7 +2804,7 @@ public java.lang.String getSdpUrl();
 
 The URL of the SDP file for one SMPTE 2110 stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#sdp_url MedialiveInput#sdp_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#sdp_url MedialiveInput#sdp_url}
 
 ---
 
@@ -2842,7 +2842,7 @@ public java.lang.String getPasswordParam();
 
 The key used to extract the password from EC2 Parameter store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#password_param MedialiveInput#password_param}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#password_param MedialiveInput#password_param}
 
 ---
 
@@ -2856,7 +2856,7 @@ public java.lang.String getUrl();
 
 This represents the customer's source URL where stream is pulled from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#url MedialiveInput#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#url MedialiveInput#url}
 
 ---
 
@@ -2870,7 +2870,7 @@ public java.lang.String getUsername();
 
 The username for the input source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#username MedialiveInput#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#username MedialiveInput#username}
 
 ---
 
@@ -2906,7 +2906,7 @@ public IResolvable|java.util.List<MedialiveInputSrtSettingsSrtCallerSources> get
 
 Placeholder documentation for __listOfSrtCallerSource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#srt_caller_sources MedialiveInput#srt_caller_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#srt_caller_sources MedialiveInput#srt_caller_sources}
 
 ---
 
@@ -2920,7 +2920,7 @@ public MedialiveInputSrtSettingsSrtListenerSettings getSrtListenerSettings();
 
 Settings for an SRT listener input. Configured only when the input uses the SRT_LISTENER input type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#srt_listener_settings MedialiveInput#srt_listener_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#srt_listener_settings MedialiveInput#srt_listener_settings}
 
 ---
 
@@ -2962,7 +2962,7 @@ public MedialiveInputSrtSettingsSrtCallerSourcesDecryption getDecryption();
 
 The decryption settings for the SRT caller source. Present only if the source has decryption enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#decryption MedialiveInput#decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#decryption MedialiveInput#decryption}
 
 ---
 
@@ -2976,7 +2976,7 @@ public java.lang.Number getMinimumLatency();
 
 The preferred latency (in milliseconds) for implementing packet loss and recovery. Packet recovery is a key feature of SRT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#minimum_latency MedialiveInput#minimum_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#minimum_latency MedialiveInput#minimum_latency}
 
 ---
 
@@ -2990,7 +2990,7 @@ public java.lang.String getSrtListenerAddress();
 
 The IP address at the upstream system (the listener) that MediaLive (the caller) connects to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#srt_listener_address MedialiveInput#srt_listener_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#srt_listener_address MedialiveInput#srt_listener_address}
 
 ---
 
@@ -3004,7 +3004,7 @@ public java.lang.String getSrtListenerPort();
 
 The port at the upstream system (the listener) that MediaLive (the caller) connects to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#srt_listener_port MedialiveInput#srt_listener_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#srt_listener_port MedialiveInput#srt_listener_port}
 
 ---
 
@@ -3018,7 +3018,7 @@ public java.lang.String getStreamId();
 
 The stream ID, if the upstream system uses this identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#stream_id MedialiveInput#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#stream_id MedialiveInput#stream_id}
 
 ---
 
@@ -3054,7 +3054,7 @@ public java.lang.String getAlgorithm();
 
 The algorithm used to encrypt content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#algorithm MedialiveInput#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#algorithm MedialiveInput#algorithm}
 
 ---
 
@@ -3070,7 +3070,7 @@ The ARN for the secret in Secrets Manager.
 
 Someone in your organization must create a secret and provide you with its ARN. The secret holds the passphrase that MediaLive uses to decrypt the source content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#passphrase_secret_arn MedialiveInput#passphrase_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#passphrase_secret_arn MedialiveInput#passphrase_secret_arn}
 
 ---
 
@@ -3108,7 +3108,7 @@ public MedialiveInputSrtSettingsSrtListenerSettingsDecryption getDecryption();
 
 The decryption settings for the SRT listener source. Present only if the source has decryption enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#decryption MedialiveInput#decryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#decryption MedialiveInput#decryption}
 
 ---
 
@@ -3122,7 +3122,7 @@ public java.lang.Number getMinimumLatency();
 
 The preferred latency (in milliseconds) for implementing packet loss and recovery. Packet recovery is a key feature of SRT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#minimum_latency MedialiveInput#minimum_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#minimum_latency MedialiveInput#minimum_latency}
 
 ---
 
@@ -3136,7 +3136,7 @@ public java.lang.String getStreamId();
 
 The stream ID, if the upstream system uses this identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#stream_id MedialiveInput#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#stream_id MedialiveInput#stream_id}
 
 ---
 
@@ -3172,7 +3172,7 @@ public java.lang.String getAlgorithm();
 
 The algorithm used to encrypt content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#algorithm MedialiveInput#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#algorithm MedialiveInput#algorithm}
 
 ---
 
@@ -3188,7 +3188,7 @@ The ARN for the secret in Secrets Manager.
 
 Someone in your organization must create a secret and provide you with its ARN. The secret holds the passphrase that MediaLive uses to decrypt the source content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#passphrase_secret_arn MedialiveInput#passphrase_secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#passphrase_secret_arn MedialiveInput#passphrase_secret_arn}
 
 ---
 
@@ -3226,7 +3226,7 @@ A list of up to 5 EC2 VPC security group IDs to attach to the Input VPC network 
 
 Requires subnetIds. If none are specified then the VPC default security group will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#security_group_ids MedialiveInput#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#security_group_ids MedialiveInput#security_group_ids}
 
 ---
 
@@ -3242,7 +3242,7 @@ A list of 2 VPC subnet IDs from the same VPC.
 
 Subnet IDs must be mapped to two unique availability zones (AZ).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/medialive_input#subnet_ids MedialiveInput#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/medialive_input#subnet_ids MedialiveInput#subnet_ids}
 
 ---
 

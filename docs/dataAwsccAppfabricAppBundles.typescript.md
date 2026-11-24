@@ -4,7 +4,7 @@
 
 ### DataAwsccAppfabricAppBundles <a name="DataAwsccAppfabricAppBundles" id="@cdktn/provider-awscc.dataAwsccAppfabricAppBundles.DataAwsccAppfabricAppBundles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appfabric_app_bundles awscc_appfabric_app_bundles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appfabric_app_bundles awscc_appfabric_app_bundles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppfabricAppBundles.DataAwsccAppfabricAppBundles.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppfabricAppBundl
 
 The id of the existing DataAwsccAppfabricAppBundles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appfabric_app_bundles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appfabric_app_bundles#import import section} in the documentation of this resource for the id to use
 
 ---
 

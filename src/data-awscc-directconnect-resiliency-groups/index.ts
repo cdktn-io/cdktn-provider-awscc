@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/directconnect_resiliency_groups
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/directconnect_resiliency_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccDirectconnectResiliencyGroupsConfig extends cdktn.Terr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/directconnect_resiliency_groups awscc_directconnect_resiliency_groups}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/directconnect_resiliency_groups awscc_directconnect_resiliency_groups}
 */
 export class DataAwsccDirectconnectResiliencyGroups extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccDirectconnectResiliencyGroups extends cdktn.TerraformDataS
   * Generates CDKTN code for importing a DataAwsccDirectconnectResiliencyGroups resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDirectconnectResiliencyGroups to import
-  * @param importFromId The id of the existing DataAwsccDirectconnectResiliencyGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/directconnect_resiliency_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDirectconnectResiliencyGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/directconnect_resiliency_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDirectconnectResiliencyGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccDirectconnectResiliencyGroups extends cdktn.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/directconnect_resiliency_groups awscc_directconnect_resiliency_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/directconnect_resiliency_groups awscc_directconnect_resiliency_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccDirectconnectResiliencyGroups extends cdktn.TerraformDataS
       terraformResourceType: 'awscc_directconnect_resiliency_groups',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

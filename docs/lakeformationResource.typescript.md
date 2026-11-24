@@ -4,7 +4,7 @@
 
 ### LakeformationResource <a name="LakeformationResource" id="@cdktn/provider-awscc.lakeformationResource.LakeformationResource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lakeformation_resource awscc_lakeformation_resource}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lakeformation_resource awscc_lakeformation_resource}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lakeformationResource.LakeformationResource.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the LakeformationResource to i
 
 The id of the existing LakeformationResource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lakeformation_resource#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lakeformation_resource#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -946,7 +946,7 @@ public readonly resourceArn: string;
 
 The Amazon Resource Name (ARN) of the Data Source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lakeformation_resource#resource_arn LakeformationResource#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lakeformation_resource#resource_arn LakeformationResource#resource_arn}
 
 ---
 
@@ -960,7 +960,7 @@ public readonly useServiceLinkedRole: boolean | IResolvable;
 
 Designates a trusted caller, an IAM principal, by registering this caller with the Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lakeformation_resource#use_service_linked_role LakeformationResource#use_service_linked_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lakeformation_resource#use_service_linked_role LakeformationResource#use_service_linked_role}
 
 ---
 
@@ -974,7 +974,7 @@ public readonly hybridAccessEnabled: boolean | IResolvable;
 
 Indicates whether the data access of tables pointing to the location can be managed by both Lake Formation permissions as well as Amazon S3 bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lakeformation_resource#hybrid_access_enabled LakeformationResource#hybrid_access_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lakeformation_resource#hybrid_access_enabled LakeformationResource#hybrid_access_enabled}
 
 ---
 
@@ -988,7 +988,7 @@ public readonly roleArn: string;
 
 The IAM role that registered a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lakeformation_resource#role_arn LakeformationResource#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lakeformation_resource#role_arn LakeformationResource#role_arn}
 
 ---
 
@@ -1002,7 +1002,7 @@ public readonly withFederation: boolean | IResolvable;
 
 Allows Lake Formation to assume a role to access tables in a federated database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/lakeformation_resource#with_federation LakeformationResource#with_federation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lakeformation_resource#with_federation LakeformationResource#with_federation}
 
 ---
 

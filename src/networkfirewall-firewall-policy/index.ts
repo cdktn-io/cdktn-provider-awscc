@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,25 +13,25 @@ import * as cdktn from 'cdktn';
 
 export interface NetworkfirewallFirewallPolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#description NetworkfirewallFirewallPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#description NetworkfirewallFirewallPolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#firewall_policy NetworkfirewallFirewallPolicy#firewall_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#firewall_policy NetworkfirewallFirewallPolicy#firewall_policy}
   */
   readonly firewallPolicy: NetworkfirewallFirewallPolicyFirewallPolicy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#firewall_policy_name NetworkfirewallFirewallPolicy#firewall_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#firewall_policy_name NetworkfirewallFirewallPolicy#firewall_policy_name}
   */
   readonly firewallPolicyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#tags NetworkfirewallFirewallPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#tags NetworkfirewallFirewallPolicy#tags}
   */
   readonly tags?: NetworkfirewallFirewallPolicyTags[] | cdktn.IResolvable;
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesRuleVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#definition NetworkfirewallFirewallPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#definition NetworkfirewallFirewallPolicy#definition}
   */
   readonly definition?: string[];
 }
@@ -145,7 +145,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesRuleVaria
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#rule_variables NetworkfirewallFirewallPolicy#rule_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#rule_variables NetworkfirewallFirewallPolicy#rule_variables}
   */
   readonly ruleVariables?: { [key: string]: NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesRuleVariables } | cdktn.IResolvable;
 }
@@ -237,9 +237,467 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesOutputRef
     return this._ruleVariables.internalValue;
   }
 }
+export interface NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRanges {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#address_definition NetworkfirewallFirewallPolicy#address_definition}
+  */
+  readonly addressDefinition?: string;
+}
+
+export function networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesToTerraform(struct?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRanges | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    address_definition: cdktn.stringToTerraform(struct!.addressDefinition),
+  }
+}
+
+
+export function networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesToHclTerraform(struct?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRanges | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    address_definition: {
+      value: cdktn.stringToHclTerraform(struct!.addressDefinition),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRanges | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addressDefinition !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addressDefinition = this._addressDefinition;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRanges | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addressDefinition = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addressDefinition = value.addressDefinition;
+    }
+  }
+
+  // address_definition - computed: true, optional: true, required: false
+  private _addressDefinition?: string; 
+  public get addressDefinition() {
+    return this.getStringAttribute('address_definition');
+  }
+  public set addressDefinition(value: string) {
+    this._addressDefinition = value;
+  }
+  public resetAddressDefinition() {
+    this._addressDefinition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressDefinitionInput() {
+    return this._addressDefinition;
+  }
+}
+
+export class NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesList extends cdktn.ComplexList {
+  public internalValue? : NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRanges[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesOutputReference {
+    return new NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRanges {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#address_definition NetworkfirewallFirewallPolicy#address_definition}
+  */
+  readonly addressDefinition?: string;
+}
+
+export function networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesToTerraform(struct?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRanges | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    address_definition: cdktn.stringToTerraform(struct!.addressDefinition),
+  }
+}
+
+
+export function networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesToHclTerraform(struct?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRanges | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    address_definition: {
+      value: cdktn.stringToHclTerraform(struct!.addressDefinition),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRanges | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._addressDefinition !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.addressDefinition = this._addressDefinition;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRanges | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._addressDefinition = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._addressDefinition = value.addressDefinition;
+    }
+  }
+
+  // address_definition - computed: true, optional: true, required: false
+  private _addressDefinition?: string; 
+  public get addressDefinition() {
+    return this.getStringAttribute('address_definition');
+  }
+  public set addressDefinition(value: string) {
+    this._addressDefinition = value;
+  }
+  public resetAddressDefinition() {
+    this._addressDefinition = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressDefinitionInput() {
+    return this._addressDefinition;
+  }
+}
+
+export class NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesList extends cdktn.ComplexList {
+  public internalValue? : NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRanges[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesOutputReference {
+    return new NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}
+  */
+  readonly action?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#bypass_destination_validation_ip_ranges NetworkfirewallFirewallPolicy#bypass_destination_validation_ip_ranges}
+  */
+  readonly bypassDestinationValidationIpRanges?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRanges[] | cdktn.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#dns_expiry_exception_policy NetworkfirewallFirewallPolicy#dns_expiry_exception_policy}
+  */
+  readonly dnsExpiryExceptionPolicy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#dns_firewall_rule_group_id NetworkfirewallFirewallPolicy#dns_firewall_rule_group_id}
+  */
+  readonly dnsFirewallRuleGroupId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#source_ip_ranges NetworkfirewallFirewallPolicy#source_ip_ranges}
+  */
+  readonly sourceIpRanges?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRanges[] | cdktn.IResolvable;
+}
+
+export function networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationToTerraform(struct?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    action: cdktn.stringToTerraform(struct!.action),
+    bypass_destination_validation_ip_ranges: cdktn.listMapper(networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesToTerraform, false)(struct!.bypassDestinationValidationIpRanges),
+    dns_expiry_exception_policy: cdktn.stringToTerraform(struct!.dnsExpiryExceptionPolicy),
+    dns_firewall_rule_group_id: cdktn.stringToTerraform(struct!.dnsFirewallRuleGroupId),
+    source_ip_ranges: cdktn.listMapper(networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesToTerraform, false)(struct!.sourceIpRanges),
+  }
+}
+
+
+export function networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationToHclTerraform(struct?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    action: {
+      value: cdktn.stringToHclTerraform(struct!.action),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    bypass_destination_validation_ip_ranges: {
+      value: cdktn.listMapperHcl(networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesToHclTerraform, false)(struct!.bypassDestinationValidationIpRanges),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesList",
+    },
+    dns_expiry_exception_policy: {
+      value: cdktn.stringToHclTerraform(struct!.dnsExpiryExceptionPolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dns_firewall_rule_group_id: {
+      value: cdktn.stringToHclTerraform(struct!.dnsFirewallRuleGroupId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_ip_ranges: {
+      value: cdktn.listMapperHcl(networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesToHclTerraform, false)(struct!.sourceIpRanges),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._action !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action;
+    }
+    if (this._bypassDestinationValidationIpRanges?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.bypassDestinationValidationIpRanges = this._bypassDestinationValidationIpRanges?.internalValue;
+    }
+    if (this._dnsExpiryExceptionPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsExpiryExceptionPolicy = this._dnsExpiryExceptionPolicy;
+    }
+    if (this._dnsFirewallRuleGroupId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dnsFirewallRuleGroupId = this._dnsFirewallRuleGroupId;
+    }
+    if (this._sourceIpRanges?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceIpRanges = this._sourceIpRanges?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._action = undefined;
+      this._bypassDestinationValidationIpRanges.internalValue = undefined;
+      this._dnsExpiryExceptionPolicy = undefined;
+      this._dnsFirewallRuleGroupId = undefined;
+      this._sourceIpRanges.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._action = value.action;
+      this._bypassDestinationValidationIpRanges.internalValue = value.bypassDestinationValidationIpRanges;
+      this._dnsExpiryExceptionPolicy = value.dnsExpiryExceptionPolicy;
+      this._dnsFirewallRuleGroupId = value.dnsFirewallRuleGroupId;
+      this._sourceIpRanges.internalValue = value.sourceIpRanges;
+    }
+  }
+
+  // action - computed: true, optional: true, required: false
+  private _action?: string; 
+  public get action() {
+    return this.getStringAttribute('action');
+  }
+  public set action(value: string) {
+    this._action = value;
+  }
+  public resetAction() {
+    this._action = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action;
+  }
+
+  // bypass_destination_validation_ip_ranges - computed: true, optional: true, required: false
+  private _bypassDestinationValidationIpRanges = new NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRangesList(this, "bypass_destination_validation_ip_ranges", false);
+  public get bypassDestinationValidationIpRanges() {
+    return this._bypassDestinationValidationIpRanges;
+  }
+  public putBypassDestinationValidationIpRanges(value: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationBypassDestinationValidationIpRanges[] | cdktn.IResolvable) {
+    this._bypassDestinationValidationIpRanges.internalValue = value;
+  }
+  public resetBypassDestinationValidationIpRanges() {
+    this._bypassDestinationValidationIpRanges.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bypassDestinationValidationIpRangesInput() {
+    return this._bypassDestinationValidationIpRanges.internalValue;
+  }
+
+  // dns_expiry_exception_policy - computed: true, optional: true, required: false
+  private _dnsExpiryExceptionPolicy?: string; 
+  public get dnsExpiryExceptionPolicy() {
+    return this.getStringAttribute('dns_expiry_exception_policy');
+  }
+  public set dnsExpiryExceptionPolicy(value: string) {
+    this._dnsExpiryExceptionPolicy = value;
+  }
+  public resetDnsExpiryExceptionPolicy() {
+    this._dnsExpiryExceptionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsExpiryExceptionPolicyInput() {
+    return this._dnsExpiryExceptionPolicy;
+  }
+
+  // dns_firewall_rule_group_id - computed: true, optional: true, required: false
+  private _dnsFirewallRuleGroupId?: string; 
+  public get dnsFirewallRuleGroupId() {
+    return this.getStringAttribute('dns_firewall_rule_group_id');
+  }
+  public set dnsFirewallRuleGroupId(value: string) {
+    this._dnsFirewallRuleGroupId = value;
+  }
+  public resetDnsFirewallRuleGroupId() {
+    this._dnsFirewallRuleGroupId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsFirewallRuleGroupIdInput() {
+    return this._dnsFirewallRuleGroupId;
+  }
+
+  // source_ip_ranges - computed: true, optional: true, required: false
+  private _sourceIpRanges = new NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRangesList(this, "source_ip_ranges", false);
+  public get sourceIpRanges() {
+    return this._sourceIpRanges;
+  }
+  public putSourceIpRanges(value: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationSourceIpRanges[] | cdktn.IResolvable) {
+    this._sourceIpRanges.internalValue = value;
+  }
+  public resetSourceIpRanges() {
+    this._sourceIpRanges.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceIpRangesInput() {
+    return this._sourceIpRanges.internalValue;
+  }
+}
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsFlowTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#tcp_idle_timeout_seconds NetworkfirewallFirewallPolicy#tcp_idle_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#tcp_idle_timeout_seconds NetworkfirewallFirewallPolicy#tcp_idle_timeout_seconds}
   */
   readonly tcpIdleTimeoutSeconds?: number;
 }
@@ -333,15 +791,15 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsFlo
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#flow_timeouts NetworkfirewallFirewallPolicy#flow_timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#flow_timeouts NetworkfirewallFirewallPolicy#flow_timeouts}
   */
   readonly flowTimeouts?: NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsFlowTimeouts;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#rule_order NetworkfirewallFirewallPolicy#rule_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#rule_order NetworkfirewallFirewallPolicy#rule_order}
   */
   readonly ruleOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#stream_exception_policy NetworkfirewallFirewallPolicy#stream_exception_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#stream_exception_policy NetworkfirewallFirewallPolicy#stream_exception_policy}
   */
   readonly streamExceptionPolicy?: string;
 }
@@ -493,7 +951,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsOut
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferencesOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}
   */
   readonly action?: string;
 }
@@ -587,21 +1045,21 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferen
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#deep_threat_inspection NetworkfirewallFirewallPolicy#deep_threat_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#deep_threat_inspection NetworkfirewallFirewallPolicy#deep_threat_inspection}
   */
   readonly deepThreatInspection?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#override NetworkfirewallFirewallPolicy#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#override NetworkfirewallFirewallPolicy#override}
   */
   readonly override?: NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferencesOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#priority NetworkfirewallFirewallPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#priority NetworkfirewallFirewallPolicy#priority}
   */
   readonly priority?: number;
   /**
   * A resource ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#resource_arn NetworkfirewallFirewallPolicy#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#resource_arn NetworkfirewallFirewallPolicy#resource_arn}
   */
   readonly resourceArn?: string;
 }
@@ -804,7 +1262,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferen
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsActionDefinitionPublishMetricActionDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#value NetworkfirewallFirewallPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#value NetworkfirewallFirewallPolicy#value}
   */
   readonly value?: string;
 }
@@ -920,7 +1378,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsAc
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsActionDefinitionPublishMetricAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#dimensions NetworkfirewallFirewallPolicy#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#dimensions NetworkfirewallFirewallPolicy#dimensions}
   */
   readonly dimensions?: NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsActionDefinitionPublishMetricActionDimensions[] | cdktn.IResolvable;
 }
@@ -1014,7 +1472,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsAc
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsActionDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#publish_metric_action NetworkfirewallFirewallPolicy#publish_metric_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#publish_metric_action NetworkfirewallFirewallPolicy#publish_metric_action}
   */
   readonly publishMetricAction?: NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsActionDefinitionPublishMetricAction;
 }
@@ -1108,11 +1566,11 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsAc
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#action_definition NetworkfirewallFirewallPolicy#action_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#action_definition NetworkfirewallFirewallPolicy#action_definition}
   */
   readonly actionDefinition?: NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsActionDefinition;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#action_name NetworkfirewallFirewallPolicy#action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#action_name NetworkfirewallFirewallPolicy#action_name}
   */
   readonly actionName?: string;
 }
@@ -1257,13 +1715,13 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsLi
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicyStatelessRuleGroupReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#priority NetworkfirewallFirewallPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#priority NetworkfirewallFirewallPolicy#priority}
   */
   readonly priority?: number;
   /**
   * A resource ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#resource_arn NetworkfirewallFirewallPolicy#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#resource_arn NetworkfirewallFirewallPolicy#resource_arn}
   */
   readonly resourceArn?: string;
 }
@@ -1408,45 +1866,49 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyStatelessRuleGroupRefere
 }
 export interface NetworkfirewallFirewallPolicyFirewallPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#enable_tls_session_holding NetworkfirewallFirewallPolicy#enable_tls_session_holding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#enable_tls_session_holding NetworkfirewallFirewallPolicy#enable_tls_session_holding}
   */
   readonly enableTlsSessionHolding?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#policy_variables NetworkfirewallFirewallPolicy#policy_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#policy_variables NetworkfirewallFirewallPolicy#policy_variables}
   */
   readonly policyVariables?: NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#stateful_default_actions NetworkfirewallFirewallPolicy#stateful_default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#route_53_resolved_ip_validation NetworkfirewallFirewallPolicy#route_53_resolved_ip_validation}
+  */
+  readonly route53ResolvedIpValidation?: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#stateful_default_actions NetworkfirewallFirewallPolicy#stateful_default_actions}
   */
   readonly statefulDefaultActions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#stateful_engine_options NetworkfirewallFirewallPolicy#stateful_engine_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#stateful_engine_options NetworkfirewallFirewallPolicy#stateful_engine_options}
   */
   readonly statefulEngineOptions?: NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#stateful_rule_group_references NetworkfirewallFirewallPolicy#stateful_rule_group_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#stateful_rule_group_references NetworkfirewallFirewallPolicy#stateful_rule_group_references}
   */
   readonly statefulRuleGroupReferences?: NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferences[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#stateless_custom_actions NetworkfirewallFirewallPolicy#stateless_custom_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#stateless_custom_actions NetworkfirewallFirewallPolicy#stateless_custom_actions}
   */
   readonly statelessCustomActions?: NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActions[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#stateless_default_actions NetworkfirewallFirewallPolicy#stateless_default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#stateless_default_actions NetworkfirewallFirewallPolicy#stateless_default_actions}
   */
   readonly statelessDefaultActions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#stateless_fragment_default_actions NetworkfirewallFirewallPolicy#stateless_fragment_default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#stateless_fragment_default_actions NetworkfirewallFirewallPolicy#stateless_fragment_default_actions}
   */
   readonly statelessFragmentDefaultActions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#stateless_rule_group_references NetworkfirewallFirewallPolicy#stateless_rule_group_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#stateless_rule_group_references NetworkfirewallFirewallPolicy#stateless_rule_group_references}
   */
   readonly statelessRuleGroupReferences?: NetworkfirewallFirewallPolicyFirewallPolicyStatelessRuleGroupReferences[] | cdktn.IResolvable;
   /**
   * A resource ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#tls_inspection_configuration_arn NetworkfirewallFirewallPolicy#tls_inspection_configuration_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#tls_inspection_configuration_arn NetworkfirewallFirewallPolicy#tls_inspection_configuration_arn}
   */
   readonly tlsInspectionConfigurationArn?: string;
 }
@@ -1459,6 +1921,7 @@ export function networkfirewallFirewallPolicyFirewallPolicyToTerraform(struct?: 
   return {
     enable_tls_session_holding: cdktn.booleanToTerraform(struct!.enableTlsSessionHolding),
     policy_variables: networkfirewallFirewallPolicyFirewallPolicyPolicyVariablesToTerraform(struct!.policyVariables),
+    route_53_resolved_ip_validation: networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationToTerraform(struct!.route53ResolvedIpValidation),
     stateful_default_actions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.statefulDefaultActions),
     stateful_engine_options: networkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsToTerraform(struct!.statefulEngineOptions),
     stateful_rule_group_references: cdktn.listMapper(networkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferencesToTerraform, false)(struct!.statefulRuleGroupReferences),
@@ -1488,6 +1951,12 @@ export function networkfirewallFirewallPolicyFirewallPolicyToHclTerraform(struct
       isBlock: true,
       type: "struct",
       storageClassType: "NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables",
+    },
+    route_53_resolved_ip_validation: {
+      value: networkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationToHclTerraform(struct!.route53ResolvedIpValidation),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation",
     },
     stateful_default_actions: {
       value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.statefulDefaultActions),
@@ -1569,6 +2038,10 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
       hasAnyValues = true;
       internalValueResult.policyVariables = this._policyVariables?.internalValue;
     }
+    if (this._route53ResolvedIpValidation?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.route53ResolvedIpValidation = this._route53ResolvedIpValidation?.internalValue;
+    }
     if (this._statefulDefaultActions !== undefined) {
       hasAnyValues = true;
       internalValueResult.statefulDefaultActions = this._statefulDefaultActions;
@@ -1610,6 +2083,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
       this.resolvableValue = undefined;
       this._enableTlsSessionHolding = undefined;
       this._policyVariables.internalValue = undefined;
+      this._route53ResolvedIpValidation.internalValue = undefined;
       this._statefulDefaultActions = undefined;
       this._statefulEngineOptions.internalValue = undefined;
       this._statefulRuleGroupReferences.internalValue = undefined;
@@ -1628,6 +2102,7 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
       this.resolvableValue = undefined;
       this._enableTlsSessionHolding = value.enableTlsSessionHolding;
       this._policyVariables.internalValue = value.policyVariables;
+      this._route53ResolvedIpValidation.internalValue = value.route53ResolvedIpValidation;
       this._statefulDefaultActions = value.statefulDefaultActions;
       this._statefulEngineOptions.internalValue = value.statefulEngineOptions;
       this._statefulRuleGroupReferences.internalValue = value.statefulRuleGroupReferences;
@@ -1669,6 +2144,22 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
   // Temporarily expose input value. Use with caution.
   public get policyVariablesInput() {
     return this._policyVariables.internalValue;
+  }
+
+  // route_53_resolved_ip_validation - computed: true, optional: true, required: false
+  private _route53ResolvedIpValidation = new NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference(this, "route_53_resolved_ip_validation");
+  public get route53ResolvedIpValidation() {
+    return this._route53ResolvedIpValidation;
+  }
+  public putRoute53ResolvedIpValidation(value: NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation) {
+    this._route53ResolvedIpValidation.internalValue = value;
+  }
+  public resetRoute53ResolvedIpValidation() {
+    this._route53ResolvedIpValidation.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get route53ResolvedIpValidationInput() {
+    return this._route53ResolvedIpValidation.internalValue;
   }
 
   // stateful_default_actions - computed: true, optional: true, required: false
@@ -1795,11 +2286,11 @@ export class NetworkfirewallFirewallPolicyFirewallPolicyOutputReference extends 
 }
 export interface NetworkfirewallFirewallPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#key NetworkfirewallFirewallPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#key NetworkfirewallFirewallPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#value NetworkfirewallFirewallPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#value NetworkfirewallFirewallPolicy#value}
   */
   readonly value?: string;
 }
@@ -1944,7 +2435,7 @@ export class NetworkfirewallFirewallPolicyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy awscc_networkfirewall_firewall_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy awscc_networkfirewall_firewall_policy}
 */
 export class NetworkfirewallFirewallPolicy extends cdktn.TerraformResource {
 
@@ -1960,7 +2451,7 @@ export class NetworkfirewallFirewallPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkfirewallFirewallPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkfirewallFirewallPolicy to import
-  * @param importFromId The id of the existing NetworkfirewallFirewallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkfirewallFirewallPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkfirewallFirewallPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1972,7 +2463,7 @@ export class NetworkfirewallFirewallPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networkfirewall_firewall_policy awscc_networkfirewall_firewall_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networkfirewall_firewall_policy awscc_networkfirewall_firewall_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1983,7 +2474,7 @@ export class NetworkfirewallFirewallPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkfirewall_firewall_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

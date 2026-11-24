@@ -4,7 +4,7 @@
 
 ### DataAwsccMgnApplications <a name="DataAwsccMgnApplications" id="@cdktn/provider-awscc.dataAwsccMgnApplications.DataAwsccMgnApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mgn_applications awscc_mgn_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mgn_applications awscc_mgn_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMgnApplications.DataAwsccMgnApplications.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMgnApplications t
 
 The id of the existing DataAwsccMgnApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mgn_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mgn_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

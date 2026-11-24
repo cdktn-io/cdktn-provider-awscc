@@ -4,7 +4,7 @@
 
 ### WisdomAiPrompt <a name="WisdomAiPrompt" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer"></a>
 
@@ -28,6 +28,7 @@ wisdomAiPrompt.WisdomAiPrompt(
   type: str,
   assistant_id: str = None,
   description: str = None,
+  inference_configuration: WisdomAiPromptInferenceConfiguration = None,
   name: str = None,
   tags: typing.Mapping[str] = None
 )
@@ -44,15 +45,16 @@ wisdomAiPrompt.WisdomAiPrompt(
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.apiFormat">api_format</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.modelId">model_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.templateConfiguration">template_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfiguration">WisdomAiPromptTemplateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.templateType">template_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.assistantId">assistant_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.apiFormat">api_format</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.modelId">model_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.templateConfiguration">template_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfiguration">WisdomAiPromptTemplateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.templateType">template_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.assistantId">assistant_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.inferenceConfiguration">inference_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration">WisdomAiPromptInferenceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#inference_configuration WisdomAiPrompt#inference_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}. |
 
 ---
 
@@ -120,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}.
 
 ---
 
@@ -128,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}.
 
 ---
 
@@ -136,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfiguration">WisdomAiPromptTemplateConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}.
 
 ---
 
@@ -144,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}.
 
 ---
 
@@ -152,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}.
 
 ---
 
@@ -160,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}.
 
 ---
 
@@ -168,7 +170,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}.
+
+---
+
+##### `inference_configuration`<sup>Optional</sup> <a name="inference_configuration" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.Initializer.parameter.inferenceConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration">WisdomAiPromptInferenceConfiguration</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#inference_configuration WisdomAiPrompt#inference_configuration}.
 
 ---
 
@@ -176,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}.
 
 ---
 
@@ -184,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}.
 
 ---
 
@@ -216,9 +226,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.putInferenceConfiguration">put_inference_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.putTemplateConfiguration">put_template_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.resetAssistantId">reset_assistant_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.resetDescription">reset_description</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.resetInferenceConfiguration">reset_inference_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.resetName">reset_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.resetTags">reset_tags</a></code> | *No description.* |
 
@@ -572,6 +584,49 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_inference_configuration` <a name="put_inference_configuration" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.putInferenceConfiguration"></a>
+
+```python
+def put_inference_configuration(
+  max_tokens_to_sample: typing.Union[int, float] = None,
+  temperature: typing.Union[int, float] = None,
+  top_k: typing.Union[int, float] = None,
+  top_p: typing.Union[int, float] = None
+) -> None
+```
+
+###### `max_tokens_to_sample`<sup>Optional</sup> <a name="max_tokens_to_sample" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.putInferenceConfiguration.parameter.maxTokensToSample"></a>
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#max_tokens_to_sample WisdomAiPrompt#max_tokens_to_sample}.
+
+---
+
+###### `temperature`<sup>Optional</sup> <a name="temperature" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.putInferenceConfiguration.parameter.temperature"></a>
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#temperature WisdomAiPrompt#temperature}.
+
+---
+
+###### `top_k`<sup>Optional</sup> <a name="top_k" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.putInferenceConfiguration.parameter.topK"></a>
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#top_k WisdomAiPrompt#top_k}.
+
+---
+
+###### `top_p`<sup>Optional</sup> <a name="top_p" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.putInferenceConfiguration.parameter.topP"></a>
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#top_p WisdomAiPrompt#top_p}.
+
+---
+
 ##### `put_template_configuration` <a name="put_template_configuration" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.putTemplateConfiguration"></a>
 
 ```python
@@ -584,7 +639,7 @@ def put_template_configuration(
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration">WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#text_full_ai_prompt_edit_template_configuration WisdomAiPrompt#text_full_ai_prompt_edit_template_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#text_full_ai_prompt_edit_template_configuration WisdomAiPrompt#text_full_ai_prompt_edit_template_configuration}.
 
 ---
 
@@ -598,6 +653,12 @@ def reset_assistant_id() -> None
 
 ```python
 def reset_description() -> None
+```
+
+##### `reset_inference_configuration` <a name="reset_inference_configuration" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.resetInferenceConfiguration"></a>
+
+```python
+def reset_inference_configuration() -> None
 ```
 
 ##### `reset_name` <a name="reset_name" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.resetName"></a>
@@ -726,7 +787,7 @@ The construct id used in the generated config for the WisdomAiPrompt to import.
 
 The id of the existing WisdomAiPrompt that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -760,11 +821,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.aiPromptId">ai_prompt_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.assistantArn">assistant_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.inferenceConfiguration">inference_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference">WisdomAiPromptInferenceConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.modifiedTimeSeconds">modified_time_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.templateConfiguration">template_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfigurationOutputReference">WisdomAiPromptTemplateConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.apiFormatInput">api_format_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.assistantIdInput">assistant_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.inferenceConfigurationInput">inference_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration">WisdomAiPromptInferenceConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.modelIdInput">model_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.tagsInput">tags_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
@@ -964,6 +1027,16 @@ id: str
 
 ---
 
+##### `inference_configuration`<sup>Required</sup> <a name="inference_configuration" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.inferenceConfiguration"></a>
+
+```python
+inference_configuration: WisdomAiPromptInferenceConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference">WisdomAiPromptInferenceConfigurationOutputReference</a>
+
+---
+
 ##### `modified_time_seconds`<sup>Required</sup> <a name="modified_time_seconds" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.modifiedTimeSeconds"></a>
 
 ```python
@@ -1011,6 +1084,16 @@ description_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `inference_configuration_input`<sup>Optional</sup> <a name="inference_configuration_input" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPrompt.property.inferenceConfigurationInput"></a>
+
+```python
+inference_configuration_input: IResolvable | WisdomAiPromptInferenceConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration">WisdomAiPromptInferenceConfiguration</a>
 
 ---
 
@@ -1196,6 +1279,7 @@ wisdomAiPrompt.WisdomAiPromptConfig(
   type: str,
   assistant_id: str = None,
   description: str = None,
+  inference_configuration: WisdomAiPromptInferenceConfiguration = None,
   name: str = None,
   tags: typing.Mapping[str] = None
 )
@@ -1212,15 +1296,16 @@ wisdomAiPrompt.WisdomAiPromptConfig(
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.apiFormat">api_format</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.modelId">model_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.templateConfiguration">template_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfiguration">WisdomAiPromptTemplateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.templateType">template_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.assistantId">assistant_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.apiFormat">api_format</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.modelId">model_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.templateConfiguration">template_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfiguration">WisdomAiPromptTemplateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.templateType">template_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.type">type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.assistantId">assistant_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.inferenceConfiguration">inference_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration">WisdomAiPromptInferenceConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#inference_configuration WisdomAiPrompt#inference_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}. |
 
 ---
 
@@ -1302,7 +1387,7 @@ api_format: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#api_format WisdomAiPrompt#api_format}.
 
 ---
 
@@ -1314,7 +1399,7 @@ model_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#model_id WisdomAiPrompt#model_id}.
 
 ---
 
@@ -1326,7 +1411,7 @@ template_configuration: WisdomAiPromptTemplateConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfiguration">WisdomAiPromptTemplateConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#template_configuration WisdomAiPrompt#template_configuration}.
 
 ---
 
@@ -1338,7 +1423,7 @@ template_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#template_type WisdomAiPrompt#template_type}.
 
 ---
 
@@ -1350,7 +1435,7 @@ type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#type WisdomAiPrompt#type}.
 
 ---
 
@@ -1362,7 +1447,7 @@ assistant_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#assistant_id WisdomAiPrompt#assistant_id}.
 
 ---
 
@@ -1374,7 +1459,19 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#description WisdomAiPrompt#description}.
+
+---
+
+##### `inference_configuration`<sup>Optional</sup> <a name="inference_configuration" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptConfig.property.inferenceConfiguration"></a>
+
+```python
+inference_configuration: WisdomAiPromptInferenceConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration">WisdomAiPromptInferenceConfiguration</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#inference_configuration WisdomAiPrompt#inference_configuration}.
 
 ---
 
@@ -1386,7 +1483,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#name WisdomAiPrompt#name}.
 
 ---
 
@@ -1398,7 +1495,81 @@ tags: typing.Mapping[str]
 
 - *Type:* typing.Mapping[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#tags WisdomAiPrompt#tags}.
+
+---
+
+### WisdomAiPromptInferenceConfiguration <a name="WisdomAiPromptInferenceConfiguration" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import wisdom_ai_prompt
+
+wisdomAiPrompt.WisdomAiPromptInferenceConfiguration(
+  max_tokens_to_sample: typing.Union[int, float] = None,
+  temperature: typing.Union[int, float] = None,
+  top_k: typing.Union[int, float] = None,
+  top_p: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.property.maxTokensToSample">max_tokens_to_sample</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#max_tokens_to_sample WisdomAiPrompt#max_tokens_to_sample}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.property.temperature">temperature</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#temperature WisdomAiPrompt#temperature}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.property.topK">top_k</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#top_k WisdomAiPrompt#top_k}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.property.topP">top_p</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#top_p WisdomAiPrompt#top_p}. |
+
+---
+
+##### `max_tokens_to_sample`<sup>Optional</sup> <a name="max_tokens_to_sample" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.property.maxTokensToSample"></a>
+
+```python
+max_tokens_to_sample: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#max_tokens_to_sample WisdomAiPrompt#max_tokens_to_sample}.
+
+---
+
+##### `temperature`<sup>Optional</sup> <a name="temperature" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.property.temperature"></a>
+
+```python
+temperature: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#temperature WisdomAiPrompt#temperature}.
+
+---
+
+##### `top_k`<sup>Optional</sup> <a name="top_k" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.property.topK"></a>
+
+```python
+top_k: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#top_k WisdomAiPrompt#top_k}.
+
+---
+
+##### `top_p`<sup>Optional</sup> <a name="top_p" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration.property.topP"></a>
+
+```python
+top_p: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#top_p WisdomAiPrompt#top_p}.
 
 ---
 
@@ -1418,7 +1589,7 @@ wisdomAiPrompt.WisdomAiPromptTemplateConfiguration(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfiguration.property.textFullAiPromptEditTemplateConfiguration">text_full_ai_prompt_edit_template_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration">WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#text_full_ai_prompt_edit_template_configuration WisdomAiPrompt#text_full_ai_prompt_edit_template_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfiguration.property.textFullAiPromptEditTemplateConfiguration">text_full_ai_prompt_edit_template_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration">WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#text_full_ai_prompt_edit_template_configuration WisdomAiPrompt#text_full_ai_prompt_edit_template_configuration}. |
 
 ---
 
@@ -1430,7 +1601,7 @@ text_full_ai_prompt_edit_template_configuration: WisdomAiPromptTemplateConfigura
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration">WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#text_full_ai_prompt_edit_template_configuration WisdomAiPrompt#text_full_ai_prompt_edit_template_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#text_full_ai_prompt_edit_template_configuration WisdomAiPrompt#text_full_ai_prompt_edit_template_configuration}.
 
 ---
 
@@ -1450,7 +1621,7 @@ wisdomAiPrompt.WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration.property.text">text</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration.property.text">text</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}. |
 
 ---
 
@@ -1462,11 +1633,401 @@ text: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### WisdomAiPromptInferenceConfigurationOutputReference <a name="WisdomAiPromptInferenceConfigurationOutputReference" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import wisdom_ai_prompt
+
+wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resetMaxTokensToSample">reset_max_tokens_to_sample</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resetTemperature">reset_temperature</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resetTopK">reset_top_k</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resetTopP">reset_top_p</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_max_tokens_to_sample` <a name="reset_max_tokens_to_sample" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resetMaxTokensToSample"></a>
+
+```python
+def reset_max_tokens_to_sample() -> None
+```
+
+##### `reset_temperature` <a name="reset_temperature" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resetTemperature"></a>
+
+```python
+def reset_temperature() -> None
+```
+
+##### `reset_top_k` <a name="reset_top_k" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resetTopK"></a>
+
+```python
+def reset_top_k() -> None
+```
+
+##### `reset_top_p` <a name="reset_top_p" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.resetTopP"></a>
+
+```python
+def reset_top_p() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.maxTokensToSampleInput">max_tokens_to_sample_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.temperatureInput">temperature_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.topKInput">top_k_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.topPInput">top_p_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.maxTokensToSample">max_tokens_to_sample</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.temperature">temperature</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.topK">top_k</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.topP">top_p</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration">WisdomAiPromptInferenceConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `max_tokens_to_sample_input`<sup>Optional</sup> <a name="max_tokens_to_sample_input" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.maxTokensToSampleInput"></a>
+
+```python
+max_tokens_to_sample_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `temperature_input`<sup>Optional</sup> <a name="temperature_input" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.temperatureInput"></a>
+
+```python
+temperature_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `top_k_input`<sup>Optional</sup> <a name="top_k_input" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.topKInput"></a>
+
+```python
+top_k_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `top_p_input`<sup>Optional</sup> <a name="top_p_input" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.topPInput"></a>
+
+```python
+top_p_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `max_tokens_to_sample`<sup>Required</sup> <a name="max_tokens_to_sample" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.maxTokensToSample"></a>
+
+```python
+max_tokens_to_sample: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `temperature`<sup>Required</sup> <a name="temperature" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.temperature"></a>
+
+```python
+temperature: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `top_k`<sup>Required</sup> <a name="top_k" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.topK"></a>
+
+```python
+top_k: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `top_p`<sup>Required</sup> <a name="top_p" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.topP"></a>
+
+```python
+top_p: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | WisdomAiPromptInferenceConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptInferenceConfiguration">WisdomAiPromptInferenceConfiguration</a>
+
+---
+
 
 ### WisdomAiPromptTemplateConfigurationOutputReference <a name="WisdomAiPromptTemplateConfigurationOutputReference" id="@cdktn/provider-awscc.wisdomAiPrompt.WisdomAiPromptTemplateConfigurationOutputReference"></a>
 
@@ -1710,7 +2271,7 @@ def put_text_full_ai_prompt_edit_template_configuration(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2Snapshots <a name="DataAwsccEc2Snapshots" id="@cdktn/provider-awscc.dataAwsccEc2Snapshots.DataAwsccEc2Snapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_snapshots awscc_ec2_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_snapshots awscc_ec2_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Snapshots.DataAwsccEc2Snapshots.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2Snapshots to i
 
 The id of the existing DataAwsccEc2Snapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 

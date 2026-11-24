@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,41 +13,55 @@ import * as cdktn from 'cdktn';
 
 export interface Route53GlobalresolverAccessSourceConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}
+  * The IP address range (CIDR) whose traffic this access source admits. Required unless the access source uses a core network endpoint.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#cidr Route53GlobalresolverAccessSource#cidr}
   */
-  readonly cidr: string;
+  readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#client_token Route53GlobalresolverAccessSource#client_token}
   */
   readonly clientToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}
+  * The ID of the core network endpoint whose Cloud WAN segment traffic this access source admits. Use together with Segment instead of Cidr. The core network endpoint must be OPERATIONAL.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#core_network_endpoint_id Route53GlobalresolverAccessSource#core_network_endpoint_id}
+  */
+  readonly coreNetworkEndpointId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#dns_view_id Route53GlobalresolverAccessSource#dns_view_id}
   */
   readonly dnsViewId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#ip_address_type Route53GlobalresolverAccessSource#ip_address_type}
   */
   readonly ipAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#name Route53GlobalresolverAccessSource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#protocol Route53GlobalresolverAccessSource#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}
+  * The name of the Cloud WAN segment of the core network endpoint, or * for all of its segments. Requires CoreNetworkEndpointId.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#segment Route53GlobalresolverAccessSource#segment}
+  */
+  readonly segment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#tags Route53GlobalresolverAccessSource#tags}
   */
   readonly tags?: Route53GlobalresolverAccessSourceTags[] | cdktn.IResolvable;
 }
 export interface Route53GlobalresolverAccessSourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#key Route53GlobalresolverAccessSource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#key Route53GlobalresolverAccessSource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#value Route53GlobalresolverAccessSource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#value Route53GlobalresolverAccessSource#value}
   */
   readonly value?: string;
 }
@@ -192,7 +206,7 @@ export class Route53GlobalresolverAccessSourceTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source}
 */
 export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
 
@@ -208,7 +222,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53GlobalresolverAccessSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53GlobalresolverAccessSource to import
-  * @param importFromId The id of the existing Route53GlobalresolverAccessSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53GlobalresolverAccessSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53GlobalresolverAccessSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +234,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53globalresolver_access_source awscc_route53globalresolver_access_source} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +245,7 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53globalresolver_access_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -244,10 +258,12 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
     });
     this._cidr = config.cidr;
     this._clientToken = config.clientToken;
+    this._coreNetworkEndpointId = config.coreNetworkEndpointId;
     this._dnsViewId = config.dnsViewId;
     this._ipAddressType = config.ipAddressType;
     this._name = config.name;
     this._protocol = config.protocol;
+    this._segment = config.segment;
     this._tags.internalValue = config.tags;
   }
 
@@ -265,13 +281,16 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
     return this.getStringAttribute('arn');
   }
 
-  // cidr - computed: false, optional: false, required: true
+  // cidr - computed: true, optional: true, required: false
   private _cidr?: string; 
   public get cidr() {
     return this.getStringAttribute('cidr');
   }
   public set cidr(value: string) {
     this._cidr = value;
+  }
+  public resetCidr() {
+    this._cidr = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get cidrInput() {
@@ -292,6 +311,22 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get clientTokenInput() {
     return this._clientToken;
+  }
+
+  // core_network_endpoint_id - computed: true, optional: true, required: false
+  private _coreNetworkEndpointId?: string; 
+  public get coreNetworkEndpointId() {
+    return this.getStringAttribute('core_network_endpoint_id');
+  }
+  public set coreNetworkEndpointId(value: string) {
+    this._coreNetworkEndpointId = value;
+  }
+  public resetCoreNetworkEndpointId() {
+    this._coreNetworkEndpointId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get coreNetworkEndpointIdInput() {
+    return this._coreNetworkEndpointId;
   }
 
   // created_at - computed: true, optional: false, required: false
@@ -362,6 +397,22 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
     return this._protocol;
   }
 
+  // segment - computed: true, optional: true, required: false
+  private _segment?: string; 
+  public get segment() {
+    return this.getStringAttribute('segment');
+  }
+  public set segment(value: string) {
+    this._segment = value;
+  }
+  public resetSegment() {
+    this._segment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get segmentInput() {
+    return this._segment;
+  }
+
   // status - computed: true, optional: false, required: false
   public get status() {
     return this.getStringAttribute('status');
@@ -396,10 +447,12 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
     return {
       cidr: cdktn.stringToTerraform(this._cidr),
       client_token: cdktn.stringToTerraform(this._clientToken),
+      core_network_endpoint_id: cdktn.stringToTerraform(this._coreNetworkEndpointId),
       dns_view_id: cdktn.stringToTerraform(this._dnsViewId),
       ip_address_type: cdktn.stringToTerraform(this._ipAddressType),
       name: cdktn.stringToTerraform(this._name),
       protocol: cdktn.stringToTerraform(this._protocol),
+      segment: cdktn.stringToTerraform(this._segment),
       tags: cdktn.listMapper(route53GlobalresolverAccessSourceTagsToTerraform, false)(this._tags.internalValue),
     };
   }
@@ -414,6 +467,12 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
       },
       client_token: {
         value: cdktn.stringToHclTerraform(this._clientToken),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      core_network_endpoint_id: {
+        value: cdktn.stringToHclTerraform(this._coreNetworkEndpointId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -438,6 +497,12 @@ export class Route53GlobalresolverAccessSource extends cdktn.TerraformResource {
       },
       protocol: {
         value: cdktn.stringToHclTerraform(this._protocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      segment: {
+        value: cdktn.stringToHclTerraform(this._segment),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

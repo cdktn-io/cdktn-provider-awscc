@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2ClientVpnTargetNetworkAssociation <a name="DataAwsccEc2ClientVpnTargetNetworkAssociation" id="@cdktn/provider-awscc.dataAwsccEc2ClientVpnTargetNetworkAssociation.DataAwsccEc2ClientVpnTargetNetworkAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_client_vpn_target_network_association awscc_ec2_client_vpn_target_network_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_client_vpn_target_network_association awscc_ec2_client_vpn_target_network_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ClientVpnTargetNetworkAssociation.DataAwsccEc2ClientVpnTargetNetworkAssociation.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2ClientVpnTarge
 
 The id of the existing DataAwsccEc2ClientVpnTargetNetworkAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_client_vpn_target_network_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_client_vpn_target_network_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -742,7 +742,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_client_vpn_target_network_association#id DataAwsccEc2ClientVpnTargetNetworkAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_client_vpn_target_network_association#id DataAwsccEc2ClientVpnTargetNetworkAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

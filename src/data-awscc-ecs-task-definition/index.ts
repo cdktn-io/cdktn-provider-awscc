@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_task_definition
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecs_task_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccEcsTaskDefinitionConfig extends cdktn.TerraformMetaArg
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_task_definition#id DataAwsccEcsTaskDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecs_task_definition#id DataAwsccEcsTaskDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2562,6 +2562,65 @@ export class DataAwsccEcsTaskDefinitionTagsList extends cdktn.ComplexList {
     return new DataAwsccEcsTaskDefinitionTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccEcsTaskDefinitionTrustedExecutionConfiguration {
+}
+
+export function dataAwsccEcsTaskDefinitionTrustedExecutionConfigurationToTerraform(struct?: DataAwsccEcsTaskDefinitionTrustedExecutionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccEcsTaskDefinitionTrustedExecutionConfigurationToHclTerraform(struct?: DataAwsccEcsTaskDefinitionTrustedExecutionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccEcsTaskDefinitionTrustedExecutionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccEcsTaskDefinitionTrustedExecutionConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccEcsTaskDefinitionTrustedExecutionConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // attestation_policy - computed: true, optional: false, required: false
+  public get attestationPolicy() {
+    return this.getStringAttribute('attestation_policy');
+  }
+
+  // isolation_mode - computed: true, optional: false, required: false
+  public get isolationMode() {
+    return this.getStringAttribute('isolation_mode');
+  }
+}
 export interface DataAwsccEcsTaskDefinitionVolumesDockerVolumeConfiguration {
 }
 
@@ -3131,7 +3190,7 @@ export class DataAwsccEcsTaskDefinitionVolumesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition}
 */
 export class DataAwsccEcsTaskDefinition extends cdktn.TerraformDataSource {
 
@@ -3147,7 +3206,7 @@ export class DataAwsccEcsTaskDefinition extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccEcsTaskDefinition resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccEcsTaskDefinition to import
-  * @param importFromId The id of the existing DataAwsccEcsTaskDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_task_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccEcsTaskDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecs_task_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccEcsTaskDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3159,7 +3218,7 @@ export class DataAwsccEcsTaskDefinition extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3170,7 +3229,7 @@ export class DataAwsccEcsTaskDefinition extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_ecs_task_definition',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -3296,6 +3355,12 @@ export class DataAwsccEcsTaskDefinition extends cdktn.TerraformDataSource {
   // task_role_arn - computed: true, optional: false, required: false
   public get taskRoleArn() {
     return this.getStringAttribute('task_role_arn');
+  }
+
+  // trusted_execution_configuration - computed: true, optional: false, required: false
+  private _trustedExecutionConfiguration = new DataAwsccEcsTaskDefinitionTrustedExecutionConfigurationOutputReference(this, "trusted_execution_configuration");
+  public get trustedExecutionConfiguration() {
+    return this._trustedExecutionConfiguration;
   }
 
   // volumes - computed: true, optional: false, required: false

@@ -4,7 +4,7 @@
 
 ### ConfigConformancePack <a name="ConfigConformancePack" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack awscc_config_conformance_pack}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack awscc_config_conformance_pack}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.Initializer"></a>
 
@@ -75,11 +75,15 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putConformancePackInputParameters">PutConformancePackInputParameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putScope">PutScope</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putSource">PutSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putTemplateSsmDocumentDetails">PutTemplateSsmDocumentDetails</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetConformancePackInputParameters">ResetConformancePackInputParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetDeliveryS3Bucket">ResetDeliveryS3Bucket</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetDeliveryS3KeyPrefix">ResetDeliveryS3KeyPrefix</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetScope">ResetScope</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetSource">ResetSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetTags">ResetTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetTemplateBody">ResetTemplateBody</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetTemplateS3Uri">ResetTemplateS3Uri</a></code> | *No description.* |
@@ -408,6 +412,30 @@ func PutConformancePackInputParameters(value interface{})
 
 ---
 
+##### `PutScope` <a name="PutScope" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putScope"></a>
+
+```go
+func PutScope(value ConfigConformancePackScope)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putScope.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope">ConfigConformancePackScope</a>
+
+---
+
+##### `PutSource` <a name="PutSource" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putSource"></a>
+
+```go
+func PutSource(value ConfigConformancePackSource)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putSource.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSource">ConfigConformancePackSource</a>
+
+---
+
 ##### `PutTags` <a name="PutTags" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.putTags"></a>
 
 ```go
@@ -448,6 +476,18 @@ func ResetDeliveryS3Bucket()
 
 ```go
 func ResetDeliveryS3KeyPrefix()
+```
+
+##### `ResetScope` <a name="ResetScope" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetScope"></a>
+
+```go
+func ResetScope()
+```
+
+##### `ResetSource` <a name="ResetSource" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetSource"></a>
+
+```go
+func ResetSource()
 ```
 
 ##### `ResetTags` <a name="ResetTags" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.resetTags"></a>
@@ -577,7 +617,7 @@ The construct id used in the generated config for the ConfigConformancePack to i
 
 The id of the existing ConfigConformancePack that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -610,12 +650,17 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.conformancePackArn">ConformancePackArn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.conformancePackInputParameters">ConformancePackInputParameters</a></code> | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConformancePackInputParametersList">ConfigConformancePackConformancePackInputParametersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.scope">Scope</a></code> | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference">ConfigConformancePackScopeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.source">Source</a></code> | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference">ConfigConformancePackSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackTagsList">ConfigConformancePackTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.templateSsmDocumentDetails">TemplateSsmDocumentDetails</a></code> | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackTemplateSsmDocumentDetailsOutputReference">ConfigConformancePackTemplateSsmDocumentDetailsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.type">Type</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.conformancePackInputParametersInput">ConformancePackInputParametersInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.conformancePackNameInput">ConformancePackNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.deliveryS3BucketInput">DeliveryS3BucketInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.deliveryS3KeyPrefixInput">DeliveryS3KeyPrefixInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.scopeInput">ScopeInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.sourceInput">SourceInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.tagsInput">TagsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.templateBodyInput">TemplateBodyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.templateS3UriInput">TemplateS3UriInput</a></code> | <code>*string</code> | *No description.* |
@@ -800,6 +845,26 @@ func Id() *string
 
 ---
 
+##### `Scope`<sup>Required</sup> <a name="Scope" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.scope"></a>
+
+```go
+func Scope() ConfigConformancePackScopeOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference">ConfigConformancePackScopeOutputReference</a>
+
+---
+
+##### `Source`<sup>Required</sup> <a name="Source" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.source"></a>
+
+```go
+func Source() ConfigConformancePackSourceOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference">ConfigConformancePackSourceOutputReference</a>
+
+---
+
 ##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.tags"></a>
 
 ```go
@@ -817,6 +882,16 @@ func TemplateSsmDocumentDetails() ConfigConformancePackTemplateSsmDocumentDetail
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackTemplateSsmDocumentDetailsOutputReference">ConfigConformancePackTemplateSsmDocumentDetailsOutputReference</a>
+
+---
+
+##### `Type`<sup>Required</sup> <a name="Type" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.type"></a>
+
+```go
+func Type() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -857,6 +932,26 @@ func DeliveryS3KeyPrefixInput() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `ScopeInput`<sup>Optional</sup> <a name="ScopeInput" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.scopeInput"></a>
+
+```go
+func ScopeInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `SourceInput`<sup>Optional</sup> <a name="SourceInput" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePack.property.sourceInput"></a>
+
+```go
+func SourceInput() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -989,6 +1084,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconformancepa
 	ConformancePackInputParameters: interface{},
 	DeliveryS3Bucket: *string,
 	DeliveryS3KeyPrefix: *string,
+	Scope: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configConformancePack.ConfigConformancePackScope,
+	Source: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.configConformancePack.ConfigConformancePackSource,
 	Tags: interface{},
 	TemplateBody: *string,
 	TemplateS3Uri: *string,
@@ -1011,6 +1108,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconformancepa
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.conformancePackInputParameters">ConformancePackInputParameters</a></code> | <code>interface{}</code> | A list of ConformancePackInputParameter objects. |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.deliveryS3Bucket">DeliveryS3Bucket</a></code> | <code>*string</code> | AWS Config stores intermediate files while processing conformance pack template. |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.deliveryS3KeyPrefix">DeliveryS3KeyPrefix</a></code> | <code>*string</code> | The prefix for delivery S3 bucket. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.scope">Scope</a></code> | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope">ConfigConformancePackScope</a></code> | The global tag scope of the managed conformance pack. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.source">Source</a></code> | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSource">ConfigConformancePackSource</a></code> | The source of a managed conformance pack. |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.tags">Tags</a></code> | <code>interface{}</code> | The tags for the conformance pack. |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.templateBody">TemplateBody</a></code> | <code>*string</code> | A string containing full conformance pack template body. |
 | <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.templateS3Uri">TemplateS3Uri</a></code> | <code>*string</code> | Location of file containing the template body which points to the conformance pack template that is located in an Amazon S3 bucket. |
@@ -1098,7 +1197,7 @@ ConformancePackName *string
 
 Name of the conformance pack which will be assigned as the unique identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#conformance_pack_name ConfigConformancePack#conformance_pack_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#conformance_pack_name ConfigConformancePack#conformance_pack_name}
 
 ---
 
@@ -1112,7 +1211,7 @@ ConformancePackInputParameters interface{}
 
 A list of ConformancePackInputParameter objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#conformance_pack_input_parameters ConfigConformancePack#conformance_pack_input_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#conformance_pack_input_parameters ConfigConformancePack#conformance_pack_input_parameters}
 
 ---
 
@@ -1126,7 +1225,7 @@ DeliveryS3Bucket *string
 
 AWS Config stores intermediate files while processing conformance pack template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#delivery_s3_bucket ConfigConformancePack#delivery_s3_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#delivery_s3_bucket ConfigConformancePack#delivery_s3_bucket}
 
 ---
 
@@ -1140,7 +1239,39 @@ DeliveryS3KeyPrefix *string
 
 The prefix for delivery S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#delivery_s3_key_prefix ConfigConformancePack#delivery_s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#delivery_s3_key_prefix ConfigConformancePack#delivery_s3_key_prefix}
+
+---
+
+##### `Scope`<sup>Optional</sup> <a name="Scope" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.scope"></a>
+
+```go
+Scope ConfigConformancePackScope
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope">ConfigConformancePackScope</a>
+
+The global tag scope of the managed conformance pack.
+
+If specified, only resources with this tag key and value pair are in scope of the conformance pack.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#scope ConfigConformancePack#scope}
+
+---
+
+##### `Source`<sup>Optional</sup> <a name="Source" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConfig.property.source"></a>
+
+```go
+Source ConfigConformancePackSource
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSource">ConfigConformancePackSource</a>
+
+The source of a managed conformance pack.
+
+Specifying Source creates a managed conformance pack, whose Config rules are managed by AWS. You can only specify one of Source or the template body or template S3Uri fields.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#source ConfigConformancePack#source}
 
 ---
 
@@ -1154,7 +1285,7 @@ Tags interface{}
 
 The tags for the conformance pack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#tags ConfigConformancePack#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#tags ConfigConformancePack#tags}
 
 ---
 
@@ -1170,7 +1301,7 @@ A string containing full conformance pack template body.
 
 You can only specify one of the template body or template S3Uri fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#template_body ConfigConformancePack#template_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#template_body ConfigConformancePack#template_body}
 
 ---
 
@@ -1186,7 +1317,7 @@ Location of file containing the template body which points to the conformance pa
 
 You can only specify one of the template body or template S3Uri fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#template_s3_uri ConfigConformancePack#template_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#template_s3_uri ConfigConformancePack#template_s3_uri}
 
 ---
 
@@ -1200,7 +1331,7 @@ TemplateSsmDocumentDetails ConfigConformancePackTemplateSsmDocumentDetails
 
 The TemplateSSMDocumentDetails object contains the name of the SSM document and the version of the SSM document.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#template_ssm_document_details ConfigConformancePack#template_ssm_document_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#template_ssm_document_details ConfigConformancePack#template_ssm_document_details}
 
 ---
 
@@ -1236,7 +1367,7 @@ ParameterName *string
 
 Key part of key-value pair with value being parameter value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#parameter_name ConfigConformancePack#parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#parameter_name ConfigConformancePack#parameter_name}
 
 ---
 
@@ -1250,7 +1381,95 @@ ParameterValue *string
 
 Value part of key-value pair with key being parameter Name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#parameter_value ConfigConformancePack#parameter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#parameter_value ConfigConformancePack#parameter_value}
+
+---
+
+### ConfigConformancePackScope <a name="ConfigConformancePackScope" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconformancepack"
+
+&configconformancepack.ConfigConformancePackScope {
+	TagKey: *string,
+	TagValue: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope.property.tagKey">TagKey</a></code> | <code>*string</code> | The tag key of the tag scope. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope.property.tagValue">TagValue</a></code> | <code>*string</code> | The tag value of the tag scope. |
+
+---
+
+##### `TagKey`<sup>Optional</sup> <a name="TagKey" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope.property.tagKey"></a>
+
+```go
+TagKey *string
+```
+
+- *Type:* *string
+
+The tag key of the tag scope.
+
+Only resources with this tag key are in scope of the conformance pack.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#tag_key ConfigConformancePack#tag_key}
+
+---
+
+##### `TagValue`<sup>Optional</sup> <a name="TagValue" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScope.property.tagValue"></a>
+
+```go
+TagValue *string
+```
+
+- *Type:* *string
+
+The tag value of the tag scope.
+
+If omitted, resources are in scope based on the presence of the tag key alone, regardless of its value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#tag_value ConfigConformancePack#tag_value}
+
+---
+
+### ConfigConformancePackSource <a name="ConfigConformancePackSource" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSource"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSource.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconformancepack"
+
+&configconformancepack.ConfigConformancePackSource {
+	SourceIdentifier: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSource.property.sourceIdentifier">SourceIdentifier</a></code> | <code>*string</code> | The identifier specifying which managed conformance pack is being deployed. |
+
+---
+
+##### `SourceIdentifier`<sup>Optional</sup> <a name="SourceIdentifier" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSource.property.sourceIdentifier"></a>
+
+```go
+SourceIdentifier *string
+```
+
+- *Type:* *string
+
+The identifier specifying which managed conformance pack is being deployed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#source_identifier ConfigConformancePack#source_identifier}
 
 ---
 
@@ -1288,7 +1507,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#key ConfigConformancePack#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#key ConfigConformancePack#key}
 
 ---
 
@@ -1304,7 +1523,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#value ConfigConformancePack#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#value ConfigConformancePack#value}
 
 ---
 
@@ -1325,8 +1544,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconformancepa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackTemplateSsmDocumentDetails.property.documentName">DocumentName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#document_name ConfigConformancePack#document_name}. |
-| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackTemplateSsmDocumentDetails.property.documentVersion">DocumentVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#document_version ConfigConformancePack#document_version}. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackTemplateSsmDocumentDetails.property.documentName">DocumentName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#document_name ConfigConformancePack#document_name}. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackTemplateSsmDocumentDetails.property.documentVersion">DocumentVersion</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#document_version ConfigConformancePack#document_version}. |
 
 ---
 
@@ -1338,7 +1557,7 @@ DocumentName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#document_name ConfigConformancePack#document_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#document_name ConfigConformancePack#document_name}.
 
 ---
 
@@ -1350,7 +1569,7 @@ DocumentVersion *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_conformance_pack#document_version ConfigConformancePack#document_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_conformance_pack#document_version ConfigConformancePack#document_version}.
 
 ---
 
@@ -1831,6 +2050,591 @@ func ParameterValue() *string
 ---
 
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackConformancePackInputParametersOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### ConfigConformancePackScopeOutputReference <a name="ConfigConformancePackScopeOutputReference" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconformancepack"
+
+configconformancepack.NewConfigConformancePackScopeOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigConformancePackScopeOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.resetTagKey">ResetTagKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.resetTagValue">ResetTagValue</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetTagKey` <a name="ResetTagKey" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.resetTagKey"></a>
+
+```go
+func ResetTagKey()
+```
+
+##### `ResetTagValue` <a name="ResetTagValue" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.resetTagValue"></a>
+
+```go
+func ResetTagValue()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.tagKeyInput">TagKeyInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.tagValueInput">TagValueInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.tagKey">TagKey</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.tagValue">TagValue</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TagKeyInput`<sup>Optional</sup> <a name="TagKeyInput" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.tagKeyInput"></a>
+
+```go
+func TagKeyInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TagValueInput`<sup>Optional</sup> <a name="TagValueInput" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.tagValueInput"></a>
+
+```go
+func TagValueInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TagKey`<sup>Required</sup> <a name="TagKey" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.tagKey"></a>
+
+```go
+func TagKey() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TagValue`<sup>Required</sup> <a name="TagValue" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.tagValue"></a>
+
+```go
+func TagValue() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackScopeOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### ConfigConformancePackSourceOutputReference <a name="ConfigConformancePackSourceOutputReference" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconformancepack"
+
+configconformancepack.NewConfigConformancePackSourceOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) ConfigConformancePackSourceOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.resetSourceIdentifier">ResetSourceIdentifier</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetSourceIdentifier` <a name="ResetSourceIdentifier" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.resetSourceIdentifier"></a>
+
+```go
+func ResetSourceIdentifier()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.sourceIdentifierInput">SourceIdentifierInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.sourceIdentifier">SourceIdentifier</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SourceIdentifierInput`<sup>Optional</sup> <a name="SourceIdentifierInput" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.sourceIdentifierInput"></a>
+
+```go
+func SourceIdentifierInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SourceIdentifier`<sup>Required</sup> <a name="SourceIdentifier" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.sourceIdentifier"></a>
+
+```go
+func SourceIdentifier() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.configConformancePack.ConfigConformancePackSourceOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}

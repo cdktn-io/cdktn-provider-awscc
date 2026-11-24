@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,49 @@ export interface S3TablesTableBucketConfig extends cdktn.TerraformMetaArguments 
   /**
   * Specifies encryption settings for the table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
   */
   readonly encryptionConfiguration?: S3TablesTableBucketEncryptionConfiguration;
   /**
+  * Describes where logs are stored and the prefix that Amazon S3 assigns to all log object keys for a table bucket.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#logging_configuration S3TablesTableBucket#logging_configuration}
+  */
+  readonly loggingConfiguration?: S3TablesTableBucketLoggingConfiguration;
+  /**
   * Settings governing the Metric configuration for the table bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
   */
   readonly metricsConfiguration?: S3TablesTableBucketMetricsConfiguration;
   /**
   * Specifies replication configuration for the table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
   */
   readonly replicationConfiguration?: S3TablesTableBucketReplicationConfiguration;
   /**
   * Specifies storage class settings for the table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
   */
   readonly storageClassConfiguration?: S3TablesTableBucketStorageClassConfiguration;
   /**
   * A name for the table bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
   */
   readonly tableBucketName: string;
   /**
   * User tags (key-value pairs) to associate with the table bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
   */
   readonly tags?: S3TablesTableBucketTags[] | cdktn.IResolvable;
   /**
   * Settings governing the Unreferenced File Removal maintenance action. Unreferenced file removal identifies and deletes all objects that are not referenced by any table snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
   */
   readonly unreferencedFileRemoval?: S3TablesTableBucketUnreferencedFileRemoval;
 }
@@ -59,13 +65,13 @@ export interface S3TablesTableBucketEncryptionConfiguration {
   /**
   * ARN of the KMS key to use for encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * Server-side encryption algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
   */
   readonly sseAlgorithm?: string;
 }
@@ -186,11 +192,369 @@ export class S3TablesTableBucketEncryptionConfigurationOutputReference extends c
     return this._sseAlgorithm;
   }
 }
+export interface S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix {
+  /**
+  * The date to use for the log object key partitions. Valid values are EventTime, the time that the requests in the log were made, and DeliveryTime, the time that the log was delivered.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#partition_date_source S3TablesTableBucket#partition_date_source}
+  */
+  readonly partitionDateSource?: string;
+}
+
+export function s3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixToTerraform(struct?: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    partition_date_source: cdktn.stringToTerraform(struct!.partitionDateSource),
+  }
+}
+
+
+export function s3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixToHclTerraform(struct?: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    partition_date_source: {
+      value: cdktn.stringToHclTerraform(struct!.partitionDateSource),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._partitionDateSource !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.partitionDateSource = this._partitionDateSource;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._partitionDateSource = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._partitionDateSource = value.partitionDateSource;
+    }
+  }
+
+  // partition_date_source - computed: true, optional: true, required: false
+  private _partitionDateSource?: string; 
+  public get partitionDateSource() {
+    return this.getStringAttribute('partition_date_source');
+  }
+  public set partitionDateSource(value: string) {
+    this._partitionDateSource = value;
+  }
+  public resetPartitionDateSource() {
+    this._partitionDateSource = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get partitionDateSourceInput() {
+    return this._partitionDateSource;
+  }
+}
+export interface S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat {
+  /**
+  * Amazon S3 keys for log objects are partitioned in the following format: [TargetPrefix][SourceAccountId]/[SourceRegion]/[SourceTableBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#partitioned_prefix S3TablesTableBucket#partitioned_prefix}
+  */
+  readonly partitionedPrefix?: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix;
+}
+
+export function s3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatToTerraform(struct?: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    partitioned_prefix: s3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixToTerraform(struct!.partitionedPrefix),
+  }
+}
+
+
+export function s3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatToHclTerraform(struct?: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    partitioned_prefix: {
+      value: s3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixToHclTerraform(struct!.partitionedPrefix),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._partitionedPrefix?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.partitionedPrefix = this._partitionedPrefix?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._partitionedPrefix.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._partitionedPrefix.internalValue = value.partitionedPrefix;
+    }
+  }
+
+  // partitioned_prefix - computed: true, optional: true, required: false
+  private _partitionedPrefix = new S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference(this, "partitioned_prefix");
+  public get partitionedPrefix() {
+    return this._partitionedPrefix;
+  }
+  public putPartitionedPrefix(value: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix) {
+    this._partitionedPrefix.internalValue = value;
+  }
+  public resetPartitionedPrefix() {
+    this._partitionedPrefix.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get partitionedPrefixInput() {
+    return this._partitionedPrefix.internalValue;
+  }
+}
+export interface S3TablesTableBucketLoggingConfiguration {
+  /**
+  * The name of the general purpose bucket that logs are delivered to. The bucket must be in the same AWS Region and owned by the same AWS account as the table bucket. The bucket can't use SSE-KMS or DSSE-KMS default encryption, can't have S3 Object Lock enabled, and can't have Requester Pays enabled. You can deliver logs from multiple table buckets to the same target bucket. In this case, choose a different TargetPrefix for each table bucket so that you can tell their log objects apart.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_bucket S3TablesTableBucket#target_bucket}
+  */
+  readonly targetBucket?: string;
+  /**
+  * The key format of the log objects. Only PartitionedPrefix is supported.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_object_key_format S3TablesTableBucket#target_object_key_format}
+  */
+  readonly targetObjectKeyFormat?: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat;
+  /**
+  * The prefix for the keys of the log objects that are delivered to the target bucket.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_prefix S3TablesTableBucket#target_prefix}
+  */
+  readonly targetPrefix?: string;
+}
+
+export function s3TablesTableBucketLoggingConfigurationToTerraform(struct?: S3TablesTableBucketLoggingConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    target_bucket: cdktn.stringToTerraform(struct!.targetBucket),
+    target_object_key_format: s3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatToTerraform(struct!.targetObjectKeyFormat),
+    target_prefix: cdktn.stringToTerraform(struct!.targetPrefix),
+  }
+}
+
+
+export function s3TablesTableBucketLoggingConfigurationToHclTerraform(struct?: S3TablesTableBucketLoggingConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    target_bucket: {
+      value: cdktn.stringToHclTerraform(struct!.targetBucket),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    target_object_key_format: {
+      value: s3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatToHclTerraform(struct!.targetObjectKeyFormat),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat",
+    },
+    target_prefix: {
+      value: cdktn.stringToHclTerraform(struct!.targetPrefix),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class S3TablesTableBucketLoggingConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): S3TablesTableBucketLoggingConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._targetBucket !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetBucket = this._targetBucket;
+    }
+    if (this._targetObjectKeyFormat?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetObjectKeyFormat = this._targetObjectKeyFormat?.internalValue;
+    }
+    if (this._targetPrefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetPrefix = this._targetPrefix;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: S3TablesTableBucketLoggingConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._targetBucket = undefined;
+      this._targetObjectKeyFormat.internalValue = undefined;
+      this._targetPrefix = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._targetBucket = value.targetBucket;
+      this._targetObjectKeyFormat.internalValue = value.targetObjectKeyFormat;
+      this._targetPrefix = value.targetPrefix;
+    }
+  }
+
+  // target_bucket - computed: true, optional: true, required: false
+  private _targetBucket?: string; 
+  public get targetBucket() {
+    return this.getStringAttribute('target_bucket');
+  }
+  public set targetBucket(value: string) {
+    this._targetBucket = value;
+  }
+  public resetTargetBucket() {
+    this._targetBucket = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetBucketInput() {
+    return this._targetBucket;
+  }
+
+  // target_object_key_format - computed: true, optional: true, required: false
+  private _targetObjectKeyFormat = new S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference(this, "target_object_key_format");
+  public get targetObjectKeyFormat() {
+    return this._targetObjectKeyFormat;
+  }
+  public putTargetObjectKeyFormat(value: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat) {
+    this._targetObjectKeyFormat.internalValue = value;
+  }
+  public resetTargetObjectKeyFormat() {
+    this._targetObjectKeyFormat.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetObjectKeyFormatInput() {
+    return this._targetObjectKeyFormat.internalValue;
+  }
+
+  // target_prefix - computed: true, optional: true, required: false
+  private _targetPrefix?: string; 
+  public get targetPrefix() {
+    return this.getStringAttribute('target_prefix');
+  }
+  public set targetPrefix(value: string) {
+    this._targetPrefix = value;
+  }
+  public resetTargetPrefix() {
+    this._targetPrefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetPrefixInput() {
+    return this._targetPrefix;
+  }
+}
 export interface S3TablesTableBucketMetricsConfiguration {
   /**
   * Indicates whether Metrics are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
   */
   readonly status?: string;
 }
@@ -286,7 +650,7 @@ export interface S3TablesTableBucketReplicationConfigurationRulesDestinations {
   /**
   * The ARN of the destination table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#destination_table_bucket_arn S3TablesTableBucket#destination_table_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#destination_table_bucket_arn S3TablesTableBucket#destination_table_bucket_arn}
   */
   readonly destinationTableBucketArn?: string;
 }
@@ -404,7 +768,7 @@ export interface S3TablesTableBucketReplicationConfigurationRules {
   /**
   * List of replication destinations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
   */
   readonly destinations?: S3TablesTableBucketReplicationConfigurationRulesDestinations[] | cdktn.IResolvable;
 }
@@ -522,13 +886,13 @@ export interface S3TablesTableBucketReplicationConfiguration {
   /**
   * The ARN of the IAM role to use for replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
   */
   readonly role?: string;
   /**
   * List of replication rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
   */
   readonly rules?: S3TablesTableBucketReplicationConfigurationRules[] | cdktn.IResolvable;
 }
@@ -653,7 +1017,7 @@ export interface S3TablesTableBucketStorageClassConfiguration {
   /**
   * The storage class for the table bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -749,13 +1113,13 @@ export interface S3TablesTableBucketTags {
   /**
   * Tag key must be between 1 to 128 characters in length. Tag key cannot start with 'aws:' and can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#key S3TablesTableBucket#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#key S3TablesTableBucket#key}
   */
   readonly key?: string;
   /**
   * Tag value must be between 0 to 256 characters in length. Tag value can only contain alphanumeric characters, spaces, _, ., /, =, +, -, and @.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#value S3TablesTableBucket#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#value S3TablesTableBucket#value}
   */
   readonly value?: string;
 }
@@ -902,19 +1266,19 @@ export interface S3TablesTableBucketUnreferencedFileRemoval {
   /**
   * S3 permanently deletes noncurrent objects after the number of days specified by the NoncurrentDays property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
   */
   readonly noncurrentDays?: number;
   /**
   * Indicates whether the Unreferenced File Removal maintenance action is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
   */
   readonly status?: string;
   /**
   * For any object not referenced by your table and older than the UnreferencedDays property, S3 creates a delete marker and marks the object version as noncurrent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
   */
   readonly unreferencedDays?: number;
 }
@@ -1066,7 +1430,7 @@ export class S3TablesTableBucketUnreferencedFileRemovalOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}
 */
 export class S3TablesTableBucket extends cdktn.TerraformResource {
 
@@ -1082,7 +1446,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a S3TablesTableBucket resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3TablesTableBucket to import
-  * @param importFromId The id of the existing S3TablesTableBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3TablesTableBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3TablesTableBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1094,7 +1458,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1105,7 +1469,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_s3tables_table_bucket',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1117,6 +1481,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._encryptionConfiguration.internalValue = config.encryptionConfiguration;
+    this._loggingConfiguration.internalValue = config.loggingConfiguration;
     this._metricsConfiguration.internalValue = config.metricsConfiguration;
     this._replicationConfiguration.internalValue = config.replicationConfiguration;
     this._storageClassConfiguration.internalValue = config.storageClassConfiguration;
@@ -1148,6 +1513,22 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // logging_configuration - computed: true, optional: true, required: false
+  private _loggingConfiguration = new S3TablesTableBucketLoggingConfigurationOutputReference(this, "logging_configuration");
+  public get loggingConfiguration() {
+    return this._loggingConfiguration;
+  }
+  public putLoggingConfiguration(value: S3TablesTableBucketLoggingConfiguration) {
+    this._loggingConfiguration.internalValue = value;
+  }
+  public resetLoggingConfiguration() {
+    this._loggingConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get loggingConfigurationInput() {
+    return this._loggingConfiguration.internalValue;
   }
 
   // metrics_configuration - computed: true, optional: true, required: false
@@ -1255,6 +1636,7 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       encryption_configuration: s3TablesTableBucketEncryptionConfigurationToTerraform(this._encryptionConfiguration.internalValue),
+      logging_configuration: s3TablesTableBucketLoggingConfigurationToTerraform(this._loggingConfiguration.internalValue),
       metrics_configuration: s3TablesTableBucketMetricsConfigurationToTerraform(this._metricsConfiguration.internalValue),
       replication_configuration: s3TablesTableBucketReplicationConfigurationToTerraform(this._replicationConfiguration.internalValue),
       storage_class_configuration: s3TablesTableBucketStorageClassConfigurationToTerraform(this._storageClassConfiguration.internalValue),
@@ -1271,6 +1653,12 @@ export class S3TablesTableBucket extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "S3TablesTableBucketEncryptionConfiguration",
+      },
+      logging_configuration: {
+        value: s3TablesTableBucketLoggingConfigurationToHclTerraform(this._loggingConfiguration.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "S3TablesTableBucketLoggingConfiguration",
       },
       metrics_configuration: {
         value: s3TablesTableBucketMetricsConfigurationToHclTerraform(this._metricsConfiguration.internalValue),

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_conformance_pack
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_conformance_pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccConfigConformancePackConfig extends cdktn.TerraformMet
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_conformance_pack#id DataAwsccConfigConformancePack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_conformance_pack#id DataAwsccConfigConformancePack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,6 +100,119 @@ export class DataAwsccConfigConformancePackConformancePackInputParametersList ex
   */
   public get(index: number): DataAwsccConfigConformancePackConformancePackInputParametersOutputReference {
     return new DataAwsccConfigConformancePackConformancePackInputParametersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccConfigConformancePackScope {
+}
+
+export function dataAwsccConfigConformancePackScopeToTerraform(struct?: DataAwsccConfigConformancePackScope): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccConfigConformancePackScopeToHclTerraform(struct?: DataAwsccConfigConformancePackScope): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccConfigConformancePackScopeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccConfigConformancePackScope | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccConfigConformancePackScope | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // tag_key - computed: true, optional: false, required: false
+  public get tagKey() {
+    return this.getStringAttribute('tag_key');
+  }
+
+  // tag_value - computed: true, optional: false, required: false
+  public get tagValue() {
+    return this.getStringAttribute('tag_value');
+  }
+}
+export interface DataAwsccConfigConformancePackSource {
+}
+
+export function dataAwsccConfigConformancePackSourceToTerraform(struct?: DataAwsccConfigConformancePackSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccConfigConformancePackSourceToHclTerraform(struct?: DataAwsccConfigConformancePackSource): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccConfigConformancePackSourceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccConfigConformancePackSource | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccConfigConformancePackSource | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // source_identifier - computed: true, optional: false, required: false
+  public get sourceIdentifier() {
+    return this.getStringAttribute('source_identifier');
   }
 }
 export interface DataAwsccConfigConformancePackTags {
@@ -243,7 +356,7 @@ export class DataAwsccConfigConformancePackTemplateSsmDocumentDetailsOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_conformance_pack awscc_config_conformance_pack}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_conformance_pack awscc_config_conformance_pack}
 */
 export class DataAwsccConfigConformancePack extends cdktn.TerraformDataSource {
 
@@ -259,7 +372,7 @@ export class DataAwsccConfigConformancePack extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccConfigConformancePack resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccConfigConformancePack to import
-  * @param importFromId The id of the existing DataAwsccConfigConformancePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccConfigConformancePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_conformance_pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccConfigConformancePack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -271,7 +384,7 @@ export class DataAwsccConfigConformancePack extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_conformance_pack awscc_config_conformance_pack} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_conformance_pack awscc_config_conformance_pack} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,7 +395,7 @@ export class DataAwsccConfigConformancePack extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_config_conformance_pack',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -339,6 +452,18 @@ export class DataAwsccConfigConformancePack extends cdktn.TerraformDataSource {
     return this._id;
   }
 
+  // scope - computed: true, optional: false, required: false
+  private _scope = new DataAwsccConfigConformancePackScopeOutputReference(this, "scope");
+  public get scope() {
+    return this._scope;
+  }
+
+  // source - computed: true, optional: false, required: false
+  private _source = new DataAwsccConfigConformancePackSourceOutputReference(this, "source");
+  public get source() {
+    return this._source;
+  }
+
   // tags - computed: true, optional: false, required: false
   private _tags = new DataAwsccConfigConformancePackTagsList(this, "tags", false);
   public get tags() {
@@ -359,6 +484,11 @@ export class DataAwsccConfigConformancePack extends cdktn.TerraformDataSource {
   private _templateSsmDocumentDetails = new DataAwsccConfigConformancePackTemplateSsmDocumentDetailsOutputReference(this, "template_ssm_document_details");
   public get templateSsmDocumentDetails() {
     return this._templateSsmDocumentDetails;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
   }
 
   // =========

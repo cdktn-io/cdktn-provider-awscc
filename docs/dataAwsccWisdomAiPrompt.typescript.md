@@ -4,7 +4,7 @@
 
 ### DataAwsccWisdomAiPrompt <a name="DataAwsccWisdomAiPrompt" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/wisdom_ai_prompt awscc_wisdom_ai_prompt}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/wisdom_ai_prompt awscc_wisdom_ai_prompt}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccWisdomAiPrompt to
 
 The id of the existing DataAwsccWisdomAiPrompt that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/wisdom_ai_prompt#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/wisdom_ai_prompt#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -421,6 +421,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.property.assistantArn">assistantArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.property.assistantId">assistantId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.property.description">description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.property.inferenceConfiguration">inferenceConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference">DataAwsccWisdomAiPromptInferenceConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.property.modelId">modelId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.property.modifiedTimeSeconds">modifiedTimeSeconds</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.property.name">name</a></code> | <code>string</code> | *No description.* |
@@ -612,6 +613,16 @@ public readonly description: string;
 ```
 
 - *Type:* string
+
+---
+
+##### `inferenceConfiguration`<sup>Required</sup> <a name="inferenceConfiguration" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPrompt.property.inferenceConfiguration"></a>
+
+```typescript
+public readonly inferenceConfiguration: DataAwsccWisdomAiPromptInferenceConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference">DataAwsccWisdomAiPromptInferenceConfigurationOutputReference</a>
 
 ---
 
@@ -830,12 +841,23 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/wisdom_ai_prompt#id DataAwsccWisdomAiPrompt#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/wisdom_ai_prompt#id DataAwsccWisdomAiPrompt#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
+
+### DataAwsccWisdomAiPromptInferenceConfiguration <a name="DataAwsccWisdomAiPromptInferenceConfiguration" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfiguration.Initializer"></a>
+
+```typescript
+import { dataAwsccWisdomAiPrompt } from '@cdktn/provider-awscc'
+
+const dataAwsccWisdomAiPromptInferenceConfiguration: dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfiguration = { ... }
+```
+
 
 ### DataAwsccWisdomAiPromptTemplateConfiguration <a name="DataAwsccWisdomAiPromptTemplateConfiguration" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptTemplateConfiguration"></a>
 
@@ -860,6 +882,299 @@ const dataAwsccWisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateCo
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccWisdomAiPromptInferenceConfigurationOutputReference <a name="DataAwsccWisdomAiPromptInferenceConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccWisdomAiPrompt } from '@cdktn/provider-awscc'
+
+new dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.maxTokensToSample">maxTokensToSample</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.temperature">temperature</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.topK">topK</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.topP">topP</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfiguration">DataAwsccWisdomAiPromptInferenceConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `maxTokensToSample`<sup>Required</sup> <a name="maxTokensToSample" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.maxTokensToSample"></a>
+
+```typescript
+public readonly maxTokensToSample: number;
+```
+
+- *Type:* number
+
+---
+
+##### `temperature`<sup>Required</sup> <a name="temperature" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.temperature"></a>
+
+```typescript
+public readonly temperature: number;
+```
+
+- *Type:* number
+
+---
+
+##### `topK`<sup>Required</sup> <a name="topK" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.topK"></a>
+
+```typescript
+public readonly topK: number;
+```
+
+- *Type:* number
+
+---
+
+##### `topP`<sup>Required</sup> <a name="topP" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.topP"></a>
+
+```typescript
+public readonly topP: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccWisdomAiPromptInferenceConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptInferenceConfiguration">DataAwsccWisdomAiPromptInferenceConfiguration</a>
+
+---
+
 
 ### DataAwsccWisdomAiPromptTemplateConfigurationOutputReference <a name="DataAwsccWisdomAiPromptTemplateConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccWisdomAiPrompt.DataAwsccWisdomAiPromptTemplateConfigurationOutputReference"></a>
 

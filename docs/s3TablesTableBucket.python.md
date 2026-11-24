@@ -4,7 +4,7 @@
 
 ### S3TablesTableBucket <a name="S3TablesTableBucket" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer"></a>
 
@@ -23,6 +23,7 @@ s3TablesTableBucket.S3TablesTableBucket(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   table_bucket_name: str,
   encryption_configuration: S3TablesTableBucketEncryptionConfiguration = None,
+  logging_configuration: S3TablesTableBucketLoggingConfiguration = None,
   metrics_configuration: S3TablesTableBucketMetricsConfiguration = None,
   replication_configuration: S3TablesTableBucketReplicationConfiguration = None,
   storage_class_configuration: S3TablesTableBucketStorageClassConfiguration = None,
@@ -44,6 +45,7 @@ s3TablesTableBucket.S3TablesTableBucket(
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer.parameter.tableBucketName">table_bucket_name</a></code> | <code>str</code> | A name for the table bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer.parameter.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketEncryptionConfiguration">S3TablesTableBucketEncryptionConfiguration</a></code> | Specifies encryption settings for the table bucket. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer.parameter.loggingConfiguration">logging_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration">S3TablesTableBucketLoggingConfiguration</a></code> | Describes where logs are stored and the prefix that Amazon S3 assigns to all log object keys for a table bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer.parameter.metricsConfiguration">metrics_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketMetricsConfiguration">S3TablesTableBucketMetricsConfiguration</a></code> | Settings governing the Metric configuration for the table bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer.parameter.replicationConfiguration">replication_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketReplicationConfiguration">S3TablesTableBucketReplicationConfiguration</a></code> | Specifies replication configuration for the table bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer.parameter.storageClassConfiguration">storage_class_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketStorageClassConfiguration">S3TablesTableBucketStorageClassConfiguration</a></code> | Specifies storage class settings for the table bucket. |
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 A name for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
 
 ---
 
@@ -128,7 +130,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies encryption settings for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
+
+---
+
+##### `logging_configuration`<sup>Optional</sup> <a name="logging_configuration" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.Initializer.parameter.loggingConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration">S3TablesTableBucketLoggingConfiguration</a>
+
+Describes where logs are stored and the prefix that Amazon S3 assigns to all log object keys for a table bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#logging_configuration S3TablesTableBucket#logging_configuration}
 
 ---
 
@@ -138,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Settings governing the Metric configuration for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
 
 ---
 
@@ -148,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies replication configuration for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
 
 ---
 
@@ -158,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies storage class settings for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
 
 ---
 
@@ -168,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User tags (key-value pairs) to associate with the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
 
 ---
 
@@ -180,7 +192,7 @@ Settings governing the Unreferenced File Removal maintenance action.
 
 Unreferenced file removal identifies and deletes all objects that are not referenced by any table snapshots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
 
 ---
 
@@ -213,12 +225,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putEncryptionConfiguration">put_encryption_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putLoggingConfiguration">put_logging_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putMetricsConfiguration">put_metrics_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putReplicationConfiguration">put_replication_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putStorageClassConfiguration">put_storage_class_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putUnreferencedFileRemoval">put_unreferenced_file_removal</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.resetEncryptionConfiguration">reset_encryption_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.resetLoggingConfiguration">reset_logging_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.resetMetricsConfiguration">reset_metrics_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.resetReplicationConfiguration">reset_replication_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.resetStorageClassConfiguration">reset_storage_class_configuration</a></code> | *No description.* |
@@ -590,7 +604,7 @@ def put_encryption_configuration(
 
 ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
 
 ---
 
@@ -600,7 +614,49 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Server-side encryption algorithm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
+
+---
+
+##### `put_logging_configuration` <a name="put_logging_configuration" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putLoggingConfiguration"></a>
+
+```python
+def put_logging_configuration(
+  target_bucket: str = None,
+  target_object_key_format: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat = None,
+  target_prefix: str = None
+) -> None
+```
+
+###### `target_bucket`<sup>Optional</sup> <a name="target_bucket" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putLoggingConfiguration.parameter.targetBucket"></a>
+
+- *Type:* str
+
+The name of the general purpose bucket that logs are delivered to.
+
+The bucket must be in the same AWS Region and owned by the same AWS account as the table bucket. The bucket can't use SSE-KMS or DSSE-KMS default encryption, can't have S3 Object Lock enabled, and can't have Requester Pays enabled. You can deliver logs from multiple table buckets to the same target bucket. In this case, choose a different TargetPrefix for each table bucket so that you can tell their log objects apart.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_bucket S3TablesTableBucket#target_bucket}
+
+---
+
+###### `target_object_key_format`<sup>Optional</sup> <a name="target_object_key_format" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putLoggingConfiguration.parameter.targetObjectKeyFormat"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat</a>
+
+The key format of the log objects. Only PartitionedPrefix is supported.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_object_key_format S3TablesTableBucket#target_object_key_format}
+
+---
+
+###### `target_prefix`<sup>Optional</sup> <a name="target_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.putLoggingConfiguration.parameter.targetPrefix"></a>
+
+- *Type:* str
+
+The prefix for the keys of the log objects that are delivered to the target bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_prefix S3TablesTableBucket#target_prefix}
 
 ---
 
@@ -618,7 +674,7 @@ def put_metrics_configuration(
 
 Indicates whether Metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
 
 ---
 
@@ -637,7 +693,7 @@ def put_replication_configuration(
 
 The ARN of the IAM role to use for replication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
 
 ---
 
@@ -647,7 +703,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of replication rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
 
 ---
 
@@ -665,7 +721,7 @@ def put_storage_class_configuration(
 
 The storage class for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
 
 ---
 
@@ -699,7 +755,7 @@ def put_unreferenced_file_removal(
 
 S3 permanently deletes noncurrent objects after the number of days specified by the NoncurrentDays property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
 
 ---
 
@@ -709,7 +765,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether the Unreferenced File Removal maintenance action is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
 
 ---
 
@@ -719,7 +775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For any object not referenced by your table and older than the UnreferencedDays property, S3 creates a delete marker and marks the object version as noncurrent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
 
 ---
 
@@ -727,6 +783,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_encryption_configuration() -> None
+```
+
+##### `reset_logging_configuration` <a name="reset_logging_configuration" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.resetLoggingConfiguration"></a>
+
+```python
+def reset_logging_configuration() -> None
 ```
 
 ##### `reset_metrics_configuration` <a name="reset_metrics_configuration" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.resetMetricsConfiguration"></a>
@@ -873,7 +935,7 @@ The construct id used in the generated config for the S3TablesTableBucket to imp
 
 The id of the existing S3TablesTableBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -905,6 +967,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketEncryptionConfigurationOutputReference">S3TablesTableBucketEncryptionConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.loggingConfiguration">logging_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference">S3TablesTableBucketLoggingConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.metricsConfiguration">metrics_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketMetricsConfigurationOutputReference">S3TablesTableBucketMetricsConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.replicationConfiguration">replication_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketReplicationConfigurationOutputReference">S3TablesTableBucketReplicationConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.storageClassConfiguration">storage_class_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketStorageClassConfigurationOutputReference">S3TablesTableBucketStorageClassConfigurationOutputReference</a></code> | *No description.* |
@@ -912,6 +975,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketTagsList">S3TablesTableBucketTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.unreferencedFileRemoval">unreferenced_file_removal</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketUnreferencedFileRemovalOutputReference">S3TablesTableBucketUnreferencedFileRemovalOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.encryptionConfigurationInput">encryption_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketEncryptionConfiguration">S3TablesTableBucketEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.loggingConfigurationInput">logging_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration">S3TablesTableBucketLoggingConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.metricsConfigurationInput">metrics_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketMetricsConfiguration">S3TablesTableBucketMetricsConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.replicationConfigurationInput">replication_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketReplicationConfiguration">S3TablesTableBucketReplicationConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.storageClassConfigurationInput">storage_class_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketStorageClassConfiguration">S3TablesTableBucketStorageClassConfiguration</a></code> | *No description.* |
@@ -1084,6 +1148,16 @@ id: str
 
 ---
 
+##### `logging_configuration`<sup>Required</sup> <a name="logging_configuration" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.loggingConfiguration"></a>
+
+```python
+logging_configuration: S3TablesTableBucketLoggingConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference">S3TablesTableBucketLoggingConfigurationOutputReference</a>
+
+---
+
 ##### `metrics_configuration`<sup>Required</sup> <a name="metrics_configuration" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.metricsConfiguration"></a>
 
 ```python
@@ -1151,6 +1225,16 @@ encryption_configuration_input: IResolvable | S3TablesTableBucketEncryptionConfi
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketEncryptionConfiguration">S3TablesTableBucketEncryptionConfiguration</a>
+
+---
+
+##### `logging_configuration_input`<sup>Optional</sup> <a name="logging_configuration_input" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucket.property.loggingConfigurationInput"></a>
+
+```python
+logging_configuration_input: IResolvable | S3TablesTableBucketLoggingConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration">S3TablesTableBucketLoggingConfiguration</a>
 
 ---
 
@@ -1261,6 +1345,7 @@ s3TablesTableBucket.S3TablesTableBucketConfig(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   table_bucket_name: str,
   encryption_configuration: S3TablesTableBucketEncryptionConfiguration = None,
+  logging_configuration: S3TablesTableBucketLoggingConfiguration = None,
   metrics_configuration: S3TablesTableBucketMetricsConfiguration = None,
   replication_configuration: S3TablesTableBucketReplicationConfiguration = None,
   storage_class_configuration: S3TablesTableBucketStorageClassConfiguration = None,
@@ -1282,6 +1367,7 @@ s3TablesTableBucket.S3TablesTableBucketConfig(
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketConfig.property.tableBucketName">table_bucket_name</a></code> | <code>str</code> | A name for the table bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketConfig.property.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketEncryptionConfiguration">S3TablesTableBucketEncryptionConfiguration</a></code> | Specifies encryption settings for the table bucket. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketConfig.property.loggingConfiguration">logging_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration">S3TablesTableBucketLoggingConfiguration</a></code> | Describes where logs are stored and the prefix that Amazon S3 assigns to all log object keys for a table bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketConfig.property.metricsConfiguration">metrics_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketMetricsConfiguration">S3TablesTableBucketMetricsConfiguration</a></code> | Settings governing the Metric configuration for the table bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketConfig.property.replicationConfiguration">replication_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketReplicationConfiguration">S3TablesTableBucketReplicationConfiguration</a></code> | Specifies replication configuration for the table bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketConfig.property.storageClassConfiguration">storage_class_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketStorageClassConfiguration">S3TablesTableBucketStorageClassConfiguration</a></code> | Specifies storage class settings for the table bucket. |
@@ -1370,7 +1456,7 @@ table_bucket_name: str
 
 A name for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#table_bucket_name S3TablesTableBucket#table_bucket_name}
 
 ---
 
@@ -1384,7 +1470,21 @@ encryption_configuration: S3TablesTableBucketEncryptionConfiguration
 
 Specifies encryption settings for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#encryption_configuration S3TablesTableBucket#encryption_configuration}
+
+---
+
+##### `logging_configuration`<sup>Optional</sup> <a name="logging_configuration" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketConfig.property.loggingConfiguration"></a>
+
+```python
+logging_configuration: S3TablesTableBucketLoggingConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration">S3TablesTableBucketLoggingConfiguration</a>
+
+Describes where logs are stored and the prefix that Amazon S3 assigns to all log object keys for a table bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#logging_configuration S3TablesTableBucket#logging_configuration}
 
 ---
 
@@ -1398,7 +1498,7 @@ metrics_configuration: S3TablesTableBucketMetricsConfiguration
 
 Settings governing the Metric configuration for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#metrics_configuration S3TablesTableBucket#metrics_configuration}
 
 ---
 
@@ -1412,7 +1512,7 @@ replication_configuration: S3TablesTableBucketReplicationConfiguration
 
 Specifies replication configuration for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#replication_configuration S3TablesTableBucket#replication_configuration}
 
 ---
 
@@ -1426,7 +1526,7 @@ storage_class_configuration: S3TablesTableBucketStorageClassConfiguration
 
 Specifies storage class settings for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#storage_class_configuration S3TablesTableBucket#storage_class_configuration}
 
 ---
 
@@ -1440,7 +1540,7 @@ tags: IResolvable | typing.List[S3TablesTableBucketTags]
 
 User tags (key-value pairs) to associate with the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#tags S3TablesTableBucket#tags}
 
 ---
 
@@ -1456,7 +1556,7 @@ Settings governing the Unreferenced File Removal maintenance action.
 
 Unreferenced file removal identifies and deletes all objects that are not referenced by any table snapshots.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#unreferenced_file_removal S3TablesTableBucket#unreferenced_file_removal}
 
 ---
 
@@ -1492,7 +1592,7 @@ kms_key_arn: str
 
 ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#kms_key_arn S3TablesTableBucket#kms_key_arn}
 
 ---
 
@@ -1506,7 +1606,145 @@ sse_algorithm: str
 
 Server-side encryption algorithm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#sse_algorithm S3TablesTableBucket#sse_algorithm}
+
+---
+
+### S3TablesTableBucketLoggingConfiguration <a name="S3TablesTableBucketLoggingConfiguration" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_tables_table_bucket
+
+s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration(
+  target_bucket: str = None,
+  target_object_key_format: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat = None,
+  target_prefix: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration.property.targetBucket">target_bucket</a></code> | <code>str</code> | The name of the general purpose bucket that logs are delivered to. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration.property.targetObjectKeyFormat">target_object_key_format</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat</a></code> | The key format of the log objects. Only PartitionedPrefix is supported. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration.property.targetPrefix">target_prefix</a></code> | <code>str</code> | The prefix for the keys of the log objects that are delivered to the target bucket. |
+
+---
+
+##### `target_bucket`<sup>Optional</sup> <a name="target_bucket" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration.property.targetBucket"></a>
+
+```python
+target_bucket: str
+```
+
+- *Type:* str
+
+The name of the general purpose bucket that logs are delivered to.
+
+The bucket must be in the same AWS Region and owned by the same AWS account as the table bucket. The bucket can't use SSE-KMS or DSSE-KMS default encryption, can't have S3 Object Lock enabled, and can't have Requester Pays enabled. You can deliver logs from multiple table buckets to the same target bucket. In this case, choose a different TargetPrefix for each table bucket so that you can tell their log objects apart.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_bucket S3TablesTableBucket#target_bucket}
+
+---
+
+##### `target_object_key_format`<sup>Optional</sup> <a name="target_object_key_format" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration.property.targetObjectKeyFormat"></a>
+
+```python
+target_object_key_format: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat</a>
+
+The key format of the log objects. Only PartitionedPrefix is supported.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_object_key_format S3TablesTableBucket#target_object_key_format}
+
+---
+
+##### `target_prefix`<sup>Optional</sup> <a name="target_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration.property.targetPrefix"></a>
+
+```python
+target_prefix: str
+```
+
+- *Type:* str
+
+The prefix for the keys of the log objects that are delivered to the target bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#target_prefix S3TablesTableBucket#target_prefix}
+
+---
+
+### S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat <a name="S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_tables_table_bucket
+
+s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat(
+  partitioned_prefix: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat.property.partitionedPrefix">partitioned_prefix</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix</a></code> | Amazon S3 keys for log objects are partitioned in the following format: [TargetPrefix][SourceAccountId]/[SourceRegion]/[SourceTableBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString]. |
+
+---
+
+##### `partitioned_prefix`<sup>Optional</sup> <a name="partitioned_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat.property.partitionedPrefix"></a>
+
+```python
+partitioned_prefix: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix</a>
+
+Amazon S3 keys for log objects are partitioned in the following format: [TargetPrefix][SourceAccountId]/[SourceRegion]/[SourceTableBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#partitioned_prefix S3TablesTableBucket#partitioned_prefix}
+
+---
+
+### S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix <a name="S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_tables_table_bucket
+
+s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix(
+  partition_date_source: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix.property.partitionDateSource">partition_date_source</a></code> | <code>str</code> | The date to use for the log object key partitions. |
+
+---
+
+##### `partition_date_source`<sup>Optional</sup> <a name="partition_date_source" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix.property.partitionDateSource"></a>
+
+```python
+partition_date_source: str
+```
+
+- *Type:* str
+
+The date to use for the log object key partitions.
+
+Valid values are EventTime, the time that the requests in the log were made, and DeliveryTime, the time that the log was delivered.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#partition_date_source S3TablesTableBucket#partition_date_source}
 
 ---
 
@@ -1540,7 +1778,7 @@ status: str
 
 Indicates whether Metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
 
 ---
 
@@ -1576,7 +1814,7 @@ role: str
 
 The ARN of the IAM role to use for replication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#role S3TablesTableBucket#role}
 
 ---
 
@@ -1590,7 +1828,7 @@ rules: IResolvable | typing.List[S3TablesTableBucketReplicationConfigurationRule
 
 List of replication rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#rules S3TablesTableBucket#rules}
 
 ---
 
@@ -1624,7 +1862,7 @@ destinations: IResolvable | typing.List[S3TablesTableBucketReplicationConfigurat
 
 List of replication destinations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
 
 ---
 
@@ -1658,7 +1896,7 @@ destination_table_bucket_arn: str
 
 The ARN of the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#destination_table_bucket_arn S3TablesTableBucket#destination_table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#destination_table_bucket_arn S3TablesTableBucket#destination_table_bucket_arn}
 
 ---
 
@@ -1692,7 +1930,7 @@ storage_class: str
 
 The storage class for the table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#storage_class S3TablesTableBucket#storage_class}
 
 ---
 
@@ -1780,7 +2018,7 @@ noncurrent_days: typing.Union[int, float]
 
 S3 permanently deletes noncurrent objects after the number of days specified by the NoncurrentDays property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#noncurrent_days S3TablesTableBucket#noncurrent_days}
 
 ---
 
@@ -1794,7 +2032,7 @@ status: str
 
 Indicates whether the Unreferenced File Removal maintenance action is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#status S3TablesTableBucket#status}
 
 ---
 
@@ -1808,7 +2046,7 @@ unreferenced_days: typing.Union[int, float]
 
 For any object not referenced by your table and older than the UnreferencedDays property, S3 creates a delete marker and marks the object version as noncurrent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#unreferenced_days S3TablesTableBucket#unreferenced_days}
 
 ---
 
@@ -2142,6 +2380,1013 @@ internal_value: IResolvable | S3TablesTableBucketEncryptionConfiguration
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketEncryptionConfiguration">S3TablesTableBucketEncryptionConfiguration</a>
+
+---
+
+
+### S3TablesTableBucketLoggingConfigurationOutputReference <a name="S3TablesTableBucketLoggingConfigurationOutputReference" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_tables_table_bucket
+
+s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.putTargetObjectKeyFormat">put_target_object_key_format</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resetTargetBucket">reset_target_bucket</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resetTargetObjectKeyFormat">reset_target_object_key_format</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resetTargetPrefix">reset_target_prefix</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_target_object_key_format` <a name="put_target_object_key_format" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.putTargetObjectKeyFormat"></a>
+
+```python
+def put_target_object_key_format(
+  partitioned_prefix: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix = None
+) -> None
+```
+
+###### `partitioned_prefix`<sup>Optional</sup> <a name="partitioned_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.putTargetObjectKeyFormat.parameter.partitionedPrefix"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix</a>
+
+Amazon S3 keys for log objects are partitioned in the following format: [TargetPrefix][SourceAccountId]/[SourceRegion]/[SourceTableBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString].
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#partitioned_prefix S3TablesTableBucket#partitioned_prefix}
+
+---
+
+##### `reset_target_bucket` <a name="reset_target_bucket" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resetTargetBucket"></a>
+
+```python
+def reset_target_bucket() -> None
+```
+
+##### `reset_target_object_key_format` <a name="reset_target_object_key_format" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resetTargetObjectKeyFormat"></a>
+
+```python
+def reset_target_object_key_format() -> None
+```
+
+##### `reset_target_prefix` <a name="reset_target_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.resetTargetPrefix"></a>
+
+```python
+def reset_target_prefix() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetObjectKeyFormat">target_object_key_format</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetBucketInput">target_bucket_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetObjectKeyFormatInput">target_object_key_format_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetPrefixInput">target_prefix_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetBucket">target_bucket</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetPrefix">target_prefix</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration">S3TablesTableBucketLoggingConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_object_key_format`<sup>Required</sup> <a name="target_object_key_format" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetObjectKeyFormat"></a>
+
+```python
+target_object_key_format: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference</a>
+
+---
+
+##### `target_bucket_input`<sup>Optional</sup> <a name="target_bucket_input" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetBucketInput"></a>
+
+```python
+target_bucket_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_object_key_format_input`<sup>Optional</sup> <a name="target_object_key_format_input" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetObjectKeyFormatInput"></a>
+
+```python
+target_object_key_format_input: IResolvable | S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat</a>
+
+---
+
+##### `target_prefix_input`<sup>Optional</sup> <a name="target_prefix_input" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetPrefixInput"></a>
+
+```python
+target_prefix_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_bucket`<sup>Required</sup> <a name="target_bucket" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetBucket"></a>
+
+```python
+target_bucket: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_prefix`<sup>Required</sup> <a name="target_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.targetPrefix"></a>
+
+```python
+target_prefix: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3TablesTableBucketLoggingConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfiguration">S3TablesTableBucketLoggingConfiguration</a>
+
+---
+
+
+### S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference <a name="S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_tables_table_bucket
+
+s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.putPartitionedPrefix">put_partitioned_prefix</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.resetPartitionedPrefix">reset_partitioned_prefix</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_partitioned_prefix` <a name="put_partitioned_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.putPartitionedPrefix"></a>
+
+```python
+def put_partitioned_prefix(
+  partition_date_source: str = None
+) -> None
+```
+
+###### `partition_date_source`<sup>Optional</sup> <a name="partition_date_source" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.putPartitionedPrefix.parameter.partitionDateSource"></a>
+
+- *Type:* str
+
+The date to use for the log object key partitions.
+
+Valid values are EventTime, the time that the requests in the log were made, and DeliveryTime, the time that the log was delivered.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/s3tables_table_bucket#partition_date_source S3TablesTableBucket#partition_date_source}
+
+---
+
+##### `reset_partitioned_prefix` <a name="reset_partitioned_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.resetPartitionedPrefix"></a>
+
+```python
+def reset_partitioned_prefix() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.partitionedPrefix">partitioned_prefix</a></code> | <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.partitionedPrefixInput">partitioned_prefix_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `partitioned_prefix`<sup>Required</sup> <a name="partitioned_prefix" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.partitionedPrefix"></a>
+
+```python
+partitioned_prefix: S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference</a>
+
+---
+
+##### `partitioned_prefix_input`<sup>Optional</sup> <a name="partitioned_prefix_input" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.partitionedPrefixInput"></a>
+
+```python
+partitioned_prefix_input: IResolvable | S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormat</a>
+
+---
+
+
+### S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference <a name="S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_tables_table_bucket
+
+s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.resetPartitionDateSource">reset_partition_date_source</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_partition_date_source` <a name="reset_partition_date_source" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.resetPartitionDateSource"></a>
+
+```python
+def reset_partition_date_source() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.partitionDateSourceInput">partition_date_source_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.partitionDateSource">partition_date_source</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `partition_date_source_input`<sup>Optional</sup> <a name="partition_date_source_input" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.partitionDateSourceInput"></a>
+
+```python
+partition_date_source_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `partition_date_source`<sup>Required</sup> <a name="partition_date_source" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.partitionDateSource"></a>
+
+```python
+partition_date_source: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefixOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3TablesTableBucket.S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix">S3TablesTableBucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix</a>
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,25 @@ export interface SecurityhubConnectorConfig extends cdktn.TerraformMetaArguments
   /**
   * The description of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
   */
   readonly description?: string;
   /**
   * The name of the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}
+  * The CSPM provider configuration for the connector
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}
   */
   readonly providerName: SecurityhubConnectorProviderName;
   /**
   * A key-value pair to associate with a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -119,13 +121,13 @@ export interface SecurityhubConnectorProviderNameAzureScopeConfiguration {
   /**
   * The type of scope. Valid values are ``tenant`` and ``subscription``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
   */
-  readonly scopeType: string;
+  readonly scopeType?: string;
   /**
   * The list of scope values, such as subscription IDs, when the scope type is ``subscription``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
   */
   readonly scopeValues?: string[];
 }
@@ -214,13 +216,16 @@ export class SecurityhubConnectorProviderNameAzureScopeConfigurationOutputRefere
     }
   }
 
-  // scope_type - computed: false, optional: false, required: true
+  // scope_type - computed: true, optional: true, required: false
   private _scopeType?: string; 
   public get scopeType() {
     return this.getStringAttribute('scope_type');
   }
   public set scopeType(value: string) {
     this._scopeType = value;
+  }
+  public resetScopeType() {
+    this._scopeType = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scopeTypeInput() {
@@ -247,21 +252,21 @@ export interface SecurityhubConnectorProviderNameAzure {
   /**
   * The ARN of the multi-cloud configuration connector used to establish the connection to Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
   */
-  readonly awsConfigConnectorArn: string;
+  readonly awsConfigConnectorArn?: string;
   /**
   * The list of Azure regions to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
   */
-  readonly azureRegions: string[];
+  readonly azureRegions?: string[];
   /**
   * The scope configuration that defines which Azure resources are monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
   */
-  readonly scopeConfiguration: SecurityhubConnectorProviderNameAzureScopeConfiguration;
+  readonly scopeConfiguration?: SecurityhubConnectorProviderNameAzureScopeConfiguration;
 }
 
 export function securityhubConnectorProviderNameAzureToTerraform(struct?: SecurityhubConnectorProviderNameAzure | cdktn.IResolvable): any {
@@ -361,7 +366,7 @@ export class SecurityhubConnectorProviderNameAzureOutputReference extends cdktn.
     }
   }
 
-  // aws_config_connector_arn - computed: false, optional: false, required: true
+  // aws_config_connector_arn - computed: true, optional: true, required: false
   private _awsConfigConnectorArn?: string; 
   public get awsConfigConnectorArn() {
     return this.getStringAttribute('aws_config_connector_arn');
@@ -369,12 +374,15 @@ export class SecurityhubConnectorProviderNameAzureOutputReference extends cdktn.
   public set awsConfigConnectorArn(value: string) {
     this._awsConfigConnectorArn = value;
   }
+  public resetAwsConfigConnectorArn() {
+    this._awsConfigConnectorArn = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get awsConfigConnectorArnInput() {
     return this._awsConfigConnectorArn;
   }
 
-  // azure_regions - computed: false, optional: false, required: true
+  // azure_regions - computed: true, optional: true, required: false
   private _azureRegions?: string[]; 
   public get azureRegions() {
     return cdktn.Fn.tolist(this.getListAttribute('azure_regions'));
@@ -382,18 +390,319 @@ export class SecurityhubConnectorProviderNameAzureOutputReference extends cdktn.
   public set azureRegions(value: string[]) {
     this._azureRegions = value;
   }
+  public resetAzureRegions() {
+    this._azureRegions = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get azureRegionsInput() {
     return this._azureRegions;
   }
 
-  // scope_configuration - computed: false, optional: false, required: true
+  // scope_configuration - computed: true, optional: true, required: false
   private _scopeConfiguration = new SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference(this, "scope_configuration");
   public get scopeConfiguration() {
     return this._scopeConfiguration;
   }
   public putScopeConfiguration(value: SecurityhubConnectorProviderNameAzureScopeConfiguration) {
     this._scopeConfiguration.internalValue = value;
+  }
+  public resetScopeConfiguration() {
+    this._scopeConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeConfigurationInput() {
+    return this._scopeConfiguration.internalValue;
+  }
+}
+export interface SecurityhubConnectorProviderNameGcpScopeConfiguration {
+  /**
+  * The scope type for the GCP connector
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+  */
+  readonly scopeType?: string;
+  /**
+  * The list of scope values for the GCP connector
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+  */
+  readonly scopeValues?: string[];
+}
+
+export function securityhubConnectorProviderNameGcpScopeConfigurationToTerraform(struct?: SecurityhubConnectorProviderNameGcpScopeConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    scope_type: cdktn.stringToTerraform(struct!.scopeType),
+    scope_values: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scopeValues),
+  }
+}
+
+
+export function securityhubConnectorProviderNameGcpScopeConfigurationToHclTerraform(struct?: SecurityhubConnectorProviderNameGcpScopeConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    scope_type: {
+      value: cdktn.stringToHclTerraform(struct!.scopeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scope_values: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scopeValues),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SecurityhubConnectorProviderNameGcpScopeConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._scopeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeType = this._scopeType;
+    }
+    if (this._scopeValues !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeValues = this._scopeValues;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecurityhubConnectorProviderNameGcpScopeConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._scopeType = undefined;
+      this._scopeValues = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._scopeType = value.scopeType;
+      this._scopeValues = value.scopeValues;
+    }
+  }
+
+  // scope_type - computed: true, optional: true, required: false
+  private _scopeType?: string; 
+  public get scopeType() {
+    return this.getStringAttribute('scope_type');
+  }
+  public set scopeType(value: string) {
+    this._scopeType = value;
+  }
+  public resetScopeType() {
+    this._scopeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeTypeInput() {
+    return this._scopeType;
+  }
+
+  // scope_values - computed: true, optional: true, required: false
+  private _scopeValues?: string[]; 
+  public get scopeValues() {
+    return cdktn.Fn.tolist(this.getListAttribute('scope_values'));
+  }
+  public set scopeValues(value: string[]) {
+    this._scopeValues = value;
+  }
+  public resetScopeValues() {
+    this._scopeValues = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeValuesInput() {
+    return this._scopeValues;
+  }
+}
+export interface SecurityhubConnectorProviderNameGcp {
+  /**
+  * The ARN of the AWS Config connector used for the GCP integration
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+  */
+  readonly awsConfigConnectorArn?: string;
+  /**
+  * The list of GCP regions to include in the connector scope
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp_regions SecurityhubConnector#gcp_regions}
+  */
+  readonly gcpRegions?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
+  */
+  readonly scopeConfiguration?: SecurityhubConnectorProviderNameGcpScopeConfiguration;
+}
+
+export function securityhubConnectorProviderNameGcpToTerraform(struct?: SecurityhubConnectorProviderNameGcp | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    aws_config_connector_arn: cdktn.stringToTerraform(struct!.awsConfigConnectorArn),
+    gcp_regions: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.gcpRegions),
+    scope_configuration: securityhubConnectorProviderNameGcpScopeConfigurationToTerraform(struct!.scopeConfiguration),
+  }
+}
+
+
+export function securityhubConnectorProviderNameGcpToHclTerraform(struct?: SecurityhubConnectorProviderNameGcp | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    aws_config_connector_arn: {
+      value: cdktn.stringToHclTerraform(struct!.awsConfigConnectorArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    gcp_regions: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.gcpRegions),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+    scope_configuration: {
+      value: securityhubConnectorProviderNameGcpScopeConfigurationToHclTerraform(struct!.scopeConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SecurityhubConnectorProviderNameGcpScopeConfiguration",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecurityhubConnectorProviderNameGcpOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SecurityhubConnectorProviderNameGcp | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._awsConfigConnectorArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.awsConfigConnectorArn = this._awsConfigConnectorArn;
+    }
+    if (this._gcpRegions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcpRegions = this._gcpRegions;
+    }
+    if (this._scopeConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopeConfiguration = this._scopeConfiguration?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecurityhubConnectorProviderNameGcp | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._awsConfigConnectorArn = undefined;
+      this._gcpRegions = undefined;
+      this._scopeConfiguration.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._awsConfigConnectorArn = value.awsConfigConnectorArn;
+      this._gcpRegions = value.gcpRegions;
+      this._scopeConfiguration.internalValue = value.scopeConfiguration;
+    }
+  }
+
+  // aws_config_connector_arn - computed: true, optional: true, required: false
+  private _awsConfigConnectorArn?: string; 
+  public get awsConfigConnectorArn() {
+    return this.getStringAttribute('aws_config_connector_arn');
+  }
+  public set awsConfigConnectorArn(value: string) {
+    this._awsConfigConnectorArn = value;
+  }
+  public resetAwsConfigConnectorArn() {
+    this._awsConfigConnectorArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get awsConfigConnectorArnInput() {
+    return this._awsConfigConnectorArn;
+  }
+
+  // gcp_regions - computed: true, optional: true, required: false
+  private _gcpRegions?: string[]; 
+  public get gcpRegions() {
+    return cdktn.Fn.tolist(this.getListAttribute('gcp_regions'));
+  }
+  public set gcpRegions(value: string[]) {
+    this._gcpRegions = value;
+  }
+  public resetGcpRegions() {
+    this._gcpRegions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpRegionsInput() {
+    return this._gcpRegions;
+  }
+
+  // scope_configuration - computed: true, optional: true, required: false
+  private _scopeConfiguration = new SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference(this, "scope_configuration");
+  public get scopeConfiguration() {
+    return this._scopeConfiguration;
+  }
+  public putScopeConfiguration(value: SecurityhubConnectorProviderNameGcpScopeConfiguration) {
+    this._scopeConfiguration.internalValue = value;
+  }
+  public resetScopeConfiguration() {
+    this._scopeConfiguration.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get scopeConfigurationInput() {
@@ -404,9 +713,13 @@ export interface SecurityhubConnectorProviderName {
   /**
   * The configuration for connecting to an Azure environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
   */
-  readonly azure: SecurityhubConnectorProviderNameAzure;
+  readonly azure?: SecurityhubConnectorProviderNameAzure;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp SecurityhubConnector#gcp}
+  */
+  readonly gcp?: SecurityhubConnectorProviderNameGcp;
 }
 
 export function securityhubConnectorProviderNameToTerraform(struct?: SecurityhubConnectorProviderName | cdktn.IResolvable): any {
@@ -416,6 +729,7 @@ export function securityhubConnectorProviderNameToTerraform(struct?: Securityhub
   }
   return {
     azure: securityhubConnectorProviderNameAzureToTerraform(struct!.azure),
+    gcp: securityhubConnectorProviderNameGcpToTerraform(struct!.gcp),
   }
 }
 
@@ -431,6 +745,12 @@ export function securityhubConnectorProviderNameToHclTerraform(struct?: Security
       isBlock: true,
       type: "struct",
       storageClassType: "SecurityhubConnectorProviderNameAzure",
+    },
+    gcp: {
+      value: securityhubConnectorProviderNameGcpToHclTerraform(struct!.gcp),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "SecurityhubConnectorProviderNameGcp",
     },
   };
 
@@ -460,6 +780,10 @@ export class SecurityhubConnectorProviderNameOutputReference extends cdktn.Compl
       hasAnyValues = true;
       internalValueResult.azure = this._azure?.internalValue;
     }
+    if (this._gcp?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gcp = this._gcp?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -468,6 +792,7 @@ export class SecurityhubConnectorProviderNameOutputReference extends cdktn.Compl
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._azure.internalValue = undefined;
+      this._gcp.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -477,10 +802,11 @@ export class SecurityhubConnectorProviderNameOutputReference extends cdktn.Compl
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._azure.internalValue = value.azure;
+      this._gcp.internalValue = value.gcp;
     }
   }
 
-  // azure - computed: false, optional: false, required: true
+  // azure - computed: true, optional: true, required: false
   private _azure = new SecurityhubConnectorProviderNameAzureOutputReference(this, "azure");
   public get azure() {
     return this._azure;
@@ -488,14 +814,33 @@ export class SecurityhubConnectorProviderNameOutputReference extends cdktn.Compl
   public putAzure(value: SecurityhubConnectorProviderNameAzure) {
     this._azure.internalValue = value;
   }
+  public resetAzure() {
+    this._azure.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get azureInput() {
     return this._azure.internalValue;
   }
+
+  // gcp - computed: true, optional: true, required: false
+  private _gcp = new SecurityhubConnectorProviderNameGcpOutputReference(this, "gcp");
+  public get gcp() {
+    return this._gcp;
+  }
+  public putGcp(value: SecurityhubConnectorProviderNameGcp) {
+    this._gcp.internalValue = value;
+  }
+  public resetGcp() {
+    this._gcp.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gcpInput() {
+    return this._gcp.internalValue;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector awscc_securityhub_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector awscc_securityhub_connector}
 */
 export class SecurityhubConnector extends cdktn.TerraformResource {
 
@@ -511,7 +856,7 @@ export class SecurityhubConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SecurityhubConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityhubConnector to import
-  * @param importFromId The id of the existing SecurityhubConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityhubConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityhubConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -523,7 +868,7 @@ export class SecurityhubConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector awscc_securityhub_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector awscc_securityhub_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,7 +879,7 @@ export class SecurityhubConnector extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_securityhub_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

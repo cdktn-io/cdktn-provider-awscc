@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,59 +15,65 @@ export interface MwaaserverlessWorkflowConfig extends cdktn.TerraformMetaArgumen
   /**
   * The location of code artifacts in Amazon S3 for the workflow. Modeled as a single-member container so it stays extensible to future artifact types (e.g. OCI images).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#code MwaaserverlessWorkflow#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#code MwaaserverlessWorkflow#code}
   */
   readonly code?: MwaaserverlessWorkflowCode;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#definition_s3_location MwaaserverlessWorkflow#definition_s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#definition_s3_location MwaaserverlessWorkflow#definition_s3_location}
   */
   readonly definitionS3Location: MwaaserverlessWorkflowDefinitionS3Location;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#description MwaaserverlessWorkflow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#description MwaaserverlessWorkflow#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#encryption_configuration MwaaserverlessWorkflow#encryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#encryption_configuration MwaaserverlessWorkflow#encryption_configuration}
   */
   readonly encryptionConfiguration?: MwaaserverlessWorkflowEncryptionConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#logging_configuration MwaaserverlessWorkflow#logging_configuration}
+  * Contains the environment variables that tasks in a workflow use during execution.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#environment MwaaserverlessWorkflow#environment}
+  */
+  readonly environment?: MwaaserverlessWorkflowEnvironment;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#logging_configuration MwaaserverlessWorkflow#logging_configuration}
   */
   readonly loggingConfiguration?: MwaaserverlessWorkflowLoggingConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#name MwaaserverlessWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#name MwaaserverlessWorkflow#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#network_configuration MwaaserverlessWorkflow#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#network_configuration MwaaserverlessWorkflow#network_configuration}
   */
   readonly networkConfiguration?: MwaaserverlessWorkflowNetworkConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#role_arn MwaaserverlessWorkflow#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#role_arn MwaaserverlessWorkflow#role_arn}
   */
   readonly roleArn: string;
   /**
   * A map of key-value pairs to be applied as tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#tags MwaaserverlessWorkflow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#tags MwaaserverlessWorkflow#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#trigger_mode MwaaserverlessWorkflow#trigger_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#trigger_mode MwaaserverlessWorkflow#trigger_mode}
   */
   readonly triggerMode?: string;
 }
 export interface MwaaserverlessWorkflowCodeS3Location {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#bucket MwaaserverlessWorkflow#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#bucket MwaaserverlessWorkflow#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#object_key MwaaserverlessWorkflow#object_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#object_key MwaaserverlessWorkflow#object_key}
   */
   readonly objectKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#version_id MwaaserverlessWorkflow#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#version_id MwaaserverlessWorkflow#version_id}
   */
   readonly versionId?: string;
 }
@@ -219,7 +225,7 @@ export class MwaaserverlessWorkflowCodeS3LocationOutputReference extends cdktn.C
 }
 export interface MwaaserverlessWorkflowCode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#s3_location MwaaserverlessWorkflow#s3_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#s3_location MwaaserverlessWorkflow#s3_location}
   */
   readonly s3Location?: MwaaserverlessWorkflowCodeS3Location;
 }
@@ -313,15 +319,15 @@ export class MwaaserverlessWorkflowCodeOutputReference extends cdktn.ComplexObje
 }
 export interface MwaaserverlessWorkflowDefinitionS3Location {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#bucket MwaaserverlessWorkflow#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#bucket MwaaserverlessWorkflow#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#object_key MwaaserverlessWorkflow#object_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#object_key MwaaserverlessWorkflow#object_key}
   */
   readonly objectKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#version_id MwaaserverlessWorkflow#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#version_id MwaaserverlessWorkflow#version_id}
   */
   readonly versionId?: string;
 }
@@ -467,11 +473,11 @@ export class MwaaserverlessWorkflowDefinitionS3LocationOutputReference extends c
 }
 export interface MwaaserverlessWorkflowEncryptionConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#kms_key_id MwaaserverlessWorkflow#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#kms_key_id MwaaserverlessWorkflow#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#type MwaaserverlessWorkflow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#type MwaaserverlessWorkflow#type}
   */
   readonly type?: string;
 }
@@ -592,9 +598,105 @@ export class MwaaserverlessWorkflowEncryptionConfigurationOutputReference extend
     return this._type;
   }
 }
+export interface MwaaserverlessWorkflowEnvironment {
+  /**
+  * A map of environment variable names to values. Up to 50 variables. Names must start with a letter and contain only letters, numbers, and underscores. Names starting with AWS_ or AIRFLOW__ are reserved, except AIRFLOW__WORKERS__SECRETS_BACKEND, AIRFLOW__WORKERS__SECRETS_BACKEND_KWARGS, and names prefixed with AIRFLOW__WORKERS__SECRETS_BACKEND_KWARG__.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#variables MwaaserverlessWorkflow#variables}
+  */
+  readonly variables?: { [key: string]: string };
+}
+
+export function mwaaserverlessWorkflowEnvironmentToTerraform(struct?: MwaaserverlessWorkflowEnvironment | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    variables: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.variables),
+  }
+}
+
+
+export function mwaaserverlessWorkflowEnvironmentToHclTerraform(struct?: MwaaserverlessWorkflowEnvironment | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    variables: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.variables),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MwaaserverlessWorkflowEnvironmentOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MwaaserverlessWorkflowEnvironment | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._variables !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.variables = this._variables;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MwaaserverlessWorkflowEnvironment | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._variables = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._variables = value.variables;
+    }
+  }
+
+  // variables - computed: true, optional: true, required: false
+  private _variables?: { [key: string]: string }; 
+  public get variables() {
+    return this.getStringMapAttribute('variables');
+  }
+  public set variables(value: { [key: string]: string }) {
+    this._variables = value;
+  }
+  public resetVariables() {
+    this._variables = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get variablesInput() {
+    return this._variables;
+  }
+}
 export interface MwaaserverlessWorkflowLoggingConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#log_group_name MwaaserverlessWorkflow#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#log_group_name MwaaserverlessWorkflow#log_group_name}
   */
   readonly logGroupName?: string;
 }
@@ -688,11 +790,11 @@ export class MwaaserverlessWorkflowLoggingConfigurationOutputReference extends c
 }
 export interface MwaaserverlessWorkflowNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#security_group_ids MwaaserverlessWorkflow#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#security_group_ids MwaaserverlessWorkflow#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#subnet_ids MwaaserverlessWorkflow#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#subnet_ids MwaaserverlessWorkflow#subnet_ids}
   */
   readonly subnetIds?: string[];
 }
@@ -869,7 +971,7 @@ export class MwaaserverlessWorkflowScheduleConfigurationOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow}
 */
 export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
 
@@ -885,7 +987,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MwaaserverlessWorkflow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MwaaserverlessWorkflow to import
-  * @param importFromId The id of the existing MwaaserverlessWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MwaaserverlessWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MwaaserverlessWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -897,7 +999,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -908,7 +1010,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mwaaserverless_workflow',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -923,6 +1025,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
     this._definitionS3Location.internalValue = config.definitionS3Location;
     this._description = config.description;
     this._encryptionConfiguration.internalValue = config.encryptionConfiguration;
+    this._environment.internalValue = config.environment;
     this._loggingConfiguration.internalValue = config.loggingConfiguration;
     this._name = config.name;
     this._networkConfiguration.internalValue = config.networkConfiguration;
@@ -1004,6 +1107,22 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get encryptionConfigurationInput() {
     return this._encryptionConfiguration.internalValue;
+  }
+
+  // environment - computed: true, optional: true, required: false
+  private _environment = new MwaaserverlessWorkflowEnvironmentOutputReference(this, "environment");
+  public get environment() {
+    return this._environment;
+  }
+  public putEnvironment(value: MwaaserverlessWorkflowEnvironment) {
+    this._environment.internalValue = value;
+  }
+  public resetEnvironment() {
+    this._environment.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get environmentInput() {
+    return this._environment.internalValue;
   }
 
   // id - computed: true, optional: false, required: false
@@ -1140,6 +1259,7 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
       definition_s3_location: mwaaserverlessWorkflowDefinitionS3LocationToTerraform(this._definitionS3Location.internalValue),
       description: cdktn.stringToTerraform(this._description),
       encryption_configuration: mwaaserverlessWorkflowEncryptionConfigurationToTerraform(this._encryptionConfiguration.internalValue),
+      environment: mwaaserverlessWorkflowEnvironmentToTerraform(this._environment.internalValue),
       logging_configuration: mwaaserverlessWorkflowLoggingConfigurationToTerraform(this._loggingConfiguration.internalValue),
       name: cdktn.stringToTerraform(this._name),
       network_configuration: mwaaserverlessWorkflowNetworkConfigurationToTerraform(this._networkConfiguration.internalValue),
@@ -1174,6 +1294,12 @@ export class MwaaserverlessWorkflow extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "MwaaserverlessWorkflowEncryptionConfiguration",
+      },
+      environment: {
+        value: mwaaserverlessWorkflowEnvironmentToHclTerraform(this._environment.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "MwaaserverlessWorkflowEnvironment",
       },
       logging_configuration: {
         value: mwaaserverlessWorkflowLoggingConfigurationToHclTerraform(this._loggingConfiguration.internalValue),

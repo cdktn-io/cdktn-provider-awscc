@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/devopsagent_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/devopsagent_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,322 @@ export interface DataAwsccDevopsagentAssociationConfig extends cdktn.TerraformMe
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/devopsagent_association#id DataAwsccDevopsagentAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/devopsagent_association#id DataAwsccDevopsagentAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches {
+}
+
+export function dataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesToTerraform(struct?: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesToHclTerraform(struct?: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // patterns - computed: true, optional: false, required: false
+  public get patterns() {
+    return this.getListAttribute('patterns');
+  }
+}
+export interface DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups {
+}
+
+export function dataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsToTerraform(struct?: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsToHclTerraform(struct?: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // events - computed: true, optional: false, required: false
+  public get events() {
+    return cdktn.Fn.tolist(this.getListAttribute('events'));
+  }
+
+  // target_branches - computed: true, optional: false, required: false
+  private _targetBranches = new DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference(this, "target_branches");
+  public get targetBranches() {
+    return this._targetBranches;
+  }
+}
+
+export class DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference {
+    return new DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis {
+}
+
+export function dataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisToTerraform(struct?: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisToHclTerraform(struct?: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+
+  // trigger_filter_groups - computed: true, optional: false, required: false
+  private _triggerFilterGroups = new DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList(this, "trigger_filter_groups", false);
+  public get triggerFilterGroups() {
+    return this._triggerFilterGroups;
+  }
+}
+export interface DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting {
+}
+
+export function dataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingToTerraform(struct?: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingToHclTerraform(struct?: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+}
+export interface DataAwsccDevopsagentAssociationCapabilities {
+}
+
+export function dataAwsccDevopsagentAssociationCapabilitiesToTerraform(struct?: DataAwsccDevopsagentAssociationCapabilities): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentAssociationCapabilitiesToHclTerraform(struct?: DataAwsccDevopsagentAssociationCapabilities): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentAssociationCapabilitiesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentAssociationCapabilities | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentAssociationCapabilities | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // code_change_risk_analysis - computed: true, optional: false, required: false
+  private _codeChangeRiskAnalysis = new DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference(this, "code_change_risk_analysis");
+  public get codeChangeRiskAnalysis() {
+    return this._codeChangeRiskAnalysis;
+  }
+
+  // code_change_risk_analysis_automated_testing - computed: true, optional: false, required: false
+  private _codeChangeRiskAnalysisAutomatedTesting = new DataAwsccDevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference(this, "code_change_risk_analysis_automated_testing");
+  public get codeChangeRiskAnalysisAutomatedTesting() {
+    return this._codeChangeRiskAnalysisAutomatedTesting;
+  }
 }
 export interface DataAwsccDevopsagentAssociationConfigurationAwsResources {
 }
@@ -499,6 +809,11 @@ export class DataAwsccDevopsagentAssociationConfigurationGitHubOutputReference e
     return this.getStringAttribute('owner_type');
   }
 
+  // release_management_association_id - computed: true, optional: false, required: false
+  public get releaseManagementAssociationId() {
+    return this.getStringAttribute('release_management_association_id');
+  }
+
   // repo_id - computed: true, optional: false, required: false
   public get repoId() {
     return this.getStringAttribute('repo_id');
@@ -576,6 +891,11 @@ export class DataAwsccDevopsagentAssociationConfigurationGitLabOutputReference e
   // project_path - computed: true, optional: false, required: false
   public get projectPath() {
     return this.getStringAttribute('project_path');
+  }
+
+  // release_management_association_id - computed: true, optional: false, required: false
+  public get releaseManagementAssociationId() {
+    return this.getStringAttribute('release_management_association_id');
   }
 }
 export interface DataAwsccDevopsagentAssociationConfigurationMcpServer {
@@ -1039,6 +1359,180 @@ export class DataAwsccDevopsagentAssociationConfigurationPagerDutyOutputReferenc
   // services - computed: true, optional: false, required: false
   public get services() {
     return this.getListAttribute('services');
+  }
+}
+export interface DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess {
+}
+
+export function dataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessToTerraform(struct?: DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessToHclTerraform(struct?: DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // private_connection_name - computed: true, optional: false, required: false
+  public get privateConnectionName() {
+    return this.getStringAttribute('private_connection_name');
+  }
+
+  // runtime_role_arn - computed: true, optional: false, required: false
+  public get runtimeRoleArn() {
+    return this.getStringAttribute('runtime_role_arn');
+  }
+}
+export interface DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccess {
+}
+
+export function dataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessToTerraform(struct?: DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccess): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessToHclTerraform(struct?: DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccess): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccess | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccess | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // private_access - computed: true, optional: false, required: false
+  private _privateAccess = new DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference(this, "private_access");
+  public get privateAccess() {
+    return this._privateAccess;
+  }
+}
+export interface DataAwsccDevopsagentAssociationConfigurationReleaseManagement {
+}
+
+export function dataAwsccDevopsagentAssociationConfigurationReleaseManagementToTerraform(struct?: DataAwsccDevopsagentAssociationConfigurationReleaseManagement): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentAssociationConfigurationReleaseManagementToHclTerraform(struct?: DataAwsccDevopsagentAssociationConfigurationReleaseManagement): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentAssociationConfigurationReleaseManagementOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentAssociationConfigurationReleaseManagement | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentAssociationConfigurationReleaseManagement | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // network_access - computed: true, optional: false, required: false
+  private _networkAccess = new DataAwsccDevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference(this, "network_access");
+  public get networkAccess() {
+    return this._networkAccess;
   }
 }
 export interface DataAwsccDevopsagentAssociationConfigurationServiceNow {
@@ -1717,6 +2211,12 @@ export class DataAwsccDevopsagentAssociationConfigurationOutputReference extends
     return this._pagerDuty;
   }
 
+  // release_management - computed: true, optional: false, required: false
+  private _releaseManagement = new DataAwsccDevopsagentAssociationConfigurationReleaseManagementOutputReference(this, "release_management");
+  public get releaseManagement() {
+    return this._releaseManagement;
+  }
+
   // service_now - computed: true, optional: false, required: false
   private _serviceNow = new DataAwsccDevopsagentAssociationConfigurationServiceNowOutputReference(this, "service_now");
   public get serviceNow() {
@@ -1737,7 +2237,7 @@ export class DataAwsccDevopsagentAssociationConfigurationOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/devopsagent_association awscc_devopsagent_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/devopsagent_association awscc_devopsagent_association}
 */
 export class DataAwsccDevopsagentAssociation extends cdktn.TerraformDataSource {
 
@@ -1753,7 +2253,7 @@ export class DataAwsccDevopsagentAssociation extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccDevopsagentAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDevopsagentAssociation to import
-  * @param importFromId The id of the existing DataAwsccDevopsagentAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/devopsagent_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDevopsagentAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/devopsagent_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDevopsagentAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1765,7 +2265,7 @@ export class DataAwsccDevopsagentAssociation extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/devopsagent_association awscc_devopsagent_association} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/devopsagent_association awscc_devopsagent_association} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1776,7 +2276,7 @@ export class DataAwsccDevopsagentAssociation extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_devopsagent_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -1802,6 +2302,12 @@ export class DataAwsccDevopsagentAssociation extends cdktn.TerraformDataSource {
   // association_id - computed: true, optional: false, required: false
   public get associationId() {
     return this.getStringAttribute('association_id');
+  }
+
+  // capabilities - computed: true, optional: false, required: false
+  private _capabilities = new DataAwsccDevopsagentAssociationCapabilitiesOutputReference(this, "capabilities");
+  public get capabilities() {
+    return this._capabilities;
   }
 
   // configuration - computed: true, optional: false, required: false

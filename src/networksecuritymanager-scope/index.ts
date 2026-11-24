@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,35 +15,41 @@ export interface NetworksecuritymanagerScopeConfig extends cdktn.TerraformMetaAr
   /**
   * The scope configuration as a JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#scope_configuration NetworksecuritymanagerScope#scope_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#scope_configuration NetworksecuritymanagerScope#scope_configuration}
   */
   readonly scopeConfiguration?: string;
   /**
   * A description of the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#scope_description NetworksecuritymanagerScope#scope_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#scope_description NetworksecuritymanagerScope#scope_description}
   */
   readonly scopeDescription?: string;
   /**
   * The name of the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#scope_name NetworksecuritymanagerScope#scope_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#scope_name NetworksecuritymanagerScope#scope_name}
   */
   readonly scopeName: string;
   /**
+  * Marks the scope as built for one specific use. Omit for a standard scope. A specialized scope cannot be associated with a deployment. Cannot be changed after creation.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#specialized_scope_type NetworksecuritymanagerScope#specialized_scope_type}
+  */
+  readonly specializedScopeType?: string;
+  /**
   * The tags associated with the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#tags NetworksecuritymanagerScope#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#tags NetworksecuritymanagerScope#tags}
   */
   readonly tags?: NetworksecuritymanagerScopeTags[] | cdktn.IResolvable;
 }
 export interface NetworksecuritymanagerScopeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}
   */
   readonly value?: string;
 }
@@ -188,7 +194,7 @@ export class NetworksecuritymanagerScopeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope}
 */
 export class NetworksecuritymanagerScope extends cdktn.TerraformResource {
 
@@ -204,7 +210,7 @@ export class NetworksecuritymanagerScope extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworksecuritymanagerScope resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworksecuritymanagerScope to import
-  * @param importFromId The id of the existing NetworksecuritymanagerScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworksecuritymanagerScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworksecuritymanagerScope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +222,7 @@ export class NetworksecuritymanagerScope extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +233,7 @@ export class NetworksecuritymanagerScope extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networksecuritymanager_scope',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -241,6 +247,7 @@ export class NetworksecuritymanagerScope extends cdktn.TerraformResource {
     this._scopeConfiguration = config.scopeConfiguration;
     this._scopeDescription = config.scopeDescription;
     this._scopeName = config.scopeName;
+    this._specializedScopeType = config.specializedScopeType;
     this._tags.internalValue = config.tags;
   }
 
@@ -308,6 +315,22 @@ export class NetworksecuritymanagerScope extends cdktn.TerraformResource {
     return this._scopeName;
   }
 
+  // specialized_scope_type - computed: true, optional: true, required: false
+  private _specializedScopeType?: string; 
+  public get specializedScopeType() {
+    return this.getStringAttribute('specialized_scope_type');
+  }
+  public set specializedScopeType(value: string) {
+    this._specializedScopeType = value;
+  }
+  public resetSpecializedScopeType() {
+    this._specializedScopeType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get specializedScopeTypeInput() {
+    return this._specializedScopeType;
+  }
+
   // status - computed: true, optional: false, required: false
   public get status() {
     return this.getStringAttribute('status');
@@ -348,6 +371,7 @@ export class NetworksecuritymanagerScope extends cdktn.TerraformResource {
       scope_configuration: cdktn.stringToTerraform(this._scopeConfiguration),
       scope_description: cdktn.stringToTerraform(this._scopeDescription),
       scope_name: cdktn.stringToTerraform(this._scopeName),
+      specialized_scope_type: cdktn.stringToTerraform(this._specializedScopeType),
       tags: cdktn.listMapper(networksecuritymanagerScopeTagsToTerraform, false)(this._tags.internalValue),
     };
   }
@@ -368,6 +392,12 @@ export class NetworksecuritymanagerScope extends cdktn.TerraformResource {
       },
       scope_name: {
         value: cdktn.stringToHclTerraform(this._scopeName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      specialized_scope_type: {
+        value: cdktn.stringToHclTerraform(this._specializedScopeType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -4,7 +4,7 @@
 
 ### DataAwsccLambdaNetworkConnector <a name="DataAwsccLambdaNetworkConnector" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/lambda_network_connector awscc_lambda_network_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/lambda_network_connector awscc_lambda_network_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnector.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/lambda_network_connector#id DataAwsccLambdaNetworkConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/lambda_network_connector#id DataAwsccLambdaNetworkConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccLambdaNetworkConn
 
 The id of the existing DataAwsccLambdaNetworkConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/lambda_network_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/lambda_network_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -849,7 +849,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/lambda_network_connector#id DataAwsccLambdaNetworkConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/lambda_network_connector#id DataAwsccLambdaNetworkConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -876,6 +876,18 @@ DataAwsccLambdaNetworkConnectorConfiguration.builder()
 import io.cdktn.providers.awscc.data_awscc_lambda_network_connector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfiguration;
 
 DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfiguration.builder()
+    .build();
+```
+
+
+### DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration <a name="DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_lambda_network_connector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration;
+
+DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration.builder()
     .build();
 ```
 
@@ -1154,6 +1166,266 @@ public DataAwsccLambdaNetworkConnectorConfiguration getInternalValue();
 ---
 
 
+### DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference <a name="DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_lambda_network_connector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference;
+
+new DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.property.type">type</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration">DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `type`<sup>Required</sup> <a name="type" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.property.type"></a>
+
+```java
+public java.lang.String getType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference.property.internalValue"></a>
+
+```java
+public DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration">DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfiguration</a>
+
+---
+
+
 ### DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference <a name="DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.Initializer"></a>
@@ -1365,6 +1637,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.associatedComputeResourceTypes">associatedComputeResourceTypes</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.elasticIpConfiguration">elasticIpConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference">DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.networkProtocol">networkProtocol</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.securityGroupIds">securityGroupIds</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.subnetIds">subnetIds</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
@@ -1403,6 +1676,16 @@ public java.util.List<java.lang.String> getAssociatedComputeResourceTypes();
 ```
 
 - *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `elasticIpConfiguration`<sup>Required</sup> <a name="elasticIpConfiguration" id="@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference.property.elasticIpConfiguration"></a>
+
+```java
+public DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference getElasticIpConfiguration();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccLambdaNetworkConnector.DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference">DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationElasticIpConfigurationOutputReference</a>
 
 ---
 

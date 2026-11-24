@@ -4,7 +4,7 @@
 
 ### SagemakerEndpointConfigA <a name="SagemakerEndpointConfigA" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config awscc_sagemaker_endpoint_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config awscc_sagemaker_endpoint_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer"></a>
 
@@ -21,6 +21,7 @@ SagemakerEndpointConfigA.Builder.create(Construct scope, java.lang.String id)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .productionVariants(IResolvable|java.util.List<SagemakerEndpointConfigProductionVariants>)
 //  .asyncInferenceConfig(SagemakerEndpointConfigAsyncInferenceConfig)
+//  .crossRegionTrafficConfig(SagemakerEndpointConfigCrossRegionTrafficConfig)
 //  .dataCaptureConfig(SagemakerEndpointConfigDataCaptureConfig)
 //  .enableNetworkIsolation(java.lang.Boolean|IResolvable)
 //  .endpointConfigName(java.lang.String)
@@ -47,6 +48,7 @@ SagemakerEndpointConfigA.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer.parameter.productionVariants">productionVariants</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigProductionVariants">SagemakerEndpointConfigProductionVariants</a>></code> | A list of ProductionVariant objects, one for each model that you want to host at this endpoint. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer.parameter.asyncInferenceConfig">asyncInferenceConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAsyncInferenceConfig">SagemakerEndpointConfigAsyncInferenceConfig</a></code> | Specifies configuration for how an endpoint performs asynchronous inference. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer.parameter.crossRegionTrafficConfig">crossRegionTrafficConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a></code> | Limits the requests per second that the endpoint accepts from other AWS Regions. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer.parameter.dataCaptureConfig">dataCaptureConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigDataCaptureConfig">SagemakerEndpointConfigDataCaptureConfig</a></code> | Specifies how to capture endpoint data for model monitor. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer.parameter.enableNetworkIsolation">enableNetworkIsolation</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Sets whether all model containers deployed to the endpoint are isolated. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer.parameter.endpointConfigName">endpointConfigName</a></code> | <code>java.lang.String</code> | The name of the endpoint configuration. |
@@ -126,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 A list of ProductionVariant objects, one for each model that you want to host at this endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#production_variants SagemakerEndpointConfigA#production_variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#production_variants SagemakerEndpointConfigA#production_variants}
 
 ---
 
@@ -136,7 +138,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies configuration for how an endpoint performs asynchronous inference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#async_inference_config SagemakerEndpointConfigA#async_inference_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#async_inference_config SagemakerEndpointConfigA#async_inference_config}
+
+---
+
+##### `crossRegionTrafficConfig`<sup>Optional</sup> <a name="crossRegionTrafficConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.Initializer.parameter.crossRegionTrafficConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a>
+
+Limits the requests per second that the endpoint accepts from other AWS Regions.
+
+The limit is MaxCrossRegionPercentPerEndpoint percent of MaxInvocationsPerSecondPerInstance multiplied by the number of InService instances, shared by all production variants and inference components of the endpoint. Requests from the endpoint's own Region are not counted. Not supported with serverless variants or AsyncInferenceConfig. If you don't specify it, requests from other Regions are not limited.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#cross_region_traffic_config SagemakerEndpointConfigA#cross_region_traffic_config}
 
 ---
 
@@ -148,7 +162,7 @@ Specifies how to capture endpoint data for model monitor.
 
 The data capture configuration applies to all production variants hosted at the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#data_capture_config SagemakerEndpointConfigA#data_capture_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#data_capture_config SagemakerEndpointConfigA#data_capture_config}
 
 ---
 
@@ -160,7 +174,7 @@ Sets whether all model containers deployed to the endpoint are isolated.
 
 If they are, no inbound or outbound network calls can be made to or from the model containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#enable_network_isolation SagemakerEndpointConfigA#enable_network_isolation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#enable_network_isolation SagemakerEndpointConfigA#enable_network_isolation}
 
 ---
 
@@ -170,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#endpoint_config_name SagemakerEndpointConfigA#endpoint_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#endpoint_config_name SagemakerEndpointConfigA#endpoint_config_name}
 
 ---
 
@@ -180,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker AI can assume to perform actions on your behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#execution_role_arn SagemakerEndpointConfigA#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#execution_role_arn SagemakerEndpointConfigA#execution_role_arn}
 
 ---
 
@@ -190,7 +204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A parameter to activate explainers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#explainer_config SagemakerEndpointConfigA#explainer_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#explainer_config SagemakerEndpointConfigA#explainer_config}
 
 ---
 
@@ -200,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of an AWS Key Management Service key that Amazon SageMaker uses to encrypt data on the storage volume attached to the ML compute instance that hosts the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
 
 ---
 
@@ -210,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the metrics that the endpoint publishes to Amazon CloudWatch, the frequency of publication, and whether to enable enhanced or detailed observability metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#metrics_config SagemakerEndpointConfigA#metrics_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#metrics_config SagemakerEndpointConfigA#metrics_config}
 
 ---
 
@@ -222,7 +236,7 @@ Array of ProductionVariant objects.
 
 There is one for each model that you want to host at this endpoint in shadow mode with production traffic replicated from the model specified on ProductionVariants. If you use this field, you can only specify one variant for ProductionVariants and one variant for ShadowProductionVariants.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#shadow_production_variants SagemakerEndpointConfigA#shadow_production_variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#shadow_production_variants SagemakerEndpointConfigA#shadow_production_variants}
 
 ---
 
@@ -232,7 +246,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#tags SagemakerEndpointConfigA#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#tags SagemakerEndpointConfigA#tags}
 
 ---
 
@@ -244,7 +258,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#vpc_config SagemakerEndpointConfigA#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#vpc_config SagemakerEndpointConfigA#vpc_config}
 
 ---
 
@@ -277,6 +291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putAsyncInferenceConfig">putAsyncInferenceConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putCrossRegionTrafficConfig">putCrossRegionTrafficConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putDataCaptureConfig">putDataCaptureConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putExplainerConfig">putExplainerConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putMetricsConfig">putMetricsConfig</a></code> | *No description.* |
@@ -285,6 +300,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putTags">putTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putVpcConfig">putVpcConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.resetAsyncInferenceConfig">resetAsyncInferenceConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.resetCrossRegionTrafficConfig">resetCrossRegionTrafficConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.resetDataCaptureConfig">resetDataCaptureConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.resetEnableNetworkIsolation">resetEnableNetworkIsolation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.resetEndpointConfigName">resetEndpointConfigName</a></code> | *No description.* |
@@ -621,6 +637,18 @@ public void putAsyncInferenceConfig(SagemakerEndpointConfigAsyncInferenceConfig 
 
 ---
 
+##### `putCrossRegionTrafficConfig` <a name="putCrossRegionTrafficConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putCrossRegionTrafficConfig"></a>
+
+```java
+public void putCrossRegionTrafficConfig(SagemakerEndpointConfigCrossRegionTrafficConfig value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putCrossRegionTrafficConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a>
+
+---
+
 ##### `putDataCaptureConfig` <a name="putDataCaptureConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.putDataCaptureConfig"></a>
 
 ```java
@@ -709,6 +737,12 @@ public void putVpcConfig(SagemakerEndpointConfigVpcConfig value)
 
 ```java
 public void resetAsyncInferenceConfig()
+```
+
+##### `resetCrossRegionTrafficConfig` <a name="resetCrossRegionTrafficConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.resetCrossRegionTrafficConfig"></a>
+
+```java
+public void resetCrossRegionTrafficConfig()
 ```
 
 ##### `resetDataCaptureConfig` <a name="resetDataCaptureConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.resetDataCaptureConfig"></a>
@@ -874,7 +908,7 @@ The construct id used in the generated config for the SagemakerEndpointConfigA t
 
 The id of the existing SagemakerEndpointConfigA that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -905,6 +939,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.asyncInferenceConfig">asyncInferenceConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAsyncInferenceConfigOutputReference">SagemakerEndpointConfigAsyncInferenceConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.crossRegionTrafficConfig">crossRegionTrafficConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference">SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.dataCaptureConfig">dataCaptureConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigDataCaptureConfigOutputReference">SagemakerEndpointConfigDataCaptureConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.endpointConfigArn">endpointConfigArn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.explainerConfig">explainerConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigExplainerConfigOutputReference">SagemakerEndpointConfigExplainerConfigOutputReference</a></code> | *No description.* |
@@ -915,6 +950,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigTagsList">SagemakerEndpointConfigTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.vpcConfig">vpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigVpcConfigOutputReference">SagemakerEndpointConfigVpcConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.asyncInferenceConfigInput">asyncInferenceConfigInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAsyncInferenceConfig">SagemakerEndpointConfigAsyncInferenceConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.crossRegionTrafficConfigInput">crossRegionTrafficConfigInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.dataCaptureConfigInput">dataCaptureConfigInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigDataCaptureConfig">SagemakerEndpointConfigDataCaptureConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.enableNetworkIsolationInput">enableNetworkIsolationInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.endpointConfigNameInput">endpointConfigNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1085,6 +1121,16 @@ public SagemakerEndpointConfigAsyncInferenceConfigOutputReference getAsyncInfere
 
 ---
 
+##### `crossRegionTrafficConfig`<sup>Required</sup> <a name="crossRegionTrafficConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.crossRegionTrafficConfig"></a>
+
+```java
+public SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference getCrossRegionTrafficConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference">SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference</a>
+
+---
+
 ##### `dataCaptureConfig`<sup>Required</sup> <a name="dataCaptureConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.dataCaptureConfig"></a>
 
 ```java
@@ -1182,6 +1228,16 @@ public IResolvable|SagemakerEndpointConfigAsyncInferenceConfig getAsyncInference
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAsyncInferenceConfig">SagemakerEndpointConfigAsyncInferenceConfig</a>
+
+---
+
+##### `crossRegionTrafficConfigInput`<sup>Optional</sup> <a name="crossRegionTrafficConfigInput" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigA.property.crossRegionTrafficConfigInput"></a>
+
+```java
+public IResolvable|SagemakerEndpointConfigCrossRegionTrafficConfig getCrossRegionTrafficConfigInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a>
 
 ---
 
@@ -1372,6 +1428,7 @@ SagemakerEndpointConfigAConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .productionVariants(IResolvable|java.util.List<SagemakerEndpointConfigProductionVariants>)
 //  .asyncInferenceConfig(SagemakerEndpointConfigAsyncInferenceConfig)
+//  .crossRegionTrafficConfig(SagemakerEndpointConfigCrossRegionTrafficConfig)
 //  .dataCaptureConfig(SagemakerEndpointConfigDataCaptureConfig)
 //  .enableNetworkIsolation(java.lang.Boolean|IResolvable)
 //  .endpointConfigName(java.lang.String)
@@ -1398,6 +1455,7 @@ SagemakerEndpointConfigAConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAConfig.property.productionVariants">productionVariants</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigProductionVariants">SagemakerEndpointConfigProductionVariants</a>></code> | A list of ProductionVariant objects, one for each model that you want to host at this endpoint. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAConfig.property.asyncInferenceConfig">asyncInferenceConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAsyncInferenceConfig">SagemakerEndpointConfigAsyncInferenceConfig</a></code> | Specifies configuration for how an endpoint performs asynchronous inference. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAConfig.property.crossRegionTrafficConfig">crossRegionTrafficConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a></code> | Limits the requests per second that the endpoint accepts from other AWS Regions. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAConfig.property.dataCaptureConfig">dataCaptureConfig</a></code> | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigDataCaptureConfig">SagemakerEndpointConfigDataCaptureConfig</a></code> | Specifies how to capture endpoint data for model monitor. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAConfig.property.enableNetworkIsolation">enableNetworkIsolation</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Sets whether all model containers deployed to the endpoint are isolated. |
 | <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAConfig.property.endpointConfigName">endpointConfigName</a></code> | <code>java.lang.String</code> | The name of the endpoint configuration. |
@@ -1491,7 +1549,7 @@ public IResolvable|java.util.List<SagemakerEndpointConfigProductionVariants> get
 
 A list of ProductionVariant objects, one for each model that you want to host at this endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#production_variants SagemakerEndpointConfigA#production_variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#production_variants SagemakerEndpointConfigA#production_variants}
 
 ---
 
@@ -1505,7 +1563,23 @@ public SagemakerEndpointConfigAsyncInferenceConfig getAsyncInferenceConfig();
 
 Specifies configuration for how an endpoint performs asynchronous inference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#async_inference_config SagemakerEndpointConfigA#async_inference_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#async_inference_config SagemakerEndpointConfigA#async_inference_config}
+
+---
+
+##### `crossRegionTrafficConfig`<sup>Optional</sup> <a name="crossRegionTrafficConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAConfig.property.crossRegionTrafficConfig"></a>
+
+```java
+public SagemakerEndpointConfigCrossRegionTrafficConfig getCrossRegionTrafficConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a>
+
+Limits the requests per second that the endpoint accepts from other AWS Regions.
+
+The limit is MaxCrossRegionPercentPerEndpoint percent of MaxInvocationsPerSecondPerInstance multiplied by the number of InService instances, shared by all production variants and inference components of the endpoint. Requests from the endpoint's own Region are not counted. Not supported with serverless variants or AsyncInferenceConfig. If you don't specify it, requests from other Regions are not limited.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#cross_region_traffic_config SagemakerEndpointConfigA#cross_region_traffic_config}
 
 ---
 
@@ -1521,7 +1595,7 @@ Specifies how to capture endpoint data for model monitor.
 
 The data capture configuration applies to all production variants hosted at the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#data_capture_config SagemakerEndpointConfigA#data_capture_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#data_capture_config SagemakerEndpointConfigA#data_capture_config}
 
 ---
 
@@ -1537,7 +1611,7 @@ Sets whether all model containers deployed to the endpoint are isolated.
 
 If they are, no inbound or outbound network calls can be made to or from the model containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#enable_network_isolation SagemakerEndpointConfigA#enable_network_isolation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#enable_network_isolation SagemakerEndpointConfigA#enable_network_isolation}
 
 ---
 
@@ -1551,7 +1625,7 @@ public java.lang.String getEndpointConfigName();
 
 The name of the endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#endpoint_config_name SagemakerEndpointConfigA#endpoint_config_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#endpoint_config_name SagemakerEndpointConfigA#endpoint_config_name}
 
 ---
 
@@ -1565,7 +1639,7 @@ public java.lang.String getExecutionRoleArn();
 
 The Amazon Resource Name (ARN) of an IAM role that Amazon SageMaker AI can assume to perform actions on your behalf.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#execution_role_arn SagemakerEndpointConfigA#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#execution_role_arn SagemakerEndpointConfigA#execution_role_arn}
 
 ---
 
@@ -1579,7 +1653,7 @@ public SagemakerEndpointConfigExplainerConfig getExplainerConfig();
 
 A parameter to activate explainers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#explainer_config SagemakerEndpointConfigA#explainer_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#explainer_config SagemakerEndpointConfigA#explainer_config}
 
 ---
 
@@ -1593,7 +1667,7 @@ public java.lang.String getKmsKeyId();
 
 The Amazon Resource Name (ARN) of an AWS Key Management Service key that Amazon SageMaker uses to encrypt data on the storage volume attached to the ML compute instance that hosts the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
 
 ---
 
@@ -1607,7 +1681,7 @@ public SagemakerEndpointConfigMetricsConfig getMetricsConfig();
 
 Specifies the metrics that the endpoint publishes to Amazon CloudWatch, the frequency of publication, and whether to enable enhanced or detailed observability metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#metrics_config SagemakerEndpointConfigA#metrics_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#metrics_config SagemakerEndpointConfigA#metrics_config}
 
 ---
 
@@ -1623,7 +1697,7 @@ Array of ProductionVariant objects.
 
 There is one for each model that you want to host at this endpoint in shadow mode with production traffic replicated from the model specified on ProductionVariants. If you use this field, you can only specify one variant for ProductionVariants and one variant for ShadowProductionVariants.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#shadow_production_variants SagemakerEndpointConfigA#shadow_production_variants}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#shadow_production_variants SagemakerEndpointConfigA#shadow_production_variants}
 
 ---
 
@@ -1637,7 +1711,7 @@ public IResolvable|java.util.List<SagemakerEndpointConfigTags> getTags();
 
 A list of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#tags SagemakerEndpointConfigA#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#tags SagemakerEndpointConfigA#tags}
 
 ---
 
@@ -1653,7 +1727,7 @@ Specifies an Amazon Virtual Private Cloud (VPC) that your SageMaker jobs, hosted
 
 You can control access to and from your resources by configuring a VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#vpc_config SagemakerEndpointConfigA#vpc_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#vpc_config SagemakerEndpointConfigA#vpc_config}
 
 ---
 
@@ -1689,7 +1763,7 @@ public SagemakerEndpointConfigAsyncInferenceConfigClientConfig getClientConfig()
 
 Configures the behavior of the client used by SageMaker to interact with the model container during asynchronous inference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#client_config SagemakerEndpointConfigA#client_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#client_config SagemakerEndpointConfigA#client_config}
 
 ---
 
@@ -1703,7 +1777,7 @@ public SagemakerEndpointConfigAsyncInferenceConfigOutputConfig getOutputConfig()
 
 Specifies the configuration for asynchronous inference invocation outputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#output_config SagemakerEndpointConfigA#output_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#output_config SagemakerEndpointConfigA#output_config}
 
 ---
 
@@ -1739,7 +1813,7 @@ The maximum number of concurrent requests sent by the SageMaker client to the mo
 
 If no value is provided, SageMaker will choose an optimal value for you.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#max_concurrent_invocations_per_instance SagemakerEndpointConfigA#max_concurrent_invocations_per_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_concurrent_invocations_per_instance SagemakerEndpointConfigA#max_concurrent_invocations_per_instance}
 
 ---
 
@@ -1779,7 +1853,7 @@ public java.lang.String getKmsKeyId();
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the asynchronous inference output in Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
 
 ---
 
@@ -1793,7 +1867,7 @@ public SagemakerEndpointConfigAsyncInferenceConfigOutputConfigNotificationConfig
 
 Specifies the configuration for notifications of inference results for asynchronous inference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#notification_config SagemakerEndpointConfigA#notification_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#notification_config SagemakerEndpointConfigA#notification_config}
 
 ---
 
@@ -1807,7 +1881,7 @@ public java.lang.String getS3FailurePath();
 
 The Amazon S3 location to upload failure inference responses to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#s3_failure_path SagemakerEndpointConfigA#s3_failure_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#s3_failure_path SagemakerEndpointConfigA#s3_failure_path}
 
 ---
 
@@ -1821,7 +1895,7 @@ public java.lang.String getS3OutputPath();
 
 The Amazon S3 location to upload inference responses to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#s3_output_path SagemakerEndpointConfigA#s3_output_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#s3_output_path SagemakerEndpointConfigA#s3_output_path}
 
 ---
 
@@ -1861,7 +1935,7 @@ Amazon SNS topic to post a notification to when an inference fails.
 
 If no topic is provided, no notification is sent on failure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#error_topic SagemakerEndpointConfigA#error_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#error_topic SagemakerEndpointConfigA#error_topic}
 
 ---
 
@@ -1875,7 +1949,7 @@ public java.util.List<java.lang.String> getIncludeInferenceResponseIn();
 
 The Amazon SNS topics where you want the inference response to be included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#include_inference_response_in SagemakerEndpointConfigA#include_inference_response_in}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#include_inference_response_in SagemakerEndpointConfigA#include_inference_response_in}
 
 ---
 
@@ -1891,7 +1965,61 @@ Amazon SNS topic to post a notification to when an inference completes successfu
 
 If no topic is provided, no notification is sent on success.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#success_topic SagemakerEndpointConfigA#success_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#success_topic SagemakerEndpointConfigA#success_topic}
+
+---
+
+### SagemakerEndpointConfigCrossRegionTrafficConfig <a name="SagemakerEndpointConfigCrossRegionTrafficConfig" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.sagemaker_endpoint_config.SagemakerEndpointConfigCrossRegionTrafficConfig;
+
+SagemakerEndpointConfigCrossRegionTrafficConfig.builder()
+//  .maxCrossRegionPercentPerEndpoint(java.lang.Number)
+//  .maxInvocationsPerSecondPerInstance(java.lang.Number)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig.property.maxCrossRegionPercentPerEndpoint">maxCrossRegionPercentPerEndpoint</a></code> | <code>java.lang.Number</code> | The percentage of the endpoint's capacity (MaxInvocationsPerSecondPerInstance multiplied by the number of InService instances) that requests from other Regions can use. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig.property.maxInvocationsPerSecondPerInstance">maxInvocationsPerSecondPerInstance</a></code> | <code>java.lang.Number</code> | The number of invocations per second that one InService instance can serve, used to size the limit on requests from other Regions. |
+
+---
+
+##### `maxCrossRegionPercentPerEndpoint`<sup>Optional</sup> <a name="maxCrossRegionPercentPerEndpoint" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig.property.maxCrossRegionPercentPerEndpoint"></a>
+
+```java
+public java.lang.Number getMaxCrossRegionPercentPerEndpoint();
+```
+
+- *Type:* java.lang.Number
+
+The percentage of the endpoint's capacity (MaxInvocationsPerSecondPerInstance multiplied by the number of InService instances) that requests from other Regions can use.
+
+Valid values are 1 to 100.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_cross_region_percent_per_endpoint SagemakerEndpointConfigA#max_cross_region_percent_per_endpoint}
+
+---
+
+##### `maxInvocationsPerSecondPerInstance`<sup>Optional</sup> <a name="maxInvocationsPerSecondPerInstance" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig.property.maxInvocationsPerSecondPerInstance"></a>
+
+```java
+public java.lang.Number getMaxInvocationsPerSecondPerInstance();
+```
+
+- *Type:* java.lang.Number
+
+The number of invocations per second that one InService instance can serve, used to size the limit on requests from other Regions.
+
+One value applies to every production variant, whatever its instance type. Valid values are 1 to 10000.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_invocations_per_second_per_instance SagemakerEndpointConfigA#max_invocations_per_second_per_instance}
 
 ---
 
@@ -1935,7 +2063,7 @@ public SagemakerEndpointConfigDataCaptureConfigCaptureContentTypeHeader getCaptu
 
 A list of the JSON and CSV content type that the endpoint captures.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#capture_content_type_header SagemakerEndpointConfigA#capture_content_type_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#capture_content_type_header SagemakerEndpointConfigA#capture_content_type_header}
 
 ---
 
@@ -1949,7 +2077,7 @@ public IResolvable|java.util.List<SagemakerEndpointConfigDataCaptureConfigCaptur
 
 Specifies whether the endpoint captures input data to your model, output data from your model, or both.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#capture_options SagemakerEndpointConfigA#capture_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#capture_options SagemakerEndpointConfigA#capture_options}
 
 ---
 
@@ -1963,7 +2091,7 @@ public java.lang.String getDestinationS3Uri();
 
 The S3 bucket where model monitor stores captured data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#destination_s3_uri SagemakerEndpointConfigA#destination_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#destination_s3_uri SagemakerEndpointConfigA#destination_s3_uri}
 
 ---
 
@@ -1977,7 +2105,7 @@ public java.lang.Boolean|IResolvable getEnableCapture();
 
 Set to True to enable data capture.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#enable_capture SagemakerEndpointConfigA#enable_capture}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#enable_capture SagemakerEndpointConfigA#enable_capture}
 
 ---
 
@@ -1991,7 +2119,7 @@ public java.lang.Number getInitialSamplingPercentage();
 
 The percentage of data to capture.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#initial_sampling_percentage SagemakerEndpointConfigA#initial_sampling_percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#initial_sampling_percentage SagemakerEndpointConfigA#initial_sampling_percentage}
 
 ---
 
@@ -2005,7 +2133,7 @@ public java.lang.String getKmsKeyId();
 
 The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt the captured data at rest using Amazon S3 server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
 
 ---
 
@@ -2043,7 +2171,7 @@ A list of the CSV content types of the data that the endpoint captures.
 
 For the endpoint to capture the data, you must also specify the content type when you invoke the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#csv_content_types SagemakerEndpointConfigA#csv_content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#csv_content_types SagemakerEndpointConfigA#csv_content_types}
 
 ---
 
@@ -2059,7 +2187,7 @@ A list of the JSON content types of the data that the endpoint captures.
 
 For the endpoint to capture the data, you must also specify the content type when you invoke the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#json_content_types SagemakerEndpointConfigA#json_content_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#json_content_types SagemakerEndpointConfigA#json_content_types}
 
 ---
 
@@ -2093,7 +2221,7 @@ public java.lang.String getCaptureMode();
 
 Specifies whether the endpoint captures input data or output data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#capture_mode SagemakerEndpointConfigA#capture_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#capture_mode SagemakerEndpointConfigA#capture_mode}
 
 ---
 
@@ -2127,7 +2255,7 @@ public SagemakerEndpointConfigExplainerConfigClarifyExplainerConfig getClarifyEx
 
 A member of ExplainerConfig that contains configuration parameters for the SageMaker Clarify explainer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#clarify_explainer_config SagemakerEndpointConfigA#clarify_explainer_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#clarify_explainer_config SagemakerEndpointConfigA#clarify_explainer_config}
 
 ---
 
@@ -2165,7 +2293,7 @@ public java.lang.String getEnableExplanations();
 
 A JMESPath boolean expression used to filter which records to explain. Explanations are activated by default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#enable_explanations SagemakerEndpointConfigA#enable_explanations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#enable_explanations SagemakerEndpointConfigA#enable_explanations}
 
 ---
 
@@ -2179,7 +2307,7 @@ public SagemakerEndpointConfigExplainerConfigClarifyExplainerConfigInferenceConf
 
 The inference configuration parameter for the model container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#inference_config SagemakerEndpointConfigA#inference_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#inference_config SagemakerEndpointConfigA#inference_config}
 
 ---
 
@@ -2193,7 +2321,7 @@ public SagemakerEndpointConfigExplainerConfigClarifyExplainerConfigShapConfig ge
 
 The configuration for SHAP analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#shap_config SagemakerEndpointConfigA#shap_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#shap_config SagemakerEndpointConfigA#shap_config}
 
 ---
 
@@ -2247,7 +2375,7 @@ public java.lang.String getContentTemplate();
 
 A template string used to format a JSON record into an acceptable model container input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#content_template SagemakerEndpointConfigA#content_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#content_template SagemakerEndpointConfigA#content_template}
 
 ---
 
@@ -2263,7 +2391,7 @@ The names of the features.
 
 If provided, these are included in the endpoint response payload to help readability of the InvokeEndpoint output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#feature_headers SagemakerEndpointConfigA#feature_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#feature_headers SagemakerEndpointConfigA#feature_headers}
 
 ---
 
@@ -2277,7 +2405,7 @@ public java.lang.String getFeaturesAttribute();
 
 Provides the JMESPath expression to extract the features from a model container input in JSON Lines format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#features_attribute SagemakerEndpointConfigA#features_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#features_attribute SagemakerEndpointConfigA#features_attribute}
 
 ---
 
@@ -2293,7 +2421,7 @@ A list of data types of the features (optional).
 
 Applicable only to NLP explainability. If provided, FeatureTypes must have at least one 'text' string (for example, ['text']). If FeatureTypes is not provided, the explainer infers the feature types based on the baseline data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#feature_types SagemakerEndpointConfigA#feature_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#feature_types SagemakerEndpointConfigA#feature_types}
 
 ---
 
@@ -2307,7 +2435,7 @@ public java.lang.String getLabelAttribute();
 
 A JMESPath expression used to locate the list of label headers in the model container output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#label_attribute SagemakerEndpointConfigA#label_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#label_attribute SagemakerEndpointConfigA#label_attribute}
 
 ---
 
@@ -2323,7 +2451,7 @@ For multiclass classification problems, the label headers are the names of the c
 
 Otherwise, the label header is the name of the predicted label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#label_headers SagemakerEndpointConfigA#label_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#label_headers SagemakerEndpointConfigA#label_headers}
 
 ---
 
@@ -2337,7 +2465,7 @@ public java.lang.Number getLabelIndex();
 
 A zero-based index used to extract a label header or list of label headers from model container output in CSV format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#label_index SagemakerEndpointConfigA#label_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#label_index SagemakerEndpointConfigA#label_index}
 
 ---
 
@@ -2353,7 +2481,7 @@ The maximum payload size (MB) allowed of a request from the explainer to the mod
 
 Defaults to 6 MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#max_payload_in_mb SagemakerEndpointConfigA#max_payload_in_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_payload_in_mb SagemakerEndpointConfigA#max_payload_in_mb}
 
 ---
 
@@ -2369,7 +2497,7 @@ The maximum number of records in a request that the model container can process 
 
 A record is a unit of input data that inference can be made on, for example, a single line in CSV data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#max_record_count SagemakerEndpointConfigA#max_record_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_record_count SagemakerEndpointConfigA#max_record_count}
 
 ---
 
@@ -2383,7 +2511,7 @@ public java.lang.String getProbabilityAttribute();
 
 A JMESPath expression used to extract the probability (or score) from the model container output if the model container is in JSON Lines format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#probability_attribute SagemakerEndpointConfigA#probability_attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#probability_attribute SagemakerEndpointConfigA#probability_attribute}
 
 ---
 
@@ -2399,7 +2527,7 @@ A zero-based index used to extract a probability value (score) or list from mode
 
 If this value is not provided, the entire model container output will be treated as a probability value (score) or list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#probability_index SagemakerEndpointConfigA#probability_index}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#probability_index SagemakerEndpointConfigA#probability_index}
 
 ---
 
@@ -2441,7 +2569,7 @@ public java.lang.Number getNumberOfSamples();
 
 The number of samples to be used for analysis by the Kernal SHAP algorithm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#number_of_samples SagemakerEndpointConfigA#number_of_samples}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#number_of_samples SagemakerEndpointConfigA#number_of_samples}
 
 ---
 
@@ -2457,7 +2585,7 @@ The starting value used to initialize the random number generator in the explain
 
 Provide a value for this parameter to obtain a deterministic SHAP result.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#seed SagemakerEndpointConfigA#seed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#seed SagemakerEndpointConfigA#seed}
 
 ---
 
@@ -2471,7 +2599,7 @@ public SagemakerEndpointConfigExplainerConfigClarifyExplainerConfigShapConfigSha
 
 The configuration for the SHAP baseline of the Kernal SHAP algorithm.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#shap_baseline_config SagemakerEndpointConfigA#shap_baseline_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#shap_baseline_config SagemakerEndpointConfigA#shap_baseline_config}
 
 ---
 
@@ -2487,7 +2615,7 @@ A parameter that indicates if text features are treated as text and explanations
 
 Required for natural language processing (NLP) explainability only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#text_config SagemakerEndpointConfigA#text_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#text_config SagemakerEndpointConfigA#text_config}
 
 ---
 
@@ -2503,7 +2631,7 @@ A Boolean toggle to indicate if you want to use the logit function (true) or log
 
 Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#use_logit SagemakerEndpointConfigA#use_logit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#use_logit SagemakerEndpointConfigA#use_logit}
 
 ---
 
@@ -2541,7 +2669,7 @@ public java.lang.String getMimeType();
 
 The MIME type of the baseline data. Choose from 'text/csv' or 'application/jsonlines'. Defaults to 'text/csv'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#mime_type SagemakerEndpointConfigA#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#mime_type SagemakerEndpointConfigA#mime_type}
 
 ---
 
@@ -2557,7 +2685,7 @@ The inline SHAP baseline data in string format.
 
 ShapBaseline can have one or multiple records to be used as the baseline dataset. The format of the SHAP baseline file should be the same format as the training dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#shap_baseline SagemakerEndpointConfigA#shap_baseline}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#shap_baseline SagemakerEndpointConfigA#shap_baseline}
 
 ---
 
@@ -2573,7 +2701,7 @@ The uniform resource identifier (URI) of the S3 bucket where the SHAP baseline f
 
 The format of the SHAP baseline file should be the same format as the format of the training dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#shap_baseline_uri SagemakerEndpointConfigA#shap_baseline_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#shap_baseline_uri SagemakerEndpointConfigA#shap_baseline_uri}
 
 ---
 
@@ -2611,7 +2739,7 @@ The unit of granularity for the analysis of text features.
 
 For example, if the unit is 'token', then each token (like a word in English) of the text is treated as a feature. SHAP values are computed for each unit/feature.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#granularity SagemakerEndpointConfigA#granularity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#granularity SagemakerEndpointConfigA#granularity}
 
 ---
 
@@ -2625,7 +2753,7 @@ public java.lang.String getLanguage();
 
 Specifies the language of the text features in ISO 639-1 or ISO 639-3 code of a supported language.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#language SagemakerEndpointConfigA#language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#language SagemakerEndpointConfigA#language}
 
 ---
 
@@ -2665,7 +2793,7 @@ Specifies whether to enable detailed observability for the endpoint.
 
 When set to true, the endpoint publishes container-level inference metrics, per-GPU metrics, per-instance host metrics, and inference component placement metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#enable_detailed_observability SagemakerEndpointConfigA#enable_detailed_observability}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#enable_detailed_observability SagemakerEndpointConfigA#enable_detailed_observability}
 
 ---
 
@@ -2681,7 +2809,7 @@ Specifies whether to enable enhanced metrics for the endpoint.
 
 Enhanced metrics provide utilization and invocation data at instance and container granularity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#enable_enhanced_metrics SagemakerEndpointConfigA#enable_enhanced_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#enable_enhanced_metrics SagemakerEndpointConfigA#enable_enhanced_metrics}
 
 ---
 
@@ -2697,7 +2825,7 @@ The interval, in seconds, at which the endpoint publishes metrics to Amazon Clou
 
 Valid values are 10, 30, 60, 120, 180, 240, and 300. The default is 60.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#metric_publish_frequency_in_seconds SagemakerEndpointConfigA#metric_publish_frequency_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#metric_publish_frequency_in_seconds SagemakerEndpointConfigA#metric_publish_frequency_in_seconds}
 
 ---
 
@@ -2763,7 +2891,7 @@ public java.lang.String getVariantName();
 
 The name of the production variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#variant_name SagemakerEndpointConfigA#variant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#variant_name SagemakerEndpointConfigA#variant_name}
 
 ---
 
@@ -2777,7 +2905,7 @@ public SagemakerEndpointConfigProductionVariantsCapacityReservationConfig getCap
 
 Settings for the capacity reservation for the compute instances that SageMaker AI reserves for an endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#capacity_reservation_config SagemakerEndpointConfigA#capacity_reservation_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#capacity_reservation_config SagemakerEndpointConfigA#capacity_reservation_config}
 
 ---
 
@@ -2791,7 +2919,7 @@ public java.lang.Number getContainerStartupHealthCheckTimeoutInSeconds();
 
 The timeout value, in seconds, for your inference container to pass health check by SageMaker Hosting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#container_startup_health_check_timeout_in_seconds SagemakerEndpointConfigA#container_startup_health_check_timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#container_startup_health_check_timeout_in_seconds SagemakerEndpointConfigA#container_startup_health_check_timeout_in_seconds}
 
 ---
 
@@ -2805,7 +2933,7 @@ public SagemakerEndpointConfigProductionVariantsCoreDumpConfig getCoreDumpConfig
 
 Specifies configuration for a core dump from the model container when the process crashes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#core_dump_config SagemakerEndpointConfigA#core_dump_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#core_dump_config SagemakerEndpointConfigA#core_dump_config}
 
 ---
 
@@ -2821,7 +2949,7 @@ You can use this parameter to turn on native AWS Systems Manager (SSM) access fo
 
 By default, SSM access is disabled for all production variants behind an endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#enable_ssm_access SagemakerEndpointConfigA#enable_ssm_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#enable_ssm_access SagemakerEndpointConfigA#enable_ssm_access}
 
 ---
 
@@ -2837,7 +2965,7 @@ Specifies an option from a collection of preconfigured Amazon Machine Image (AMI
 
 Each image is configured by AWS with a set of software and driver versions. AWS optimizes these configurations for different machine learning workloads. By selecting an AMI version, you can ensure that your inference environment is compatible with specific software requirements, such as CUDA driver versions, Linux kernel versions, or AWS Neuron driver versions
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#inference_ami_version SagemakerEndpointConfigA#inference_ami_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#inference_ami_version SagemakerEndpointConfigA#inference_ami_version}
 
 ---
 
@@ -2851,7 +2979,7 @@ public java.lang.Number getInitialInstanceCount();
 
 Number of instances to launch initially.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#initial_instance_count SagemakerEndpointConfigA#initial_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#initial_instance_count SagemakerEndpointConfigA#initial_instance_count}
 
 ---
 
@@ -2865,7 +2993,7 @@ public java.lang.Number getInitialVariantWeight();
 
 Determines initial traffic distribution among all of the models that you specify in the endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#initial_variant_weight SagemakerEndpointConfigA#initial_variant_weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#initial_variant_weight SagemakerEndpointConfigA#initial_variant_weight}
 
 ---
 
@@ -2881,7 +3009,7 @@ A list of instance pools for the production variant.
 
 Each instance pool specifies an instance type and its priority for provisioning. Use instance pools to configure heterogeneous endpoints that deploy models across multiple instance types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#instance_pools SagemakerEndpointConfigA#instance_pools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#instance_pools SagemakerEndpointConfigA#instance_pools}
 
 ---
 
@@ -2895,7 +3023,7 @@ public java.lang.String getInstanceType();
 
 The ML compute instance type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#instance_type SagemakerEndpointConfigA#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#instance_type SagemakerEndpointConfigA#instance_type}
 
 ---
 
@@ -2909,7 +3037,7 @@ public SagemakerEndpointConfigProductionVariantsManagedInstanceScaling getManage
 
 Settings that control the range in the number of instances that the endpoint provisions as it scales up or down to accommodate traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#managed_instance_scaling SagemakerEndpointConfigA#managed_instance_scaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#managed_instance_scaling SagemakerEndpointConfigA#managed_instance_scaling}
 
 ---
 
@@ -2923,7 +3051,7 @@ public java.lang.Number getModelDataDownloadTimeoutInSeconds();
 
 The timeout value, in seconds, to download and extract the model that you want to host from Amazon S3 to the individual inference instance associated with this production variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#model_data_download_timeout_in_seconds SagemakerEndpointConfigA#model_data_download_timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#model_data_download_timeout_in_seconds SagemakerEndpointConfigA#model_data_download_timeout_in_seconds}
 
 ---
 
@@ -2939,7 +3067,7 @@ The name of the model that you want to host.
 
 This is the name that you specified when creating the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#model_name SagemakerEndpointConfigA#model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#model_name SagemakerEndpointConfigA#model_name}
 
 ---
 
@@ -2953,7 +3081,7 @@ public SagemakerEndpointConfigProductionVariantsRoutingConfig getRoutingConfig()
 
 Settings that control how the endpoint routes incoming traffic to the instances that the endpoint hosts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#routing_config SagemakerEndpointConfigA#routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#routing_config SagemakerEndpointConfigA#routing_config}
 
 ---
 
@@ -2967,7 +3095,7 @@ public SagemakerEndpointConfigProductionVariantsServerlessConfig getServerlessCo
 
 The serverless configuration for an endpoint. Specifies a serverless endpoint configuration instead of an instance-based endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#serverless_config SagemakerEndpointConfigA#serverless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#serverless_config SagemakerEndpointConfigA#serverless_config}
 
 ---
 
@@ -2983,7 +3111,7 @@ The timeout value, in seconds, for provisioning instances for the production var
 
 When SageMaker encounters an insufficient capacity error while provisioning instances, it retries with the next instance pool (if configured) or waits until the timeout expires. This timeout applies only to capacity provisioning and does not include the time for model download or container startup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#variant_instance_provision_timeout_in_seconds SagemakerEndpointConfigA#variant_instance_provision_timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#variant_instance_provision_timeout_in_seconds SagemakerEndpointConfigA#variant_instance_provision_timeout_in_seconds}
 
 ---
 
@@ -2999,7 +3127,7 @@ The size, in GB, of the ML storage volume attached to individual inference insta
 
 Currently only Amazon EBS gp2 storage volumes are supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#volume_size_in_gb SagemakerEndpointConfigA#volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#volume_size_in_gb SagemakerEndpointConfigA#volume_size_in_gb}
 
 ---
 
@@ -3035,7 +3163,7 @@ public java.lang.String getCapacityReservationPreference();
 
 Options that you can choose for the capacity reservation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#capacity_reservation_preference SagemakerEndpointConfigA#capacity_reservation_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#capacity_reservation_preference SagemakerEndpointConfigA#capacity_reservation_preference}
 
 ---
 
@@ -3049,7 +3177,7 @@ public java.lang.String getMlReservationArn();
 
 The Amazon Resource Name (ARN) that uniquely identifies the ML capacity reservation that SageMaker AI applies when it deploys the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#ml_reservation_arn SagemakerEndpointConfigA#ml_reservation_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#ml_reservation_arn SagemakerEndpointConfigA#ml_reservation_arn}
 
 ---
 
@@ -3085,7 +3213,7 @@ public java.lang.String getDestinationS3Uri();
 
 The Amazon S3 bucket to send the core dump to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#destination_s3_uri SagemakerEndpointConfigA#destination_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#destination_s3_uri SagemakerEndpointConfigA#destination_s3_uri}
 
 ---
 
@@ -3101,7 +3229,7 @@ The AWS Key Management Service (AWS KMS) key that SageMaker uses to encrypt the 
 
 If you use a KMS key ID or an alias of your KMS key, the SageMaker execution role must include permissions to call kms:Encrypt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
 
 ---
 
@@ -3139,7 +3267,7 @@ public java.lang.String getInstanceType();
 
 The ML compute instance type for the instance pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#instance_type SagemakerEndpointConfigA#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#instance_type SagemakerEndpointConfigA#instance_type}
 
 ---
 
@@ -3155,7 +3283,7 @@ The name of a SageMaker model to use for this instance pool instead of the model
 
 Use this to deploy a different model optimized for the instance type in this pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#model_name_override SagemakerEndpointConfigA#model_name_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#model_name_override SagemakerEndpointConfigA#model_name_override}
 
 ---
 
@@ -3171,7 +3299,7 @@ The priority for the instance pool.
 
 SageMaker attempts to provision instances in order of priority, starting with the lowest value. If instances for a higher-priority pool are unavailable, SageMaker attempts to provision from the next pool. Valid values: 1 to 5, where 1 is the highest priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#priority SagemakerEndpointConfigA#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#priority SagemakerEndpointConfigA#priority}
 
 ---
 
@@ -3211,7 +3339,7 @@ public java.lang.Number getMaxInstanceCount();
 
 The maximum number of instances that the endpoint can provision when it scales up to accommodate an increase in traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#max_instance_count SagemakerEndpointConfigA#max_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_instance_count SagemakerEndpointConfigA#max_instance_count}
 
 ---
 
@@ -3225,7 +3353,7 @@ public java.lang.Number getMinInstanceCount();
 
 The minimum number of instances that the endpoint must retain when it scales down to accommodate a decrease in traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#min_instance_count SagemakerEndpointConfigA#min_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#min_instance_count SagemakerEndpointConfigA#min_instance_count}
 
 ---
 
@@ -3239,7 +3367,7 @@ public SagemakerEndpointConfigProductionVariantsManagedInstanceScalingScaleInPol
 
 Configures the scale-in behavior for managed instance scaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#scale_in_policy SagemakerEndpointConfigA#scale_in_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#scale_in_policy SagemakerEndpointConfigA#scale_in_policy}
 
 ---
 
@@ -3253,7 +3381,7 @@ public java.lang.String getStatus();
 
 Indicates whether managed instance scaling is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#status SagemakerEndpointConfigA#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#status SagemakerEndpointConfigA#status}
 
 ---
 
@@ -3293,7 +3421,7 @@ The cooldown period, in minutes, after the last endpoint operation before the en
 
 Valid values are 5 to 1440. The default is 20.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#cooldown_in_minutes SagemakerEndpointConfigA#cooldown_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#cooldown_in_minutes SagemakerEndpointConfigA#cooldown_in_minutes}
 
 ---
 
@@ -3309,7 +3437,7 @@ The maximum number of instances that the endpoint can terminate at a time during
 
 Valid values are 1 to 100. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#maximum_step_size SagemakerEndpointConfigA#maximum_step_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#maximum_step_size SagemakerEndpointConfigA#maximum_step_size}
 
 ---
 
@@ -3325,7 +3453,7 @@ The strategy for scaling in instances.
 
 IDLE_RELEASE releases instances that have no hosted inference component copies. CONSOLIDATION consolidates inference component copies onto fewer instances to release more instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#strategy SagemakerEndpointConfigA#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#strategy SagemakerEndpointConfigA#strategy}
 
 ---
 
@@ -3361,7 +3489,7 @@ public SagemakerEndpointConfigProductionVariantsRoutingConfigPrefixAwareRoutingC
 
 The configuration for prefix-aware routing. Specify this property only when you set RoutingStrategy to PREFIX_AWARE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#prefix_aware_routing_config SagemakerEndpointConfigA#prefix_aware_routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#prefix_aware_routing_config SagemakerEndpointConfigA#prefix_aware_routing_config}
 
 ---
 
@@ -3375,7 +3503,7 @@ public java.lang.String getRoutingStrategy();
 
 Sets how the endpoint routes incoming traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#routing_strategy SagemakerEndpointConfigA#routing_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#routing_strategy SagemakerEndpointConfigA#routing_strategy}
 
 ---
 
@@ -3413,7 +3541,7 @@ The maximum number of in-flight requests on the target instance before the endpo
 
 Required when RoutingStrategy is PREFIX_AWARE. Valid values are 1 to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#concurrency_threshold SagemakerEndpointConfigA#concurrency_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#concurrency_threshold SagemakerEndpointConfigA#concurrency_threshold}
 
 ---
 
@@ -3429,7 +3557,7 @@ The maximum length of the prefix used for routing decisions.
 
 Required when RoutingStrategy is PREFIX_AWARE. Valid values are 1024 to 65536.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#prefix_length SagemakerEndpointConfigA#prefix_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#prefix_length SagemakerEndpointConfigA#prefix_length}
 
 ---
 
@@ -3467,7 +3595,7 @@ public java.lang.Number getMaxConcurrency();
 
 The maximum number of concurrent invocations your serverless endpoint can process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#max_concurrency SagemakerEndpointConfigA#max_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_concurrency SagemakerEndpointConfigA#max_concurrency}
 
 ---
 
@@ -3483,7 +3611,7 @@ The memory size of your serverless endpoint.
 
 Valid values are in 1 GB increments: 1024 MB, 2048 MB, 3072 MB, 4096 MB, 5120 MB, or 6144 MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#memory_size_in_mb SagemakerEndpointConfigA#memory_size_in_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#memory_size_in_mb SagemakerEndpointConfigA#memory_size_in_mb}
 
 ---
 
@@ -3497,7 +3625,7 @@ public java.lang.Number getProvisionedConcurrency();
 
 The amount of provisioned concurrency to allocate for the serverless endpoint. Should be less than or equal to MaxConcurrency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#provisioned_concurrency SagemakerEndpointConfigA#provisioned_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#provisioned_concurrency SagemakerEndpointConfigA#provisioned_concurrency}
 
 ---
 
@@ -3563,7 +3691,7 @@ public SagemakerEndpointConfigShadowProductionVariantsCapacityReservationConfig 
 
 Settings for the capacity reservation for the compute instances that SageMaker AI reserves for an endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#capacity_reservation_config SagemakerEndpointConfigA#capacity_reservation_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#capacity_reservation_config SagemakerEndpointConfigA#capacity_reservation_config}
 
 ---
 
@@ -3577,7 +3705,7 @@ public java.lang.Number getContainerStartupHealthCheckTimeoutInSeconds();
 
 The timeout value, in seconds, for your inference container to pass health check by SageMaker Hosting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#container_startup_health_check_timeout_in_seconds SagemakerEndpointConfigA#container_startup_health_check_timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#container_startup_health_check_timeout_in_seconds SagemakerEndpointConfigA#container_startup_health_check_timeout_in_seconds}
 
 ---
 
@@ -3591,7 +3719,7 @@ public SagemakerEndpointConfigShadowProductionVariantsCoreDumpConfig getCoreDump
 
 Specifies configuration for a core dump from the model container when the process crashes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#core_dump_config SagemakerEndpointConfigA#core_dump_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#core_dump_config SagemakerEndpointConfigA#core_dump_config}
 
 ---
 
@@ -3607,7 +3735,7 @@ You can use this parameter to turn on native AWS Systems Manager (SSM) access fo
 
 By default, SSM access is disabled for all production variants behind an endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#enable_ssm_access SagemakerEndpointConfigA#enable_ssm_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#enable_ssm_access SagemakerEndpointConfigA#enable_ssm_access}
 
 ---
 
@@ -3623,7 +3751,7 @@ Specifies an option from a collection of preconfigured Amazon Machine Image (AMI
 
 Each image is configured by AWS with a set of software and driver versions. AWS optimizes these configurations for different machine learning workloads. By selecting an AMI version, you can ensure that your inference environment is compatible with specific software requirements, such as CUDA driver versions, Linux kernel versions, or AWS Neuron driver versions
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#inference_ami_version SagemakerEndpointConfigA#inference_ami_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#inference_ami_version SagemakerEndpointConfigA#inference_ami_version}
 
 ---
 
@@ -3637,7 +3765,7 @@ public java.lang.Number getInitialInstanceCount();
 
 Number of instances to launch initially.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#initial_instance_count SagemakerEndpointConfigA#initial_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#initial_instance_count SagemakerEndpointConfigA#initial_instance_count}
 
 ---
 
@@ -3651,7 +3779,7 @@ public java.lang.Number getInitialVariantWeight();
 
 Determines initial traffic distribution among all of the models that you specify in the endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#initial_variant_weight SagemakerEndpointConfigA#initial_variant_weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#initial_variant_weight SagemakerEndpointConfigA#initial_variant_weight}
 
 ---
 
@@ -3667,7 +3795,7 @@ A list of instance pools for the production variant.
 
 Each instance pool specifies an instance type and its priority for provisioning. Use instance pools to configure heterogeneous endpoints that deploy models across multiple instance types.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#instance_pools SagemakerEndpointConfigA#instance_pools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#instance_pools SagemakerEndpointConfigA#instance_pools}
 
 ---
 
@@ -3681,7 +3809,7 @@ public java.lang.String getInstanceType();
 
 The ML compute instance type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#instance_type SagemakerEndpointConfigA#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#instance_type SagemakerEndpointConfigA#instance_type}
 
 ---
 
@@ -3695,7 +3823,7 @@ public SagemakerEndpointConfigShadowProductionVariantsManagedInstanceScaling get
 
 Settings that control the range in the number of instances that the endpoint provisions as it scales up or down to accommodate traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#managed_instance_scaling SagemakerEndpointConfigA#managed_instance_scaling}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#managed_instance_scaling SagemakerEndpointConfigA#managed_instance_scaling}
 
 ---
 
@@ -3709,7 +3837,7 @@ public java.lang.Number getModelDataDownloadTimeoutInSeconds();
 
 The timeout value, in seconds, to download and extract the model that you want to host from Amazon S3 to the individual inference instance associated with this production variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#model_data_download_timeout_in_seconds SagemakerEndpointConfigA#model_data_download_timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#model_data_download_timeout_in_seconds SagemakerEndpointConfigA#model_data_download_timeout_in_seconds}
 
 ---
 
@@ -3725,7 +3853,7 @@ The name of the model that you want to host.
 
 This is the name that you specified when creating the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#model_name SagemakerEndpointConfigA#model_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#model_name SagemakerEndpointConfigA#model_name}
 
 ---
 
@@ -3739,7 +3867,7 @@ public SagemakerEndpointConfigShadowProductionVariantsRoutingConfig getRoutingCo
 
 Settings that control how the endpoint routes incoming traffic to the instances that the endpoint hosts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#routing_config SagemakerEndpointConfigA#routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#routing_config SagemakerEndpointConfigA#routing_config}
 
 ---
 
@@ -3753,7 +3881,7 @@ public SagemakerEndpointConfigShadowProductionVariantsServerlessConfig getServer
 
 The serverless configuration for an endpoint. Specifies a serverless endpoint configuration instead of an instance-based endpoint configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#serverless_config SagemakerEndpointConfigA#serverless_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#serverless_config SagemakerEndpointConfigA#serverless_config}
 
 ---
 
@@ -3769,7 +3897,7 @@ The timeout value, in seconds, for provisioning instances for the production var
 
 When SageMaker encounters an insufficient capacity error while provisioning instances, it retries with the next instance pool (if configured) or waits until the timeout expires. This timeout applies only to capacity provisioning and does not include the time for model download or container startup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#variant_instance_provision_timeout_in_seconds SagemakerEndpointConfigA#variant_instance_provision_timeout_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#variant_instance_provision_timeout_in_seconds SagemakerEndpointConfigA#variant_instance_provision_timeout_in_seconds}
 
 ---
 
@@ -3783,7 +3911,7 @@ public java.lang.String getVariantName();
 
 The name of the production variant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#variant_name SagemakerEndpointConfigA#variant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#variant_name SagemakerEndpointConfigA#variant_name}
 
 ---
 
@@ -3799,7 +3927,7 @@ The size, in GB, of the ML storage volume attached to individual inference insta
 
 Currently only Amazon EBS gp2 storage volumes are supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#volume_size_in_gb SagemakerEndpointConfigA#volume_size_in_gb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#volume_size_in_gb SagemakerEndpointConfigA#volume_size_in_gb}
 
 ---
 
@@ -3835,7 +3963,7 @@ public java.lang.String getCapacityReservationPreference();
 
 Options that you can choose for the capacity reservation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#capacity_reservation_preference SagemakerEndpointConfigA#capacity_reservation_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#capacity_reservation_preference SagemakerEndpointConfigA#capacity_reservation_preference}
 
 ---
 
@@ -3849,7 +3977,7 @@ public java.lang.String getMlReservationArn();
 
 The Amazon Resource Name (ARN) that uniquely identifies the ML capacity reservation that SageMaker AI applies when it deploys the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#ml_reservation_arn SagemakerEndpointConfigA#ml_reservation_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#ml_reservation_arn SagemakerEndpointConfigA#ml_reservation_arn}
 
 ---
 
@@ -3885,7 +4013,7 @@ public java.lang.String getDestinationS3Uri();
 
 The Amazon S3 bucket to send the core dump to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#destination_s3_uri SagemakerEndpointConfigA#destination_s3_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#destination_s3_uri SagemakerEndpointConfigA#destination_s3_uri}
 
 ---
 
@@ -3901,7 +4029,7 @@ The AWS Key Management Service (AWS KMS) key that SageMaker uses to encrypt the 
 
 If you use a KMS key ID or an alias of your KMS key, the SageMaker execution role must include permissions to call kms:Encrypt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#kms_key_id SagemakerEndpointConfigA#kms_key_id}
 
 ---
 
@@ -3939,7 +4067,7 @@ public java.lang.String getInstanceType();
 
 The ML compute instance type for the instance pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#instance_type SagemakerEndpointConfigA#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#instance_type SagemakerEndpointConfigA#instance_type}
 
 ---
 
@@ -3955,7 +4083,7 @@ The name of a SageMaker model to use for this instance pool instead of the model
 
 Use this to deploy a different model optimized for the instance type in this pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#model_name_override SagemakerEndpointConfigA#model_name_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#model_name_override SagemakerEndpointConfigA#model_name_override}
 
 ---
 
@@ -3971,7 +4099,7 @@ The priority for the instance pool.
 
 SageMaker attempts to provision instances in order of priority, starting with the lowest value. If instances for a higher-priority pool are unavailable, SageMaker attempts to provision from the next pool. Valid values: 1 to 5, where 1 is the highest priority.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#priority SagemakerEndpointConfigA#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#priority SagemakerEndpointConfigA#priority}
 
 ---
 
@@ -4011,7 +4139,7 @@ public java.lang.Number getMaxInstanceCount();
 
 The maximum number of instances that the endpoint can provision when it scales up to accommodate an increase in traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#max_instance_count SagemakerEndpointConfigA#max_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_instance_count SagemakerEndpointConfigA#max_instance_count}
 
 ---
 
@@ -4025,7 +4153,7 @@ public java.lang.Number getMinInstanceCount();
 
 The minimum number of instances that the endpoint must retain when it scales down to accommodate a decrease in traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#min_instance_count SagemakerEndpointConfigA#min_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#min_instance_count SagemakerEndpointConfigA#min_instance_count}
 
 ---
 
@@ -4039,7 +4167,7 @@ public SagemakerEndpointConfigShadowProductionVariantsManagedInstanceScalingScal
 
 Configures the scale-in behavior for managed instance scaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#scale_in_policy SagemakerEndpointConfigA#scale_in_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#scale_in_policy SagemakerEndpointConfigA#scale_in_policy}
 
 ---
 
@@ -4053,7 +4181,7 @@ public java.lang.String getStatus();
 
 Indicates whether managed instance scaling is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#status SagemakerEndpointConfigA#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#status SagemakerEndpointConfigA#status}
 
 ---
 
@@ -4093,7 +4221,7 @@ The cooldown period, in minutes, after the last endpoint operation before the en
 
 Valid values are 5 to 1440. The default is 20.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#cooldown_in_minutes SagemakerEndpointConfigA#cooldown_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#cooldown_in_minutes SagemakerEndpointConfigA#cooldown_in_minutes}
 
 ---
 
@@ -4109,7 +4237,7 @@ The maximum number of instances that the endpoint can terminate at a time during
 
 Valid values are 1 to 100. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#maximum_step_size SagemakerEndpointConfigA#maximum_step_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#maximum_step_size SagemakerEndpointConfigA#maximum_step_size}
 
 ---
 
@@ -4125,7 +4253,7 @@ The strategy for scaling in instances.
 
 IDLE_RELEASE releases instances that have no hosted inference component copies. CONSOLIDATION consolidates inference component copies onto fewer instances to release more instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#strategy SagemakerEndpointConfigA#strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#strategy SagemakerEndpointConfigA#strategy}
 
 ---
 
@@ -4161,7 +4289,7 @@ public SagemakerEndpointConfigShadowProductionVariantsRoutingConfigPrefixAwareRo
 
 The configuration for prefix-aware routing. Specify this property only when you set RoutingStrategy to PREFIX_AWARE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#prefix_aware_routing_config SagemakerEndpointConfigA#prefix_aware_routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#prefix_aware_routing_config SagemakerEndpointConfigA#prefix_aware_routing_config}
 
 ---
 
@@ -4175,7 +4303,7 @@ public java.lang.String getRoutingStrategy();
 
 Sets how the endpoint routes incoming traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#routing_strategy SagemakerEndpointConfigA#routing_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#routing_strategy SagemakerEndpointConfigA#routing_strategy}
 
 ---
 
@@ -4213,7 +4341,7 @@ The maximum number of in-flight requests on the target instance before the endpo
 
 Required when RoutingStrategy is PREFIX_AWARE. Valid values are 1 to 1024.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#concurrency_threshold SagemakerEndpointConfigA#concurrency_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#concurrency_threshold SagemakerEndpointConfigA#concurrency_threshold}
 
 ---
 
@@ -4229,7 +4357,7 @@ The maximum length of the prefix used for routing decisions.
 
 Required when RoutingStrategy is PREFIX_AWARE. Valid values are 1024 to 65536.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#prefix_length SagemakerEndpointConfigA#prefix_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#prefix_length SagemakerEndpointConfigA#prefix_length}
 
 ---
 
@@ -4267,7 +4395,7 @@ public java.lang.Number getMaxConcurrency();
 
 The maximum number of concurrent invocations your serverless endpoint can process.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#max_concurrency SagemakerEndpointConfigA#max_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#max_concurrency SagemakerEndpointConfigA#max_concurrency}
 
 ---
 
@@ -4283,7 +4411,7 @@ The memory size of your serverless endpoint.
 
 Valid values are in 1 GB increments: 1024 MB, 2048 MB, 3072 MB, 4096 MB, 5120 MB, or 6144 MB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#memory_size_in_mb SagemakerEndpointConfigA#memory_size_in_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#memory_size_in_mb SagemakerEndpointConfigA#memory_size_in_mb}
 
 ---
 
@@ -4297,7 +4425,7 @@ public java.lang.Number getProvisionedConcurrency();
 
 The amount of provisioned concurrency to allocate for the serverless endpoint. Should be less than or equal to MaxConcurrency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#provisioned_concurrency SagemakerEndpointConfigA#provisioned_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#provisioned_concurrency SagemakerEndpointConfigA#provisioned_concurrency}
 
 ---
 
@@ -4333,7 +4461,7 @@ public java.lang.String getKey();
 
 The tag key. Tag keys must be unique per resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#key SagemakerEndpointConfigA#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#key SagemakerEndpointConfigA#key}
 
 ---
 
@@ -4347,7 +4475,7 @@ public java.lang.String getValue();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#value SagemakerEndpointConfigA#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#value SagemakerEndpointConfigA#value}
 
 ---
 
@@ -4385,7 +4513,7 @@ The VPC security group IDs, in the form sg-xxxxxxxx.
 
 Specify the security groups for the VPC that is specified in the Subnets field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#security_group_ids SagemakerEndpointConfigA#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#security_group_ids SagemakerEndpointConfigA#security_group_ids}
 
 ---
 
@@ -4399,7 +4527,7 @@ public java.util.List<java.lang.String> getSubnets();
 
 The ID of the subnets in the VPC to which you want to connect your training job or model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/sagemaker_endpoint_config#subnets SagemakerEndpointConfigA#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/sagemaker_endpoint_config#subnets SagemakerEndpointConfigA#subnets}
 
 ---
 
@@ -5726,6 +5854,313 @@ public IResolvable|SagemakerEndpointConfigAsyncInferenceConfig getInternalValue(
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigAsyncInferenceConfig">SagemakerEndpointConfigAsyncInferenceConfig</a>
+
+---
+
+
+### SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference <a name="SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.sagemaker_endpoint_config.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference;
+
+new SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.resetMaxCrossRegionPercentPerEndpoint">resetMaxCrossRegionPercentPerEndpoint</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.resetMaxInvocationsPerSecondPerInstance">resetMaxInvocationsPerSecondPerInstance</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetMaxCrossRegionPercentPerEndpoint` <a name="resetMaxCrossRegionPercentPerEndpoint" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.resetMaxCrossRegionPercentPerEndpoint"></a>
+
+```java
+public void resetMaxCrossRegionPercentPerEndpoint()
+```
+
+##### `resetMaxInvocationsPerSecondPerInstance` <a name="resetMaxInvocationsPerSecondPerInstance" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.resetMaxInvocationsPerSecondPerInstance"></a>
+
+```java
+public void resetMaxInvocationsPerSecondPerInstance()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.maxCrossRegionPercentPerEndpointInput">maxCrossRegionPercentPerEndpointInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.maxInvocationsPerSecondPerInstanceInput">maxInvocationsPerSecondPerInstanceInput</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.maxCrossRegionPercentPerEndpoint">maxCrossRegionPercentPerEndpoint</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.maxInvocationsPerSecondPerInstance">maxInvocationsPerSecondPerInstance</a></code> | <code>java.lang.Number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `maxCrossRegionPercentPerEndpointInput`<sup>Optional</sup> <a name="maxCrossRegionPercentPerEndpointInput" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.maxCrossRegionPercentPerEndpointInput"></a>
+
+```java
+public java.lang.Number getMaxCrossRegionPercentPerEndpointInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `maxInvocationsPerSecondPerInstanceInput`<sup>Optional</sup> <a name="maxInvocationsPerSecondPerInstanceInput" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.maxInvocationsPerSecondPerInstanceInput"></a>
+
+```java
+public java.lang.Number getMaxInvocationsPerSecondPerInstanceInput();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `maxCrossRegionPercentPerEndpoint`<sup>Required</sup> <a name="maxCrossRegionPercentPerEndpoint" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.maxCrossRegionPercentPerEndpoint"></a>
+
+```java
+public java.lang.Number getMaxCrossRegionPercentPerEndpoint();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `maxInvocationsPerSecondPerInstance`<sup>Required</sup> <a name="maxInvocationsPerSecondPerInstance" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.maxInvocationsPerSecondPerInstance"></a>
+
+```java
+public java.lang.Number getMaxInvocationsPerSecondPerInstance();
+```
+
+- *Type:* java.lang.Number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfigOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|SagemakerEndpointConfigCrossRegionTrafficConfig getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.sagemakerEndpointConfig.SagemakerEndpointConfigCrossRegionTrafficConfig">SagemakerEndpointConfigCrossRegionTrafficConfig</a>
 
 ---
 

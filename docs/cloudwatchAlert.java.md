@@ -4,7 +4,7 @@
 
 ### CloudwatchAlert <a name="CloudwatchAlert" id="@cdktn/provider-awscc.cloudwatchAlert.CloudwatchAlert"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert awscc_cloudwatch_alert}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert awscc_cloudwatch_alert}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAlert.CloudwatchAlert.Initializer"></a>
 
@@ -120,7 +120,7 @@ The display name of the alert.
 
 Names don't need to be unique within a space; the alert is identified by AlertId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#name CloudwatchAlert#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#name CloudwatchAlert#name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the access profile the alert uses to run its query and send notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#profile_id CloudwatchAlert#profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#profile_id CloudwatchAlert#profile_id}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The rule that defines how the alert is evaluated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#rule CloudwatchAlert#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#rule CloudwatchAlert#rule}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the space to create the alert in. Changing this value replaces the alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#space_id CloudwatchAlert#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#space_id CloudwatchAlert#space_id}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#description CloudwatchAlert#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#description CloudwatchAlert#description}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The notification rules that determine when and where notifications are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#notification_rules CloudwatchAlert#notification_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#notification_rules CloudwatchAlert#notification_rules}
 
 ---
 
@@ -182,7 +182,7 @@ Whether the alert sends notifications.
 
 When false, the alert is still evaluated and records its state, but sends nothing. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#notifications_enabled CloudwatchAlert#notifications_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#notifications_enabled CloudwatchAlert#notifications_enabled}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#tags CloudwatchAlert#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#tags CloudwatchAlert#tags}
 
 ---
 
@@ -708,7 +708,7 @@ The construct id used in the generated config for the CloudwatchAlert to import.
 
 The id of the existing CloudwatchAlert that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1275,7 +1275,7 @@ The display name of the alert.
 
 Names don't need to be unique within a space; the alert is identified by AlertId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#name CloudwatchAlert#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#name CloudwatchAlert#name}
 
 ---
 
@@ -1289,7 +1289,7 @@ public java.lang.String getProfileId();
 
 The ID of the access profile the alert uses to run its query and send notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#profile_id CloudwatchAlert#profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#profile_id CloudwatchAlert#profile_id}
 
 ---
 
@@ -1303,7 +1303,7 @@ public CloudwatchAlertRule getRule();
 
 The rule that defines how the alert is evaluated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#rule CloudwatchAlert#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#rule CloudwatchAlert#rule}
 
 ---
 
@@ -1317,7 +1317,7 @@ public java.lang.String getSpaceId();
 
 The ID of the space to create the alert in. Changing this value replaces the alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#space_id CloudwatchAlert#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#space_id CloudwatchAlert#space_id}
 
 ---
 
@@ -1331,7 +1331,7 @@ public java.lang.String getDescription();
 
 A description of the alert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#description CloudwatchAlert#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#description CloudwatchAlert#description}
 
 ---
 
@@ -1345,7 +1345,7 @@ public IResolvable|java.util.List<CloudwatchAlertNotificationRules> getNotificat
 
 The notification rules that determine when and where notifications are sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#notification_rules CloudwatchAlert#notification_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#notification_rules CloudwatchAlert#notification_rules}
 
 ---
 
@@ -1361,7 +1361,7 @@ Whether the alert sends notifications.
 
 When false, the alert is still evaluated and records its state, but sends nothing. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#notifications_enabled CloudwatchAlert#notifications_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#notifications_enabled CloudwatchAlert#notifications_enabled}
 
 ---
 
@@ -1375,7 +1375,7 @@ public IResolvable|java.util.List<CloudwatchAlertTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#tags CloudwatchAlert#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#tags CloudwatchAlert#tags}
 
 ---
 
@@ -1411,7 +1411,7 @@ public CloudwatchAlertNotificationRulesTarget getTarget();
 
 Where the notification is sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#target CloudwatchAlert#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#target CloudwatchAlert#target}
 
 ---
 
@@ -1425,7 +1425,7 @@ public CloudwatchAlertNotificationRulesTrigger getTrigger();
 
 The alert states that trigger the notification rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#trigger CloudwatchAlert#trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#trigger CloudwatchAlert#trigger}
 
 ---
 
@@ -1465,7 +1465,7 @@ The ARN of the target.
 
 For sns, the ARN of the Amazon SNS topic. For slack and pagerduty, the ARN of a CloudWatch Omni integration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#arn CloudwatchAlert#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#arn CloudwatchAlert#arn}
 
 ---
 
@@ -1481,7 +1481,7 @@ Settings specific to the target, as key-value pairs (up to 20).
 
 The keys depend on the integration type. Not used for sns targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#metadata CloudwatchAlert#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#metadata CloudwatchAlert#metadata}
 
 ---
 
@@ -1495,7 +1495,7 @@ public java.lang.String getType();
 
 The target type. Valid values: sns, slack, pagerduty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#type CloudwatchAlert#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#type CloudwatchAlert#type}
 
 ---
 
@@ -1531,7 +1531,7 @@ The alert states that trigger this rule.
 
 A notification is sent when the alert enters any listed state. If omitted or empty, every state triggers the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#state_values CloudwatchAlert#state_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#state_values CloudwatchAlert#state_values}
 
 ---
 
@@ -1565,7 +1565,7 @@ public CloudwatchAlertRuleTelemetryRule getTelemetryRule();
 
 A rule that queries telemetry, evaluates the result against a condition, and sets how missing data is handled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#telemetry_rule CloudwatchAlert#telemetry_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#telemetry_rule CloudwatchAlert#telemetry_rule}
 
 ---
 
@@ -1605,7 +1605,7 @@ public CloudwatchAlertRuleTelemetryRuleCondition getCondition();
 
 The thresholds that set the alert's state. Specify at least one of WarningThreshold and CriticalThreshold.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#condition CloudwatchAlert#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#condition CloudwatchAlert#condition}
 
 ---
 
@@ -1619,7 +1619,7 @@ public CloudwatchAlertRuleTelemetryRuleEvaluation getEvaluation();
 
 How often the alert is evaluated, and how long a change must last before the state changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#evaluation CloudwatchAlert#evaluation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#evaluation CloudwatchAlert#evaluation}
 
 ---
 
@@ -1633,7 +1633,7 @@ public CloudwatchAlertRuleTelemetryRuleQuery getQuery();
 
 The query the alert runs, and the language it is written in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#query CloudwatchAlert#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#query CloudwatchAlert#query}
 
 ---
 
@@ -1647,7 +1647,7 @@ public CloudwatchAlertRuleTelemetryRuleNoData getNoData();
 
 How the alert behaves when an evaluation returns no data. If omitted, the alert reports NODATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#no_data CloudwatchAlert#no_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#no_data CloudwatchAlert#no_data}
 
 ---
 
@@ -1691,7 +1691,7 @@ The comparison operator.
 
 Valid values: GT, GTE, LT, LTE (greater than, greater than or equal to, less than, less than or equal to).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#comparator CloudwatchAlert#comparator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#comparator CloudwatchAlert#comparator}
 
 ---
 
@@ -1705,7 +1705,7 @@ public java.lang.Number getCriticalThreshold();
 
 The value at which the alert enters the CRITICAL state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#critical_threshold CloudwatchAlert#critical_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#critical_threshold CloudwatchAlert#critical_threshold}
 
 ---
 
@@ -1719,7 +1719,7 @@ public java.lang.String getThresholdField();
 
 The result field to compare against the threshold. Required when ThresholdMode is FIELD_VALUE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#threshold_field CloudwatchAlert#threshold_field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#threshold_field CloudwatchAlert#threshold_field}
 
 ---
 
@@ -1735,7 +1735,7 @@ How the threshold is applied.
 
 COUNT_OF_RESULTS compares the number of rows the query returns. FIELD_VALUE compares the value of ThresholdField in each result row; each row is tracked separately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#threshold_mode CloudwatchAlert#threshold_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#threshold_mode CloudwatchAlert#threshold_mode}
 
 ---
 
@@ -1749,7 +1749,7 @@ public java.lang.Number getWarningThreshold();
 
 The value at which the alert enters the WARNING state.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#warning_threshold CloudwatchAlert#warning_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#warning_threshold CloudwatchAlert#warning_threshold}
 
 ---
 
@@ -1787,7 +1787,7 @@ public java.lang.Number getIntervalSeconds();
 
 The time between evaluations, in seconds. Valid values: 30, 60, 120, 300, 600, 900, 1800, 3600.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#interval_seconds CloudwatchAlert#interval_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#interval_seconds CloudwatchAlert#interval_seconds}
 
 ---
 
@@ -1803,7 +1803,7 @@ How long a threshold breach must last before the alert changes state, in seconds
 
 Must be a multiple of IntervalSeconds. 0 changes state immediately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#pending_duration_seconds CloudwatchAlert#pending_duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#pending_duration_seconds CloudwatchAlert#pending_duration_seconds}
 
 ---
 
@@ -1819,7 +1819,7 @@ How long the result must stay within its thresholds before the alert returns to 
 
 Must be a multiple of IntervalSeconds. 0 returns to OK immediately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#recovery_duration_seconds CloudwatchAlert#recovery_duration_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#recovery_duration_seconds CloudwatchAlert#recovery_duration_seconds}
 
 ---
 
@@ -1853,7 +1853,7 @@ public java.lang.String getTreatAs();
 
 The state to report when an evaluation returns no data. Valid values: OK, WARNING, CRITICAL, NODATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#treat_as CloudwatchAlert#treat_as}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#treat_as CloudwatchAlert#treat_as}
 
 ---
 
@@ -1889,7 +1889,7 @@ public java.lang.String getExpression();
 
 The query expression. For PromQL, the series value is returned in a field named value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#expression CloudwatchAlert#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#expression CloudwatchAlert#expression}
 
 ---
 
@@ -1903,7 +1903,7 @@ public java.lang.String getLanguage();
 
 The query language. Valid values: SQL, PROMQL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#language CloudwatchAlert#language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#language CloudwatchAlert#language}
 
 ---
 
@@ -1939,7 +1939,7 @@ public java.lang.String getKey();
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#key CloudwatchAlert#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#key CloudwatchAlert#key}
 
 ---
 
@@ -1953,7 +1953,7 @@ public java.lang.String getValue();
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudwatch_alert#value CloudwatchAlert#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudwatch_alert#value CloudwatchAlert#value}
 
 ---
 

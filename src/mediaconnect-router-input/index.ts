@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,63 +15,63 @@ export interface MediaconnectRouterInputConfig extends cdktn.TerraformMetaArgume
   /**
   * The Availability Zone where you want to create the router input. This must be a valid Availability Zone for the region specified by regionName, or the current region if no regionName is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#availability_zone MediaconnectRouterInput#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#availability_zone MediaconnectRouterInput#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The configuration settings for a router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#configuration MediaconnectRouterInput#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#configuration MediaconnectRouterInput#configuration}
   */
   readonly configuration: MediaconnectRouterInputConfiguration;
   /**
   * The content quality analysis configuration for the router input. The content quality analysis feature only monitors the first video stream and the first audio stream it encounters within the router input source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#content_quality_analysis_configuration MediaconnectRouterInput#content_quality_analysis_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#content_quality_analysis_configuration MediaconnectRouterInput#content_quality_analysis_configuration}
   */
   readonly contentQualityAnalysisConfiguration?: MediaconnectRouterInputContentQualityAnalysisConfiguration;
   /**
   * The configuration settings for maintenance operations, including preferred maintenance windows and schedules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#maintenance_configuration MediaconnectRouterInput#maintenance_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#maintenance_configuration MediaconnectRouterInput#maintenance_configuration}
   */
   readonly maintenanceConfiguration?: MediaconnectRouterInputMaintenanceConfiguration;
   /**
   * The maximum bitrate for the router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#maximum_bitrate MediaconnectRouterInput#maximum_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#maximum_bitrate MediaconnectRouterInput#maximum_bitrate}
   */
   readonly maximumBitrate: number;
   /**
   * The name of the router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#name MediaconnectRouterInput#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#name MediaconnectRouterInput#name}
   */
   readonly name: string;
   /**
   * The Amazon Web Services Region for the router input. Defaults to the current region if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#region_name MediaconnectRouterInput#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#region_name MediaconnectRouterInput#region_name}
   */
   readonly regionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#routing_scope MediaconnectRouterInput#routing_scope}
   */
   readonly routingScope: string;
   /**
   * Key-value pairs that can be used to tag and organize this router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#tags MediaconnectRouterInput#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#tags MediaconnectRouterInput#tags}
   */
   readonly tags?: MediaconnectRouterInputTags[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#tier MediaconnectRouterInput#tier}
   */
   readonly tier: string;
   /**
   * The transit encryption settings for a router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#transit_encryption MediaconnectRouterInput#transit_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#transit_encryption MediaconnectRouterInput#transit_encryption}
   */
   readonly transitEncryption?: MediaconnectRouterInputTransitEncryption;
 }
@@ -79,7 +79,7 @@ export interface MediaconnectRouterInputConfigurationDestinationEndpointSourceTr
   /**
   * The ARN of the Secrets Manager secret that holds the key or passphrase. The secret must be encrypted with a customer managed Amazon Web Services KMS key that is enabled and symmetric; it cannot use the Amazon Web Services managed key aws/secretsmanager. The secret must be in the same Amazon Web Services account and Region as the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -175,11 +175,11 @@ export interface MediaconnectRouterInputConfigurationDestinationEndpointSourceTr
   /**
   * The configuration for the Secrets Manager secret that holds the key or passphrase used to encrypt an endpoint connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_secret MediaconnectRouterInput#encryption_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_secret MediaconnectRouterInput#encryption_secret}
   */
   readonly encryptionSecret?: MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManagerEncryptionSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_secret_type MediaconnectRouterInput#encryption_secret_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_secret_type MediaconnectRouterInput#encryption_secret_type}
   */
   readonly encryptionSecretType?: string;
 }
@@ -304,13 +304,13 @@ export interface MediaconnectRouterInputConfigurationDestinationEndpointSourceTr
   /**
   * The configuration for automatic endpoint encryption. In this mode, MediaConnect determines the encryption key when the endpoint connects. This type does not require any additional settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
   */
   readonly automatic?: string;
   /**
   * The endpoint encryption configuration for connections that use a key or passphrase that you store in Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
   */
   readonly secretsManager?: MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryptionSecretsManager;
 }
@@ -433,17 +433,17 @@ export class MediaconnectRouterInputConfigurationDestinationEndpointSourceTransi
 }
 export interface MediaconnectRouterInputConfigurationDestinationEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#endpoint_lifecycle_management MediaconnectRouterInput#endpoint_lifecycle_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#endpoint_lifecycle_management MediaconnectRouterInput#endpoint_lifecycle_management}
   */
   readonly endpointLifecycleManagement?: string;
   /**
   * The encryption settings for an endpoint connection. This is a union type, so exactly one of its members is set: secretsManager when you store the encryption key or passphrase in Secrets Manager, or automatic when you let MediaConnect determine the encryption key when the endpoint connects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
   */
   readonly sourceTransitDecryption?: MediaconnectRouterInputConfigurationDestinationEndpointSourceTransitDecryption;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption_type MediaconnectRouterInput#source_transit_decryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_transit_decryption_type MediaconnectRouterInput#source_transit_decryption_type}
   */
   readonly sourceTransitDecryptionType?: string;
 }
@@ -597,13 +597,13 @@ export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurati
   /**
   * The port number used for the RIST protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
   */
   readonly port?: number;
   /**
   * The recovery latency in milliseconds for the RIST protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
   */
   readonly recoveryLatencyMilliseconds?: number;
 }
@@ -724,15 +724,441 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsR
     return this._recoveryLatencyMilliseconds;
   }
 }
+export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManual {
+  /**
+  * The name of the RTMP application. Together with the stream name, the application name forms the RTMP URL path, in the pattern rtmp://ingestAddress/applicationName/streamName.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#application_name MediaconnectRouterInput#application_name}
+  */
+  readonly applicationName?: string;
+  /**
+  * The name of the RTMP stream. The stream name forms the final segment of the RTMP URL path.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#stream_name MediaconnectRouterInput#stream_name}
+  */
+  readonly streamName?: string;
+}
+
+export function mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManualToTerraform(struct?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManual | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    application_name: cdktn.stringToTerraform(struct!.applicationName),
+    stream_name: cdktn.stringToTerraform(struct!.streamName),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManualToHclTerraform(struct?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManual | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    application_name: {
+      value: cdktn.stringToHclTerraform(struct!.applicationName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    stream_name: {
+      value: cdktn.stringToHclTerraform(struct!.streamName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManualOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManual | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applicationName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationName = this._applicationName;
+    }
+    if (this._streamName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.streamName = this._streamName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManual | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._applicationName = undefined;
+      this._streamName = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._applicationName = value.applicationName;
+      this._streamName = value.streamName;
+    }
+  }
+
+  // application_name - computed: true, optional: true, required: false
+  private _applicationName?: string; 
+  public get applicationName() {
+    return this.getStringAttribute('application_name');
+  }
+  public set applicationName(value: string) {
+    this._applicationName = value;
+  }
+  public resetApplicationName() {
+    this._applicationName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationNameInput() {
+    return this._applicationName;
+  }
+
+  // stream_name - computed: true, optional: true, required: false
+  private _streamName?: string; 
+  public get streamName() {
+    return this.getStringAttribute('stream_name');
+  }
+  public set streamName(value: string) {
+    this._streamName = value;
+  }
+  public resetStreamName() {
+    this._streamName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get streamNameInput() {
+    return this._streamName;
+  }
+}
+export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfiguration {
+  /**
+  * The automatic RTMP naming configuration, where MediaConnect generates the application and stream names. This type does not require any additional settings.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+  */
+  readonly automatic?: string;
+  /**
+  * The manual RTMP naming configuration, where you specify the application and stream names.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#manual MediaconnectRouterInput#manual}
+  */
+  readonly manual?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManual;
+}
+
+export function mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationToTerraform(struct?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    automatic: cdktn.stringToTerraform(struct!.automatic),
+    manual: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManualToTerraform(struct!.manual),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationToHclTerraform(struct?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    automatic: {
+      value: cdktn.stringToHclTerraform(struct!.automatic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    manual: {
+      value: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManualToHclTerraform(struct!.manual),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManual",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._automatic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automatic = this._automatic;
+    }
+    if (this._manual?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manual = this._manual?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._automatic = undefined;
+      this._manual.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._automatic = value.automatic;
+      this._manual.internalValue = value.manual;
+    }
+  }
+
+  // automatic - computed: true, optional: true, required: false
+  private _automatic?: string; 
+  public get automatic() {
+    return this.getStringAttribute('automatic');
+  }
+  public set automatic(value: string) {
+    this._automatic = value;
+  }
+  public resetAutomatic() {
+    this._automatic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticInput() {
+    return this._automatic;
+  }
+
+  // manual - computed: true, optional: true, required: false
+  private _manual = new MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManualOutputReference(this, "manual");
+  public get manual() {
+    return this._manual;
+  }
+  public putManual(value: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationManual) {
+    this._manual.internalValue = value;
+  }
+  public resetManual() {
+    this._manual.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manualInput() {
+    return this._manual.internalValue;
+  }
+}
+export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPush {
+  /**
+  * The configuration settings for the RTMP (Real-Time Messaging Protocol) application and stream names.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#naming_configuration MediaconnectRouterInput#naming_configuration}
+  */
+  readonly namingConfiguration?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#naming_type MediaconnectRouterInput#naming_type}
+  */
+  readonly namingType?: string;
+  /**
+  * The port number for the RTMP protocol. The only valid value is 1935.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  */
+  readonly port?: number;
+}
+
+export function mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushToTerraform(struct?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPush | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    naming_configuration: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationToTerraform(struct!.namingConfiguration),
+    naming_type: cdktn.stringToTerraform(struct!.namingType),
+    port: cdktn.numberToTerraform(struct!.port),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushToHclTerraform(struct?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPush | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    naming_configuration: {
+      value: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationToHclTerraform(struct!.namingConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfiguration",
+    },
+    naming_type: {
+      value: cdktn.stringToHclTerraform(struct!.namingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port: {
+      value: cdktn.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPush | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._namingConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namingConfiguration = this._namingConfiguration?.internalValue;
+    }
+    if (this._namingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namingType = this._namingType;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPush | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._namingConfiguration.internalValue = undefined;
+      this._namingType = undefined;
+      this._port = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._namingConfiguration.internalValue = value.namingConfiguration;
+      this._namingType = value.namingType;
+      this._port = value.port;
+    }
+  }
+
+  // naming_configuration - computed: true, optional: true, required: false
+  private _namingConfiguration = new MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfigurationOutputReference(this, "naming_configuration");
+  public get namingConfiguration() {
+    return this._namingConfiguration;
+  }
+  public putNamingConfiguration(value: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushNamingConfiguration) {
+    this._namingConfiguration.internalValue = value;
+  }
+  public resetNamingConfiguration() {
+    this._namingConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namingConfigurationInput() {
+    return this._namingConfiguration.internalValue;
+  }
+
+  // naming_type - computed: true, optional: true, required: false
+  private _namingType?: string; 
+  public get namingType() {
+    return this.getStringAttribute('naming_type');
+  }
+  public set namingType(value: string) {
+    this._namingType = value;
+  }
+  public resetNamingType() {
+    this._namingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namingTypeInput() {
+    return this._namingType;
+  }
+
+  // port - computed: true, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+}
 export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}
   */
   readonly forwardErrorCorrection?: string;
   /**
   * The port number used for the RTP protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
   */
   readonly port?: number;
 }
@@ -857,13 +1283,13 @@ export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurati
   /**
   * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The ARN of the Secrets Manager secret used for transit encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -988,7 +1414,7 @@ export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurati
   /**
   * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
   */
   readonly encryptionKey?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey;
 }
@@ -1084,31 +1510,31 @@ export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurati
   /**
   * Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
   */
   readonly decryptionConfiguration?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtCallerDecryptionConfiguration;
   /**
   * The minimum latency in milliseconds for the SRT protocol in caller mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
   */
   readonly minimumLatencyMilliseconds?: number;
   /**
   * The source IP address for the SRT protocol in caller mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * The source port number for the SRT protocol in caller mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
   */
   readonly sourcePort?: number;
   /**
   * The stream ID for the SRT protocol in caller mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
   */
   readonly streamId?: string;
 }
@@ -1320,13 +1746,13 @@ export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurati
   /**
   * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The ARN of the Secrets Manager secret used for transit encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -1451,7 +1877,7 @@ export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurati
   /**
   * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
   */
   readonly encryptionKey?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey;
 }
@@ -1547,19 +1973,19 @@ export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurati
   /**
   * Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
   */
   readonly decryptionConfiguration?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtListenerDecryptionConfiguration;
   /**
   * The minimum latency in milliseconds for the SRT protocol in listener mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
   */
   readonly minimumLatencyMilliseconds?: number;
   /**
   * The port number for the SRT protocol in listener mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
   */
   readonly port?: number;
 }
@@ -1713,25 +2139,31 @@ export interface MediaconnectRouterInputConfigurationFailoverProtocolConfigurati
   /**
   * The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
   */
   readonly rist?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRist;
   /**
+  * The configuration settings for a router input using the RTMP (Real-Time Messaging Protocol) protocol.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#rtmp_push MediaconnectRouterInput#rtmp_push}
+  */
+  readonly rtmpPush?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPush;
+  /**
   * The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
   */
   readonly rtp?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtp;
   /**
   * The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in caller mode, including the source address and port, minimum latency, stream ID, and decryption key configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
   */
   readonly srtCaller?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtCaller;
   /**
   * The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in listener mode, including the port, minimum latency, and decryption key configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
   */
   readonly srtListener?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtListener;
 }
@@ -1743,6 +2175,7 @@ export function mediaconnectRouterInputConfigurationFailoverProtocolConfiguratio
   }
   return {
     rist: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRistToTerraform(struct!.rist),
+    rtmp_push: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushToTerraform(struct!.rtmpPush),
     rtp: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtpToTerraform(struct!.rtp),
     srt_caller: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtCallerToTerraform(struct!.srtCaller),
     srt_listener: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtListenerToTerraform(struct!.srtListener),
@@ -1761,6 +2194,12 @@ export function mediaconnectRouterInputConfigurationFailoverProtocolConfiguratio
       isBlock: true,
       type: "struct",
       storageClassType: "MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRist",
+    },
+    rtmp_push: {
+      value: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushToHclTerraform(struct!.rtmpPush),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPush",
     },
     rtp: {
       value: mediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtpToHclTerraform(struct!.rtp),
@@ -1810,6 +2249,10 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsO
       hasAnyValues = true;
       internalValueResult.rist = this._rist?.internalValue;
     }
+    if (this._rtmpPush?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rtmpPush = this._rtmpPush?.internalValue;
+    }
     if (this._rtp?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.rtp = this._rtp?.internalValue;
@@ -1830,6 +2273,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsO
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._rist.internalValue = undefined;
+      this._rtmpPush.internalValue = undefined;
       this._rtp.internalValue = undefined;
       this._srtCaller.internalValue = undefined;
       this._srtListener.internalValue = undefined;
@@ -1842,6 +2286,7 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsO
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._rist.internalValue = value.rist;
+      this._rtmpPush.internalValue = value.rtmpPush;
       this._rtp.internalValue = value.rtp;
       this._srtCaller.internalValue = value.srtCaller;
       this._srtListener.internalValue = value.srtListener;
@@ -1862,6 +2307,22 @@ export class MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsO
   // Temporarily expose input value. Use with caution.
   public get ristInput() {
     return this._rist.internalValue;
+  }
+
+  // rtmp_push - computed: true, optional: true, required: false
+  private _rtmpPush = new MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPushOutputReference(this, "rtmp_push");
+  public get rtmpPush() {
+    return this._rtmpPush;
+  }
+  public putRtmpPush(value: MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsRtmpPush) {
+    this._rtmpPush.internalValue = value;
+  }
+  public resetRtmpPush() {
+    this._rtmpPush.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rtmpPushInput() {
+    return this._rtmpPush.internalValue;
   }
 
   // rtp - computed: true, optional: true, required: false
@@ -1936,23 +2397,23 @@ export interface MediaconnectRouterInputConfigurationFailover {
   /**
   * The ARN of the network interface to use for this failover router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
   */
   readonly networkInterfaceArn?: string;
   /**
   * The index (0 or 1) that specifies which source in the protocol configurations list is currently active. Used to control which of the two failover sources is currently selected. This field is ignored when sourcePriorityMode is set to NO_PRIORITY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#primary_source_index MediaconnectRouterInput#primary_source_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#primary_source_index MediaconnectRouterInput#primary_source_index}
   */
   readonly primarySourceIndex?: number;
   /**
   * A list of exactly two protocol configurations for the failover input sources. Both must use the same protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
   */
   readonly protocolConfigurations?: MediaconnectRouterInputConfigurationFailoverProtocolConfigurations[] | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_priority_mode MediaconnectRouterInput#source_priority_mode}
   */
   readonly sourcePriorityMode?: string;
 }
@@ -2135,13 +2596,13 @@ export interface MediaconnectRouterInputConfigurationMediaConnectFlowSourceTrans
   /**
   * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The ARN of the Secrets Manager secret used for transit encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -2266,13 +2727,13 @@ export interface MediaconnectRouterInputConfigurationMediaConnectFlowSourceTrans
   /**
   * Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
   */
   readonly automatic?: string;
   /**
   * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
   */
   readonly secretsManager?: MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryptionEncryptionKeyConfigurationSecretsManager;
 }
@@ -2397,11 +2858,11 @@ export interface MediaconnectRouterInputConfigurationMediaConnectFlowSourceTrans
   /**
   * Configuration settings for flow transit encryption keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
   */
   readonly encryptionKeyConfiguration?: MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryptionEncryptionKeyConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}
   */
   readonly encryptionKeyType?: string;
 }
@@ -2526,19 +2987,19 @@ export interface MediaconnectRouterInputConfigurationMediaConnectFlow {
   /**
   * The ARN of the flow to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#flow_arn MediaconnectRouterInput#flow_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#flow_arn MediaconnectRouterInput#flow_arn}
   */
   readonly flowArn?: string;
   /**
   * The ARN of the flow output to connect to this router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#flow_output_arn MediaconnectRouterInput#flow_output_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#flow_output_arn MediaconnectRouterInput#flow_output_arn}
   */
   readonly flowOutputArn?: string;
   /**
   * The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
   */
   readonly sourceTransitDecryption?: MediaconnectRouterInputConfigurationMediaConnectFlowSourceTransitDecryption;
 }
@@ -2692,13 +3153,13 @@ export interface MediaconnectRouterInputConfigurationMediaLiveChannelSourceTrans
   /**
   * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The ARN of the Secrets Manager secret used for transit encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -2823,13 +3284,13 @@ export interface MediaconnectRouterInputConfigurationMediaLiveChannelSourceTrans
   /**
   * Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
   */
   readonly automatic?: string;
   /**
   * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
   */
   readonly secretsManager?: MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryptionEncryptionKeyConfigurationSecretsManager;
 }
@@ -2954,11 +3415,11 @@ export interface MediaconnectRouterInputConfigurationMediaLiveChannelSourceTrans
   /**
   * Configuration settings for the MediaLive transit encryption key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
   */
   readonly encryptionKeyConfiguration?: MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryptionEncryptionKeyConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}
   */
   readonly encryptionKeyType?: string;
 }
@@ -3083,23 +3544,23 @@ export interface MediaconnectRouterInputConfigurationMediaLiveChannel {
   /**
   * The ARN of the MediaLive channel to connect to this router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_channel_arn MediaconnectRouterInput#media_live_channel_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#media_live_channel_arn MediaconnectRouterInput#media_live_channel_arn}
   */
   readonly mediaLiveChannelArn?: string;
   /**
   * The name of the MediaLive channel output to connect to this router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_channel_output_name MediaconnectRouterInput#media_live_channel_output_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#media_live_channel_output_name MediaconnectRouterInput#media_live_channel_output_name}
   */
   readonly mediaLiveChannelOutputName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#media_live_pipeline_id MediaconnectRouterInput#media_live_pipeline_id}
   */
   readonly mediaLivePipelineId?: string;
   /**
   * The encryption configuration that defines how content is encrypted during transit between MediaConnect Router and MediaLive. This configuration determines whether encryption keys are automatically managed by the service or manually managed through Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_transit_decryption MediaconnectRouterInput#source_transit_decryption}
   */
   readonly sourceTransitDecryption?: MediaconnectRouterInputConfigurationMediaLiveChannelSourceTransitDecryption;
 }
@@ -3282,13 +3743,13 @@ export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurations
   /**
   * The port number used for the RIST protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
   */
   readonly port?: number;
   /**
   * The recovery latency in milliseconds for the RIST protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
   */
   readonly recoveryLatencyMilliseconds?: number;
 }
@@ -3411,13 +3872,13 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRist
 }
 export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}
   */
   readonly forwardErrorCorrection?: string;
   /**
   * The port number used for the RTP protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
   */
   readonly port?: number;
 }
@@ -3538,19 +3999,887 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtpO
     return this._port;
   }
 }
+export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey {
+  /**
+  * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  */
+  readonly roleArn?: string;
+  /**
+  * The ARN of the Secrets Manager secret used for transit encryption.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  */
+  readonly secretArn?: string;
+}
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKeyToTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    role_arn: cdktn.stringToTerraform(struct!.roleArn),
+    secret_arn: cdktn.stringToTerraform(struct!.secretArn),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKeyToHclTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    role_arn: {
+      value: cdktn.stringToHclTerraform(struct!.roleArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_arn: {
+      value: cdktn.stringToHclTerraform(struct!.secretArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKeyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._roleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.roleArn = this._roleArn;
+    }
+    if (this._secretArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretArn = this._secretArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._roleArn = undefined;
+      this._secretArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._roleArn = value.roleArn;
+      this._secretArn = value.secretArn;
+    }
+  }
+
+  // role_arn - computed: true, optional: true, required: false
+  private _roleArn?: string; 
+  public get roleArn() {
+    return this.getStringAttribute('role_arn');
+  }
+  public set roleArn(value: string) {
+    this._roleArn = value;
+  }
+  public resetRoleArn() {
+    this._roleArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleArnInput() {
+    return this._roleArn;
+  }
+
+  // secret_arn - computed: true, optional: true, required: false
+  private _secretArn?: string; 
+  public get secretArn() {
+    return this.getStringAttribute('secret_arn');
+  }
+  public set secretArn(value: string) {
+    this._secretArn = value;
+  }
+  public resetSecretArn() {
+    this._secretArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretArnInput() {
+    return this._secretArn;
+  }
+}
+export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfiguration {
+  /**
+  * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+  */
+  readonly encryptionKey?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey;
+}
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationToTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    encryption_key: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKeyToTerraform(struct!.encryptionKey),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationToHclTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    encryption_key: {
+      value: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKeyToHclTerraform(struct!.encryptionKey),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._encryptionKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionKey = this._encryptionKey?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._encryptionKey.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._encryptionKey.internalValue = value.encryptionKey;
+    }
+  }
+
+  // encryption_key - computed: true, optional: true, required: false
+  private _encryptionKey = new MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKeyOutputReference(this, "encryption_key");
+  public get encryptionKey() {
+    return this._encryptionKey;
+  }
+  public putEncryptionKey(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey) {
+    this._encryptionKey.internalValue = value;
+  }
+  public resetEncryptionKey() {
+    this._encryptionKey.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionKeyInput() {
+    return this._encryptionKey.internalValue;
+  }
+}
+export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCaller {
+  /**
+  * Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+  */
+  readonly decryptionConfiguration?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfiguration;
+  /**
+  * The minimum latency in milliseconds for the SRT protocol in caller mode.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+  */
+  readonly minimumLatencyMilliseconds?: number;
+  /**
+  * The source IP address for the SRT protocol in caller mode.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
+  */
+  readonly sourceAddress?: string;
+  /**
+  * The source port number for the SRT protocol in caller mode.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
+  */
+  readonly sourcePort?: number;
+  /**
+  * The stream ID for the SRT protocol in caller mode.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
+  */
+  readonly streamId?: string;
+}
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerToTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCaller | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    decryption_configuration: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationToTerraform(struct!.decryptionConfiguration),
+    minimum_latency_milliseconds: cdktn.numberToTerraform(struct!.minimumLatencyMilliseconds),
+    source_address: cdktn.stringToTerraform(struct!.sourceAddress),
+    source_port: cdktn.numberToTerraform(struct!.sourcePort),
+    stream_id: cdktn.stringToTerraform(struct!.streamId),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerToHclTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCaller | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    decryption_configuration: {
+      value: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationToHclTerraform(struct!.decryptionConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfiguration",
+    },
+    minimum_latency_milliseconds: {
+      value: cdktn.numberToHclTerraform(struct!.minimumLatencyMilliseconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    source_address: {
+      value: cdktn.stringToHclTerraform(struct!.sourceAddress),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_port: {
+      value: cdktn.numberToHclTerraform(struct!.sourcePort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    stream_id: {
+      value: cdktn.stringToHclTerraform(struct!.streamId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCaller | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionConfiguration = this._decryptionConfiguration?.internalValue;
+    }
+    if (this._minimumLatencyMilliseconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumLatencyMilliseconds = this._minimumLatencyMilliseconds;
+    }
+    if (this._sourceAddress !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceAddress = this._sourceAddress;
+    }
+    if (this._sourcePort !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourcePort = this._sourcePort;
+    }
+    if (this._streamId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.streamId = this._streamId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCaller | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._decryptionConfiguration.internalValue = undefined;
+      this._minimumLatencyMilliseconds = undefined;
+      this._sourceAddress = undefined;
+      this._sourcePort = undefined;
+      this._streamId = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._decryptionConfiguration.internalValue = value.decryptionConfiguration;
+      this._minimumLatencyMilliseconds = value.minimumLatencyMilliseconds;
+      this._sourceAddress = value.sourceAddress;
+      this._sourcePort = value.sourcePort;
+      this._streamId = value.streamId;
+    }
+  }
+
+  // decryption_configuration - computed: true, optional: true, required: false
+  private _decryptionConfiguration = new MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfigurationOutputReference(this, "decryption_configuration");
+  public get decryptionConfiguration() {
+    return this._decryptionConfiguration;
+  }
+  public putDecryptionConfiguration(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerDecryptionConfiguration) {
+    this._decryptionConfiguration.internalValue = value;
+  }
+  public resetDecryptionConfiguration() {
+    this._decryptionConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionConfigurationInput() {
+    return this._decryptionConfiguration.internalValue;
+  }
+
+  // minimum_latency_milliseconds - computed: true, optional: true, required: false
+  private _minimumLatencyMilliseconds?: number; 
+  public get minimumLatencyMilliseconds() {
+    return this.getNumberAttribute('minimum_latency_milliseconds');
+  }
+  public set minimumLatencyMilliseconds(value: number) {
+    this._minimumLatencyMilliseconds = value;
+  }
+  public resetMinimumLatencyMilliseconds() {
+    this._minimumLatencyMilliseconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumLatencyMillisecondsInput() {
+    return this._minimumLatencyMilliseconds;
+  }
+
+  // source_address - computed: true, optional: true, required: false
+  private _sourceAddress?: string; 
+  public get sourceAddress() {
+    return this.getStringAttribute('source_address');
+  }
+  public set sourceAddress(value: string) {
+    this._sourceAddress = value;
+  }
+  public resetSourceAddress() {
+    this._sourceAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceAddressInput() {
+    return this._sourceAddress;
+  }
+
+  // source_port - computed: true, optional: true, required: false
+  private _sourcePort?: number; 
+  public get sourcePort() {
+    return this.getNumberAttribute('source_port');
+  }
+  public set sourcePort(value: number) {
+    this._sourcePort = value;
+  }
+  public resetSourcePort() {
+    this._sourcePort = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourcePortInput() {
+    return this._sourcePort;
+  }
+
+  // stream_id - computed: true, optional: true, required: false
+  private _streamId?: string; 
+  public get streamId() {
+    return this.getStringAttribute('stream_id');
+  }
+  public set streamId(value: string) {
+    this._streamId = value;
+  }
+  public resetStreamId() {
+    this._streamId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get streamIdInput() {
+    return this._streamId;
+  }
+}
+export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey {
+  /**
+  * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  */
+  readonly roleArn?: string;
+  /**
+  * The ARN of the Secrets Manager secret used for transit encryption.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  */
+  readonly secretArn?: string;
+}
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKeyToTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    role_arn: cdktn.stringToTerraform(struct!.roleArn),
+    secret_arn: cdktn.stringToTerraform(struct!.secretArn),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKeyToHclTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    role_arn: {
+      value: cdktn.stringToHclTerraform(struct!.roleArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_arn: {
+      value: cdktn.stringToHclTerraform(struct!.secretArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKeyOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._roleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.roleArn = this._roleArn;
+    }
+    if (this._secretArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretArn = this._secretArn;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._roleArn = undefined;
+      this._secretArn = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._roleArn = value.roleArn;
+      this._secretArn = value.secretArn;
+    }
+  }
+
+  // role_arn - computed: true, optional: true, required: false
+  private _roleArn?: string; 
+  public get roleArn() {
+    return this.getStringAttribute('role_arn');
+  }
+  public set roleArn(value: string) {
+    this._roleArn = value;
+  }
+  public resetRoleArn() {
+    this._roleArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleArnInput() {
+    return this._roleArn;
+  }
+
+  // secret_arn - computed: true, optional: true, required: false
+  private _secretArn?: string; 
+  public get secretArn() {
+    return this.getStringAttribute('secret_arn');
+  }
+  public set secretArn(value: string) {
+    this._secretArn = value;
+  }
+  public resetSecretArn() {
+    this._secretArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretArnInput() {
+    return this._secretArn;
+  }
+}
+export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfiguration {
+  /**
+  * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+  */
+  readonly encryptionKey?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey;
+}
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationToTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    encryption_key: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKeyToTerraform(struct!.encryptionKey),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationToHclTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    encryption_key: {
+      value: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKeyToHclTerraform(struct!.encryptionKey),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._encryptionKey?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionKey = this._encryptionKey?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._encryptionKey.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._encryptionKey.internalValue = value.encryptionKey;
+    }
+  }
+
+  // encryption_key - computed: true, optional: true, required: false
+  private _encryptionKey = new MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKeyOutputReference(this, "encryption_key");
+  public get encryptionKey() {
+    return this._encryptionKey;
+  }
+  public putEncryptionKey(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationEncryptionKey) {
+    this._encryptionKey.internalValue = value;
+  }
+  public resetEncryptionKey() {
+    this._encryptionKey.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionKeyInput() {
+    return this._encryptionKey.internalValue;
+  }
+}
+export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListener {
+  /**
+  * Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+  */
+  readonly decryptionConfiguration?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfiguration;
+  /**
+  * The minimum latency in milliseconds for the SRT protocol in listener mode.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+  */
+  readonly minimumLatencyMilliseconds?: number;
+  /**
+  * The port number for the SRT protocol in listener mode.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  */
+  readonly port?: number;
+}
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerToTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListener | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    decryption_configuration: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationToTerraform(struct!.decryptionConfiguration),
+    minimum_latency_milliseconds: cdktn.numberToTerraform(struct!.minimumLatencyMilliseconds),
+    port: cdktn.numberToTerraform(struct!.port),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerToHclTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListener | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    decryption_configuration: {
+      value: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationToHclTerraform(struct!.decryptionConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfiguration",
+    },
+    minimum_latency_milliseconds: {
+      value: cdktn.numberToHclTerraform(struct!.minimumLatencyMilliseconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port: {
+      value: cdktn.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListener | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._decryptionConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.decryptionConfiguration = this._decryptionConfiguration?.internalValue;
+    }
+    if (this._minimumLatencyMilliseconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minimumLatencyMilliseconds = this._minimumLatencyMilliseconds;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListener | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._decryptionConfiguration.internalValue = undefined;
+      this._minimumLatencyMilliseconds = undefined;
+      this._port = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._decryptionConfiguration.internalValue = value.decryptionConfiguration;
+      this._minimumLatencyMilliseconds = value.minimumLatencyMilliseconds;
+      this._port = value.port;
+    }
+  }
+
+  // decryption_configuration - computed: true, optional: true, required: false
+  private _decryptionConfiguration = new MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfigurationOutputReference(this, "decryption_configuration");
+  public get decryptionConfiguration() {
+    return this._decryptionConfiguration;
+  }
+  public putDecryptionConfiguration(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerDecryptionConfiguration) {
+    this._decryptionConfiguration.internalValue = value;
+  }
+  public resetDecryptionConfiguration() {
+    this._decryptionConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get decryptionConfigurationInput() {
+    return this._decryptionConfiguration.internalValue;
+  }
+
+  // minimum_latency_milliseconds - computed: true, optional: true, required: false
+  private _minimumLatencyMilliseconds?: number; 
+  public get minimumLatencyMilliseconds() {
+    return this.getNumberAttribute('minimum_latency_milliseconds');
+  }
+  public set minimumLatencyMilliseconds(value: number) {
+    this._minimumLatencyMilliseconds = value;
+  }
+  public resetMinimumLatencyMilliseconds() {
+    this._minimumLatencyMilliseconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minimumLatencyMillisecondsInput() {
+    return this._minimumLatencyMilliseconds;
+  }
+
+  // port - computed: true, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+}
 export interface MediaconnectRouterInputConfigurationMergeProtocolConfigurations {
   /**
   * The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
   */
   readonly rist?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRist;
   /**
   * The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
   */
   readonly rtp?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp;
+  /**
+  * The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in caller mode, including the source address and port, minimum latency, stream ID, and decryption key configuration.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
+  */
+  readonly srtCaller?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCaller;
+  /**
+  * The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in listener mode, including the port, minimum latency, and decryption key configuration.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
+  */
+  readonly srtListener?: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListener;
 }
 
 export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsToTerraform(struct?: MediaconnectRouterInputConfigurationMergeProtocolConfigurations | cdktn.IResolvable): any {
@@ -3561,6 +4890,8 @@ export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsT
   return {
     rist: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsRistToTerraform(struct!.rist),
     rtp: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtpToTerraform(struct!.rtp),
+    srt_caller: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerToTerraform(struct!.srtCaller),
+    srt_listener: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerToTerraform(struct!.srtListener),
   }
 }
 
@@ -3582,6 +4913,18 @@ export function mediaconnectRouterInputConfigurationMergeProtocolConfigurationsT
       isBlock: true,
       type: "struct",
       storageClassType: "MediaconnectRouterInputConfigurationMergeProtocolConfigurationsRtp",
+    },
+    srt_caller: {
+      value: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerToHclTerraform(struct!.srtCaller),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCaller",
+    },
+    srt_listener: {
+      value: mediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerToHclTerraform(struct!.srtListener),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListener",
     },
   };
 
@@ -3617,6 +4960,14 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsOutp
       hasAnyValues = true;
       internalValueResult.rtp = this._rtp?.internalValue;
     }
+    if (this._srtCaller?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srtCaller = this._srtCaller?.internalValue;
+    }
+    if (this._srtListener?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srtListener = this._srtListener?.internalValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -3626,6 +4977,8 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsOutp
       this.resolvableValue = undefined;
       this._rist.internalValue = undefined;
       this._rtp.internalValue = undefined;
+      this._srtCaller.internalValue = undefined;
+      this._srtListener.internalValue = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -3636,6 +4989,8 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsOutp
       this.resolvableValue = undefined;
       this._rist.internalValue = value.rist;
       this._rtp.internalValue = value.rtp;
+      this._srtCaller.internalValue = value.srtCaller;
+      this._srtListener.internalValue = value.srtListener;
     }
   }
 
@@ -3670,6 +5025,38 @@ export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsOutp
   public get rtpInput() {
     return this._rtp.internalValue;
   }
+
+  // srt_caller - computed: true, optional: true, required: false
+  private _srtCaller = new MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCallerOutputReference(this, "srt_caller");
+  public get srtCaller() {
+    return this._srtCaller;
+  }
+  public putSrtCaller(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtCaller) {
+    this._srtCaller.internalValue = value;
+  }
+  public resetSrtCaller() {
+    this._srtCaller.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srtCallerInput() {
+    return this._srtCaller.internalValue;
+  }
+
+  // srt_listener - computed: true, optional: true, required: false
+  private _srtListener = new MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListenerOutputReference(this, "srt_listener");
+  public get srtListener() {
+    return this._srtListener;
+  }
+  public putSrtListener(value: MediaconnectRouterInputConfigurationMergeProtocolConfigurationsSrtListener) {
+    this._srtListener.internalValue = value;
+  }
+  public resetSrtListener() {
+    this._srtListener.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srtListenerInput() {
+    return this._srtListener.internalValue;
+  }
 }
 
 export class MediaconnectRouterInputConfigurationMergeProtocolConfigurationsList extends cdktn.ComplexList {
@@ -3695,19 +5082,19 @@ export interface MediaconnectRouterInputConfigurationMerge {
   /**
   * The time window in milliseconds for merging the two input sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#merge_recovery_window_milliseconds MediaconnectRouterInput#merge_recovery_window_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#merge_recovery_window_milliseconds MediaconnectRouterInput#merge_recovery_window_milliseconds}
   */
   readonly mergeRecoveryWindowMilliseconds?: number;
   /**
   * The ARN of the network interface to use for this merge router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
   */
   readonly networkInterfaceArn?: string;
   /**
   * A list of exactly two protocol configurations for the merge input sources. Both must use the same protocol type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#protocol_configurations MediaconnectRouterInput#protocol_configurations}
   */
   readonly protocolConfigurations?: MediaconnectRouterInputConfigurationMergeProtocolConfigurations[] | cdktn.IResolvable;
 }
@@ -3861,13 +5248,13 @@ export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurati
   /**
   * The port number used for the RIST protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
   */
   readonly port?: number;
   /**
   * The recovery latency in milliseconds for the RIST protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#recovery_latency_milliseconds MediaconnectRouterInput#recovery_latency_milliseconds}
   */
   readonly recoveryLatencyMilliseconds?: number;
 }
@@ -3988,15 +5375,441 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationRi
     return this._recoveryLatencyMilliseconds;
   }
 }
+export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManual {
+  /**
+  * The name of the RTMP application. Together with the stream name, the application name forms the RTMP URL path, in the pattern rtmp://ingestAddress/applicationName/streamName.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#application_name MediaconnectRouterInput#application_name}
+  */
+  readonly applicationName?: string;
+  /**
+  * The name of the RTMP stream. The stream name forms the final segment of the RTMP URL path.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#stream_name MediaconnectRouterInput#stream_name}
+  */
+  readonly streamName?: string;
+}
+
+export function mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManualToTerraform(struct?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManual | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    application_name: cdktn.stringToTerraform(struct!.applicationName),
+    stream_name: cdktn.stringToTerraform(struct!.streamName),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManualToHclTerraform(struct?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManual | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    application_name: {
+      value: cdktn.stringToHclTerraform(struct!.applicationName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    stream_name: {
+      value: cdktn.stringToHclTerraform(struct!.streamName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManualOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManual | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._applicationName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.applicationName = this._applicationName;
+    }
+    if (this._streamName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.streamName = this._streamName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManual | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._applicationName = undefined;
+      this._streamName = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._applicationName = value.applicationName;
+      this._streamName = value.streamName;
+    }
+  }
+
+  // application_name - computed: true, optional: true, required: false
+  private _applicationName?: string; 
+  public get applicationName() {
+    return this.getStringAttribute('application_name');
+  }
+  public set applicationName(value: string) {
+    this._applicationName = value;
+  }
+  public resetApplicationName() {
+    this._applicationName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get applicationNameInput() {
+    return this._applicationName;
+  }
+
+  // stream_name - computed: true, optional: true, required: false
+  private _streamName?: string; 
+  public get streamName() {
+    return this.getStringAttribute('stream_name');
+  }
+  public set streamName(value: string) {
+    this._streamName = value;
+  }
+  public resetStreamName() {
+    this._streamName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get streamNameInput() {
+    return this._streamName;
+  }
+}
+export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfiguration {
+  /**
+  * The automatic RTMP naming configuration, where MediaConnect generates the application and stream names. This type does not require any additional settings.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+  */
+  readonly automatic?: string;
+  /**
+  * The manual RTMP naming configuration, where you specify the application and stream names.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#manual MediaconnectRouterInput#manual}
+  */
+  readonly manual?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManual;
+}
+
+export function mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationToTerraform(struct?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    automatic: cdktn.stringToTerraform(struct!.automatic),
+    manual: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManualToTerraform(struct!.manual),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationToHclTerraform(struct?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfiguration | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    automatic: {
+      value: cdktn.stringToHclTerraform(struct!.automatic),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    manual: {
+      value: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManualToHclTerraform(struct!.manual),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManual",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfiguration | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._automatic !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.automatic = this._automatic;
+    }
+    if (this._manual?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.manual = this._manual?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfiguration | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._automatic = undefined;
+      this._manual.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._automatic = value.automatic;
+      this._manual.internalValue = value.manual;
+    }
+  }
+
+  // automatic - computed: true, optional: true, required: false
+  private _automatic?: string; 
+  public get automatic() {
+    return this.getStringAttribute('automatic');
+  }
+  public set automatic(value: string) {
+    this._automatic = value;
+  }
+  public resetAutomatic() {
+    this._automatic = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get automaticInput() {
+    return this._automatic;
+  }
+
+  // manual - computed: true, optional: true, required: false
+  private _manual = new MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManualOutputReference(this, "manual");
+  public get manual() {
+    return this._manual;
+  }
+  public putManual(value: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationManual) {
+    this._manual.internalValue = value;
+  }
+  public resetManual() {
+    this._manual.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get manualInput() {
+    return this._manual.internalValue;
+  }
+}
+export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPush {
+  /**
+  * The configuration settings for the RTMP (Real-Time Messaging Protocol) application and stream names.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#naming_configuration MediaconnectRouterInput#naming_configuration}
+  */
+  readonly namingConfiguration?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfiguration;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#naming_type MediaconnectRouterInput#naming_type}
+  */
+  readonly namingType?: string;
+  /**
+  * The port number for the RTMP protocol. The only valid value is 1935.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  */
+  readonly port?: number;
+}
+
+export function mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushToTerraform(struct?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPush | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    naming_configuration: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationToTerraform(struct!.namingConfiguration),
+    naming_type: cdktn.stringToTerraform(struct!.namingType),
+    port: cdktn.numberToTerraform(struct!.port),
+  }
+}
+
+
+export function mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushToHclTerraform(struct?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPush | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    naming_configuration: {
+      value: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationToHclTerraform(struct!.namingConfiguration),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfiguration",
+    },
+    naming_type: {
+      value: cdktn.stringToHclTerraform(struct!.namingType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    port: {
+      value: cdktn.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPush | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._namingConfiguration?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namingConfiguration = this._namingConfiguration?.internalValue;
+    }
+    if (this._namingType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.namingType = this._namingType;
+    }
+    if (this._port !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.port = this._port;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPush | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._namingConfiguration.internalValue = undefined;
+      this._namingType = undefined;
+      this._port = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._namingConfiguration.internalValue = value.namingConfiguration;
+      this._namingType = value.namingType;
+      this._port = value.port;
+    }
+  }
+
+  // naming_configuration - computed: true, optional: true, required: false
+  private _namingConfiguration = new MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfigurationOutputReference(this, "naming_configuration");
+  public get namingConfiguration() {
+    return this._namingConfiguration;
+  }
+  public putNamingConfiguration(value: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushNamingConfiguration) {
+    this._namingConfiguration.internalValue = value;
+  }
+  public resetNamingConfiguration() {
+    this._namingConfiguration.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namingConfigurationInput() {
+    return this._namingConfiguration.internalValue;
+  }
+
+  // naming_type - computed: true, optional: true, required: false
+  private _namingType?: string; 
+  public get namingType() {
+    return this.getStringAttribute('naming_type');
+  }
+  public set namingType(value: string) {
+    this._namingType = value;
+  }
+  public resetNamingType() {
+    this._namingType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get namingTypeInput() {
+    return this._namingType;
+  }
+
+  // port - computed: true, optional: true, required: false
+  private _port?: number; 
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+  public set port(value: number) {
+    this._port = value;
+  }
+  public resetPort() {
+    this._port = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portInput() {
+    return this._port;
+  }
+}
 export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#forward_error_correction MediaconnectRouterInput#forward_error_correction}
   */
   readonly forwardErrorCorrection?: string;
   /**
   * The port number used for the RTP protocol in the router input configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
   */
   readonly port?: number;
 }
@@ -4121,13 +5934,13 @@ export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurati
   /**
   * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The ARN of the Secrets Manager secret used for transit encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -4252,7 +6065,7 @@ export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurati
   /**
   * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
   */
   readonly encryptionKey?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCallerDecryptionConfigurationEncryptionKey;
 }
@@ -4348,31 +6161,31 @@ export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurati
   /**
   * Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
   */
   readonly decryptionConfiguration?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCallerDecryptionConfiguration;
   /**
   * The minimum latency in milliseconds for the SRT protocol in caller mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
   */
   readonly minimumLatencyMilliseconds?: number;
   /**
   * The source IP address for the SRT protocol in caller mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_address MediaconnectRouterInput#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * The source port number for the SRT protocol in caller mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#source_port MediaconnectRouterInput#source_port}
   */
   readonly sourcePort?: number;
   /**
   * The stream ID for the SRT protocol in caller mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#stream_id MediaconnectRouterInput#stream_id}
   */
   readonly streamId?: string;
 }
@@ -4584,13 +6397,13 @@ export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurati
   /**
   * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The ARN of the Secrets Manager secret used for transit encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -4715,7 +6528,7 @@ export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurati
   /**
   * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
   */
   readonly encryptionKey?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtListenerDecryptionConfigurationEncryptionKey;
 }
@@ -4811,19 +6624,19 @@ export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurati
   /**
   * Contains the configuration settings for decrypting SRT streams, including the encryption key details and decryption parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#decryption_configuration MediaconnectRouterInput#decryption_configuration}
   */
   readonly decryptionConfiguration?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtListenerDecryptionConfiguration;
   /**
   * The minimum latency in milliseconds for the SRT protocol in listener mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#minimum_latency_milliseconds MediaconnectRouterInput#minimum_latency_milliseconds}
   */
   readonly minimumLatencyMilliseconds?: number;
   /**
   * The port number for the SRT protocol in listener mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#port MediaconnectRouterInput#port}
   */
   readonly port?: number;
 }
@@ -4977,25 +6790,31 @@ export interface MediaconnectRouterInputConfigurationStandardProtocolConfigurati
   /**
   * The configuration settings for a router input using the RIST (Reliable Internet Stream Transport) protocol, including the port and recovery latency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#rist MediaconnectRouterInput#rist}
   */
   readonly rist?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRist;
   /**
+  * The configuration settings for a router input using the RTMP (Real-Time Messaging Protocol) protocol.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#rtmp_push MediaconnectRouterInput#rtmp_push}
+  */
+  readonly rtmpPush?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPush;
+  /**
   * The configuration settings for a Router Input using the RTP (Real-Time Transport Protocol) protocol, including the port and forward error correction state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#rtp MediaconnectRouterInput#rtp}
   */
   readonly rtp?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtp;
   /**
   * The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in caller mode, including the source address and port, minimum latency, stream ID, and decryption key configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#srt_caller MediaconnectRouterInput#srt_caller}
   */
   readonly srtCaller?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCaller;
   /**
   * The configuration settings for a router input using the SRT (Secure Reliable Transport) protocol in listener mode, including the port, minimum latency, and decryption key configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#srt_listener MediaconnectRouterInput#srt_listener}
   */
   readonly srtListener?: MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtListener;
 }
@@ -5007,6 +6826,7 @@ export function mediaconnectRouterInputConfigurationStandardProtocolConfiguratio
   }
   return {
     rist: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRistToTerraform(struct!.rist),
+    rtmp_push: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushToTerraform(struct!.rtmpPush),
     rtp: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtpToTerraform(struct!.rtp),
     srt_caller: mediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCallerToTerraform(struct!.srtCaller),
     srt_listener: mediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtListenerToTerraform(struct!.srtListener),
@@ -5025,6 +6845,12 @@ export function mediaconnectRouterInputConfigurationStandardProtocolConfiguratio
       isBlock: true,
       type: "struct",
       storageClassType: "MediaconnectRouterInputConfigurationStandardProtocolConfigurationRist",
+    },
+    rtmp_push: {
+      value: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushToHclTerraform(struct!.rtmpPush),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPush",
     },
     rtp: {
       value: mediaconnectRouterInputConfigurationStandardProtocolConfigurationRtpToHclTerraform(struct!.rtp),
@@ -5072,6 +6898,10 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationOu
       hasAnyValues = true;
       internalValueResult.rist = this._rist?.internalValue;
     }
+    if (this._rtmpPush?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rtmpPush = this._rtmpPush?.internalValue;
+    }
     if (this._rtp?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.rtp = this._rtp?.internalValue;
@@ -5092,6 +6922,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationOu
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._rist.internalValue = undefined;
+      this._rtmpPush.internalValue = undefined;
       this._rtp.internalValue = undefined;
       this._srtCaller.internalValue = undefined;
       this._srtListener.internalValue = undefined;
@@ -5104,6 +6935,7 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationOu
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._rist.internalValue = value.rist;
+      this._rtmpPush.internalValue = value.rtmpPush;
       this._rtp.internalValue = value.rtp;
       this._srtCaller.internalValue = value.srtCaller;
       this._srtListener.internalValue = value.srtListener;
@@ -5124,6 +6956,22 @@ export class MediaconnectRouterInputConfigurationStandardProtocolConfigurationOu
   // Temporarily expose input value. Use with caution.
   public get ristInput() {
     return this._rist.internalValue;
+  }
+
+  // rtmp_push - computed: true, optional: true, required: false
+  private _rtmpPush = new MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPushOutputReference(this, "rtmp_push");
+  public get rtmpPush() {
+    return this._rtmpPush;
+  }
+  public putRtmpPush(value: MediaconnectRouterInputConfigurationStandardProtocolConfigurationRtmpPush) {
+    this._rtmpPush.internalValue = value;
+  }
+  public resetRtmpPush() {
+    this._rtmpPush.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rtmpPushInput() {
+    return this._rtmpPush.internalValue;
   }
 
   // rtp - computed: true, optional: true, required: false
@@ -5178,17 +7026,17 @@ export interface MediaconnectRouterInputConfigurationStandard {
   /**
   * The Amazon Resource Name (ARN) of the network interface associated with the standard router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#network_interface_arn MediaconnectRouterInput#network_interface_arn}
   */
   readonly networkInterfaceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#protocol MediaconnectRouterInput#protocol}
   */
   readonly protocol?: string;
   /**
   * The protocol configuration settings for a router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#protocol_configuration MediaconnectRouterInput#protocol_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#protocol_configuration MediaconnectRouterInput#protocol_configuration}
   */
   readonly protocolConfiguration?: MediaconnectRouterInputConfigurationStandardProtocolConfiguration;
 }
@@ -5342,37 +7190,37 @@ export interface MediaconnectRouterInputConfiguration {
   /**
   * Configuration settings for a router input that is represented by a destination endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#destination_endpoint MediaconnectRouterInput#destination_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#destination_endpoint MediaconnectRouterInput#destination_endpoint}
   */
   readonly destinationEndpoint?: MediaconnectRouterInputConfigurationDestinationEndpoint;
   /**
   * Configuration settings for a failover router input that allows switching between two input sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#failover MediaconnectRouterInput#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#failover MediaconnectRouterInput#failover}
   */
   readonly failover?: MediaconnectRouterInputConfigurationFailover;
   /**
   * Configuration settings for connecting a router input to a flow output. To connect the router input to the flow output, provide both flowArn and flowOutputArn. To disconnect it, call the update operation and omit both fields while keeping this configuration object. You can't change sourceTransitDecryption while the router input is connected to a flow output. To change it, first disconnect the router input, then update the decryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_connect_flow MediaconnectRouterInput#media_connect_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#media_connect_flow MediaconnectRouterInput#media_connect_flow}
   */
   readonly mediaConnectFlow?: MediaconnectRouterInputConfigurationMediaConnectFlow;
   /**
   * Configuration settings for connecting a router input to a MediaLive channel output. To connect the router input to the MediaLive channel output, provide all three of mediaLiveChannelArn, mediaLivePipelineId, and mediaLiveChannelOutputName. To disconnect it, call the update operation and omit all three fields while keeping this configuration object. You can't change sourceTransitDecryption while the router input is connected to a MediaLive channel output. To change it, first disconnect the router input, then update the decryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#media_live_channel MediaconnectRouterInput#media_live_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#media_live_channel MediaconnectRouterInput#media_live_channel}
   */
   readonly mediaLiveChannel?: MediaconnectRouterInputConfigurationMediaLiveChannel;
   /**
   * Configuration settings for a merge router input that combines two input sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#merge MediaconnectRouterInput#merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#merge MediaconnectRouterInput#merge}
   */
   readonly merge?: MediaconnectRouterInputConfigurationMerge;
   /**
   * The configuration settings for a standard router input, including the protocol, protocol-specific configuration, network interface, and availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#standard MediaconnectRouterInput#standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#standard MediaconnectRouterInput#standard}
   */
   readonly standard?: MediaconnectRouterInputConfigurationStandard;
 }
@@ -5611,13 +7459,13 @@ export class MediaconnectRouterInputConfigurationOutputReference extends cdktn.C
 }
 export interface MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}
   */
   readonly state?: string;
   /**
   * The number of consecutive seconds of black frames that MediaConnect must detect before it reports an issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
   */
   readonly thresholdSeconds?: number;
 }
@@ -5740,13 +7588,13 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
 }
 export interface MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}
   */
   readonly state?: string;
   /**
   * The number of consecutive seconds of a frozen frame that MediaConnect must detect before it reports an issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
   */
   readonly thresholdSeconds?: number;
 }
@@ -5869,13 +7717,13 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationContentLe
 }
 export interface MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}
   */
   readonly state?: string;
   /**
   * The number of consecutive seconds of silence that MediaConnect must detect before it reports an issue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
   */
   readonly thresholdSeconds?: number;
 }
@@ -6000,19 +7848,19 @@ export interface MediaconnectRouterInputContentQualityAnalysisConfigurationConte
   /**
   * Detects black frames in the router input's source content and reports them through a CloudWatch metric, an EventBridge event, and a router input message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#black_frames MediaconnectRouterInput#black_frames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#black_frames MediaconnectRouterInput#black_frames}
   */
   readonly blackFrames?: MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames;
   /**
   * Detects frozen video frames in the router input's source content and reports them through a CloudWatch metric, an EventBridge event, and a router input message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#frozen_frames MediaconnectRouterInput#frozen_frames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#frozen_frames MediaconnectRouterInput#frozen_frames}
   */
   readonly frozenFrames?: MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames;
   /**
   * Detects silent audio in the router input's source content and reports it through a CloudWatch metric, an EventBridge event, and a router input message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#silent_audio MediaconnectRouterInput#silent_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#silent_audio MediaconnectRouterInput#silent_audio}
   */
   readonly silentAudio?: MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio;
 }
@@ -6166,7 +8014,7 @@ export interface MediaconnectRouterInputContentQualityAnalysisConfiguration {
   /**
   * Configures the content quality analysis features for the router input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#content_level MediaconnectRouterInput#content_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#content_level MediaconnectRouterInput#content_level}
   */
   readonly contentLevel?: MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevel;
 }
@@ -6260,13 +8108,13 @@ export class MediaconnectRouterInputContentQualityAnalysisConfigurationOutputRef
 }
 export interface MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#day MediaconnectRouterInput#day}
   */
   readonly day?: string;
   /**
   * The preferred time for maintenance operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#time MediaconnectRouterInput#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#time MediaconnectRouterInput#time}
   */
   readonly time?: string;
 }
@@ -6391,13 +8239,13 @@ export interface MediaconnectRouterInputMaintenanceConfiguration {
   /**
   * Configuration settings for default maintenance scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#default MediaconnectRouterInput#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#default MediaconnectRouterInput#default}
   */
   readonly default?: string;
   /**
   * Configuration for preferred day and time maintenance settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#preferred_day_time MediaconnectRouterInput#preferred_day_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#preferred_day_time MediaconnectRouterInput#preferred_day_time}
   */
   readonly preferredDayTime?: MediaconnectRouterInputMaintenanceConfigurationPreferredDayTime;
 }
@@ -6518,13 +8366,677 @@ export class MediaconnectRouterInputMaintenanceConfigurationOutputReference exte
     return this._preferredDayTime.internalValue;
   }
 }
+export interface MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPush {
+}
+
+export function mediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPushToTerraform(struct?: MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPush): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPushToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPush): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPushOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPush | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPush | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // application_name - computed: true, optional: false, required: false
+  public get applicationName() {
+    return this.getStringAttribute('application_name');
+  }
+
+  // stream_name - computed: true, optional: false, required: false
+  public get streamName() {
+    return this.getStringAttribute('stream_name');
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetails {
+}
+
+export function mediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsToTerraform(struct?: MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // rtmp_push - computed: true, optional: false, required: false
+  private _rtmpPush = new MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsRtmpPushOutputReference(this, "rtmp_push");
+  public get rtmpPush() {
+    return this._rtmpPush;
+  }
+
+  // source_index - computed: true, optional: false, required: false
+  public get sourceIndex() {
+    return this.getNumberAttribute('source_index');
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPush {
+}
+
+export function mediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPushToTerraform(struct?: MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPush): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPushToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPush): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPushOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPush | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPush | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // application_name - computed: true, optional: false, required: false
+  public get applicationName() {
+    return this.getStringAttribute('application_name');
+  }
+
+  // stream_name - computed: true, optional: false, required: false
+  public get streamName() {
+    return this.getStringAttribute('stream_name');
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetails {
+}
+
+export function mediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsToTerraform(struct?: MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // rtmp_push - computed: true, optional: false, required: false
+  private _rtmpPush = new MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsRtmpPushOutputReference(this, "rtmp_push");
+  public get rtmpPush() {
+    return this._rtmpPush;
+  }
+
+  // source_index - computed: true, optional: false, required: false
+  public get sourceIndex() {
+    return this.getNumberAttribute('source_index');
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsFailover {
+}
+
+export function mediaconnectRouterInputStreamDetailsFailoverToTerraform(struct?: MediaconnectRouterInputStreamDetailsFailover): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsFailoverToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsFailover): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsFailoverOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsFailover | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsFailover | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // source_index_one_stream_details - computed: true, optional: false, required: false
+  private _sourceIndexOneStreamDetails = new MediaconnectRouterInputStreamDetailsFailoverSourceIndexOneStreamDetailsOutputReference(this, "source_index_one_stream_details");
+  public get sourceIndexOneStreamDetails() {
+    return this._sourceIndexOneStreamDetails;
+  }
+
+  // source_index_zero_stream_details - computed: true, optional: false, required: false
+  private _sourceIndexZeroStreamDetails = new MediaconnectRouterInputStreamDetailsFailoverSourceIndexZeroStreamDetailsOutputReference(this, "source_index_zero_stream_details");
+  public get sourceIndexZeroStreamDetails() {
+    return this._sourceIndexZeroStreamDetails;
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetails {
+}
+
+export function mediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetailsToTerraform(struct?: MediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetailsToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // source_index - computed: true, optional: false, required: false
+  public get sourceIndex() {
+    return this.getNumberAttribute('source_index');
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetails {
+}
+
+export function mediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetailsToTerraform(struct?: MediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetailsToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // source_index - computed: true, optional: false, required: false
+  public get sourceIndex() {
+    return this.getNumberAttribute('source_index');
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsMerge {
+}
+
+export function mediaconnectRouterInputStreamDetailsMergeToTerraform(struct?: MediaconnectRouterInputStreamDetailsMerge): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsMergeToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsMerge): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsMergeOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsMerge | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsMerge | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // source_index_one_stream_details - computed: true, optional: false, required: false
+  private _sourceIndexOneStreamDetails = new MediaconnectRouterInputStreamDetailsMergeSourceIndexOneStreamDetailsOutputReference(this, "source_index_one_stream_details");
+  public get sourceIndexOneStreamDetails() {
+    return this._sourceIndexOneStreamDetails;
+  }
+
+  // source_index_zero_stream_details - computed: true, optional: false, required: false
+  private _sourceIndexZeroStreamDetails = new MediaconnectRouterInputStreamDetailsMergeSourceIndexZeroStreamDetailsOutputReference(this, "source_index_zero_stream_details");
+  public get sourceIndexZeroStreamDetails() {
+    return this._sourceIndexZeroStreamDetails;
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsStandardRtmpPush {
+}
+
+export function mediaconnectRouterInputStreamDetailsStandardRtmpPushToTerraform(struct?: MediaconnectRouterInputStreamDetailsStandardRtmpPush): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsStandardRtmpPushToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsStandardRtmpPush): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsStandardRtmpPushOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsStandardRtmpPush | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsStandardRtmpPush | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // application_name - computed: true, optional: false, required: false
+  public get applicationName() {
+    return this.getStringAttribute('application_name');
+  }
+
+  // stream_name - computed: true, optional: false, required: false
+  public get streamName() {
+    return this.getStringAttribute('stream_name');
+  }
+}
+export interface MediaconnectRouterInputStreamDetailsStandard {
+}
+
+export function mediaconnectRouterInputStreamDetailsStandardToTerraform(struct?: MediaconnectRouterInputStreamDetailsStandard): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsStandardToHclTerraform(struct?: MediaconnectRouterInputStreamDetailsStandard): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsStandardOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetailsStandard | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetailsStandard | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // rtmp_push - computed: true, optional: false, required: false
+  private _rtmpPush = new MediaconnectRouterInputStreamDetailsStandardRtmpPushOutputReference(this, "rtmp_push");
+  public get rtmpPush() {
+    return this._rtmpPush;
+  }
+}
+export interface MediaconnectRouterInputStreamDetails {
+}
+
+export function mediaconnectRouterInputStreamDetailsToTerraform(struct?: MediaconnectRouterInputStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function mediaconnectRouterInputStreamDetailsToHclTerraform(struct?: MediaconnectRouterInputStreamDetails): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class MediaconnectRouterInputStreamDetailsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): MediaconnectRouterInputStreamDetails | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: MediaconnectRouterInputStreamDetails | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // destination_endpoint - computed: true, optional: false, required: false
+  public get destinationEndpoint() {
+    return this.getStringAttribute('destination_endpoint');
+  }
+
+  // failover - computed: true, optional: false, required: false
+  private _failover = new MediaconnectRouterInputStreamDetailsFailoverOutputReference(this, "failover");
+  public get failover() {
+    return this._failover;
+  }
+
+  // media_connect_flow - computed: true, optional: false, required: false
+  public get mediaConnectFlow() {
+    return this.getStringAttribute('media_connect_flow');
+  }
+
+  // media_live_channel - computed: true, optional: false, required: false
+  public get mediaLiveChannel() {
+    return this.getStringAttribute('media_live_channel');
+  }
+
+  // merge - computed: true, optional: false, required: false
+  private _merge = new MediaconnectRouterInputStreamDetailsMergeOutputReference(this, "merge");
+  public get merge() {
+    return this._merge;
+  }
+
+  // standard - computed: true, optional: false, required: false
+  private _standard = new MediaconnectRouterInputStreamDetailsStandardOutputReference(this, "standard");
+  public get standard() {
+    return this._standard;
+  }
+}
 export interface MediaconnectRouterInputTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}
   */
   readonly value?: string;
 }
@@ -6671,13 +9183,13 @@ export interface MediaconnectRouterInputTransitEncryptionEncryptionKeyConfigurat
   /**
   * The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The ARN of the Secrets Manager secret used for transit encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -6802,13 +9314,13 @@ export interface MediaconnectRouterInputTransitEncryptionEncryptionKeyConfigurat
   /**
   * Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#automatic MediaconnectRouterInput#automatic}
   */
   readonly automatic?: string;
   /**
   * The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#secrets_manager MediaconnectRouterInput#secrets_manager}
   */
   readonly secretsManager?: MediaconnectRouterInputTransitEncryptionEncryptionKeyConfigurationSecretsManager;
 }
@@ -6933,11 +9445,11 @@ export interface MediaconnectRouterInputTransitEncryption {
   /**
   * Defines the configuration settings for transit encryption keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key_configuration MediaconnectRouterInput#encryption_key_configuration}
   */
   readonly encryptionKeyConfiguration?: MediaconnectRouterInputTransitEncryptionEncryptionKeyConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#encryption_key_type MediaconnectRouterInput#encryption_key_type}
   */
   readonly encryptionKeyType?: string;
 }
@@ -7060,7 +9572,7 @@ export class MediaconnectRouterInputTransitEncryptionOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input}
 */
 export class MediaconnectRouterInput extends cdktn.TerraformResource {
 
@@ -7076,7 +9588,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediaconnectRouterInput resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediaconnectRouterInput to import
-  * @param importFromId The id of the existing MediaconnectRouterInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediaconnectRouterInput that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediaconnectRouterInput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -7088,7 +9600,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7099,7 +9611,7 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediaconnect_router_input',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -7296,6 +9808,12 @@ export class MediaconnectRouterInput extends cdktn.TerraformResource {
   // state - computed: true, optional: false, required: false
   public get state() {
     return this.getStringAttribute('state');
+  }
+
+  // stream_details - computed: true, optional: false, required: false
+  private _streamDetails = new MediaconnectRouterInputStreamDetailsOutputReference(this, "stream_details");
+  public get streamDetails() {
+    return this._streamDetails;
   }
 
   // tags - computed: true, optional: true, required: false

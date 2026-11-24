@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53GlobalresolverAccessSource <a name="DataAwsccRoute53GlobalresolverAccessSource" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53globalresolver_access_source awscc_route53globalresolver_access_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53globalresolver_access_source awscc_route53globalresolver_access_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53globalresolver_access_source#id DataAwsccRoute53GlobalresolverAccessSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53globalresolver_access_source#id DataAwsccRoute53GlobalresolverAccessSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccRoute53Globalreso
 
 The id of the existing DataAwsccRoute53GlobalresolverAccessSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53globalresolver_access_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53globalresolver_access_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -524,11 +524,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.arn">arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.cidr">cidr</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.clientToken">client_token</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.coreNetworkEndpointId">core_network_endpoint_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.createdAt">created_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.dnsViewId">dns_view_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.ipAddressType">ip_address_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.protocol">protocol</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.segment">segment</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.status">status</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSourceTagsList">DataAwsccRoute53GlobalresolverAccessSourceTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.updatedAt">updated_at</a></code> | <code>str</code> | *No description.* |
@@ -699,6 +701,16 @@ client_token: str
 
 ---
 
+##### `core_network_endpoint_id`<sup>Required</sup> <a name="core_network_endpoint_id" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.coreNetworkEndpointId"></a>
+
+```python
+core_network_endpoint_id: str
+```
+
+- *Type:* str
+
+---
+
 ##### `created_at`<sup>Required</sup> <a name="created_at" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.createdAt"></a>
 
 ```python
@@ -743,6 +755,16 @@ name: str
 
 ```python
 protocol: str
+```
+
+- *Type:* str
+
+---
+
+##### `segment`<sup>Required</sup> <a name="segment" id="@cdktn/provider-awscc.dataAwsccRoute53GlobalresolverAccessSource.DataAwsccRoute53GlobalresolverAccessSource.property.segment"></a>
+
+```python
+segment: str
 ```
 
 - *Type:* str
@@ -933,7 +955,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53globalresolver_access_source#id DataAwsccRoute53GlobalresolverAccessSource#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53globalresolver_access_source#id DataAwsccRoute53GlobalresolverAccessSource#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

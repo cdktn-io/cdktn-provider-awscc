@@ -4,7 +4,7 @@
 
 ### FsxVolume <a name="FsxVolume" id="@cdktn/provider-awscc.fsxVolume.FsxVolume"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume awscc_fsx_volume}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume awscc_fsx_volume}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxVolume.FsxVolume.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#name FsxVolume#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#name FsxVolume#name}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the ID of the volume backup to use to create a new volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration of an Amazon FSx for NetApp ONTAP volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration of an Amazon FSx for OpenZFS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#tags FsxVolume#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#tags FsxVolume#tags}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}
 
 ---
 
@@ -687,7 +687,7 @@ The construct id used in the generated config for the FsxVolume to import.
 
 The id of the existing FsxVolume that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1182,7 +1182,7 @@ public java.lang.String getName();
 
 The name of the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#name FsxVolume#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#name FsxVolume#name}
 
 ---
 
@@ -1196,7 +1196,7 @@ public java.lang.String getBackupId();
 
 Specifies the ID of the volume backup to use to create a new volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}
 
 ---
 
@@ -1210,7 +1210,7 @@ public FsxVolumeOntapConfiguration getOntapConfiguration();
 
 The configuration of an Amazon FSx for NetApp ONTAP volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}
 
 ---
 
@@ -1224,7 +1224,7 @@ public FsxVolumeOpenZfsConfiguration getOpenZfsConfiguration();
 
 The configuration of an Amazon FSx for OpenZFS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}
 
 ---
 
@@ -1238,7 +1238,7 @@ public IResolvable|java.util.List<FsxVolumeTags> getTags();
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#tags FsxVolume#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#tags FsxVolume#tags}
 
 ---
 
@@ -1252,7 +1252,7 @@ public java.lang.String getVolumeType();
 
 The type of the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}
 
 ---
 
@@ -1265,6 +1265,7 @@ import io.cdktn.providers.awscc.fsx_volume.FsxVolumeOntapConfiguration;
 
 FsxVolumeOntapConfiguration.builder()
 //  .aggregateConfiguration(FsxVolumeOntapConfigurationAggregateConfiguration)
+//  .cloneConfiguration(FsxVolumeOntapConfigurationCloneConfiguration)
 //  .copyTagsToBackups(java.lang.String)
 //  .junctionPath(java.lang.String)
 //  .ontapVolumeType(java.lang.String)
@@ -1285,6 +1286,7 @@ FsxVolumeOntapConfiguration.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.aggregateConfiguration">aggregateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration">FsxVolumeOntapConfigurationAggregateConfiguration</a></code> | Used to specify the configuration options for an FSx for ONTAP volume's storage aggregate or aggregates. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.cloneConfiguration">cloneConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration">FsxVolumeOntapConfigurationCloneConfiguration</a></code> | Creates the volume as an ONTAP FlexClone of an existing volume. |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.copyTagsToBackups">copyTagsToBackups</a></code> | <code>java.lang.String</code> | A boolean flag indicating whether tags for the volume should be copied to backups. |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.junctionPath">junctionPath</a></code> | <code>java.lang.String</code> | Specifies the location in the SVM's namespace where the volume is mounted. |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.ontapVolumeType">ontapVolumeType</a></code> | <code>java.lang.String</code> | Specifies the type of volume you are creating. Valid values are the following: RW or DP. |
@@ -1310,7 +1312,23 @@ public FsxVolumeOntapConfigurationAggregateConfiguration getAggregateConfigurati
 
 Used to specify the configuration options for an FSx for ONTAP volume's storage aggregate or aggregates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#aggregate_configuration FsxVolume#aggregate_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#aggregate_configuration FsxVolume#aggregate_configuration}
+
+---
+
+##### `cloneConfiguration`<sup>Optional</sup> <a name="cloneConfiguration" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.cloneConfiguration"></a>
+
+```java
+public FsxVolumeOntapConfigurationCloneConfiguration getCloneConfiguration();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration">FsxVolumeOntapConfigurationCloneConfiguration</a>
+
+Creates the volume as an ONTAP FlexClone of an existing volume.
+
+The clone takes SizeInMegabytes and StorageEfficiencyEnabled from the parent volume: omit them, or set them to the parent's values.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#clone_configuration FsxVolume#clone_configuration}
 
 ---
 
@@ -1324,7 +1342,7 @@ public java.lang.String getCopyTagsToBackups();
 
 A boolean flag indicating whether tags for the volume should be copied to backups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#copy_tags_to_backups FsxVolume#copy_tags_to_backups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#copy_tags_to_backups FsxVolume#copy_tags_to_backups}
 
 ---
 
@@ -1340,7 +1358,7 @@ Specifies the location in the SVM's namespace where the volume is mounted.
 
 This parameter is required. The JunctionPath must have a leading forward slash, such as /vol3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#junction_path FsxVolume#junction_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#junction_path FsxVolume#junction_path}
 
 ---
 
@@ -1354,7 +1372,7 @@ public java.lang.String getOntapVolumeType();
 
 Specifies the type of volume you are creating. Valid values are the following: RW or DP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#ontap_volume_type FsxVolume#ontap_volume_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#ontap_volume_type FsxVolume#ontap_volume_type}
 
 ---
 
@@ -1370,7 +1388,7 @@ Specifies the security style for the volume.
 
 If a volume's security style is not specified, it is automatically set to the root volume's security style.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#security_style FsxVolume#security_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#security_style FsxVolume#security_style}
 
 ---
 
@@ -1384,7 +1402,7 @@ public java.lang.String getSizeInBytes();
 
 Specifies the configured size of the volume, in bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#size_in_bytes FsxVolume#size_in_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#size_in_bytes FsxVolume#size_in_bytes}
 
 ---
 
@@ -1398,7 +1416,7 @@ public java.lang.String getSizeInMegabytes();
 
 Use SizeInBytes instead. Specifies the size of the volume, in megabytes (MB), that you are creating.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#size_in_megabytes FsxVolume#size_in_megabytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#size_in_megabytes FsxVolume#size_in_megabytes}
 
 ---
 
@@ -1412,7 +1430,7 @@ public FsxVolumeOntapConfigurationSnaplockConfiguration getSnaplockConfiguration
 
 The SnapLock configuration object for an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#snaplock_configuration FsxVolume#snaplock_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#snaplock_configuration FsxVolume#snaplock_configuration}
 
 ---
 
@@ -1426,7 +1444,7 @@ public java.lang.String getSnapshotPolicy();
 
 Specifies the snapshot policy for the volume. There are three built-in snapshot policies: default, default-1weekly, none.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#snapshot_policy FsxVolume#snapshot_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#snapshot_policy FsxVolume#snapshot_policy}
 
 ---
 
@@ -1440,7 +1458,7 @@ public java.lang.String getStorageEfficiencyEnabled();
 
 Set to true to enable deduplication, compression, and compaction storage efficiency features on the volume, or set to false to disable them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#storage_efficiency_enabled FsxVolume#storage_efficiency_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#storage_efficiency_enabled FsxVolume#storage_efficiency_enabled}
 
 ---
 
@@ -1454,7 +1472,7 @@ public java.lang.String getStorageVirtualMachineId();
 
 Specifies the ONTAP SVM in which to create the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#storage_virtual_machine_id FsxVolume#storage_virtual_machine_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#storage_virtual_machine_id FsxVolume#storage_virtual_machine_id}
 
 ---
 
@@ -1468,7 +1486,7 @@ public FsxVolumeOntapConfigurationTieringPolicy getTieringPolicy();
 
 Describes the data tiering policy for an ONTAP volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#tiering_policy FsxVolume#tiering_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#tiering_policy FsxVolume#tiering_policy}
 
 ---
 
@@ -1482,7 +1500,7 @@ public java.lang.String getVolumeStyle();
 
 Use to specify the style of an ONTAP volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#volume_style FsxVolume#volume_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#volume_style FsxVolume#volume_style}
 
 ---
 
@@ -1520,7 +1538,7 @@ The list of aggregates that this volume resides on.
 
 Aggregates are storage pools which make up your primary storage tier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}
 
 ---
 
@@ -1536,7 +1554,61 @@ Used to explicitly set the number of constituents within the FlexGroup per stora
 
 This field is optional when creating a FlexGroup volume. If unspecified, the default value will be 8. This field cannot be provided when creating a FlexVol volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}
+
+---
+
+### FsxVolumeOntapConfigurationCloneConfiguration <a name="FsxVolumeOntapConfigurationCloneConfiguration" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.fsx_volume.FsxVolumeOntapConfigurationCloneConfiguration;
+
+FsxVolumeOntapConfigurationCloneConfiguration.builder()
+//  .parentVolumeId(java.lang.String)
+//  .snapshotId(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration.property.parentVolumeId">parentVolumeId</a></code> | <code>java.lang.String</code> | The ID of the volume to clone. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration.property.snapshotId">snapshotId</a></code> | <code>java.lang.String</code> | The ID of a snapshot of the parent volume to clone from. |
+
+---
+
+##### `parentVolumeId`<sup>Optional</sup> <a name="parentVolumeId" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration.property.parentVolumeId"></a>
+
+```java
+public java.lang.String getParentVolumeId();
+```
+
+- *Type:* java.lang.String
+
+The ID of the volume to clone.
+
+It must be in the same storage virtual machine (SVM) as the new volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#parent_volume_id FsxVolume#parent_volume_id}
+
+---
+
+##### `snapshotId`<sup>Optional</sup> <a name="snapshotId" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration.property.snapshotId"></a>
+
+```java
+public java.lang.String getSnapshotId();
+```
+
+- *Type:* java.lang.String
+
+The ID of a snapshot of the parent volume to clone from.
+
+If you omit it, the clone is created from the parent volume's current state. Required when this volume's OntapVolumeType is DP (the parent volume must then also be DP).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#snapshot_id FsxVolume#snapshot_id}
 
 ---
 
@@ -1580,7 +1652,7 @@ public java.lang.String getAuditLogVolume();
 
 Enables or disables the audit log volume for an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#audit_log_volume FsxVolume#audit_log_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#audit_log_volume FsxVolume#audit_log_volume}
 
 ---
 
@@ -1594,7 +1666,7 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod getAutoc
 
 The configuration object for setting the autocommit period of files in an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#autocommit_period FsxVolume#autocommit_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#autocommit_period FsxVolume#autocommit_period}
 
 ---
 
@@ -1608,7 +1680,7 @@ public java.lang.String getPrivilegedDelete();
 
 Enables, disables, or permanently disables privileged delete on an FSx for ONTAP SnapLock Enterprise volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#privileged_delete FsxVolume#privileged_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#privileged_delete FsxVolume#privileged_delete}
 
 ---
 
@@ -1622,7 +1694,7 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod getRetent
 
 Specifies the retention period of an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#retention_period FsxVolume#retention_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#retention_period FsxVolume#retention_period}
 
 ---
 
@@ -1636,7 +1708,7 @@ public java.lang.String getSnaplockType();
 
 Specifies the retention mode of an FSx for ONTAP SnapLock volume. After it is set, it can't be changed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#snaplock_type FsxVolume#snaplock_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#snaplock_type FsxVolume#snaplock_type}
 
 ---
 
@@ -1650,7 +1722,7 @@ public java.lang.String getVolumeAppendModeEnabled();
 
 Enables or disables volume-append mode on an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#volume_append_mode_enabled FsxVolume#volume_append_mode_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#volume_append_mode_enabled FsxVolume#volume_append_mode_enabled}
 
 ---
 
@@ -1688,7 +1760,7 @@ Defines the type of time for the autocommit period of a file in an FSx for ONTAP
 
 Setting this value to NONE disables autocommit. The default value is NONE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#type FsxVolume#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -1702,7 +1774,7 @@ public java.lang.Number getValue();
 
 Defines the amount of time for the autocommit period of a file in an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#value FsxVolume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -1740,7 +1812,7 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRet
 
 The retention period assigned to a write once, read many (WORM) file by default if an explicit retention period is not set for an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}
 
 ---
 
@@ -1754,7 +1826,7 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRet
 
 The longest retention period that can be assigned to a WORM file on an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}
 
 ---
 
@@ -1768,7 +1840,7 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRet
 
 The shortest retention period that can be assigned to a WORM file on an FSx for ONTAP SnapLock volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}
 
 ---
 
@@ -1806,7 +1878,7 @@ Defines the type of time for the retention period of an FSx for ONTAP SnapLock v
 
 Set it to one of the valid types. If you set it to INFINITE, the files are retained forever. If you set it to UNSPECIFIED, the files are retained until you set an explicit retention period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#type FsxVolume#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -1822,7 +1894,7 @@ Defines the amount of time for the retention period of an FSx for ONTAP SnapLock
 
 You can't set a value for INFINITE or UNSPECIFIED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#value FsxVolume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -1860,7 +1932,7 @@ Defines the type of time for the retention period of an FSx for ONTAP SnapLock v
 
 Set it to one of the valid types. If you set it to INFINITE, the files are retained forever. If you set it to UNSPECIFIED, the files are retained until you set an explicit retention period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#type FsxVolume#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -1876,7 +1948,7 @@ Defines the amount of time for the retention period of an FSx for ONTAP SnapLock
 
 You can't set a value for INFINITE or UNSPECIFIED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#value FsxVolume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -1914,7 +1986,7 @@ Defines the type of time for the retention period of an FSx for ONTAP SnapLock v
 
 Set it to one of the valid types. If you set it to INFINITE, the files are retained forever. If you set it to UNSPECIFIED, the files are retained until you set an explicit retention period.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#type FsxVolume#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -1930,7 +2002,7 @@ Defines the amount of time for the retention period of an FSx for ONTAP SnapLock
 
 You can't set a value for INFINITE or UNSPECIFIED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#value FsxVolume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -1966,7 +2038,7 @@ public java.lang.Number getCoolingPeriod();
 
 Specifies the number of days that user data in a volume must remain inactive before it is considered "cold" and moved to the capacity pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}
 
 ---
 
@@ -1980,7 +2052,7 @@ public java.lang.String getName();
 
 Specifies the tiering policy used to transition data. Default value is SNAPSHOT_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#name FsxVolume#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#name FsxVolume#name}
 
 ---
 
@@ -2036,7 +2108,7 @@ A Boolean value indicating whether tags for the volume should be copied to snaps
 
 This value defaults to false. If this value is set to true, and you do not specify any tags, all tags for the original volume are copied over to snapshots. If this value is set to true, and you do specify one or more tags, only the specified tags for the original volume are copied over to snapshots. If you specify one or more tags when creating a new snapshot, no tags are copied over from the original volume, regardless of this value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#copy_tags_to_snapshots FsxVolume#copy_tags_to_snapshots}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#copy_tags_to_snapshots FsxVolume#copy_tags_to_snapshots}
 
 ---
 
@@ -2050,7 +2122,7 @@ public java.lang.String getDataCompressionType();
 
 Specifies the method used to compress the data on the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#data_compression_type FsxVolume#data_compression_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#data_compression_type FsxVolume#data_compression_type}
 
 ---
 
@@ -2064,7 +2136,7 @@ public IResolvable|java.util.List<FsxVolumeOpenZfsConfigurationNfsExports> getNf
 
 The configuration object for mounting a Network File System (NFS) file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#nfs_exports FsxVolume#nfs_exports}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#nfs_exports FsxVolume#nfs_exports}
 
 ---
 
@@ -2078,7 +2150,7 @@ public java.util.List<java.lang.String> getOptions();
 
 The configuration object for mounting a Network File System (NFS) file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#options FsxVolume#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#options FsxVolume#options}
 
 ---
 
@@ -2092,7 +2164,7 @@ public FsxVolumeOpenZfsConfigurationOriginSnapshot getOriginSnapshot();
 
 The configuration of an Amazon FSx for OpenZFS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#origin_snapshot FsxVolume#origin_snapshot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#origin_snapshot FsxVolume#origin_snapshot}
 
 ---
 
@@ -2106,7 +2178,7 @@ public java.lang.String getParentVolumeId();
 
 The ID of the volume to use as the parent volume of the volume that you are creating.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#parent_volume_id FsxVolume#parent_volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#parent_volume_id FsxVolume#parent_volume_id}
 
 ---
 
@@ -2120,7 +2192,7 @@ public java.lang.Boolean|IResolvable getReadOnly();
 
 A Boolean value indicating whether the volume is read-only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#read_only FsxVolume#read_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#read_only FsxVolume#read_only}
 
 ---
 
@@ -2134,7 +2206,7 @@ public java.lang.Number getRecordSizeKiB();
 
 Specifies the suggested block size for a volume in a ZFS dataset, in kibibytes (KiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#record_size_ki_b FsxVolume#record_size_ki_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#record_size_ki_b FsxVolume#record_size_ki_b}
 
 ---
 
@@ -2150,7 +2222,7 @@ Sets the maximum storage size in gibibytes (GiB) for the volume.
 
 You can specify a quota that is larger than the storage on the parent volume. A volume quota limits the amount of storage that the volume can consume to the configured amount, but does not guarantee the space will be available on the parent volume. To guarantee quota space, you must also set StorageCapacityReservationGiB. To not specify a storage capacity quota, set this to -1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
 
 ---
 
@@ -2166,7 +2238,7 @@ Specifies the amount of storage in gibibytes (GiB) to reserve from the parent vo
 
 Setting StorageCapacityReservationGiB guarantees that the specified amount of storage space on the parent volume will always be available for the volume. You can't reserve more storage than the parent volume has. To not specify a storage capacity reservation, set this to 0 or -1. For more information, see Volume properties in the Amazon FSx for OpenZFS User Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#storage_capacity_reservation_gi_b FsxVolume#storage_capacity_reservation_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#storage_capacity_reservation_gi_b FsxVolume#storage_capacity_reservation_gi_b}
 
 ---
 
@@ -2180,7 +2252,7 @@ public IResolvable|java.util.List<FsxVolumeOpenZfsConfigurationUserAndGroupQuota
 
 Configures how much storage users and groups can use on the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#user_and_group_quotas FsxVolume#user_and_group_quotas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#user_and_group_quotas FsxVolume#user_and_group_quotas}
 
 ---
 
@@ -2214,7 +2286,7 @@ public IResolvable|java.util.List<FsxVolumeOpenZfsConfigurationNfsExportsClientC
 
 The configuration object for mounting a Network File System (NFS) file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}
 
 ---
 
@@ -2252,7 +2324,7 @@ A value that specifies who can mount the file system.
 
 You can provide a wildcard character (*), an IP address (0.0.0.0), or a CIDR address (192.0.2.0/24). By default, Amazon FSx uses the wildcard character when specifying the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#clients FsxVolume#clients}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#clients FsxVolume#clients}
 
 ---
 
@@ -2266,7 +2338,7 @@ public java.util.List<java.lang.String> getOptions();
 
 The configuration object for mounting a Network File System (NFS) file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#options FsxVolume#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#options FsxVolume#options}
 
 ---
 
@@ -2302,7 +2374,7 @@ public java.lang.String getCopyStrategy();
 
 The configuration object for mounting a Network File System (NFS) file system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#copy_strategy FsxVolume#copy_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#copy_strategy FsxVolume#copy_strategy}
 
 ---
 
@@ -2316,7 +2388,7 @@ public java.lang.String getSnapshotArn();
 
 Specifies the snapshot to use when creating an OpenZFS volume from a snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#snapshot_arn FsxVolume#snapshot_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#snapshot_arn FsxVolume#snapshot_arn}
 
 ---
 
@@ -2354,7 +2426,7 @@ public java.lang.Number getId();
 
 The ID of the user or group that the quota applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#id FsxVolume#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#id FsxVolume#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2371,7 +2443,7 @@ public java.lang.Number getStorageCapacityQuotaGiB();
 
 The user or group's storage quota, in gibibytes (GiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
 
 ---
 
@@ -2385,7 +2457,7 @@ public java.lang.String getType();
 
 Specifies whether the quota applies to a user or group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#type FsxVolume#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -2423,7 +2495,7 @@ A value that specifies the TagKey, the name of the tag.
 
 Tag keys must be unique for the resource to which they are attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#key FsxVolume#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#key FsxVolume#key}
 
 ---
 
@@ -2439,7 +2511,7 @@ A value that specifies the TagValue, the value assigned to the corresponding tag
 
 Tag values can be null and don't have to be unique in a tag set. For example, you can have a key-value pair in a tag set of finances : April and also of payroll : April.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/fsx_volume#value FsxVolume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -2752,6 +2824,313 @@ public IResolvable|FsxVolumeOntapConfigurationAggregateConfiguration getInternal
 ---
 
 
+### FsxVolumeOntapConfigurationCloneConfigurationOutputReference <a name="FsxVolumeOntapConfigurationCloneConfigurationOutputReference" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.fsx_volume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference;
+
+new FsxVolumeOntapConfigurationCloneConfigurationOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.resetParentVolumeId">resetParentVolumeId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.resetSnapshotId">resetSnapshotId</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetParentVolumeId` <a name="resetParentVolumeId" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.resetParentVolumeId"></a>
+
+```java
+public void resetParentVolumeId()
+```
+
+##### `resetSnapshotId` <a name="resetSnapshotId" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.resetSnapshotId"></a>
+
+```java
+public void resetSnapshotId()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.parentVolumeIdInput">parentVolumeIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.snapshotIdInput">snapshotIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.parentVolumeId">parentVolumeId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.snapshotId">snapshotId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration">FsxVolumeOntapConfigurationCloneConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `parentVolumeIdInput`<sup>Optional</sup> <a name="parentVolumeIdInput" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.parentVolumeIdInput"></a>
+
+```java
+public java.lang.String getParentVolumeIdInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `snapshotIdInput`<sup>Optional</sup> <a name="snapshotIdInput" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.snapshotIdInput"></a>
+
+```java
+public java.lang.String getSnapshotIdInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `parentVolumeId`<sup>Required</sup> <a name="parentVolumeId" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.parentVolumeId"></a>
+
+```java
+public java.lang.String getParentVolumeId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `snapshotId`<sup>Required</sup> <a name="snapshotId" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.snapshotId"></a>
+
+```java
+public java.lang.String getSnapshotId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|FsxVolumeOntapConfigurationCloneConfiguration getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration">FsxVolumeOntapConfigurationCloneConfiguration</a>
+
+---
+
+
 ### FsxVolumeOntapConfigurationOutputReference <a name="FsxVolumeOntapConfigurationOutputReference" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.Initializer"></a>
@@ -2803,9 +3182,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.putAggregateConfiguration">putAggregateConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.putCloneConfiguration">putCloneConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.putSnaplockConfiguration">putSnaplockConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.putTieringPolicy">putTieringPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.resetAggregateConfiguration">resetAggregateConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.resetCloneConfiguration">resetCloneConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.resetCopyTagsToBackups">resetCopyTagsToBackups</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.resetJunctionPath">resetJunctionPath</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.resetOntapVolumeType">resetOntapVolumeType</a></code> | *No description.* |
@@ -2983,6 +3364,18 @@ public void putAggregateConfiguration(FsxVolumeOntapConfigurationAggregateConfig
 
 ---
 
+##### `putCloneConfiguration` <a name="putCloneConfiguration" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.putCloneConfiguration"></a>
+
+```java
+public void putCloneConfiguration(FsxVolumeOntapConfigurationCloneConfiguration value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.putCloneConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration">FsxVolumeOntapConfigurationCloneConfiguration</a>
+
+---
+
 ##### `putSnaplockConfiguration` <a name="putSnaplockConfiguration" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.putSnaplockConfiguration"></a>
 
 ```java
@@ -3011,6 +3404,12 @@ public void putTieringPolicy(FsxVolumeOntapConfigurationTieringPolicy value)
 
 ```java
 public void resetAggregateConfiguration()
+```
+
+##### `resetCloneConfiguration` <a name="resetCloneConfiguration" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.resetCloneConfiguration"></a>
+
+```java
+public void resetCloneConfiguration()
 ```
 
 ##### `resetCopyTagsToBackups` <a name="resetCopyTagsToBackups" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.resetCopyTagsToBackups"></a>
@@ -3093,9 +3492,11 @@ public void resetVolumeStyle()
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.aggregateConfiguration">aggregateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfigurationOutputReference">FsxVolumeOntapConfigurationAggregateConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.cloneConfiguration">cloneConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference">FsxVolumeOntapConfigurationCloneConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.snaplockConfiguration">snaplockConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationOutputReference">FsxVolumeOntapConfigurationSnaplockConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.tieringPolicy">tieringPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationTieringPolicyOutputReference">FsxVolumeOntapConfigurationTieringPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.aggregateConfigurationInput">aggregateConfigurationInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration">FsxVolumeOntapConfigurationAggregateConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.cloneConfigurationInput">cloneConfigurationInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration">FsxVolumeOntapConfigurationCloneConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.copyTagsToBackupsInput">copyTagsToBackupsInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.junctionPathInput">junctionPathInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.ontapVolumeTypeInput">ontapVolumeTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -3156,6 +3557,16 @@ public FsxVolumeOntapConfigurationAggregateConfigurationOutputReference getAggre
 
 ---
 
+##### `cloneConfiguration`<sup>Required</sup> <a name="cloneConfiguration" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.cloneConfiguration"></a>
+
+```java
+public FsxVolumeOntapConfigurationCloneConfigurationOutputReference getCloneConfiguration();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfigurationOutputReference">FsxVolumeOntapConfigurationCloneConfigurationOutputReference</a>
+
+---
+
 ##### `snaplockConfiguration`<sup>Required</sup> <a name="snaplockConfiguration" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.snaplockConfiguration"></a>
 
 ```java
@@ -3183,6 +3594,16 @@ public IResolvable|FsxVolumeOntapConfigurationAggregateConfiguration getAggregat
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration">FsxVolumeOntapConfigurationAggregateConfiguration</a>
+
+---
+
+##### `cloneConfigurationInput`<sup>Optional</sup> <a name="cloneConfigurationInput" id="@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationOutputReference.property.cloneConfigurationInput"></a>
+
+```java
+public IResolvable|FsxVolumeOntapConfigurationCloneConfiguration getCloneConfigurationInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationCloneConfiguration">FsxVolumeOntapConfigurationCloneConfiguration</a>
 
 ---
 

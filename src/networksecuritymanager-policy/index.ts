@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface NetworksecuritymanagerPolicyConfig extends cdktn.TerraformMetaA
   /**
   * List of templates and rules associated with this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#associated_template_and_rule_list NetworksecuritymanagerPolicy#associated_template_and_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#associated_template_and_rule_list NetworksecuritymanagerPolicy#associated_template_and_rule_list}
   */
   readonly associatedTemplateAndRuleList?: NetworksecuritymanagerPolicyAssociatedTemplateAndRuleListStruct[] | cdktn.IResolvable;
   /**
   * The type of firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#firewall_type NetworksecuritymanagerPolicy#firewall_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#firewall_type NetworksecuritymanagerPolicy#firewall_type}
   */
   readonly firewallType: string;
   /**
   * Configuration settings for policy behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#policy_configuration NetworksecuritymanagerPolicy#policy_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#policy_configuration NetworksecuritymanagerPolicy#policy_configuration}
   */
   readonly policyConfiguration: NetworksecuritymanagerPolicyPolicyConfiguration;
   /**
   * A description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#policy_description NetworksecuritymanagerPolicy#policy_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#policy_description NetworksecuritymanagerPolicy#policy_description}
   */
   readonly policyDescription?: string;
   /**
   * The name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#policy_name NetworksecuritymanagerPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#policy_name NetworksecuritymanagerPolicy#policy_name}
   */
   readonly policyName: string;
   /**
   * The priority of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#priority NetworksecuritymanagerPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#priority NetworksecuritymanagerPolicy#priority}
   */
   readonly priority: number;
   /**
   * The tags associated with the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#tags NetworksecuritymanagerPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#tags NetworksecuritymanagerPolicy#tags}
   */
   readonly tags?: NetworksecuritymanagerPolicyTags[] | cdktn.IResolvable;
 }
@@ -59,13 +59,13 @@ export interface NetworksecuritymanagerPolicyAssociatedTemplateAndRuleListStruct
   /**
   * ARN of the associated rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#rule_arn NetworksecuritymanagerPolicy#rule_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#rule_arn NetworksecuritymanagerPolicy#rule_arn}
   */
   readonly ruleArn?: string;
   /**
   * ARN of the associated template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#template_arn NetworksecuritymanagerPolicy#template_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#template_arn NetworksecuritymanagerPolicy#template_arn}
   */
   readonly templateArn?: string;
 }
@@ -208,17 +208,301 @@ export class NetworksecuritymanagerPolicyAssociatedTemplateAndRuleListStructList
     return new NetworksecuritymanagerPolicyAssociatedTemplateAndRuleListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides {
+  /**
+  * The connectivity treatment applied to the subnets that the referenced scope selects.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#connectivity_type NetworksecuritymanagerPolicy#connectivity_type}
+  */
+  readonly connectivityType?: string;
+  /**
+  * The ARN of the IGW_FIREWALL_SUBNET_CONNECTIVITY_OVERRIDE scope whose selected subnets receive ConnectivityType.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#scopes NetworksecuritymanagerPolicy#scopes}
+  */
+  readonly scopes?: string[];
+}
+
+export function networksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesToTerraform(struct?: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    connectivity_type: cdktn.stringToTerraform(struct!.connectivityType),
+    scopes: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.scopes),
+  }
+}
+
+
+export function networksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesToHclTerraform(struct?: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    connectivity_type: {
+      value: cdktn.stringToHclTerraform(struct!.connectivityType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scopes: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.scopes),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._connectivityType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.connectivityType = this._connectivityType;
+    }
+    if (this._scopes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scopes = this._scopes;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._connectivityType = undefined;
+      this._scopes = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._connectivityType = value.connectivityType;
+      this._scopes = value.scopes;
+    }
+  }
+
+  // connectivity_type - computed: true, optional: true, required: false
+  private _connectivityType?: string; 
+  public get connectivityType() {
+    return this.getStringAttribute('connectivity_type');
+  }
+  public set connectivityType(value: string) {
+    this._connectivityType = value;
+  }
+  public resetConnectivityType() {
+    this._connectivityType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get connectivityTypeInput() {
+    return this._connectivityType;
+  }
+
+  // scopes - computed: true, optional: true, required: false
+  private _scopes?: string[]; 
+  public get scopes() {
+    return this.getListAttribute('scopes');
+  }
+  public set scopes(value: string[]) {
+    this._scopes = value;
+  }
+  public resetScopes() {
+    this._scopes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopesInput() {
+    return this._scopes;
+  }
+}
+
+export class NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList extends cdktn.ComplexList {
+  public internalValue? : NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference {
+    return new NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig {
+  /**
+  * The default internet connectivity treatment applied to subnets in scope unless a subnet connectivity override applies. Required for IGW_FIREWALL policies.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#default_subnet_connectivity NetworksecuritymanagerPolicy#default_subnet_connectivity}
+  */
+  readonly defaultSubnetConnectivity?: string;
+  /**
+  * An ordered list of subnet connectivity overrides. When a subnet matches more than one override, the first match applies. At most one override per connectivity type.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#subnet_connectivity_overrides NetworksecuritymanagerPolicy#subnet_connectivity_overrides}
+  */
+  readonly subnetConnectivityOverrides?: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides[] | cdktn.IResolvable;
+}
+
+export function networksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigToTerraform(struct?: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    default_subnet_connectivity: cdktn.stringToTerraform(struct!.defaultSubnetConnectivity),
+    subnet_connectivity_overrides: cdktn.listMapper(networksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesToTerraform, false)(struct!.subnetConnectivityOverrides),
+  }
+}
+
+
+export function networksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigToHclTerraform(struct?: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    default_subnet_connectivity: {
+      value: cdktn.stringToHclTerraform(struct!.defaultSubnetConnectivity),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subnet_connectivity_overrides: {
+      value: cdktn.listMapperHcl(networksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesToHclTerraform, false)(struct!.subnetConnectivityOverrides),
+      isBlock: true,
+      type: "list",
+      storageClassType: "NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultSubnetConnectivity !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultSubnetConnectivity = this._defaultSubnetConnectivity;
+    }
+    if (this._subnetConnectivityOverrides?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subnetConnectivityOverrides = this._subnetConnectivityOverrides?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._defaultSubnetConnectivity = undefined;
+      this._subnetConnectivityOverrides.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._defaultSubnetConnectivity = value.defaultSubnetConnectivity;
+      this._subnetConnectivityOverrides.internalValue = value.subnetConnectivityOverrides;
+    }
+  }
+
+  // default_subnet_connectivity - computed: true, optional: true, required: false
+  private _defaultSubnetConnectivity?: string; 
+  public get defaultSubnetConnectivity() {
+    return this.getStringAttribute('default_subnet_connectivity');
+  }
+  public set defaultSubnetConnectivity(value: string) {
+    this._defaultSubnetConnectivity = value;
+  }
+  public resetDefaultSubnetConnectivity() {
+    this._defaultSubnetConnectivity = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultSubnetConnectivityInput() {
+    return this._defaultSubnetConnectivity;
+  }
+
+  // subnet_connectivity_overrides - computed: true, optional: true, required: false
+  private _subnetConnectivityOverrides = new NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList(this, "subnet_connectivity_overrides", false);
+  public get subnetConnectivityOverrides() {
+    return this._subnetConnectivityOverrides;
+  }
+  public putSubnetConnectivityOverrides(value: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides[] | cdktn.IResolvable) {
+    this._subnetConnectivityOverrides.internalValue = value;
+  }
+  public resetSubnetConnectivityOverrides() {
+    this._subnetConnectivityOverrides.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subnetConnectivityOverridesInput() {
+    return this._subnetConnectivityOverrides.internalValue;
+  }
+}
 export interface NetworksecuritymanagerPolicyPolicyConfigurationWafConfig {
   /**
   * Conflict-resolution strategy applied to AWS WAF policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#conflict_resolution NetworksecuritymanagerPolicy#conflict_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#conflict_resolution NetworksecuritymanagerPolicy#conflict_resolution}
   */
   readonly conflictResolution?: string;
   /**
   * Controls how Network Security Manager handles remediation when a resource already has a customer-created WebACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#existing_customer_web_acl_resolution NetworksecuritymanagerPolicy#existing_customer_web_acl_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#existing_customer_web_acl_resolution NetworksecuritymanagerPolicy#existing_customer_web_acl_resolution}
   */
   readonly existingCustomerWebAclResolution?: string;
 }
@@ -341,21 +625,27 @@ export class NetworksecuritymanagerPolicyPolicyConfigurationWafConfigOutputRefer
 }
 export interface NetworksecuritymanagerPolicyPolicyConfiguration {
   /**
+  * Internet gateway firewall policy settings. Populated only for IGW_FIREWALL firewall type policies.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#igw_firewall_config NetworksecuritymanagerPolicy#igw_firewall_config}
+  */
+  readonly igwFirewallConfig?: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig;
+  /**
   * Controls automatic remediation of non-compliant resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#remediation_enabled NetworksecuritymanagerPolicy#remediation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#remediation_enabled NetworksecuritymanagerPolicy#remediation_enabled}
   */
   readonly remediationEnabled?: boolean | cdktn.IResolvable;
   /**
   * Controls automatic cleanup of unused resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#resources_clean_up NetworksecuritymanagerPolicy#resources_clean_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#resources_clean_up NetworksecuritymanagerPolicy#resources_clean_up}
   */
   readonly resourcesCleanUp?: boolean | cdktn.IResolvable;
   /**
   * WAF-specific policy settings. Populated only for WAF firewall type policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#waf_config NetworksecuritymanagerPolicy#waf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#waf_config NetworksecuritymanagerPolicy#waf_config}
   */
   readonly wafConfig?: NetworksecuritymanagerPolicyPolicyConfigurationWafConfig;
 }
@@ -366,6 +656,7 @@ export function networksecuritymanagerPolicyPolicyConfigurationToTerraform(struc
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    igw_firewall_config: networksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigToTerraform(struct!.igwFirewallConfig),
     remediation_enabled: cdktn.booleanToTerraform(struct!.remediationEnabled),
     resources_clean_up: cdktn.booleanToTerraform(struct!.resourcesCleanUp),
     waf_config: networksecuritymanagerPolicyPolicyConfigurationWafConfigToTerraform(struct!.wafConfig),
@@ -379,6 +670,12 @@ export function networksecuritymanagerPolicyPolicyConfigurationToHclTerraform(st
     throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    igw_firewall_config: {
+      value: networksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigToHclTerraform(struct!.igwFirewallConfig),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig",
+    },
     remediation_enabled: {
       value: cdktn.booleanToHclTerraform(struct!.remediationEnabled),
       isBlock: false,
@@ -421,6 +718,10 @@ export class NetworksecuritymanagerPolicyPolicyConfigurationOutputReference exte
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._igwFirewallConfig?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.igwFirewallConfig = this._igwFirewallConfig?.internalValue;
+    }
     if (this._remediationEnabled !== undefined) {
       hasAnyValues = true;
       internalValueResult.remediationEnabled = this._remediationEnabled;
@@ -440,6 +741,7 @@ export class NetworksecuritymanagerPolicyPolicyConfigurationOutputReference exte
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._igwFirewallConfig.internalValue = undefined;
       this._remediationEnabled = undefined;
       this._resourcesCleanUp = undefined;
       this._wafConfig.internalValue = undefined;
@@ -451,10 +753,27 @@ export class NetworksecuritymanagerPolicyPolicyConfigurationOutputReference exte
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._igwFirewallConfig.internalValue = value.igwFirewallConfig;
       this._remediationEnabled = value.remediationEnabled;
       this._resourcesCleanUp = value.resourcesCleanUp;
       this._wafConfig.internalValue = value.wafConfig;
     }
+  }
+
+  // igw_firewall_config - computed: true, optional: true, required: false
+  private _igwFirewallConfig = new NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference(this, "igw_firewall_config");
+  public get igwFirewallConfig() {
+    return this._igwFirewallConfig;
+  }
+  public putIgwFirewallConfig(value: NetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig) {
+    this._igwFirewallConfig.internalValue = value;
+  }
+  public resetIgwFirewallConfig() {
+    this._igwFirewallConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get igwFirewallConfigInput() {
+    return this._igwFirewallConfig.internalValue;
   }
 
   // remediation_enabled - computed: true, optional: true, required: false
@@ -507,11 +826,11 @@ export class NetworksecuritymanagerPolicyPolicyConfigurationOutputReference exte
 }
 export interface NetworksecuritymanagerPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#key NetworksecuritymanagerPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#key NetworksecuritymanagerPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#value NetworksecuritymanagerPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#value NetworksecuritymanagerPolicy#value}
   */
   readonly value?: string;
 }
@@ -656,7 +975,7 @@ export class NetworksecuritymanagerPolicyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy awscc_networksecuritymanager_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy awscc_networksecuritymanager_policy}
 */
 export class NetworksecuritymanagerPolicy extends cdktn.TerraformResource {
 
@@ -672,7 +991,7 @@ export class NetworksecuritymanagerPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworksecuritymanagerPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworksecuritymanagerPolicy to import
-  * @param importFromId The id of the existing NetworksecuritymanagerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworksecuritymanagerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworksecuritymanagerPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -684,7 +1003,7 @@ export class NetworksecuritymanagerPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_policy awscc_networksecuritymanager_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_policy awscc_networksecuritymanager_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -695,7 +1014,7 @@ export class NetworksecuritymanagerPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networksecuritymanager_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

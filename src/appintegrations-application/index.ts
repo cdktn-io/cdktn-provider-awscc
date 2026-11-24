@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,73 +15,79 @@ export interface AppintegrationsApplicationConfig extends cdktn.TerraformMetaArg
   /**
   * The application configuration. Cannot be used when IsService is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
   */
   readonly applicationConfig?: AppintegrationsApplicationApplicationConfig;
   /**
   * Application source config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
   */
   readonly applicationSourceConfig: AppintegrationsApplicationApplicationSourceConfig;
   /**
   * The type of application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
   */
   readonly applicationType?: string;
   /**
+  * The authentication configuration. Required when ApplicationType is A2A_SERVER.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#auth_config AppintegrationsApplication#auth_config}
+  */
+  readonly authConfig?: AppintegrationsApplicationAuthConfig;
+  /**
   * The application description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
   */
   readonly description?: string;
   /**
   * The iframe configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
   */
   readonly iframeConfig?: AppintegrationsApplicationIframeConfig;
   /**
   * The initialization timeout in milliseconds. Required when IsService is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
   */
   readonly initializationTimeout?: number;
   /**
   * Indicates if the application is a service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
   */
   readonly isService?: boolean | cdktn.IResolvable;
   /**
   * The name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
   */
   readonly name: string;
   /**
   * The namespace of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
   */
   readonly namespace: string;
   /**
   * The configuration of events or requests that the application has access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
   */
   readonly permissions?: string[];
   /**
   * The tags (keys and values) associated with the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
   */
   readonly tags?: AppintegrationsApplicationTags[] | cdktn.IResolvable;
 }
 export interface AppintegrationsApplicationApplicationConfigContactHandling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}
   */
   readonly scope?: string;
 }
@@ -175,7 +181,7 @@ export class AppintegrationsApplicationApplicationConfigContactHandlingOutputRef
 }
 export interface AppintegrationsApplicationApplicationConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}
   */
   readonly contactHandling?: AppintegrationsApplicationApplicationConfigContactHandling;
 }
@@ -269,11 +275,11 @@ export class AppintegrationsApplicationApplicationConfigOutputReference extends 
 }
 export interface AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}
   */
-  readonly accessUrl: string;
+  readonly accessUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}
   */
   readonly approvedOrigins?: string[];
 }
@@ -362,13 +368,16 @@ export class AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigO
     }
   }
 
-  // access_url - computed: false, optional: false, required: true
+  // access_url - computed: true, optional: true, required: false
   private _accessUrl?: string; 
   public get accessUrl() {
     return this.getStringAttribute('access_url');
   }
   public set accessUrl(value: string) {
     this._accessUrl = value;
+  }
+  public resetAccessUrl() {
+    this._accessUrl = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get accessUrlInput() {
@@ -393,9 +402,9 @@ export class AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigO
 }
 export interface AppintegrationsApplicationApplicationSourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}
   */
-  readonly externalUrlConfig: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig;
+  readonly externalUrlConfig?: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig;
 }
 
 export function appintegrationsApplicationApplicationSourceConfigToTerraform(struct?: AppintegrationsApplicationApplicationSourceConfig | cdktn.IResolvable): any {
@@ -469,7 +478,7 @@ export class AppintegrationsApplicationApplicationSourceConfigOutputReference ex
     }
   }
 
-  // external_url_config - computed: false, optional: false, required: true
+  // external_url_config - computed: true, optional: true, required: false
   private _externalUrlConfig = new AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigOutputReference(this, "external_url_config");
   public get externalUrlConfig() {
     return this._externalUrlConfig;
@@ -477,18 +486,181 @@ export class AppintegrationsApplicationApplicationSourceConfigOutputReference ex
   public putExternalUrlConfig(value: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig) {
     this._externalUrlConfig.internalValue = value;
   }
+  public resetExternalUrlConfig() {
+    this._externalUrlConfig.internalValue = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get externalUrlConfigInput() {
     return this._externalUrlConfig.internalValue;
   }
 }
+export interface AppintegrationsApplicationAuthConfig {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#audience_override AppintegrationsApplication#audience_override}
+  */
+  readonly audienceOverride?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#auth_type AppintegrationsApplication#auth_type}
+  */
+  readonly authType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#credential_provider_identifier AppintegrationsApplication#credential_provider_identifier}
+  */
+  readonly credentialProviderIdentifier?: string;
+}
+
+export function appintegrationsApplicationAuthConfigToTerraform(struct?: AppintegrationsApplicationAuthConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    audience_override: cdktn.stringToTerraform(struct!.audienceOverride),
+    auth_type: cdktn.stringToTerraform(struct!.authType),
+    credential_provider_identifier: cdktn.stringToTerraform(struct!.credentialProviderIdentifier),
+  }
+}
+
+
+export function appintegrationsApplicationAuthConfigToHclTerraform(struct?: AppintegrationsApplicationAuthConfig | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    audience_override: {
+      value: cdktn.stringToHclTerraform(struct!.audienceOverride),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    auth_type: {
+      value: cdktn.stringToHclTerraform(struct!.authType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    credential_provider_identifier: {
+      value: cdktn.stringToHclTerraform(struct!.credentialProviderIdentifier),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class AppintegrationsApplicationAuthConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): AppintegrationsApplicationAuthConfig | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._audienceOverride !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.audienceOverride = this._audienceOverride;
+    }
+    if (this._authType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.authType = this._authType;
+    }
+    if (this._credentialProviderIdentifier !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.credentialProviderIdentifier = this._credentialProviderIdentifier;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: AppintegrationsApplicationAuthConfig | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._audienceOverride = undefined;
+      this._authType = undefined;
+      this._credentialProviderIdentifier = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._audienceOverride = value.audienceOverride;
+      this._authType = value.authType;
+      this._credentialProviderIdentifier = value.credentialProviderIdentifier;
+    }
+  }
+
+  // audience_override - computed: true, optional: true, required: false
+  private _audienceOverride?: string; 
+  public get audienceOverride() {
+    return this.getStringAttribute('audience_override');
+  }
+  public set audienceOverride(value: string) {
+    this._audienceOverride = value;
+  }
+  public resetAudienceOverride() {
+    this._audienceOverride = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get audienceOverrideInput() {
+    return this._audienceOverride;
+  }
+
+  // auth_type - computed: true, optional: true, required: false
+  private _authType?: string; 
+  public get authType() {
+    return this.getStringAttribute('auth_type');
+  }
+  public set authType(value: string) {
+    this._authType = value;
+  }
+  public resetAuthType() {
+    this._authType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authTypeInput() {
+    return this._authType;
+  }
+
+  // credential_provider_identifier - computed: true, optional: true, required: false
+  private _credentialProviderIdentifier?: string; 
+  public get credentialProviderIdentifier() {
+    return this.getStringAttribute('credential_provider_identifier');
+  }
+  public set credentialProviderIdentifier(value: string) {
+    this._credentialProviderIdentifier = value;
+  }
+  public resetCredentialProviderIdentifier() {
+    this._credentialProviderIdentifier = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get credentialProviderIdentifierInput() {
+    return this._credentialProviderIdentifier;
+  }
+}
 export interface AppintegrationsApplicationIframeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}
   */
   readonly allow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}
   */
   readonly sandbox?: string[];
 }
@@ -613,13 +785,13 @@ export interface AppintegrationsApplicationTags {
   /**
   * A key to identify the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#key AppintegrationsApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#key AppintegrationsApplication#key}
   */
   readonly key?: string;
   /**
   * Corresponding tag value for the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#value AppintegrationsApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#value AppintegrationsApplication#value}
   */
   readonly value?: string;
 }
@@ -764,7 +936,7 @@ export class AppintegrationsApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application awscc_appintegrations_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application awscc_appintegrations_application}
 */
 export class AppintegrationsApplication extends cdktn.TerraformResource {
 
@@ -780,7 +952,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppintegrationsApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppintegrationsApplication to import
-  * @param importFromId The id of the existing AppintegrationsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppintegrationsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppintegrationsApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -792,7 +964,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -803,7 +975,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appintegrations_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -817,6 +989,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
     this._applicationConfig.internalValue = config.applicationConfig;
     this._applicationSourceConfig.internalValue = config.applicationSourceConfig;
     this._applicationType = config.applicationType;
+    this._authConfig.internalValue = config.authConfig;
     this._description = config.description;
     this._iframeConfig.internalValue = config.iframeConfig;
     this._initializationTimeout = config.initializationTimeout;
@@ -884,6 +1057,22 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get applicationTypeInput() {
     return this._applicationType;
+  }
+
+  // auth_config - computed: true, optional: true, required: false
+  private _authConfig = new AppintegrationsApplicationAuthConfigOutputReference(this, "auth_config");
+  public get authConfig() {
+    return this._authConfig;
+  }
+  public putAuthConfig(value: AppintegrationsApplicationAuthConfig) {
+    this._authConfig.internalValue = value;
+  }
+  public resetAuthConfig() {
+    this._authConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authConfigInput() {
+    return this._authConfig.internalValue;
   }
 
   // description - computed: true, optional: true, required: false
@@ -955,6 +1144,16 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
     return this._isService;
   }
 
+  // last_modified_region - computed: true, optional: false, required: false
+  public get lastModifiedRegion() {
+    return this.getStringAttribute('last_modified_region');
+  }
+
+  // last_modified_time - computed: true, optional: false, required: false
+  public get lastModifiedTime() {
+    return this.getStringAttribute('last_modified_time');
+  }
+
   // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
@@ -1022,6 +1221,7 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
       application_config: appintegrationsApplicationApplicationConfigToTerraform(this._applicationConfig.internalValue),
       application_source_config: appintegrationsApplicationApplicationSourceConfigToTerraform(this._applicationSourceConfig.internalValue),
       application_type: cdktn.stringToTerraform(this._applicationType),
+      auth_config: appintegrationsApplicationAuthConfigToTerraform(this._authConfig.internalValue),
       description: cdktn.stringToTerraform(this._description),
       iframe_config: appintegrationsApplicationIframeConfigToTerraform(this._iframeConfig.internalValue),
       initialization_timeout: cdktn.numberToTerraform(this._initializationTimeout),
@@ -1052,6 +1252,12 @@ export class AppintegrationsApplication extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      auth_config: {
+        value: appintegrationsApplicationAuthConfigToHclTerraform(this._authConfig.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "AppintegrationsApplicationAuthConfig",
       },
       description: {
         value: cdktn.stringToHclTerraform(this._description),

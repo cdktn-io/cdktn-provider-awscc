@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_runtime
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_runtime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBedrockagentcoreRuntimeConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_runtime#id DataAwsccBedrockagentcoreRuntime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_runtime#id DataAwsccBedrockagentcoreRuntime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1659,6 +1659,285 @@ export class DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsList extend
     return new DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost {
+}
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostToTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostToHclTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPost | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // path - computed: true, optional: false, required: false
+  public get path() {
+    return this.getStringAttribute('path');
+  }
+
+  // port - computed: true, optional: false, required: false
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+}
+export interface DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction {
+}
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionToTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionToHclTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // http_post - computed: true, optional: false, required: false
+  private _httpPost = new DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionHttpPostOutputReference(this, "http_post");
+  public get httpPost() {
+    return this._httpPost;
+  }
+}
+export interface DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmup {
+}
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupToTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmup): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupToHclTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmup): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmup | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmup | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // action - computed: true, optional: false, required: false
+  private _action = new DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupActionOutputReference(this, "action");
+  public get action() {
+    return this._action;
+  }
+}
+export interface DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuild {
+}
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildToTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuild): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildToHclTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuild): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuild | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuild | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // warmup - computed: true, optional: false, required: false
+  private _warmup = new DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildWarmupOutputReference(this, "warmup");
+  public get warmup() {
+    return this._warmup;
+  }
+}
+export interface DataAwsccBedrockagentcoreRuntimeHooksConfiguration {
+}
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationToTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreRuntimeHooksConfigurationToHclTerraform(struct?: DataAwsccBedrockagentcoreRuntimeHooksConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreRuntimeHooksConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreRuntimeHooksConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreRuntimeHooksConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // build - computed: true, optional: false, required: false
+  private _build = new DataAwsccBedrockagentcoreRuntimeHooksConfigurationBuildOutputReference(this, "build");
+  public get buildAttribute() {
+    return this._build;
+  }
+}
 export interface DataAwsccBedrockagentcoreRuntimeLifecycleConfiguration {
 }
 
@@ -1891,6 +2170,81 @@ export class DataAwsccBedrockagentcoreRuntimeRequestHeaderConfigurationOutputRef
     return cdktn.Fn.tolist(this.getListAttribute('request_header_allowlist'));
   }
 }
+export interface DataAwsccBedrockagentcoreRuntimeResourceConfigurations {
+}
+
+export function dataAwsccBedrockagentcoreRuntimeResourceConfigurationsToTerraform(struct?: DataAwsccBedrockagentcoreRuntimeResourceConfigurations): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreRuntimeResourceConfigurationsToHclTerraform(struct?: DataAwsccBedrockagentcoreRuntimeResourceConfigurations): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreRuntimeResourceConfigurationsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreRuntimeResourceConfigurations | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreRuntimeResourceConfigurations | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // minimum_memory_in_mi_b - computed: true, optional: false, required: false
+  public get minimumMemoryInMiB() {
+    return this.getNumberAttribute('minimum_memory_in_mi_b');
+  }
+}
+
+export class DataAwsccBedrockagentcoreRuntimeResourceConfigurationsList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccBedrockagentcoreRuntimeResourceConfigurationsOutputReference {
+    return new DataAwsccBedrockagentcoreRuntimeResourceConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataAwsccBedrockagentcoreRuntimeWorkloadIdentityDetails {
 }
 
@@ -1947,7 +2301,7 @@ export class DataAwsccBedrockagentcoreRuntimeWorkloadIdentityDetailsOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}
 */
 export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource {
 
@@ -1963,7 +2317,7 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccBedrockagentcoreRuntime resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBedrockagentcoreRuntime to import
-  * @param importFromId The id of the existing DataAwsccBedrockagentcoreRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_runtime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBedrockagentcoreRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_runtime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBedrockagentcoreRuntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1975,7 +2329,7 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1986,7 +2340,7 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_bedrockagentcore_runtime',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2069,6 +2423,12 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
     return this._filesystemConfigurations;
   }
 
+  // hooks_configuration - computed: true, optional: false, required: false
+  private _hooksConfiguration = new DataAwsccBedrockagentcoreRuntimeHooksConfigurationOutputReference(this, "hooks_configuration");
+  public get hooksConfiguration() {
+    return this._hooksConfiguration;
+  }
+
   // id - computed: false, optional: false, required: true
   private _id?: string; 
   public get id() {
@@ -2113,6 +2473,12 @@ export class DataAwsccBedrockagentcoreRuntime extends cdktn.TerraformDataSource 
   private _requestHeaderConfiguration = new DataAwsccBedrockagentcoreRuntimeRequestHeaderConfigurationOutputReference(this, "request_header_configuration");
   public get requestHeaderConfiguration() {
     return this._requestHeaderConfiguration;
+  }
+
+  // resource_configurations - computed: true, optional: false, required: false
+  private _resourceConfigurations = new DataAwsccBedrockagentcoreRuntimeResourceConfigurationsList(this, "resource_configurations", false);
+  public get resourceConfigurations() {
+    return this._resourceConfigurations;
   }
 
   // role_arn - computed: true, optional: false, required: false

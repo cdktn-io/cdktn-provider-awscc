@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/wellarchitected_agent_organizational_profiles
+// https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/wellarchitected_agent_organizational_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccWellarchitectedAgentOrganizationalProfilesConfig exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/wellarchitected_agent_organizational_profiles awscc_wellarchitected_agent_organizational_profiles}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/wellarchitected_agent_organizational_profiles awscc_wellarchitected_agent_organizational_profiles}
 */
 export class DataAwsccWellarchitectedAgentOrganizationalProfiles extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccWellarchitectedAgentOrganizationalProfiles extends cdktn.T
   * Generates CDKTN code for importing a DataAwsccWellarchitectedAgentOrganizationalProfiles resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccWellarchitectedAgentOrganizationalProfiles to import
-  * @param importFromId The id of the existing DataAwsccWellarchitectedAgentOrganizationalProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/wellarchitected_agent_organizational_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccWellarchitectedAgentOrganizationalProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/wellarchitected_agent_organizational_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccWellarchitectedAgentOrganizationalProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccWellarchitectedAgentOrganizationalProfiles extends cdktn.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/wellarchitected_agent_organizational_profiles awscc_wellarchitected_agent_organizational_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/wellarchitected_agent_organizational_profiles awscc_wellarchitected_agent_organizational_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccWellarchitectedAgentOrganizationalProfiles extends cdktn.T
       terraformResourceType: 'awscc_wellarchitected_agent_organizational_profiles',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.110.0',
+        providerVersion: '1.111.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
