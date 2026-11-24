@@ -4,7 +4,7 @@
 
 ### CertificatemanagerCertificate <a name="CertificatemanagerCertificate" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer"></a>
 
@@ -25,8 +25,10 @@ certificatemanagerCertificate.CertificatemanagerCertificate(
   certificate_authority_arn: str = None,
   certificate_export: str = None,
   certificate_transparency_logging_preference: str = None,
+  certificate_usage: str = None,
   domain_validation_options: IResolvable | typing.List[CertificatemanagerCertificateDomainValidationOptions] = None,
   key_algorithm: str = None,
+  root_hierarchy_type: str = None,
   subject_alternative_names: typing.List[str] = None,
   tags: IResolvable | typing.List[CertificatemanagerCertificateTags] = None,
   validation_method: str = None
@@ -48,8 +50,10 @@ certificatemanagerCertificate.CertificatemanagerCertificate(
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.certificateAuthorityArn">certificate_authority_arn</a></code> | <code>str</code> | The Amazon Resource Name (ARN) of the private certificate authority (CA) that will be used to issue the certificate. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.certificateExport">certificate_export</a></code> | <code>str</code> | Specifies whether the certificate can be exported. ENABLED allows the certificate to be exported, DISABLED prevents export. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.certificateTransparencyLoggingPreference">certificate_transparency_logging_preference</a></code> | <code>str</code> | You can opt out of certificate transparency logging by specifying the DISABLED option. Opt in by specifying ENABLED. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.certificateUsage">certificate_usage</a></code> | <code>str</code> | The extended key usage of an Amazon N2 certificate. Valid only with RootHierarchyType. Defaults to CLIENT_AND_SERVER_AUTH. CLIENT_AUTH_ONLY requires N2_AMAZON_MANAGED. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.domainValidationOptions">domain_validation_options</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions">CertificatemanagerCertificateDomainValidationOptions</a>]</code> | Domain information that domain name registrars use to verify your identity. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.keyAlgorithm">key_algorithm</a></code> | <code>str</code> | Specifies the algorithm of the public and private key pair that your certificate uses to encrypt data. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.rootHierarchyType">root_hierarchy_type</a></code> | <code>str</code> | The Amazon N2 root hierarchy that issues the certificate. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.subjectAlternativeNames">subject_alternative_names</a></code> | <code>typing.List[str]</code> | Additional FQDNs to be included in the Subject Alternative Name extension of the ACM certificate. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateTags">CertificatemanagerCertificateTags</a>]</code> | Key-value pairs that can identify the certificate. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.validationMethod">validation_method</a></code> | <code>str</code> | The method you want to use to validate that you own or control the domain associated with a public certificate. |
@@ -122,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 The fully qualified domain name (FQDN), such as www.example.com, with which you want to secure an ACM certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}
 
 ---
 
@@ -132,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the private certificate authority (CA) that will be used to issue the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_authority_arn CertificatemanagerCertificate#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_authority_arn CertificatemanagerCertificate#certificate_authority_arn}
 
 ---
 
@@ -142,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the certificate can be exported. ENABLED allows the certificate to be exported, DISABLED prevents export.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_export CertificatemanagerCertificate#certificate_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_export CertificatemanagerCertificate#certificate_export}
 
 ---
 
@@ -152,7 +156,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 You can opt out of certificate transparency logging by specifying the DISABLED option. Opt in by specifying ENABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_transparency_logging_preference CertificatemanagerCertificate#certificate_transparency_logging_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_transparency_logging_preference CertificatemanagerCertificate#certificate_transparency_logging_preference}
+
+---
+
+##### `certificate_usage`<sup>Optional</sup> <a name="certificate_usage" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.certificateUsage"></a>
+
+- *Type:* str
+
+The extended key usage of an Amazon N2 certificate. Valid only with RootHierarchyType. Defaults to CLIENT_AND_SERVER_AUTH. CLIENT_AUTH_ONLY requires N2_AMAZON_MANAGED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_usage CertificatemanagerCertificate#certificate_usage}
 
 ---
 
@@ -162,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Domain information that domain name registrars use to verify your identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_validation_options CertificatemanagerCertificate#domain_validation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_validation_options CertificatemanagerCertificate#domain_validation_options}
 
 ---
 
@@ -172,7 +186,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the algorithm of the public and private key pair that your certificate uses to encrypt data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#key_algorithm CertificatemanagerCertificate#key_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#key_algorithm CertificatemanagerCertificate#key_algorithm}
+
+---
+
+##### `root_hierarchy_type`<sup>Optional</sup> <a name="root_hierarchy_type" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.Initializer.parameter.rootHierarchyType"></a>
+
+- *Type:* str
+
+The Amazon N2 root hierarchy that issues the certificate.
+
+Omit for a public TLS certificate. Amazon N2 roots are not trusted by browsers.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#root_hierarchy_type CertificatemanagerCertificate#root_hierarchy_type}
 
 ---
 
@@ -182,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Additional FQDNs to be included in the Subject Alternative Name extension of the ACM certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#subject_alternative_names CertificatemanagerCertificate#subject_alternative_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#subject_alternative_names CertificatemanagerCertificate#subject_alternative_names}
 
 ---
 
@@ -192,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Key-value pairs that can identify the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#tags CertificatemanagerCertificate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#tags CertificatemanagerCertificate#tags}
 
 ---
 
@@ -204,7 +230,7 @@ The method you want to use to validate that you own or control the domain associ
 
 Valid values are DNS, EMAIL or HTTP
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#validation_method CertificatemanagerCertificate#validation_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#validation_method CertificatemanagerCertificate#validation_method}
 
 ---
 
@@ -241,8 +267,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetCertificateAuthorityArn">reset_certificate_authority_arn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetCertificateExport">reset_certificate_export</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetCertificateTransparencyLoggingPreference">reset_certificate_transparency_logging_preference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetCertificateUsage">reset_certificate_usage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetDomainValidationOptions">reset_domain_validation_options</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetKeyAlgorithm">reset_key_algorithm</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetRootHierarchyType">reset_root_hierarchy_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetSubjectAlternativeNames">reset_subject_alternative_names</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetTags">reset_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetValidationMethod">reset_validation_method</a></code> | *No description.* |
@@ -643,6 +671,12 @@ def reset_certificate_export() -> None
 def reset_certificate_transparency_logging_preference() -> None
 ```
 
+##### `reset_certificate_usage` <a name="reset_certificate_usage" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetCertificateUsage"></a>
+
+```python
+def reset_certificate_usage() -> None
+```
+
 ##### `reset_domain_validation_options` <a name="reset_domain_validation_options" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetDomainValidationOptions"></a>
 
 ```python
@@ -653,6 +687,12 @@ def reset_domain_validation_options() -> None
 
 ```python
 def reset_key_algorithm() -> None
+```
+
+##### `reset_root_hierarchy_type` <a name="reset_root_hierarchy_type" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetRootHierarchyType"></a>
+
+```python
+def reset_root_hierarchy_type() -> None
 ```
 
 ##### `reset_subject_alternative_names` <a name="reset_subject_alternative_names" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.resetSubjectAlternativeNames"></a>
@@ -787,7 +827,7 @@ The construct id used in the generated config for the CertificatemanagerCertific
 
 The id of the existing CertificatemanagerCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -824,17 +864,21 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateAuthorityArnInput">certificate_authority_arn_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateExportInput">certificate_export_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateTransparencyLoggingPreferenceInput">certificate_transparency_logging_preference_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateUsageInput">certificate_usage_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.domainNameInput">domain_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.domainValidationOptionsInput">domain_validation_options_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions">CertificatemanagerCertificateDomainValidationOptions</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.keyAlgorithmInput">key_algorithm_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.rootHierarchyTypeInput">root_hierarchy_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.subjectAlternativeNamesInput">subject_alternative_names_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateTags">CertificatemanagerCertificateTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.validationMethodInput">validation_method_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateAuthorityArn">certificate_authority_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateExport">certificate_export</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateTransparencyLoggingPreference">certificate_transparency_logging_preference</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateUsage">certificate_usage</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.domainName">domain_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.keyAlgorithm">key_algorithm</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.rootHierarchyType">root_hierarchy_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.subjectAlternativeNames">subject_alternative_names</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.validationMethod">validation_method</a></code> | <code>str</code> | *No description.* |
 
@@ -1052,6 +1096,16 @@ certificate_transparency_logging_preference_input: str
 
 ---
 
+##### `certificate_usage_input`<sup>Optional</sup> <a name="certificate_usage_input" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateUsageInput"></a>
+
+```python
+certificate_usage_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `domain_name_input`<sup>Optional</sup> <a name="domain_name_input" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.domainNameInput"></a>
 
 ```python
@@ -1076,6 +1130,16 @@ domain_validation_options_input: IResolvable | typing.List[CertificatemanagerCer
 
 ```python
 key_algorithm_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `root_hierarchy_type_input`<sup>Optional</sup> <a name="root_hierarchy_type_input" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.rootHierarchyTypeInput"></a>
+
+```python
+root_hierarchy_type_input: str
 ```
 
 - *Type:* str
@@ -1142,6 +1206,16 @@ certificate_transparency_logging_preference: str
 
 ---
 
+##### `certificate_usage`<sup>Required</sup> <a name="certificate_usage" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.certificateUsage"></a>
+
+```python
+certificate_usage: str
+```
+
+- *Type:* str
+
+---
+
 ##### `domain_name`<sup>Required</sup> <a name="domain_name" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.domainName"></a>
 
 ```python
@@ -1156,6 +1230,16 @@ domain_name: str
 
 ```python
 key_algorithm: str
+```
+
+- *Type:* str
+
+---
+
+##### `root_hierarchy_type`<sup>Required</sup> <a name="root_hierarchy_type" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificate.property.rootHierarchyType"></a>
+
+```python
+root_hierarchy_type: str
 ```
 
 - *Type:* str
@@ -1221,8 +1305,10 @@ certificatemanagerCertificate.CertificatemanagerCertificateConfig(
   certificate_authority_arn: str = None,
   certificate_export: str = None,
   certificate_transparency_logging_preference: str = None,
+  certificate_usage: str = None,
   domain_validation_options: IResolvable | typing.List[CertificatemanagerCertificateDomainValidationOptions] = None,
   key_algorithm: str = None,
+  root_hierarchy_type: str = None,
   subject_alternative_names: typing.List[str] = None,
   tags: IResolvable | typing.List[CertificatemanagerCertificateTags] = None,
   validation_method: str = None
@@ -1244,8 +1330,10 @@ certificatemanagerCertificate.CertificatemanagerCertificateConfig(
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.certificateAuthorityArn">certificate_authority_arn</a></code> | <code>str</code> | The Amazon Resource Name (ARN) of the private certificate authority (CA) that will be used to issue the certificate. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.certificateExport">certificate_export</a></code> | <code>str</code> | Specifies whether the certificate can be exported. ENABLED allows the certificate to be exported, DISABLED prevents export. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.certificateTransparencyLoggingPreference">certificate_transparency_logging_preference</a></code> | <code>str</code> | You can opt out of certificate transparency logging by specifying the DISABLED option. Opt in by specifying ENABLED. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.certificateUsage">certificate_usage</a></code> | <code>str</code> | The extended key usage of an Amazon N2 certificate. Valid only with RootHierarchyType. Defaults to CLIENT_AND_SERVER_AUTH. CLIENT_AUTH_ONLY requires N2_AMAZON_MANAGED. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.domainValidationOptions">domain_validation_options</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions">CertificatemanagerCertificateDomainValidationOptions</a>]</code> | Domain information that domain name registrars use to verify your identity. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.keyAlgorithm">key_algorithm</a></code> | <code>str</code> | Specifies the algorithm of the public and private key pair that your certificate uses to encrypt data. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.rootHierarchyType">root_hierarchy_type</a></code> | <code>str</code> | The Amazon N2 root hierarchy that issues the certificate. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.subjectAlternativeNames">subject_alternative_names</a></code> | <code>typing.List[str]</code> | Additional FQDNs to be included in the Subject Alternative Name extension of the ACM certificate. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateTags">CertificatemanagerCertificateTags</a>]</code> | Key-value pairs that can identify the certificate. |
 | <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.validationMethod">validation_method</a></code> | <code>str</code> | The method you want to use to validate that you own or control the domain associated with a public certificate. |
@@ -1332,7 +1420,7 @@ domain_name: str
 
 The fully qualified domain name (FQDN), such as www.example.com, with which you want to secure an ACM certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}
 
 ---
 
@@ -1346,7 +1434,7 @@ certificate_authority_arn: str
 
 The Amazon Resource Name (ARN) of the private certificate authority (CA) that will be used to issue the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_authority_arn CertificatemanagerCertificate#certificate_authority_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_authority_arn CertificatemanagerCertificate#certificate_authority_arn}
 
 ---
 
@@ -1360,7 +1448,7 @@ certificate_export: str
 
 Specifies whether the certificate can be exported. ENABLED allows the certificate to be exported, DISABLED prevents export.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_export CertificatemanagerCertificate#certificate_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_export CertificatemanagerCertificate#certificate_export}
 
 ---
 
@@ -1374,7 +1462,21 @@ certificate_transparency_logging_preference: str
 
 You can opt out of certificate transparency logging by specifying the DISABLED option. Opt in by specifying ENABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#certificate_transparency_logging_preference CertificatemanagerCertificate#certificate_transparency_logging_preference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_transparency_logging_preference CertificatemanagerCertificate#certificate_transparency_logging_preference}
+
+---
+
+##### `certificate_usage`<sup>Optional</sup> <a name="certificate_usage" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.certificateUsage"></a>
+
+```python
+certificate_usage: str
+```
+
+- *Type:* str
+
+The extended key usage of an Amazon N2 certificate. Valid only with RootHierarchyType. Defaults to CLIENT_AND_SERVER_AUTH. CLIENT_AUTH_ONLY requires N2_AMAZON_MANAGED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#certificate_usage CertificatemanagerCertificate#certificate_usage}
 
 ---
 
@@ -1388,7 +1490,7 @@ domain_validation_options: IResolvable | typing.List[CertificatemanagerCertifica
 
 Domain information that domain name registrars use to verify your identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_validation_options CertificatemanagerCertificate#domain_validation_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_validation_options CertificatemanagerCertificate#domain_validation_options}
 
 ---
 
@@ -1402,7 +1504,23 @@ key_algorithm: str
 
 Specifies the algorithm of the public and private key pair that your certificate uses to encrypt data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#key_algorithm CertificatemanagerCertificate#key_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#key_algorithm CertificatemanagerCertificate#key_algorithm}
+
+---
+
+##### `root_hierarchy_type`<sup>Optional</sup> <a name="root_hierarchy_type" id="@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateConfig.property.rootHierarchyType"></a>
+
+```python
+root_hierarchy_type: str
+```
+
+- *Type:* str
+
+The Amazon N2 root hierarchy that issues the certificate.
+
+Omit for a public TLS certificate. Amazon N2 roots are not trusted by browsers.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#root_hierarchy_type CertificatemanagerCertificate#root_hierarchy_type}
 
 ---
 
@@ -1416,7 +1534,7 @@ subject_alternative_names: typing.List[str]
 
 Additional FQDNs to be included in the Subject Alternative Name extension of the ACM certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#subject_alternative_names CertificatemanagerCertificate#subject_alternative_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#subject_alternative_names CertificatemanagerCertificate#subject_alternative_names}
 
 ---
 
@@ -1430,7 +1548,7 @@ tags: IResolvable | typing.List[CertificatemanagerCertificateTags]
 
 Key-value pairs that can identify the certificate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#tags CertificatemanagerCertificate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#tags CertificatemanagerCertificate#tags}
 
 ---
 
@@ -1446,7 +1564,7 @@ The method you want to use to validate that you own or control the domain associ
 
 Valid values are DNS, EMAIL or HTTP
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#validation_method CertificatemanagerCertificate#validation_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#validation_method CertificatemanagerCertificate#validation_method}
 
 ---
 
@@ -1468,9 +1586,9 @@ certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptio
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions.property.domainName">domain_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}. |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions.property.hostedZoneId">hosted_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#hosted_zone_id CertificatemanagerCertificate#hosted_zone_id}. |
-| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions.property.validationDomain">validation_domain</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#validation_domain CertificatemanagerCertificate#validation_domain}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions.property.domainName">domain_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions.property.hostedZoneId">hosted_zone_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#hosted_zone_id CertificatemanagerCertificate#hosted_zone_id}. |
+| <code><a href="#@cdktn/provider-awscc.certificatemanagerCertificate.CertificatemanagerCertificateDomainValidationOptions.property.validationDomain">validation_domain</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#validation_domain CertificatemanagerCertificate#validation_domain}. |
 
 ---
 
@@ -1482,7 +1600,7 @@ domain_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}.
 
 ---
 
@@ -1494,7 +1612,7 @@ hosted_zone_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#hosted_zone_id CertificatemanagerCertificate#hosted_zone_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#hosted_zone_id CertificatemanagerCertificate#hosted_zone_id}.
 
 ---
 
@@ -1506,7 +1624,7 @@ validation_domain: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#validation_domain CertificatemanagerCertificate#validation_domain}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#validation_domain CertificatemanagerCertificate#validation_domain}.
 
 ---
 
@@ -1542,7 +1660,7 @@ key: str
 
 The tag's key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#key CertificatemanagerCertificate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#key CertificatemanagerCertificate#key}
 
 ---
 
@@ -1556,7 +1674,7 @@ value: str
 
 The tag's value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/certificatemanager_certificate#value CertificatemanagerCertificate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/certificatemanager_certificate#value CertificatemanagerCertificate#value}
 
 ---
 

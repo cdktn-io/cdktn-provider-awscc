@@ -4,7 +4,7 @@
 
 ### CloudformationGeneratedTemplate <a name="CloudformationGeneratedTemplate" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.putTemplateConfiguration">putTemplateConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.resetStackId">resetStackId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.resetTemplateConfiguration">resetTemplateConfiguration</a></code> | *No description.* |
 
 ---
@@ -400,6 +401,12 @@ public putTemplateConfiguration(value: CloudformationGeneratedTemplateTemplateCo
 
 ---
 
+##### `resetStackId` <a name="resetStackId" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.resetStackId"></a>
+
+```typescript
+public resetStackId(): void
+```
+
 ##### `resetTemplateConfiguration` <a name="resetTemplateConfiguration" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.resetTemplateConfiguration"></a>
 
 ```typescript
@@ -509,7 +516,7 @@ The construct id used in the generated config for the CloudformationGeneratedTem
 
 The id of the existing CloudformationGeneratedTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -548,8 +555,10 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.templateConfiguration">templateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateTemplateConfigurationOutputReference">CloudformationGeneratedTemplateTemplateConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.totalWarnings">totalWarnings</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.generatedTemplateNameInput">generatedTemplateNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.stackIdInput">stackIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.templateConfigurationInput">templateConfigurationInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateTemplateConfiguration">CloudformationGeneratedTemplateTemplateConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.generatedTemplateName">generatedTemplateName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.stackId">stackId</a></code> | <code>string</code> | *No description.* |
 
 ---
 
@@ -785,6 +794,16 @@ public readonly generatedTemplateNameInput: string;
 
 ---
 
+##### `stackIdInput`<sup>Optional</sup> <a name="stackIdInput" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.stackIdInput"></a>
+
+```typescript
+public readonly stackIdInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `templateConfigurationInput`<sup>Optional</sup> <a name="templateConfigurationInput" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.templateConfigurationInput"></a>
 
 ```typescript
@@ -799,6 +818,16 @@ public readonly templateConfigurationInput: IResolvable | CloudformationGenerate
 
 ```typescript
 public readonly generatedTemplateName: string;
+```
+
+- *Type:* string
+
+---
+
+##### `stackId`<sup>Required</sup> <a name="stackId" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplate.property.stackId"></a>
+
+```typescript
+public readonly stackId: string;
 ```
 
 - *Type:* string
@@ -847,6 +876,7 @@ const cloudformationGeneratedTemplateConfig: cloudformationGeneratedTemplate.Clo
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateConfig.property.generatedTemplateName">generatedTemplateName</a></code> | <code>string</code> | The name assigned to the generated template. |
+| <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateConfig.property.stackId">stackId</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the stack to use as the base stack for the generated template. |
 | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateConfig.property.templateConfiguration">templateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateTemplateConfiguration">CloudformationGeneratedTemplateTemplateConfiguration</a></code> | The configuration details of the generated template. |
 
 ---
@@ -931,7 +961,21 @@ public readonly generatedTemplateName: string;
 
 The name assigned to the generated template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#generated_template_name CloudformationGeneratedTemplate#generated_template_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#generated_template_name CloudformationGeneratedTemplate#generated_template_name}
+
+---
+
+##### `stackId`<sup>Optional</sup> <a name="stackId" id="@cdktn/provider-awscc.cloudformationGeneratedTemplate.CloudformationGeneratedTemplateConfig.property.stackId"></a>
+
+```typescript
+public readonly stackId: string;
+```
+
+- *Type:* string
+
+The Amazon Resource Name (ARN) of the stack to use as the base stack for the generated template.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#stack_id CloudformationGeneratedTemplate#stack_id}
 
 ---
 
@@ -945,7 +989,7 @@ public readonly templateConfiguration: CloudformationGeneratedTemplateTemplateCo
 
 The configuration details of the generated template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#template_configuration CloudformationGeneratedTemplate#template_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#template_configuration CloudformationGeneratedTemplate#template_configuration}
 
 ---
 
@@ -989,7 +1033,7 @@ public readonly deletionPolicy: string;
 
 The DeletionPolicy assigned to resources in the generated template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#deletion_policy CloudformationGeneratedTemplate#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#deletion_policy CloudformationGeneratedTemplate#deletion_policy}
 
 ---
 
@@ -1003,7 +1047,7 @@ public readonly updateReplacePolicy: string;
 
 The UpdateReplacePolicy assigned to resources in the generated template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudformation_generated_template#update_replace_policy CloudformationGeneratedTemplate#update_replace_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudformation_generated_template#update_replace_policy CloudformationGeneratedTemplate#update_replace_policy}
 
 ---
 

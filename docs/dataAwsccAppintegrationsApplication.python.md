@@ -4,7 +4,7 @@
 
 ### DataAwsccAppintegrationsApplication <a name="DataAwsccAppintegrationsApplication" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appintegrations_application awscc_appintegrations_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appintegrations_application awscc_appintegrations_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appintegrations_application#id DataAwsccAppintegrationsApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appintegrations_application#id DataAwsccAppintegrationsApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccAppintegrationsAp
 
 The id of the existing DataAwsccAppintegrationsApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appintegrations_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appintegrations_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -525,10 +525,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.applicationId">application_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.applicationSourceConfig">application_source_config</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationApplicationSourceConfigOutputReference">DataAwsccAppintegrationsApplicationApplicationSourceConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.applicationType">application_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.authConfig">auth_config</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference">DataAwsccAppintegrationsApplicationAuthConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.iframeConfig">iframe_config</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationIframeConfigOutputReference">DataAwsccAppintegrationsApplicationIframeConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.initializationTimeout">initialization_timeout</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.isService">is_service</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.lastModifiedRegion">last_modified_region</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.lastModifiedTime">last_modified_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.namespace">namespace</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.permissions">permissions</a></code> | <code>typing.List[str]</code> | *No description.* |
@@ -710,6 +713,16 @@ application_type: str
 
 ---
 
+##### `auth_config`<sup>Required</sup> <a name="auth_config" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.authConfig"></a>
+
+```python
+auth_config: DataAwsccAppintegrationsApplicationAuthConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference">DataAwsccAppintegrationsApplicationAuthConfigOutputReference</a>
+
+---
+
 ##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.description"></a>
 
 ```python
@@ -747,6 +760,26 @@ is_service: IResolvable
 ```
 
 - *Type:* cdktn.IResolvable
+
+---
+
+##### `last_modified_region`<sup>Required</sup> <a name="last_modified_region" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.lastModifiedRegion"></a>
+
+```python
+last_modified_region: str
+```
+
+- *Type:* str
+
+---
+
+##### `last_modified_time`<sup>Required</sup> <a name="last_modified_time" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplication.property.lastModifiedTime"></a>
+
+```python
+last_modified_time: str
+```
+
+- *Type:* str
 
 ---
 
@@ -874,6 +907,17 @@ dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationApplicati
 ```
 
 
+### DataAwsccAppintegrationsApplicationAuthConfig <a name="DataAwsccAppintegrationsApplicationAuthConfig" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfig.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_appintegrations_application
+
+dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfig()
+```
+
+
 ### DataAwsccAppintegrationsApplicationConfig <a name="DataAwsccAppintegrationsApplicationConfig" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationConfig.Initializer"></a>
@@ -988,7 +1032,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/appintegrations_application#id DataAwsccAppintegrationsApplication#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/appintegrations_application#id DataAwsccAppintegrationsApplication#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2166,6 +2210,313 @@ internal_value: DataAwsccAppintegrationsApplicationApplicationSourceConfig
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationApplicationSourceConfig">DataAwsccAppintegrationsApplicationApplicationSourceConfig</a>
+
+---
+
+
+### DataAwsccAppintegrationsApplicationAuthConfigOutputReference <a name="DataAwsccAppintegrationsApplicationAuthConfigOutputReference" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_appintegrations_application
+
+dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.audienceOverride">audience_override</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.authType">auth_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.credentialProviderIdentifier">credential_provider_identifier</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfig">DataAwsccAppintegrationsApplicationAuthConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `audience_override`<sup>Required</sup> <a name="audience_override" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.audienceOverride"></a>
+
+```python
+audience_override: str
+```
+
+- *Type:* str
+
+---
+
+##### `auth_type`<sup>Required</sup> <a name="auth_type" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.authType"></a>
+
+```python
+auth_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `credential_provider_identifier`<sup>Required</sup> <a name="credential_provider_identifier" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.credentialProviderIdentifier"></a>
+
+```python
+credential_provider_identifier: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccAppintegrationsApplicationAuthConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccAppintegrationsApplication.DataAwsccAppintegrationsApplicationAuthConfig">DataAwsccAppintegrationsApplicationAuthConfig</a>
 
 ---
 

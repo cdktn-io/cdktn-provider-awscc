@@ -4,7 +4,7 @@
 
 ### CloudtrailTrail <a name="CloudtrailTrail" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail awscc_cloudtrail_trail}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail awscc_cloudtrail_trail}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.Initializer"></a>
 
@@ -90,6 +90,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetIsMultiRegionTrail">resetIsMultiRegionTrail</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetIsOrganizationTrail">resetIsOrganizationTrail</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetKmsKeyId">resetKmsKeyId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetRecursiveLogging">resetRecursiveLogging</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetS3KeyPrefix">resetS3KeyPrefix</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetSnsTopicName">resetSnsTopicName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetTags">resetTags</a></code> | *No description.* |
@@ -532,6 +533,12 @@ public resetIsOrganizationTrail(): void
 public resetKmsKeyId(): void
 ```
 
+##### `resetRecursiveLogging` <a name="resetRecursiveLogging" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetRecursiveLogging"></a>
+
+```typescript
+public resetRecursiveLogging(): void
+```
+
 ##### `resetS3KeyPrefix` <a name="resetS3KeyPrefix" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.resetS3KeyPrefix"></a>
 
 ```typescript
@@ -659,7 +666,7 @@ The construct id used in the generated config for the CloudtrailTrail to import.
 
 The id of the existing CloudtrailTrail that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -709,6 +716,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.isMultiRegionTrailInput">isMultiRegionTrailInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.isOrganizationTrailInput">isOrganizationTrailInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.kmsKeyIdInput">kmsKeyIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.recursiveLoggingInput">recursiveLoggingInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.s3BucketNameInput">s3BucketNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.s3KeyPrefixInput">s3KeyPrefixInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.snsTopicNameInput">snsTopicNameInput</a></code> | <code>string</code> | *No description.* |
@@ -722,6 +730,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.isMultiRegionTrail">isMultiRegionTrail</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.isOrganizationTrail">isOrganizationTrail</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.kmsKeyId">kmsKeyId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.recursiveLogging">recursiveLogging</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.s3BucketName">s3BucketName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.s3KeyPrefix">s3KeyPrefix</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.snsTopicName">snsTopicName</a></code> | <code>string</code> | *No description.* |
@@ -1071,6 +1080,16 @@ public readonly kmsKeyIdInput: string;
 
 ---
 
+##### `recursiveLoggingInput`<sup>Optional</sup> <a name="recursiveLoggingInput" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.recursiveLoggingInput"></a>
+
+```typescript
+public readonly recursiveLoggingInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
 ##### `s3BucketNameInput`<sup>Optional</sup> <a name="s3BucketNameInput" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.s3BucketNameInput"></a>
 
 ```typescript
@@ -1201,6 +1220,16 @@ public readonly kmsKeyId: string;
 
 ---
 
+##### `recursiveLogging`<sup>Required</sup> <a name="recursiveLogging" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.recursiveLogging"></a>
+
+```typescript
+public readonly recursiveLogging: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
 ##### `s3BucketName`<sup>Required</sup> <a name="s3BucketName" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrail.property.s3BucketName"></a>
 
 ```typescript
@@ -1290,7 +1319,7 @@ public readonly fieldSelectors: IResolvable | CloudtrailTrailAdvancedEventSelect
 
 Contains all selector statements in an advanced event selector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#field_selectors CloudtrailTrail#field_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#field_selectors CloudtrailTrail#field_selectors}
 
 ---
 
@@ -1304,7 +1333,7 @@ public readonly name: string;
 
 An optional, descriptive name for an advanced event selector, such as "Log data events for only two S3 buckets".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#name CloudtrailTrail#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#name CloudtrailTrail#name}
 
 ---
 
@@ -1342,7 +1371,7 @@ public readonly endsWith: string[];
 
 An operator that includes events that match the last few characters of the event record field specified as the value of Field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#ends_with CloudtrailTrail#ends_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#ends_with CloudtrailTrail#ends_with}
 
 ---
 
@@ -1358,7 +1387,7 @@ An operator that includes events that match the exact value of the event record 
 
 This is the only valid operator that you can use with the readOnly, eventCategory, and resources.type fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#equals CloudtrailTrail#equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#equals CloudtrailTrail#equals}
 
 ---
 
@@ -1374,7 +1403,7 @@ A field in an event record on which to filter events to be logged.
 
 Supported fields include readOnly, eventCategory, eventSource (for management events), eventName, resources.type, and resources.ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#field CloudtrailTrail#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#field CloudtrailTrail#field}
 
 ---
 
@@ -1388,7 +1417,7 @@ public readonly notEndsWith: string[];
 
 An operator that excludes events that match the last few characters of the event record field specified as the value of Field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#not_ends_with CloudtrailTrail#not_ends_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#not_ends_with CloudtrailTrail#not_ends_with}
 
 ---
 
@@ -1402,7 +1431,7 @@ public readonly notEquals: string[];
 
 An operator that excludes events that match the exact value of the event record field specified as the value of Field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#not_equals CloudtrailTrail#not_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#not_equals CloudtrailTrail#not_equals}
 
 ---
 
@@ -1416,7 +1445,7 @@ public readonly notStartsWith: string[];
 
 An operator that excludes events that match the first few characters of the event record field specified as the value of Field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#not_starts_with CloudtrailTrail#not_starts_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#not_starts_with CloudtrailTrail#not_starts_with}
 
 ---
 
@@ -1430,7 +1459,7 @@ public readonly startsWith: string[];
 
 An operator that includes events that match the first few characters of the event record field specified as the value of Field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#starts_with CloudtrailTrail#starts_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#starts_with CloudtrailTrail#starts_with}
 
 ---
 
@@ -1463,7 +1492,7 @@ public readonly eventCategory: string;
 
 The category of events to be aggregated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#event_category CloudtrailTrail#event_category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#event_category CloudtrailTrail#event_category}
 
 ---
 
@@ -1477,7 +1506,7 @@ public readonly templates: string[];
 
 Contains all templates in an aggregation configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#templates CloudtrailTrail#templates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#templates CloudtrailTrail#templates}
 
 ---
 
@@ -1515,10 +1544,11 @@ const cloudtrailTrailConfig: cloudtrailTrail.CloudtrailTrailConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.isMultiRegionTrail">isMultiRegionTrail</a></code> | <code>boolean \| cdktn.IResolvable</code> | Specifies whether the trail applies only to the current region or to all regions. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.isOrganizationTrail">isOrganizationTrail</a></code> | <code>boolean \| cdktn.IResolvable</code> | Specifies whether the trail is created for all accounts in an organization in AWS Organizations, or only for the current AWS account. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.kmsKeyId">kmsKeyId</a></code> | <code>string</code> | Specifies the KMS key ID to use to encrypt the logs delivered by CloudTrail. |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.recursiveLogging">recursiveLogging</a></code> | <code>boolean \| cdktn.IResolvable</code> | Specifies whether recursive logging is enabled for the trail. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.s3KeyPrefix">s3KeyPrefix</a></code> | <code>string</code> | Specifies the Amazon S3 key prefix that comes after the name of the bucket you have designated for log file delivery. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.snsTopicName">snsTopicName</a></code> | <code>string</code> | Specifies the name of the Amazon SNS topic defined for notification of log file delivery. |
-| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailTags">CloudtrailTrailTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#tags CloudtrailTrail#tags}. |
-| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.trailName">trailName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#trail_name CloudtrailTrail#trail_name}. |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailTags">CloudtrailTrailTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#tags CloudtrailTrail#tags}. |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.trailName">trailName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#trail_name CloudtrailTrail#trail_name}. |
 
 ---
 
@@ -1602,7 +1632,7 @@ public readonly isLogging: boolean | IResolvable;
 
 Whether the CloudTrail is currently logging AWS API calls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#is_logging CloudtrailTrail#is_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#is_logging CloudtrailTrail#is_logging}
 
 ---
 
@@ -1616,7 +1646,7 @@ public readonly s3BucketName: string;
 
 Specifies the name of the Amazon S3 bucket designated for publishing log files. See Amazon S3 Bucket Naming Requirements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#s3_bucket_name CloudtrailTrail#s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#s3_bucket_name CloudtrailTrail#s3_bucket_name}
 
 ---
 
@@ -1630,7 +1660,7 @@ public readonly advancedEventSelectors: IResolvable | CloudtrailTrailAdvancedEve
 
 The advanced event selectors that were used to select events for the data store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#advanced_event_selectors CloudtrailTrail#advanced_event_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#advanced_event_selectors CloudtrailTrail#advanced_event_selectors}
 
 ---
 
@@ -1644,7 +1674,7 @@ public readonly aggregationConfigurations: IResolvable | CloudtrailTrailAggregat
 
 Specifies the aggregation configuration to aggregate CloudTrail Events. A maximum of 1 aggregation configuration is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#aggregation_configurations CloudtrailTrail#aggregation_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#aggregation_configurations CloudtrailTrail#aggregation_configurations}
 
 ---
 
@@ -1660,7 +1690,7 @@ Specifies a log group name using an Amazon Resource Name (ARN), a unique identif
 
 Not required unless you specify CloudWatchLogsRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#cloudwatch_logs_log_group_arn CloudtrailTrail#cloudwatch_logs_log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#cloudwatch_logs_log_group_arn CloudtrailTrail#cloudwatch_logs_log_group_arn}
 
 ---
 
@@ -1674,7 +1704,7 @@ public readonly cloudwatchLogsRoleArn: string;
 
 Specifies the role for the CloudWatch Logs endpoint to assume to write to a user's log group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#cloudwatch_logs_role_arn CloudtrailTrail#cloudwatch_logs_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#cloudwatch_logs_role_arn CloudtrailTrail#cloudwatch_logs_role_arn}
 
 ---
 
@@ -1688,7 +1718,7 @@ public readonly enableLogFileValidation: boolean | IResolvable;
 
 Specifies whether log file validation is enabled. The default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#enable_log_file_validation CloudtrailTrail#enable_log_file_validation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#enable_log_file_validation CloudtrailTrail#enable_log_file_validation}
 
 ---
 
@@ -1704,7 +1734,7 @@ Use event selectors to further specify the management and data event settings fo
 
 By default, trails created without specific event selectors will be configured to log all read and write management events, and no data events. When an event occurs in your account, CloudTrail evaluates the event selector for all trails. For each trail, if the event matches any event selector, the trail processes and logs the event. If the event doesn't match any event selector, the trail doesn't log the event. You can configure up to five event selectors for a trail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#event_selectors CloudtrailTrail#event_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#event_selectors CloudtrailTrail#event_selectors}
 
 ---
 
@@ -1718,7 +1748,7 @@ public readonly includeGlobalServiceEvents: boolean | IResolvable;
 
 Specifies whether the trail is publishing events from global services such as IAM to the log files.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#include_global_service_events CloudtrailTrail#include_global_service_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#include_global_service_events CloudtrailTrail#include_global_service_events}
 
 ---
 
@@ -1732,7 +1762,7 @@ public readonly insightSelectors: IResolvable | CloudtrailTrailInsightSelectors[
 
 Lets you enable Insights event logging by specifying the Insights selectors that you want to enable on an existing trail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#insight_selectors CloudtrailTrail#insight_selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#insight_selectors CloudtrailTrail#insight_selectors}
 
 ---
 
@@ -1748,7 +1778,7 @@ Specifies whether the trail applies only to the current region or to all regions
 
 The default is false. If the trail exists only in the current region and this value is set to true, shadow trails (replications of the trail) will be created in the other regions. If the trail exists in all regions and this value is set to false, the trail will remain in the region where it was created, and its shadow trails in other regions will be deleted. As a best practice, consider using trails that log events in all regions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#is_multi_region_trail CloudtrailTrail#is_multi_region_trail}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#is_multi_region_trail CloudtrailTrail#is_multi_region_trail}
 
 ---
 
@@ -1764,7 +1794,7 @@ Specifies whether the trail is created for all accounts in an organization in AW
 
 The default is false, and cannot be true unless the call is made on behalf of an AWS account that is the master account for an organization in AWS Organizations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#is_organization_trail CloudtrailTrail#is_organization_trail}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#is_organization_trail CloudtrailTrail#is_organization_trail}
 
 ---
 
@@ -1780,7 +1810,23 @@ Specifies the KMS key ID to use to encrypt the logs delivered by CloudTrail.
 
 The value can be an alias name prefixed by 'alias/', a fully specified ARN to an alias, a fully specified ARN to a key, or a globally unique identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#kms_key_id CloudtrailTrail#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#kms_key_id CloudtrailTrail#kms_key_id}
+
+---
+
+##### `recursiveLogging`<sup>Optional</sup> <a name="recursiveLogging" id="@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailConfig.property.recursiveLogging"></a>
+
+```typescript
+public readonly recursiveLogging: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Specifies whether recursive logging is enabled for the trail.
+
+When set to false, CloudTrail will suppress recursive delivery events (such as PutObject events generated when CloudTrail delivers log files to the trail S3 bucket). The default is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#recursive_logging CloudtrailTrail#recursive_logging}
 
 ---
 
@@ -1796,7 +1842,7 @@ Specifies the Amazon S3 key prefix that comes after the name of the bucket you h
 
 For more information, see Finding Your CloudTrail Log Files. The maximum length is 200 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#s3_key_prefix CloudtrailTrail#s3_key_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#s3_key_prefix CloudtrailTrail#s3_key_prefix}
 
 ---
 
@@ -1812,7 +1858,7 @@ Specifies the name of the Amazon SNS topic defined for notification of log file 
 
 The maximum length is 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#sns_topic_name CloudtrailTrail#sns_topic_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#sns_topic_name CloudtrailTrail#sns_topic_name}
 
 ---
 
@@ -1824,7 +1870,7 @@ public readonly tags: IResolvable | CloudtrailTrailTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailTags">CloudtrailTrailTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#tags CloudtrailTrail#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#tags CloudtrailTrail#tags}.
 
 ---
 
@@ -1836,7 +1882,7 @@ public readonly trailName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#trail_name CloudtrailTrail#trail_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#trail_name CloudtrailTrail#trail_name}.
 
 ---
 
@@ -1854,7 +1900,7 @@ const cloudtrailTrailEventSelectors: cloudtrailTrail.CloudtrailTrailEventSelecto
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailEventSelectors.property.dataResources">dataResources</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailEventSelectorsDataResources">CloudtrailTrailEventSelectorsDataResources</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#data_resources CloudtrailTrail#data_resources}. |
+| <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailEventSelectors.property.dataResources">dataResources</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailEventSelectorsDataResources">CloudtrailTrailEventSelectorsDataResources</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#data_resources CloudtrailTrail#data_resources}. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailEventSelectors.property.excludeManagementEventSources">excludeManagementEventSources</a></code> | <code>string[]</code> | An optional list of service event sources from which you do not want management events to be logged on your trail. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailEventSelectors.property.includeManagementEvents">includeManagementEvents</a></code> | <code>boolean \| cdktn.IResolvable</code> | Specify if you want your event selector to include management events for your trail. |
 | <code><a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailEventSelectors.property.readWriteType">readWriteType</a></code> | <code>string</code> | Specify if you want your trail to log read-only events, write-only events, or all. |
@@ -1869,7 +1915,7 @@ public readonly dataResources: IResolvable | CloudtrailTrailEventSelectorsDataRe
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.cloudtrailTrail.CloudtrailTrailEventSelectorsDataResources">CloudtrailTrailEventSelectorsDataResources</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#data_resources CloudtrailTrail#data_resources}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#data_resources CloudtrailTrail#data_resources}.
 
 ---
 
@@ -1885,7 +1931,7 @@ An optional list of service event sources from which you do not want management 
 
 In this release, the list can be empty (disables the filter), or it can filter out AWS Key Management Service events by containing "kms.amazonaws.com". By default, ExcludeManagementEventSources is empty, and AWS KMS events are included in events that are logged to your trail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#exclude_management_event_sources CloudtrailTrail#exclude_management_event_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#exclude_management_event_sources CloudtrailTrail#exclude_management_event_sources}
 
 ---
 
@@ -1899,7 +1945,7 @@ public readonly includeManagementEvents: boolean | IResolvable;
 
 Specify if you want your event selector to include management events for your trail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#include_management_events CloudtrailTrail#include_management_events}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#include_management_events CloudtrailTrail#include_management_events}
 
 ---
 
@@ -1915,7 +1961,7 @@ Specify if you want your trail to log read-only events, write-only events, or al
 
 For example, the EC2 GetConsoleOutput is a read-only API operation and RunInstances is a write-only API operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#read_write_type CloudtrailTrail#read_write_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#read_write_type CloudtrailTrail#read_write_type}
 
 ---
 
@@ -1948,7 +1994,7 @@ public readonly type: string;
 
 The resource type in which you want to log data events. You can specify AWS::S3::Object or AWS::Lambda::Function resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#type CloudtrailTrail#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#type CloudtrailTrail#type}
 
 ---
 
@@ -1962,7 +2008,7 @@ public readonly values: string[];
 
 An array of Amazon Resource Name (ARN) strings or partial ARN strings for the specified objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#values CloudtrailTrail#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#values CloudtrailTrail#values}
 
 ---
 
@@ -1995,7 +2041,7 @@ public readonly eventCategories: string[];
 
 The categories of events for which to log insights. By default, insights are logged for management events only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#event_categories CloudtrailTrail#event_categories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#event_categories CloudtrailTrail#event_categories}
 
 ---
 
@@ -2009,7 +2055,7 @@ public readonly insightType: string;
 
 The type of insight to log on a trail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#insight_type CloudtrailTrail#insight_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#insight_type CloudtrailTrail#insight_type}
 
 ---
 
@@ -2044,7 +2090,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 127 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#key CloudtrailTrail#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#key CloudtrailTrail#key}
 
 ---
 
@@ -2060,7 +2106,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudtrail_trail#value CloudtrailTrail#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudtrail_trail#value CloudtrailTrail#value}
 
 ---
 

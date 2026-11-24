@@ -4,7 +4,7 @@
 
 ### DataAwsccSsmCloudConnector <a name="DataAwsccSsmCloudConnector" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ssm_cloud_connector awscc_ssm_cloud_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ssm_cloud_connector awscc_ssm_cloud_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnector.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSsmCloudConnector
 
 The id of the existing DataAwsccSsmCloudConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -806,7 +806,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ssm_cloud_connector#id DataAwsccSsmCloudConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ssm_cloud_connector#id DataAwsccSsmCloudConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -860,6 +860,45 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudco
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
 
 &dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTargetsSubscriptions {
+
+}
+```
+
+
+### DataAwsccSsmCloudConnectorConfigurationGcpConfiguration <a name="DataAwsccSsmCloudConnectorConfigurationGcpConfiguration" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
+
+&dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfigurationGcpConfiguration {
+
+}
+```
+
+
+### DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets <a name="DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
+
+&dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets {
+
+}
+```
+
+
+### DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects <a name="DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
+
+&dataawsccssmcloudconnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects {
 
 }
 ```
@@ -1882,6 +1921,997 @@ func InternalValue() DataAwsccSsmCloudConnectorConfigurationAzureConfigurationTa
 ---
 
 
+### DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference <a name="DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
+
+dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.organizationId">OrganizationId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.serviceAccountEmail">ServiceAccountEmail</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.targets">Targets</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.workloadIdentityPoolProvider">WorkloadIdentityPoolProvider</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfiguration">DataAwsccSsmCloudConnectorConfigurationGcpConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `OrganizationId`<sup>Required</sup> <a name="OrganizationId" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.organizationId"></a>
+
+```go
+func OrganizationId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ServiceAccountEmail`<sup>Required</sup> <a name="ServiceAccountEmail" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.serviceAccountEmail"></a>
+
+```go
+func ServiceAccountEmail() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Targets`<sup>Required</sup> <a name="Targets" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.targets"></a>
+
+```go
+func Targets() DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference</a>
+
+---
+
+##### `WorkloadIdentityPoolProvider`<sup>Required</sup> <a name="WorkloadIdentityPoolProvider" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.workloadIdentityPoolProvider"></a>
+
+```go
+func WorkloadIdentityPoolProvider() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccSsmCloudConnectorConfigurationGcpConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfiguration">DataAwsccSsmCloudConnectorConfigurationGcpConfiguration</a>
+
+---
+
+
+### DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference <a name="DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
+
+dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.projects">Projects</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Projects`<sup>Required</sup> <a name="Projects" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.projects"></a>
+
+```go
+func Projects() DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargets</a>
+
+---
+
+
+### DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList <a name="DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
+
+dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList(terraformResource IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.allWithMapKey"></a>
+
+```go
+func AllWithMapKey(mapKeyAttributeName *string) DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* *string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.get"></a>
+
+```go
+func Get(index *f64) DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.get.parameter.index"></a>
+
+- *Type:* *f64
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+
+### DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference <a name="DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcloudconnector"
+
+dataawsccssmcloudconnector.NewDataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string, complexObjectIndex *f64, complexObjectIsFromSet *bool) DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>*f64</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>*bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* *f64
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* *bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectDisplayName">ProjectDisplayName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectId">ProjectId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ProjectDisplayName`<sup>Required</sup> <a name="ProjectDisplayName" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectDisplayName"></a>
+
+```go
+func ProjectDisplayName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ProjectId`<sup>Required</sup> <a name="ProjectId" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectId"></a>
+
+```go
+func ProjectId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>
+
+---
+
+
 ### DataAwsccSsmCloudConnectorConfigurationOutputReference <a name="DataAwsccSsmCloudConnectorConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference.Initializer"></a>
@@ -2093,6 +3123,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference.property.azureConfiguration">AzureConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationOutputReference">DataAwsccSsmCloudConnectorConfigurationAzureConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference.property.gcpConfiguration">GcpConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfiguration">DataAwsccSsmCloudConnectorConfiguration</a></code> | *No description.* |
 
 ---
@@ -2128,6 +3159,16 @@ func AzureConfiguration() DataAwsccSsmCloudConnectorConfigurationAzureConfigurat
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationAzureConfigurationOutputReference">DataAwsccSsmCloudConnectorConfigurationAzureConfigurationOutputReference</a>
+
+---
+
+##### `GcpConfiguration`<sup>Required</sup> <a name="GcpConfiguration" id="@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationOutputReference.property.gcpConfiguration"></a>
+
+```go
+func GcpConfiguration() DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSsmCloudConnector.DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference">DataAwsccSsmCloudConnectorConfigurationGcpConfigurationOutputReference</a>
 
 ---
 

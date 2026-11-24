@@ -4,7 +4,7 @@
 
 ### Route53RecordSet <a name="Route53RecordSet" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set awscc_route53_record_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set awscc_route53_record_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer"></a>
 
@@ -24,6 +24,7 @@ route53RecordSet.Route53RecordSet(
   name: str,
   type: str,
   alias_target: Route53RecordSetAliasTarget = None,
+  az_affinity: Route53RecordSetAzAffinity = None,
   cidr_routing_config: Route53RecordSetCidrRoutingConfig = None,
   comment: str = None,
   failover: str = None,
@@ -54,6 +55,7 @@ route53RecordSet.Route53RecordSet(
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the record that you want to create, update, or delete. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer.parameter.type">type</a></code> | <code>str</code> | The DNS record type. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer.parameter.aliasTarget">alias_target</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAliasTarget">Route53RecordSetAliasTarget</a></code> | Alias resource record sets only: Information about the AWS resource, such as a CloudFront distribution or an Amazon S3 bucket, that you want to route traffic to. |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer.parameter.azAffinity">az_affinity</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity">Route53RecordSetAzAffinity</a></code> | AZ affinity resource record sets only: the source location (Availability Zone, Availability Zone group, Region, partition, or global) of the DNS queries that this record set's answers apply to. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer.parameter.cidrRoutingConfig">cidr_routing_config</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetCidrRoutingConfig">Route53RecordSetCidrRoutingConfig</a></code> | The object that is specified in resource record set object when you are linking a resource record set to a CIDR location. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer.parameter.comment">comment</a></code> | <code>str</code> | Optional: Any comments you want to include about a change batch request. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer.parameter.failover">failover</a></code> | <code>str</code> | To configure failover, you add the Failover element to two resource record sets. |
@@ -136,7 +138,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the record that you want to create, update, or delete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#name Route53RecordSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#name Route53RecordSet#name}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The DNS record type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#type Route53RecordSet#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#type Route53RecordSet#type}
 
 ---
 
@@ -156,7 +158,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Alias resource record sets only: Information about the AWS resource, such as a CloudFront distribution or an Amazon S3 bucket, that you want to route traffic to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
+
+---
+
+##### `az_affinity`<sup>Optional</sup> <a name="az_affinity" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.Initializer.parameter.azAffinity"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity">Route53RecordSetAzAffinity</a>
+
+AZ affinity resource record sets only: the source location (Availability Zone, Availability Zone group, Region, partition, or global) of the DNS queries that this record set's answers apply to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#az_affinity Route53RecordSet#az_affinity}
 
 ---
 
@@ -166,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The object that is specified in resource record set object when you are linking a resource record set to a CIDR location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
 
 ---
 
@@ -176,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional: Any comments you want to include about a change batch request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
 
 ---
 
@@ -188,7 +200,7 @@ To configure failover, you add the Failover element to two resource record sets.
 
 For one resource record set, you specify PRIMARY as the value for Failover; for the other resource record set, you specify SECONDARY. In addition, you include the HealthCheckId element and specify the health check that you want Amazon Route 53 to perform for each resource record set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
 
 ---
 
@@ -198,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A complex type that lets you control how Amazon Route 53 responds to DNS queries based on the geographic origin of the query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
 
 ---
 
@@ -208,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If you want Amazon Route 53 to return this resource record set in response to a DNS query only when the status of a health check is healthy, include the HealthCheckId element and specify the ID of the applicable health check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
 
 ---
 
@@ -218,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the hosted zone that you want to create records in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
 
 ---
 
@@ -230,7 +242,7 @@ The name of the hosted zone that you want to create records in.
 
 You must include a trailing dot (for example, www.example.com.) as part of the HostedZoneName.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
 
 ---
 
@@ -240,7 +252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 To route traffic approximately randomly to multiple resources, such as web servers, create one multivalue answer record for each resource and specify true for MultiValueAnswer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
 
 ---
 
@@ -250,7 +262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon EC2 Region where you created the resource that this resource record set refers to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#region Route53RecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#region Route53RecordSet#region}
 
 ---
 
@@ -260,7 +272,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more values that correspond with the value that you specified for the Type property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
 
 ---
 
@@ -270,7 +282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An identifier that differentiates among multiple resource record sets that have the same combination of name and type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
 
 ---
 
@@ -280,7 +292,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource record cache time to live (TTL), in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
 
 ---
 
@@ -292,7 +304,7 @@ Among resource record sets that have the same combination of DNS name and type, 
 
 Route 53 calculates the sum of the weights for the resource record sets that have the same combination of DNS name and type. Route 53 then responds to queries based on the ratio of a resource's weight to the total.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
 
 ---
 
@@ -325,9 +337,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.putAliasTarget">put_alias_target</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.putAzAffinity">put_az_affinity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.putCidrRoutingConfig">put_cidr_routing_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.putGeoLocation">put_geo_location</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.resetAliasTarget">reset_alias_target</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.resetAzAffinity">reset_az_affinity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.resetCidrRoutingConfig">reset_cidr_routing_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.resetComment">reset_comment</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.resetFailover">reset_failover</a></code> | *No description.* |
@@ -708,7 +722,7 @@ def put_alias_target(
 
 The value that you specify depends on where you want to route queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
 
 ---
 
@@ -718,7 +732,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When EvaluateTargetHealth is true, an alias resource record set inherits the health of the referenced AWS resource, such as an ELB load balancer or another resource record set in the hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
 
 ---
 
@@ -728,7 +742,36 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The value used depends on where you want to route traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+
+---
+
+##### `put_az_affinity` <a name="put_az_affinity" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.putAzAffinity"></a>
+
+```python
+def put_az_affinity(
+  location_id: str = None,
+  location_type: str = None
+) -> None
+```
+
+###### `location_id`<sup>Optional</sup> <a name="location_id" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.putAzAffinity.parameter.locationId"></a>
+
+- *Type:* str
+
+The ID of the location, for example an Availability Zone ID such as use1-az1, or a Region such as us-east-1.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#location_id Route53RecordSet#location_id}
+
+---
+
+###### `location_type`<sup>Optional</sup> <a name="location_type" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.putAzAffinity.parameter.locationType"></a>
+
+- *Type:* str
+
+The type of the source location that the record set's answers apply to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#location_type Route53RecordSet#location_type}
 
 ---
 
@@ -747,7 +790,7 @@ def put_cidr_routing_config(
 
 The CIDR collection ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
 
 ---
 
@@ -757,7 +800,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The CIDR collection location name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
 
 ---
 
@@ -777,7 +820,7 @@ def put_geo_location(
 
 For geolocation resource record sets, a two-letter abbreviation that identifies a continent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
 
 ---
 
@@ -787,7 +830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For geolocation resource record sets, the two-letter code for a country.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
 
 ---
 
@@ -797,7 +840,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 For geolocation resource record sets, the two-letter code for a state of the United States.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
 
 ---
 
@@ -805,6 +848,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_alias_target() -> None
+```
+
+##### `reset_az_affinity` <a name="reset_az_affinity" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.resetAzAffinity"></a>
+
+```python
+def reset_az_affinity() -> None
 ```
 
 ##### `reset_cidr_routing_config` <a name="reset_cidr_routing_config" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.resetCidrRoutingConfig"></a>
@@ -999,7 +1048,7 @@ The construct id used in the generated config for the Route53RecordSet to import
 
 The id of the existing Route53RecordSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1030,10 +1079,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.aliasTarget">alias_target</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAliasTargetOutputReference">Route53RecordSetAliasTargetOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.azAffinity">az_affinity</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference">Route53RecordSetAzAffinityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.cidrRoutingConfig">cidr_routing_config</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetCidrRoutingConfigOutputReference">Route53RecordSetCidrRoutingConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.geoLocation">geo_location</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetGeoLocationOutputReference">Route53RecordSetGeoLocationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.aliasTargetInput">alias_target_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAliasTarget">Route53RecordSetAliasTarget</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.azAffinityInput">az_affinity_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity">Route53RecordSetAzAffinity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.cidrRoutingConfigInput">cidr_routing_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetCidrRoutingConfig">Route53RecordSetCidrRoutingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.commentInput">comment_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.failoverInput">failover_input</a></code> | <code>str</code> | *No description.* |
@@ -1217,6 +1268,16 @@ alias_target: Route53RecordSetAliasTargetOutputReference
 
 ---
 
+##### `az_affinity`<sup>Required</sup> <a name="az_affinity" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.azAffinity"></a>
+
+```python
+az_affinity: Route53RecordSetAzAffinityOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference">Route53RecordSetAzAffinityOutputReference</a>
+
+---
+
 ##### `cidr_routing_config`<sup>Required</sup> <a name="cidr_routing_config" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.cidrRoutingConfig"></a>
 
 ```python
@@ -1254,6 +1315,16 @@ alias_target_input: IResolvable | Route53RecordSetAliasTarget
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAliasTarget">Route53RecordSetAliasTarget</a>
+
+---
+
+##### `az_affinity_input`<sup>Optional</sup> <a name="az_affinity_input" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSet.property.azAffinityInput"></a>
+
+```python
+az_affinity_input: IResolvable | Route53RecordSetAzAffinity
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity">Route53RecordSetAzAffinity</a>
 
 ---
 
@@ -1591,7 +1662,7 @@ dns_name: str
 
 The value that you specify depends on where you want to route queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#dns_name Route53RecordSet#dns_name}
 
 ---
 
@@ -1605,7 +1676,7 @@ evaluate_target_health: bool | IResolvable
 
 When EvaluateTargetHealth is true, an alias resource record set inherits the health of the referenced AWS resource, such as an ELB load balancer or another resource record set in the hosted zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#evaluate_target_health Route53RecordSet#evaluate_target_health}
 
 ---
 
@@ -1619,7 +1690,57 @@ hosted_zone_id: str
 
 The value used depends on where you want to route traffic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+
+---
+
+### Route53RecordSetAzAffinity <a name="Route53RecordSetAzAffinity" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import route53_record_set
+
+route53RecordSet.Route53RecordSetAzAffinity(
+  location_id: str = None,
+  location_type: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity.property.locationId">location_id</a></code> | <code>str</code> | The ID of the location, for example an Availability Zone ID such as use1-az1, or a Region such as us-east-1. |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity.property.locationType">location_type</a></code> | <code>str</code> | The type of the source location that the record set's answers apply to. |
+
+---
+
+##### `location_id`<sup>Optional</sup> <a name="location_id" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity.property.locationId"></a>
+
+```python
+location_id: str
+```
+
+- *Type:* str
+
+The ID of the location, for example an Availability Zone ID such as use1-az1, or a Region such as us-east-1.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#location_id Route53RecordSet#location_id}
+
+---
+
+##### `location_type`<sup>Optional</sup> <a name="location_type" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity.property.locationType"></a>
+
+```python
+location_type: str
+```
+
+- *Type:* str
+
+The type of the source location that the record set's answers apply to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#location_type Route53RecordSet#location_type}
 
 ---
 
@@ -1655,7 +1776,7 @@ collection_id: str
 
 The CIDR collection ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#collection_id Route53RecordSet#collection_id}
 
 ---
 
@@ -1669,7 +1790,7 @@ location_name: str
 
 The CIDR collection location name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#location_name Route53RecordSet#location_name}
 
 ---
 
@@ -1691,6 +1812,7 @@ route53RecordSet.Route53RecordSetConfig(
   name: str,
   type: str,
   alias_target: Route53RecordSetAliasTarget = None,
+  az_affinity: Route53RecordSetAzAffinity = None,
   cidr_routing_config: Route53RecordSetCidrRoutingConfig = None,
   comment: str = None,
   failover: str = None,
@@ -1721,6 +1843,7 @@ route53RecordSet.Route53RecordSetConfig(
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.property.name">name</a></code> | <code>str</code> | The name of the record that you want to create, update, or delete. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.property.type">type</a></code> | <code>str</code> | The DNS record type. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.property.aliasTarget">alias_target</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAliasTarget">Route53RecordSetAliasTarget</a></code> | Alias resource record sets only: Information about the AWS resource, such as a CloudFront distribution or an Amazon S3 bucket, that you want to route traffic to. |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.property.azAffinity">az_affinity</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity">Route53RecordSetAzAffinity</a></code> | AZ affinity resource record sets only: the source location (Availability Zone, Availability Zone group, Region, partition, or global) of the DNS queries that this record set's answers apply to. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.property.cidrRoutingConfig">cidr_routing_config</a></code> | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetCidrRoutingConfig">Route53RecordSetCidrRoutingConfig</a></code> | The object that is specified in resource record set object when you are linking a resource record set to a CIDR location. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.property.comment">comment</a></code> | <code>str</code> | Optional: Any comments you want to include about a change batch request. |
 | <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.property.failover">failover</a></code> | <code>str</code> | To configure failover, you add the Failover element to two resource record sets. |
@@ -1817,7 +1940,7 @@ name: str
 
 The name of the record that you want to create, update, or delete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#name Route53RecordSet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#name Route53RecordSet#name}
 
 ---
 
@@ -1831,7 +1954,7 @@ type: str
 
 The DNS record type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#type Route53RecordSet#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#type Route53RecordSet#type}
 
 ---
 
@@ -1845,7 +1968,21 @@ alias_target: Route53RecordSetAliasTarget
 
 Alias resource record sets only: Information about the AWS resource, such as a CloudFront distribution or an Amazon S3 bucket, that you want to route traffic to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#alias_target Route53RecordSet#alias_target}
+
+---
+
+##### `az_affinity`<sup>Optional</sup> <a name="az_affinity" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetConfig.property.azAffinity"></a>
+
+```python
+az_affinity: Route53RecordSetAzAffinity
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity">Route53RecordSetAzAffinity</a>
+
+AZ affinity resource record sets only: the source location (Availability Zone, Availability Zone group, Region, partition, or global) of the DNS queries that this record set's answers apply to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#az_affinity Route53RecordSet#az_affinity}
 
 ---
 
@@ -1859,7 +1996,7 @@ cidr_routing_config: Route53RecordSetCidrRoutingConfig
 
 The object that is specified in resource record set object when you are linking a resource record set to a CIDR location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#cidr_routing_config Route53RecordSet#cidr_routing_config}
 
 ---
 
@@ -1873,7 +2010,7 @@ comment: str
 
 Optional: Any comments you want to include about a change batch request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#comment Route53RecordSet#comment}
 
 ---
 
@@ -1889,7 +2026,7 @@ To configure failover, you add the Failover element to two resource record sets.
 
 For one resource record set, you specify PRIMARY as the value for Failover; for the other resource record set, you specify SECONDARY. In addition, you include the HealthCheckId element and specify the health check that you want Amazon Route 53 to perform for each resource record set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#failover Route53RecordSet#failover}
 
 ---
 
@@ -1903,7 +2040,7 @@ geo_location: Route53RecordSetGeoLocation
 
 A complex type that lets you control how Amazon Route 53 responds to DNS queries based on the geographic origin of the query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#geo_location Route53RecordSet#geo_location}
 
 ---
 
@@ -1917,7 +2054,7 @@ health_check_id: str
 
 If you want Amazon Route 53 to return this resource record set in response to a DNS query only when the status of a health check is healthy, include the HealthCheckId element and specify the ID of the applicable health check.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#health_check_id Route53RecordSet#health_check_id}
 
 ---
 
@@ -1931,7 +2068,7 @@ hosted_zone_id: str
 
 The ID of the hosted zone that you want to create records in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#hosted_zone_id Route53RecordSet#hosted_zone_id}
 
 ---
 
@@ -1947,7 +2084,7 @@ The name of the hosted zone that you want to create records in.
 
 You must include a trailing dot (for example, www.example.com.) as part of the HostedZoneName.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#hosted_zone_name Route53RecordSet#hosted_zone_name}
 
 ---
 
@@ -1961,7 +2098,7 @@ multi_value_answer: bool | IResolvable
 
 To route traffic approximately randomly to multiple resources, such as web servers, create one multivalue answer record for each resource and specify true for MultiValueAnswer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#multi_value_answer Route53RecordSet#multi_value_answer}
 
 ---
 
@@ -1975,7 +2112,7 @@ region: str
 
 The Amazon EC2 Region where you created the resource that this resource record set refers to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#region Route53RecordSet#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#region Route53RecordSet#region}
 
 ---
 
@@ -1989,7 +2126,7 @@ resource_records: typing.List[str]
 
 One or more values that correspond with the value that you specified for the Type property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#resource_records Route53RecordSet#resource_records}
 
 ---
 
@@ -2003,7 +2140,7 @@ set_identifier: str
 
 An identifier that differentiates among multiple resource record sets that have the same combination of name and type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#set_identifier Route53RecordSet#set_identifier}
 
 ---
 
@@ -2017,7 +2154,7 @@ ttl: str
 
 The resource record cache time to live (TTL), in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#ttl Route53RecordSet#ttl}
 
 ---
 
@@ -2033,7 +2170,7 @@ Among resource record sets that have the same combination of DNS name and type, 
 
 Route 53 calculates the sum of the weights for the resource record sets that have the same combination of DNS name and type. Route 53 then responds to queries based on the ratio of a resource's weight to the total.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#weight Route53RecordSet#weight}
 
 ---
 
@@ -2071,7 +2208,7 @@ continent_code: str
 
 For geolocation resource record sets, a two-letter abbreviation that identifies a continent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#continent_code Route53RecordSet#continent_code}
 
 ---
 
@@ -2085,7 +2222,7 @@ country_code: str
 
 For geolocation resource record sets, the two-letter code for a country.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#country_code Route53RecordSet#country_code}
 
 ---
 
@@ -2099,7 +2236,7 @@ subdivision_code: str
 
 For geolocation resource record sets, the two-letter code for a state of the United States.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/route53_record_set#subdivision_code Route53RecordSet#subdivision_code}
 
 ---
 
@@ -2462,6 +2599,338 @@ internal_value: IResolvable | Route53RecordSetAliasTarget
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAliasTarget">Route53RecordSetAliasTarget</a>
+
+---
+
+
+### Route53RecordSetAzAffinityOutputReference <a name="Route53RecordSetAzAffinityOutputReference" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import route53_record_set
+
+route53RecordSet.Route53RecordSetAzAffinityOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.resetLocationId">reset_location_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.resetLocationType">reset_location_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_location_id` <a name="reset_location_id" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.resetLocationId"></a>
+
+```python
+def reset_location_id() -> None
+```
+
+##### `reset_location_type` <a name="reset_location_type" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.resetLocationType"></a>
+
+```python
+def reset_location_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.locationIdInput">location_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.locationTypeInput">location_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.locationId">location_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.locationType">location_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity">Route53RecordSetAzAffinity</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `location_id_input`<sup>Optional</sup> <a name="location_id_input" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.locationIdInput"></a>
+
+```python
+location_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `location_type_input`<sup>Optional</sup> <a name="location_type_input" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.locationTypeInput"></a>
+
+```python
+location_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `location_id`<sup>Required</sup> <a name="location_id" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.locationId"></a>
+
+```python
+location_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `location_type`<sup>Required</sup> <a name="location_type" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.locationType"></a>
+
+```python
+location_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinityOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | Route53RecordSetAzAffinity
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.route53RecordSet.Route53RecordSetAzAffinity">Route53RecordSetAzAffinity</a>
 
 ---
 

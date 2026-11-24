@@ -4,7 +4,7 @@
 
 ### SsmCloudConnector <a name="SsmCloudConnector" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnector.Initializer"></a>
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The ARN of the AWS Config connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration for the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The display name of the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IAM role ARN used by the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
 
 ---
 
@@ -164,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags to apply to the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
 
 ---
 
@@ -653,7 +653,7 @@ The construct id used in the generated config for the SsmCloudConnector to impor
 
 The id of the existing SsmCloudConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1159,7 +1159,7 @@ public java.lang.String getConfigConnectorArn();
 
 The ARN of the AWS Config connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#config_connector_arn SsmCloudConnector#config_connector_arn}
 
 ---
 
@@ -1173,7 +1173,7 @@ public SsmCloudConnectorConfiguration getConfiguration();
 
 The configuration for the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#configuration SsmCloudConnector#configuration}
 
 ---
 
@@ -1187,7 +1187,7 @@ public java.lang.String getDisplayName();
 
 The display name of the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
 
 ---
 
@@ -1201,7 +1201,7 @@ public java.lang.String getRoleArn();
 
 The IAM role ARN used by the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#role_arn SsmCloudConnector#role_arn}
 
 ---
 
@@ -1215,7 +1215,7 @@ public java.lang.String getDescription();
 
 The description of the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#description SsmCloudConnector#description}
 
 ---
 
@@ -1229,7 +1229,7 @@ public IResolvable|java.util.List<SsmCloudConnectorTags> getTags();
 
 Tags to apply to the cloud connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#tags SsmCloudConnector#tags}
 
 ---
 
@@ -1241,7 +1241,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfiguration;
 
 SsmCloudConnectorConfiguration.builder()
-    .azureConfiguration(SsmCloudConnectorConfigurationAzureConfiguration)
+//  .azureConfiguration(SsmCloudConnectorConfigurationAzureConfiguration)
+//  .gcpConfiguration(SsmCloudConnectorConfigurationGcpConfiguration)
     .build();
 ```
 
@@ -1250,10 +1251,11 @@ SsmCloudConnectorConfiguration.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfiguration.property.azureConfiguration">azureConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration">SsmCloudConnectorConfigurationAzureConfiguration</a></code> | Configuration for connecting to Azure. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfiguration.property.gcpConfiguration">gcpConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration">SsmCloudConnectorConfigurationGcpConfiguration</a></code> | Configuration for connecting to Google Cloud. |
 
 ---
 
-##### `azureConfiguration`<sup>Required</sup> <a name="azureConfiguration" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfiguration.property.azureConfiguration"></a>
+##### `azureConfiguration`<sup>Optional</sup> <a name="azureConfiguration" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfiguration.property.azureConfiguration"></a>
 
 ```java
 public SsmCloudConnectorConfigurationAzureConfiguration getAzureConfiguration();
@@ -1263,7 +1265,21 @@ public SsmCloudConnectorConfigurationAzureConfiguration getAzureConfiguration();
 
 Configuration for connecting to Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#azure_configuration SsmCloudConnector#azure_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#azure_configuration SsmCloudConnector#azure_configuration}
+
+---
+
+##### `gcpConfiguration`<sup>Optional</sup> <a name="gcpConfiguration" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfiguration.property.gcpConfiguration"></a>
+
+```java
+public SsmCloudConnectorConfigurationGcpConfiguration getGcpConfiguration();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration">SsmCloudConnectorConfigurationGcpConfiguration</a>
+
+Configuration for connecting to Google Cloud.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#gcp_configuration SsmCloudConnector#gcp_configuration}
 
 ---
 
@@ -1275,11 +1291,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfigurationAzureConfiguration;
 
 SsmCloudConnectorConfigurationAzureConfiguration.builder()
-    .applicationId(java.lang.String)
-    .tenantId(java.lang.String)
 //  .applicationDisplayName(java.lang.String)
+//  .applicationId(java.lang.String)
 //  .targets(SsmCloudConnectorConfigurationAzureConfigurationTargets)
 //  .tenantDisplayName(java.lang.String)
+//  .tenantId(java.lang.String)
     .build();
 ```
 
@@ -1287,39 +1303,11 @@ SsmCloudConnectorConfigurationAzureConfiguration.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.applicationId">applicationId</a></code> | <code>java.lang.String</code> | The Azure AD application ID. |
-| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.tenantId">tenantId</a></code> | <code>java.lang.String</code> | The Azure AD tenant ID. Cannot be changed after creation. |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.applicationDisplayName">applicationDisplayName</a></code> | <code>java.lang.String</code> | The display name of the Azure AD application. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.applicationId">applicationId</a></code> | <code>java.lang.String</code> | The Azure AD application ID. |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.targets">targets</a></code> | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationTargets">SsmCloudConnectorConfigurationAzureConfigurationTargets</a></code> | The targets for the cloud connector. If omitted, the entire tenant is targeted. |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.tenantDisplayName">tenantDisplayName</a></code> | <code>java.lang.String</code> | The display name of the Azure AD tenant. |
-
----
-
-##### `applicationId`<sup>Required</sup> <a name="applicationId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.applicationId"></a>
-
-```java
-public java.lang.String getApplicationId();
-```
-
-- *Type:* java.lang.String
-
-The Azure AD application ID.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#application_id SsmCloudConnector#application_id}
-
----
-
-##### `tenantId`<sup>Required</sup> <a name="tenantId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.tenantId"></a>
-
-```java
-public java.lang.String getTenantId();
-```
-
-- *Type:* java.lang.String
-
-The Azure AD tenant ID. Cannot be changed after creation.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#tenant_id SsmCloudConnector#tenant_id}
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.tenantId">tenantId</a></code> | <code>java.lang.String</code> | The Azure AD tenant ID. Cannot be changed after creation. |
 
 ---
 
@@ -1333,7 +1321,21 @@ public java.lang.String getApplicationDisplayName();
 
 The display name of the Azure AD application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#application_display_name SsmCloudConnector#application_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#application_display_name SsmCloudConnector#application_display_name}
+
+---
+
+##### `applicationId`<sup>Optional</sup> <a name="applicationId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.applicationId"></a>
+
+```java
+public java.lang.String getApplicationId();
+```
+
+- *Type:* java.lang.String
+
+The Azure AD application ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#application_id SsmCloudConnector#application_id}
 
 ---
 
@@ -1347,7 +1349,7 @@ public SsmCloudConnectorConfigurationAzureConfigurationTargets getTargets();
 
 The targets for the cloud connector. If omitted, the entire tenant is targeted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
 
 ---
 
@@ -1361,7 +1363,21 @@ public java.lang.String getTenantDisplayName();
 
 The display name of the Azure AD tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#tenant_display_name SsmCloudConnector#tenant_display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#tenant_display_name SsmCloudConnector#tenant_display_name}
+
+---
+
+##### `tenantId`<sup>Optional</sup> <a name="tenantId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration.property.tenantId"></a>
+
+```java
+public java.lang.String getTenantId();
+```
+
+- *Type:* java.lang.String
+
+The Azure AD tenant ID. Cannot be changed after creation.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#tenant_id SsmCloudConnector#tenant_id}
 
 ---
 
@@ -1395,7 +1411,7 @@ public IResolvable|java.util.List<SsmCloudConnectorConfigurationAzureConfigurati
 
 List of Azure subscriptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
 
 ---
 
@@ -1431,7 +1447,7 @@ public java.lang.String getDisplayName();
 
 The display name of the Azure subscription.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#display_name SsmCloudConnector#display_name}
 
 ---
 
@@ -1445,10 +1461,176 @@ public java.lang.String getId();
 
 The Azure subscription ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#id SsmCloudConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#id SsmCloudConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+### SsmCloudConnectorConfigurationGcpConfiguration <a name="SsmCloudConnectorConfigurationGcpConfiguration" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfigurationGcpConfiguration;
+
+SsmCloudConnectorConfigurationGcpConfiguration.builder()
+//  .organizationId(java.lang.String)
+//  .serviceAccountEmail(java.lang.String)
+//  .targets(SsmCloudConnectorConfigurationGcpConfigurationTargets)
+//  .workloadIdentityPoolProvider(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.property.organizationId">organizationId</a></code> | <code>java.lang.String</code> | The GCP organization ID. Required when Targets is omitted, which targets the entire organization. Cannot be changed after creation. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.property.serviceAccountEmail">serviceAccountEmail</a></code> | <code>java.lang.String</code> | The GCP service account the connector impersonates. Its project is the connector's management project. Cannot be changed after creation. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.property.targets">targets</a></code> | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets">SsmCloudConnectorConfigurationGcpConfigurationTargets</a></code> | The targets for the cloud connector. If omitted, the entire organization is targeted. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.property.workloadIdentityPoolProvider">workloadIdentityPoolProvider</a></code> | <code>java.lang.String</code> | The resource name of the workload identity pool provider that trusts the connector's IAM role. |
+
+---
+
+##### `organizationId`<sup>Optional</sup> <a name="organizationId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.property.organizationId"></a>
+
+```java
+public java.lang.String getOrganizationId();
+```
+
+- *Type:* java.lang.String
+
+The GCP organization ID. Required when Targets is omitted, which targets the entire organization. Cannot be changed after creation.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#organization_id SsmCloudConnector#organization_id}
+
+---
+
+##### `serviceAccountEmail`<sup>Optional</sup> <a name="serviceAccountEmail" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.property.serviceAccountEmail"></a>
+
+```java
+public java.lang.String getServiceAccountEmail();
+```
+
+- *Type:* java.lang.String
+
+The GCP service account the connector impersonates. Its project is the connector's management project. Cannot be changed after creation.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#service_account_email SsmCloudConnector#service_account_email}
+
+---
+
+##### `targets`<sup>Optional</sup> <a name="targets" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.property.targets"></a>
+
+```java
+public SsmCloudConnectorConfigurationGcpConfigurationTargets getTargets();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets">SsmCloudConnectorConfigurationGcpConfigurationTargets</a>
+
+The targets for the cloud connector. If omitted, the entire organization is targeted.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#targets SsmCloudConnector#targets}
+
+---
+
+##### `workloadIdentityPoolProvider`<sup>Optional</sup> <a name="workloadIdentityPoolProvider" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration.property.workloadIdentityPoolProvider"></a>
+
+```java
+public java.lang.String getWorkloadIdentityPoolProvider();
+```
+
+- *Type:* java.lang.String
+
+The resource name of the workload identity pool provider that trusts the connector's IAM role.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#workload_identity_pool_provider SsmCloudConnector#workload_identity_pool_provider}
+
+---
+
+### SsmCloudConnectorConfigurationGcpConfigurationTargets <a name="SsmCloudConnectorConfigurationGcpConfigurationTargets" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfigurationGcpConfigurationTargets;
+
+SsmCloudConnectorConfigurationGcpConfigurationTargets.builder()
+//  .projects(IResolvable|java.util.List<SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects>)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets.property.projects">projects</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>></code> | List of GCP projects. |
+
+---
+
+##### `projects`<sup>Optional</sup> <a name="projects" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets.property.projects"></a>
+
+```java
+public IResolvable|java.util.List<SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects> getProjects();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>>
+
+List of GCP projects.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#projects SsmCloudConnector#projects}
+
+---
+
+### SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects <a name="SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects;
+
+SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects.builder()
+//  .projectDisplayName(java.lang.String)
+//  .projectId(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects.property.projectDisplayName">projectDisplayName</a></code> | <code>java.lang.String</code> | The display name of the GCP project. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects.property.projectId">projectId</a></code> | <code>java.lang.String</code> | The GCP project ID. |
+
+---
+
+##### `projectDisplayName`<sup>Optional</sup> <a name="projectDisplayName" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects.property.projectDisplayName"></a>
+
+```java
+public java.lang.String getProjectDisplayName();
+```
+
+- *Type:* java.lang.String
+
+The display name of the GCP project.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#project_display_name SsmCloudConnector#project_display_name}
+
+---
+
+##### `projectId`<sup>Optional</sup> <a name="projectId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects.property.projectId"></a>
+
+```java
+public java.lang.String getProjectId();
+```
+
+- *Type:* java.lang.String
+
+The GCP project ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#project_id SsmCloudConnector#project_id}
 
 ---
 
@@ -1469,8 +1651,8 @@ SsmCloudConnectorTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}. |
-| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}. |
 
 ---
 
@@ -1482,7 +1664,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#key SsmCloudConnector#key}.
 
 ---
 
@@ -1494,7 +1676,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ssm_cloud_connector#value SsmCloudConnector#value}.
 
 ---
 
@@ -1552,8 +1734,10 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.putTargets">putTargets</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.resetApplicationDisplayName">resetApplicationDisplayName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.resetApplicationId">resetApplicationId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.resetTargets">resetTargets</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.resetTenantDisplayName">resetTenantDisplayName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.resetTenantId">resetTenantId</a></code> | *No description.* |
 
 ---
 
@@ -1725,6 +1909,12 @@ public void putTargets(SsmCloudConnectorConfigurationAzureConfigurationTargets v
 public void resetApplicationDisplayName()
 ```
 
+##### `resetApplicationId` <a name="resetApplicationId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.resetApplicationId"></a>
+
+```java
+public void resetApplicationId()
+```
+
 ##### `resetTargets` <a name="resetTargets" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.resetTargets"></a>
 
 ```java
@@ -1735,6 +1925,12 @@ public void resetTargets()
 
 ```java
 public void resetTenantDisplayName()
+```
+
+##### `resetTenantId` <a name="resetTenantId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference.resetTenantId"></a>
+
+```java
+public void resetTenantId()
 ```
 
 
@@ -2669,6 +2865,1160 @@ public IResolvable|SsmCloudConnectorConfigurationAzureConfigurationTargetsSubscr
 ---
 
 
+### SsmCloudConnectorConfigurationGcpConfigurationOutputReference <a name="SsmCloudConnectorConfigurationGcpConfigurationOutputReference" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference;
+
+new SsmCloudConnectorConfigurationGcpConfigurationOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.putTargets">putTargets</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resetOrganizationId">resetOrganizationId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resetServiceAccountEmail">resetServiceAccountEmail</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resetTargets">resetTargets</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resetWorkloadIdentityPoolProvider">resetWorkloadIdentityPoolProvider</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putTargets` <a name="putTargets" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.putTargets"></a>
+
+```java
+public void putTargets(SsmCloudConnectorConfigurationGcpConfigurationTargets value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.putTargets.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets">SsmCloudConnectorConfigurationGcpConfigurationTargets</a>
+
+---
+
+##### `resetOrganizationId` <a name="resetOrganizationId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resetOrganizationId"></a>
+
+```java
+public void resetOrganizationId()
+```
+
+##### `resetServiceAccountEmail` <a name="resetServiceAccountEmail" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resetServiceAccountEmail"></a>
+
+```java
+public void resetServiceAccountEmail()
+```
+
+##### `resetTargets` <a name="resetTargets" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resetTargets"></a>
+
+```java
+public void resetTargets()
+```
+
+##### `resetWorkloadIdentityPoolProvider` <a name="resetWorkloadIdentityPoolProvider" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.resetWorkloadIdentityPoolProvider"></a>
+
+```java
+public void resetWorkloadIdentityPoolProvider()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.targets">targets</a></code> | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference">SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.organizationIdInput">organizationIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.serviceAccountEmailInput">serviceAccountEmailInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.targetsInput">targetsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets">SsmCloudConnectorConfigurationGcpConfigurationTargets</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.workloadIdentityPoolProviderInput">workloadIdentityPoolProviderInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.organizationId">organizationId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.serviceAccountEmail">serviceAccountEmail</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.workloadIdentityPoolProvider">workloadIdentityPoolProvider</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration">SsmCloudConnectorConfigurationGcpConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `targets`<sup>Required</sup> <a name="targets" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.targets"></a>
+
+```java
+public SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference getTargets();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference">SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference</a>
+
+---
+
+##### `organizationIdInput`<sup>Optional</sup> <a name="organizationIdInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.organizationIdInput"></a>
+
+```java
+public java.lang.String getOrganizationIdInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `serviceAccountEmailInput`<sup>Optional</sup> <a name="serviceAccountEmailInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.serviceAccountEmailInput"></a>
+
+```java
+public java.lang.String getServiceAccountEmailInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `targetsInput`<sup>Optional</sup> <a name="targetsInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.targetsInput"></a>
+
+```java
+public IResolvable|SsmCloudConnectorConfigurationGcpConfigurationTargets getTargetsInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets">SsmCloudConnectorConfigurationGcpConfigurationTargets</a>
+
+---
+
+##### `workloadIdentityPoolProviderInput`<sup>Optional</sup> <a name="workloadIdentityPoolProviderInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.workloadIdentityPoolProviderInput"></a>
+
+```java
+public java.lang.String getWorkloadIdentityPoolProviderInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `organizationId`<sup>Required</sup> <a name="organizationId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.organizationId"></a>
+
+```java
+public java.lang.String getOrganizationId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `serviceAccountEmail`<sup>Required</sup> <a name="serviceAccountEmail" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.serviceAccountEmail"></a>
+
+```java
+public java.lang.String getServiceAccountEmail();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `workloadIdentityPoolProvider`<sup>Required</sup> <a name="workloadIdentityPoolProvider" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.workloadIdentityPoolProvider"></a>
+
+```java
+public java.lang.String getWorkloadIdentityPoolProvider();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|SsmCloudConnectorConfigurationGcpConfiguration getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration">SsmCloudConnectorConfigurationGcpConfiguration</a>
+
+---
+
+
+### SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference <a name="SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference;
+
+new SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.putProjects">putProjects</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.resetProjects">resetProjects</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putProjects` <a name="putProjects" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.putProjects"></a>
+
+```java
+public void putProjects(IResolvable|java.util.List<SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects> value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.putProjects.parameter.value"></a>
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>>
+
+---
+
+##### `resetProjects` <a name="resetProjects" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.resetProjects"></a>
+
+```java
+public void resetProjects()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.projects">projects</a></code> | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.projectsInput">projectsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets">SsmCloudConnectorConfigurationGcpConfigurationTargets</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `projects`<sup>Required</sup> <a name="projects" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.projects"></a>
+
+```java
+public SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList getProjects();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList</a>
+
+---
+
+##### `projectsInput`<sup>Optional</sup> <a name="projectsInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.projectsInput"></a>
+
+```java
+public IResolvable|java.util.List<SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects> getProjectsInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|SsmCloudConnectorConfigurationGcpConfigurationTargets getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargets">SsmCloudConnectorConfigurationGcpConfigurationTargets</a>
+
+---
+
+
+### SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList <a name="SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList;
+
+new SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Boolean wrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.allWithMapKey"></a>
+
+```java
+public DynamicListTerraformIterator allWithMapKey(java.lang.String mapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.get"></a>
+
+```java
+public SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference get(java.lang.Number index)
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.get.parameter.index"></a>
+
+- *Type:* java.lang.Number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsList.property.internalValue"></a>
+
+```java
+public IResolvable|java.util.List<SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects> getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>>
+
+---
+
+
+### SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference <a name="SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.ssm_cloud_connector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference;
+
+new SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute, java.lang.Number complexObjectIndex, java.lang.Boolean complexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>java.lang.Number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>java.lang.Boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* java.lang.Number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* java.lang.Boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resetProjectDisplayName">resetProjectDisplayName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resetProjectId">resetProjectId</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetProjectDisplayName` <a name="resetProjectDisplayName" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resetProjectDisplayName"></a>
+
+```java
+public void resetProjectDisplayName()
+```
+
+##### `resetProjectId` <a name="resetProjectId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.resetProjectId"></a>
+
+```java
+public void resetProjectId()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectDisplayNameInput">projectDisplayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectIdInput">projectIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectDisplayName">projectDisplayName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectId">projectId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `projectDisplayNameInput`<sup>Optional</sup> <a name="projectDisplayNameInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectDisplayNameInput"></a>
+
+```java
+public java.lang.String getProjectDisplayNameInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `projectIdInput`<sup>Optional</sup> <a name="projectIdInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectIdInput"></a>
+
+```java
+public java.lang.String getProjectIdInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `projectDisplayName`<sup>Required</sup> <a name="projectDisplayName" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectDisplayName"></a>
+
+```java
+public java.lang.String getProjectDisplayName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `projectId`<sup>Required</sup> <a name="projectId" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.projectId"></a>
+
+```java
+public java.lang.String getProjectId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjectsOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects">SsmCloudConnectorConfigurationGcpConfigurationTargetsProjects</a>
+
+---
+
+
 ### SsmCloudConnectorConfigurationOutputReference <a name="SsmCloudConnectorConfigurationOutputReference" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.Initializer"></a>
@@ -2720,6 +4070,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.putAzureConfiguration">putAzureConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.putGcpConfiguration">putGcpConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.resetAzureConfiguration">resetAzureConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.resetGcpConfiguration">resetGcpConfiguration</a></code> | *No description.* |
 
 ---
 
@@ -2885,6 +4238,30 @@ public void putAzureConfiguration(SsmCloudConnectorConfigurationAzureConfigurati
 
 ---
 
+##### `putGcpConfiguration` <a name="putGcpConfiguration" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.putGcpConfiguration"></a>
+
+```java
+public void putGcpConfiguration(SsmCloudConnectorConfigurationGcpConfiguration value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.putGcpConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration">SsmCloudConnectorConfigurationGcpConfiguration</a>
+
+---
+
+##### `resetAzureConfiguration` <a name="resetAzureConfiguration" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.resetAzureConfiguration"></a>
+
+```java
+public void resetAzureConfiguration()
+```
+
+##### `resetGcpConfiguration` <a name="resetGcpConfiguration" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.resetGcpConfiguration"></a>
+
+```java
+public void resetGcpConfiguration()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2893,7 +4270,9 @@ public void putAzureConfiguration(SsmCloudConnectorConfigurationAzureConfigurati
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.azureConfiguration">azureConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfigurationOutputReference">SsmCloudConnectorConfigurationAzureConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.gcpConfiguration">gcpConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference">SsmCloudConnectorConfigurationGcpConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.azureConfigurationInput">azureConfigurationInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration">SsmCloudConnectorConfigurationAzureConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.gcpConfigurationInput">gcpConfigurationInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration">SsmCloudConnectorConfigurationGcpConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfiguration">SsmCloudConnectorConfiguration</a></code> | *No description.* |
 
 ---
@@ -2932,6 +4311,16 @@ public SsmCloudConnectorConfigurationAzureConfigurationOutputReference getAzureC
 
 ---
 
+##### `gcpConfiguration`<sup>Required</sup> <a name="gcpConfiguration" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.gcpConfiguration"></a>
+
+```java
+public SsmCloudConnectorConfigurationGcpConfigurationOutputReference getGcpConfiguration();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfigurationOutputReference">SsmCloudConnectorConfigurationGcpConfigurationOutputReference</a>
+
+---
+
 ##### `azureConfigurationInput`<sup>Optional</sup> <a name="azureConfigurationInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.azureConfigurationInput"></a>
 
 ```java
@@ -2939,6 +4328,16 @@ public IResolvable|SsmCloudConnectorConfigurationAzureConfiguration getAzureConf
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationAzureConfiguration">SsmCloudConnectorConfigurationAzureConfiguration</a>
+
+---
+
+##### `gcpConfigurationInput`<sup>Optional</sup> <a name="gcpConfigurationInput" id="@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationOutputReference.property.gcpConfigurationInput"></a>
+
+```java
+public IResolvable|SsmCloudConnectorConfigurationGcpConfiguration getGcpConfigurationInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.ssmCloudConnector.SsmCloudConnectorConfigurationGcpConfiguration">SsmCloudConnectorConfigurationGcpConfiguration</a>
 
 ---
 

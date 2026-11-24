@@ -4,7 +4,7 @@
 
 ### DataAwsccInspectorv2Connector <a name="DataAwsccInspectorv2Connector" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2Connector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2Connector.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInspectorv2Connec
 
 The id of the existing DataAwsccInspectorv2Connector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/inspectorv2_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/inspectorv2_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,7 +808,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/inspectorv2_connector#id DataAwsccInspectorv2Connector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/inspectorv2_connector#id DataAwsccInspectorv2Connector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -889,6 +889,61 @@ const dataAwsccInspectorv2ConnectorProviderConfigurationAzureScopeConfigurationS
 import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
 
 const dataAwsccInspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning: dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning = { ... }
+```
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcp <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcp" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcp"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcp.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+const dataAwsccInspectorv2ConnectorProviderConfigurationGcp: dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcp = { ... }
+```
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+const dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration: dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration = { ... }
+```
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+const dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning: dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning = { ... }
+```
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+const dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning: dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning = { ... }
+```
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+const dataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning: dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning = { ... }
 ```
 
 
@@ -2641,6 +2696,1460 @@ public readonly internalValue: DataAwsccInspectorv2ConnectorProviderConfiguratio
 ---
 
 
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+new dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.autoInstallVmScanner">autoInstallVmScanner</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.awsConfigConnectorArn">awsConfigConnectorArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.gcpRegions">gcpRegions</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.scopeConfiguration">scopeConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcp">DataAwsccInspectorv2ConnectorProviderConfigurationGcp</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `autoInstallVmScanner`<sup>Required</sup> <a name="autoInstallVmScanner" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.autoInstallVmScanner"></a>
+
+```typescript
+public readonly autoInstallVmScanner: IResolvable;
+```
+
+- *Type:* cdktn.IResolvable
+
+---
+
+##### `awsConfigConnectorArn`<sup>Required</sup> <a name="awsConfigConnectorArn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.awsConfigConnectorArn"></a>
+
+```typescript
+public readonly awsConfigConnectorArn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `gcpRegions`<sup>Required</sup> <a name="gcpRegions" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.gcpRegions"></a>
+
+```typescript
+public readonly gcpRegions: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `scopeConfiguration`<sup>Required</sup> <a name="scopeConfiguration" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.scopeConfiguration"></a>
+
+```typescript
+public readonly scopeConfiguration: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccInspectorv2ConnectorProviderConfigurationGcp;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcp">DataAwsccInspectorv2ConnectorProviderConfigurationGcp</a>
+
+---
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+new dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.scopeType">scopeType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.scopeValues">scopeValues</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.state">state</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.stateReason">stateReason</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeType`<sup>Required</sup> <a name="scopeType" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.scopeType"></a>
+
+```typescript
+public readonly scopeType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeValues`<sup>Required</sup> <a name="scopeValues" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.scopeValues"></a>
+
+```typescript
+public readonly scopeValues: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.state"></a>
+
+```typescript
+public readonly state: string;
+```
+
+- *Type:* string
+
+---
+
+##### `stateReason`<sup>Required</sup> <a name="stateReason" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.stateReason"></a>
+
+```typescript
+public readonly stateReason: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanning</a>
+
+---
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+new dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.containerImageScanning">containerImageScanning</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.serverlessScanning">serverlessScanning</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.vmScanning">vmScanning</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `containerImageScanning`<sup>Required</sup> <a name="containerImageScanning" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.containerImageScanning"></a>
+
+```typescript
+public readonly containerImageScanning: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationContainerImageScanningOutputReference</a>
+
+---
+
+##### `serverlessScanning`<sup>Required</sup> <a name="serverlessScanning" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.serverlessScanning"></a>
+
+```typescript
+public readonly serverlessScanning: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference</a>
+
+---
+
+##### `vmScanning`<sup>Required</sup> <a name="vmScanning" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.vmScanning"></a>
+
+```typescript
+public readonly vmScanning: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfiguration</a>
+
+---
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+new dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.scopeType">scopeType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.scopeValues">scopeValues</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.state">state</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.stateReason">stateReason</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeType`<sup>Required</sup> <a name="scopeType" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.scopeType"></a>
+
+```typescript
+public readonly scopeType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeValues`<sup>Required</sup> <a name="scopeValues" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.scopeValues"></a>
+
+```typescript
+public readonly scopeValues: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.state"></a>
+
+```typescript
+public readonly state: string;
+```
+
+- *Type:* string
+
+---
+
+##### `stateReason`<sup>Required</sup> <a name="stateReason" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.stateReason"></a>
+
+```typescript
+public readonly stateReason: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanningOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationServerlessScanning</a>
+
+---
+
+
+### DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference <a name="DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccInspectorv2Connector } from '@cdktn/provider-awscc'
+
+new dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.scopeType">scopeType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.scopeValues">scopeValues</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.state">state</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.stateReason">stateReason</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeType`<sup>Required</sup> <a name="scopeType" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.scopeType"></a>
+
+```typescript
+public readonly scopeType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeValues`<sup>Required</sup> <a name="scopeValues" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.scopeValues"></a>
+
+```typescript
+public readonly scopeValues: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.state"></a>
+
+```typescript
+public readonly state: string;
+```
+
+- *Type:* string
+
+---
+
+##### `stateReason`<sup>Required</sup> <a name="stateReason" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.stateReason"></a>
+
+```typescript
+public readonly stateReason: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanningOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning">DataAwsccInspectorv2ConnectorProviderConfigurationGcpScopeConfigurationVmScanning</a>
+
+---
+
+
 ### DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference <a name="DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference.Initializer"></a>
@@ -2852,6 +4361,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference.property.azure">azure</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationAzureOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationAzureOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference.property.gcp">gcp</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfiguration">DataAwsccInspectorv2ConnectorProviderConfiguration</a></code> | *No description.* |
 
 ---
@@ -2887,6 +4397,16 @@ public readonly azure: DataAwsccInspectorv2ConnectorProviderConfigurationAzureOu
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationAzureOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationAzureOutputReference</a>
+
+---
+
+##### `gcp`<sup>Required</sup> <a name="gcp" id="@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationOutputReference.property.gcp"></a>
+
+```typescript
+public readonly gcp: DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccInspectorv2Connector.DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference">DataAwsccInspectorv2ConnectorProviderConfigurationGcpOutputReference</a>
 
 ---
 

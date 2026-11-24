@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2ClientVpnEndpoints <a name="DataAwsccEc2ClientVpnEndpoints" id="@cdktn/provider-awscc.dataAwsccEc2ClientVpnEndpoints.DataAwsccEc2ClientVpnEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_client_vpn_endpoints awscc_ec2_client_vpn_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_client_vpn_endpoints awscc_ec2_client_vpn_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ClientVpnEndpoints.DataAwsccEc2ClientVpnEndpoints.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccEc2ClientVpnEndpo
 
 The id of the existing DataAwsccEc2ClientVpnEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_client_vpn_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_client_vpn_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

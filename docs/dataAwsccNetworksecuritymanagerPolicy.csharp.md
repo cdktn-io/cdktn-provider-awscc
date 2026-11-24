@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworksecuritymanagerPolicy <a name="DataAwsccNetworksecuritymanagerPolicy" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_policy awscc_networksecuritymanager_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_policy awscc_networksecuritymanager_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicy.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworksecurityma
 
 The id of the existing DataAwsccNetworksecuritymanagerPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -841,7 +841,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_policy#id DataAwsccNetworksecuritymanagerPolicy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_policy#id DataAwsccNetworksecuritymanagerPolicy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -856,6 +856,32 @@ If you experience problems setting this value it might not be settable. Please t
 using Io.Cdktn.Providers.Awscc;
 
 new DataAwsccNetworksecuritymanagerPolicyPolicyConfiguration {
+
+};
+```
+
+
+### DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig <a name="DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig {
+
+};
+```
+
+
+### DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides <a name="DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides {
 
 };
 ```
@@ -1327,6 +1353,715 @@ public DataAwsccNetworksecuritymanagerPolicyAssociatedTemplateAndRuleListStruct 
 ---
 
 
+### DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference <a name="DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.defaultSubnetConnectivity">DefaultSubnetConnectivity</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.subnetConnectivityOverrides">SubnetConnectivityOverrides</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DefaultSubnetConnectivity`<sup>Required</sup> <a name="DefaultSubnetConnectivity" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.defaultSubnetConnectivity"></a>
+
+```csharp
+public string DefaultSubnetConnectivity { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SubnetConnectivityOverrides`<sup>Required</sup> <a name="SubnetConnectivityOverrides" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.subnetConnectivityOverrides"></a>
+
+```csharp
+public DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList SubnetConnectivityOverrides { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfig</a>
+
+---
+
+
+### DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList <a name="DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.get"></a>
+
+```csharp
+private DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference <a name="DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.connectivityType">ConnectivityType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.scopes">Scopes</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ConnectivityType`<sup>Required</sup> <a name="ConnectivityType" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.connectivityType"></a>
+
+```csharp
+public string ConnectivityType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Scopes`<sup>Required</sup> <a name="Scopes" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.scopes"></a>
+
+```csharp
+public string[] Scopes { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverridesOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigSubnetConnectivityOverrides</a>
+
+---
+
+
 ### DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference <a name="DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference.Initializer"></a>
@@ -1537,6 +2272,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference.property.igwFirewallConfig">IgwFirewallConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference.property.remediationEnabled">RemediationEnabled</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference.property.resourcesCleanUp">ResourcesCleanUp</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference.property.wafConfig">WafConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationWafConfigOutputReference">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationWafConfigOutputReference</a></code> | *No description.* |
@@ -1565,6 +2301,16 @@ public string Fqn { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `IgwFirewallConfig`<sup>Required</sup> <a name="IgwFirewallConfig" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationOutputReference.property.igwFirewallConfig"></a>
+
+```csharp
+public DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference IgwFirewallConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerPolicy.DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference">DataAwsccNetworksecuritymanagerPolicyPolicyConfigurationIgwFirewallConfigOutputReference</a>
 
 ---
 

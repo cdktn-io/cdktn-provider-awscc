@@ -4,7 +4,7 @@
 
 ### SecurityhubConnector <a name="SecurityhubConnector" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector awscc_securityhub_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector awscc_securityhub_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the SecurityhubConnector to im
 
 The id of the existing SecurityhubConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -954,7 +954,7 @@ new SecurityhubConnectorConfig {
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.name">Name</a></code> | <code>string</code> | The name of the connector. |
-| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.providerName">ProviderName</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.providerName">ProviderName</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | The CSPM provider configuration for the connector. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.description">Description</a></code> | <code>string</code> | The description of the connector. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.tags">Tags</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | A key-value pair to associate with a resource. |
 
@@ -1040,7 +1040,7 @@ public string Name { get; set; }
 
 The name of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
 
 ---
 
@@ -1052,7 +1052,9 @@ public SecurityhubConnectorProviderName ProviderName { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}.
+The CSPM provider configuration for the connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}
 
 ---
 
@@ -1066,7 +1068,7 @@ public string Description { get; set; }
 
 The description of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
 
 ---
 
@@ -1080,7 +1082,7 @@ public System.Collections.Generic.IDictionary<string, string> Tags { get; set; }
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
 
 ---
 
@@ -1105,7 +1107,8 @@ new SecurityhubConnectorIssues {
 using Io.Cdktn.Providers.Awscc;
 
 new SecurityhubConnectorProviderName {
-    SecurityhubConnectorProviderNameAzure Azure
+    SecurityhubConnectorProviderNameAzure Azure = null,
+    SecurityhubConnectorProviderNameGcp Gcp = null
 };
 ```
 
@@ -1114,10 +1117,11 @@ new SecurityhubConnectorProviderName {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.azure">Azure</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure">SecurityhubConnectorProviderNameAzure</a></code> | The configuration for connecting to an Azure environment. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.gcp">Gcp</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp SecurityhubConnector#gcp}. |
 
 ---
 
-##### `Azure`<sup>Required</sup> <a name="Azure" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.azure"></a>
+##### `Azure`<sup>Optional</sup> <a name="Azure" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.azure"></a>
 
 ```csharp
 public SecurityhubConnectorProviderNameAzure Azure { get; set; }
@@ -1127,7 +1131,19 @@ public SecurityhubConnectorProviderNameAzure Azure { get; set; }
 
 The configuration for connecting to an Azure environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+
+---
+
+##### `Gcp`<sup>Optional</sup> <a name="Gcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.gcp"></a>
+
+```csharp
+public SecurityhubConnectorProviderNameGcp Gcp { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp SecurityhubConnector#gcp}.
 
 ---
 
@@ -1139,9 +1155,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.Awscc;
 
 new SecurityhubConnectorProviderNameAzure {
-    string AwsConfigConnectorArn,
-    string[] AzureRegions,
-    SecurityhubConnectorProviderNameAzureScopeConfiguration ScopeConfiguration
+    string AwsConfigConnectorArn = null,
+    string[] AzureRegions = null,
+    SecurityhubConnectorProviderNameAzureScopeConfiguration ScopeConfiguration = null
 };
 ```
 
@@ -1155,7 +1171,7 @@ new SecurityhubConnectorProviderNameAzure {
 
 ---
 
-##### `AwsConfigConnectorArn`<sup>Required</sup> <a name="AwsConfigConnectorArn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.awsConfigConnectorArn"></a>
+##### `AwsConfigConnectorArn`<sup>Optional</sup> <a name="AwsConfigConnectorArn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.awsConfigConnectorArn"></a>
 
 ```csharp
 public string AwsConfigConnectorArn { get; set; }
@@ -1165,11 +1181,11 @@ public string AwsConfigConnectorArn { get; set; }
 
 The ARN of the multi-cloud configuration connector used to establish the connection to Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
 
 ---
 
-##### `AzureRegions`<sup>Required</sup> <a name="AzureRegions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.azureRegions"></a>
+##### `AzureRegions`<sup>Optional</sup> <a name="AzureRegions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.azureRegions"></a>
 
 ```csharp
 public string[] AzureRegions { get; set; }
@@ -1179,11 +1195,11 @@ public string[] AzureRegions { get; set; }
 
 The list of Azure regions to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
 
 ---
 
-##### `ScopeConfiguration`<sup>Required</sup> <a name="ScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.scopeConfiguration"></a>
+##### `ScopeConfiguration`<sup>Optional</sup> <a name="ScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.scopeConfiguration"></a>
 
 ```csharp
 public SecurityhubConnectorProviderNameAzureScopeConfiguration ScopeConfiguration { get; set; }
@@ -1193,7 +1209,7 @@ public SecurityhubConnectorProviderNameAzureScopeConfiguration ScopeConfiguratio
 
 The scope configuration that defines which Azure resources are monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
 
 ---
 
@@ -1205,7 +1221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.Awscc;
 
 new SecurityhubConnectorProviderNameAzureScopeConfiguration {
-    string ScopeType,
+    string ScopeType = null,
     string[] ScopeValues = null
 };
 ```
@@ -1219,7 +1235,7 @@ new SecurityhubConnectorProviderNameAzureScopeConfiguration {
 
 ---
 
-##### `ScopeType`<sup>Required</sup> <a name="ScopeType" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfiguration.property.scopeType"></a>
+##### `ScopeType`<sup>Optional</sup> <a name="ScopeType" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfiguration.property.scopeType"></a>
 
 ```csharp
 public string ScopeType { get; set; }
@@ -1229,7 +1245,7 @@ public string ScopeType { get; set; }
 
 The type of scope. Valid values are ``tenant`` and ``subscription``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
 
 ---
 
@@ -1243,7 +1259,121 @@ public string[] ScopeValues { get; set; }
 
 The list of scope values, such as subscription IDs, when the scope type is ``subscription``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+
+---
+
+### SecurityhubConnectorProviderNameGcp <a name="SecurityhubConnectorProviderNameGcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new SecurityhubConnectorProviderNameGcp {
+    string AwsConfigConnectorArn = null,
+    string[] GcpRegions = null,
+    SecurityhubConnectorProviderNameGcpScopeConfiguration ScopeConfiguration = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.awsConfigConnectorArn">AwsConfigConnectorArn</a></code> | <code>string</code> | The ARN of the AWS Config connector used for the GCP integration. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.gcpRegions">GcpRegions</a></code> | <code>string[]</code> | The list of GCP regions to include in the connector scope. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.scopeConfiguration">ScopeConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}. |
+
+---
+
+##### `AwsConfigConnectorArn`<sup>Optional</sup> <a name="AwsConfigConnectorArn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.awsConfigConnectorArn"></a>
+
+```csharp
+public string AwsConfigConnectorArn { get; set; }
+```
+
+- *Type:* string
+
+The ARN of the AWS Config connector used for the GCP integration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+
+---
+
+##### `GcpRegions`<sup>Optional</sup> <a name="GcpRegions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.gcpRegions"></a>
+
+```csharp
+public string[] GcpRegions { get; set; }
+```
+
+- *Type:* string[]
+
+The list of GCP regions to include in the connector scope.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp_regions SecurityhubConnector#gcp_regions}
+
+---
+
+##### `ScopeConfiguration`<sup>Optional</sup> <a name="ScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.scopeConfiguration"></a>
+
+```csharp
+public SecurityhubConnectorProviderNameGcpScopeConfiguration ScopeConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}.
+
+---
+
+### SecurityhubConnectorProviderNameGcpScopeConfiguration <a name="SecurityhubConnectorProviderNameGcpScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new SecurityhubConnectorProviderNameGcpScopeConfiguration {
+    string ScopeType = null,
+    string[] ScopeValues = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.property.scopeType">ScopeType</a></code> | <code>string</code> | The scope type for the GCP connector. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.property.scopeValues">ScopeValues</a></code> | <code>string[]</code> | The list of scope values for the GCP connector. |
+
+---
+
+##### `ScopeType`<sup>Optional</sup> <a name="ScopeType" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.property.scopeType"></a>
+
+```csharp
+public string ScopeType { get; set; }
+```
+
+- *Type:* string
+
+The scope type for the GCP connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+
+---
+
+##### `ScopeValues`<sup>Optional</sup> <a name="ScopeValues" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.property.scopeValues"></a>
+
+```csharp
+public string[] ScopeValues { get; set; }
+```
+
+- *Type:* string[]
+
+The list of scope values for the GCP connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
 
 ---
 
@@ -1738,6 +1868,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.putScopeConfiguration">PutScopeConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetAwsConfigConnectorArn">ResetAwsConfigConnectorArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetAzureRegions">ResetAzureRegions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetScopeConfiguration">ResetScopeConfiguration</a></code> | *No description.* |
 
 ---
 
@@ -1903,6 +2036,24 @@ private void PutScopeConfiguration(SecurityhubConnectorProviderNameAzureScopeCon
 
 ---
 
+##### `ResetAwsConfigConnectorArn` <a name="ResetAwsConfigConnectorArn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetAwsConfigConnectorArn"></a>
+
+```csharp
+private void ResetAwsConfigConnectorArn()
+```
+
+##### `ResetAzureRegions` <a name="ResetAzureRegions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetAzureRegions"></a>
+
+```csharp
+private void ResetAzureRegions()
+```
+
+##### `ResetScopeConfiguration` <a name="ResetScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetScopeConfiguration"></a>
+
+```csharp
+private void ResetScopeConfiguration()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2065,6 +2216,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resetScopeType">ResetScopeType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resetScopeValues">ResetScopeValues</a></code> | *No description.* |
 
 ---
@@ -2219,6 +2371,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetScopeType` <a name="ResetScopeType" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resetScopeType"></a>
+
+```csharp
+private void ResetScopeType()
+```
+
 ##### `ResetScopeValues` <a name="ResetScopeValues" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resetScopeValues"></a>
 
 ```csharp
@@ -2315,6 +2473,662 @@ public IResolvable|SecurityhubConnectorProviderNameAzureScopeConfiguration Inter
 ---
 
 
+### SecurityhubConnectorProviderNameGcpOutputReference <a name="SecurityhubConnectorProviderNameGcpOutputReference" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new SecurityhubConnectorProviderNameGcpOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.putScopeConfiguration">PutScopeConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetAwsConfigConnectorArn">ResetAwsConfigConnectorArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetGcpRegions">ResetGcpRegions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetScopeConfiguration">ResetScopeConfiguration</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutScopeConfiguration` <a name="PutScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.putScopeConfiguration"></a>
+
+```csharp
+private void PutScopeConfiguration(SecurityhubConnectorProviderNameGcpScopeConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.putScopeConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+---
+
+##### `ResetAwsConfigConnectorArn` <a name="ResetAwsConfigConnectorArn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetAwsConfigConnectorArn"></a>
+
+```csharp
+private void ResetAwsConfigConnectorArn()
+```
+
+##### `ResetGcpRegions` <a name="ResetGcpRegions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetGcpRegions"></a>
+
+```csharp
+private void ResetGcpRegions()
+```
+
+##### `ResetScopeConfiguration` <a name="ResetScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetScopeConfiguration"></a>
+
+```csharp
+private void ResetScopeConfiguration()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfiguration">ScopeConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference">SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArnInput">AwsConfigConnectorArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegionsInput">GcpRegionsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfigurationInput">ScopeConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArn">AwsConfigConnectorArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegions">GcpRegions</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScopeConfiguration`<sup>Required</sup> <a name="ScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfiguration"></a>
+
+```csharp
+public SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference ScopeConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference">SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference</a>
+
+---
+
+##### `AwsConfigConnectorArnInput`<sup>Optional</sup> <a name="AwsConfigConnectorArnInput" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArnInput"></a>
+
+```csharp
+public string AwsConfigConnectorArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `GcpRegionsInput`<sup>Optional</sup> <a name="GcpRegionsInput" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegionsInput"></a>
+
+```csharp
+public string[] GcpRegionsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ScopeConfigurationInput`<sup>Optional</sup> <a name="ScopeConfigurationInput" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfigurationInput"></a>
+
+```csharp
+public IResolvable|SecurityhubConnectorProviderNameGcpScopeConfiguration ScopeConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+---
+
+##### `AwsConfigConnectorArn`<sup>Required</sup> <a name="AwsConfigConnectorArn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArn"></a>
+
+```csharp
+public string AwsConfigConnectorArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `GcpRegions`<sup>Required</sup> <a name="GcpRegions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegions"></a>
+
+```csharp
+public string[] GcpRegions { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|SecurityhubConnectorProviderNameGcp InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a>
+
+---
+
+
+### SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference <a name="SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resetScopeType">ResetScopeType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resetScopeValues">ResetScopeValues</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetScopeType` <a name="ResetScopeType" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resetScopeType"></a>
+
+```csharp
+private void ResetScopeType()
+```
+
+##### `ResetScopeValues` <a name="ResetScopeValues" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resetScopeValues"></a>
+
+```csharp
+private void ResetScopeValues()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeTypeInput">ScopeTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValuesInput">ScopeValuesInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeType">ScopeType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValues">ScopeValues</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScopeTypeInput`<sup>Optional</sup> <a name="ScopeTypeInput" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeTypeInput"></a>
+
+```csharp
+public string ScopeTypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScopeValuesInput`<sup>Optional</sup> <a name="ScopeValuesInput" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValuesInput"></a>
+
+```csharp
+public string[] ScopeValuesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `ScopeType`<sup>Required</sup> <a name="ScopeType" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeType"></a>
+
+```csharp
+public string ScopeType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScopeValues`<sup>Required</sup> <a name="ScopeValues" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValues"></a>
+
+```csharp
+public string[] ScopeValues { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|SecurityhubConnectorProviderNameGcpScopeConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+---
+
+
 ### SecurityhubConnectorProviderNameOutputReference <a name="SecurityhubConnectorProviderNameOutputReference" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.Initializer"></a>
@@ -2366,6 +3180,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putAzure">PutAzure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putGcp">PutGcp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resetAzure">ResetAzure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resetGcp">ResetGcp</a></code> | *No description.* |
 
 ---
 
@@ -2531,6 +3348,30 @@ private void PutAzure(SecurityhubConnectorProviderNameAzure Value)
 
 ---
 
+##### `PutGcp` <a name="PutGcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putGcp"></a>
+
+```csharp
+private void PutGcp(SecurityhubConnectorProviderNameGcp Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putGcp.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a>
+
+---
+
+##### `ResetAzure` <a name="ResetAzure" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resetAzure"></a>
+
+```csharp
+private void ResetAzure()
+```
+
+##### `ResetGcp` <a name="ResetGcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resetGcp"></a>
+
+```csharp
+private void ResetGcp()
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -2539,7 +3380,9 @@ private void PutAzure(SecurityhubConnectorProviderNameAzure Value)
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.azure">Azure</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference">SecurityhubConnectorProviderNameAzureOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.gcp">Gcp</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference">SecurityhubConnectorProviderNameGcpOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.azureInput">AzureInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure">SecurityhubConnectorProviderNameAzure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.gcpInput">GcpInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | *No description.* |
 
 ---
@@ -2578,6 +3421,16 @@ public SecurityhubConnectorProviderNameAzureOutputReference Azure { get; }
 
 ---
 
+##### `Gcp`<sup>Required</sup> <a name="Gcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.gcp"></a>
+
+```csharp
+public SecurityhubConnectorProviderNameGcpOutputReference Gcp { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference">SecurityhubConnectorProviderNameGcpOutputReference</a>
+
+---
+
 ##### `AzureInput`<sup>Optional</sup> <a name="AzureInput" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.azureInput"></a>
 
 ```csharp
@@ -2585,6 +3438,16 @@ public IResolvable|SecurityhubConnectorProviderNameAzure AzureInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure">SecurityhubConnectorProviderNameAzure</a>
+
+---
+
+##### `GcpInput`<sup>Optional</sup> <a name="GcpInput" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.gcpInput"></a>
+
+```csharp
+public IResolvable|SecurityhubConnectorProviderNameGcp GcpInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a>
 
 ---
 

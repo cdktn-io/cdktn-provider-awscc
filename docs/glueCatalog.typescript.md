@@ -4,7 +4,7 @@
 
 ### GlueCatalog <a name="GlueCatalog" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog awscc_glue_catalog}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog awscc_glue_catalog}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalog.Initializer"></a>
 
@@ -637,7 +637,7 @@ The construct id used in the generated config for the GlueCatalog to import.
 
 The id of the existing GlueCatalog that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1157,7 +1157,7 @@ public readonly dataLakeAccessProperties: GlueCatalogCatalogPropertiesDataLakeAc
 
 Data lake access properties for the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_lake_access_properties GlueCatalog#data_lake_access_properties}
 
 ---
 
@@ -1193,7 +1193,7 @@ public readonly allowFullTableExternalDataAccess: string;
 
 Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
 
 ---
 
@@ -1207,7 +1207,7 @@ public readonly catalogType: string;
 
 Specifies a federated catalog type for the native catalog resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}
 
 ---
 
@@ -1221,7 +1221,7 @@ public readonly dataLakeAccess: boolean | IResolvable;
 
 Turns on or off data lake access for Apache Spark applications that access Amazon Redshift databases in the Data Catalog from any non-Redshift engine.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}
 
 ---
 
@@ -1235,7 +1235,7 @@ public readonly dataTransferRole: string;
 
 A role that will be assumed by Glue for transferring data into/out of the staging bucket during a query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}
 
 ---
 
@@ -1249,7 +1249,7 @@ public readonly kmsKey: string;
 
 An encryption key that will be used for the staging bucket that will be created along with the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}
 
 ---
 
@@ -1368,7 +1368,7 @@ public readonly name: string;
 
 The name of the catalog to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#name GlueCatalog#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#name GlueCatalog#name}
 
 ---
 
@@ -1382,7 +1382,7 @@ public readonly allowFullTableExternalDataAccess: string;
 
 Allows third-party engines to access data in Amazon S3 locations that are registered with Lake Formation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#allow_full_table_external_data_access GlueCatalog#allow_full_table_external_data_access}
 
 ---
 
@@ -1396,7 +1396,7 @@ public readonly catalogProperties: GlueCatalogCatalogProperties;
 
 A structure that specifies data lake access properties and other custom properties.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#catalog_properties GlueCatalog#catalog_properties}
 
 ---
 
@@ -1410,7 +1410,7 @@ public readonly createDatabaseDefaultPermissions: IResolvable | GlueCatalogCreat
 
 An array of PrincipalPermissions objects for default database permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#create_database_default_permissions GlueCatalog#create_database_default_permissions}
 
 ---
 
@@ -1424,7 +1424,7 @@ public readonly createTableDefaultPermissions: IResolvable | GlueCatalogCreateTa
 
 An array of PrincipalPermissions objects for default table permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#create_table_default_permissions GlueCatalog#create_table_default_permissions}
 
 ---
 
@@ -1438,7 +1438,7 @@ public readonly description: string;
 
 A description of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#description GlueCatalog#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#description GlueCatalog#description}
 
 ---
 
@@ -1452,7 +1452,7 @@ public readonly federatedCatalog: GlueCatalogFederatedCatalog;
 
 A FederatedCatalog structure that references an entity outside the Glue Data Catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#federated_catalog GlueCatalog#federated_catalog}
 
 ---
 
@@ -1466,7 +1466,7 @@ public readonly overwriteChildResourcePermissionsWithDefault: string;
 
 Specifies whether to overwrite child resource permissions with the default permissions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#overwrite_child_resource_permissions_with_default GlueCatalog#overwrite_child_resource_permissions_with_default}
 
 ---
 
@@ -1480,7 +1480,7 @@ public readonly parameters: {[ key: string ]: string};
 
 A map of key-value pairs that define parameters and properties of the catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#parameters GlueCatalog#parameters}
 
 ---
 
@@ -1494,7 +1494,7 @@ public readonly tags: IResolvable | GlueCatalogTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#tags GlueCatalog#tags}
 
 ---
 
@@ -1508,7 +1508,7 @@ public readonly targetRedshiftCatalog: GlueCatalogTargetRedshiftCatalog;
 
 A structure that describes a target catalog for resource linking.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#target_redshift_catalog GlueCatalog#target_redshift_catalog}
 
 ---
 
@@ -1541,7 +1541,7 @@ public readonly permissions: string[];
 
 The permissions that are granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
 
 ---
 
@@ -1555,7 +1555,7 @@ public readonly principal: GlueCatalogCreateDatabaseDefaultPermissionsPrincipal;
 
 The Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
 
 ---
 
@@ -1587,7 +1587,7 @@ public readonly dataLakePrincipalIdentifier: string;
 
 An identifier for the Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
 
 ---
 
@@ -1620,7 +1620,7 @@ public readonly permissions: string[];
 
 The permissions that are granted to the principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#permissions GlueCatalog#permissions}
 
 ---
 
@@ -1634,7 +1634,7 @@ public readonly principal: GlueCatalogCreateTableDefaultPermissionsPrincipal;
 
 The Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#principal GlueCatalog#principal}
 
 ---
 
@@ -1666,7 +1666,7 @@ public readonly dataLakePrincipalIdentifier: string;
 
 An identifier for the Lake Formation principal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#data_lake_principal_identifier GlueCatalog#data_lake_principal_identifier}
 
 ---
 
@@ -1685,7 +1685,9 @@ const glueCatalogFederatedCatalog: glueCatalog.GlueCatalogFederatedCatalog = { .
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog.property.connectionName">connectionName</a></code> | <code>string</code> | The name of the connection to an external data source. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog.property.connectionType">connectionType</a></code> | <code>string</code> | The type of connection used to access the federated catalog. Synchronization is only supported for certain connection types. |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog.property.identifier">identifier</a></code> | <code>string</code> | A unique identifier for the federated catalog. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog.property.syncConfiguration">syncConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration">GlueCatalogFederatedCatalogSyncConfiguration</a></code> | Configuration for synchronizing a federated catalog with its external data source. |
 
 ---
 
@@ -1699,7 +1701,21 @@ public readonly connectionName: string;
 
 The name of the connection to an external data source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#connection_name GlueCatalog#connection_name}
+
+---
+
+##### `connectionType`<sup>Optional</sup> <a name="connectionType" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog.property.connectionType"></a>
+
+```typescript
+public readonly connectionType: string;
+```
+
+- *Type:* string
+
+The type of connection used to access the federated catalog. Synchronization is only supported for certain connection types.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#connection_type GlueCatalog#connection_type}
 
 ---
 
@@ -1713,9 +1729,233 @@ public readonly identifier: string;
 
 A unique identifier for the federated catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#identifier GlueCatalog#identifier}
 
 ---
+
+##### `syncConfiguration`<sup>Optional</sup> <a name="syncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog.property.syncConfiguration"></a>
+
+```typescript
+public readonly syncConfiguration: GlueCatalogFederatedCatalogSyncConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration">GlueCatalogFederatedCatalogSyncConfiguration</a>
+
+Configuration for synchronizing a federated catalog with its external data source.
+
+Removing this property does not disable synchronization: Glue keeps the stored configuration for anything omitted from an update. To stop synchronizing, set the Status of each mode to DISABLED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#sync_configuration GlueCatalog#sync_configuration}
+
+---
+
+### GlueCatalogFederatedCatalogSyncConfiguration <a name="GlueCatalogFederatedCatalogSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+const glueCatalogFederatedCatalogSyncConfiguration: glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration.property.assetsSyncConfiguration">assetsSyncConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration</a></code> | Configuration for synchronizing assets from the external data source. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration.property.lineageSyncConfiguration">lineageSyncConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration</a></code> | Configuration for synchronizing lineage from the external data source. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration.property.roleArn">roleArn</a></code> | <code>string</code> | The IAM role, in the catalog owner's account, that the crawlers Glue manages on your behalf assume. |
+
+---
+
+##### `assetsSyncConfiguration`<sup>Optional</sup> <a name="assetsSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration.property.assetsSyncConfiguration"></a>
+
+```typescript
+public readonly assetsSyncConfiguration: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration</a>
+
+Configuration for synchronizing assets from the external data source.
+
+Omitting this property on an update leaves the stored configuration unchanged; set Status to DISABLED to stop synchronizing assets.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#assets_sync_configuration GlueCatalog#assets_sync_configuration}
+
+---
+
+##### `lineageSyncConfiguration`<sup>Optional</sup> <a name="lineageSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration.property.lineageSyncConfiguration"></a>
+
+```typescript
+public readonly lineageSyncConfiguration: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration</a>
+
+Configuration for synchronizing lineage from the external data source.
+
+Omitting this property on an update leaves the stored configuration unchanged; set Status to DISABLED to stop synchronizing lineage.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#lineage_sync_configuration GlueCatalog#lineage_sync_configuration}
+
+---
+
+##### `roleArn`<sup>Optional</sup> <a name="roleArn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration.property.roleArn"></a>
+
+```typescript
+public readonly roleArn: string;
+```
+
+- *Type:* string
+
+The IAM role, in the catalog owner's account, that the crawlers Glue manages on your behalf assume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#role_arn GlueCatalog#role_arn}
+
+---
+
+### GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration <a name="GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+const glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration: glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration.property.refreshIntervalMinutes">refreshIntervalMinutes</a></code> | <code>number</code> | How often the crawler synchronizes assets, in minutes. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration.property.status">status</a></code> | <code>string</code> | Whether asset synchronization is enabled. |
+
+---
+
+##### `refreshIntervalMinutes`<sup>Optional</sup> <a name="refreshIntervalMinutes" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration.property.refreshIntervalMinutes"></a>
+
+```typescript
+public readonly refreshIntervalMinutes: number;
+```
+
+- *Type:* number
+
+How often the crawler synchronizes assets, in minutes.
+
+Glue enforces a service-side minimum that may be higher than the minimum accepted here.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#refresh_interval_minutes GlueCatalog#refresh_interval_minutes}
+
+---
+
+##### `status`<sup>Optional</sup> <a name="status" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+Whether asset synchronization is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#status GlueCatalog#status}
+
+---
+
+### GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails <a name="GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+const glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails: glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails = { ... }
+```
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError <a name="GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+const glueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError: glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError = { ... }
+```
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration <a name="GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+const glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration: glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration.property.refreshIntervalMinutes">refreshIntervalMinutes</a></code> | <code>number</code> | How often the crawler synchronizes lineage, in minutes. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration.property.status">status</a></code> | <code>string</code> | Whether lineage synchronization is enabled. |
+
+---
+
+##### `refreshIntervalMinutes`<sup>Optional</sup> <a name="refreshIntervalMinutes" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration.property.refreshIntervalMinutes"></a>
+
+```typescript
+public readonly refreshIntervalMinutes: number;
+```
+
+- *Type:* number
+
+How often the crawler synchronizes lineage, in minutes.
+
+Glue enforces a service-side minimum that may be higher than the minimum accepted here.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#refresh_interval_minutes GlueCatalog#refresh_interval_minutes}
+
+---
+
+##### `status`<sup>Optional</sup> <a name="status" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+Whether lineage synchronization is enabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#status GlueCatalog#status}
+
+---
+
+### GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails <a name="GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+const glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails: glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails = { ... }
+```
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError <a name="GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+const glueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError: glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError = { ... }
+```
+
 
 ### GlueCatalogTags <a name="GlueCatalogTags" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogTags"></a>
 
@@ -1746,7 +1986,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#key GlueCatalog#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#key GlueCatalog#key}
 
 ---
 
@@ -1760,7 +2000,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#value GlueCatalog#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#value GlueCatalog#value}
 
 ---
 
@@ -1792,7 +2032,7 @@ public readonly catalogArn: string;
 
 The Amazon Resource Name (ARN) of the catalog resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
 
 ---
 
@@ -4129,8 +4369,11 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.putSyncConfiguration">putSyncConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resetConnectionName">resetConnectionName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resetConnectionType">resetConnectionType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resetIdentifier">resetIdentifier</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resetSyncConfiguration">resetSyncConfiguration</a></code> | *No description.* |
 
 ---
 
@@ -4284,16 +4527,40 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `putSyncConfiguration` <a name="putSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.putSyncConfiguration"></a>
+
+```typescript
+public putSyncConfiguration(value: GlueCatalogFederatedCatalogSyncConfiguration): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.putSyncConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration">GlueCatalogFederatedCatalogSyncConfiguration</a>
+
+---
+
 ##### `resetConnectionName` <a name="resetConnectionName" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resetConnectionName"></a>
 
 ```typescript
 public resetConnectionName(): void
 ```
 
+##### `resetConnectionType` <a name="resetConnectionType" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resetConnectionType"></a>
+
+```typescript
+public resetConnectionType(): void
+```
+
 ##### `resetIdentifier` <a name="resetIdentifier" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resetIdentifier"></a>
 
 ```typescript
 public resetIdentifier(): void
+```
+
+##### `resetSyncConfiguration` <a name="resetSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.resetSyncConfiguration"></a>
+
+```typescript
+public resetSyncConfiguration(): void
 ```
 
 
@@ -4303,9 +4570,13 @@ public resetIdentifier(): void
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.syncConfiguration">syncConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference">GlueCatalogFederatedCatalogSyncConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.connectionNameInput">connectionNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.connectionTypeInput">connectionTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.identifierInput">identifierInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.syncConfigurationInput">syncConfigurationInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration">GlueCatalogFederatedCatalogSyncConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.connectionName">connectionName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.connectionType">connectionType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.identifier">identifier</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog">GlueCatalogFederatedCatalog</a></code> | *No description.* |
 
@@ -4335,10 +4606,30 @@ public readonly fqn: string;
 
 ---
 
+##### `syncConfiguration`<sup>Required</sup> <a name="syncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.syncConfiguration"></a>
+
+```typescript
+public readonly syncConfiguration: GlueCatalogFederatedCatalogSyncConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference">GlueCatalogFederatedCatalogSyncConfigurationOutputReference</a>
+
+---
+
 ##### `connectionNameInput`<sup>Optional</sup> <a name="connectionNameInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.connectionNameInput"></a>
 
 ```typescript
 public readonly connectionNameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `connectionTypeInput`<sup>Optional</sup> <a name="connectionTypeInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.connectionTypeInput"></a>
+
+```typescript
+public readonly connectionTypeInput: string;
 ```
 
 - *Type:* string
@@ -4355,10 +4646,30 @@ public readonly identifierInput: string;
 
 ---
 
+##### `syncConfigurationInput`<sup>Optional</sup> <a name="syncConfigurationInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.syncConfigurationInput"></a>
+
+```typescript
+public readonly syncConfigurationInput: IResolvable | GlueCatalogFederatedCatalogSyncConfiguration;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration">GlueCatalogFederatedCatalogSyncConfiguration</a>
+
+---
+
 ##### `connectionName`<sup>Required</sup> <a name="connectionName" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.connectionName"></a>
 
 ```typescript
 public readonly connectionName: string;
+```
+
+- *Type:* string
+
+---
+
+##### `connectionType`<sup>Required</sup> <a name="connectionType" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogOutputReference.property.connectionType"></a>
+
+```typescript
+public readonly connectionType: string;
 ```
 
 - *Type:* string
@@ -4382,6 +4693,2110 @@ public readonly internalValue: IResolvable | GlueCatalogFederatedCatalog;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalog">GlueCatalogFederatedCatalog</a>
+
+---
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference <a name="GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+new glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.errorCode">errorCode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.errorMessage">errorMessage</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `errorCode`<sup>Required</sup> <a name="errorCode" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.errorCode"></a>
+
+```typescript
+public readonly errorCode: string;
+```
+
+- *Type:* string
+
+---
+
+##### `errorMessage`<sup>Required</sup> <a name="errorMessage" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.errorMessage"></a>
+
+```typescript
+public readonly errorMessage: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsError</a>
+
+---
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference <a name="GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+new glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.crawlerArn">crawlerArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.error">error</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.status">status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `crawlerArn`<sup>Required</sup> <a name="crawlerArn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.crawlerArn"></a>
+
+```typescript
+public readonly crawlerArn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `error`<sup>Required</sup> <a name="error" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.error"></a>
+
+```typescript
+public readonly error: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsErrorOutputReference</a>
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetails</a>
+
+---
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference <a name="GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+new glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.resetRefreshIntervalMinutes">resetRefreshIntervalMinutes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.resetStatus">resetStatus</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetRefreshIntervalMinutes` <a name="resetRefreshIntervalMinutes" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.resetRefreshIntervalMinutes"></a>
+
+```typescript
+public resetRefreshIntervalMinutes(): void
+```
+
+##### `resetStatus` <a name="resetStatus" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.resetStatus"></a>
+
+```typescript
+public resetStatus(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.managedCrawlerDetails">managedCrawlerDetails</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.refreshIntervalMinutesInput">refreshIntervalMinutesInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.statusInput">statusInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.refreshIntervalMinutes">refreshIntervalMinutes</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.status">status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `managedCrawlerDetails`<sup>Required</sup> <a name="managedCrawlerDetails" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.managedCrawlerDetails"></a>
+
+```typescript
+public readonly managedCrawlerDetails: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationManagedCrawlerDetailsOutputReference</a>
+
+---
+
+##### `refreshIntervalMinutesInput`<sup>Optional</sup> <a name="refreshIntervalMinutesInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.refreshIntervalMinutesInput"></a>
+
+```typescript
+public readonly refreshIntervalMinutesInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `statusInput`<sup>Optional</sup> <a name="statusInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.statusInput"></a>
+
+```typescript
+public readonly statusInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `refreshIntervalMinutes`<sup>Required</sup> <a name="refreshIntervalMinutes" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.refreshIntervalMinutes"></a>
+
+```typescript
+public readonly refreshIntervalMinutes: number;
+```
+
+- *Type:* number
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration</a>
+
+---
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference <a name="GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+new glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.errorCode">errorCode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.errorMessage">errorMessage</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `errorCode`<sup>Required</sup> <a name="errorCode" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.errorCode"></a>
+
+```typescript
+public readonly errorCode: string;
+```
+
+- *Type:* string
+
+---
+
+##### `errorMessage`<sup>Required</sup> <a name="errorMessage" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.errorMessage"></a>
+
+```typescript
+public readonly errorMessage: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsError</a>
+
+---
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference <a name="GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+new glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.crawlerArn">crawlerArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.error">error</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.status">status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `crawlerArn`<sup>Required</sup> <a name="crawlerArn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.crawlerArn"></a>
+
+```typescript
+public readonly crawlerArn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `error`<sup>Required</sup> <a name="error" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.error"></a>
+
+```typescript
+public readonly error: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsErrorOutputReference</a>
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetails</a>
+
+---
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference <a name="GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+new glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.resetRefreshIntervalMinutes">resetRefreshIntervalMinutes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.resetStatus">resetStatus</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetRefreshIntervalMinutes` <a name="resetRefreshIntervalMinutes" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.resetRefreshIntervalMinutes"></a>
+
+```typescript
+public resetRefreshIntervalMinutes(): void
+```
+
+##### `resetStatus` <a name="resetStatus" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.resetStatus"></a>
+
+```typescript
+public resetStatus(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.managedCrawlerDetails">managedCrawlerDetails</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.refreshIntervalMinutesInput">refreshIntervalMinutesInput</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.statusInput">statusInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.refreshIntervalMinutes">refreshIntervalMinutes</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.status">status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `managedCrawlerDetails`<sup>Required</sup> <a name="managedCrawlerDetails" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.managedCrawlerDetails"></a>
+
+```typescript
+public readonly managedCrawlerDetails: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationManagedCrawlerDetailsOutputReference</a>
+
+---
+
+##### `refreshIntervalMinutesInput`<sup>Optional</sup> <a name="refreshIntervalMinutesInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.refreshIntervalMinutesInput"></a>
+
+```typescript
+public readonly refreshIntervalMinutesInput: number;
+```
+
+- *Type:* number
+
+---
+
+##### `statusInput`<sup>Optional</sup> <a name="statusInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.statusInput"></a>
+
+```typescript
+public readonly statusInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `refreshIntervalMinutes`<sup>Required</sup> <a name="refreshIntervalMinutes" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.refreshIntervalMinutes"></a>
+
+```typescript
+public readonly refreshIntervalMinutes: number;
+```
+
+- *Type:* number
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration</a>
+
+---
+
+
+### GlueCatalogFederatedCatalogSyncConfigurationOutputReference <a name="GlueCatalogFederatedCatalogSyncConfigurationOutputReference" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { glueCatalog } from '@cdktn/provider-awscc'
+
+new glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.putAssetsSyncConfiguration">putAssetsSyncConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.putLineageSyncConfiguration">putLineageSyncConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resetAssetsSyncConfiguration">resetAssetsSyncConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resetLineageSyncConfiguration">resetLineageSyncConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resetRoleArn">resetRoleArn</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putAssetsSyncConfiguration` <a name="putAssetsSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.putAssetsSyncConfiguration"></a>
+
+```typescript
+public putAssetsSyncConfiguration(value: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.putAssetsSyncConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration</a>
+
+---
+
+##### `putLineageSyncConfiguration` <a name="putLineageSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.putLineageSyncConfiguration"></a>
+
+```typescript
+public putLineageSyncConfiguration(value: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.putLineageSyncConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration</a>
+
+---
+
+##### `resetAssetsSyncConfiguration` <a name="resetAssetsSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resetAssetsSyncConfiguration"></a>
+
+```typescript
+public resetAssetsSyncConfiguration(): void
+```
+
+##### `resetLineageSyncConfiguration` <a name="resetLineageSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resetLineageSyncConfiguration"></a>
+
+```typescript
+public resetLineageSyncConfiguration(): void
+```
+
+##### `resetRoleArn` <a name="resetRoleArn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.resetRoleArn"></a>
+
+```typescript
+public resetRoleArn(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.assetsSyncConfiguration">assetsSyncConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.lineageSyncConfiguration">lineageSyncConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.assetsSyncConfigurationInput">assetsSyncConfigurationInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.lineageSyncConfigurationInput">lineageSyncConfigurationInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.roleArnInput">roleArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.roleArn">roleArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration">GlueCatalogFederatedCatalogSyncConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `assetsSyncConfiguration`<sup>Required</sup> <a name="assetsSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.assetsSyncConfiguration"></a>
+
+```typescript
+public readonly assetsSyncConfiguration: GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfigurationOutputReference</a>
+
+---
+
+##### `lineageSyncConfiguration`<sup>Required</sup> <a name="lineageSyncConfiguration" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.lineageSyncConfiguration"></a>
+
+```typescript
+public readonly lineageSyncConfiguration: GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfigurationOutputReference</a>
+
+---
+
+##### `assetsSyncConfigurationInput`<sup>Optional</sup> <a name="assetsSyncConfigurationInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.assetsSyncConfigurationInput"></a>
+
+```typescript
+public readonly assetsSyncConfigurationInput: IResolvable | GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationAssetsSyncConfiguration</a>
+
+---
+
+##### `lineageSyncConfigurationInput`<sup>Optional</sup> <a name="lineageSyncConfigurationInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.lineageSyncConfigurationInput"></a>
+
+```typescript
+public readonly lineageSyncConfigurationInput: IResolvable | GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration">GlueCatalogFederatedCatalogSyncConfigurationLineageSyncConfiguration</a>
+
+---
+
+##### `roleArnInput`<sup>Optional</sup> <a name="roleArnInput" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.roleArnInput"></a>
+
+```typescript
+public readonly roleArnInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `roleArn`<sup>Required</sup> <a name="roleArn" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.roleArn"></a>
+
+```typescript
+public readonly roleArn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | GlueCatalogFederatedCatalogSyncConfiguration;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.glueCatalog.GlueCatalogFederatedCatalogSyncConfiguration">GlueCatalogFederatedCatalogSyncConfiguration</a>
 
 ---
 

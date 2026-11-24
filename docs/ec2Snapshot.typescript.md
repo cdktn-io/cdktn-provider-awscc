@@ -4,7 +4,7 @@
 
 ### Ec2Snapshot <a name="Ec2Snapshot" id="@cdktn/provider-awscc.ec2Snapshot.Ec2Snapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot awscc_ec2_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot awscc_ec2_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2Snapshot.Ec2Snapshot.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the Ec2Snapshot to import.
 
 The id of the existing Ec2Snapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1005,7 +1005,7 @@ public readonly volumeId: string;
 
 The ID of the Amazon EBS volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot#volume_id Ec2Snapshot#volume_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot#volume_id Ec2Snapshot#volume_id}
 
 ---
 
@@ -1019,7 +1019,7 @@ public readonly description: string;
 
 A description for the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot#description Ec2Snapshot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot#description Ec2Snapshot#description}
 
 ---
 
@@ -1033,7 +1033,7 @@ public readonly tags: IResolvable | Ec2SnapshotTags[];
 
 Any tags assigned to the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot#tags Ec2Snapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot#tags Ec2Snapshot#tags}
 
 ---
 
@@ -1051,8 +1051,8 @@ const ec2SnapshotTags: ec2Snapshot.Ec2SnapshotTags = { ... }
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.ec2Snapshot.Ec2SnapshotTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot#key Ec2Snapshot#key}. |
-| <code><a href="#@cdktn/provider-awscc.ec2Snapshot.Ec2SnapshotTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot#value Ec2Snapshot#value}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Snapshot.Ec2SnapshotTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot#key Ec2Snapshot#key}. |
+| <code><a href="#@cdktn/provider-awscc.ec2Snapshot.Ec2SnapshotTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot#value Ec2Snapshot#value}. |
 
 ---
 
@@ -1064,7 +1064,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot#key Ec2Snapshot#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot#key Ec2Snapshot#key}.
 
 ---
 
@@ -1076,7 +1076,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_snapshot#value Ec2Snapshot#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_snapshot#value Ec2Snapshot#value}.
 
 ---
 

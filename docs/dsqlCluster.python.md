@@ -4,7 +4,7 @@
 
 ### DsqlCluster <a name="DsqlCluster" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster awscc_dsql_cluster}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster awscc_dsql_cluster}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer"></a>
 
@@ -23,6 +23,7 @@ dsqlCluster.DsqlCluster(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   deletion_protection_enabled: bool | IResolvable = None,
   kms_encryption_key: str = None,
+  metric_groups: IResolvable | typing.List[DsqlClusterMetricGroups] = None,
   multi_region_properties: DsqlClusterMultiRegionProperties = None,
   policy_document: str = None,
   tags: IResolvable | typing.List[DsqlClusterTags] = None
@@ -42,9 +43,10 @@ dsqlCluster.DsqlCluster(
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.deletionProtectionEnabled">deletion_protection_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether deletion protection is enabled in this cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.kmsEncryptionKey">kms_encryption_key</a></code> | <code>str</code> | The KMS key that encrypts data on the cluster. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.metricGroups">metric_groups</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]</code> | The Advanced monitoring metric groups to enable on the cluster. Omit to enable none. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.multiRegionProperties">multi_region_properties</a></code> | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties">DsqlClusterMultiRegionProperties</a></code> | The Multi-region properties associated to this cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.policyDocument">policy_document</a></code> | <code>str</code> | The IAM policy applied to the cluster resource. |
-| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
 
 ---
 
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Whether deletion protection is enabled in this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
 
 ---
 
@@ -124,7 +126,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The KMS key that encrypts data on the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
+
+---
+
+##### `metric_groups`<sup>Optional</sup> <a name="metric_groups" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.Initializer.parameter.metricGroups"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]
+
+The Advanced monitoring metric groups to enable on the cluster. Omit to enable none.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#metric_groups DsqlCluster#metric_groups}
 
 ---
 
@@ -134,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Multi-region properties associated to this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
 
 ---
 
@@ -144,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IAM policy applied to the cluster resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
 
 ---
 
@@ -152,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
 
 ---
 
@@ -184,10 +196,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.putMetricGroups">put_metric_groups</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.putMultiRegionProperties">put_multi_region_properties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.resetDeletionProtectionEnabled">reset_deletion_protection_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.resetKmsEncryptionKey">reset_kms_encryption_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.resetMetricGroups">reset_metric_groups</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.resetMultiRegionProperties">reset_multi_region_properties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.resetPolicyDocument">reset_policy_document</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.resetTags">reset_tags</a></code> | *No description.* |
@@ -542,6 +556,20 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_metric_groups` <a name="put_metric_groups" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.putMetricGroups"></a>
+
+```python
+def put_metric_groups(
+  value: IResolvable | typing.List[DsqlClusterMetricGroups]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.putMetricGroups.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]
+
+---
+
 ##### `put_multi_region_properties` <a name="put_multi_region_properties" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.putMultiRegionProperties"></a>
 
 ```python
@@ -555,7 +583,7 @@ def put_multi_region_properties(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
 
 ---
 
@@ -565,7 +593,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The witness region in a multi-region cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
 
 ---
 
@@ -593,6 +621,12 @@ def reset_deletion_protection_enabled() -> None
 
 ```python
 def reset_kms_encryption_key() -> None
+```
+
+##### `reset_metric_groups` <a name="reset_metric_groups" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.resetMetricGroups"></a>
+
+```python
+def reset_metric_groups() -> None
 ```
 
 ##### `reset_multi_region_properties` <a name="reset_multi_region_properties" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.resetMultiRegionProperties"></a>
@@ -727,7 +761,7 @@ The construct id used in the generated config for the DsqlCluster to import.
 
 The id of the existing DsqlCluster that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -762,6 +796,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.endpoint">endpoint</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.identifier">identifier</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.metricGroups">metric_groups</a></code> | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList">DsqlClusterMetricGroupsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.multiRegionProperties">multi_region_properties</a></code> | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionPropertiesOutputReference">DsqlClusterMultiRegionPropertiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.policyVersion">policy_version</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.resourceArn">resource_arn</a></code> | <code>str</code> | *No description.* |
@@ -771,6 +806,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.vpcEndpointServiceName">vpc_endpoint_service_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.deletionProtectionEnabledInput">deletion_protection_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.kmsEncryptionKeyInput">kms_encryption_key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.metricGroupsInput">metric_groups_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.multiRegionPropertiesInput">multi_region_properties_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties">DsqlClusterMultiRegionProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.policyDocumentInput">policy_document_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>]</code> | *No description.* |
@@ -972,6 +1008,16 @@ identifier: str
 
 ---
 
+##### `metric_groups`<sup>Required</sup> <a name="metric_groups" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.metricGroups"></a>
+
+```python
+metric_groups: DsqlClusterMetricGroupsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList">DsqlClusterMetricGroupsList</a>
+
+---
+
 ##### `multi_region_properties`<sup>Required</sup> <a name="multi_region_properties" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.multiRegionProperties"></a>
 
 ```python
@@ -1059,6 +1105,16 @@ kms_encryption_key_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `metric_groups_input`<sup>Optional</sup> <a name="metric_groups_input" id="@cdktn/provider-awscc.dsqlCluster.DsqlCluster.property.metricGroupsInput"></a>
+
+```python
+metric_groups_input: IResolvable | typing.List[DsqlClusterMetricGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]
 
 ---
 
@@ -1159,6 +1215,7 @@ dsqlCluster.DsqlClusterConfig(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   deletion_protection_enabled: bool | IResolvable = None,
   kms_encryption_key: str = None,
+  metric_groups: IResolvable | typing.List[DsqlClusterMetricGroups] = None,
   multi_region_properties: DsqlClusterMultiRegionProperties = None,
   policy_document: str = None,
   tags: IResolvable | typing.List[DsqlClusterTags] = None
@@ -1178,9 +1235,10 @@ dsqlCluster.DsqlClusterConfig(
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.deletionProtectionEnabled">deletion_protection_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether deletion protection is enabled in this cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.kmsEncryptionKey">kms_encryption_key</a></code> | <code>str</code> | The KMS key that encrypts data on the cluster. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.metricGroups">metric_groups</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]</code> | The Advanced monitoring metric groups to enable on the cluster. Omit to enable none. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.multiRegionProperties">multi_region_properties</a></code> | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties">DsqlClusterMultiRegionProperties</a></code> | The Multi-region properties associated to this cluster. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.policyDocument">policy_document</a></code> | <code>str</code> | The IAM policy applied to the cluster resource. |
-| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}. |
 
 ---
 
@@ -1264,7 +1322,7 @@ deletion_protection_enabled: bool | IResolvable
 
 Whether deletion protection is enabled in this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#deletion_protection_enabled DsqlCluster#deletion_protection_enabled}
 
 ---
 
@@ -1278,7 +1336,21 @@ kms_encryption_key: str
 
 The KMS key that encrypts data on the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#kms_encryption_key DsqlCluster#kms_encryption_key}
+
+---
+
+##### `metric_groups`<sup>Optional</sup> <a name="metric_groups" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterConfig.property.metricGroups"></a>
+
+```python
+metric_groups: IResolvable | typing.List[DsqlClusterMetricGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]
+
+The Advanced monitoring metric groups to enable on the cluster. Omit to enable none.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#metric_groups DsqlCluster#metric_groups}
 
 ---
 
@@ -1292,7 +1364,7 @@ multi_region_properties: DsqlClusterMultiRegionProperties
 
 The Multi-region properties associated to this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#multi_region_properties DsqlCluster#multi_region_properties}
 
 ---
 
@@ -1306,7 +1378,7 @@ policy_document: str
 
 The IAM policy applied to the cluster resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#policy_document DsqlCluster#policy_document}
 
 ---
 
@@ -1318,7 +1390,7 @@ tags: IResolvable | typing.List[DsqlClusterTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterTags">DsqlClusterTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#tags DsqlCluster#tags}.
 
 ---
 
@@ -1332,6 +1404,40 @@ from cdktn_provider_awscc import dsql_cluster
 dsqlCluster.DsqlClusterEncryptionDetails()
 ```
 
+
+### DsqlClusterMetricGroups <a name="DsqlClusterMetricGroups" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dsql_cluster
+
+dsqlCluster.DsqlClusterMetricGroups(
+  metric_group: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups.property.metricGroup">metric_group</a></code> | <code>str</code> | The name of the metric group. Valid values: STATEMENT_STATISTICS. |
+
+---
+
+##### `metric_group`<sup>Optional</sup> <a name="metric_group" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups.property.metricGroup"></a>
+
+```python
+metric_group: str
+```
+
+- *Type:* str
+
+The name of the metric group. Valid values: STATEMENT_STATISTICS.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#metric_group DsqlCluster#metric_group}
+
+---
 
 ### DsqlClusterMultiRegionProperties <a name="DsqlClusterMultiRegionProperties" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties"></a>
 
@@ -1350,7 +1456,7 @@ dsqlCluster.DsqlClusterMultiRegionProperties(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.clusters">clusters</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.clusters">clusters</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}. |
 | <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMultiRegionProperties.property.witnessRegion">witness_region</a></code> | <code>str</code> | The witness region in a multi-region cluster. |
 
 ---
@@ -1363,7 +1469,7 @@ clusters: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
 
 ---
 
@@ -1377,7 +1483,7 @@ witness_region: str
 
 The witness region in a multi-region cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
 
 ---
 
@@ -1415,7 +1521,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#key DsqlCluster#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#key DsqlCluster#key}
 
 ---
 
@@ -1431,7 +1537,7 @@ The value for the tag.
 
 You can specify a value that is 1 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/dsql_cluster#value DsqlCluster#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/dsql_cluster#value DsqlCluster#value}
 
 ---
 
@@ -1740,6 +1846,499 @@ internal_value: DsqlClusterEncryptionDetails
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterEncryptionDetails">DsqlClusterEncryptionDetails</a>
+
+---
+
+
+### DsqlClusterMetricGroupsList <a name="DsqlClusterMetricGroupsList" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dsql_cluster
+
+dsqlCluster.DsqlClusterMetricGroupsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> DsqlClusterMetricGroupsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[DsqlClusterMetricGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>]
+
+---
+
+
+### DsqlClusterMetricGroupsOutputReference <a name="DsqlClusterMetricGroupsOutputReference" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import dsql_cluster
+
+dsqlCluster.DsqlClusterMetricGroupsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.resetMetricGroup">reset_metric_group</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_metric_group` <a name="reset_metric_group" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.resetMetricGroup"></a>
+
+```python
+def reset_metric_group() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.metricGroupInput">metric_group_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.metricGroup">metric_group</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `metric_group_input`<sup>Optional</sup> <a name="metric_group_input" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.metricGroupInput"></a>
+
+```python
+metric_group_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `metric_group`<sup>Required</sup> <a name="metric_group" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.metricGroup"></a>
+
+```python
+metric_group: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroupsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DsqlClusterMetricGroups
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dsqlCluster.DsqlClusterMetricGroups">DsqlClusterMetricGroups</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubConnector <a name="DataAwsccSecurityhubConnector" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_connector awscc_securityhub_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/securityhub_connector awscc_securityhub_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnector.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubConnec
 
 The id of the existing DataAwsccSecurityhubConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/securityhub_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -841,7 +841,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_connector#id DataAwsccSecurityhubConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/securityhub_connector#id DataAwsccSecurityhubConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -889,6 +889,28 @@ const dataAwsccSecurityhubConnectorProviderNameAzure: dataAwsccSecurityhubConnec
 import { dataAwsccSecurityhubConnector } from '@cdktn/provider-awscc'
 
 const dataAwsccSecurityhubConnectorProviderNameAzureScopeConfiguration: dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameAzureScopeConfiguration = { ... }
+```
+
+
+### DataAwsccSecurityhubConnectorProviderNameGcp <a name="DataAwsccSecurityhubConnectorProviderNameGcp" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp.Initializer"></a>
+
+```typescript
+import { dataAwsccSecurityhubConnector } from '@cdktn/provider-awscc'
+
+const dataAwsccSecurityhubConnectorProviderNameGcp: dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp = { ... }
+```
+
+
+### DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration <a name="DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration.Initializer"></a>
+
+```typescript
+import { dataAwsccSecurityhubConnector } from '@cdktn/provider-awscc'
+
+const dataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration: dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration = { ... }
 ```
 
 
@@ -1885,6 +1907,559 @@ public readonly internalValue: DataAwsccSecurityhubConnectorProviderNameAzureSco
 ---
 
 
+### DataAwsccSecurityhubConnectorProviderNameGcpOutputReference <a name="DataAwsccSecurityhubConnectorProviderNameGcpOutputReference" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccSecurityhubConnector } from '@cdktn/provider-awscc'
+
+new dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArn">awsConfigConnectorArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegions">gcpRegions</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfiguration">scopeConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference">DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp">DataAwsccSecurityhubConnectorProviderNameGcp</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `awsConfigConnectorArn`<sup>Required</sup> <a name="awsConfigConnectorArn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArn"></a>
+
+```typescript
+public readonly awsConfigConnectorArn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `gcpRegions`<sup>Required</sup> <a name="gcpRegions" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegions"></a>
+
+```typescript
+public readonly gcpRegions: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `scopeConfiguration`<sup>Required</sup> <a name="scopeConfiguration" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfiguration"></a>
+
+```typescript
+public readonly scopeConfiguration: DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference">DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccSecurityhubConnectorProviderNameGcp;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp">DataAwsccSecurityhubConnectorProviderNameGcp</a>
+
+---
+
+
+### DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference <a name="DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccSecurityhubConnector } from '@cdktn/provider-awscc'
+
+new dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeType">scopeType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValues">scopeValues</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration">DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeType`<sup>Required</sup> <a name="scopeType" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeType"></a>
+
+```typescript
+public readonly scopeType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `scopeValues`<sup>Required</sup> <a name="scopeValues" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValues"></a>
+
+```typescript
+public readonly scopeValues: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration">DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+---
+
+
 ### DataAwsccSecurityhubConnectorProviderNameOutputReference <a name="DataAwsccSecurityhubConnectorProviderNameOutputReference" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.Initializer"></a>
@@ -2096,6 +2671,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.azure">azure</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameAzureOutputReference">DataAwsccSecurityhubConnectorProviderNameAzureOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.gcp">gcp</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference">DataAwsccSecurityhubConnectorProviderNameGcpOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderName">DataAwsccSecurityhubConnectorProviderName</a></code> | *No description.* |
 
 ---
@@ -2131,6 +2707,16 @@ public readonly azure: DataAwsccSecurityhubConnectorProviderNameAzureOutputRefer
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameAzureOutputReference">DataAwsccSecurityhubConnectorProviderNameAzureOutputReference</a>
+
+---
+
+##### `gcp`<sup>Required</sup> <a name="gcp" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.gcp"></a>
+
+```typescript
+public readonly gcp: DataAwsccSecurityhubConnectorProviderNameGcpOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference">DataAwsccSecurityhubConnectorProviderNameGcpOutputReference</a>
 
 ---
 

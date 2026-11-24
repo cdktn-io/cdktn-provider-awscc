@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53HostedZone <a name="DataAwsccRoute53HostedZone" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZone"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZone.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53HostedZone
 
 The id of the existing DataAwsccRoute53HostedZone that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53_hosted_zone#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53_hosted_zone#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -786,7 +786,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53_hosted_zone#id DataAwsccRoute53HostedZone#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53_hosted_zone#id DataAwsccRoute53HostedZone#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -812,6 +812,28 @@ const dataAwsccRoute53HostedZoneHostedZoneConfig: dataAwsccRoute53HostedZone.Dat
 import { dataAwsccRoute53HostedZone } from '@cdktn/provider-awscc'
 
 const dataAwsccRoute53HostedZoneHostedZoneFeatures: dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeatures = { ... }
+```
+
+
+### DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails <a name="DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails.Initializer"></a>
+
+```typescript
+import { dataAwsccRoute53HostedZone } from '@cdktn/provider-awscc'
+
+const dataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails: dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails = { ... }
+```
+
+
+### DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory <a name="DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory.Initializer"></a>
+
+```typescript
+import { dataAwsccRoute53HostedZone } from '@cdktn/provider-awscc'
+
+const dataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory: dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory = { ... }
 ```
 
 
@@ -1061,6 +1083,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference.property.comment">comment</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference.property.hostedZoneTier">hostedZoneTier</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfig">DataAwsccRoute53HostedZoneHostedZoneConfig</a></code> | *No description.* |
 
 ---
@@ -1099,6 +1122,16 @@ public readonly comment: string;
 
 ---
 
+##### `hostedZoneTier`<sup>Required</sup> <a name="hostedZoneTier" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference.property.hostedZoneTier"></a>
+
+```typescript
+public readonly hostedZoneTier: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfigOutputReference.property.internalValue"></a>
 
 ```typescript
@@ -1106,6 +1139,715 @@ public readonly internalValue: DataAwsccRoute53HostedZoneHostedZoneConfig;
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneConfig">DataAwsccRoute53HostedZoneHostedZoneConfig</a>
+
+---
+
+
+### DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList <a name="DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.Initializer"></a>
+
+```typescript
+import { dataAwsccRoute53HostedZone } from '@cdktn/provider-awscc'
+
+new dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.get"></a>
+
+```typescript
+public get(index: number): DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference <a name="DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccRoute53HostedZone } from '@cdktn/provider-awscc'
+
+new dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.status">status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails">DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails">DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrails</a>
+
+---
+
+
+### DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference <a name="DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccRoute53HostedZone } from '@cdktn/provider-awscc'
+
+new dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.retentionStartsAt">retentionStartsAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.status">status</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory">DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `retentionStartsAt`<sup>Required</sup> <a name="retentionStartsAt" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.retentionStartsAt"></a>
+
+```typescript
+public readonly retentionStartsAt: string;
+```
+
+- *Type:* string
+
+---
+
+##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.status"></a>
+
+```typescript
+public readonly status: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory">DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistory</a>
 
 ---
 
@@ -1320,7 +2062,10 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.changeGuardrails">changeGuardrails</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList">DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.changeHistory">changeHistory</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference">DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.enableAcceleratedRecovery">enableAcceleratedRecovery</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.enablePublicDnsFallback">enablePublicDnsFallback</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeatures">DataAwsccRoute53HostedZoneHostedZoneFeatures</a></code> | *No description.* |
 
 ---
@@ -1349,10 +2094,40 @@ public readonly fqn: string;
 
 ---
 
+##### `changeGuardrails`<sup>Required</sup> <a name="changeGuardrails" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.changeGuardrails"></a>
+
+```typescript
+public readonly changeGuardrails: DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList">DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeGuardrailsList</a>
+
+---
+
+##### `changeHistory`<sup>Required</sup> <a name="changeHistory" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.changeHistory"></a>
+
+```typescript
+public readonly changeHistory: DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference">DataAwsccRoute53HostedZoneHostedZoneFeaturesChangeHistoryOutputReference</a>
+
+---
+
 ##### `enableAcceleratedRecovery`<sup>Required</sup> <a name="enableAcceleratedRecovery" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.enableAcceleratedRecovery"></a>
 
 ```typescript
 public readonly enableAcceleratedRecovery: IResolvable;
+```
+
+- *Type:* cdktn.IResolvable
+
+---
+
+##### `enablePublicDnsFallback`<sup>Required</sup> <a name="enablePublicDnsFallback" id="@cdktn/provider-awscc.dataAwsccRoute53HostedZone.DataAwsccRoute53HostedZoneHostedZoneFeaturesOutputReference.property.enablePublicDnsFallback"></a>
+
+```typescript
+public readonly enablePublicDnsFallback: IResolvable;
 ```
 
 - *Type:* cdktn.IResolvable

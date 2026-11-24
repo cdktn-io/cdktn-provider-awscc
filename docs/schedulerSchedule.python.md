@@ -4,7 +4,7 @@
 
 ### SchedulerSchedule <a name="SchedulerSchedule" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule awscc_scheduler_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule awscc_scheduler_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer"></a>
 
@@ -53,7 +53,7 @@ schedulerSchedule.SchedulerSchedule(
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.endDate">end_date</a></code> | <code>str</code> | The date, in UTC, before which the schedule can invoke its target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.groupName">group_name</a></code> | <code>str</code> | The name of the schedule group to associate with this schedule. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | The ARN for a KMS Key that will be used to encrypt customer data. |
-| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.scheduleExpressionTimezone">schedule_expression_timezone</a></code> | <code>str</code> | The timezone in which the scheduling expression is evaluated. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.startDate">start_date</a></code> | <code>str</code> | The date, in UTC, after which the schedule can begin invoking its target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.state">state</a></code> | <code>str</code> | Specifies whether the schedule is enabled or disabled. |
@@ -126,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 Flexible time window allows configuration of a window within which a schedule can be invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The scheduling expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The schedule target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
 
 ---
 
@@ -168,7 +168,7 @@ The date, in UTC, before which the schedule can invoke its target.
 
 Depending on the schedule's recurrence expression, invocations might stop on, or before, the EndDate you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
 
 ---
 
@@ -180,7 +180,7 @@ The name of the schedule group to associate with this schedule.
 
 If you omit this, the default schedule group is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN for a KMS Key that will be used to encrypt customer data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
 
 ---
 
@@ -198,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}.
 
 ---
 
@@ -208,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The timezone in which the scheduling expression is evaluated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
 
 ---
 
@@ -220,7 +220,7 @@ The date, in UTC, after which the schedule can begin invoking its target.
 
 Depending on the schedule's recurrence expression, invocations might occur on, or after, the StartDate you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
 
 ---
 
@@ -230,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the schedule is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
 
 ---
 
@@ -638,7 +638,7 @@ def put_flexible_time_window(
 
 Determines whether the schedule is executed within a flexible time window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#mode SchedulerSchedule#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#mode SchedulerSchedule#mode}
 
 ---
 
@@ -648,7 +648,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The maximum time window during which a schedule can be invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_window_in_minutes SchedulerSchedule#maximum_window_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_window_in_minutes SchedulerSchedule#maximum_window_in_minutes}
 
 ---
 
@@ -661,6 +661,8 @@ def put_target(
   dead_letter_config: SchedulerScheduleTargetDeadLetterConfig = None,
   ecs_parameters: SchedulerScheduleTargetEcsParameters = None,
   event_bridge_parameters: SchedulerScheduleTargetEventBridgeParameters = None,
+  event_bridge_put_events_v2_parameters: SchedulerScheduleTargetEventBridgePutEventsV2Parameters = None,
+  event_bridge_put_raw_events_parameters: SchedulerScheduleTargetEventBridgePutRawEventsParameters = None,
   input: str = None,
   kinesis_parameters: SchedulerScheduleTargetKinesisParameters = None,
   retry_policy: SchedulerScheduleTargetRetryPolicy = None,
@@ -675,7 +677,7 @@ def put_target(
 
 The Amazon Resource Name (ARN) of the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
 
 ---
 
@@ -685,7 +687,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the IAM role to be used for this target when the schedule is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}
 
 ---
 
@@ -695,7 +697,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A DeadLetterConfig object that contains information about a dead-letter queue configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
 
 ---
 
@@ -705,7 +707,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The custom parameters to be used when the target is an Amazon ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
 
 ---
 
@@ -715,7 +717,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 EventBridge PutEvent predefined target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#event_bridge_parameters SchedulerSchedule#event_bridge_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_parameters SchedulerSchedule#event_bridge_parameters}
+
+---
+
+###### `event_bridge_put_events_v2_parameters`<sup>Optional</sup> <a name="event_bridge_put_events_v2_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.putTarget.parameter.eventBridgePutEventsV2Parameters"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a>
+
+EventBridge PutEvent V2 predefined target type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_put_events_v2_parameters SchedulerSchedule#event_bridge_put_events_v2_parameters}
+
+---
+
+###### `event_bridge_put_raw_events_parameters`<sup>Optional</sup> <a name="event_bridge_put_raw_events_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.putTarget.parameter.eventBridgePutRawEventsParameters"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a>
+
+EventBridge PutRawEvent predefined target type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_put_raw_events_parameters SchedulerSchedule#event_bridge_put_raw_events_parameters}
 
 ---
 
@@ -727,7 +749,7 @@ The text, or well-formed JSON, passed to the target.
 
 If you are configuring a templated Lambda, AWS Step Functions, or Amazon EventBridge target, the input must be a well-formed JSON. For all other target types, a JSON is not required. If you do not specify anything for this field, EventBridge Scheduler delivers a default notification to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}
 
 ---
 
@@ -737,7 +759,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The custom parameter you can use to control the shard to which EventBridge Scheduler sends the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
 
 ---
 
@@ -747,7 +769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A RetryPolicy object that includes information about the retry policy settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
 
 ---
 
@@ -757,7 +779,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 These are custom parameters to use when the target is a SageMaker Model Building Pipeline that starts based on AWS EventBridge Scheduler schedules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#sage_maker_pipeline_parameters SchedulerSchedule#sage_maker_pipeline_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#sage_maker_pipeline_parameters SchedulerSchedule#sage_maker_pipeline_parameters}
 
 ---
 
@@ -769,7 +791,7 @@ Contains the message group ID to use when the target is a FIFO queue.
 
 If you specify an SQS FIFO queue as a target, the queue must have content-based deduplication enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
 
 ---
 
@@ -935,7 +957,7 @@ The construct id used in the generated config for the SchedulerSchedule to impor
 
 The id of the existing SchedulerSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1441,7 +1463,7 @@ schedulerSchedule.SchedulerScheduleConfig(
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.endDate">end_date</a></code> | <code>str</code> | The date, in UTC, before which the schedule can invoke its target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.groupName">group_name</a></code> | <code>str</code> | The name of the schedule group to associate with this schedule. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | The ARN for a KMS Key that will be used to encrypt customer data. |
-| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.name">name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.scheduleExpressionTimezone">schedule_expression_timezone</a></code> | <code>str</code> | The timezone in which the scheduling expression is evaluated. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.startDate">start_date</a></code> | <code>str</code> | The date, in UTC, after which the schedule can begin invoking its target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.state">state</a></code> | <code>str</code> | Specifies whether the schedule is enabled or disabled. |
@@ -1528,7 +1550,7 @@ flexible_time_window: SchedulerScheduleFlexibleTimeWindow
 
 Flexible time window allows configuration of a window within which a schedule can be invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
 
 ---
 
@@ -1542,7 +1564,7 @@ schedule_expression: str
 
 The scheduling expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
 
 ---
 
@@ -1556,7 +1578,7 @@ target: SchedulerScheduleTarget
 
 The schedule target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
 
 ---
 
@@ -1570,7 +1592,7 @@ description: str
 
 The description of the schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
 
 ---
 
@@ -1586,7 +1608,7 @@ The date, in UTC, before which the schedule can invoke its target.
 
 Depending on the schedule's recurrence expression, invocations might stop on, or before, the EndDate you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
 
 ---
 
@@ -1602,7 +1624,7 @@ The name of the schedule group to associate with this schedule.
 
 If you omit this, the default schedule group is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
 
 ---
 
@@ -1616,7 +1638,7 @@ kms_key_arn: str
 
 The ARN for a KMS Key that will be used to encrypt customer data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
 
 ---
 
@@ -1628,7 +1650,7 @@ name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}.
 
 ---
 
@@ -1642,7 +1664,7 @@ schedule_expression_timezone: str
 
 The timezone in which the scheduling expression is evaluated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
 
 ---
 
@@ -1658,7 +1680,7 @@ The date, in UTC, after which the schedule can begin invoking its target.
 
 Depending on the schedule's recurrence expression, invocations might occur on, or after, the StartDate you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
 
 ---
 
@@ -1672,7 +1694,7 @@ state: str
 
 Specifies whether the schedule is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
 
 ---
 
@@ -1708,7 +1730,7 @@ mode: str
 
 Determines whether the schedule is executed within a flexible time window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#mode SchedulerSchedule#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#mode SchedulerSchedule#mode}
 
 ---
 
@@ -1722,7 +1744,7 @@ maximum_window_in_minutes: typing.Union[int, float]
 
 The maximum time window during which a schedule can be invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_window_in_minutes SchedulerSchedule#maximum_window_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_window_in_minutes SchedulerSchedule#maximum_window_in_minutes}
 
 ---
 
@@ -1739,6 +1761,8 @@ schedulerSchedule.SchedulerScheduleTarget(
   dead_letter_config: SchedulerScheduleTargetDeadLetterConfig = None,
   ecs_parameters: SchedulerScheduleTargetEcsParameters = None,
   event_bridge_parameters: SchedulerScheduleTargetEventBridgeParameters = None,
+  event_bridge_put_events_v2_parameters: SchedulerScheduleTargetEventBridgePutEventsV2Parameters = None,
+  event_bridge_put_raw_events_parameters: SchedulerScheduleTargetEventBridgePutRawEventsParameters = None,
   input: str = None,
   kinesis_parameters: SchedulerScheduleTargetKinesisParameters = None,
   retry_policy: SchedulerScheduleTargetRetryPolicy = None,
@@ -1756,6 +1780,8 @@ schedulerSchedule.SchedulerScheduleTarget(
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.deadLetterConfig">dead_letter_config</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfig">SchedulerScheduleTargetDeadLetterConfig</a></code> | A DeadLetterConfig object that contains information about a dead-letter queue configuration. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.ecsParameters">ecs_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEcsParameters">SchedulerScheduleTargetEcsParameters</a></code> | The custom parameters to be used when the target is an Amazon ECS task. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgeParameters">event_bridge_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParameters">SchedulerScheduleTargetEventBridgeParameters</a></code> | EventBridge PutEvent predefined target type. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgePutEventsV2Parameters">event_bridge_put_events_v2_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a></code> | EventBridge PutEvent V2 predefined target type. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgePutRawEventsParameters">event_bridge_put_raw_events_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a></code> | EventBridge PutRawEvent predefined target type. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.input">input</a></code> | <code>str</code> | The text, or well-formed JSON, passed to the target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.kinesisParameters">kinesis_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParameters">SchedulerScheduleTargetKinesisParameters</a></code> | The custom parameter you can use to control the shard to which EventBridge Scheduler sends the event. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.retryPolicy">retry_policy</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetRetryPolicy">SchedulerScheduleTargetRetryPolicy</a></code> | A RetryPolicy object that includes information about the retry policy settings. |
@@ -1774,7 +1800,7 @@ arn: str
 
 The Amazon Resource Name (ARN) of the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
 
 ---
 
@@ -1788,7 +1814,7 @@ role_arn: str
 
 The Amazon Resource Name (ARN) of the IAM role to be used for this target when the schedule is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}
 
 ---
 
@@ -1802,7 +1828,7 @@ dead_letter_config: SchedulerScheduleTargetDeadLetterConfig
 
 A DeadLetterConfig object that contains information about a dead-letter queue configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
 
 ---
 
@@ -1816,7 +1842,7 @@ ecs_parameters: SchedulerScheduleTargetEcsParameters
 
 The custom parameters to be used when the target is an Amazon ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
 
 ---
 
@@ -1830,7 +1856,35 @@ event_bridge_parameters: SchedulerScheduleTargetEventBridgeParameters
 
 EventBridge PutEvent predefined target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#event_bridge_parameters SchedulerSchedule#event_bridge_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_parameters SchedulerSchedule#event_bridge_parameters}
+
+---
+
+##### `event_bridge_put_events_v2_parameters`<sup>Optional</sup> <a name="event_bridge_put_events_v2_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgePutEventsV2Parameters"></a>
+
+```python
+event_bridge_put_events_v2_parameters: SchedulerScheduleTargetEventBridgePutEventsV2Parameters
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a>
+
+EventBridge PutEvent V2 predefined target type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_put_events_v2_parameters SchedulerSchedule#event_bridge_put_events_v2_parameters}
+
+---
+
+##### `event_bridge_put_raw_events_parameters`<sup>Optional</sup> <a name="event_bridge_put_raw_events_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgePutRawEventsParameters"></a>
+
+```python
+event_bridge_put_raw_events_parameters: SchedulerScheduleTargetEventBridgePutRawEventsParameters
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a>
+
+EventBridge PutRawEvent predefined target type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_put_raw_events_parameters SchedulerSchedule#event_bridge_put_raw_events_parameters}
 
 ---
 
@@ -1846,7 +1900,7 @@ The text, or well-formed JSON, passed to the target.
 
 If you are configuring a templated Lambda, AWS Step Functions, or Amazon EventBridge target, the input must be a well-formed JSON. For all other target types, a JSON is not required. If you do not specify anything for this field, EventBridge Scheduler delivers a default notification to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}
 
 ---
 
@@ -1860,7 +1914,7 @@ kinesis_parameters: SchedulerScheduleTargetKinesisParameters
 
 The custom parameter you can use to control the shard to which EventBridge Scheduler sends the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
 
 ---
 
@@ -1874,7 +1928,7 @@ retry_policy: SchedulerScheduleTargetRetryPolicy
 
 A RetryPolicy object that includes information about the retry policy settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
 
 ---
 
@@ -1888,7 +1942,7 @@ sage_maker_pipeline_parameters: SchedulerScheduleTargetSageMakerPipelineParamete
 
 These are custom parameters to use when the target is a SageMaker Model Building Pipeline that starts based on AWS EventBridge Scheduler schedules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#sage_maker_pipeline_parameters SchedulerSchedule#sage_maker_pipeline_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#sage_maker_pipeline_parameters SchedulerSchedule#sage_maker_pipeline_parameters}
 
 ---
 
@@ -1904,7 +1958,7 @@ Contains the message group ID to use when the target is a FIFO queue.
 
 If you specify an SQS FIFO queue as a target, the queue must have content-based deduplication enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
 
 ---
 
@@ -1938,7 +1992,7 @@ arn: str
 
 The ARN of the SQS queue specified as the target for the dead-letter queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
 
 ---
 
@@ -1998,7 +2052,7 @@ capacity_provider_strategy: IResolvable | typing.List[SchedulerScheduleTargetEcs
 
 The capacity provider strategy to use for the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
 
 ---
 
@@ -2014,7 +2068,7 @@ Specifies whether to enable Amazon ECS managed tags for the task.
 
 For more information, see Tagging Your Amazon ECS Resources in the Amazon Elastic Container Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}
 
 ---
 
@@ -2030,7 +2084,7 @@ Whether or not to enable the execute command functionality for the containers in
 
 If true, this enables execute command functionality on all containers in the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}
 
 ---
 
@@ -2044,7 +2098,7 @@ group: str
 
 Specifies an ECS task group for the task. The maximum length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}
 
 ---
 
@@ -2060,7 +2114,7 @@ Specifies the launch type on which your task is running.
 
 The launch type that you specify here must match one of the launch type (compatibilities) of the target task. The FARGATE value is supported only in the Regions where AWS Fargate with Amazon ECS is supported. For more information, see AWS Fargate on Amazon ECS in the Amazon Elastic Container Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}
 
 ---
 
@@ -2074,7 +2128,7 @@ network_configuration: SchedulerScheduleTargetEcsParametersNetworkConfiguration
 
 This structure specifies the network configuration for an ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
 
 ---
 
@@ -2090,7 +2144,7 @@ An array of placement constraint objects to use for the task.
 
 You can specify up to 10 constraints per task (including constraints in the task definition and those specified at runtime).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
 
 ---
 
@@ -2106,7 +2160,7 @@ The placement strategy objects to use for the task.
 
 You can specify a maximum of five strategy rules per task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
 
 ---
 
@@ -2120,7 +2174,7 @@ platform_version: str
 
 Specifies the platform version for the task. Specify only the numeric portion of the platform version, such as 1.1.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}
 
 ---
 
@@ -2136,7 +2190,7 @@ Specifies whether to propagate the tags from the task definition to the task.
 
 If no value is specified, the tags are not propagated. Tags can only be propagated to the task during task creation. To add tags to a task after task creation, use the TagResource API action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}
 
 ---
 
@@ -2150,7 +2204,7 @@ reference_id: str
 
 The reference ID to use for the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}
 
 ---
 
@@ -2166,7 +2220,7 @@ The metadata that you apply to the task to help you categorize and organize them
 
 Each tag consists of a key and an optional value, both of which you define. To learn more, see RunTask in the Amazon ECS API Reference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}
 
 ---
 
@@ -2180,7 +2234,7 @@ task_count: typing.Union[int, float]
 
 The number of tasks to create based on TaskDefinition. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}
 
 ---
 
@@ -2194,7 +2248,7 @@ task_definition_arn: str
 
 The ARN of the task definition to use if the event target is an Amazon ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}
 
 ---
 
@@ -2234,7 +2288,7 @@ The base value designates how many tasks, at a minimum, to run on the specified 
 
 Only one capacity provider in a capacity provider strategy can have a base defined. If no value is specified, the default value of 0 is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#base SchedulerSchedule#base}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#base SchedulerSchedule#base}
 
 ---
 
@@ -2248,7 +2302,7 @@ capacity_provider: str
 
 The short name of the capacity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#capacity_provider SchedulerSchedule#capacity_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#capacity_provider SchedulerSchedule#capacity_provider}
 
 ---
 
@@ -2264,7 +2318,7 @@ The weight value designates the relative percentage of the total number of tasks
 
 The weight value is taken into consideration after the base value, if defined, is satisfied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#weight SchedulerSchedule#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#weight SchedulerSchedule#weight}
 
 ---
 
@@ -2300,7 +2354,7 @@ This structure specifies the VPC subnets and security groups for the task, and w
 
 This structure is relevant only for ECS tasks that use the awsvpc network mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
 
 ---
 
@@ -2340,7 +2394,7 @@ Specifies whether the task's elastic network interface receives a public IP addr
 
 You can specify ENABLED only when LaunchType in EcsParameters is set to FARGATE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}
 
 ---
 
@@ -2356,7 +2410,7 @@ Specifies the security groups associated with the task.
 
 These security groups must all be in the same VPC. You can specify as many as five security groups. If you do not specify a security group, the default security group for the VPC is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}
 
 ---
 
@@ -2372,7 +2426,7 @@ Specifies the subnets associated with the task.
 
 These subnets must all be in the same VPC. You can specify as many as 16 subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}
 
 ---
 
@@ -2410,7 +2464,7 @@ A cluster query language expression to apply to the constraint.
 
 You cannot specify an expression if the constraint type is distinctInstance. To learn more, see Cluster Query Language in the Amazon Elastic Container Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#expression SchedulerSchedule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#expression SchedulerSchedule#expression}
 
 ---
 
@@ -2426,7 +2480,7 @@ The type of constraint.
 
 Use distinctInstance to ensure that each task in a particular group is running on a different container instance. Use memberOf to restrict the selection to a group of valid candidates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
 
 ---
 
@@ -2464,7 +2518,7 @@ The field to apply the placement strategy against.
 
 For the spread placement strategy, valid values are instanceId (or host, which has the same effect), or any platform or custom attribute that is applied to a container instance, such as attribute:ecs.availability-zone. For the binpack placement strategy, valid values are cpu and memory. For the random placement strategy, this field is not used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#field SchedulerSchedule#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#field SchedulerSchedule#field}
 
 ---
 
@@ -2480,7 +2534,7 @@ The type of placement strategy.
 
 The random placement strategy randomly places tasks on available candidates. The spread placement strategy spreads placement across available candidates evenly based on the field parameter. The binpack strategy places tasks on available candidates that have the least available amount of the resource that is specified with the field parameter. For example, if you binpack on memory, a task is placed on the instance with the least amount of remaining memory (but still enough to run the task).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
 
 ---
 
@@ -2516,7 +2570,7 @@ detail_type: str
 
 Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
 
 ---
 
@@ -2530,7 +2584,91 @@ source: str
 
 The source of the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+
+---
+
+### SchedulerScheduleTargetEventBridgePutEventsV2Parameters <a name="SchedulerScheduleTargetEventBridgePutEventsV2Parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import scheduler_schedule
+
+schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters(
+  detail_type: str = None,
+  source: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.property.detailType">detail_type</a></code> | <code>str</code> | Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.property.source">source</a></code> | <code>str</code> | The source of the event. |
+
+---
+
+##### `detail_type`<sup>Optional</sup> <a name="detail_type" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.property.detailType"></a>
+
+```python
+detail_type: str
+```
+
+- *Type:* str
+
+Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
+
+---
+
+##### `source`<sup>Optional</sup> <a name="source" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.property.source"></a>
+
+```python
+source: str
+```
+
+- *Type:* str
+
+The source of the event.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+
+---
+
+### SchedulerScheduleTargetEventBridgePutRawEventsParameters <a name="SchedulerScheduleTargetEventBridgePutRawEventsParameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import scheduler_schedule
+
+schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters(
+  metadata: typing.Mapping[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters.property.metadata">metadata</a></code> | <code>typing.Mapping[str]</code> | Customer-defined metadata key-value pairs. |
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="metadata" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters.property.metadata"></a>
+
+```python
+metadata: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+Customer-defined metadata key-value pairs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#metadata SchedulerSchedule#metadata}
 
 ---
 
@@ -2566,7 +2704,7 @@ The custom parameter used as the Kinesis partition key.
 
 For more information, see Amazon Kinesis Streams Key Concepts in the Amazon Kinesis Streams Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}
 
 ---
 
@@ -2602,7 +2740,7 @@ maximum_event_age_in_seconds: typing.Union[int, float]
 
 The maximum amount of time, in seconds, to continue to make retry attempts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_event_age_in_seconds SchedulerSchedule#maximum_event_age_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_event_age_in_seconds SchedulerSchedule#maximum_event_age_in_seconds}
 
 ---
 
@@ -2618,7 +2756,7 @@ The maximum number of retry attempts to make before the request fails.
 
 Retry attempts with exponential backoff continue until either the maximum number of attempts is made or until the duration of the MaximumEventAgeInSeconds is reached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_retry_attempts SchedulerSchedule#maximum_retry_attempts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_retry_attempts SchedulerSchedule#maximum_retry_attempts}
 
 ---
 
@@ -2652,7 +2790,7 @@ pipeline_parameter_list: IResolvable | typing.List[SchedulerScheduleTargetSageMa
 
 List of Parameter names and values for SageMaker Model Building Pipeline execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#pipeline_parameter_list SchedulerSchedule#pipeline_parameter_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#pipeline_parameter_list SchedulerSchedule#pipeline_parameter_list}
 
 ---
 
@@ -2688,7 +2826,7 @@ name: str
 
 Name of parameter to start execution of a SageMaker Model Building Pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}
 
 ---
 
@@ -2702,7 +2840,7 @@ value: str
 
 Value of parameter to start execution of a SageMaker Model Building Pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#value SchedulerSchedule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#value SchedulerSchedule#value}
 
 ---
 
@@ -2736,7 +2874,7 @@ message_group_id: str
 
 The FIFO message group ID to use as the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}
 
 ---
 
@@ -4530,7 +4668,7 @@ Specifies whether the task's elastic network interface receives a public IP addr
 
 You can specify ENABLED only when LaunchType in EcsParameters is set to FARGATE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}
 
 ---
 
@@ -4542,7 +4680,7 @@ Specifies the security groups associated with the task.
 
 These security groups must all be in the same VPC. You can specify as many as five security groups. If you do not specify a security group, the default security group for the VPC is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}
 
 ---
 
@@ -4554,7 +4692,7 @@ Specifies the subnets associated with the task.
 
 These subnets must all be in the same VPC. You can specify as many as 16 subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}
 
 ---
 
@@ -4908,7 +5046,7 @@ This structure specifies the VPC subnets and security groups for the task, and w
 
 This structure is relevant only for ECS tasks that use the awsvpc network mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
 
 ---
 
@@ -6754,6 +6892,641 @@ internal_value: IResolvable | SchedulerScheduleTargetEventBridgeParameters
 ---
 
 
+### SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference <a name="SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import scheduler_schedule
+
+schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resetDetailType">reset_detail_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resetSource">reset_source</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_detail_type` <a name="reset_detail_type" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resetDetailType"></a>
+
+```python
+def reset_detail_type() -> None
+```
+
+##### `reset_source` <a name="reset_source" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resetSource"></a>
+
+```python
+def reset_source() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.detailTypeInput">detail_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.sourceInput">source_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.detailType">detail_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.source">source</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `detail_type_input`<sup>Optional</sup> <a name="detail_type_input" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.detailTypeInput"></a>
+
+```python
+detail_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_input`<sup>Optional</sup> <a name="source_input" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.sourceInput"></a>
+
+```python
+source_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `detail_type`<sup>Required</sup> <a name="detail_type" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.detailType"></a>
+
+```python
+detail_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `source`<sup>Required</sup> <a name="source" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.source"></a>
+
+```python
+source: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | SchedulerScheduleTargetEventBridgePutEventsV2Parameters
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a>
+
+---
+
+
+### SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference <a name="SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import scheduler_schedule
+
+schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resetMetadata">reset_metadata</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_metadata` <a name="reset_metadata" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resetMetadata"></a>
+
+```python
+def reset_metadata() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.metadataInput">metadata_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.metadata">metadata</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `metadata_input`<sup>Optional</sup> <a name="metadata_input" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.metadataInput"></a>
+
+```python
+metadata_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `metadata`<sup>Required</sup> <a name="metadata" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.metadata"></a>
+
+```python
+metadata: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | SchedulerScheduleTargetEventBridgePutRawEventsParameters
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a>
+
+---
+
+
 ### SchedulerScheduleTargetKinesisParametersOutputReference <a name="SchedulerScheduleTargetKinesisParametersOutputReference" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParametersOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParametersOutputReference.Initializer"></a>
@@ -7113,6 +7886,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putDeadLetterConfig">put_dead_letter_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEcsParameters">put_ecs_parameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgeParameters">put_event_bridge_parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutEventsV2Parameters">put_event_bridge_put_events_v2_parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutRawEventsParameters">put_event_bridge_put_raw_events_parameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putKinesisParameters">put_kinesis_parameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putRetryPolicy">put_retry_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putSageMakerPipelineParameters">put_sage_maker_pipeline_parameters</a></code> | *No description.* |
@@ -7120,6 +7895,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetDeadLetterConfig">reset_dead_letter_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEcsParameters">reset_ecs_parameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgeParameters">reset_event_bridge_parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgePutEventsV2Parameters">reset_event_bridge_put_events_v2_parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgePutRawEventsParameters">reset_event_bridge_put_raw_events_parameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetInput">reset_input</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetKinesisParameters">reset_kinesis_parameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetRetryPolicy">reset_retry_policy</a></code> | *No description.* |
@@ -7314,7 +8091,7 @@ def put_dead_letter_config(
 
 The ARN of the SQS queue specified as the target for the dead-letter queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
 
 ---
 
@@ -7345,7 +8122,7 @@ def put_ecs_parameters(
 
 The capacity provider strategy to use for the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
 
 ---
 
@@ -7357,7 +8134,7 @@ Specifies whether to enable Amazon ECS managed tags for the task.
 
 For more information, see Tagging Your Amazon ECS Resources in the Amazon Elastic Container Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}
 
 ---
 
@@ -7369,7 +8146,7 @@ Whether or not to enable the execute command functionality for the containers in
 
 If true, this enables execute command functionality on all containers in the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}
 
 ---
 
@@ -7379,7 +8156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies an ECS task group for the task. The maximum length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}
 
 ---
 
@@ -7391,7 +8168,7 @@ Specifies the launch type on which your task is running.
 
 The launch type that you specify here must match one of the launch type (compatibilities) of the target task. The FARGATE value is supported only in the Regions where AWS Fargate with Amazon ECS is supported. For more information, see AWS Fargate on Amazon ECS in the Amazon Elastic Container Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}
 
 ---
 
@@ -7401,7 +8178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This structure specifies the network configuration for an ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
 
 ---
 
@@ -7413,7 +8190,7 @@ An array of placement constraint objects to use for the task.
 
 You can specify up to 10 constraints per task (including constraints in the task definition and those specified at runtime).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
 
 ---
 
@@ -7425,7 +8202,7 @@ The placement strategy objects to use for the task.
 
 You can specify a maximum of five strategy rules per task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
 
 ---
 
@@ -7435,7 +8212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the platform version for the task. Specify only the numeric portion of the platform version, such as 1.1.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}
 
 ---
 
@@ -7447,7 +8224,7 @@ Specifies whether to propagate the tags from the task definition to the task.
 
 If no value is specified, the tags are not propagated. Tags can only be propagated to the task during task creation. To add tags to a task after task creation, use the TagResource API action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}
 
 ---
 
@@ -7457,7 +8234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The reference ID to use for the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}
 
 ---
 
@@ -7469,7 +8246,7 @@ The metadata that you apply to the task to help you categorize and organize them
 
 Each tag consists of a key and an optional value, both of which you define. To learn more, see RunTask in the Amazon ECS API Reference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}
 
 ---
 
@@ -7479,7 +8256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The number of tasks to create based on TaskDefinition. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}
 
 ---
 
@@ -7489,7 +8266,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the task definition to use if the event target is an Amazon ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}
 
 ---
 
@@ -7508,7 +8285,7 @@ def put_event_bridge_parameters(
 
 Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
 
 ---
 
@@ -7518,7 +8295,54 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The source of the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+
+---
+
+##### `put_event_bridge_put_events_v2_parameters` <a name="put_event_bridge_put_events_v2_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutEventsV2Parameters"></a>
+
+```python
+def put_event_bridge_put_events_v2_parameters(
+  detail_type: str = None,
+  source: str = None
+) -> None
+```
+
+###### `detail_type`<sup>Optional</sup> <a name="detail_type" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutEventsV2Parameters.parameter.detailType"></a>
+
+- *Type:* str
+
+Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
+
+---
+
+###### `source`<sup>Optional</sup> <a name="source" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutEventsV2Parameters.parameter.source"></a>
+
+- *Type:* str
+
+The source of the event.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+
+---
+
+##### `put_event_bridge_put_raw_events_parameters` <a name="put_event_bridge_put_raw_events_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutRawEventsParameters"></a>
+
+```python
+def put_event_bridge_put_raw_events_parameters(
+  metadata: typing.Mapping[str] = None
+) -> None
+```
+
+###### `metadata`<sup>Optional</sup> <a name="metadata" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutRawEventsParameters.parameter.metadata"></a>
+
+- *Type:* typing.Mapping[str]
+
+Customer-defined metadata key-value pairs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#metadata SchedulerSchedule#metadata}
 
 ---
 
@@ -7538,7 +8362,7 @@ The custom parameter used as the Kinesis partition key.
 
 For more information, see Amazon Kinesis Streams Key Concepts in the Amazon Kinesis Streams Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}
 
 ---
 
@@ -7557,7 +8381,7 @@ def put_retry_policy(
 
 The maximum amount of time, in seconds, to continue to make retry attempts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_event_age_in_seconds SchedulerSchedule#maximum_event_age_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_event_age_in_seconds SchedulerSchedule#maximum_event_age_in_seconds}
 
 ---
 
@@ -7569,7 +8393,7 @@ The maximum number of retry attempts to make before the request fails.
 
 Retry attempts with exponential backoff continue until either the maximum number of attempts is made or until the duration of the MaximumEventAgeInSeconds is reached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_retry_attempts SchedulerSchedule#maximum_retry_attempts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_retry_attempts SchedulerSchedule#maximum_retry_attempts}
 
 ---
 
@@ -7587,7 +8411,7 @@ def put_sage_maker_pipeline_parameters(
 
 List of Parameter names and values for SageMaker Model Building Pipeline execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#pipeline_parameter_list SchedulerSchedule#pipeline_parameter_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#pipeline_parameter_list SchedulerSchedule#pipeline_parameter_list}
 
 ---
 
@@ -7605,7 +8429,7 @@ def put_sqs_parameters(
 
 The FIFO message group ID to use as the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}
 
 ---
 
@@ -7625,6 +8449,18 @@ def reset_ecs_parameters() -> None
 
 ```python
 def reset_event_bridge_parameters() -> None
+```
+
+##### `reset_event_bridge_put_events_v2_parameters` <a name="reset_event_bridge_put_events_v2_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgePutEventsV2Parameters"></a>
+
+```python
+def reset_event_bridge_put_events_v2_parameters() -> None
+```
+
+##### `reset_event_bridge_put_raw_events_parameters` <a name="reset_event_bridge_put_raw_events_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgePutRawEventsParameters"></a>
+
+```python
+def reset_event_bridge_put_raw_events_parameters() -> None
 ```
 
 ##### `reset_input` <a name="reset_input" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetInput"></a>
@@ -7667,6 +8503,8 @@ def reset_sqs_parameters() -> None
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.deadLetterConfig">dead_letter_config</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfigOutputReference">SchedulerScheduleTargetDeadLetterConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.ecsParameters">ecs_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEcsParametersOutputReference">SchedulerScheduleTargetEcsParametersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgeParameters">event_bridge_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParametersOutputReference">SchedulerScheduleTargetEventBridgeParametersOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutEventsV2Parameters">event_bridge_put_events_v2_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference">SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutRawEventsParameters">event_bridge_put_raw_events_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference">SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.kinesisParameters">kinesis_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParametersOutputReference">SchedulerScheduleTargetKinesisParametersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.retryPolicy">retry_policy</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetRetryPolicyOutputReference">SchedulerScheduleTargetRetryPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.sageMakerPipelineParameters">sage_maker_pipeline_parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetSageMakerPipelineParametersOutputReference">SchedulerScheduleTargetSageMakerPipelineParametersOutputReference</a></code> | *No description.* |
@@ -7675,6 +8513,8 @@ def reset_sqs_parameters() -> None
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.deadLetterConfigInput">dead_letter_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfig">SchedulerScheduleTargetDeadLetterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.ecsParametersInput">ecs_parameters_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEcsParameters">SchedulerScheduleTargetEcsParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgeParametersInput">event_bridge_parameters_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParameters">SchedulerScheduleTargetEventBridgeParameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutEventsV2ParametersInput">event_bridge_put_events_v2_parameters_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutRawEventsParametersInput">event_bridge_put_raw_events_parameters_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.inputInput">input_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.kinesisParametersInput">kinesis_parameters_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParameters">SchedulerScheduleTargetKinesisParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.retryPolicyInput">retry_policy_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetRetryPolicy">SchedulerScheduleTargetRetryPolicy</a></code> | *No description.* |
@@ -7739,6 +8579,26 @@ event_bridge_parameters: SchedulerScheduleTargetEventBridgeParametersOutputRefer
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParametersOutputReference">SchedulerScheduleTargetEventBridgeParametersOutputReference</a>
+
+---
+
+##### `event_bridge_put_events_v2_parameters`<sup>Required</sup> <a name="event_bridge_put_events_v2_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutEventsV2Parameters"></a>
+
+```python
+event_bridge_put_events_v2_parameters: SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference">SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference</a>
+
+---
+
+##### `event_bridge_put_raw_events_parameters`<sup>Required</sup> <a name="event_bridge_put_raw_events_parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutRawEventsParameters"></a>
+
+```python
+event_bridge_put_raw_events_parameters: SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference">SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference</a>
 
 ---
 
@@ -7819,6 +8679,26 @@ event_bridge_parameters_input: IResolvable | SchedulerScheduleTargetEventBridgeP
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParameters">SchedulerScheduleTargetEventBridgeParameters</a>
+
+---
+
+##### `event_bridge_put_events_v2_parameters_input`<sup>Optional</sup> <a name="event_bridge_put_events_v2_parameters_input" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutEventsV2ParametersInput"></a>
+
+```python
+event_bridge_put_events_v2_parameters_input: IResolvable | SchedulerScheduleTargetEventBridgePutEventsV2Parameters
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a>
+
+---
+
+##### `event_bridge_put_raw_events_parameters_input`<sup>Optional</sup> <a name="event_bridge_put_raw_events_parameters_input" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutRawEventsParametersInput"></a>
+
+```python
+event_bridge_put_raw_events_parameters_input: IResolvable | SchedulerScheduleTargetEventBridgePutRawEventsParameters
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a>
 
 ---
 

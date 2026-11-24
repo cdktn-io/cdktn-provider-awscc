@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53HealthCheck <a name="DataAwsccRoute53HealthCheck" id="@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheck"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53_health_check awscc_route53_health_check}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53_health_check awscc_route53_health_check}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheck.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53_health_check#id DataAwsccRoute53HealthCheck#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53_health_check#id DataAwsccRoute53HealthCheck#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccRoute53HealthChec
 
 The id of the existing DataAwsccRoute53HealthCheck that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53_health_check#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53_health_check#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -794,7 +794,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/route53_health_check#id DataAwsccRoute53HealthCheck#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/route53_health_check#id DataAwsccRoute53HealthCheck#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1323,8 +1323,10 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.alarmIdentifier">alarmIdentifier</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigAlarmIdentifierOutputReference">DataAwsccRoute53HealthCheckHealthCheckConfigAlarmIdentifierOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.childHealthChecks">childHealthChecks</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.enableSni">enableSni</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.endpointType">endpointType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.failureThreshold">failureThreshold</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.fullyQualifiedDomainName">fullyQualifiedDomainName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.healthCheckSourceId">healthCheckSourceId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.healthThreshold">healthThreshold</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.insufficientDataHealthStatus">insufficientDataHealthStatus</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.inverted">inverted</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
@@ -1395,6 +1397,16 @@ public IResolvable getEnableSni();
 
 ---
 
+##### `endpointType`<sup>Required</sup> <a name="endpointType" id="@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.endpointType"></a>
+
+```java
+public java.lang.String getEndpointType();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `failureThreshold`<sup>Required</sup> <a name="failureThreshold" id="@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.failureThreshold"></a>
 
 ```java
@@ -1409,6 +1421,16 @@ public java.lang.Number getFailureThreshold();
 
 ```java
 public java.lang.String getFullyQualifiedDomainName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `healthCheckSourceId`<sup>Required</sup> <a name="healthCheckSourceId" id="@cdktn/provider-awscc.dataAwsccRoute53HealthCheck.DataAwsccRoute53HealthCheckHealthCheckConfigOutputReference.property.healthCheckSourceId"></a>
+
+```java
+public java.lang.String getHealthCheckSourceId();
 ```
 
 - *Type:* java.lang.String

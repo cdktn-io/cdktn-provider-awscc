@@ -4,7 +4,7 @@
 
 ### DataAwsccEksPodIdentityAssociation <a name="DataAwsccEksPodIdentityAssociation" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEksPodIdentityAss
 
 The id of the existing DataAwsccEksPodIdentityAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/eks_pod_identity_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -426,6 +426,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.property.serviceAccount">ServiceAccount</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationTagsList">DataAwsccEksPodIdentityAssociationTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.property.targetRoleArn">TargetRoleArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.property.workloadIdentityConfig">WorkloadIdentityConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference">DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 
@@ -663,6 +664,16 @@ func TargetRoleArn() *string
 
 ---
 
+##### `WorkloadIdentityConfig`<sup>Required</sup> <a name="WorkloadIdentityConfig" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.property.workloadIdentityConfig"></a>
+
+```go
+func WorkloadIdentityConfig() DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference">DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference</a>
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociation.property.idInput"></a>
 
 ```go
@@ -817,7 +828,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/eks_pod_identity_association#id DataAwsccEksPodIdentityAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/eks_pod_identity_association#id DataAwsccEksPodIdentityAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -832,6 +843,19 @@ If you experience problems setting this value it might not be settable. Please t
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekspodidentityassociation"
 
 &dataawsccekspodidentityassociation.DataAwsccEksPodIdentityAssociationTags {
+
+}
+```
+
+
+### DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig <a name="DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekspodidentityassociation"
+
+&dataawsccekspodidentityassociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig {
 
 }
 ```
@@ -1273,6 +1297,288 @@ func InternalValue() DataAwsccEksPodIdentityAssociationTags
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationTags">DataAwsccEksPodIdentityAssociationTags</a>
+
+---
+
+
+### DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference <a name="DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekspodidentityassociation"
+
+dataawsccekspodidentityassociation.NewDataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.enabled">Enabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.providerArn">ProviderArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.templateArn">TemplateArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig">DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.enabled"></a>
+
+```go
+func Enabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
+##### `ProviderArn`<sup>Required</sup> <a name="ProviderArn" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.providerArn"></a>
+
+```go
+func ProviderArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TemplateArn`<sup>Required</sup> <a name="TemplateArn" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.templateArn"></a>
+
+```go
+func TemplateArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEksPodIdentityAssociation.DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig">DataAwsccEksPodIdentityAssociationWorkloadIdentityConfig</a>
 
 ---
 

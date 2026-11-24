@@ -4,7 +4,7 @@
 
 ### DevopsagentAssociation <a name="DevopsagentAssociation" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer"></a>
 
@@ -24,6 +24,7 @@ devopsagentAssociation.DevopsagentAssociation(
   agent_space_id: str,
   configuration: DevopsagentAssociationConfiguration,
   service_id: str,
+  capabilities: DevopsagentAssociationCapabilities = None,
   linked_association_ids: typing.List[str] = None
 )
 ```
@@ -42,6 +43,7 @@ devopsagentAssociation.DevopsagentAssociation(
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer.parameter.agentSpaceId">agent_space_id</a></code> | <code>str</code> | The unique identifier of the AgentSpace. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer.parameter.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration">DevopsagentAssociationConfiguration</a></code> | The configuration that directs how AgentSpace interacts with the given service. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer.parameter.serviceId">service_id</a></code> | <code>str</code> | The identifier for the associated service. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer.parameter.capabilities">capabilities</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a></code> | Automated AWS DevOps Agent capabilities enabled for this association, such as code change risk analysis. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer.parameter.linkedAssociationIds">linked_association_ids</a></code> | <code>typing.List[str]</code> | Set of linked association IDs for parent-child relationships. |
 
 ---
@@ -112,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The unique identifier of the AgentSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
 
 ---
 
@@ -122,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration that directs how AgentSpace interacts with the given service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
 
 ---
 
@@ -132,7 +134,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier for the associated service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+
+---
+
+##### `capabilities`<sup>Optional</sup> <a name="capabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer.parameter.capabilities"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a>
+
+Automated AWS DevOps Agent capabilities enabled for this association, such as code change risk analysis.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#capabilities DevopsagentAssociation#capabilities}
 
 ---
 
@@ -142,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Set of linked association IDs for parent-child relationships.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
 
 ---
 
@@ -174,7 +186,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putCapabilities">put_capabilities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putConfiguration">put_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.resetCapabilities">reset_capabilities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.resetLinkedAssociationIds">reset_linked_association_ids</a></code> | *No description.* |
 
 ---
@@ -527,6 +541,35 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_capabilities` <a name="put_capabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putCapabilities"></a>
+
+```python
+def put_capabilities(
+  code_change_risk_analysis: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis = None,
+  code_change_risk_analysis_automated_testing: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting = None
+) -> None
+```
+
+###### `code_change_risk_analysis`<sup>Optional</sup> <a name="code_change_risk_analysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putCapabilities.parameter.codeChangeRiskAnalysis"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a>
+
+Configuration for code change risk analysis, in which AWS DevOps Agent automatically analyzes pull requests and merge requests for deployment risk.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#code_change_risk_analysis DevopsagentAssociation#code_change_risk_analysis}
+
+---
+
+###### `code_change_risk_analysis_automated_testing`<sup>Optional</sup> <a name="code_change_risk_analysis_automated_testing" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putCapabilities.parameter.codeChangeRiskAnalysisAutomatedTesting"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a>
+
+Configuration for code change risk analysis automated testing, in which AWS DevOps Agent also runs tests against the change during the analysis.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#code_change_risk_analysis_automated_testing DevopsagentAssociation#code_change_risk_analysis_automated_testing}
+
+---
+
 ##### `put_configuration` <a name="put_configuration" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putConfiguration"></a>
 
 ```python
@@ -544,6 +587,7 @@ def put_configuration(
   mcp_server_sig_v4: DevopsagentAssociationConfigurationMcpServerSigV4 = None,
   mcp_server_splunk: DevopsagentAssociationConfigurationMcpServerSplunk = None,
   pager_duty: DevopsagentAssociationConfigurationPagerDuty = None,
+  release_management: DevopsagentAssociationConfigurationReleaseManagement = None,
   service_now: DevopsagentAssociationConfigurationServiceNow = None,
   slack: DevopsagentAssociationConfigurationSlack = None,
   source_aws: DevopsagentAssociationConfigurationSourceAws = None
@@ -556,7 +600,7 @@ def put_configuration(
 
 AWS association for 'monitor' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
 
 ---
 
@@ -566,7 +610,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Azure subscription integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
 
 ---
 
@@ -576,7 +620,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Dynatrace monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
 
 ---
 
@@ -586,7 +630,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 EventChannelconfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
 
 ---
 
@@ -596,7 +640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitHub repository integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
 
 ---
 
@@ -606,7 +650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitLab project integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
 
 ---
 
@@ -616,7 +660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
 
 ---
 
@@ -626,7 +670,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Datadog MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
 
 ---
 
@@ -636,7 +680,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
 
 ---
 
@@ -646,7 +690,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 NewRelic MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
 
 ---
 
@@ -656,7 +700,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
 
 ---
 
@@ -666,7 +710,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
 
 ---
 
@@ -676,7 +720,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 PagerDuty integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+
+---
+
+###### `release_management`<sup>Optional</sup> <a name="release_management" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.putConfiguration.parameter.releaseManagement"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a>
+
+Configuration for a release management environment.
+
+A release management environment defines how AWS DevOps Agent reaches your application, and other associations reference it to run automatic verification testing against that application.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management DevopsagentAssociation#release_management}
 
 ---
 
@@ -686,7 +742,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ServiceNow integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
 
 ---
 
@@ -696,7 +752,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Slack workspace integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
 
 ---
 
@@ -706,9 +762,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 AWS association for 'source' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
 
 ---
+
+##### `reset_capabilities` <a name="reset_capabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.resetCapabilities"></a>
+
+```python
+def reset_capabilities() -> None
+```
 
 ##### `reset_linked_association_ids` <a name="reset_linked_association_ids" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.resetLinkedAssociationIds"></a>
 
@@ -830,7 +892,7 @@ The construct id used in the generated config for the DevopsagentAssociation to 
 
 The id of the existing DevopsagentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -861,11 +923,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.associationId">association_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.capabilities">capabilities</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference">DevopsagentAssociationCapabilitiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference">DevopsagentAssociationConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.createdAt">created_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.updatedAt">updated_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.agentSpaceIdInput">agent_space_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.capabilitiesInput">capabilities_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.configurationInput">configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration">DevopsagentAssociationConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.linkedAssociationIdsInput">linked_association_ids_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.serviceIdInput">service_id_input</a></code> | <code>str</code> | *No description.* |
@@ -1027,6 +1091,16 @@ association_id: str
 
 ---
 
+##### `capabilities`<sup>Required</sup> <a name="capabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.capabilities"></a>
+
+```python
+capabilities: DevopsagentAssociationCapabilitiesOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference">DevopsagentAssociationCapabilitiesOutputReference</a>
+
+---
+
 ##### `configuration`<sup>Required</sup> <a name="configuration" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.configuration"></a>
 
 ```python
@@ -1074,6 +1148,16 @@ agent_space_id_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `capabilities_input`<sup>Optional</sup> <a name="capabilities_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.property.capabilitiesInput"></a>
+
+```python
+capabilities_input: IResolvable | DevopsagentAssociationCapabilities
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a>
 
 ---
 
@@ -1157,6 +1241,226 @@ tfResourceType: str
 
 ## Structs <a name="Structs" id="Structs"></a>
 
+### DevopsagentAssociationCapabilities <a name="DevopsagentAssociationCapabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilities(
+  code_change_risk_analysis: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis = None,
+  code_change_risk_analysis_automated_testing: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.property.codeChangeRiskAnalysis">code_change_risk_analysis</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a></code> | Configuration for code change risk analysis, in which AWS DevOps Agent automatically analyzes pull requests and merge requests for deployment risk. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.property.codeChangeRiskAnalysisAutomatedTesting">code_change_risk_analysis_automated_testing</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a></code> | Configuration for code change risk analysis automated testing, in which AWS DevOps Agent also runs tests against the change during the analysis. |
+
+---
+
+##### `code_change_risk_analysis`<sup>Optional</sup> <a name="code_change_risk_analysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.property.codeChangeRiskAnalysis"></a>
+
+```python
+code_change_risk_analysis: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a>
+
+Configuration for code change risk analysis, in which AWS DevOps Agent automatically analyzes pull requests and merge requests for deployment risk.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#code_change_risk_analysis DevopsagentAssociation#code_change_risk_analysis}
+
+---
+
+##### `code_change_risk_analysis_automated_testing`<sup>Optional</sup> <a name="code_change_risk_analysis_automated_testing" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities.property.codeChangeRiskAnalysisAutomatedTesting"></a>
+
+```python
+code_change_risk_analysis_automated_testing: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a>
+
+Configuration for code change risk analysis automated testing, in which AWS DevOps Agent also runs tests against the change during the analysis.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#code_change_risk_analysis_automated_testing DevopsagentAssociation#code_change_risk_analysis_automated_testing}
+
+---
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis(
+  enabled: bool | IResolvable = None,
+  trigger_filter_groups: IResolvable | typing.List[DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the capability is enabled for this association. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.property.triggerFilterGroups">trigger_filter_groups</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>]</code> | Filter groups controlling when the capability triggers automatically. |
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the capability is enabled for this association.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+
+---
+
+##### `trigger_filter_groups`<sup>Optional</sup> <a name="trigger_filter_groups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis.property.triggerFilterGroups"></a>
+
+```python
+trigger_filter_groups: IResolvable | typing.List[DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>]
+
+Filter groups controlling when the capability triggers automatically.
+
+The capability triggers when any group matches. When omitted, all applicable events trigger the capability. Retained while the capability is disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#trigger_filter_groups DevopsagentAssociation#trigger_filter_groups}
+
+---
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting(
+  enabled: bool | IResolvable = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the capability is enabled for this association. |
+
+---
+
+##### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the capability is enabled for this association.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+
+---
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups(
+  events: typing.List[str] = None,
+  target_branches: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.property.events">events</a></code> | <code>typing.List[str]</code> | Passes when the webhook event is one of the listed events. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.property.targetBranches">target_branches</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a></code> | Passes when the change request target branch matches. |
+
+---
+
+##### `events`<sup>Optional</sup> <a name="events" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.property.events"></a>
+
+```python
+events: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Passes when the webhook event is one of the listed events.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#events DevopsagentAssociation#events}
+
+---
+
+##### `target_branches`<sup>Optional</sup> <a name="target_branches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups.property.targetBranches"></a>
+
+```python
+target_branches: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a>
+
+Passes when the change request target branch matches.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#target_branches DevopsagentAssociation#target_branches}
+
+---
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches(
+  patterns: typing.List[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches.property.patterns">patterns</a></code> | <code>typing.List[str]</code> | Anchored full-match regex patterns, for example 'main' or 'release/.*'. |
+
+---
+
+##### `patterns`<sup>Optional</sup> <a name="patterns" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches.property.patterns"></a>
+
+```python
+patterns: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Anchored full-match regex patterns, for example 'main' or 'release/.*'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#patterns DevopsagentAssociation#patterns}
+
+---
+
 ### DevopsagentAssociationConfig <a name="DevopsagentAssociationConfig" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.Initializer"></a>
@@ -1175,6 +1479,7 @@ devopsagentAssociation.DevopsagentAssociationConfig(
   agent_space_id: str,
   configuration: DevopsagentAssociationConfiguration,
   service_id: str,
+  capabilities: DevopsagentAssociationCapabilities = None,
   linked_association_ids: typing.List[str] = None
 )
 ```
@@ -1193,6 +1498,7 @@ devopsagentAssociation.DevopsagentAssociationConfig(
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.agentSpaceId">agent_space_id</a></code> | <code>str</code> | The unique identifier of the AgentSpace. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.configuration">configuration</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration">DevopsagentAssociationConfiguration</a></code> | The configuration that directs how AgentSpace interacts with the given service. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.serviceId">service_id</a></code> | <code>str</code> | The identifier for the associated service. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.capabilities">capabilities</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a></code> | Automated AWS DevOps Agent capabilities enabled for this association, such as code change risk analysis. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.linkedAssociationIds">linked_association_ids</a></code> | <code>typing.List[str]</code> | Set of linked association IDs for parent-child relationships. |
 
 ---
@@ -1277,7 +1583,7 @@ agent_space_id: str
 
 The unique identifier of the AgentSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
 
 ---
 
@@ -1291,7 +1597,7 @@ configuration: DevopsagentAssociationConfiguration
 
 The configuration that directs how AgentSpace interacts with the given service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
 
 ---
 
@@ -1305,7 +1611,21 @@ service_id: str
 
 The identifier for the associated service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+
+---
+
+##### `capabilities`<sup>Optional</sup> <a name="capabilities" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfig.property.capabilities"></a>
+
+```python
+capabilities: DevopsagentAssociationCapabilities
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a>
+
+Automated AWS DevOps Agent capabilities enabled for this association, such as code change risk analysis.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#capabilities DevopsagentAssociation#capabilities}
 
 ---
 
@@ -1319,7 +1639,7 @@ linked_association_ids: typing.List[str]
 
 Set of linked association IDs for parent-child relationships.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
 
 ---
 
@@ -1344,6 +1664,7 @@ devopsagentAssociation.DevopsagentAssociationConfiguration(
   mcp_server_sig_v4: DevopsagentAssociationConfigurationMcpServerSigV4 = None,
   mcp_server_splunk: DevopsagentAssociationConfigurationMcpServerSplunk = None,
   pager_duty: DevopsagentAssociationConfigurationPagerDuty = None,
+  release_management: DevopsagentAssociationConfigurationReleaseManagement = None,
   service_now: DevopsagentAssociationConfigurationServiceNow = None,
   slack: DevopsagentAssociationConfigurationSlack = None,
   source_aws: DevopsagentAssociationConfigurationSourceAws = None
@@ -1367,6 +1688,7 @@ devopsagentAssociation.DevopsagentAssociationConfiguration(
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.mcpServerSigV4">mcp_server_sig_v4</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4">DevopsagentAssociationConfigurationMcpServerSigV4</a></code> | SigV4-authenticated MCP server configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.mcpServerSplunk">mcp_server_splunk</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunk">DevopsagentAssociationConfigurationMcpServerSplunk</a></code> | Splunk MCP server configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.pagerDuty">pager_duty</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty">DevopsagentAssociationConfigurationPagerDuty</a></code> | PagerDuty integration configuration. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.releaseManagement">release_management</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a></code> | Configuration for a release management environment. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.serviceNow">service_now</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNow">DevopsagentAssociationConfigurationServiceNow</a></code> | ServiceNow integration configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.slack">slack</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack">DevopsagentAssociationConfigurationSlack</a></code> | Slack workspace integration configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.sourceAws">source_aws</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws">DevopsagentAssociationConfigurationSourceAws</a></code> | AWS association for 'source' account. |
@@ -1383,7 +1705,7 @@ aws: DevopsagentAssociationConfigurationAws
 
 AWS association for 'monitor' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
 
 ---
 
@@ -1397,7 +1719,7 @@ azure: DevopsagentAssociationConfigurationAzure
 
 Azure subscription integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
 
 ---
 
@@ -1411,7 +1733,7 @@ dynatrace: DevopsagentAssociationConfigurationDynatrace
 
 Dynatrace monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
 
 ---
 
@@ -1425,7 +1747,7 @@ event_channel: DevopsagentAssociationConfigurationEventChannel
 
 EventChannelconfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
 
 ---
 
@@ -1439,7 +1761,7 @@ git_hub: DevopsagentAssociationConfigurationGitHub
 
 GitHub repository integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
 
 ---
 
@@ -1453,7 +1775,7 @@ git_lab: DevopsagentAssociationConfigurationGitLab
 
 GitLab project integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
 
 ---
 
@@ -1467,7 +1789,7 @@ mcp_server: DevopsagentAssociationConfigurationMcpServer
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
 
 ---
 
@@ -1481,7 +1803,7 @@ mcp_server_datadog: DevopsagentAssociationConfigurationMcpServerDatadog
 
 Datadog MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
 
 ---
 
@@ -1495,7 +1817,7 @@ mcp_server_grafana: DevopsagentAssociationConfigurationMcpServerGrafana
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
 
 ---
 
@@ -1509,7 +1831,7 @@ mcp_server_new_relic: DevopsagentAssociationConfigurationMcpServerNewRelic
 
 NewRelic MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
 
 ---
 
@@ -1523,7 +1845,7 @@ mcp_server_sig_v4: DevopsagentAssociationConfigurationMcpServerSigV4
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
 
 ---
 
@@ -1537,7 +1859,7 @@ mcp_server_splunk: DevopsagentAssociationConfigurationMcpServerSplunk
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
 
 ---
 
@@ -1551,7 +1873,23 @@ pager_duty: DevopsagentAssociationConfigurationPagerDuty
 
 PagerDuty integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+
+---
+
+##### `release_management`<sup>Optional</sup> <a name="release_management" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfiguration.property.releaseManagement"></a>
+
+```python
+release_management: DevopsagentAssociationConfigurationReleaseManagement
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a>
+
+Configuration for a release management environment.
+
+A release management environment defines how AWS DevOps Agent reaches your application, and other associations reference it to run automatic verification testing against that application.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management DevopsagentAssociation#release_management}
 
 ---
 
@@ -1565,7 +1903,7 @@ service_now: DevopsagentAssociationConfigurationServiceNow
 
 ServiceNow integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
 
 ---
 
@@ -1579,7 +1917,7 @@ slack: DevopsagentAssociationConfigurationSlack
 
 Slack workspace integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
 
 ---
 
@@ -1593,7 +1931,7 @@ source_aws: DevopsagentAssociationConfigurationSourceAws
 
 AWS association for 'source' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
 
 ---
 
@@ -1637,7 +1975,7 @@ account_id: str
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -1651,7 +1989,7 @@ account_type: str
 
 Account Type 'monitor' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -1667,7 +2005,7 @@ The IAM role that AWS DevOps Agent assumes to perform elevated directed actions 
 
 Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -1681,7 +2019,7 @@ assumable_role_arn: str
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -1695,7 +2033,7 @@ resources: IResolvable | typing.List[DevopsagentAssociationConfigurationAwsResou
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1709,7 +2047,7 @@ tags: IResolvable | typing.List[DevopsagentAssociationConfigurationAwsTags]
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -1747,7 +2085,7 @@ resource_arn: str
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -1761,7 +2099,7 @@ resource_metadata: str
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -1775,7 +2113,7 @@ resource_type: str
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -1796,8 +2134,8 @@ devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -1809,7 +2147,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -1821,7 +2159,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
@@ -1855,7 +2193,7 @@ subscription_id: str
 
 Azure subscription ID corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
 
 ---
 
@@ -1893,7 +2231,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1907,7 +2245,7 @@ env_id: str
 
 Dynatrace environment id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
 
 ---
 
@@ -1921,7 +2259,7 @@ resources: typing.List[str]
 
 List of Dynatrace resources to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1955,7 +2293,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1969,6 +2307,7 @@ from cdktn_provider_awscc import devopsagent_association
 devopsagentAssociation.DevopsagentAssociationConfigurationGitHub(
   owner: str = None,
   owner_type: str = None,
+  release_management_association_id: str = None,
   repo_id: str = None,
   repo_name: str = None
 )
@@ -1980,6 +2319,7 @@ devopsagentAssociation.DevopsagentAssociationConfigurationGitHub(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.owner">owner</a></code> | <code>str</code> | Repository owner. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.ownerType">owner_type</a></code> | <code>str</code> | Type of repository owner. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.releaseManagementAssociationId">release_management_association_id</a></code> | <code>str</code> | The ID of the release management association that this repository uses for automated testing. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.repoId">repo_id</a></code> | <code>str</code> | Associated Github repo ID. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.repoName">repo_name</a></code> | <code>str</code> | Associated Github repo name. |
 
@@ -1995,7 +2335,7 @@ owner: str
 
 Repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
 
 ---
 
@@ -2009,7 +2349,21 @@ owner_type: str
 
 Type of repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+
+---
+
+##### `release_management_association_id`<sup>Optional</sup> <a name="release_management_association_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub.property.releaseManagementAssociationId"></a>
+
+```python
+release_management_association_id: str
+```
+
+- *Type:* str
+
+The ID of the release management association that this repository uses for automated testing.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management_association_id DevopsagentAssociation#release_management_association_id}
 
 ---
 
@@ -2023,7 +2377,7 @@ repo_id: str
 
 Associated Github repo ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
 
 ---
 
@@ -2037,7 +2391,7 @@ repo_name: str
 
 Associated Github repo name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
 
 ---
 
@@ -2052,7 +2406,8 @@ devopsagentAssociation.DevopsagentAssociationConfigurationGitLab(
   enable_webhook_updates: bool | IResolvable = None,
   instance_identifier: str = None,
   project_id: str = None,
-  project_path: str = None
+  project_path: str = None,
+  release_management_association_id: str = None
 )
 ```
 
@@ -2064,6 +2419,7 @@ devopsagentAssociation.DevopsagentAssociationConfigurationGitLab(
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.instanceIdentifier">instance_identifier</a></code> | <code>str</code> | GitLab instance identifier. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.projectId">project_id</a></code> | <code>str</code> | GitLab numeric project ID. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.projectPath">project_path</a></code> | <code>str</code> | Full GitLab project path (e.g., namespace/project-name). |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.releaseManagementAssociationId">release_management_association_id</a></code> | <code>str</code> | The ID of the release management association that this project uses for automated testing. |
 
 ---
 
@@ -2077,7 +2433,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2091,7 +2447,7 @@ instance_identifier: str
 
 GitLab instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
 
 ---
 
@@ -2105,7 +2461,7 @@ project_id: str
 
 GitLab numeric project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
 
 ---
 
@@ -2119,7 +2475,21 @@ project_path: str
 
 Full GitLab project path (e.g., namespace/project-name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+
+---
+
+##### `release_management_association_id`<sup>Optional</sup> <a name="release_management_association_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab.property.releaseManagementAssociationId"></a>
+
+```python
+release_management_association_id: str
+```
+
+- *Type:* str
+
+The ID of the release management association that this project uses for automated testing.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management_association_id DevopsagentAssociation#release_management_association_id}
 
 ---
 
@@ -2161,7 +2531,7 @@ description: str
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -2175,7 +2545,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2189,7 +2559,7 @@ endpoint: str
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2203,7 +2573,7 @@ name: str
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2217,7 +2587,7 @@ tools: typing.List[str]
 
 List of MCP tools that can be used with the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2259,7 +2629,7 @@ description: str
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -2275,7 +2645,7 @@ The mutative MCP tools enabled for this integration, by tool name.
 
 Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -2289,7 +2659,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2303,7 +2673,7 @@ endpoint: str
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2317,7 +2687,7 @@ name: str
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2359,7 +2729,7 @@ The mutative MCP tools enabled for this integration, by tool name.
 
 Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools. Independent of Tools, which selects the toolsets available to the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -2373,7 +2743,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2387,7 +2757,7 @@ endpoint: str
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2401,7 +2771,7 @@ tools: typing.List[str]
 
 List of tool categories to enable for the Grafana MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2437,7 +2807,7 @@ account_id: str
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2451,7 +2821,7 @@ endpoint: str
 
 MCP server endpoint URL (e.g., https://mcp.newrelic.com/mcp/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2485,7 +2855,7 @@ tools: typing.List[str]
 
 List of MCP tools available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2525,7 +2895,7 @@ description: str
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -2539,7 +2909,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2553,7 +2923,7 @@ endpoint: str
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2567,7 +2937,7 @@ name: str
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2605,7 +2975,7 @@ customer_email: str
 
 Email to be used in PagerDuty API header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
 
 ---
 
@@ -2619,7 +2989,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2633,7 +3003,141 @@ services: typing.List[str]
 
 List of PagerDuty service IDs available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+
+---
+
+### DevopsagentAssociationConfigurationReleaseManagement <a name="DevopsagentAssociationConfigurationReleaseManagement" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement(
+  name: str = None,
+  network_access: DevopsagentAssociationConfigurationReleaseManagementNetworkAccess = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.property.name">name</a></code> | <code>str</code> | The name for this release management environment. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.property.networkAccess">network_access</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a></code> | Specifies how AWS DevOps Agent reaches your application using this release management environment. |
+
+---
+
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+The name for this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+
+---
+
+##### `network_access`<sup>Optional</sup> <a name="network_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement.property.networkAccess"></a>
+
+```python
+network_access: DevopsagentAssociationConfigurationReleaseManagementNetworkAccess
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a>
+
+Specifies how AWS DevOps Agent reaches your application using this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#network_access DevopsagentAssociation#network_access}
+
+---
+
+### DevopsagentAssociationConfigurationReleaseManagementNetworkAccess <a name="DevopsagentAssociationConfigurationReleaseManagementNetworkAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess(
+  private_access: DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess.property.privateAccess">private_access</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a></code> | Private network access to your application inside a VPC, reached through a private connection. |
+
+---
+
+##### `private_access`<sup>Optional</sup> <a name="private_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess.property.privateAccess"></a>
+
+```python
+private_access: DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a>
+
+Private network access to your application inside a VPC, reached through a private connection.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#private_access DevopsagentAssociation#private_access}
+
+---
+
+### DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess <a name="DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess(
+  private_connection_name: str = None,
+  runtime_role_arn: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.property.privateConnectionName">private_connection_name</a></code> | <code>str</code> | Name of the private connection that supplies the VPC configuration for this release management environment. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.property.runtimeRoleArn">runtime_role_arn</a></code> | <code>str</code> | Role ARN that AWS DevOps Agent assumes at runtime to connect to your VPC. |
+
+---
+
+##### `private_connection_name`<sup>Optional</sup> <a name="private_connection_name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.property.privateConnectionName"></a>
+
+```python
+private_connection_name: str
+```
+
+- *Type:* str
+
+Name of the private connection that supplies the VPC configuration for this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#private_connection_name DevopsagentAssociation#private_connection_name}
+
+---
+
+##### `runtime_role_arn`<sup>Optional</sup> <a name="runtime_role_arn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess.property.runtimeRoleArn"></a>
+
+```python
+runtime_role_arn: str
+```
+
+- *Type:* str
+
+Role ARN that AWS DevOps Agent assumes at runtime to connect to your VPC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#runtime_role_arn DevopsagentAssociation#runtime_role_arn}
 
 ---
 
@@ -2669,7 +3173,7 @@ enable_webhook_updates: bool | IResolvable
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2683,7 +3187,7 @@ instance_id: str
 
 ServiceNow instance ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
 
 ---
 
@@ -2725,7 +3229,7 @@ Optional bidirectional communication configuration.
 
 Supply this configuration and set Enabled to true so you can interact with the agent directly from Slack
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
 
 ---
 
@@ -2739,7 +3243,7 @@ transmission_target: DevopsagentAssociationConfigurationSlackTransmissionTarget
 
 Transmission targets for agent notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
 
 ---
 
@@ -2753,7 +3257,7 @@ workspace_id: str
 
 Associated Slack workspace ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
 
 ---
 
@@ -2767,7 +3271,7 @@ workspace_name: str
 
 Associated Slack workspace name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
 
 ---
 
@@ -2805,7 +3309,7 @@ Whether bidirectional communication is enabled for this association.
 
 When set to true, you can mention the agent in a configured Slack channel and it responds in that channel. When omitted or set to false, the agent ignores mentions and only sends notifications
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
 
 ---
 
@@ -2819,7 +3323,7 @@ role_arn: str
 
 IAM role ARN that AWS DevOps Agent assumes to exchange messages with your Slack workspace on behalf of this association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
 
 ---
 
@@ -2853,7 +3357,7 @@ incident_response_target: DevopsagentAssociationConfigurationSlackTransmissionTa
 
 Destination for IncidentResponse agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
 
 ---
 
@@ -2889,7 +3393,7 @@ channel_id: str
 
 Slack channel ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
 
 ---
 
@@ -2903,7 +3407,7 @@ channel_name: str
 
 Slack channel name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
 
 ---
 
@@ -2947,7 +3451,7 @@ account_id: str
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2961,7 +3465,7 @@ account_type: str
 
 Account Type 'source' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -2977,7 +3481,7 @@ The IAM role that AWS DevOps Agent assumes to perform elevated directed actions 
 
 Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -2991,7 +3495,7 @@ assumable_role_arn: str
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -3005,7 +3509,7 @@ resources: IResolvable | typing.List[DevopsagentAssociationConfigurationSourceAw
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -3019,7 +3523,7 @@ tags: IResolvable | typing.List[DevopsagentAssociationConfigurationSourceAwsTags
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -3057,7 +3561,7 @@ resource_arn: str
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -3071,7 +3575,7 @@ resource_metadata: str
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -3085,7 +3589,7 @@ resource_type: str
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -3106,8 +3610,8 @@ devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -3119,7 +3623,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -3131,11 +3635,1888 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resetEnabled">reset_enabled</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_enabled` <a name="reset_enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.resetEnabled"></a>
+
+```python
+def reset_enabled() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.enabledInput">enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `enabled_input`<sup>Optional</sup> <a name="enabled_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.enabledInput"></a>
+
+```python
+enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a>
+
+---
+
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.putTriggerFilterGroups">put_trigger_filter_groups</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resetEnabled">reset_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resetTriggerFilterGroups">reset_trigger_filter_groups</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_trigger_filter_groups` <a name="put_trigger_filter_groups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.putTriggerFilterGroups"></a>
+
+```python
+def put_trigger_filter_groups(
+  value: IResolvable | typing.List[DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.putTriggerFilterGroups.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>]
+
+---
+
+##### `reset_enabled` <a name="reset_enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resetEnabled"></a>
+
+```python
+def reset_enabled() -> None
+```
+
+##### `reset_trigger_filter_groups` <a name="reset_trigger_filter_groups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.resetTriggerFilterGroups"></a>
+
+```python
+def reset_trigger_filter_groups() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.triggerFilterGroups">trigger_filter_groups</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.enabledInput">enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.triggerFilterGroupsInput">trigger_filter_groups_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.enabled">enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `trigger_filter_groups`<sup>Required</sup> <a name="trigger_filter_groups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.triggerFilterGroups"></a>
+
+```python
+trigger_filter_groups: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList</a>
+
+---
+
+##### `enabled_input`<sup>Optional</sup> <a name="enabled_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.enabledInput"></a>
+
+```python
+enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `trigger_filter_groups_input`<sup>Optional</sup> <a name="trigger_filter_groups_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.triggerFilterGroupsInput"></a>
+
+```python
+trigger_filter_groups_input: IResolvable | typing.List[DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>]
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.enabled"></a>
+
+```python
+enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a>
+
+---
+
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>]
+
+---
+
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.putTargetBranches">put_target_branches</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resetEvents">reset_events</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resetTargetBranches">reset_target_branches</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_target_branches` <a name="put_target_branches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.putTargetBranches"></a>
+
+```python
+def put_target_branches(
+  patterns: typing.List[str] = None
+) -> None
+```
+
+###### `patterns`<sup>Optional</sup> <a name="patterns" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.putTargetBranches.parameter.patterns"></a>
+
+- *Type:* typing.List[str]
+
+Anchored full-match regex patterns, for example 'main' or 'release/.*'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#patterns DevopsagentAssociation#patterns}
+
+---
+
+##### `reset_events` <a name="reset_events" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resetEvents"></a>
+
+```python
+def reset_events() -> None
+```
+
+##### `reset_target_branches` <a name="reset_target_branches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.resetTargetBranches"></a>
+
+```python
+def reset_target_branches() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.targetBranches">target_branches</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.eventsInput">events_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.targetBranchesInput">target_branches_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.events">events</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_branches`<sup>Required</sup> <a name="target_branches" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.targetBranches"></a>
+
+```python
+target_branches: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference</a>
+
+---
+
+##### `events_input`<sup>Optional</sup> <a name="events_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.eventsInput"></a>
+
+```python
+events_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `target_branches_input`<sup>Optional</sup> <a name="target_branches_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.targetBranchesInput"></a>
+
+```python
+target_branches_input: IResolvable | DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a>
+
+---
+
+##### `events`<sup>Required</sup> <a name="events" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.events"></a>
+
+```python
+events: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>
+
+---
+
+
+### DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference <a name="DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resetPatterns">reset_patterns</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_patterns` <a name="reset_patterns" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.resetPatterns"></a>
+
+```python
+def reset_patterns() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.patternsInput">patterns_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.patterns">patterns</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `patterns_input`<sup>Optional</sup> <a name="patterns_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.patternsInput"></a>
+
+```python
+patterns_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `patterns`<sup>Required</sup> <a name="patterns" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.patterns"></a>
+
+```python
+patterns: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranchesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroupsTargetBranches</a>
+
+---
+
+
+### DevopsagentAssociationCapabilitiesOutputReference <a name="DevopsagentAssociationCapabilitiesOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysis">put_code_change_risk_analysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysisAutomatedTesting">put_code_change_risk_analysis_automated_testing</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resetCodeChangeRiskAnalysis">reset_code_change_risk_analysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resetCodeChangeRiskAnalysisAutomatedTesting">reset_code_change_risk_analysis_automated_testing</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_code_change_risk_analysis` <a name="put_code_change_risk_analysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysis"></a>
+
+```python
+def put_code_change_risk_analysis(
+  enabled: bool | IResolvable = None,
+  trigger_filter_groups: IResolvable | typing.List[DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups] = None
+) -> None
+```
+
+###### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysis.parameter.enabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the capability is enabled for this association.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+
+---
+
+###### `trigger_filter_groups`<sup>Optional</sup> <a name="trigger_filter_groups" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysis.parameter.triggerFilterGroups"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisTriggerFilterGroups</a>]
+
+Filter groups controlling when the capability triggers automatically.
+
+The capability triggers when any group matches. When omitted, all applicable events trigger the capability. Retained while the capability is disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#trigger_filter_groups DevopsagentAssociation#trigger_filter_groups}
+
+---
+
+##### `put_code_change_risk_analysis_automated_testing` <a name="put_code_change_risk_analysis_automated_testing" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysisAutomatedTesting"></a>
+
+```python
+def put_code_change_risk_analysis_automated_testing(
+  enabled: bool | IResolvable = None
+) -> None
+```
+
+###### `enabled`<sup>Optional</sup> <a name="enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.putCodeChangeRiskAnalysisAutomatedTesting.parameter.enabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the capability is enabled for this association.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+
+---
+
+##### `reset_code_change_risk_analysis` <a name="reset_code_change_risk_analysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resetCodeChangeRiskAnalysis"></a>
+
+```python
+def reset_code_change_risk_analysis() -> None
+```
+
+##### `reset_code_change_risk_analysis_automated_testing` <a name="reset_code_change_risk_analysis_automated_testing" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.resetCodeChangeRiskAnalysisAutomatedTesting"></a>
+
+```python
+def reset_code_change_risk_analysis_automated_testing() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysis">code_change_risk_analysis</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisAutomatedTesting">code_change_risk_analysis_automated_testing</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisAutomatedTestingInput">code_change_risk_analysis_automated_testing_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisInput">code_change_risk_analysis_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `code_change_risk_analysis`<sup>Required</sup> <a name="code_change_risk_analysis" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysis"></a>
+
+```python
+code_change_risk_analysis: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisOutputReference</a>
+
+---
+
+##### `code_change_risk_analysis_automated_testing`<sup>Required</sup> <a name="code_change_risk_analysis_automated_testing" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisAutomatedTesting"></a>
+
+```python
+code_change_risk_analysis_automated_testing: DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTestingOutputReference</a>
+
+---
+
+##### `code_change_risk_analysis_automated_testing_input`<sup>Optional</sup> <a name="code_change_risk_analysis_automated_testing_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisAutomatedTestingInput"></a>
+
+```python
+code_change_risk_analysis_automated_testing_input: IResolvable | DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysisAutomatedTesting</a>
+
+---
+
+##### `code_change_risk_analysis_input`<sup>Optional</sup> <a name="code_change_risk_analysis_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.codeChangeRiskAnalysisInput"></a>
+
+```python
+code_change_risk_analysis_input: IResolvable | DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis">DevopsagentAssociationCapabilitiesCodeChangeRiskAnalysis</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilitiesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentAssociationCapabilities
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationCapabilities">DevopsagentAssociationCapabilities</a>
+
+---
+
 
 ### DevopsagentAssociationConfigurationAwsOutputReference <a name="DevopsagentAssociationConfigurationAwsOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference"></a>
 
@@ -5710,6 +8091,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetOwner">reset_owner</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetOwnerType">reset_owner_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetReleaseManagementAssociationId">reset_release_management_association_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetRepoId">reset_repo_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetRepoName">reset_repo_name</a></code> | *No description.* |
 
@@ -5899,6 +8281,12 @@ def reset_owner() -> None
 def reset_owner_type() -> None
 ```
 
+##### `reset_release_management_association_id` <a name="reset_release_management_association_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetReleaseManagementAssociationId"></a>
+
+```python
+def reset_release_management_association_id() -> None
+```
+
 ##### `reset_repo_id` <a name="reset_repo_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.resetRepoId"></a>
 
 ```python
@@ -5920,10 +8308,12 @@ def reset_repo_name() -> None
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.ownerInput">owner_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.ownerTypeInput">owner_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.releaseManagementAssociationIdInput">release_management_association_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoIdInput">repo_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoNameInput">repo_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.owner">owner</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.ownerType">owner_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.releaseManagementAssociationId">release_management_association_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoId">repo_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoName">repo_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHub">DevopsagentAssociationConfigurationGitHub</a></code> | *No description.* |
@@ -5974,6 +8364,16 @@ owner_type_input: str
 
 ---
 
+##### `release_management_association_id_input`<sup>Optional</sup> <a name="release_management_association_id_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.releaseManagementAssociationIdInput"></a>
+
+```python
+release_management_association_id_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `repo_id_input`<sup>Optional</sup> <a name="repo_id_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.repoIdInput"></a>
 
 ```python
@@ -6008,6 +8408,16 @@ owner: str
 
 ```python
 owner_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `release_management_association_id`<sup>Required</sup> <a name="release_management_association_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitHubOutputReference.property.releaseManagementAssociationId"></a>
+
+```python
+release_management_association_id: str
 ```
 
 - *Type:* str
@@ -6102,6 +8512,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetInstanceIdentifier">reset_instance_identifier</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetProjectId">reset_project_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetProjectPath">reset_project_path</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetReleaseManagementAssociationId">reset_release_management_association_id</a></code> | *No description.* |
 
 ---
 
@@ -6301,6 +8712,12 @@ def reset_project_id() -> None
 def reset_project_path() -> None
 ```
 
+##### `reset_release_management_association_id` <a name="reset_release_management_association_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.resetReleaseManagementAssociationId"></a>
+
+```python
+def reset_release_management_association_id() -> None
+```
+
 
 #### Properties <a name="Properties" id="Properties"></a>
 
@@ -6312,10 +8729,12 @@ def reset_project_path() -> None
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.instanceIdentifierInput">instance_identifier_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.projectIdInput">project_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.projectPathInput">project_path_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.releaseManagementAssociationIdInput">release_management_association_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.enableWebhookUpdates">enable_webhook_updates</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.instanceIdentifier">instance_identifier</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.projectId">project_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.projectPath">project_path</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.releaseManagementAssociationId">release_management_association_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLab">DevopsagentAssociationConfigurationGitLab</a></code> | *No description.* |
 
 ---
@@ -6384,6 +8803,16 @@ project_path_input: str
 
 ---
 
+##### `release_management_association_id_input`<sup>Optional</sup> <a name="release_management_association_id_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.releaseManagementAssociationIdInput"></a>
+
+```python
+release_management_association_id_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `enable_webhook_updates`<sup>Required</sup> <a name="enable_webhook_updates" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.enableWebhookUpdates"></a>
 
 ```python
@@ -6418,6 +8847,16 @@ project_id: str
 
 ```python
 project_path: str
+```
+
+- *Type:* str
+
+---
+
+##### `release_management_association_id`<sup>Required</sup> <a name="release_management_association_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationGitLabOutputReference.property.releaseManagementAssociationId"></a>
+
+```python
+release_management_association_id: str
 ```
 
 - *Type:* str
@@ -8754,6 +11193,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putMcpServerSigV4">put_mcp_server_sig_v4</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putMcpServerSplunk">put_mcp_server_splunk</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putPagerDuty">put_pager_duty</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putReleaseManagement">put_release_management</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putServiceNow">put_service_now</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putSlack">put_slack</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putSourceAws">put_source_aws</a></code> | *No description.* |
@@ -8770,6 +11210,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetMcpServerSigV4">reset_mcp_server_sig_v4</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetMcpServerSplunk">reset_mcp_server_splunk</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetPagerDuty">reset_pager_duty</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetReleaseManagement">reset_release_management</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetServiceNow">reset_service_now</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetSlack">reset_slack</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetSourceAws">reset_source_aws</a></code> | *No description.* |
@@ -8967,7 +11408,7 @@ def put_aws(
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -8977,7 +11418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Account Type 'monitor' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -8989,7 +11430,7 @@ The IAM role that AWS DevOps Agent assumes to perform elevated directed actions 
 
 Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -8999,7 +11440,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -9009,7 +11450,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -9019,7 +11460,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -9037,7 +11478,7 @@ def put_azure(
 
 Azure subscription ID corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
 
 ---
 
@@ -9057,7 +11498,7 @@ def put_dynatrace(
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9067,7 +11508,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Dynatrace environment id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
 
 ---
 
@@ -9077,7 +11518,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of Dynatrace resources to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -9095,7 +11536,7 @@ def put_event_channel(
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9105,6 +11546,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 def put_git_hub(
   owner: str = None,
   owner_type: str = None,
+  release_management_association_id: str = None,
   repo_id: str = None,
   repo_name: str = None
 ) -> None
@@ -9116,7 +11558,7 @@ def put_git_hub(
 
 Repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
 
 ---
 
@@ -9126,7 +11568,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Type of repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+
+---
+
+###### `release_management_association_id`<sup>Optional</sup> <a name="release_management_association_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putGitHub.parameter.releaseManagementAssociationId"></a>
+
+- *Type:* str
+
+The ID of the release management association that this repository uses for automated testing.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management_association_id DevopsagentAssociation#release_management_association_id}
 
 ---
 
@@ -9136,7 +11588,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Associated Github repo ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
 
 ---
 
@@ -9146,7 +11598,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Associated Github repo name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
 
 ---
 
@@ -9157,7 +11609,8 @@ def put_git_lab(
   enable_webhook_updates: bool | IResolvable = None,
   instance_identifier: str = None,
   project_id: str = None,
-  project_path: str = None
+  project_path: str = None,
+  release_management_association_id: str = None
 ) -> None
 ```
 
@@ -9167,7 +11620,7 @@ def put_git_lab(
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9177,7 +11630,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitLab instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
 
 ---
 
@@ -9187,7 +11640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitLab numeric project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
 
 ---
 
@@ -9197,7 +11650,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Full GitLab project path (e.g., namespace/project-name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+
+---
+
+###### `release_management_association_id`<sup>Optional</sup> <a name="release_management_association_id" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putGitLab.parameter.releaseManagementAssociationId"></a>
+
+- *Type:* str
+
+The ID of the release management association that this project uses for automated testing.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#release_management_association_id DevopsagentAssociation#release_management_association_id}
 
 ---
 
@@ -9219,7 +11682,7 @@ def put_mcp_server(
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -9229,7 +11692,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9239,7 +11702,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -9249,7 +11712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -9259,7 +11722,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of MCP tools that can be used with the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -9281,7 +11744,7 @@ def put_mcp_server_datadog(
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -9293,7 +11756,7 @@ The mutative MCP tools enabled for this integration, by tool name.
 
 Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -9303,7 +11766,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9313,7 +11776,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -9323,7 +11786,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -9346,7 +11809,7 @@ The mutative MCP tools enabled for this integration, by tool name.
 
 Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools. Independent of Tools, which selects the toolsets available to the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -9356,7 +11819,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9366,7 +11829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -9376,7 +11839,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of tool categories to enable for the Grafana MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -9395,7 +11858,7 @@ def put_mcp_server_new_relic(
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -9405,7 +11868,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL (e.g., https://mcp.newrelic.com/mcp/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -9423,7 +11886,7 @@ def put_mcp_server_sig_v4(
 
 List of MCP tools available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -9444,7 +11907,7 @@ def put_mcp_server_splunk(
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -9454,7 +11917,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9464,7 +11927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -9474,7 +11937,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -9494,7 +11957,7 @@ def put_pager_duty(
 
 Email to be used in PagerDuty API header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
 
 ---
 
@@ -9504,7 +11967,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9514,7 +11977,36 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of PagerDuty service IDs available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+
+---
+
+##### `put_release_management` <a name="put_release_management" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putReleaseManagement"></a>
+
+```python
+def put_release_management(
+  name: str = None,
+  network_access: DevopsagentAssociationConfigurationReleaseManagementNetworkAccess = None
+) -> None
+```
+
+###### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putReleaseManagement.parameter.name"></a>
+
+- *Type:* str
+
+The name for this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+
+---
+
+###### `network_access`<sup>Optional</sup> <a name="network_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.putReleaseManagement.parameter.networkAccess"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a>
+
+Specifies how AWS DevOps Agent reaches your application using this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#network_access DevopsagentAssociation#network_access}
 
 ---
 
@@ -9533,7 +12025,7 @@ def put_service_now(
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -9543,7 +12035,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ServiceNow instance ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
 
 ---
 
@@ -9566,7 +12058,7 @@ Optional bidirectional communication configuration.
 
 Supply this configuration and set Enabled to true so you can interact with the agent directly from Slack
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
 
 ---
 
@@ -9576,7 +12068,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Transmission targets for agent notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
 
 ---
 
@@ -9586,7 +12078,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Associated Slack workspace ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
 
 ---
 
@@ -9596,7 +12088,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Associated Slack workspace name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
 
 ---
 
@@ -9619,7 +12111,7 @@ def put_source_aws(
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -9629,7 +12121,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Account Type 'source' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 
 ---
 
@@ -9641,7 +12133,7 @@ The IAM role that AWS DevOps Agent assumes to perform elevated directed actions 
 
 Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -9651,7 +12143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -9661,7 +12153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -9671,7 +12163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -9753,6 +12245,12 @@ def reset_mcp_server_splunk() -> None
 def reset_pager_duty() -> None
 ```
 
+##### `reset_release_management` <a name="reset_release_management" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetReleaseManagement"></a>
+
+```python
+def reset_release_management() -> None
+```
+
 ##### `reset_service_now` <a name="reset_service_now" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.resetServiceNow"></a>
 
 ```python
@@ -9791,6 +12289,7 @@ def reset_source_aws() -> None
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.mcpServerSigV4">mcp_server_sig_v4</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4OutputReference">DevopsagentAssociationConfigurationMcpServerSigV4OutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.mcpServerSplunk">mcp_server_splunk</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunkOutputReference">DevopsagentAssociationConfigurationMcpServerSplunkOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.pagerDuty">pager_duty</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDutyOutputReference">DevopsagentAssociationConfigurationPagerDutyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.releaseManagement">release_management</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference">DevopsagentAssociationConfigurationReleaseManagementOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.serviceNow">service_now</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNowOutputReference">DevopsagentAssociationConfigurationServiceNowOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.slack">slack</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference">DevopsagentAssociationConfigurationSlackOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.sourceAws">source_aws</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference">DevopsagentAssociationConfigurationSourceAwsOutputReference</a></code> | *No description.* |
@@ -9807,6 +12306,7 @@ def reset_source_aws() -> None
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.mcpServerSigV4Input">mcp_server_sig_v4_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSigV4">DevopsagentAssociationConfigurationMcpServerSigV4</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.mcpServerSplunkInput">mcp_server_splunk_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerSplunk">DevopsagentAssociationConfigurationMcpServerSplunk</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.pagerDutyInput">pager_duty_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty">DevopsagentAssociationConfigurationPagerDuty</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.releaseManagementInput">release_management_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.serviceNowInput">service_now_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationServiceNow">DevopsagentAssociationConfigurationServiceNow</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.slackInput">slack_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack">DevopsagentAssociationConfigurationSlack</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.sourceAwsInput">source_aws_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws">DevopsagentAssociationConfigurationSourceAws</a></code> | *No description.* |
@@ -9968,6 +12468,16 @@ pager_duty: DevopsagentAssociationConfigurationPagerDutyOutputReference
 
 ---
 
+##### `release_management`<sup>Required</sup> <a name="release_management" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.releaseManagement"></a>
+
+```python
+release_management: DevopsagentAssociationConfigurationReleaseManagementOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference">DevopsagentAssociationConfigurationReleaseManagementOutputReference</a>
+
+---
+
 ##### `service_now`<sup>Required</sup> <a name="service_now" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.serviceNow"></a>
 
 ```python
@@ -10125,6 +12635,16 @@ pager_duty_input: IResolvable | DevopsagentAssociationConfigurationPagerDuty
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty">DevopsagentAssociationConfigurationPagerDuty</a>
+
+---
+
+##### `release_management_input`<sup>Optional</sup> <a name="release_management_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationOutputReference.property.releaseManagementInput"></a>
+
+```python
+release_management_input: IResolvable | DevopsagentAssociationConfigurationReleaseManagement
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a>
 
 ---
 
@@ -10526,6 +13046,1022 @@ internal_value: IResolvable | DevopsagentAssociationConfigurationPagerDuty
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationPagerDuty">DevopsagentAssociationConfigurationPagerDuty</a>
+
+---
+
+
+### DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference <a name="DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.putPrivateAccess">put_private_access</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resetPrivateAccess">reset_private_access</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_private_access` <a name="put_private_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.putPrivateAccess"></a>
+
+```python
+def put_private_access(
+  private_connection_name: str = None,
+  runtime_role_arn: str = None
+) -> None
+```
+
+###### `private_connection_name`<sup>Optional</sup> <a name="private_connection_name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.putPrivateAccess.parameter.privateConnectionName"></a>
+
+- *Type:* str
+
+Name of the private connection that supplies the VPC configuration for this release management environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#private_connection_name DevopsagentAssociation#private_connection_name}
+
+---
+
+###### `runtime_role_arn`<sup>Optional</sup> <a name="runtime_role_arn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.putPrivateAccess.parameter.runtimeRoleArn"></a>
+
+- *Type:* str
+
+Role ARN that AWS DevOps Agent assumes at runtime to connect to your VPC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#runtime_role_arn DevopsagentAssociation#runtime_role_arn}
+
+---
+
+##### `reset_private_access` <a name="reset_private_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.resetPrivateAccess"></a>
+
+```python
+def reset_private_access() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.privateAccess">private_access</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.privateAccessInput">private_access_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `private_access`<sup>Required</sup> <a name="private_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.privateAccess"></a>
+
+```python
+private_access: DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference</a>
+
+---
+
+##### `private_access_input`<sup>Optional</sup> <a name="private_access_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.privateAccessInput"></a>
+
+```python
+private_access_input: IResolvable | DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentAssociationConfigurationReleaseManagementNetworkAccess
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a>
+
+---
+
+
+### DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference <a name="DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resetPrivateConnectionName">reset_private_connection_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resetRuntimeRoleArn">reset_runtime_role_arn</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_private_connection_name` <a name="reset_private_connection_name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resetPrivateConnectionName"></a>
+
+```python
+def reset_private_connection_name() -> None
+```
+
+##### `reset_runtime_role_arn` <a name="reset_runtime_role_arn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.resetRuntimeRoleArn"></a>
+
+```python
+def reset_runtime_role_arn() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.privateConnectionNameInput">private_connection_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.runtimeRoleArnInput">runtime_role_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.privateConnectionName">private_connection_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.runtimeRoleArn">runtime_role_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `private_connection_name_input`<sup>Optional</sup> <a name="private_connection_name_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.privateConnectionNameInput"></a>
+
+```python
+private_connection_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `runtime_role_arn_input`<sup>Optional</sup> <a name="runtime_role_arn_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.runtimeRoleArnInput"></a>
+
+```python
+runtime_role_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `private_connection_name`<sup>Required</sup> <a name="private_connection_name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.privateConnectionName"></a>
+
+```python
+private_connection_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `runtime_role_arn`<sup>Required</sup> <a name="runtime_role_arn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.runtimeRoleArn"></a>
+
+```python
+runtime_role_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccessOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a>
+
+---
+
+
+### DevopsagentAssociationConfigurationReleaseManagementOutputReference <a name="DevopsagentAssociationConfigurationReleaseManagementOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_association
+
+devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.putNetworkAccess">put_network_access</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resetName">reset_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resetNetworkAccess">reset_network_access</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_network_access` <a name="put_network_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.putNetworkAccess"></a>
+
+```python
+def put_network_access(
+  private_access: DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess = None
+) -> None
+```
+
+###### `private_access`<sup>Optional</sup> <a name="private_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.putNetworkAccess.parameter.privateAccess"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessPrivateAccess</a>
+
+Private network access to your application inside a VPC, reached through a private connection.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#private_access DevopsagentAssociation#private_access}
+
+---
+
+##### `reset_name` <a name="reset_name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resetName"></a>
+
+```python
+def reset_name() -> None
+```
+
+##### `reset_network_access` <a name="reset_network_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.resetNetworkAccess"></a>
+
+```python
+def reset_network_access() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.networkAccess">network_access</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.networkAccessInput">network_access_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `network_access`<sup>Required</sup> <a name="network_access" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.networkAccess"></a>
+
+```python
+network_access: DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference">DevopsagentAssociationConfigurationReleaseManagementNetworkAccessOutputReference</a>
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `network_access_input`<sup>Optional</sup> <a name="network_access_input" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.networkAccessInput"></a>
+
+```python
+network_access_input: IResolvable | DevopsagentAssociationConfigurationReleaseManagementNetworkAccess
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementNetworkAccess">DevopsagentAssociationConfigurationReleaseManagementNetworkAccess</a>
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagementOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentAssociationConfigurationReleaseManagement
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationReleaseManagement">DevopsagentAssociationConfigurationReleaseManagement</a>
 
 ---
 
@@ -11445,7 +14981,7 @@ Whether bidirectional communication is enabled for this association.
 
 When set to true, you can mention the agent in a configured Slack channel and it responds in that channel. When omitted or set to false, the agent ignores mentions and only sends notifications
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
 
 ---
 
@@ -11455,7 +14991,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 IAM role ARN that AWS DevOps Agent assumes to exchange messages with your Slack workspace on behalf of this association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
 
 ---
 
@@ -11473,7 +15009,7 @@ def put_transmission_target(
 
 Destination for IncidentResponse agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
 
 ---
 
@@ -12212,7 +15748,7 @@ def put_incident_response_target(
 
 Slack channel ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
 
 ---
 
@@ -12222,7 +15758,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Slack channel name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
 
 ---
 

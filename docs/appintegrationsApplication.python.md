@@ -4,7 +4,7 @@
 
 ### AppintegrationsApplication <a name="AppintegrationsApplication" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application awscc_appintegrations_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application awscc_appintegrations_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer"></a>
 
@@ -26,6 +26,7 @@ appintegrationsApplication.AppintegrationsApplication(
   namespace: str,
   application_config: AppintegrationsApplicationApplicationConfig = None,
   application_type: str = None,
+  auth_config: AppintegrationsApplicationAuthConfig = None,
   description: str = None,
   iframe_config: AppintegrationsApplicationIframeConfig = None,
   initialization_timeout: typing.Union[int, float] = None,
@@ -51,6 +52,7 @@ appintegrationsApplication.AppintegrationsApplication(
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer.parameter.namespace">namespace</a></code> | <code>str</code> | The namespace of the application. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer.parameter.applicationConfig">application_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfig">AppintegrationsApplicationApplicationConfig</a></code> | The application configuration. Cannot be used when IsService is true. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer.parameter.applicationType">application_type</a></code> | <code>str</code> | The type of application. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer.parameter.authConfig">auth_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig">AppintegrationsApplicationAuthConfig</a></code> | The authentication configuration. Required when ApplicationType is A2A_SERVER. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer.parameter.description">description</a></code> | <code>str</code> | The application description. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer.parameter.iframeConfig">iframe_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig">AppintegrationsApplicationIframeConfig</a></code> | The iframe configuration. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer.parameter.initializationTimeout">initialization_timeout</a></code> | <code>typing.Union[int, float]</code> | The initialization timeout in milliseconds. Required when IsService is true. |
@@ -126,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 Application source config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
 
 ---
 
@@ -136,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The namespace of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
 
 ---
 
@@ -156,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The application configuration. Cannot be used when IsService is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
 
 ---
 
@@ -166,7 +168,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
+
+---
+
+##### `auth_config`<sup>Optional</sup> <a name="auth_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.Initializer.parameter.authConfig"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig">AppintegrationsApplicationAuthConfig</a>
+
+The authentication configuration. Required when ApplicationType is A2A_SERVER.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#auth_config AppintegrationsApplication#auth_config}
 
 ---
 
@@ -176,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The application description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
 
 ---
 
@@ -186,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The iframe configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
 
 ---
 
@@ -196,7 +208,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The initialization timeout in milliseconds. Required when IsService is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
 
 ---
 
@@ -206,7 +218,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates if the application is a service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
 
 ---
 
@@ -216,7 +228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration of events or requests that the application has access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
 
 ---
 
@@ -226,7 +238,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags (keys and values) associated with the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
 
 ---
 
@@ -260,10 +272,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putApplicationConfig">put_application_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putApplicationSourceConfig">put_application_source_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putAuthConfig">put_auth_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putIframeConfig">put_iframe_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.resetApplicationConfig">reset_application_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.resetApplicationType">reset_application_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.resetAuthConfig">reset_auth_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.resetIframeConfig">reset_iframe_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.resetInitializationTimeout">reset_initialization_timeout</a></code> | *No description.* |
@@ -633,7 +647,7 @@ def put_application_config(
 
 - *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling">AppintegrationsApplicationApplicationConfigContactHandling</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}.
 
 ---
 
@@ -641,15 +655,49 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def put_application_source_config(
-  external_url_config: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig
+  external_url_config: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig = None
 ) -> None
 ```
 
-###### `external_url_config`<sup>Required</sup> <a name="external_url_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putApplicationSourceConfig.parameter.externalUrlConfig"></a>
+###### `external_url_config`<sup>Optional</sup> <a name="external_url_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putApplicationSourceConfig.parameter.externalUrlConfig"></a>
 
 - *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig">AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}.
+
+---
+
+##### `put_auth_config` <a name="put_auth_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putAuthConfig"></a>
+
+```python
+def put_auth_config(
+  audience_override: str = None,
+  auth_type: str = None,
+  credential_provider_identifier: str = None
+) -> None
+```
+
+###### `audience_override`<sup>Optional</sup> <a name="audience_override" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putAuthConfig.parameter.audienceOverride"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#audience_override AppintegrationsApplication#audience_override}.
+
+---
+
+###### `auth_type`<sup>Optional</sup> <a name="auth_type" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putAuthConfig.parameter.authType"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#auth_type AppintegrationsApplication#auth_type}.
+
+---
+
+###### `credential_provider_identifier`<sup>Optional</sup> <a name="credential_provider_identifier" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.putAuthConfig.parameter.credentialProviderIdentifier"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#credential_provider_identifier AppintegrationsApplication#credential_provider_identifier}.
 
 ---
 
@@ -666,7 +714,7 @@ def put_iframe_config(
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}.
 
 ---
 
@@ -674,7 +722,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}.
 
 ---
 
@@ -702,6 +750,12 @@ def reset_application_config() -> None
 
 ```python
 def reset_application_type() -> None
+```
+
+##### `reset_auth_config` <a name="reset_auth_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.resetAuthConfig"></a>
+
+```python
+def reset_auth_config() -> None
 ```
 
 ##### `reset_description` <a name="reset_description" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.resetDescription"></a>
@@ -854,7 +908,7 @@ The construct id used in the generated config for the AppintegrationsApplication
 
 The id of the existing AppintegrationsApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -888,12 +942,16 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.applicationConfig">application_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigOutputReference">AppintegrationsApplicationApplicationConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.applicationId">application_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.applicationSourceConfig">application_source_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigOutputReference">AppintegrationsApplicationApplicationSourceConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.authConfig">auth_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference">AppintegrationsApplicationAuthConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.iframeConfig">iframe_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfigOutputReference">AppintegrationsApplicationIframeConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.lastModifiedRegion">last_modified_region</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.lastModifiedTime">last_modified_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationTagsList">AppintegrationsApplicationTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.applicationConfigInput">application_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfig">AppintegrationsApplicationApplicationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.applicationSourceConfigInput">application_source_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig">AppintegrationsApplicationApplicationSourceConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.applicationTypeInput">application_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.authConfigInput">auth_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig">AppintegrationsApplicationAuthConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.iframeConfigInput">iframe_config_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig">AppintegrationsApplicationIframeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.initializationTimeoutInput">initialization_timeout_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -1094,6 +1152,16 @@ application_source_config: AppintegrationsApplicationApplicationSourceConfigOutp
 
 ---
 
+##### `auth_config`<sup>Required</sup> <a name="auth_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.authConfig"></a>
+
+```python
+auth_config: AppintegrationsApplicationAuthConfigOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference">AppintegrationsApplicationAuthConfigOutputReference</a>
+
+---
+
 ##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.id"></a>
 
 ```python
@@ -1111,6 +1179,26 @@ iframe_config: AppintegrationsApplicationIframeConfigOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfigOutputReference">AppintegrationsApplicationIframeConfigOutputReference</a>
+
+---
+
+##### `last_modified_region`<sup>Required</sup> <a name="last_modified_region" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.lastModifiedRegion"></a>
+
+```python
+last_modified_region: str
+```
+
+- *Type:* str
+
+---
+
+##### `last_modified_time`<sup>Required</sup> <a name="last_modified_time" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.lastModifiedTime"></a>
+
+```python
+last_modified_time: str
+```
+
+- *Type:* str
 
 ---
 
@@ -1151,6 +1239,16 @@ application_type_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `auth_config_input`<sup>Optional</sup> <a name="auth_config_input" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplication.property.authConfigInput"></a>
+
+```python
+auth_config_input: IResolvable | AppintegrationsApplicationAuthConfig
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig">AppintegrationsApplicationAuthConfig</a>
 
 ---
 
@@ -1340,7 +1438,7 @@ appintegrationsApplication.AppintegrationsApplicationApplicationConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfig.property.contactHandling">contact_handling</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling">AppintegrationsApplicationApplicationConfigContactHandling</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfig.property.contactHandling">contact_handling</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling">AppintegrationsApplicationApplicationConfigContactHandling</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}. |
 
 ---
 
@@ -1352,7 +1450,7 @@ contact_handling: AppintegrationsApplicationApplicationConfigContactHandling
 
 - *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling">AppintegrationsApplicationApplicationConfigContactHandling</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#contact_handling AppintegrationsApplication#contact_handling}.
 
 ---
 
@@ -1372,7 +1470,7 @@ appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHan
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling.property.scope">scope</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfigContactHandling.property.scope">scope</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}. |
 
 ---
 
@@ -1384,7 +1482,7 @@ scope: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}.
 
 ---
 
@@ -1396,7 +1494,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_awscc import appintegrations_application
 
 appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig(
-  external_url_config: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig
+  external_url_config: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig = None
 )
 ```
 
@@ -1404,11 +1502,11 @@ appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig.property.externalUrlConfig">external_url_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig">AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig.property.externalUrlConfig">external_url_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig">AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}. |
 
 ---
 
-##### `external_url_config`<sup>Required</sup> <a name="external_url_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig.property.externalUrlConfig"></a>
+##### `external_url_config`<sup>Optional</sup> <a name="external_url_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig.property.externalUrlConfig"></a>
 
 ```python
 external_url_config: AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig
@@ -1416,7 +1514,7 @@ external_url_config: AppintegrationsApplicationApplicationSourceConfigExternalUr
 
 - *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig">AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#external_url_config AppintegrationsApplication#external_url_config}.
 
 ---
 
@@ -1428,7 +1526,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_awscc import appintegrations_application
 
 appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig(
-  access_url: str,
+  access_url: str = None,
   approved_origins: typing.List[str] = None
 )
 ```
@@ -1437,12 +1535,12 @@ appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExte
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.accessUrl">access_url</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}. |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.approvedOrigins">approved_origins</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.accessUrl">access_url</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.approvedOrigins">approved_origins</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}. |
 
 ---
 
-##### `access_url`<sup>Required</sup> <a name="access_url" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.accessUrl"></a>
+##### `access_url`<sup>Optional</sup> <a name="access_url" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfig.property.accessUrl"></a>
 
 ```python
 access_url: str
@@ -1450,7 +1548,7 @@ access_url: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}.
 
 ---
 
@@ -1462,7 +1560,67 @@ approved_origins: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}.
+
+---
+
+### AppintegrationsApplicationAuthConfig <a name="AppintegrationsApplicationAuthConfig" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import appintegrations_application
+
+appintegrationsApplication.AppintegrationsApplicationAuthConfig(
+  audience_override: str = None,
+  auth_type: str = None,
+  credential_provider_identifier: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig.property.audienceOverride">audience_override</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#audience_override AppintegrationsApplication#audience_override}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig.property.authType">auth_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#auth_type AppintegrationsApplication#auth_type}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig.property.credentialProviderIdentifier">credential_provider_identifier</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#credential_provider_identifier AppintegrationsApplication#credential_provider_identifier}. |
+
+---
+
+##### `audience_override`<sup>Optional</sup> <a name="audience_override" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig.property.audienceOverride"></a>
+
+```python
+audience_override: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#audience_override AppintegrationsApplication#audience_override}.
+
+---
+
+##### `auth_type`<sup>Optional</sup> <a name="auth_type" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig.property.authType"></a>
+
+```python
+auth_type: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#auth_type AppintegrationsApplication#auth_type}.
+
+---
+
+##### `credential_provider_identifier`<sup>Optional</sup> <a name="credential_provider_identifier" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig.property.credentialProviderIdentifier"></a>
+
+```python
+credential_provider_identifier: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#credential_provider_identifier AppintegrationsApplication#credential_provider_identifier}.
 
 ---
 
@@ -1486,6 +1644,7 @@ appintegrationsApplication.AppintegrationsApplicationConfig(
   namespace: str,
   application_config: AppintegrationsApplicationApplicationConfig = None,
   application_type: str = None,
+  auth_config: AppintegrationsApplicationAuthConfig = None,
   description: str = None,
   iframe_config: AppintegrationsApplicationIframeConfig = None,
   initialization_timeout: typing.Union[int, float] = None,
@@ -1511,6 +1670,7 @@ appintegrationsApplication.AppintegrationsApplicationConfig(
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationConfig.property.namespace">namespace</a></code> | <code>str</code> | The namespace of the application. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationConfig.property.applicationConfig">application_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationConfig">AppintegrationsApplicationApplicationConfig</a></code> | The application configuration. Cannot be used when IsService is true. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationConfig.property.applicationType">application_type</a></code> | <code>str</code> | The type of application. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationConfig.property.authConfig">auth_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig">AppintegrationsApplicationAuthConfig</a></code> | The authentication configuration. Required when ApplicationType is A2A_SERVER. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationConfig.property.description">description</a></code> | <code>str</code> | The application description. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationConfig.property.iframeConfig">iframe_config</a></code> | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig">AppintegrationsApplicationIframeConfig</a></code> | The iframe configuration. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationConfig.property.initializationTimeout">initialization_timeout</a></code> | <code>typing.Union[int, float]</code> | The initialization timeout in milliseconds. Required when IsService is true. |
@@ -1600,7 +1760,7 @@ application_source_config: AppintegrationsApplicationApplicationSourceConfig
 
 Application source config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_source_config AppintegrationsApplication#application_source_config}
 
 ---
 
@@ -1614,7 +1774,7 @@ name: str
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#name AppintegrationsApplication#name}
 
 ---
 
@@ -1628,7 +1788,7 @@ namespace: str
 
 The namespace of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#namespace AppintegrationsApplication#namespace}
 
 ---
 
@@ -1642,7 +1802,7 @@ application_config: AppintegrationsApplicationApplicationConfig
 
 The application configuration. Cannot be used when IsService is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_config AppintegrationsApplication#application_config}
 
 ---
 
@@ -1656,7 +1816,21 @@ application_type: str
 
 The type of application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#application_type AppintegrationsApplication#application_type}
+
+---
+
+##### `auth_config`<sup>Optional</sup> <a name="auth_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationConfig.property.authConfig"></a>
+
+```python
+auth_config: AppintegrationsApplicationAuthConfig
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig">AppintegrationsApplicationAuthConfig</a>
+
+The authentication configuration. Required when ApplicationType is A2A_SERVER.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#auth_config AppintegrationsApplication#auth_config}
 
 ---
 
@@ -1670,7 +1844,7 @@ description: str
 
 The application description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#description AppintegrationsApplication#description}
 
 ---
 
@@ -1684,7 +1858,7 @@ iframe_config: AppintegrationsApplicationIframeConfig
 
 The iframe configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#iframe_config AppintegrationsApplication#iframe_config}
 
 ---
 
@@ -1698,7 +1872,7 @@ initialization_timeout: typing.Union[int, float]
 
 The initialization timeout in milliseconds. Required when IsService is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#initialization_timeout AppintegrationsApplication#initialization_timeout}
 
 ---
 
@@ -1712,7 +1886,7 @@ is_service: bool | IResolvable
 
 Indicates if the application is a service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#is_service AppintegrationsApplication#is_service}
 
 ---
 
@@ -1726,7 +1900,7 @@ permissions: typing.List[str]
 
 The configuration of events or requests that the application has access to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#permissions AppintegrationsApplication#permissions}
 
 ---
 
@@ -1740,7 +1914,7 @@ tags: IResolvable | typing.List[AppintegrationsApplicationTags]
 
 The tags (keys and values) associated with the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#tags AppintegrationsApplication#tags}
 
 ---
 
@@ -1761,8 +1935,8 @@ appintegrationsApplication.AppintegrationsApplicationIframeConfig(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig.property.allow">allow</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}. |
-| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig.property.sandbox">sandbox</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig.property.allow">allow</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationIframeConfig.property.sandbox">sandbox</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}. |
 
 ---
 
@@ -1774,7 +1948,7 @@ allow: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#allow AppintegrationsApplication#allow}.
 
 ---
 
@@ -1786,7 +1960,7 @@ sandbox: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#sandbox AppintegrationsApplication#sandbox}.
 
 ---
 
@@ -1822,7 +1996,7 @@ key: str
 
 A key to identify the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#key AppintegrationsApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#key AppintegrationsApplication#key}
 
 ---
 
@@ -1836,7 +2010,7 @@ value: str
 
 Corresponding tag value for the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#value AppintegrationsApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#value AppintegrationsApplication#value}
 
 ---
 
@@ -2387,7 +2561,7 @@ def put_contact_handling(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}.
 
 ---
 
@@ -2518,6 +2692,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigOutputReference.resetAccessUrl">reset_access_url</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigOutputReference.resetApprovedOrigins">reset_approved_origins</a></code> | *No description.* |
 
 ---
@@ -2694,6 +2869,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_access_url` <a name="reset_access_url" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigOutputReference.resetAccessUrl"></a>
+
+```python
+def reset_access_url() -> None
+```
+
 ##### `reset_approved_origins` <a name="reset_approved_origins" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigExternalUrlConfigOutputReference.resetApprovedOrigins"></a>
 
 ```python
@@ -2844,6 +3025,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigOutputReference.putExternalUrlConfig">put_external_url_config</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigOutputReference.resetExternalUrlConfig">reset_external_url_config</a></code> | *No description.* |
 
 ---
 
@@ -3023,16 +3205,16 @@ Returns a reversible string representation.
 
 ```python
 def put_external_url_config(
-  access_url: str,
+  access_url: str = None,
   approved_origins: typing.List[str] = None
 ) -> None
 ```
 
-###### `access_url`<sup>Required</sup> <a name="access_url" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigOutputReference.putExternalUrlConfig.parameter.accessUrl"></a>
+###### `access_url`<sup>Optional</sup> <a name="access_url" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigOutputReference.putExternalUrlConfig.parameter.accessUrl"></a>
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#access_url AppintegrationsApplication#access_url}.
 
 ---
 
@@ -3040,9 +3222,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appintegrations_application#approved_origins AppintegrationsApplication#approved_origins}.
 
 ---
+
+##### `reset_external_url_config` <a name="reset_external_url_config" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfigOutputReference.resetExternalUrlConfig"></a>
+
+```python
+def reset_external_url_config() -> None
+```
 
 
 #### Properties <a name="Properties" id="Properties"></a>
@@ -3108,6 +3296,367 @@ internal_value: IResolvable | AppintegrationsApplicationApplicationSourceConfig
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationApplicationSourceConfig">AppintegrationsApplicationApplicationSourceConfig</a>
+
+---
+
+
+### AppintegrationsApplicationAuthConfigOutputReference <a name="AppintegrationsApplicationAuthConfigOutputReference" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import appintegrations_application
+
+appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resetAudienceOverride">reset_audience_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resetAuthType">reset_auth_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resetCredentialProviderIdentifier">reset_credential_provider_identifier</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_audience_override` <a name="reset_audience_override" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resetAudienceOverride"></a>
+
+```python
+def reset_audience_override() -> None
+```
+
+##### `reset_auth_type` <a name="reset_auth_type" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resetAuthType"></a>
+
+```python
+def reset_auth_type() -> None
+```
+
+##### `reset_credential_provider_identifier` <a name="reset_credential_provider_identifier" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.resetCredentialProviderIdentifier"></a>
+
+```python
+def reset_credential_provider_identifier() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.audienceOverrideInput">audience_override_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.authTypeInput">auth_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.credentialProviderIdentifierInput">credential_provider_identifier_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.audienceOverride">audience_override</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.authType">auth_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.credentialProviderIdentifier">credential_provider_identifier</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig">AppintegrationsApplicationAuthConfig</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `audience_override_input`<sup>Optional</sup> <a name="audience_override_input" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.audienceOverrideInput"></a>
+
+```python
+audience_override_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `auth_type_input`<sup>Optional</sup> <a name="auth_type_input" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.authTypeInput"></a>
+
+```python
+auth_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `credential_provider_identifier_input`<sup>Optional</sup> <a name="credential_provider_identifier_input" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.credentialProviderIdentifierInput"></a>
+
+```python
+credential_provider_identifier_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `audience_override`<sup>Required</sup> <a name="audience_override" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.audienceOverride"></a>
+
+```python
+audience_override: str
+```
+
+- *Type:* str
+
+---
+
+##### `auth_type`<sup>Required</sup> <a name="auth_type" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.authType"></a>
+
+```python
+auth_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `credential_provider_identifier`<sup>Required</sup> <a name="credential_provider_identifier" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.credentialProviderIdentifier"></a>
+
+```python
+credential_provider_identifier: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfigOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | AppintegrationsApplicationAuthConfig
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.appintegrationsApplication.AppintegrationsApplicationAuthConfig">AppintegrationsApplicationAuthConfig</a>
 
 ---
 

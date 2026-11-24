@@ -4,7 +4,7 @@
 
 ### CloudfrontConnectionGroup <a name="CloudfrontConnectionGroup" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group awscc_cloudfront_connection_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.Initializer"></a>
 
@@ -75,10 +75,12 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.putTags">PutTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.putViewerFallback">PutViewerFallback</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.resetAnycastIpListId">ResetAnycastIpListId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.resetEnabled">ResetEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.resetIpv6Enabled">ResetIpv6Enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.resetTags">ResetTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.resetViewerFallback">ResetViewerFallback</a></code> | *No description.* |
 
 ---
 
@@ -403,6 +405,18 @@ func PutTags(value interface{})
 
 ---
 
+##### `PutViewerFallback` <a name="PutViewerFallback" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.putViewerFallback"></a>
+
+```go
+func PutViewerFallback(value CloudfrontConnectionGroupViewerFallback)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.putViewerFallback.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallback">CloudfrontConnectionGroupViewerFallback</a>
+
+---
+
 ##### `ResetAnycastIpListId` <a name="ResetAnycastIpListId" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.resetAnycastIpListId"></a>
 
 ```go
@@ -425,6 +439,12 @@ func ResetIpv6Enabled()
 
 ```go
 func ResetTags()
+```
+
+##### `ResetViewerFallback` <a name="ResetViewerFallback" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.resetViewerFallback"></a>
+
+```go
+func ResetViewerFallback()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -530,7 +550,7 @@ The construct id used in the generated config for the CloudfrontConnectionGroup 
 
 The id of the existing CloudfrontConnectionGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -570,11 +590,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.routingEndpoint">RoutingEndpoint</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.status">Status</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupTagsList">CloudfrontConnectionGroupTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.viewerFallback">ViewerFallback</a></code> | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference">CloudfrontConnectionGroupViewerFallbackOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.anycastIpListIdInput">AnycastIpListIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.enabledInput">EnabledInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.ipv6EnabledInput">Ipv6EnabledInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.tagsInput">TagsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.viewerFallbackInput">ViewerFallbackInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.anycastIpListId">AnycastIpListId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.enabled">Enabled</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.ipv6Enabled">Ipv6Enabled</a></code> | <code>interface{}</code> | *No description.* |
@@ -824,6 +846,16 @@ func Tags() CloudfrontConnectionGroupTagsList
 
 ---
 
+##### `ViewerFallback`<sup>Required</sup> <a name="ViewerFallback" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.viewerFallback"></a>
+
+```go
+func ViewerFallback() CloudfrontConnectionGroupViewerFallbackOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference">CloudfrontConnectionGroupViewerFallbackOutputReference</a>
+
+---
+
 ##### `AnycastIpListIdInput`<sup>Optional</sup> <a name="AnycastIpListIdInput" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.anycastIpListIdInput"></a>
 
 ```go
@@ -868,6 +900,16 @@ func NameInput() *string
 
 ```go
 func TagsInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `ViewerFallbackInput`<sup>Optional</sup> <a name="ViewerFallbackInput" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroup.property.viewerFallbackInput"></a>
+
+```go
+func ViewerFallbackInput() interface{}
 ```
 
 - *Type:* interface{}
@@ -954,6 +996,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectio
 	Enabled: interface{},
 	Ipv6Enabled: interface{},
 	Tags: interface{},
+	ViewerFallback: github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallback,
 }
 ```
 
@@ -973,6 +1016,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectio
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupConfig.property.enabled">Enabled</a></code> | <code>interface{}</code> | Whether the connection group is enabled. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupConfig.property.ipv6Enabled">Ipv6Enabled</a></code> | <code>interface{}</code> | IPv6 is enabled for the connection group. |
 | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupConfig.property.tags">Tags</a></code> | <code>interface{}</code> | A complex type that contains zero or more ``Tag`` elements. |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupConfig.property.viewerFallback">ViewerFallback</a></code> | <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallback">CloudfrontConnectionGroupViewerFallback</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#viewer_fallback CloudfrontConnectionGroup#viewer_fallback}. |
 
 ---
 
@@ -1056,7 +1100,7 @@ Name *string
 
 The name of the connection group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#name CloudfrontConnectionGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#name CloudfrontConnectionGroup#name}
 
 ---
 
@@ -1070,7 +1114,7 @@ AnycastIpListId *string
 
 The ID of the Anycast static IP list.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#anycast_ip_list_id CloudfrontConnectionGroup#anycast_ip_list_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#anycast_ip_list_id CloudfrontConnectionGroup#anycast_ip_list_id}
 
 ---
 
@@ -1084,7 +1128,7 @@ Enabled interface{}
 
 Whether the connection group is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#enabled CloudfrontConnectionGroup#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#enabled CloudfrontConnectionGroup#enabled}
 
 ---
 
@@ -1098,7 +1142,7 @@ Ipv6Enabled interface{}
 
 IPv6 is enabled for the connection group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#ipv_6_enabled CloudfrontConnectionGroup#ipv_6_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#ipv_6_enabled CloudfrontConnectionGroup#ipv_6_enabled}
 
 ---
 
@@ -1112,7 +1156,19 @@ Tags interface{}
 
 A complex type that contains zero or more ``Tag`` elements.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/cloudfront_connection_group#tags CloudfrontConnectionGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#tags CloudfrontConnectionGroup#tags}
+
+---
+
+##### `ViewerFallback`<sup>Optional</sup> <a name="ViewerFallback" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupConfig.property.viewerFallback"></a>
+
+```go
+ViewerFallback CloudfrontConnectionGroupViewerFallback
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallback">CloudfrontConnectionGroupViewerFallback</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#viewer_fallback CloudfrontConnectionGroup#viewer_fallback}.
 
 ---
 
@@ -1163,6 +1219,38 @@ Value *string
 A string that contains an optional ``Tag`` value.
 
 The string length should be between 0 and 256 characters. Valid characters include `a-z`, `A-Z`, `0-9`, space, and the special characters ``_ - . : / = +
+
+---
+
+### CloudfrontConnectionGroupViewerFallback <a name="CloudfrontConnectionGroupViewerFallback" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallback"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallback.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectiongroup"
+
+&cloudfrontconnectiongroup.CloudfrontConnectionGroupViewerFallback {
+	DistributionId: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallback.property.distributionId">DistributionId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#distribution_id CloudfrontConnectionGroup#distribution_id}. |
+
+---
+
+##### `DistributionId`<sup>Optional</sup> <a name="DistributionId" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallback.property.distributionId"></a>
+
+```go
+DistributionId *string
+```
+
+- *Type:* *string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/cloudfront_connection_group#distribution_id CloudfrontConnectionGroup#distribution_id}.
 
 ---
 
@@ -1643,6 +1731,284 @@ func Value() *string
 ---
 
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupTagsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### CloudfrontConnectionGroupViewerFallbackOutputReference <a name="CloudfrontConnectionGroupViewerFallbackOutputReference" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontconnectiongroup"
+
+cloudfrontconnectiongroup.NewCloudfrontConnectionGroupViewerFallbackOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) CloudfrontConnectionGroupViewerFallbackOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.resetDistributionId">ResetDistributionId</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetDistributionId` <a name="ResetDistributionId" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.resetDistributionId"></a>
+
+```go
+func ResetDistributionId()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.distributionIdInput">DistributionIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.distributionId">DistributionId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DistributionIdInput`<sup>Optional</sup> <a name="DistributionIdInput" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.distributionIdInput"></a>
+
+```go
+func DistributionIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DistributionId`<sup>Required</sup> <a name="DistributionId" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.distributionId"></a>
+
+```go
+func DistributionId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.cloudfrontConnectionGroup.CloudfrontConnectionGroupViewerFallbackOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}

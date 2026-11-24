@@ -4,7 +4,7 @@
 
 ### AppstreamImageBuilder <a name="AppstreamImageBuilder" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder awscc_appstream_image_builder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder awscc_appstream_image_builder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.Initializer"></a>
 
@@ -75,11 +75,13 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putAccessEndpoints">PutAccessEndpoints</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putAgentAccessConfig">PutAgentAccessConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putDomainJoinInfo">PutDomainJoinInfo</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putRootVolumeConfig">PutRootVolumeConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putVpcConfig">PutVpcConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.resetAccessEndpoints">ResetAccessEndpoints</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.resetAgentAccessConfig">ResetAgentAccessConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.resetAppstreamAgentVersion">ResetAppstreamAgentVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.resetDisableImdsv1">ResetDisableImdsv1</a></code> | *No description.* |
@@ -418,6 +420,18 @@ private void PutAccessEndpoints(IResolvable|AppstreamImageBuilderAccessEndpoints
 
 ---
 
+##### `PutAgentAccessConfig` <a name="PutAgentAccessConfig" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putAgentAccessConfig"></a>
+
+```csharp
+private void PutAgentAccessConfig(AppstreamImageBuilderAgentAccessConfig Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putAgentAccessConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig">AppstreamImageBuilderAgentAccessConfig</a>
+
+---
+
 ##### `PutDomainJoinInfo` <a name="PutDomainJoinInfo" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.putDomainJoinInfo"></a>
 
 ```csharp
@@ -470,6 +484,12 @@ private void PutVpcConfig(AppstreamImageBuilderVpcConfig Value)
 
 ```csharp
 private void ResetAccessEndpoints()
+```
+
+##### `ResetAgentAccessConfig` <a name="ResetAgentAccessConfig" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.resetAgentAccessConfig"></a>
+
+```csharp
+private void ResetAgentAccessConfig()
 ```
 
 ##### `ResetAppstreamAgentVersion` <a name="ResetAppstreamAgentVersion" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.resetAppstreamAgentVersion"></a>
@@ -659,7 +679,7 @@ The construct id used in the generated config for the AppstreamImageBuilder to i
 
 The id of the existing AppstreamImageBuilder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -690,6 +710,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.accessEndpoints">AccessEndpoints</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpointsList">AppstreamImageBuilderAccessEndpointsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.agentAccessConfig">AgentAccessConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference">AppstreamImageBuilderAgentAccessConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.domainJoinInfo">DomainJoinInfo</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfoOutputReference">AppstreamImageBuilderDomainJoinInfoOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.rootVolumeConfig">RootVolumeConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderRootVolumeConfigOutputReference">AppstreamImageBuilderRootVolumeConfigOutputReference</a></code> | *No description.* |
@@ -697,6 +718,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderTagsList">AppstreamImageBuilderTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.vpcConfig">VpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderVpcConfigOutputReference">AppstreamImageBuilderVpcConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.accessEndpointsInput">AccessEndpointsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints">AppstreamImageBuilderAccessEndpoints</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.agentAccessConfigInput">AgentAccessConfigInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig">AppstreamImageBuilderAgentAccessConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.appstreamAgentVersionInput">AppstreamAgentVersionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.disableImdsv1Input">DisableImdsv1Input</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
@@ -880,6 +902,16 @@ public AppstreamImageBuilderAccessEndpointsList AccessEndpoints { get; }
 
 ---
 
+##### `AgentAccessConfig`<sup>Required</sup> <a name="AgentAccessConfig" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.agentAccessConfig"></a>
+
+```csharp
+public AppstreamImageBuilderAgentAccessConfigOutputReference AgentAccessConfig { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference">AppstreamImageBuilderAgentAccessConfigOutputReference</a>
+
+---
+
 ##### `DomainJoinInfo`<sup>Required</sup> <a name="DomainJoinInfo" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.domainJoinInfo"></a>
 
 ```csharp
@@ -947,6 +979,16 @@ public IResolvable|AppstreamImageBuilderAccessEndpoints[] AccessEndpointsInput {
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints">AppstreamImageBuilderAccessEndpoints</a>[]
+
+---
+
+##### `AgentAccessConfigInput`<sup>Optional</sup> <a name="AgentAccessConfigInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilder.property.agentAccessConfigInput"></a>
+
+```csharp
+public IResolvable|AppstreamImageBuilderAgentAccessConfig AgentAccessConfigInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig">AppstreamImageBuilderAgentAccessConfig</a>
 
 ---
 
@@ -1267,8 +1309,8 @@ new AppstreamImageBuilderAccessEndpoints {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints.property.endpointType">EndpointType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#endpoint_type AppstreamImageBuilder#endpoint_type}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints.property.vpceId">VpceId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#vpce_id AppstreamImageBuilder#vpce_id}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints.property.endpointType">EndpointType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#endpoint_type AppstreamImageBuilder#endpoint_type}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints.property.vpceId">VpceId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#vpce_id AppstreamImageBuilder#vpce_id}. |
 
 ---
 
@@ -1280,7 +1322,7 @@ public string EndpointType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#endpoint_type AppstreamImageBuilder#endpoint_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#endpoint_type AppstreamImageBuilder#endpoint_type}.
 
 ---
 
@@ -1292,7 +1334,179 @@ public string VpceId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#vpce_id AppstreamImageBuilder#vpce_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#vpce_id AppstreamImageBuilder#vpce_id}.
+
+---
+
+### AppstreamImageBuilderAgentAccessConfig <a name="AppstreamImageBuilderAgentAccessConfig" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AppstreamImageBuilderAgentAccessConfig {
+    string S3BucketArn = null,
+    string ScreenImageFormat = null,
+    string ScreenResolution = null,
+    bool|IResolvable ScreenshotsUploadEnabled = null,
+    IResolvable|AppstreamImageBuilderAgentAccessConfigSettings[] Settings = null,
+    string UserControlMode = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.s3BucketArn">S3BucketArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the Amazon S3 bucket where agent screenshots are stored. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.screenImageFormat">ScreenImageFormat</a></code> | <code>string</code> | The image format for agent screen captures. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.screenResolution">ScreenResolution</a></code> | <code>string</code> | The screen resolution for the agent streaming environment. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.screenshotsUploadEnabled">ScreenshotsUploadEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Indicates whether screenshot uploads to Amazon S3 are enabled for agent sessions. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.settings">Settings</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a>[]</code> | The list of agent access settings that define permissions for each agent action. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.userControlMode">UserControlMode</a></code> | <code>string</code> | The user control mode for agent sessions. |
+
+---
+
+##### `S3BucketArn`<sup>Optional</sup> <a name="S3BucketArn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.s3BucketArn"></a>
+
+```csharp
+public string S3BucketArn { get; set; }
+```
+
+- *Type:* string
+
+The Amazon Resource Name (ARN) of the Amazon S3 bucket where agent screenshots are stored.
+
+Required when ScreenshotsUploadEnabled is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#s3_bucket_arn AppstreamImageBuilder#s3_bucket_arn}
+
+---
+
+##### `ScreenImageFormat`<sup>Optional</sup> <a name="ScreenImageFormat" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.screenImageFormat"></a>
+
+```csharp
+public string ScreenImageFormat { get; set; }
+```
+
+- *Type:* string
+
+The image format for agent screen captures.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#screen_image_format AppstreamImageBuilder#screen_image_format}
+
+---
+
+##### `ScreenResolution`<sup>Optional</sup> <a name="ScreenResolution" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.screenResolution"></a>
+
+```csharp
+public string ScreenResolution { get; set; }
+```
+
+- *Type:* string
+
+The screen resolution for the agent streaming environment.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#screen_resolution AppstreamImageBuilder#screen_resolution}
+
+---
+
+##### `ScreenshotsUploadEnabled`<sup>Optional</sup> <a name="ScreenshotsUploadEnabled" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.screenshotsUploadEnabled"></a>
+
+```csharp
+public bool|IResolvable ScreenshotsUploadEnabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Indicates whether screenshot uploads to Amazon S3 are enabled for agent sessions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#screenshots_upload_enabled AppstreamImageBuilder#screenshots_upload_enabled}
+
+---
+
+##### `Settings`<sup>Optional</sup> <a name="Settings" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.settings"></a>
+
+```csharp
+public IResolvable|AppstreamImageBuilderAgentAccessConfigSettings[] Settings { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a>[]
+
+The list of agent access settings that define permissions for each agent action.
+
+You must specify at least one setting. Agent actions that aren't listed are disabled, so list only the actions that you enable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#settings AppstreamImageBuilder#settings}
+
+---
+
+##### `UserControlMode`<sup>Optional</sup> <a name="UserControlMode" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig.property.userControlMode"></a>
+
+```csharp
+public string UserControlMode { get; set; }
+```
+
+- *Type:* string
+
+The user control mode for agent sessions.
+
+This setting determines how users can interact with agent sessions. Valid values are VIEW_ONLY, VIEW_STOP, and DISABLED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#user_control_mode AppstreamImageBuilder#user_control_mode}
+
+---
+
+### AppstreamImageBuilderAgentAccessConfigSettings <a name="AppstreamImageBuilderAgentAccessConfigSettings" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AppstreamImageBuilderAgentAccessConfigSettings {
+    string AgentAction = null,
+    string Permission = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings.property.agentAction">AgentAction</a></code> | <code>string</code> | The agent action to configure. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings.property.permission">Permission</a></code> | <code>string</code> | Whether the agent action is enabled or disabled. |
+
+---
+
+##### `AgentAction`<sup>Optional</sup> <a name="AgentAction" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings.property.agentAction"></a>
+
+```csharp
+public string AgentAction { get; set; }
+```
+
+- *Type:* string
+
+The agent action to configure.
+
+Valid values are COMPUTER_VISION, COMPUTER_INPUT, and FORWARD_MCP_TOOLS. COMPUTER_VISION allows agents to take screenshots of the desktop. COMPUTER_INPUT allows agents to click, type, and scroll on the desktop and requires COMPUTER_VISION to also be enabled. FORWARD_MCP_TOOLS allows agents to interact with applications and the desktop operating system through direct MCP calls rather than using computer use tools.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#agent_action AppstreamImageBuilder#agent_action}
+
+---
+
+##### `Permission`<sup>Optional</sup> <a name="Permission" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings.property.permission"></a>
+
+```csharp
+public string Permission { get; set; }
+```
+
+- *Type:* string
+
+Whether the agent action is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#permission AppstreamImageBuilder#permission}
 
 ---
 
@@ -1314,6 +1528,7 @@ new AppstreamImageBuilderConfig {
     string InstanceType,
     string Name,
     IResolvable|AppstreamImageBuilderAccessEndpoints[] AccessEndpoints = null,
+    AppstreamImageBuilderAgentAccessConfig AgentAccessConfig = null,
     string AppstreamAgentVersion = null,
     string Description = null,
     bool|IResolvable DisableImdsv1 = null,
@@ -1342,23 +1557,24 @@ new AppstreamImageBuilderConfig {
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.instanceType">InstanceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#instance_type AppstreamImageBuilder#instance_type}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#name AppstreamImageBuilder#name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.accessEndpoints">AccessEndpoints</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints">AppstreamImageBuilderAccessEndpoints</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#access_endpoints AppstreamImageBuilder#access_endpoints}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.appstreamAgentVersion">AppstreamAgentVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#appstream_agent_version AppstreamImageBuilder#appstream_agent_version}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#description AppstreamImageBuilder#description}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.disableImdsv1">DisableImdsv1</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#disable_imdsv1 AppstreamImageBuilder#disable_imdsv1}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.displayName">DisplayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#display_name AppstreamImageBuilder#display_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.domainJoinInfo">DomainJoinInfo</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo">AppstreamImageBuilderDomainJoinInfo</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#domain_join_info AppstreamImageBuilder#domain_join_info}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.enableDefaultInternetAccess">EnableDefaultInternetAccess</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#enable_default_internet_access AppstreamImageBuilder#enable_default_internet_access}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.iamRoleArn">IamRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#iam_role_arn AppstreamImageBuilder#iam_role_arn}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.imageArn">ImageArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#image_arn AppstreamImageBuilder#image_arn}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#image_name AppstreamImageBuilder#image_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.rootVolumeConfig">RootVolumeConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderRootVolumeConfig">AppstreamImageBuilderRootVolumeConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#root_volume_config AppstreamImageBuilder#root_volume_config}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.softwaresToInstall">SoftwaresToInstall</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#softwares_to_install AppstreamImageBuilder#softwares_to_install}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.softwaresToUninstall">SoftwaresToUninstall</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#softwares_to_uninstall AppstreamImageBuilder#softwares_to_uninstall}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderTags">AppstreamImageBuilderTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#tags AppstreamImageBuilder#tags}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.vpcConfig">VpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderVpcConfig">AppstreamImageBuilderVpcConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#vpc_config AppstreamImageBuilder#vpc_config}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.instanceType">InstanceType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#instance_type AppstreamImageBuilder#instance_type}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#name AppstreamImageBuilder#name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.accessEndpoints">AccessEndpoints</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints">AppstreamImageBuilderAccessEndpoints</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#access_endpoints AppstreamImageBuilder#access_endpoints}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.agentAccessConfig">AgentAccessConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig">AppstreamImageBuilderAgentAccessConfig</a></code> | The configuration for agent access on the image builder. If specified, agent access is enabled for the image builder. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.appstreamAgentVersion">AppstreamAgentVersion</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#appstream_agent_version AppstreamImageBuilder#appstream_agent_version}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#description AppstreamImageBuilder#description}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.disableImdsv1">DisableImdsv1</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#disable_imdsv1 AppstreamImageBuilder#disable_imdsv1}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.displayName">DisplayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#display_name AppstreamImageBuilder#display_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.domainJoinInfo">DomainJoinInfo</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo">AppstreamImageBuilderDomainJoinInfo</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#domain_join_info AppstreamImageBuilder#domain_join_info}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.enableDefaultInternetAccess">EnableDefaultInternetAccess</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#enable_default_internet_access AppstreamImageBuilder#enable_default_internet_access}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.iamRoleArn">IamRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#iam_role_arn AppstreamImageBuilder#iam_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.imageArn">ImageArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#image_arn AppstreamImageBuilder#image_arn}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.imageName">ImageName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#image_name AppstreamImageBuilder#image_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.rootVolumeConfig">RootVolumeConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderRootVolumeConfig">AppstreamImageBuilderRootVolumeConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#root_volume_config AppstreamImageBuilder#root_volume_config}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.softwaresToInstall">SoftwaresToInstall</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#softwares_to_install AppstreamImageBuilder#softwares_to_install}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.softwaresToUninstall">SoftwaresToUninstall</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#softwares_to_uninstall AppstreamImageBuilder#softwares_to_uninstall}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderTags">AppstreamImageBuilderTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#tags AppstreamImageBuilder#tags}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.vpcConfig">VpcConfig</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderVpcConfig">AppstreamImageBuilderVpcConfig</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#vpc_config AppstreamImageBuilder#vpc_config}. |
 
 ---
 
@@ -1440,7 +1656,7 @@ public string InstanceType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#instance_type AppstreamImageBuilder#instance_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#instance_type AppstreamImageBuilder#instance_type}.
 
 ---
 
@@ -1452,7 +1668,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#name AppstreamImageBuilder#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#name AppstreamImageBuilder#name}.
 
 ---
 
@@ -1464,7 +1680,21 @@ public IResolvable|AppstreamImageBuilderAccessEndpoints[] AccessEndpoints { get;
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints">AppstreamImageBuilderAccessEndpoints</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#access_endpoints AppstreamImageBuilder#access_endpoints}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#access_endpoints AppstreamImageBuilder#access_endpoints}.
+
+---
+
+##### `AgentAccessConfig`<sup>Optional</sup> <a name="AgentAccessConfig" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderConfig.property.agentAccessConfig"></a>
+
+```csharp
+public AppstreamImageBuilderAgentAccessConfig AgentAccessConfig { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig">AppstreamImageBuilderAgentAccessConfig</a>
+
+The configuration for agent access on the image builder. If specified, agent access is enabled for the image builder.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#agent_access_config AppstreamImageBuilder#agent_access_config}
 
 ---
 
@@ -1476,7 +1706,7 @@ public string AppstreamAgentVersion { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#appstream_agent_version AppstreamImageBuilder#appstream_agent_version}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#appstream_agent_version AppstreamImageBuilder#appstream_agent_version}.
 
 ---
 
@@ -1488,7 +1718,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#description AppstreamImageBuilder#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#description AppstreamImageBuilder#description}.
 
 ---
 
@@ -1500,7 +1730,7 @@ public bool|IResolvable DisableImdsv1 { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#disable_imdsv1 AppstreamImageBuilder#disable_imdsv1}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#disable_imdsv1 AppstreamImageBuilder#disable_imdsv1}.
 
 ---
 
@@ -1512,7 +1742,7 @@ public string DisplayName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#display_name AppstreamImageBuilder#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#display_name AppstreamImageBuilder#display_name}.
 
 ---
 
@@ -1524,7 +1754,7 @@ public AppstreamImageBuilderDomainJoinInfo DomainJoinInfo { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo">AppstreamImageBuilderDomainJoinInfo</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#domain_join_info AppstreamImageBuilder#domain_join_info}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#domain_join_info AppstreamImageBuilder#domain_join_info}.
 
 ---
 
@@ -1536,7 +1766,7 @@ public bool|IResolvable EnableDefaultInternetAccess { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#enable_default_internet_access AppstreamImageBuilder#enable_default_internet_access}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#enable_default_internet_access AppstreamImageBuilder#enable_default_internet_access}.
 
 ---
 
@@ -1548,7 +1778,7 @@ public string IamRoleArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#iam_role_arn AppstreamImageBuilder#iam_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#iam_role_arn AppstreamImageBuilder#iam_role_arn}.
 
 ---
 
@@ -1560,7 +1790,7 @@ public string ImageArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#image_arn AppstreamImageBuilder#image_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#image_arn AppstreamImageBuilder#image_arn}.
 
 ---
 
@@ -1572,7 +1802,7 @@ public string ImageName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#image_name AppstreamImageBuilder#image_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#image_name AppstreamImageBuilder#image_name}.
 
 ---
 
@@ -1584,7 +1814,7 @@ public AppstreamImageBuilderRootVolumeConfig RootVolumeConfig { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderRootVolumeConfig">AppstreamImageBuilderRootVolumeConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#root_volume_config AppstreamImageBuilder#root_volume_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#root_volume_config AppstreamImageBuilder#root_volume_config}.
 
 ---
 
@@ -1596,7 +1826,7 @@ public string[] SoftwaresToInstall { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#softwares_to_install AppstreamImageBuilder#softwares_to_install}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#softwares_to_install AppstreamImageBuilder#softwares_to_install}.
 
 ---
 
@@ -1608,7 +1838,7 @@ public string[] SoftwaresToUninstall { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#softwares_to_uninstall AppstreamImageBuilder#softwares_to_uninstall}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#softwares_to_uninstall AppstreamImageBuilder#softwares_to_uninstall}.
 
 ---
 
@@ -1620,7 +1850,7 @@ public IResolvable|AppstreamImageBuilderTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderTags">AppstreamImageBuilderTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#tags AppstreamImageBuilder#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#tags AppstreamImageBuilder#tags}.
 
 ---
 
@@ -1632,7 +1862,7 @@ public AppstreamImageBuilderVpcConfig VpcConfig { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderVpcConfig">AppstreamImageBuilderVpcConfig</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#vpc_config AppstreamImageBuilder#vpc_config}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#vpc_config AppstreamImageBuilder#vpc_config}.
 
 ---
 
@@ -1653,8 +1883,8 @@ new AppstreamImageBuilderDomainJoinInfo {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo.property.directoryName">DirectoryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#directory_name AppstreamImageBuilder#directory_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo.property.organizationalUnitDistinguishedName">OrganizationalUnitDistinguishedName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#organizational_unit_distinguished_name AppstreamImageBuilder#organizational_unit_distinguished_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo.property.directoryName">DirectoryName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#directory_name AppstreamImageBuilder#directory_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo.property.organizationalUnitDistinguishedName">OrganizationalUnitDistinguishedName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#organizational_unit_distinguished_name AppstreamImageBuilder#organizational_unit_distinguished_name}. |
 
 ---
 
@@ -1666,7 +1896,7 @@ public string DirectoryName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#directory_name AppstreamImageBuilder#directory_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#directory_name AppstreamImageBuilder#directory_name}.
 
 ---
 
@@ -1678,7 +1908,7 @@ public string OrganizationalUnitDistinguishedName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#organizational_unit_distinguished_name AppstreamImageBuilder#organizational_unit_distinguished_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#organizational_unit_distinguished_name AppstreamImageBuilder#organizational_unit_distinguished_name}.
 
 ---
 
@@ -1698,7 +1928,7 @@ new AppstreamImageBuilderRootVolumeConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderRootVolumeConfig.property.volumeSizeInGb">VolumeSizeInGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#volume_size_in_gb AppstreamImageBuilder#volume_size_in_gb}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderRootVolumeConfig.property.volumeSizeInGb">VolumeSizeInGb</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#volume_size_in_gb AppstreamImageBuilder#volume_size_in_gb}. |
 
 ---
 
@@ -1710,7 +1940,7 @@ public double VolumeSizeInGb { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#volume_size_in_gb AppstreamImageBuilder#volume_size_in_gb}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#volume_size_in_gb AppstreamImageBuilder#volume_size_in_gb}.
 
 ---
 
@@ -1731,8 +1961,8 @@ new AppstreamImageBuilderTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#key AppstreamImageBuilder#key}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#value AppstreamImageBuilder#value}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#key AppstreamImageBuilder#key}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#value AppstreamImageBuilder#value}. |
 
 ---
 
@@ -1744,7 +1974,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#key AppstreamImageBuilder#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#key AppstreamImageBuilder#key}.
 
 ---
 
@@ -1756,7 +1986,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#value AppstreamImageBuilder#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#value AppstreamImageBuilder#value}.
 
 ---
 
@@ -1777,8 +2007,8 @@ new AppstreamImageBuilderVpcConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderVpcConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#security_group_ids AppstreamImageBuilder#security_group_ids}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderVpcConfig.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#subnet_ids AppstreamImageBuilder#subnet_ids}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderVpcConfig.property.securityGroupIds">SecurityGroupIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#security_group_ids AppstreamImageBuilder#security_group_ids}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderVpcConfig.property.subnetIds">SubnetIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#subnet_ids AppstreamImageBuilder#subnet_ids}. |
 
 ---
 
@@ -1790,7 +2020,7 @@ public string[] SecurityGroupIds { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#security_group_ids AppstreamImageBuilder#security_group_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#security_group_ids AppstreamImageBuilder#security_group_ids}.
 
 ---
 
@@ -1802,7 +2032,7 @@ public string[] SubnetIds { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_image_builder#subnet_ids AppstreamImageBuilder#subnet_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_image_builder#subnet_ids AppstreamImageBuilder#subnet_ids}.
 
 ---
 
@@ -2289,6 +2519,927 @@ public IResolvable|AppstreamImageBuilderAccessEndpoints InternalValue { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAccessEndpoints">AppstreamImageBuilderAccessEndpoints</a>
+
+---
+
+
+### AppstreamImageBuilderAgentAccessConfigOutputReference <a name="AppstreamImageBuilderAgentAccessConfigOutputReference" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AppstreamImageBuilderAgentAccessConfigOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.putSettings">PutSettings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetS3BucketArn">ResetS3BucketArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetScreenImageFormat">ResetScreenImageFormat</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetScreenResolution">ResetScreenResolution</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetScreenshotsUploadEnabled">ResetScreenshotsUploadEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetSettings">ResetSettings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetUserControlMode">ResetUserControlMode</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutSettings` <a name="PutSettings" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.putSettings"></a>
+
+```csharp
+private void PutSettings(IResolvable|AppstreamImageBuilderAgentAccessConfigSettings[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.putSettings.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a>[]
+
+---
+
+##### `ResetS3BucketArn` <a name="ResetS3BucketArn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetS3BucketArn"></a>
+
+```csharp
+private void ResetS3BucketArn()
+```
+
+##### `ResetScreenImageFormat` <a name="ResetScreenImageFormat" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetScreenImageFormat"></a>
+
+```csharp
+private void ResetScreenImageFormat()
+```
+
+##### `ResetScreenResolution` <a name="ResetScreenResolution" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetScreenResolution"></a>
+
+```csharp
+private void ResetScreenResolution()
+```
+
+##### `ResetScreenshotsUploadEnabled` <a name="ResetScreenshotsUploadEnabled" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetScreenshotsUploadEnabled"></a>
+
+```csharp
+private void ResetScreenshotsUploadEnabled()
+```
+
+##### `ResetSettings` <a name="ResetSettings" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetSettings"></a>
+
+```csharp
+private void ResetSettings()
+```
+
+##### `ResetUserControlMode` <a name="ResetUserControlMode" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.resetUserControlMode"></a>
+
+```csharp
+private void ResetUserControlMode()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.settings">Settings</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList">AppstreamImageBuilderAgentAccessConfigSettingsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.s3BucketArnInput">S3BucketArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenImageFormatInput">ScreenImageFormatInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenResolutionInput">ScreenResolutionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenshotsUploadEnabledInput">ScreenshotsUploadEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.settingsInput">SettingsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.userControlModeInput">UserControlModeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.s3BucketArn">S3BucketArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenImageFormat">ScreenImageFormat</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenResolution">ScreenResolution</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenshotsUploadEnabled">ScreenshotsUploadEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.userControlMode">UserControlMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig">AppstreamImageBuilderAgentAccessConfig</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Settings`<sup>Required</sup> <a name="Settings" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.settings"></a>
+
+```csharp
+public AppstreamImageBuilderAgentAccessConfigSettingsList Settings { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList">AppstreamImageBuilderAgentAccessConfigSettingsList</a>
+
+---
+
+##### `S3BucketArnInput`<sup>Optional</sup> <a name="S3BucketArnInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.s3BucketArnInput"></a>
+
+```csharp
+public string S3BucketArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScreenImageFormatInput`<sup>Optional</sup> <a name="ScreenImageFormatInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenImageFormatInput"></a>
+
+```csharp
+public string ScreenImageFormatInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScreenResolutionInput`<sup>Optional</sup> <a name="ScreenResolutionInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenResolutionInput"></a>
+
+```csharp
+public string ScreenResolutionInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScreenshotsUploadEnabledInput`<sup>Optional</sup> <a name="ScreenshotsUploadEnabledInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenshotsUploadEnabledInput"></a>
+
+```csharp
+public bool|IResolvable ScreenshotsUploadEnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `SettingsInput`<sup>Optional</sup> <a name="SettingsInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.settingsInput"></a>
+
+```csharp
+public IResolvable|AppstreamImageBuilderAgentAccessConfigSettings[] SettingsInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a>[]
+
+---
+
+##### `UserControlModeInput`<sup>Optional</sup> <a name="UserControlModeInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.userControlModeInput"></a>
+
+```csharp
+public string UserControlModeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `S3BucketArn`<sup>Required</sup> <a name="S3BucketArn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.s3BucketArn"></a>
+
+```csharp
+public string S3BucketArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScreenImageFormat`<sup>Required</sup> <a name="ScreenImageFormat" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenImageFormat"></a>
+
+```csharp
+public string ScreenImageFormat { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScreenResolution`<sup>Required</sup> <a name="ScreenResolution" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenResolution"></a>
+
+```csharp
+public string ScreenResolution { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ScreenshotsUploadEnabled`<sup>Required</sup> <a name="ScreenshotsUploadEnabled" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.screenshotsUploadEnabled"></a>
+
+```csharp
+public bool|IResolvable ScreenshotsUploadEnabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `UserControlMode`<sup>Required</sup> <a name="UserControlMode" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.userControlMode"></a>
+
+```csharp
+public string UserControlMode { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|AppstreamImageBuilderAgentAccessConfig InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfig">AppstreamImageBuilderAgentAccessConfig</a>
+
+---
+
+
+### AppstreamImageBuilderAgentAccessConfigSettingsList <a name="AppstreamImageBuilderAgentAccessConfigSettingsList" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AppstreamImageBuilderAgentAccessConfigSettingsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.get"></a>
+
+```csharp
+private AppstreamImageBuilderAgentAccessConfigSettingsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsList.property.internalValue"></a>
+
+```csharp
+public IResolvable|AppstreamImageBuilderAgentAccessConfigSettings[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a>[]
+
+---
+
+
+### AppstreamImageBuilderAgentAccessConfigSettingsOutputReference <a name="AppstreamImageBuilderAgentAccessConfigSettingsOutputReference" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AppstreamImageBuilderAgentAccessConfigSettingsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.resetAgentAction">ResetAgentAction</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.resetPermission">ResetPermission</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetAgentAction` <a name="ResetAgentAction" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.resetAgentAction"></a>
+
+```csharp
+private void ResetAgentAction()
+```
+
+##### `ResetPermission` <a name="ResetPermission" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.resetPermission"></a>
+
+```csharp
+private void ResetPermission()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.agentActionInput">AgentActionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.permissionInput">PermissionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.agentAction">AgentAction</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.permission">Permission</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AgentActionInput`<sup>Optional</sup> <a name="AgentActionInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.agentActionInput"></a>
+
+```csharp
+public string AgentActionInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `PermissionInput`<sup>Optional</sup> <a name="PermissionInput" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.permissionInput"></a>
+
+```csharp
+public string PermissionInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AgentAction`<sup>Required</sup> <a name="AgentAction" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.agentAction"></a>
+
+```csharp
+public string AgentAction { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Permission`<sup>Required</sup> <a name="Permission" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.permission"></a>
+
+```csharp
+public string Permission { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettingsOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|AppstreamImageBuilderAgentAccessConfigSettings InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.appstreamImageBuilder.AppstreamImageBuilderAgentAccessConfigSettings">AppstreamImageBuilderAgentAccessConfigSettings</a>
 
 ---
 

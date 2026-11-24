@@ -4,7 +4,7 @@
 
 ### NetworksecuritymanagerScope <a name="NetworksecuritymanagerScope" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.resetScopeConfiguration">ResetScopeConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.resetScopeDescription">ResetScopeDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.resetSpecializedScopeType">ResetSpecializedScopeType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.resetTags">ResetTags</a></code> | *No description.* |
 
 ---
@@ -414,6 +415,12 @@ func ResetScopeConfiguration()
 func ResetScopeDescription()
 ```
 
+##### `ResetSpecializedScopeType` <a name="ResetSpecializedScopeType" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.resetSpecializedScopeType"></a>
+
+```go
+func ResetSpecializedScopeType()
+```
+
 ##### `ResetTags` <a name="ResetTags" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.resetTags"></a>
 
 ```go
@@ -523,7 +530,7 @@ The construct id used in the generated config for the NetworksecuritymanagerScop
 
 The id of the existing NetworksecuritymanagerScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -563,10 +570,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.scopeConfigurationInput">ScopeConfigurationInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.scopeDescriptionInput">ScopeDescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.scopeNameInput">ScopeNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.specializedScopeTypeInput">SpecializedScopeTypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.tagsInput">TagsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.scopeConfiguration">ScopeConfiguration</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.scopeDescription">ScopeDescription</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.scopeName">ScopeName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.specializedScopeType">SpecializedScopeType</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
@@ -812,6 +821,16 @@ func ScopeNameInput() *string
 
 ---
 
+##### `SpecializedScopeTypeInput`<sup>Optional</sup> <a name="SpecializedScopeTypeInput" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.specializedScopeTypeInput"></a>
+
+```go
+func SpecializedScopeTypeInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `TagsInput`<sup>Optional</sup> <a name="TagsInput" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.tagsInput"></a>
 
 ```go
@@ -846,6 +865,16 @@ func ScopeDescription() *string
 
 ```go
 func ScopeName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SpecializedScopeType`<sup>Required</sup> <a name="SpecializedScopeType" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.property.specializedScopeType"></a>
+
+```go
+func SpecializedScopeType() *string
 ```
 
 - *Type:* *string
@@ -890,6 +919,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymana
 	ScopeName: *string,
 	ScopeConfiguration: *string,
 	ScopeDescription: *string,
+	SpecializedScopeType: *string,
 	Tags: interface{},
 }
 ```
@@ -908,6 +938,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymana
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeConfig.property.scopeName">ScopeName</a></code> | <code>*string</code> | The name of the scope. |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeConfig.property.scopeConfiguration">ScopeConfiguration</a></code> | <code>*string</code> | The scope configuration as a JSON string. |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeConfig.property.scopeDescription">ScopeDescription</a></code> | <code>*string</code> | A description of the scope. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeConfig.property.specializedScopeType">SpecializedScopeType</a></code> | <code>*string</code> | Marks the scope as built for one specific use. |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeConfig.property.tags">Tags</a></code> | <code>interface{}</code> | The tags associated with the scope. |
 
 ---
@@ -992,7 +1023,7 @@ ScopeName *string
 
 The name of the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#scope_name NetworksecuritymanagerScope#scope_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#scope_name NetworksecuritymanagerScope#scope_name}
 
 ---
 
@@ -1006,7 +1037,7 @@ ScopeConfiguration *string
 
 The scope configuration as a JSON string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#scope_configuration NetworksecuritymanagerScope#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#scope_configuration NetworksecuritymanagerScope#scope_configuration}
 
 ---
 
@@ -1020,7 +1051,23 @@ ScopeDescription *string
 
 A description of the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#scope_description NetworksecuritymanagerScope#scope_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#scope_description NetworksecuritymanagerScope#scope_description}
+
+---
+
+##### `SpecializedScopeType`<sup>Optional</sup> <a name="SpecializedScopeType" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeConfig.property.specializedScopeType"></a>
+
+```go
+SpecializedScopeType *string
+```
+
+- *Type:* *string
+
+Marks the scope as built for one specific use.
+
+Omit for a standard scope. A specialized scope cannot be associated with a deployment. Cannot be changed after creation.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#specialized_scope_type NetworksecuritymanagerScope#specialized_scope_type}
 
 ---
 
@@ -1034,7 +1081,7 @@ Tags interface{}
 
 The tags associated with the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#tags NetworksecuritymanagerScope#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#tags NetworksecuritymanagerScope#tags}
 
 ---
 
@@ -1055,8 +1102,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networksecuritymana
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}. |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}. |
 
 ---
 
@@ -1068,7 +1115,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}.
 
 ---
 
@@ -1080,7 +1127,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}.
 
 ---
 

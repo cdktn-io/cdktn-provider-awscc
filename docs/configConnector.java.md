@@ -4,7 +4,7 @@
 
 ### ConfigConnector <a name="ConfigConnector" id="@cdktn/provider-awscc.configConnector.ConfigConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector awscc_config_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector awscc_config_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnector.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 The configuration for the connector that specifies the third-party cloud provider connection details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#tags ConfigConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#tags ConfigConnector#tags}
 
 ---
 
@@ -598,7 +598,7 @@ The construct id used in the generated config for the ConfigConnector to import.
 
 The id of the existing ConfigConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -997,7 +997,7 @@ public ConfigConnectorConnectorConfiguration getConnectorConfiguration();
 
 The configuration for the connector that specifies the third-party cloud provider connection details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
 
 ---
 
@@ -1011,7 +1011,7 @@ public IResolvable|java.util.List<ConfigConnectorTags> getTags();
 
 The tags for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#tags ConfigConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#tags ConfigConnector#tags}
 
 ---
 
@@ -1024,6 +1024,7 @@ import io.cdktn.providers.awscc.config_connector.ConfigConnectorConnectorConfigu
 
 ConfigConnectorConnectorConfiguration.builder()
 //  .azure(ConfigConnectorConnectorConfigurationAzure)
+//  .gcp(ConfigConnectorConnectorConfigurationGcp)
     .build();
 ```
 
@@ -1032,6 +1033,7 @@ ConfigConnectorConnectorConfiguration.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfiguration.property.azure">azure</a></code> | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationAzure">ConfigConnectorConnectorConfigurationAzure</a></code> | The configuration for connecting to Microsoft Azure. |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfiguration.property.gcp">gcp</a></code> | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp">ConfigConnectorConnectorConfigurationGcp</a></code> | The configuration for connecting to Google Cloud. |
 
 ---
 
@@ -1045,7 +1047,21 @@ public ConfigConnectorConnectorConfigurationAzure getAzure();
 
 The configuration for connecting to Microsoft Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#azure ConfigConnector#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#azure ConfigConnector#azure}
+
+---
+
+##### `gcp`<sup>Optional</sup> <a name="gcp" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfiguration.property.gcp"></a>
+
+```java
+public ConfigConnectorConnectorConfigurationGcp getGcp();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp">ConfigConnectorConnectorConfigurationGcp</a>
+
+The configuration for connecting to Google Cloud.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#gcp ConfigConnector#gcp}
 
 ---
 
@@ -1081,7 +1097,7 @@ public java.lang.String getClientIdentifier();
 
 The Azure client (application) identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
 
 ---
 
@@ -1095,7 +1111,75 @@ public java.lang.String getTenantIdentifier();
 
 The Azure tenant identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
+
+---
+
+### ConfigConnectorConnectorConfigurationGcp <a name="ConfigConnectorConnectorConfigurationGcp" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.config_connector.ConfigConnectorConnectorConfigurationGcp;
+
+ConfigConnectorConnectorConfigurationGcp.builder()
+//  .gcpOrganizationId(java.lang.String)
+//  .serviceAccountEmail(java.lang.String)
+//  .workloadIdentityPoolProvider(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp.property.gcpOrganizationId">gcpOrganizationId</a></code> | <code>java.lang.String</code> | The ID of the Google Cloud organization that contains the connector's management project, which is the project of the service account in ServiceAccountEmail. |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp.property.serviceAccountEmail">serviceAccountEmail</a></code> | <code>java.lang.String</code> | The email address of the Google Cloud service account that AWS Config uses. |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp.property.workloadIdentityPoolProvider">workloadIdentityPoolProvider</a></code> | <code>java.lang.String</code> | The full resource name of the workload identity pool provider that AWS Config uses to federate into Google Cloud. |
+
+---
+
+##### `gcpOrganizationId`<sup>Optional</sup> <a name="gcpOrganizationId" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp.property.gcpOrganizationId"></a>
+
+```java
+public java.lang.String getGcpOrganizationId();
+```
+
+- *Type:* java.lang.String
+
+The ID of the Google Cloud organization that contains the connector's management project, which is the project of the service account in ServiceAccountEmail.
+
+Required if the management project belongs to an organization. A connector needs an organization ID to record an entire organization or more than one project. Omit it only if the management project doesn't belong to an organization. In that case, the connector can record only the management project.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#gcp_organization_id ConfigConnector#gcp_organization_id}
+
+---
+
+##### `serviceAccountEmail`<sup>Optional</sup> <a name="serviceAccountEmail" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp.property.serviceAccountEmail"></a>
+
+```java
+public java.lang.String getServiceAccountEmail();
+```
+
+- *Type:* java.lang.String
+
+The email address of the Google Cloud service account that AWS Config uses.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#service_account_email ConfigConnector#service_account_email}
+
+---
+
+##### `workloadIdentityPoolProvider`<sup>Optional</sup> <a name="workloadIdentityPoolProvider" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp.property.workloadIdentityPoolProvider"></a>
+
+```java
+public java.lang.String getWorkloadIdentityPoolProvider();
+```
+
+- *Type:* java.lang.String
+
+The full resource name of the workload identity pool provider that AWS Config uses to federate into Google Cloud.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#workload_identity_pool_provider ConfigConnector#workload_identity_pool_provider}
 
 ---
 
@@ -1133,7 +1217,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#key ConfigConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#key ConfigConnector#key}
 
 ---
 
@@ -1149,7 +1233,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/config_connector#value ConfigConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/config_connector#value ConfigConnector#value}
 
 ---
 
@@ -1462,6 +1546,342 @@ public IResolvable|ConfigConnectorConnectorConfigurationAzure getInternalValue()
 ---
 
 
+### ConfigConnectorConnectorConfigurationGcpOutputReference <a name="ConfigConnectorConnectorConfigurationGcpOutputReference" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.config_connector.ConfigConnectorConnectorConfigurationGcpOutputReference;
+
+new ConfigConnectorConnectorConfigurationGcpOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resetGcpOrganizationId">resetGcpOrganizationId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resetServiceAccountEmail">resetServiceAccountEmail</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resetWorkloadIdentityPoolProvider">resetWorkloadIdentityPoolProvider</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetGcpOrganizationId` <a name="resetGcpOrganizationId" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resetGcpOrganizationId"></a>
+
+```java
+public void resetGcpOrganizationId()
+```
+
+##### `resetServiceAccountEmail` <a name="resetServiceAccountEmail" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resetServiceAccountEmail"></a>
+
+```java
+public void resetServiceAccountEmail()
+```
+
+##### `resetWorkloadIdentityPoolProvider` <a name="resetWorkloadIdentityPoolProvider" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.resetWorkloadIdentityPoolProvider"></a>
+
+```java
+public void resetWorkloadIdentityPoolProvider()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.gcpOrganizationIdInput">gcpOrganizationIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.serviceAccountEmailInput">serviceAccountEmailInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.workloadIdentityPoolProviderInput">workloadIdentityPoolProviderInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.gcpOrganizationId">gcpOrganizationId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.serviceAccountEmail">serviceAccountEmail</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.workloadIdentityPoolProvider">workloadIdentityPoolProvider</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp">ConfigConnectorConnectorConfigurationGcp</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `gcpOrganizationIdInput`<sup>Optional</sup> <a name="gcpOrganizationIdInput" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.gcpOrganizationIdInput"></a>
+
+```java
+public java.lang.String getGcpOrganizationIdInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `serviceAccountEmailInput`<sup>Optional</sup> <a name="serviceAccountEmailInput" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.serviceAccountEmailInput"></a>
+
+```java
+public java.lang.String getServiceAccountEmailInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `workloadIdentityPoolProviderInput`<sup>Optional</sup> <a name="workloadIdentityPoolProviderInput" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.workloadIdentityPoolProviderInput"></a>
+
+```java
+public java.lang.String getWorkloadIdentityPoolProviderInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `gcpOrganizationId`<sup>Required</sup> <a name="gcpOrganizationId" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.gcpOrganizationId"></a>
+
+```java
+public java.lang.String getGcpOrganizationId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `serviceAccountEmail`<sup>Required</sup> <a name="serviceAccountEmail" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.serviceAccountEmail"></a>
+
+```java
+public java.lang.String getServiceAccountEmail();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `workloadIdentityPoolProvider`<sup>Required</sup> <a name="workloadIdentityPoolProvider" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.workloadIdentityPoolProvider"></a>
+
+```java
+public java.lang.String getWorkloadIdentityPoolProvider();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|ConfigConnectorConnectorConfigurationGcp getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp">ConfigConnectorConnectorConfigurationGcp</a>
+
+---
+
+
 ### ConfigConnectorConnectorConfigurationOutputReference <a name="ConfigConnectorConnectorConfigurationOutputReference" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.Initializer"></a>
@@ -1513,7 +1933,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.putAzure">putAzure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.putGcp">putGcp</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.resetAzure">resetAzure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.resetGcp">resetGcp</a></code> | *No description.* |
 
 ---
 
@@ -1679,10 +2101,28 @@ public void putAzure(ConfigConnectorConnectorConfigurationAzure value)
 
 ---
 
+##### `putGcp` <a name="putGcp" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.putGcp"></a>
+
+```java
+public void putGcp(ConfigConnectorConnectorConfigurationGcp value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.putGcp.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp">ConfigConnectorConnectorConfigurationGcp</a>
+
+---
+
 ##### `resetAzure` <a name="resetAzure" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.resetAzure"></a>
 
 ```java
 public void resetAzure()
+```
+
+##### `resetGcp` <a name="resetGcp" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.resetGcp"></a>
+
+```java
+public void resetGcp()
 ```
 
 
@@ -1693,7 +2133,9 @@ public void resetAzure()
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.azure">azure</a></code> | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationAzureOutputReference">ConfigConnectorConnectorConfigurationAzureOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.gcp">gcp</a></code> | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference">ConfigConnectorConnectorConfigurationGcpOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.azureInput">azureInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationAzure">ConfigConnectorConnectorConfigurationAzure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.gcpInput">gcpInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp">ConfigConnectorConnectorConfigurationGcp</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfiguration">ConfigConnectorConnectorConfiguration</a></code> | *No description.* |
 
 ---
@@ -1732,6 +2174,16 @@ public ConfigConnectorConnectorConfigurationAzureOutputReference getAzure();
 
 ---
 
+##### `gcp`<sup>Required</sup> <a name="gcp" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.gcp"></a>
+
+```java
+public ConfigConnectorConnectorConfigurationGcpOutputReference getGcp();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcpOutputReference">ConfigConnectorConnectorConfigurationGcpOutputReference</a>
+
+---
+
 ##### `azureInput`<sup>Optional</sup> <a name="azureInput" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.azureInput"></a>
 
 ```java
@@ -1739,6 +2191,16 @@ public IResolvable|ConfigConnectorConnectorConfigurationAzure getAzureInput();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationAzure">ConfigConnectorConnectorConfigurationAzure</a>
+
+---
+
+##### `gcpInput`<sup>Optional</sup> <a name="gcpInput" id="@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationOutputReference.property.gcpInput"></a>
+
+```java
+public IResolvable|ConfigConnectorConnectorConfigurationGcp getGcpInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.configConnector.ConfigConnectorConnectorConfigurationGcp">ConfigConnectorConnectorConfigurationGcp</a>
 
 ---
 

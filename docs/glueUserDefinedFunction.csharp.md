@@ -4,7 +4,7 @@
 
 ### GlueUserDefinedFunction <a name="GlueUserDefinedFunction" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function awscc_glue_user_defined_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.Initializer"></a>
 
@@ -75,8 +75,10 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.putResourceUris">PutResourceUris</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetArtifactLocation">ResetArtifactLocation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetClassName">ResetClassName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetFunctionType">ResetFunctionType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetGovernanceMode">ResetGovernanceMode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetOwnerName">ResetOwnerName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetOwnerType">ResetOwnerType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetResourceUris">ResetResourceUris</a></code> | *No description.* |
@@ -404,6 +406,12 @@ private void PutResourceUris(IResolvable|GlueUserDefinedFunctionResourceUris[] V
 
 ---
 
+##### `ResetArtifactLocation` <a name="ResetArtifactLocation" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetArtifactLocation"></a>
+
+```csharp
+private void ResetArtifactLocation()
+```
+
 ##### `ResetClassName` <a name="ResetClassName" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetClassName"></a>
 
 ```csharp
@@ -414,6 +422,12 @@ private void ResetClassName()
 
 ```csharp
 private void ResetFunctionType()
+```
+
+##### `ResetGovernanceMode` <a name="ResetGovernanceMode" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetGovernanceMode"></a>
+
+```csharp
+private void ResetGovernanceMode()
 ```
 
 ##### `ResetOwnerName` <a name="ResetOwnerName" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.resetOwnerName"></a>
@@ -537,7 +551,7 @@ The construct id used in the generated config for the GlueUserDefinedFunction to
 
 The id of the existing GlueUserDefinedFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -570,17 +584,21 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.arn">Arn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.resourceUris">ResourceUris</a></code> | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisList">GlueUserDefinedFunctionResourceUrisList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.artifactLocationInput">ArtifactLocationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.classNameInput">ClassNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.databaseNameInput">DatabaseNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.functionNameInput">FunctionNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.functionTypeInput">FunctionTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.governanceModeInput">GovernanceModeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.ownerNameInput">OwnerNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.ownerTypeInput">OwnerTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.resourceUrisInput">ResourceUrisInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris">GlueUserDefinedFunctionResourceUris</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.artifactLocation">ArtifactLocation</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.className">ClassName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.databaseName">DatabaseName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.functionName">FunctionName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.functionType">FunctionType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.governanceMode">GovernanceMode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.ownerName">OwnerName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.ownerType">OwnerType</a></code> | <code>string</code> | *No description.* |
 
@@ -758,6 +776,16 @@ public GlueUserDefinedFunctionResourceUrisList ResourceUris { get; }
 
 ---
 
+##### `ArtifactLocationInput`<sup>Optional</sup> <a name="ArtifactLocationInput" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.artifactLocationInput"></a>
+
+```csharp
+public string ArtifactLocationInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `ClassNameInput`<sup>Optional</sup> <a name="ClassNameInput" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.classNameInput"></a>
 
 ```csharp
@@ -798,6 +826,16 @@ public string FunctionTypeInput { get; }
 
 ---
 
+##### `GovernanceModeInput`<sup>Optional</sup> <a name="GovernanceModeInput" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.governanceModeInput"></a>
+
+```csharp
+public string GovernanceModeInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `OwnerNameInput`<sup>Optional</sup> <a name="OwnerNameInput" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.ownerNameInput"></a>
 
 ```csharp
@@ -825,6 +863,16 @@ public IResolvable|GlueUserDefinedFunctionResourceUris[] ResourceUrisInput { get
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris">GlueUserDefinedFunctionResourceUris</a>[]
+
+---
+
+##### `ArtifactLocation`<sup>Required</sup> <a name="ArtifactLocation" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.artifactLocation"></a>
+
+```csharp
+public string ArtifactLocation { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -862,6 +910,16 @@ public string FunctionName { get; }
 
 ```csharp
 public string FunctionType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `GovernanceMode`<sup>Required</sup> <a name="GovernanceMode" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunction.property.governanceMode"></a>
+
+```csharp
+public string GovernanceMode { get; }
 ```
 
 - *Type:* string
@@ -925,8 +983,10 @@ new GlueUserDefinedFunctionConfig {
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string DatabaseName,
     string FunctionName,
+    string ArtifactLocation = null,
     string ClassName = null,
     string FunctionType = null,
+    string GovernanceMode = null,
     string OwnerName = null,
     string OwnerType = null,
     IResolvable|GlueUserDefinedFunctionResourceUris[] ResourceUris = null
@@ -946,8 +1006,10 @@ new GlueUserDefinedFunctionConfig {
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.databaseName">DatabaseName</a></code> | <code>string</code> | The name of the catalog database in which the function is located. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.functionName">FunctionName</a></code> | <code>string</code> | The name of the function. |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.artifactLocation">ArtifactLocation</a></code> | <code>string</code> | The registered Amazon S3 location that contains the function artifacts. Required when GovernanceMode is LAKE_FORMATION. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.className">ClassName</a></code> | <code>string</code> | The Java class that contains the function code. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.functionType">FunctionType</a></code> | <code>string</code> | The type of the function. |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.governanceMode">GovernanceMode</a></code> | <code>string</code> | How access to the function is governed. The mode cannot be changed after creation. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.ownerName">OwnerName</a></code> | <code>string</code> | The owner of the function. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.ownerType">OwnerType</a></code> | <code>string</code> | The owner type. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.resourceUris">ResourceUris</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris">GlueUserDefinedFunctionResourceUris</a>[]</code> | The resource URIs for the function. |
@@ -1034,7 +1096,7 @@ public string DatabaseName { get; set; }
 
 The name of the catalog database in which the function is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#database_name GlueUserDefinedFunction#database_name}
 
 ---
 
@@ -1048,7 +1110,21 @@ public string FunctionName { get; set; }
 
 The name of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#function_name GlueUserDefinedFunction#function_name}
+
+---
+
+##### `ArtifactLocation`<sup>Optional</sup> <a name="ArtifactLocation" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.artifactLocation"></a>
+
+```csharp
+public string ArtifactLocation { get; set; }
+```
+
+- *Type:* string
+
+The registered Amazon S3 location that contains the function artifacts. Required when GovernanceMode is LAKE_FORMATION.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#artifact_location GlueUserDefinedFunction#artifact_location}
 
 ---
 
@@ -1062,7 +1138,7 @@ public string ClassName { get; set; }
 
 The Java class that contains the function code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#class_name GlueUserDefinedFunction#class_name}
 
 ---
 
@@ -1076,7 +1152,21 @@ public string FunctionType { get; set; }
 
 The type of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#function_type GlueUserDefinedFunction#function_type}
+
+---
+
+##### `GovernanceMode`<sup>Optional</sup> <a name="GovernanceMode" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionConfig.property.governanceMode"></a>
+
+```csharp
+public string GovernanceMode { get; set; }
+```
+
+- *Type:* string
+
+How access to the function is governed. The mode cannot be changed after creation.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#governance_mode GlueUserDefinedFunction#governance_mode}
 
 ---
 
@@ -1090,7 +1180,7 @@ public string OwnerName { get; set; }
 
 The owner of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#owner_name GlueUserDefinedFunction#owner_name}
 
 ---
 
@@ -1104,7 +1194,7 @@ public string OwnerType { get; set; }
 
 The owner type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#owner_type GlueUserDefinedFunction#owner_type}
 
 ---
 
@@ -1118,7 +1208,7 @@ public IResolvable|GlueUserDefinedFunctionResourceUris[] ResourceUris { get; set
 
 The resource URIs for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#resource_uris GlueUserDefinedFunction#resource_uris}
 
 ---
 
@@ -1130,6 +1220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.Awscc;
 
 new GlueUserDefinedFunctionResourceUris {
+    string LastModified = null,
     string ResourceType = null,
     string Uri = null
 };
@@ -1139,8 +1230,23 @@ new GlueUserDefinedFunctionResourceUris {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris.property.lastModified">LastModified</a></code> | <code>string</code> | The time at which Glue recorded the resource as last modified in Amazon S3 for a Lake Formation governed function. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris.property.resourceType">ResourceType</a></code> | <code>string</code> | The type of the resource. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris.property.uri">Uri</a></code> | <code>string</code> | The URI for accessing the resource. |
+
+---
+
+##### `LastModified`<sup>Optional</sup> <a name="LastModified" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris.property.lastModified"></a>
+
+```csharp
+public string LastModified { get; set; }
+```
+
+- *Type:* string
+
+The time at which Glue recorded the resource as last modified in Amazon S3 for a Lake Formation governed function.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#last_modified GlueUserDefinedFunction#last_modified}
 
 ---
 
@@ -1154,7 +1260,7 @@ public string ResourceType { get; set; }
 
 The type of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#resource_type GlueUserDefinedFunction#resource_type}
 
 ---
 
@@ -1168,7 +1274,7 @@ public string Uri { get; set; }
 
 The URI for accessing the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/glue_user_defined_function#uri GlueUserDefinedFunction#uri}
 
 ---
 
@@ -1402,6 +1508,7 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.resetLastModified">ResetLastModified</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.resetResourceType">ResetResourceType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.resetUri">ResetUri</a></code> | *No description.* |
 
@@ -1557,6 +1664,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetLastModified` <a name="ResetLastModified" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.resetLastModified"></a>
+
+```csharp
+private void ResetLastModified()
+```
+
 ##### `ResetResourceType` <a name="ResetResourceType" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.resetResourceType"></a>
 
 ```csharp
@@ -1576,8 +1689,10 @@ private void ResetUri()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.lastModifiedInput">LastModifiedInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.resourceTypeInput">ResourceTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.uriInput">UriInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.lastModified">LastModified</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.resourceType">ResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.uri">Uri</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUris">GlueUserDefinedFunctionResourceUris</a></code> | *No description.* |
@@ -1608,6 +1723,16 @@ public string Fqn { get; }
 
 ---
 
+##### `LastModifiedInput`<sup>Optional</sup> <a name="LastModifiedInput" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.lastModifiedInput"></a>
+
+```csharp
+public string LastModifiedInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `ResourceTypeInput`<sup>Optional</sup> <a name="ResourceTypeInput" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.resourceTypeInput"></a>
 
 ```csharp
@@ -1622,6 +1747,16 @@ public string ResourceTypeInput { get; }
 
 ```csharp
 public string UriInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `LastModified`<sup>Required</sup> <a name="LastModified" id="@cdktn/provider-awscc.glueUserDefinedFunction.GlueUserDefinedFunctionResourceUrisOutputReference.property.lastModified"></a>
+
+```csharp
+public string LastModified { get; }
 ```
 
 - *Type:* string

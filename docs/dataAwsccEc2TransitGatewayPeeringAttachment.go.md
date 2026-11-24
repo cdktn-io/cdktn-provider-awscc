@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2TransitGatewayPeeringAttachment <a name="DataAwsccEc2TransitGatewayPeeringAttachment" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2TransitGateway
 
 The id of the existing DataAwsccEc2TransitGatewayPeeringAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_peering_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_transit_gateway_peering_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -415,10 +415,15 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.accepterAllowMultipathResilience">AccepterAllowMultipathResilience</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.creationTime">CreationTime</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.multipathResilienceStatus">MultipathResilienceStatus</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.options">Options</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference">DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.peerAccountId">PeerAccountId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.peerRegion">PeerRegion</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.peerTransitGatewayId">PeerTransitGatewayId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.requesterAllowMultipathResilience">RequesterAllowMultipathResilience</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.requesterMultipathResilienceMode">RequesterMultipathResilienceMode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.state">State</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.status">Status</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentStatusOutputReference">DataAwsccEc2TransitGatewayPeeringAttachmentStatusOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentTagsList">DataAwsccEc2TransitGatewayPeeringAttachmentTagsList</a></code> | *No description.* |
@@ -551,6 +556,16 @@ func Provider() TerraformProvider
 
 ---
 
+##### `AccepterAllowMultipathResilience`<sup>Required</sup> <a name="AccepterAllowMultipathResilience" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.accepterAllowMultipathResilience"></a>
+
+```go
+func AccepterAllowMultipathResilience() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `CreationTime`<sup>Required</sup> <a name="CreationTime" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.creationTime"></a>
 
 ```go
@@ -558,6 +573,26 @@ func CreationTime() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `MultipathResilienceStatus`<sup>Required</sup> <a name="MultipathResilienceStatus" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.multipathResilienceStatus"></a>
+
+```go
+func MultipathResilienceStatus() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Options`<sup>Required</sup> <a name="Options" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.options"></a>
+
+```go
+func Options() DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference">DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference</a>
 
 ---
 
@@ -585,6 +620,26 @@ func PeerRegion() *string
 
 ```go
 func PeerTransitGatewayId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `RequesterAllowMultipathResilience`<sup>Required</sup> <a name="RequesterAllowMultipathResilience" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.requesterAllowMultipathResilience"></a>
+
+```go
+func RequesterAllowMultipathResilience() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
+##### `RequesterMultipathResilienceMode`<sup>Required</sup> <a name="RequesterMultipathResilienceMode" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachment.property.requesterMultipathResilienceMode"></a>
+
+```go
+func RequesterMultipathResilienceMode() *string
 ```
 
 - *Type:* *string
@@ -795,12 +850,25 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_transit_gateway_peering_attachment#id DataAwsccEc2TransitGatewayPeeringAttachment#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_transit_gateway_peering_attachment#id DataAwsccEc2TransitGatewayPeeringAttachment#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
+
+### DataAwsccEc2TransitGatewayPeeringAttachmentOptions <a name="DataAwsccEc2TransitGatewayPeeringAttachmentOptions" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptions.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaypeeringattachment"
+
+&dataawsccec2transitgatewaypeeringattachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptions {
+
+}
+```
+
 
 ### DataAwsccEc2TransitGatewayPeeringAttachmentStatus <a name="DataAwsccEc2TransitGatewayPeeringAttachmentStatus" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentStatus"></a>
 
@@ -829,6 +897,277 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transit
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference <a name="DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaypeeringattachment"
+
+dataawsccec2transitgatewaypeeringattachment.NewDataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.allowMultipathResilience">AllowMultipathResilience</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.multipathResilienceMode">MultipathResilienceMode</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptions">DataAwsccEc2TransitGatewayPeeringAttachmentOptions</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AllowMultipathResilience`<sup>Required</sup> <a name="AllowMultipathResilience" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.allowMultipathResilience"></a>
+
+```go
+func AllowMultipathResilience() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
+##### `MultipathResilienceMode`<sup>Required</sup> <a name="MultipathResilienceMode" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.multipathResilienceMode"></a>
+
+```go
+func MultipathResilienceMode() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptionsOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccEc2TransitGatewayPeeringAttachmentOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentOptions">DataAwsccEc2TransitGatewayPeeringAttachmentOptions</a>
+
+---
+
 
 ### DataAwsccEc2TransitGatewayPeeringAttachmentStatusOutputReference <a name="DataAwsccEc2TransitGatewayPeeringAttachmentStatusOutputReference" id="@cdktn/provider-awscc.dataAwsccEc2TransitGatewayPeeringAttachment.DataAwsccEc2TransitGatewayPeeringAttachmentStatusOutputReference"></a>
 

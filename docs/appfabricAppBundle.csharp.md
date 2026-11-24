@@ -4,7 +4,7 @@
 
 ### AppfabricAppBundle <a name="AppfabricAppBundle" id="@cdktn/provider-awscc.appfabricAppBundle.AppfabricAppBundle"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_app_bundle awscc_appfabric_app_bundle}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appfabric_app_bundle awscc_appfabric_app_bundle}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appfabricAppBundle.AppfabricAppBundle.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the AppfabricAppBundle to impo
 
 The id of the existing AppfabricAppBundle that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_app_bundle#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appfabric_app_bundle#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -895,7 +895,7 @@ The Amazon Resource Name (ARN) of the AWS Key Management Service (AWS KMS) key t
 
 If this is not specified, an AWS owned key is used for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_app_bundle#customer_managed_key_identifier AppfabricAppBundle#customer_managed_key_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appfabric_app_bundle#customer_managed_key_identifier AppfabricAppBundle#customer_managed_key_identifier}
 
 ---
 
@@ -909,7 +909,7 @@ public IResolvable|AppfabricAppBundleTags[] Tags { get; set; }
 
 A map of the key-value pairs of the tag or tags to assign to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_app_bundle#tags AppfabricAppBundle#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appfabric_app_bundle#tags AppfabricAppBundle#tags}
 
 ---
 
@@ -945,7 +945,7 @@ public string Key { get; set; }
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_app_bundle#key AppfabricAppBundle#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appfabric_app_bundle#key AppfabricAppBundle#key}
 
 ---
 
@@ -959,7 +959,7 @@ public string Value { get; set; }
 
 Tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appfabric_app_bundle#value AppfabricAppBundle#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appfabric_app_bundle#value AppfabricAppBundle#value}
 
 ---
 

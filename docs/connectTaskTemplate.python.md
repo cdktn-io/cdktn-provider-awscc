@@ -4,7 +4,7 @@
 
 ### ConnectTaskTemplate <a name="ConnectTaskTemplate" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template awscc_connect_task_template}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template awscc_connect_task_template}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer"></a>
 
@@ -25,6 +25,7 @@ connectTaskTemplate.ConnectTaskTemplate(
   client_token: str = None,
   constraints: ConnectTaskTemplateConstraints = None,
   contact_flow_arn: str = None,
+  contact_hooks: ConnectTaskTemplateContactHooks = None,
   defaults: IResolvable | typing.List[ConnectTaskTemplateDefaults] = None,
   description: str = None,
   fields: IResolvable | typing.List[ConnectTaskTemplateFields] = None,
@@ -50,7 +51,8 @@ connectTaskTemplate.ConnectTaskTemplate(
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.clientToken">client_token</a></code> | <code>str</code> | the client token string in uuid format. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.constraints">constraints</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraints">ConnectTaskTemplateConstraints</a></code> | The constraints for the task template. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.contactFlowArn">contact_flow_arn</a></code> | <code>str</code> | The identifier of the contact flow. |
-| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.defaults">defaults</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.contactHooks">contact_hooks</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks">ConnectTaskTemplateContactHooks</a></code> | The contact hooks for the task template. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.defaults">defaults</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the task template. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.fields">fields</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFields">ConnectTaskTemplateFields</a>]</code> | The list of task template's fields. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the task template. |
@@ -126,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier (arn) of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
 
 ---
 
@@ -136,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 the client token string in uuid format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The constraints for the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
 
 ---
 
@@ -156,7 +158,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
+
+---
+
+##### `contact_hooks`<sup>Optional</sup> <a name="contact_hooks" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.Initializer.parameter.contactHooks"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks">ConnectTaskTemplateContactHooks</a>
+
+The contact hooks for the task template.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#contact_hooks ConnectTaskTemplate#contact_hooks}
 
 ---
 
@@ -164,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}.
 
 ---
 
@@ -174,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
 
 ---
 
@@ -184,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of task template's fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
 
 ---
 
@@ -194,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -204,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
 
 ---
 
@@ -214,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The status of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
 
 ---
 
@@ -224,7 +236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
 
 ---
 
@@ -257,12 +269,14 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.putConstraints">put_constraints</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.putContactHooks">put_contact_hooks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.putDefaults">put_defaults</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.putFields">put_fields</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetClientToken">reset_client_token</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetConstraints">reset_constraints</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetContactFlowArn">reset_contact_flow_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetContactHooks">reset_contact_hooks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetDefaults">reset_defaults</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetFields">reset_fields</a></code> | *No description.* |
@@ -637,7 +651,7 @@ def put_constraints(
 
 The list of the task template's invisible fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
 
 ---
 
@@ -647,7 +661,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of the task template's read only fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
 
 ---
 
@@ -657,7 +671,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of the task template's required fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
+
+---
+
+##### `put_contact_hooks` <a name="put_contact_hooks" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.putContactHooks"></a>
+
+```python
+def put_contact_hooks(
+  wrap_up_flow_arn: str = None
+) -> None
+```
+
+###### `wrap_up_flow_arn`<sup>Optional</sup> <a name="wrap_up_flow_arn" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.putContactHooks.parameter.wrapUpFlowArn"></a>
+
+- *Type:* str
+
+The identifier (arn) of the flow module that runs when an agent attempts to disconnect from a task created by referencing this template.
+
+If no agent ever connects to the task, the flow module runs when the task is terminated.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#wrap_up_flow_arn ConnectTaskTemplate#wrap_up_flow_arn}
 
 ---
 
@@ -719,6 +753,12 @@ def reset_constraints() -> None
 
 ```python
 def reset_contact_flow_arn() -> None
+```
+
+##### `reset_contact_hooks` <a name="reset_contact_hooks" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetContactHooks"></a>
+
+```python
+def reset_contact_hooks() -> None
 ```
 
 ##### `reset_defaults` <a name="reset_defaults" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.resetDefaults"></a>
@@ -877,7 +917,7 @@ The construct id used in the generated config for the ConnectTaskTemplate to imp
 
 The id of the existing ConnectTaskTemplate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -909,6 +949,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.arn">arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.constraints">constraints</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsOutputReference">ConnectTaskTemplateConstraintsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.contactHooks">contact_hooks</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference">ConnectTaskTemplateContactHooksOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.defaults">defaults</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaultsList">ConnectTaskTemplateDefaultsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.fields">fields</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFieldsList">ConnectTaskTemplateFieldsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -916,6 +957,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.clientTokenInput">client_token_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.constraintsInput">constraints_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraints">ConnectTaskTemplateConstraints</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.contactFlowArnInput">contact_flow_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.contactHooksInput">contact_hooks_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks">ConnectTaskTemplateContactHooks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.defaultsInput">defaults_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.fieldsInput">fields_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFields">ConnectTaskTemplateFields</a>]</code> | *No description.* |
@@ -1096,6 +1138,16 @@ constraints: ConnectTaskTemplateConstraintsOutputReference
 
 ---
 
+##### `contact_hooks`<sup>Required</sup> <a name="contact_hooks" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.contactHooks"></a>
+
+```python
+contact_hooks: ConnectTaskTemplateContactHooksOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference">ConnectTaskTemplateContactHooksOutputReference</a>
+
+---
+
 ##### `defaults`<sup>Required</sup> <a name="defaults" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.defaults"></a>
 
 ```python
@@ -1163,6 +1215,16 @@ contact_flow_arn_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `contact_hooks_input`<sup>Optional</sup> <a name="contact_hooks_input" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplate.property.contactHooksInput"></a>
+
+```python
+contact_hooks_input: IResolvable | ConnectTaskTemplateContactHooks
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks">ConnectTaskTemplateContactHooks</a>
 
 ---
 
@@ -1355,6 +1417,7 @@ connectTaskTemplate.ConnectTaskTemplateConfig(
   client_token: str = None,
   constraints: ConnectTaskTemplateConstraints = None,
   contact_flow_arn: str = None,
+  contact_hooks: ConnectTaskTemplateContactHooks = None,
   defaults: IResolvable | typing.List[ConnectTaskTemplateDefaults] = None,
   description: str = None,
   fields: IResolvable | typing.List[ConnectTaskTemplateFields] = None,
@@ -1380,7 +1443,8 @@ connectTaskTemplate.ConnectTaskTemplateConfig(
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.clientToken">client_token</a></code> | <code>str</code> | the client token string in uuid format. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.constraints">constraints</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraints">ConnectTaskTemplateConstraints</a></code> | The constraints for the task template. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.contactFlowArn">contact_flow_arn</a></code> | <code>str</code> | The identifier of the contact flow. |
-| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.defaults">defaults</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.contactHooks">contact_hooks</a></code> | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks">ConnectTaskTemplateContactHooks</a></code> | The contact hooks for the task template. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.defaults">defaults</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.description">description</a></code> | <code>str</code> | The description of the task template. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.fields">fields</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateFields">ConnectTaskTemplateFields</a>]</code> | The list of task template's fields. |
 | <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.name">name</a></code> | <code>str</code> | The name of the task template. |
@@ -1470,7 +1534,7 @@ instance_arn: str
 
 The identifier (arn) of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#instance_arn ConnectTaskTemplate#instance_arn}
 
 ---
 
@@ -1484,7 +1548,7 @@ client_token: str
 
 the client token string in uuid format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#client_token ConnectTaskTemplate#client_token}
 
 ---
 
@@ -1498,7 +1562,7 @@ constraints: ConnectTaskTemplateConstraints
 
 The constraints for the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#constraints ConnectTaskTemplate#constraints}
 
 ---
 
@@ -1512,7 +1576,21 @@ contact_flow_arn: str
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#contact_flow_arn ConnectTaskTemplate#contact_flow_arn}
+
+---
+
+##### `contact_hooks`<sup>Optional</sup> <a name="contact_hooks" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConfig.property.contactHooks"></a>
+
+```python
+contact_hooks: ConnectTaskTemplateContactHooks
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks">ConnectTaskTemplateContactHooks</a>
+
+The contact hooks for the task template.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#contact_hooks ConnectTaskTemplate#contact_hooks}
 
 ---
 
@@ -1524,7 +1602,7 @@ defaults: IResolvable | typing.List[ConnectTaskTemplateDefaults]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateDefaults">ConnectTaskTemplateDefaults</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#defaults ConnectTaskTemplate#defaults}.
 
 ---
 
@@ -1538,7 +1616,7 @@ description: str
 
 The description of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
 
 ---
 
@@ -1552,7 +1630,7 @@ fields: IResolvable | typing.List[ConnectTaskTemplateFields]
 
 The list of task template's fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#fields ConnectTaskTemplate#fields}
 
 ---
 
@@ -1566,7 +1644,7 @@ name: str
 
 The name of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1580,7 +1658,7 @@ self_assign_contact_flow_arn: str
 
 The identifier of the contact flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#self_assign_contact_flow_arn ConnectTaskTemplate#self_assign_contact_flow_arn}
 
 ---
 
@@ -1594,7 +1672,7 @@ status: str
 
 The status of the task template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#status ConnectTaskTemplate#status}
 
 ---
 
@@ -1608,7 +1686,7 @@ tags: IResolvable | typing.List[ConnectTaskTemplateTags]
 
 One or more tags.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#tags ConnectTaskTemplate#tags}
 
 ---
 
@@ -1646,7 +1724,7 @@ invisible_fields: IResolvable | typing.List[ConnectTaskTemplateConstraintsInvisi
 
 The list of the task template's invisible fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#invisible_fields ConnectTaskTemplate#invisible_fields}
 
 ---
 
@@ -1660,7 +1738,7 @@ read_only_fields: IResolvable | typing.List[ConnectTaskTemplateConstraintsReadOn
 
 The list of the task template's read only fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#read_only_fields ConnectTaskTemplate#read_only_fields}
 
 ---
 
@@ -1674,7 +1752,7 @@ required_fields: IResolvable | typing.List[ConnectTaskTemplateConstraintsRequire
 
 The list of the task template's required fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#required_fields ConnectTaskTemplate#required_fields}
 
 ---
 
@@ -1708,7 +1786,7 @@ id: ConnectTaskTemplateConstraintsInvisibleFieldsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1745,7 +1823,7 @@ name: str
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1779,7 +1857,7 @@ id: ConnectTaskTemplateConstraintsReadOnlyFieldsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1816,7 +1894,7 @@ name: str
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -1850,7 +1928,7 @@ id: ConnectTaskTemplateConstraintsRequiredFieldsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1887,7 +1965,43 @@ name: str
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+
+---
+
+### ConnectTaskTemplateContactHooks <a name="ConnectTaskTemplateContactHooks" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import connect_task_template
+
+connectTaskTemplate.ConnectTaskTemplateContactHooks(
+  wrap_up_flow_arn: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks.property.wrapUpFlowArn">wrap_up_flow_arn</a></code> | <code>str</code> | The identifier (arn) of the flow module that runs when an agent attempts to disconnect from a task created by referencing this template. |
+
+---
+
+##### `wrap_up_flow_arn`<sup>Optional</sup> <a name="wrap_up_flow_arn" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks.property.wrapUpFlowArn"></a>
+
+```python
+wrap_up_flow_arn: str
+```
+
+- *Type:* str
+
+The identifier (arn) of the flow module that runs when an agent attempts to disconnect from a task created by referencing this template.
+
+If no agent ever connects to the task, the flow module runs when the task is terminated.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#wrap_up_flow_arn ConnectTaskTemplate#wrap_up_flow_arn}
 
 ---
 
@@ -1923,7 +2037,7 @@ default_value: str
 
 the default value for the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#default_value ConnectTaskTemplate#default_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#default_value ConnectTaskTemplate#default_value}
 
 ---
 
@@ -1937,7 +2051,7 @@ id: ConnectTaskTemplateDefaultsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1974,7 +2088,7 @@ name: str
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -2014,7 +2128,7 @@ description: str
 
 The description of the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#description ConnectTaskTemplate#description}
 
 ---
 
@@ -2028,7 +2142,7 @@ id: ConnectTaskTemplateFieldsId
 
 the identifier (name) for the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#id ConnectTaskTemplate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2045,7 +2159,7 @@ single_select_options: typing.List[str]
 
 list of field options to be used with single select.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#single_select_options ConnectTaskTemplate#single_select_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#single_select_options ConnectTaskTemplate#single_select_options}
 
 ---
 
@@ -2059,7 +2173,7 @@ type: str
 
 The type of the task template's field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#type ConnectTaskTemplate#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#type ConnectTaskTemplate#type}
 
 ---
 
@@ -2093,7 +2207,7 @@ name: str
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -2131,7 +2245,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#key ConnectTaskTemplate#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#key ConnectTaskTemplate#key}
 
 ---
 
@@ -2147,7 +2261,7 @@ The value for the tag.
 
 . You can specify a value that is maximum of 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#value ConnectTaskTemplate#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#value ConnectTaskTemplate#value}
 
 ---
 
@@ -2890,7 +3004,7 @@ def put_id(
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -4111,7 +4225,7 @@ def put_id(
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -4926,7 +5040,7 @@ def put_id(
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -5000,6 +5114,309 @@ internal_value: IResolvable | ConnectTaskTemplateConstraintsRequiredFields
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateConstraintsRequiredFields">ConnectTaskTemplateConstraintsRequiredFields</a>
+
+---
+
+
+### ConnectTaskTemplateContactHooksOutputReference <a name="ConnectTaskTemplateContactHooksOutputReference" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import connect_task_template
+
+connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.resetWrapUpFlowArn">reset_wrap_up_flow_arn</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_wrap_up_flow_arn` <a name="reset_wrap_up_flow_arn" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.resetWrapUpFlowArn"></a>
+
+```python
+def reset_wrap_up_flow_arn() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.wrapUpFlowArnInput">wrap_up_flow_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.wrapUpFlowArn">wrap_up_flow_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks">ConnectTaskTemplateContactHooks</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `wrap_up_flow_arn_input`<sup>Optional</sup> <a name="wrap_up_flow_arn_input" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.wrapUpFlowArnInput"></a>
+
+```python
+wrap_up_flow_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `wrap_up_flow_arn`<sup>Required</sup> <a name="wrap_up_flow_arn" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.wrapUpFlowArn"></a>
+
+```python
+wrap_up_flow_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooksOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | ConnectTaskTemplateContactHooks
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.connectTaskTemplate.ConnectTaskTemplateContactHooks">ConnectTaskTemplateContactHooks</a>
 
 ---
 
@@ -5742,7 +6159,7 @@ def put_id(
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 
@@ -6588,7 +7005,7 @@ def put_id(
 
 The name of the task template field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/connect_task_template#name ConnectTaskTemplate#name}
 
 ---
 

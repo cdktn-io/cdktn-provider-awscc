@@ -4,7 +4,7 @@
 
 ### Ec2VpcPeeringConnection <a name="Ec2VpcPeeringConnection" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer"></a>
 
@@ -27,7 +27,9 @@ ec2VpcPeeringConnection.Ec2VpcPeeringConnection(
   peer_owner_id: str = None,
   peer_region: str = None,
   peer_role_arn: str = None,
-  tags: IResolvable | typing.List[Ec2VpcPeeringConnectionTags] = None
+  peer_vpc_peering_connection_options: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions = None,
+  tags: IResolvable | typing.List[Ec2VpcPeeringConnectionTags] = None,
+  vpc_peering_connection_options: Ec2VpcPeeringConnectionVpcPeeringConnectionOptions = None
 )
 ```
 
@@ -48,7 +50,9 @@ ec2VpcPeeringConnection.Ec2VpcPeeringConnection(
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.peerOwnerId">peer_owner_id</a></code> | <code>str</code> | The AWS account ID of the owner of the accepter VPC. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.peerRegion">peer_region</a></code> | <code>str</code> | The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.peerRoleArn">peer_role_arn</a></code> | <code>str</code> | The Amazon Resource Name (ARN) of the VPC peer role for the peering connection in another AWS account. |
-| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.peerVpcPeeringConnectionOptions">peer_vpc_peering_connection_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a></code> | The VPC peering connection options corresponding to the accepter side of the connection. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.vpcPeeringConnectionOptions">vpc_peering_connection_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionVpcPeeringConnectionOptions</a></code> | The VPC peering connection options corresponding to the requester side of the connection. |
 
 ---
 
@@ -120,7 +124,7 @@ The ID of the VPC with which you are creating the VPC peering connection.
 
 You must specify this parameter in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
 
 ---
 
@@ -130,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
 
 ---
 
@@ -142,7 +146,7 @@ The Region code to use when calling Security Token Service (STS) to assume the P
 
 You can update this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
 
 ---
 
@@ -152,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS account ID of the owner of the accepter VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
 
 ---
 
@@ -162,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
 
 ---
 
@@ -174,7 +178,17 @@ The Amazon Resource Name (ARN) of the VPC peer role for the peering connection i
 
 You can update this property. To manage PeerVpcPeeringConnectionOptions on a peering connection with another AWS account, the role must allow ec2:DescribeVpcPeeringConnections and ec2:ModifyVpcPeeringConnectionOptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
+
+---
+
+##### `peer_vpc_peering_connection_options`<sup>Optional</sup> <a name="peer_vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.peerVpcPeeringConnectionOptions"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a>
+
+The VPC peering connection options corresponding to the accepter side of the connection.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_peering_connection_options Ec2VpcPeeringConnection#peer_vpc_peering_connection_options}
 
 ---
 
@@ -182,7 +196,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}.
+
+---
+
+##### `vpc_peering_connection_options`<sup>Optional</sup> <a name="vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.Initializer.parameter.vpcPeeringConnectionOptions"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionVpcPeeringConnectionOptions</a>
+
+The VPC peering connection options corresponding to the requester side of the connection.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#vpc_peering_connection_options Ec2VpcPeeringConnection#vpc_peering_connection_options}
 
 ---
 
@@ -214,12 +238,16 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putPeerVpcPeeringConnectionOptions">put_peer_vpc_peering_connection_options</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putTags">put_tags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putVpcPeeringConnectionOptions">put_vpc_peering_connection_options</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetAssumeRoleRegion">reset_assume_role_region</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetPeerOwnerId">reset_peer_owner_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetPeerRegion">reset_peer_region</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetPeerRoleArn">reset_peer_role_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetPeerVpcPeeringConnectionOptions">reset_peer_vpc_peering_connection_options</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetTags">reset_tags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetVpcPeeringConnectionOptions">reset_vpc_peering_connection_options</a></code> | *No description.* |
 
 ---
 
@@ -571,6 +599,48 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_peer_vpc_peering_connection_options` <a name="put_peer_vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putPeerVpcPeeringConnectionOptions"></a>
+
+```python
+def put_peer_vpc_peering_connection_options(
+  allow_dns_resolution_from_remote_vpc: bool | IResolvable = None,
+  allow_multipath_resilience: bool | IResolvable = None,
+  multipath_resilience_mode: str = None
+) -> None
+```
+
+###### `allow_dns_resolution_from_remote_vpc`<sup>Optional</sup> <a name="allow_dns_resolution_from_remote_vpc" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putPeerVpcPeeringConnectionOptions.parameter.allowDnsResolutionFromRemoteVpc"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+If true, enables a local VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the peer VPC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_dns_resolution_from_remote_vpc Ec2VpcPeeringConnection#allow_dns_resolution_from_remote_vpc}
+
+---
+
+###### `allow_multipath_resilience`<sup>Optional</sup> <a name="allow_multipath_resilience" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putPeerVpcPeeringConnectionOptions.parameter.allowMultipathResilience"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+If true, allows multipath resilience on this side of the peering connection.
+
+Multipath resilience is enabled only when both the requester and accepter sides allow it; MultipathResilienceStatus reports the result.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_multipath_resilience Ec2VpcPeeringConnection#allow_multipath_resilience}
+
+---
+
+###### `multipath_resilience_mode`<sup>Optional</sup> <a name="multipath_resilience_mode" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putPeerVpcPeeringConnectionOptions.parameter.multipathResilienceMode"></a>
+
+- *Type:* str
+
+The mode of multipath resilience on the peering connection. Applies when AllowMultipathResilience is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#multipath_resilience_mode Ec2VpcPeeringConnection#multipath_resilience_mode}
+
+---
+
 ##### `put_tags` <a name="put_tags" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putTags"></a>
 
 ```python
@@ -582,6 +652,48 @@ def put_tags(
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putTags.parameter.value"></a>
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>]
+
+---
+
+##### `put_vpc_peering_connection_options` <a name="put_vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putVpcPeeringConnectionOptions"></a>
+
+```python
+def put_vpc_peering_connection_options(
+  allow_dns_resolution_from_remote_vpc: bool | IResolvable = None,
+  allow_multipath_resilience: bool | IResolvable = None,
+  multipath_resilience_mode: str = None
+) -> None
+```
+
+###### `allow_dns_resolution_from_remote_vpc`<sup>Optional</sup> <a name="allow_dns_resolution_from_remote_vpc" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putVpcPeeringConnectionOptions.parameter.allowDnsResolutionFromRemoteVpc"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+If true, enables a local VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the peer VPC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_dns_resolution_from_remote_vpc Ec2VpcPeeringConnection#allow_dns_resolution_from_remote_vpc}
+
+---
+
+###### `allow_multipath_resilience`<sup>Optional</sup> <a name="allow_multipath_resilience" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putVpcPeeringConnectionOptions.parameter.allowMultipathResilience"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+If true, allows multipath resilience on this side of the peering connection.
+
+Multipath resilience is enabled only when both the requester and accepter sides allow it; MultipathResilienceStatus reports the result.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_multipath_resilience Ec2VpcPeeringConnection#allow_multipath_resilience}
+
+---
+
+###### `multipath_resilience_mode`<sup>Optional</sup> <a name="multipath_resilience_mode" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.putVpcPeeringConnectionOptions.parameter.multipathResilienceMode"></a>
+
+- *Type:* str
+
+The mode of multipath resilience on the peering connection. Applies when AllowMultipathResilience is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#multipath_resilience_mode Ec2VpcPeeringConnection#multipath_resilience_mode}
 
 ---
 
@@ -609,10 +721,22 @@ def reset_peer_region() -> None
 def reset_peer_role_arn() -> None
 ```
 
+##### `reset_peer_vpc_peering_connection_options` <a name="reset_peer_vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetPeerVpcPeeringConnectionOptions"></a>
+
+```python
+def reset_peer_vpc_peering_connection_options() -> None
+```
+
 ##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetTags"></a>
 
 ```python
 def reset_tags() -> None
+```
+
+##### `reset_vpc_peering_connection_options` <a name="reset_vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.resetVpcPeeringConnectionOptions"></a>
+
+```python
+def reset_vpc_peering_connection_options() -> None
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -729,7 +853,7 @@ The construct id used in the generated config for the Ec2VpcPeeringConnection to
 
 The id of the existing Ec2VpcPeeringConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -760,15 +884,20 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.multipathResilienceStatus">multipath_resilience_status</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerVpcPeeringConnectionOptions">peer_vpc_peering_connection_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTagsList">Ec2VpcPeeringConnectionTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.vpcPeeringConnectionId">vpc_peering_connection_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.vpcPeeringConnectionOptions">vpc_peering_connection_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference">Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.assumeRoleRegionInput">assume_role_region_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerOwnerIdInput">peer_owner_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerRegionInput">peer_region_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerRoleArnInput">peer_role_arn_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerVpcIdInput">peer_vpc_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerVpcPeeringConnectionOptionsInput">peer_vpc_peering_connection_options_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.vpcIdInput">vpc_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.vpcPeeringConnectionOptionsInput">vpc_peering_connection_options_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionVpcPeeringConnectionOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.assumeRoleRegion">assume_role_region</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerOwnerId">peer_owner_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerRegion">peer_region</a></code> | <code>str</code> | *No description.* |
@@ -930,6 +1059,26 @@ id: str
 
 ---
 
+##### `multipath_resilience_status`<sup>Required</sup> <a name="multipath_resilience_status" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.multipathResilienceStatus"></a>
+
+```python
+multipath_resilience_status: str
+```
+
+- *Type:* str
+
+---
+
+##### `peer_vpc_peering_connection_options`<sup>Required</sup> <a name="peer_vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerVpcPeeringConnectionOptions"></a>
+
+```python
+peer_vpc_peering_connection_options: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference</a>
+
+---
+
 ##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.tags"></a>
 
 ```python
@@ -947,6 +1096,16 @@ vpc_peering_connection_id: str
 ```
 
 - *Type:* str
+
+---
+
+##### `vpc_peering_connection_options`<sup>Required</sup> <a name="vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.vpcPeeringConnectionOptions"></a>
+
+```python
+vpc_peering_connection_options: Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference">Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference</a>
 
 ---
 
@@ -1000,6 +1159,16 @@ peer_vpc_id_input: str
 
 ---
 
+##### `peer_vpc_peering_connection_options_input`<sup>Optional</sup> <a name="peer_vpc_peering_connection_options_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.peerVpcPeeringConnectionOptionsInput"></a>
+
+```python
+peer_vpc_peering_connection_options_input: IResolvable | Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a>
+
+---
+
 ##### `tags_input`<sup>Optional</sup> <a name="tags_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.tagsInput"></a>
 
 ```python
@@ -1017,6 +1186,16 @@ vpc_id_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `vpc_peering_connection_options_input`<sup>Optional</sup> <a name="vpc_peering_connection_options_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnection.property.vpcPeeringConnectionOptionsInput"></a>
+
+```python
+vpc_peering_connection_options_input: IResolvable | Ec2VpcPeeringConnectionVpcPeeringConnectionOptions
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionVpcPeeringConnectionOptions</a>
 
 ---
 
@@ -1121,7 +1300,9 @@ ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig(
   peer_owner_id: str = None,
   peer_region: str = None,
   peer_role_arn: str = None,
-  tags: IResolvable | typing.List[Ec2VpcPeeringConnectionTags] = None
+  peer_vpc_peering_connection_options: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions = None,
+  tags: IResolvable | typing.List[Ec2VpcPeeringConnectionTags] = None,
+  vpc_peering_connection_options: Ec2VpcPeeringConnectionVpcPeeringConnectionOptions = None
 )
 ```
 
@@ -1142,7 +1323,9 @@ ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig(
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.peerOwnerId">peer_owner_id</a></code> | <code>str</code> | The AWS account ID of the owner of the accepter VPC. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.peerRegion">peer_region</a></code> | <code>str</code> | The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request. |
 | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.peerRoleArn">peer_role_arn</a></code> | <code>str</code> | The Amazon Resource Name (ARN) of the VPC peer role for the peering connection in another AWS account. |
-| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.peerVpcPeeringConnectionOptions">peer_vpc_peering_connection_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a></code> | The VPC peering connection options corresponding to the accepter side of the connection. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.vpcPeeringConnectionOptions">vpc_peering_connection_options</a></code> | <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionVpcPeeringConnectionOptions</a></code> | The VPC peering connection options corresponding to the requester side of the connection. |
 
 ---
 
@@ -1228,7 +1411,7 @@ The ID of the VPC with which you are creating the VPC peering connection.
 
 You must specify this parameter in the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_id Ec2VpcPeeringConnection#peer_vpc_id}
 
 ---
 
@@ -1242,7 +1425,7 @@ vpc_id: str
 
 The ID of the VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#vpc_id Ec2VpcPeeringConnection#vpc_id}
 
 ---
 
@@ -1258,7 +1441,7 @@ The Region code to use when calling Security Token Service (STS) to assume the P
 
 You can update this property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#assume_role_region Ec2VpcPeeringConnection#assume_role_region}
 
 ---
 
@@ -1272,7 +1455,7 @@ peer_owner_id: str
 
 The AWS account ID of the owner of the accepter VPC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_owner_id Ec2VpcPeeringConnection#peer_owner_id}
 
 ---
 
@@ -1286,7 +1469,7 @@ peer_region: str
 
 The Region code for the accepter VPC, if the accepter VPC is located in a Region other than the Region in which you make the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_region Ec2VpcPeeringConnection#peer_region}
 
 ---
 
@@ -1302,7 +1485,21 @@ The Amazon Resource Name (ARN) of the VPC peer role for the peering connection i
 
 You can update this property. To manage PeerVpcPeeringConnectionOptions on a peering connection with another AWS account, the role must allow ec2:DescribeVpcPeeringConnections and ec2:ModifyVpcPeeringConnectionOptions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_role_arn Ec2VpcPeeringConnection#peer_role_arn}
+
+---
+
+##### `peer_vpc_peering_connection_options`<sup>Optional</sup> <a name="peer_vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.peerVpcPeeringConnectionOptions"></a>
+
+```python
+peer_vpc_peering_connection_options: Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a>
+
+The VPC peering connection options corresponding to the accepter side of the connection.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#peer_vpc_peering_connection_options Ec2VpcPeeringConnection#peer_vpc_peering_connection_options}
 
 ---
 
@@ -1314,7 +1511,89 @@ tags: IResolvable | typing.List[Ec2VpcPeeringConnectionTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#tags Ec2VpcPeeringConnection#tags}.
+
+---
+
+##### `vpc_peering_connection_options`<sup>Optional</sup> <a name="vpc_peering_connection_options" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionConfig.property.vpcPeeringConnectionOptions"></a>
+
+```python
+vpc_peering_connection_options: Ec2VpcPeeringConnectionVpcPeeringConnectionOptions
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionVpcPeeringConnectionOptions</a>
+
+The VPC peering connection options corresponding to the requester side of the connection.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#vpc_peering_connection_options Ec2VpcPeeringConnection#vpc_peering_connection_options}
+
+---
+
+### Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions <a name="Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ec2_vpc_peering_connection
+
+ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions(
+  allow_dns_resolution_from_remote_vpc: bool | IResolvable = None,
+  allow_multipath_resilience: bool | IResolvable = None,
+  multipath_resilience_mode: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions.property.allowDnsResolutionFromRemoteVpc">allow_dns_resolution_from_remote_vpc</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, enables a local VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the peer VPC. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions.property.allowMultipathResilience">allow_multipath_resilience</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, allows multipath resilience on this side of the peering connection. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions.property.multipathResilienceMode">multipath_resilience_mode</a></code> | <code>str</code> | The mode of multipath resilience on the peering connection. Applies when AllowMultipathResilience is true. |
+
+---
+
+##### `allow_dns_resolution_from_remote_vpc`<sup>Optional</sup> <a name="allow_dns_resolution_from_remote_vpc" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions.property.allowDnsResolutionFromRemoteVpc"></a>
+
+```python
+allow_dns_resolution_from_remote_vpc: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+If true, enables a local VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the peer VPC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_dns_resolution_from_remote_vpc Ec2VpcPeeringConnection#allow_dns_resolution_from_remote_vpc}
+
+---
+
+##### `allow_multipath_resilience`<sup>Optional</sup> <a name="allow_multipath_resilience" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions.property.allowMultipathResilience"></a>
+
+```python
+allow_multipath_resilience: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+If true, allows multipath resilience on this side of the peering connection.
+
+Multipath resilience is enabled only when both the requester and accepter sides allow it; MultipathResilienceStatus reports the result.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_multipath_resilience Ec2VpcPeeringConnection#allow_multipath_resilience}
+
+---
+
+##### `multipath_resilience_mode`<sup>Optional</sup> <a name="multipath_resilience_mode" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions.property.multipathResilienceMode"></a>
+
+```python
+multipath_resilience_mode: str
+```
+
+- *Type:* str
+
+The mode of multipath resilience on the peering connection. Applies when AllowMultipathResilience is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#multipath_resilience_mode Ec2VpcPeeringConnection#multipath_resilience_mode}
 
 ---
 
@@ -1352,7 +1631,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#key Ec2VpcPeeringConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#key Ec2VpcPeeringConnection#key}
 
 ---
 
@@ -1368,11 +1647,440 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/ec2_vpc_peering_connection#value Ec2VpcPeeringConnection#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#value Ec2VpcPeeringConnection#value}
+
+---
+
+### Ec2VpcPeeringConnectionVpcPeeringConnectionOptions <a name="Ec2VpcPeeringConnectionVpcPeeringConnectionOptions" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ec2_vpc_peering_connection
+
+ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions(
+  allow_dns_resolution_from_remote_vpc: bool | IResolvable = None,
+  allow_multipath_resilience: bool | IResolvable = None,
+  multipath_resilience_mode: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions.property.allowDnsResolutionFromRemoteVpc">allow_dns_resolution_from_remote_vpc</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, enables a local VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the peer VPC. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions.property.allowMultipathResilience">allow_multipath_resilience</a></code> | <code>bool \| cdktn.IResolvable</code> | If true, allows multipath resilience on this side of the peering connection. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions.property.multipathResilienceMode">multipath_resilience_mode</a></code> | <code>str</code> | The mode of multipath resilience on the peering connection. Applies when AllowMultipathResilience is true. |
+
+---
+
+##### `allow_dns_resolution_from_remote_vpc`<sup>Optional</sup> <a name="allow_dns_resolution_from_remote_vpc" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions.property.allowDnsResolutionFromRemoteVpc"></a>
+
+```python
+allow_dns_resolution_from_remote_vpc: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+If true, enables a local VPC to resolve public DNS hostnames to private IP addresses when queried from instances in the peer VPC.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_dns_resolution_from_remote_vpc Ec2VpcPeeringConnection#allow_dns_resolution_from_remote_vpc}
+
+---
+
+##### `allow_multipath_resilience`<sup>Optional</sup> <a name="allow_multipath_resilience" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions.property.allowMultipathResilience"></a>
+
+```python
+allow_multipath_resilience: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+If true, allows multipath resilience on this side of the peering connection.
+
+Multipath resilience is enabled only when both the requester and accepter sides allow it; MultipathResilienceStatus reports the result.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#allow_multipath_resilience Ec2VpcPeeringConnection#allow_multipath_resilience}
+
+---
+
+##### `multipath_resilience_mode`<sup>Optional</sup> <a name="multipath_resilience_mode" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions.property.multipathResilienceMode"></a>
+
+```python
+multipath_resilience_mode: str
+```
+
+- *Type:* str
+
+The mode of multipath resilience on the peering connection. Applies when AllowMultipathResilience is true.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/ec2_vpc_peering_connection#multipath_resilience_mode Ec2VpcPeeringConnection#multipath_resilience_mode}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference <a name="Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ec2_vpc_peering_connection
+
+ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resetAllowDnsResolutionFromRemoteVpc">reset_allow_dns_resolution_from_remote_vpc</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resetAllowMultipathResilience">reset_allow_multipath_resilience</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resetMultipathResilienceMode">reset_multipath_resilience_mode</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_allow_dns_resolution_from_remote_vpc` <a name="reset_allow_dns_resolution_from_remote_vpc" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resetAllowDnsResolutionFromRemoteVpc"></a>
+
+```python
+def reset_allow_dns_resolution_from_remote_vpc() -> None
+```
+
+##### `reset_allow_multipath_resilience` <a name="reset_allow_multipath_resilience" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resetAllowMultipathResilience"></a>
+
+```python
+def reset_allow_multipath_resilience() -> None
+```
+
+##### `reset_multipath_resilience_mode` <a name="reset_multipath_resilience_mode" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resetMultipathResilienceMode"></a>
+
+```python
+def reset_multipath_resilience_mode() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpcInput">allow_dns_resolution_from_remote_vpc_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilienceInput">allow_multipath_resilience_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceModeInput">multipath_resilience_mode_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpc">allow_dns_resolution_from_remote_vpc</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilience">allow_multipath_resilience</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceMode">multipath_resilience_mode</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `allow_dns_resolution_from_remote_vpc_input`<sup>Optional</sup> <a name="allow_dns_resolution_from_remote_vpc_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpcInput"></a>
+
+```python
+allow_dns_resolution_from_remote_vpc_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `allow_multipath_resilience_input`<sup>Optional</sup> <a name="allow_multipath_resilience_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilienceInput"></a>
+
+```python
+allow_multipath_resilience_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `multipath_resilience_mode_input`<sup>Optional</sup> <a name="multipath_resilience_mode_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceModeInput"></a>
+
+```python
+multipath_resilience_mode_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `allow_dns_resolution_from_remote_vpc`<sup>Required</sup> <a name="allow_dns_resolution_from_remote_vpc" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpc"></a>
+
+```python
+allow_dns_resolution_from_remote_vpc: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `allow_multipath_resilience`<sup>Required</sup> <a name="allow_multipath_resilience" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilience"></a>
+
+```python
+allow_multipath_resilience: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `multipath_resilience_mode`<sup>Required</sup> <a name="multipath_resilience_mode" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceMode"></a>
+
+```python
+multipath_resilience_mode: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a>
+
+---
+
 
 ### Ec2VpcPeeringConnectionTagsList <a name="Ec2VpcPeeringConnectionTagsList" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTagsList"></a>
 
@@ -1892,6 +2600,367 @@ internal_value: IResolvable | Ec2VpcPeeringConnectionTags
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionTags">Ec2VpcPeeringConnectionTags</a>
+
+---
+
+
+### Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference <a name="Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ec2_vpc_peering_connection
+
+ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resetAllowDnsResolutionFromRemoteVpc">reset_allow_dns_resolution_from_remote_vpc</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resetAllowMultipathResilience">reset_allow_multipath_resilience</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resetMultipathResilienceMode">reset_multipath_resilience_mode</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_allow_dns_resolution_from_remote_vpc` <a name="reset_allow_dns_resolution_from_remote_vpc" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resetAllowDnsResolutionFromRemoteVpc"></a>
+
+```python
+def reset_allow_dns_resolution_from_remote_vpc() -> None
+```
+
+##### `reset_allow_multipath_resilience` <a name="reset_allow_multipath_resilience" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resetAllowMultipathResilience"></a>
+
+```python
+def reset_allow_multipath_resilience() -> None
+```
+
+##### `reset_multipath_resilience_mode` <a name="reset_multipath_resilience_mode" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resetMultipathResilienceMode"></a>
+
+```python
+def reset_multipath_resilience_mode() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpcInput">allow_dns_resolution_from_remote_vpc_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilienceInput">allow_multipath_resilience_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceModeInput">multipath_resilience_mode_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpc">allow_dns_resolution_from_remote_vpc</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilience">allow_multipath_resilience</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceMode">multipath_resilience_mode</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionVpcPeeringConnectionOptions</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `allow_dns_resolution_from_remote_vpc_input`<sup>Optional</sup> <a name="allow_dns_resolution_from_remote_vpc_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpcInput"></a>
+
+```python
+allow_dns_resolution_from_remote_vpc_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `allow_multipath_resilience_input`<sup>Optional</sup> <a name="allow_multipath_resilience_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilienceInput"></a>
+
+```python
+allow_multipath_resilience_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `multipath_resilience_mode_input`<sup>Optional</sup> <a name="multipath_resilience_mode_input" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceModeInput"></a>
+
+```python
+multipath_resilience_mode_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `allow_dns_resolution_from_remote_vpc`<sup>Required</sup> <a name="allow_dns_resolution_from_remote_vpc" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpc"></a>
+
+```python
+allow_dns_resolution_from_remote_vpc: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `allow_multipath_resilience`<sup>Required</sup> <a name="allow_multipath_resilience" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilience"></a>
+
+```python
+allow_multipath_resilience: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `multipath_resilience_mode`<sup>Required</sup> <a name="multipath_resilience_mode" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceMode"></a>
+
+```python
+multipath_resilience_mode: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | Ec2VpcPeeringConnectionVpcPeeringConnectionOptions
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.ec2VpcPeeringConnection.Ec2VpcPeeringConnectionVpcPeeringConnectionOptions">Ec2VpcPeeringConnectionVpcPeeringConnectionOptions</a>
 
 ---
 

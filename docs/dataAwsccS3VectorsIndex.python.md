@@ -4,7 +4,7 @@
 
 ### DataAwsccS3VectorsIndex <a name="DataAwsccS3VectorsIndex" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3vectors_index awscc_s3vectors_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3vectors_index awscc_s3vectors_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndex.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3vectors_index#id DataAwsccS3VectorsIndex#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3vectors_index#id DataAwsccS3VectorsIndex#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccS3VectorsIndex to
 
 The id of the existing DataAwsccS3VectorsIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3vectors_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3vectors_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -922,7 +922,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/s3vectors_index#id DataAwsccS3VectorsIndex#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/s3vectors_index#id DataAwsccS3VectorsIndex#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -948,6 +948,17 @@ dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexEncryptionConfiguration()
 from cdktn_provider_awscc import data_awscc_s3_vectors_index
 
 dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfiguration()
+```
+
+
+### DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations <a name="DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_s3_vectors_index
+
+dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations()
 ```
 
 
@@ -1496,6 +1507,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationOutputReference.property.nonFilterableMetadataKeys">non_filterable_metadata_keys</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationOutputReference.property.textSearchConfigurations">text_search_configurations</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList">DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfiguration">DataAwsccS3VectorsIndexMetadataConfiguration</a></code> | *No description.* |
 
 ---
@@ -1534,6 +1546,16 @@ non_filterable_metadata_keys: typing.List[str]
 
 ---
 
+##### `text_search_configurations`<sup>Required</sup> <a name="text_search_configurations" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationOutputReference.property.textSearchConfigurations"></a>
+
+```python
+text_search_configurations: DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList">DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList</a>
+
+---
+
 ##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationOutputReference.property.internalValue"></a>
 
 ```python
@@ -1541,6 +1563,481 @@ internal_value: DataAwsccS3VectorsIndexMetadataConfiguration
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfiguration">DataAwsccS3VectorsIndexMetadataConfiguration</a>
+
+---
+
+
+### DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList <a name="DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_s3_vectors_index
+
+dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+
+### DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference <a name="DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_s3_vectors_index
+
+dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.language">language</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.metadataKey">metadata_key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations">DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `language`<sup>Required</sup> <a name="language" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.language"></a>
+
+```python
+language: str
+```
+
+- *Type:* str
+
+---
+
+##### `metadata_key`<sup>Required</sup> <a name="metadata_key" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.metadataKey"></a>
+
+```python
+metadata_key: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurationsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3VectorsIndex.DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations">DataAwsccS3VectorsIndexMetadataConfigurationTextSearchConfigurations</a>
 
 ---
 

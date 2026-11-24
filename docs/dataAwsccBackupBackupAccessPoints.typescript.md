@@ -4,7 +4,7 @@
 
 ### DataAwsccBackupBackupAccessPoints <a name="DataAwsccBackupBackupAccessPoints" id="@cdktn/provider-awscc.dataAwsccBackupBackupAccessPoints.DataAwsccBackupBackupAccessPoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/backup_backup_access_points awscc_backup_backup_access_points}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/backup_backup_access_points awscc_backup_backup_access_points}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBackupBackupAccessPoints.DataAwsccBackupBackupAccessPoints.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccBackupBackupAcces
 
 The id of the existing DataAwsccBackupBackupAccessPoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/backup_backup_access_points#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/backup_backup_access_points#import import section} in the documentation of this resource for the id to use
 
 ---
 

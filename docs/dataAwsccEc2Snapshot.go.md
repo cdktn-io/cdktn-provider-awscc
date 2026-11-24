@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2Snapshot <a name="DataAwsccEc2Snapshot" id="@cdktn/provider-awscc.dataAwsccEc2Snapshot.DataAwsccEc2Snapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_snapshot awscc_ec2_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_snapshot awscc_ec2_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2Snapshot.DataAwsccEc2Snapshot.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2Snapshot to im
 
 The id of the existing DataAwsccEc2Snapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,7 +839,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_snapshot#id DataAwsccEc2Snapshot#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_snapshot#id DataAwsccEc2Snapshot#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

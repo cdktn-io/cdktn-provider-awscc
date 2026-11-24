@@ -4,7 +4,7 @@
 
 ### AppstreamStack <a name="AppstreamStack" id="@cdktn/provider-awscc.appstreamStack.AppstreamStack"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack awscc_appstream_stack}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack awscc_appstream_stack}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamStack.AppstreamStack.Initializer"></a>
 
@@ -138,7 +138,7 @@ The list of virtual private cloud (VPC) interface endpoint objects.
 
 Users of the stack can connect to AppStream 2.0 only through the specified endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#access_endpoints AppstreamStack#access_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#access_endpoints AppstreamStack#access_endpoints}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The configuration for agent access on the stack. If specified, agent access is enabled for the stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#agent_access_config AppstreamStack#agent_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#agent_access_config AppstreamStack#agent_access_config}
 
 ---
 
@@ -160,7 +160,7 @@ The persistent application settings for users of the stack.
 
 When these settings are enabled, changes that users make to applications and Windows settings are automatically saved after each session and applied to the next session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#application_settings AppstreamStack#application_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#application_settings AppstreamStack#application_settings}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The stack attributes to delete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#attributes_to_delete AppstreamStack#attributes_to_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#attributes_to_delete AppstreamStack#attributes_to_delete}
 
 ---
 
@@ -182,7 +182,7 @@ The content redirection settings for the stack.
 
 These settings control URL redirection between the streaming session and the local device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#content_redirection AppstreamStack#content_redirection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#content_redirection AppstreamStack#content_redirection}
 
 ---
 
@@ -192,7 +192,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This parameter has been deprecated. Deletes the storage connectors currently enabled for the stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#delete_storage_connectors AppstreamStack#delete_storage_connectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#delete_storage_connectors AppstreamStack#delete_storage_connectors}
 
 ---
 
@@ -202,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description to display.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#description AppstreamStack#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#description AppstreamStack#description}
 
 ---
 
@@ -212,7 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The stack name to display.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#display_name AppstreamStack#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#display_name AppstreamStack#display_name}
 
 ---
 
@@ -222,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The domains where AppStream 2.0 streaming sessions can be embedded in an iframe. You must approve the domains that you want to host embedded AppStream 2.0 streaming sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#embed_host_domains AppstreamStack#embed_host_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#embed_host_domains AppstreamStack#embed_host_domains}
 
 ---
 
@@ -234,7 +234,7 @@ The URL that users are redirected to after they click the Send Feedback link.
 
 If no URL is specified, no Send Feedback link is displayed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#feedback_url AppstreamStack#feedback_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#feedback_url AppstreamStack#feedback_url}
 
 ---
 
@@ -244,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#name AppstreamStack#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#name AppstreamStack#name}
 
 ---
 
@@ -254,7 +254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The URL that users are redirected to after their streaming session ends.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#redirect_url AppstreamStack#redirect_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#redirect_url AppstreamStack#redirect_url}
 
 ---
 
@@ -264,7 +264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Controls whether stored OneDrive and Google Drive authentication is retained between streaming sessions. Valid values: FORCE_REAUTHENTICATION | REUSE_CREDENTIALS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#storage_connector_authentication AppstreamStack#storage_connector_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#storage_connector_authentication AppstreamStack#storage_connector_authentication}
 
 ---
 
@@ -274,7 +274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The storage connectors to enable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#storage_connectors AppstreamStack#storage_connectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#storage_connectors AppstreamStack#storage_connectors}
 
 ---
 
@@ -286,7 +286,7 @@ The streaming protocol that you want your stack to prefer.
 
 This can be UDP or TCP. Currently, UDP is only supported in the Windows native client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#streaming_experience_settings AppstreamStack#streaming_experience_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#streaming_experience_settings AppstreamStack#streaming_experience_settings}
 
 ---
 
@@ -296,7 +296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#tags AppstreamStack#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#tags AppstreamStack#tags}
 
 ---
 
@@ -306,7 +306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The actions that are enabled or disabled for users during their streaming sessions. By default, these actions are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#user_settings AppstreamStack#user_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#user_settings AppstreamStack#user_settings}
 
 ---
 
@@ -978,7 +978,7 @@ The construct id used in the generated config for the AppstreamStack to import.
 
 The id of the existing AppstreamStack that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1590,7 +1590,7 @@ public java.lang.String getEndpointType();
 
 The type of interface endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#endpoint_type AppstreamStack#endpoint_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#endpoint_type AppstreamStack#endpoint_type}
 
 ---
 
@@ -1604,7 +1604,7 @@ public java.lang.String getVpceId();
 
 The identifier (ID) of the VPC in which the interface endpoint is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#vpce_id AppstreamStack#vpce_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#vpce_id AppstreamStack#vpce_id}
 
 ---
 
@@ -1616,6 +1616,8 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import io.cdktn.providers.awscc.appstream_stack.AppstreamStackAgentAccessConfig;
 
 AppstreamStackAgentAccessConfig.builder()
+//  .kmsKeyArn(java.lang.String)
+//  .replaySessionEnabled(java.lang.Boolean|IResolvable)
 //  .s3BucketArn(java.lang.String)
 //  .screenImageFormat(java.lang.String)
 //  .screenResolution(java.lang.String)
@@ -1629,12 +1631,46 @@ AppstreamStackAgentAccessConfig.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.s3BucketArn">s3BucketArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the Amazon S3 bucket where agent screenshots are stored. |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the customer managed symmetric encryption KMS key that encrypts Replay Session artifacts while WorkSpaces Applications processes them. |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.replaySessionEnabled">replaySessionEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates whether Replay Session is enabled for agent sessions. |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.s3BucketArn">s3BucketArn</a></code> | <code>java.lang.String</code> | The Amazon Resource Name (ARN) of the Amazon S3 bucket where agent screenshots and Replay Session artifacts are stored. |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.screenImageFormat">screenImageFormat</a></code> | <code>java.lang.String</code> | The image format for agent screen captures. |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.screenResolution">screenResolution</a></code> | <code>java.lang.String</code> | The screen resolution for the agent streaming environment. |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.screenshotsUploadEnabled">screenshotsUploadEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates whether screenshot uploads to Amazon S3 are enabled for agent sessions. |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.settings">settings</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigSettings">AppstreamStackAgentAccessConfigSettings</a>></code> | The list of agent access settings that define permissions for each agent action. |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.userControlMode">userControlMode</a></code> | <code>java.lang.String</code> | The user control mode for agent sessions. |
+
+---
+
+##### `kmsKeyArn`<sup>Optional</sup> <a name="kmsKeyArn" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.kmsKeyArn"></a>
+
+```java
+public java.lang.String getKmsKeyArn();
+```
+
+- *Type:* java.lang.String
+
+The Amazon Resource Name (ARN) of the customer managed symmetric encryption KMS key that encrypts Replay Session artifacts while WorkSpaces Applications processes them.
+
+The key must be in the same Region as the stack, and ReplaySessionEnabled must be true. To remove the key, use AttributesToDelete with the AGENT_ACCESS_CONFIG_KMS_KEY_ARN value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#kms_key_arn AppstreamStack#kms_key_arn}
+
+---
+
+##### `replaySessionEnabled`<sup>Optional</sup> <a name="replaySessionEnabled" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfig.property.replaySessionEnabled"></a>
+
+```java
+public java.lang.Boolean|IResolvable getReplaySessionEnabled();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+Indicates whether Replay Session is enabled for agent sessions.
+
+WorkSpaces Applications delivers a video combining session screenshots, a transcript, and a report for each session. Requires the COMPUTER_VISION agent action. Setting this attribute to false also removes the KmsKeyArn value from the stack.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#replay_session_enabled AppstreamStack#replay_session_enabled}
 
 ---
 
@@ -1646,11 +1682,11 @@ public java.lang.String getS3BucketArn();
 
 - *Type:* java.lang.String
 
-The Amazon Resource Name (ARN) of the Amazon S3 bucket where agent screenshots are stored.
+The Amazon Resource Name (ARN) of the Amazon S3 bucket where agent screenshots and Replay Session artifacts are stored.
 
-Required when ScreenshotsUploadEnabled is true.
+Required when ScreenshotsUploadEnabled or ReplaySessionEnabled is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#s3_bucket_arn AppstreamStack#s3_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#s3_bucket_arn AppstreamStack#s3_bucket_arn}
 
 ---
 
@@ -1664,7 +1700,7 @@ public java.lang.String getScreenImageFormat();
 
 The image format for agent screen captures.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#screen_image_format AppstreamStack#screen_image_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#screen_image_format AppstreamStack#screen_image_format}
 
 ---
 
@@ -1678,7 +1714,7 @@ public java.lang.String getScreenResolution();
 
 The screen resolution for the agent streaming environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#screen_resolution AppstreamStack#screen_resolution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#screen_resolution AppstreamStack#screen_resolution}
 
 ---
 
@@ -1692,7 +1728,7 @@ public java.lang.Boolean|IResolvable getScreenshotsUploadEnabled();
 
 Indicates whether screenshot uploads to Amazon S3 are enabled for agent sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#screenshots_upload_enabled AppstreamStack#screenshots_upload_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#screenshots_upload_enabled AppstreamStack#screenshots_upload_enabled}
 
 ---
 
@@ -1708,7 +1744,7 @@ The list of agent access settings that define permissions for each agent action.
 
 You must specify at least one setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#settings AppstreamStack#settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#settings AppstreamStack#settings}
 
 ---
 
@@ -1724,7 +1760,7 @@ The user control mode for agent sessions.
 
 This setting determines how users can interact with agent sessions. Valid values are VIEW_ONLY, VIEW_STOP, and DISABLED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#user_control_mode AppstreamStack#user_control_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#user_control_mode AppstreamStack#user_control_mode}
 
 ---
 
@@ -1762,7 +1798,7 @@ The agent action to configure.
 
 Valid values are COMPUTER_VISION, COMPUTER_INPUT, and FORWARD_MCP_TOOLS. COMPUTER_VISION allows agents to take screenshots of the desktop. COMPUTER_INPUT allows agents to click, type, and scroll on the desktop and requires COMPUTER_VISION to also be enabled. FORWARD_MCP_TOOLS allows agents to interact with applications and the desktop operating system through direct MCP calls rather than using computer use tools. Forwards MCP tools configured on the WorkSpaces application session to the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#agent_action AppstreamStack#agent_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#agent_action AppstreamStack#agent_action}
 
 ---
 
@@ -1776,7 +1812,7 @@ public java.lang.String getPermission();
 
 Whether the agent action is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
 
 ---
 
@@ -1812,7 +1848,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Enables or disables persistent application settings for users during their streaming sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
 
 ---
 
@@ -1828,7 +1864,7 @@ The path prefix for the S3 bucket where users' persistent application settings a
 
 You can allow the same persistent application settings to be used across multiple stacks by specifying the same settings group for each stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}
 
 ---
 
@@ -1980,7 +2016,7 @@ The list of virtual private cloud (VPC) interface endpoint objects.
 
 Users of the stack can connect to AppStream 2.0 only through the specified endpoints.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#access_endpoints AppstreamStack#access_endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#access_endpoints AppstreamStack#access_endpoints}
 
 ---
 
@@ -1994,7 +2030,7 @@ public AppstreamStackAgentAccessConfig getAgentAccessConfig();
 
 The configuration for agent access on the stack. If specified, agent access is enabled for the stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#agent_access_config AppstreamStack#agent_access_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#agent_access_config AppstreamStack#agent_access_config}
 
 ---
 
@@ -2010,7 +2046,7 @@ The persistent application settings for users of the stack.
 
 When these settings are enabled, changes that users make to applications and Windows settings are automatically saved after each session and applied to the next session.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#application_settings AppstreamStack#application_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#application_settings AppstreamStack#application_settings}
 
 ---
 
@@ -2024,7 +2060,7 @@ public java.util.List<java.lang.String> getAttributesToDelete();
 
 The stack attributes to delete.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#attributes_to_delete AppstreamStack#attributes_to_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#attributes_to_delete AppstreamStack#attributes_to_delete}
 
 ---
 
@@ -2040,7 +2076,7 @@ The content redirection settings for the stack.
 
 These settings control URL redirection between the streaming session and the local device.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#content_redirection AppstreamStack#content_redirection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#content_redirection AppstreamStack#content_redirection}
 
 ---
 
@@ -2054,7 +2090,7 @@ public java.lang.Boolean|IResolvable getDeleteStorageConnectors();
 
 This parameter has been deprecated. Deletes the storage connectors currently enabled for the stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#delete_storage_connectors AppstreamStack#delete_storage_connectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#delete_storage_connectors AppstreamStack#delete_storage_connectors}
 
 ---
 
@@ -2068,7 +2104,7 @@ public java.lang.String getDescription();
 
 The description to display.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#description AppstreamStack#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#description AppstreamStack#description}
 
 ---
 
@@ -2082,7 +2118,7 @@ public java.lang.String getDisplayName();
 
 The stack name to display.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#display_name AppstreamStack#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#display_name AppstreamStack#display_name}
 
 ---
 
@@ -2096,7 +2132,7 @@ public java.util.List<java.lang.String> getEmbedHostDomains();
 
 The domains where AppStream 2.0 streaming sessions can be embedded in an iframe. You must approve the domains that you want to host embedded AppStream 2.0 streaming sessions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#embed_host_domains AppstreamStack#embed_host_domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#embed_host_domains AppstreamStack#embed_host_domains}
 
 ---
 
@@ -2112,7 +2148,7 @@ The URL that users are redirected to after they click the Send Feedback link.
 
 If no URL is specified, no Send Feedback link is displayed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#feedback_url AppstreamStack#feedback_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#feedback_url AppstreamStack#feedback_url}
 
 ---
 
@@ -2126,7 +2162,7 @@ public java.lang.String getName();
 
 The name of the stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#name AppstreamStack#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#name AppstreamStack#name}
 
 ---
 
@@ -2140,7 +2176,7 @@ public java.lang.String getRedirectUrl();
 
 The URL that users are redirected to after their streaming session ends.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#redirect_url AppstreamStack#redirect_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#redirect_url AppstreamStack#redirect_url}
 
 ---
 
@@ -2154,7 +2190,7 @@ public java.lang.String getStorageConnectorAuthentication();
 
 Controls whether stored OneDrive and Google Drive authentication is retained between streaming sessions. Valid values: FORCE_REAUTHENTICATION | REUSE_CREDENTIALS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#storage_connector_authentication AppstreamStack#storage_connector_authentication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#storage_connector_authentication AppstreamStack#storage_connector_authentication}
 
 ---
 
@@ -2168,7 +2204,7 @@ public IResolvable|java.util.List<AppstreamStackStorageConnectors> getStorageCon
 
 The storage connectors to enable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#storage_connectors AppstreamStack#storage_connectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#storage_connectors AppstreamStack#storage_connectors}
 
 ---
 
@@ -2184,7 +2220,7 @@ The streaming protocol that you want your stack to prefer.
 
 This can be UDP or TCP. Currently, UDP is only supported in the Windows native client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#streaming_experience_settings AppstreamStack#streaming_experience_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#streaming_experience_settings AppstreamStack#streaming_experience_settings}
 
 ---
 
@@ -2198,7 +2234,7 @@ public IResolvable|java.util.List<AppstreamStackTags> getTags();
 
 An array of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#tags AppstreamStack#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#tags AppstreamStack#tags}
 
 ---
 
@@ -2212,7 +2248,7 @@ public IResolvable|java.util.List<AppstreamStackUserSettings> getUserSettings();
 
 The actions that are enabled or disabled for users during their streaming sessions. By default, these actions are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#user_settings AppstreamStack#user_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#user_settings AppstreamStack#user_settings}
 
 ---
 
@@ -2246,7 +2282,7 @@ public AppstreamStackContentRedirectionHostToClient getHostToClient();
 
 The URL redirection configuration from the streaming session host to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#host_to_client AppstreamStack#host_to_client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#host_to_client AppstreamStack#host_to_client}
 
 ---
 
@@ -2284,7 +2320,7 @@ public java.util.List<java.lang.String> getAllowedUrls();
 
 The URLs that are allowed for redirection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#allowed_urls AppstreamStack#allowed_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#allowed_urls AppstreamStack#allowed_urls}
 
 ---
 
@@ -2298,7 +2334,7 @@ public java.util.List<java.lang.String> getDeniedUrls();
 
 The URLs that are denied for redirection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#denied_urls AppstreamStack#denied_urls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#denied_urls AppstreamStack#denied_urls}
 
 ---
 
@@ -2312,7 +2348,7 @@ public java.lang.Boolean|IResolvable getEnabled();
 
 Specifies whether URL redirection is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}
 
 ---
 
@@ -2350,7 +2386,7 @@ public java.lang.String getConnectorType();
 
 The type of storage connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#connector_type AppstreamStack#connector_type}
 
 ---
 
@@ -2364,7 +2400,7 @@ public java.util.List<java.lang.String> getDomains();
 
 The names of the domains for the account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#domains AppstreamStack#domains}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#domains AppstreamStack#domains}
 
 ---
 
@@ -2378,7 +2414,7 @@ public java.lang.String getResourceIdentifier();
 
 The ARN of the storage connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#resource_identifier AppstreamStack#resource_identifier}
 
 ---
 
@@ -2412,7 +2448,7 @@ public java.lang.String getPreferredProtocol();
 
 The preferred protocol that you want to use while streaming your application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}
 
 ---
 
@@ -2448,7 +2484,7 @@ public java.lang.String getKey();
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#key AppstreamStack#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#key AppstreamStack#key}
 
 ---
 
@@ -2462,7 +2498,7 @@ public java.lang.String getValue();
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#value AppstreamStack#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#value AppstreamStack#value}
 
 ---
 
@@ -2500,7 +2536,7 @@ public java.lang.String getAction();
 
 The action that is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#action AppstreamStack#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#action AppstreamStack#action}
 
 ---
 
@@ -2516,7 +2552,7 @@ Specifies the number of characters that can be copied by end users from the loca
 
 This can be specified only for the CLIPBOARD_COPY_FROM_LOCAL_DEVICE and CLIPBOARD_COPY_TO_LOCAL_DEVICE actions. This defaults to 20,971,520 (20 MB) when unspecified and the permission is ENABLED. This can't be specified when the permission is DISABLED. The value can be between 1 and 20,971,520 (20 MB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#maximum_length AppstreamStack#maximum_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#maximum_length AppstreamStack#maximum_length}
 
 ---
 
@@ -2530,7 +2566,7 @@ public java.lang.String getPermission();
 
 Indicates whether the action is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/appstream_stack#permission AppstreamStack#permission}
 
 ---
 
@@ -3072,6 +3108,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.putSettings">putSettings</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resetKmsKeyArn">resetKmsKeyArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resetReplaySessionEnabled">resetReplaySessionEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resetS3BucketArn">resetS3BucketArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resetScreenImageFormat">resetScreenImageFormat</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resetScreenResolution">resetScreenResolution</a></code> | *No description.* |
@@ -3243,6 +3281,18 @@ public void putSettings(IResolvable|java.util.List<AppstreamStackAgentAccessConf
 
 ---
 
+##### `resetKmsKeyArn` <a name="resetKmsKeyArn" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resetKmsKeyArn"></a>
+
+```java
+public void resetKmsKeyArn()
+```
+
+##### `resetReplaySessionEnabled` <a name="resetReplaySessionEnabled" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resetReplaySessionEnabled"></a>
+
+```java
+public void resetReplaySessionEnabled()
+```
+
 ##### `resetS3BucketArn` <a name="resetS3BucketArn" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.resetS3BucketArn"></a>
 
 ```java
@@ -3287,12 +3337,16 @@ public void resetUserControlMode()
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.settings">settings</a></code> | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigSettingsList">AppstreamStackAgentAccessConfigSettingsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.kmsKeyArnInput">kmsKeyArnInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.replaySessionEnabledInput">replaySessionEnabledInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.s3BucketArnInput">s3BucketArnInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.screenImageFormatInput">screenImageFormatInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.screenResolutionInput">screenResolutionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.screenshotsUploadEnabledInput">screenshotsUploadEnabledInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.settingsInput">settingsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigSettings">AppstreamStackAgentAccessConfigSettings</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.userControlModeInput">userControlModeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.replaySessionEnabled">replaySessionEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.s3BucketArn">s3BucketArn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.screenImageFormat">screenImageFormat</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.screenResolution">screenResolution</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -3333,6 +3387,26 @@ public AppstreamStackAgentAccessConfigSettingsList getSettings();
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigSettingsList">AppstreamStackAgentAccessConfigSettingsList</a>
+
+---
+
+##### `kmsKeyArnInput`<sup>Optional</sup> <a name="kmsKeyArnInput" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.kmsKeyArnInput"></a>
+
+```java
+public java.lang.String getKmsKeyArnInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `replaySessionEnabledInput`<sup>Optional</sup> <a name="replaySessionEnabledInput" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.replaySessionEnabledInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getReplaySessionEnabledInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
 ---
 
@@ -3393,6 +3467,26 @@ public java.lang.String getUserControlModeInput();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `kmsKeyArn`<sup>Required</sup> <a name="kmsKeyArn" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.kmsKeyArn"></a>
+
+```java
+public java.lang.String getKmsKeyArn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `replaySessionEnabled`<sup>Required</sup> <a name="replaySessionEnabled" id="@cdktn/provider-awscc.appstreamStack.AppstreamStackAgentAccessConfigOutputReference.property.replaySessionEnabled"></a>
+
+```java
+public java.lang.Boolean|IResolvable getReplaySessionEnabled();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
 
 ---
 

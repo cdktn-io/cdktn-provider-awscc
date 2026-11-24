@@ -4,7 +4,7 @@
 
 ### DataAwsccLakeformationResources <a name="DataAwsccLakeformationResources" id="@cdktn/provider-awscc.dataAwsccLakeformationResources.DataAwsccLakeformationResources"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/lakeformation_resources awscc_lakeformation_resources}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/lakeformation_resources awscc_lakeformation_resources}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLakeformationResources.DataAwsccLakeformationResources.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLakeformationReso
 
 The id of the existing DataAwsccLakeformationResources that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/lakeformation_resources#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/lakeformation_resources#import import section} in the documentation of this resource for the id to use
 
 ---
 

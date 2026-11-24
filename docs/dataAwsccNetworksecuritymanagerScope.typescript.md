@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworksecuritymanagerScope <a name="DataAwsccNetworksecuritymanagerScope" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_scope awscc_networksecuritymanager_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_scope awscc_networksecuritymanager_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworksecurityma
 
 The id of the existing DataAwsccNetworksecuritymanagerScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -420,6 +420,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.property.scopeDescription">scopeDescription</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.property.scopeId">scopeId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.property.scopeName">scopeName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.property.specializedScopeType">specializedScopeType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.property.status">status</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScopeTagsList">DataAwsccNetworksecuritymanagerScopeTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.property.updatedAt">updatedAt</a></code> | <code>string</code> | *No description.* |
@@ -595,6 +596,16 @@ public readonly scopeId: string;
 
 ```typescript
 public readonly scopeName: string;
+```
+
+- *Type:* string
+
+---
+
+##### `specializedScopeType`<sup>Required</sup> <a name="specializedScopeType" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScope.DataAwsccNetworksecuritymanagerScope.property.specializedScopeType"></a>
+
+```typescript
+public readonly specializedScopeType: string;
 ```
 
 - *Type:* string
@@ -786,7 +797,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/networksecuritymanager_scope#id DataAwsccNetworksecuritymanagerScope#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/networksecuritymanager_scope#id DataAwsccNetworksecuritymanagerScope#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

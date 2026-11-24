@@ -4,7 +4,7 @@
 
 ### EventschemasRegistryPolicy <a name="EventschemasRegistryPolicy" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy awscc_eventschemas_registry_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy awscc_eventschemas_registry_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.Initializer"></a>
 
@@ -74,7 +74,6 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.resetRevisionId">ResetRevisionId</a></code> | *No description.* |
 
 ---
 
@@ -387,12 +386,6 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
-##### `ResetRevisionId` <a name="ResetRevisionId" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.resetRevisionId"></a>
-
-```go
-func ResetRevisionId()
-```
-
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -496,7 +489,7 @@ The construct id used in the generated config for the EventschemasRegistryPolicy
 
 The id of the existing EventschemasRegistryPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -528,12 +521,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.registryPolicyId">RegistryPolicyId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.revisionId">RevisionId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.policyInput">PolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.registryNameInput">RegistryNameInput</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.revisionIdInput">RevisionIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.policy">Policy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.registryName">RegistryName</a></code> | <code>*string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.revisionId">RevisionId</a></code> | <code>*string</code> | *No description.* |
 
 ---
 
@@ -699,6 +691,16 @@ func RegistryPolicyId() *string
 
 ---
 
+##### `RevisionId`<sup>Required</sup> <a name="RevisionId" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.revisionId"></a>
+
+```go
+func RevisionId() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `PolicyInput`<sup>Optional</sup> <a name="PolicyInput" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.policyInput"></a>
 
 ```go
@@ -719,16 +721,6 @@ func RegistryNameInput() *string
 
 ---
 
-##### `RevisionIdInput`<sup>Optional</sup> <a name="RevisionIdInput" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.revisionIdInput"></a>
-
-```go
-func RevisionIdInput() *string
-```
-
-- *Type:* *string
-
----
-
 ##### `Policy`<sup>Required</sup> <a name="Policy" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.policy"></a>
 
 ```go
@@ -743,16 +735,6 @@ func Policy() *string
 
 ```go
 func RegistryName() *string
-```
-
-- *Type:* *string
-
----
-
-##### `RevisionId`<sup>Required</sup> <a name="RevisionId" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicy.property.revisionId"></a>
-
-```go
-func RevisionId() *string
 ```
 
 - *Type:* *string
@@ -796,7 +778,6 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasregistr
 	Provisioners: *[]interface{},
 	Policy: *string,
 	RegistryName: *string,
-	RevisionId: *string,
 }
 ```
 
@@ -811,9 +792,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasregistr
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.policy">Policy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}. |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.registryName">RegistryName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}. |
-| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.revisionId">RevisionId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#revision_id EventschemasRegistryPolicy#revision_id}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.policy">Policy</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}. |
+| <code><a href="#@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.registryName">RegistryName</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}. |
 
 ---
 
@@ -895,7 +875,7 @@ Policy *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy#policy EventschemasRegistryPolicy#policy}.
 
 ---
 
@@ -907,19 +887,7 @@ RegistryName *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}.
-
----
-
-##### `RevisionId`<sup>Optional</sup> <a name="RevisionId" id="@cdktn/provider-awscc.eventschemasRegistryPolicy.EventschemasRegistryPolicyConfig.property.revisionId"></a>
-
-```go
-RevisionId *string
-```
-
-- *Type:* *string
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/eventschemas_registry_policy#revision_id EventschemasRegistryPolicy#revision_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/eventschemas_registry_policy#registry_name EventschemasRegistryPolicy#registry_name}.
 
 ---
 

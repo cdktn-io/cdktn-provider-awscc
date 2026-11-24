@@ -4,7 +4,7 @@
 
 ### SchedulerSchedule <a name="SchedulerSchedule" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule awscc_scheduler_schedule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule awscc_scheduler_schedule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer"></a>
 
@@ -51,7 +51,7 @@ SchedulerSchedule.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.endDate">endDate</a></code> | <code>java.lang.String</code> | The date, in UTC, before which the schedule can invoke its target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.groupName">groupName</a></code> | <code>java.lang.String</code> | The name of the schedule group to associate with this schedule. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | The ARN for a KMS Key that will be used to encrypt customer data. |
-| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.scheduleExpressionTimezone">scheduleExpressionTimezone</a></code> | <code>java.lang.String</code> | The timezone in which the scheduling expression is evaluated. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.startDate">startDate</a></code> | <code>java.lang.String</code> | The date, in UTC, after which the schedule can begin invoking its target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerSchedule.Initializer.parameter.state">state</a></code> | <code>java.lang.String</code> | Specifies whether the schedule is enabled or disabled. |
@@ -124,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 Flexible time window allows configuration of a window within which a schedule can be invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The scheduling expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The schedule target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
 
 ---
 
@@ -166,7 +166,7 @@ The date, in UTC, before which the schedule can invoke its target.
 
 Depending on the schedule's recurrence expression, invocations might stop on, or before, the EndDate you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
 
 ---
 
@@ -178,7 +178,7 @@ The name of the schedule group to associate with this schedule.
 
 If you omit this, the default schedule group is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
 
 ---
 
@@ -188,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN for a KMS Key that will be used to encrypt customer data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}.
 
 ---
 
@@ -206,7 +206,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The timezone in which the scheduling expression is evaluated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
 
 ---
 
@@ -218,7 +218,7 @@ The date, in UTC, after which the schedule can begin invoking its target.
 
 Depending on the schedule's recurrence expression, invocations might occur on, or after, the StartDate you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
 
 ---
 
@@ -228,7 +228,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the schedule is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
 
 ---
 
@@ -759,7 +759,7 @@ The construct id used in the generated config for the SchedulerSchedule to impor
 
 The id of the existing SchedulerSchedule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1265,7 +1265,7 @@ SchedulerScheduleConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.endDate">endDate</a></code> | <code>java.lang.String</code> | The date, in UTC, before which the schedule can invoke its target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.groupName">groupName</a></code> | <code>java.lang.String</code> | The name of the schedule group to associate with this schedule. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.kmsKeyArn">kmsKeyArn</a></code> | <code>java.lang.String</code> | The ARN for a KMS Key that will be used to encrypt customer data. |
-| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.scheduleExpressionTimezone">scheduleExpressionTimezone</a></code> | <code>java.lang.String</code> | The timezone in which the scheduling expression is evaluated. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.startDate">startDate</a></code> | <code>java.lang.String</code> | The date, in UTC, after which the schedule can begin invoking its target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleConfig.property.state">state</a></code> | <code>java.lang.String</code> | Specifies whether the schedule is enabled or disabled. |
@@ -1352,7 +1352,7 @@ public SchedulerScheduleFlexibleTimeWindow getFlexibleTimeWindow();
 
 Flexible time window allows configuration of a window within which a schedule can be invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#flexible_time_window SchedulerSchedule#flexible_time_window}
 
 ---
 
@@ -1366,7 +1366,7 @@ public java.lang.String getScheduleExpression();
 
 The scheduling expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#schedule_expression SchedulerSchedule#schedule_expression}
 
 ---
 
@@ -1380,7 +1380,7 @@ public SchedulerScheduleTarget getTarget();
 
 The schedule target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#target SchedulerSchedule#target}
 
 ---
 
@@ -1394,7 +1394,7 @@ public java.lang.String getDescription();
 
 The description of the schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#description SchedulerSchedule#description}
 
 ---
 
@@ -1410,7 +1410,7 @@ The date, in UTC, before which the schedule can invoke its target.
 
 Depending on the schedule's recurrence expression, invocations might stop on, or before, the EndDate you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#end_date SchedulerSchedule#end_date}
 
 ---
 
@@ -1426,7 +1426,7 @@ The name of the schedule group to associate with this schedule.
 
 If you omit this, the default schedule group is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#group_name SchedulerSchedule#group_name}
 
 ---
 
@@ -1440,7 +1440,7 @@ public java.lang.String getKmsKeyArn();
 
 The ARN for a KMS Key that will be used to encrypt customer data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#kms_key_arn SchedulerSchedule#kms_key_arn}
 
 ---
 
@@ -1452,7 +1452,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}.
 
 ---
 
@@ -1466,7 +1466,7 @@ public java.lang.String getScheduleExpressionTimezone();
 
 The timezone in which the scheduling expression is evaluated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#schedule_expression_timezone SchedulerSchedule#schedule_expression_timezone}
 
 ---
 
@@ -1482,7 +1482,7 @@ The date, in UTC, after which the schedule can begin invoking its target.
 
 Depending on the schedule's recurrence expression, invocations might occur on, or after, the StartDate you specify.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#start_date SchedulerSchedule#start_date}
 
 ---
 
@@ -1496,7 +1496,7 @@ public java.lang.String getState();
 
 Specifies whether the schedule is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#state SchedulerSchedule#state}
 
 ---
 
@@ -1532,7 +1532,7 @@ public java.lang.String getMode();
 
 Determines whether the schedule is executed within a flexible time window.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#mode SchedulerSchedule#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#mode SchedulerSchedule#mode}
 
 ---
 
@@ -1546,7 +1546,7 @@ public java.lang.Number getMaximumWindowInMinutes();
 
 The maximum time window during which a schedule can be invoked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_window_in_minutes SchedulerSchedule#maximum_window_in_minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_window_in_minutes SchedulerSchedule#maximum_window_in_minutes}
 
 ---
 
@@ -1563,6 +1563,8 @@ SchedulerScheduleTarget.builder()
 //  .deadLetterConfig(SchedulerScheduleTargetDeadLetterConfig)
 //  .ecsParameters(SchedulerScheduleTargetEcsParameters)
 //  .eventBridgeParameters(SchedulerScheduleTargetEventBridgeParameters)
+//  .eventBridgePutEventsV2Parameters(SchedulerScheduleTargetEventBridgePutEventsV2Parameters)
+//  .eventBridgePutRawEventsParameters(SchedulerScheduleTargetEventBridgePutRawEventsParameters)
 //  .input(java.lang.String)
 //  .kinesisParameters(SchedulerScheduleTargetKinesisParameters)
 //  .retryPolicy(SchedulerScheduleTargetRetryPolicy)
@@ -1580,6 +1582,8 @@ SchedulerScheduleTarget.builder()
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.deadLetterConfig">deadLetterConfig</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfig">SchedulerScheduleTargetDeadLetterConfig</a></code> | A DeadLetterConfig object that contains information about a dead-letter queue configuration. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.ecsParameters">ecsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEcsParameters">SchedulerScheduleTargetEcsParameters</a></code> | The custom parameters to be used when the target is an Amazon ECS task. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgeParameters">eventBridgeParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParameters">SchedulerScheduleTargetEventBridgeParameters</a></code> | EventBridge PutEvent predefined target type. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgePutEventsV2Parameters">eventBridgePutEventsV2Parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a></code> | EventBridge PutEvent V2 predefined target type. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgePutRawEventsParameters">eventBridgePutRawEventsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a></code> | EventBridge PutRawEvent predefined target type. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.input">input</a></code> | <code>java.lang.String</code> | The text, or well-formed JSON, passed to the target. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.kinesisParameters">kinesisParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParameters">SchedulerScheduleTargetKinesisParameters</a></code> | The custom parameter you can use to control the shard to which EventBridge Scheduler sends the event. |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetRetryPolicy">SchedulerScheduleTargetRetryPolicy</a></code> | A RetryPolicy object that includes information about the retry policy settings. |
@@ -1598,7 +1602,7 @@ public java.lang.String getArn();
 
 The Amazon Resource Name (ARN) of the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
 
 ---
 
@@ -1612,7 +1616,7 @@ public java.lang.String getRoleArn();
 
 The Amazon Resource Name (ARN) of the IAM role to be used for this target when the schedule is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#role_arn SchedulerSchedule#role_arn}
 
 ---
 
@@ -1626,7 +1630,7 @@ public SchedulerScheduleTargetDeadLetterConfig getDeadLetterConfig();
 
 A DeadLetterConfig object that contains information about a dead-letter queue configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#dead_letter_config SchedulerSchedule#dead_letter_config}
 
 ---
 
@@ -1640,7 +1644,7 @@ public SchedulerScheduleTargetEcsParameters getEcsParameters();
 
 The custom parameters to be used when the target is an Amazon ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#ecs_parameters SchedulerSchedule#ecs_parameters}
 
 ---
 
@@ -1654,7 +1658,35 @@ public SchedulerScheduleTargetEventBridgeParameters getEventBridgeParameters();
 
 EventBridge PutEvent predefined target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#event_bridge_parameters SchedulerSchedule#event_bridge_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_parameters SchedulerSchedule#event_bridge_parameters}
+
+---
+
+##### `eventBridgePutEventsV2Parameters`<sup>Optional</sup> <a name="eventBridgePutEventsV2Parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgePutEventsV2Parameters"></a>
+
+```java
+public SchedulerScheduleTargetEventBridgePutEventsV2Parameters getEventBridgePutEventsV2Parameters();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a>
+
+EventBridge PutEvent V2 predefined target type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_put_events_v2_parameters SchedulerSchedule#event_bridge_put_events_v2_parameters}
+
+---
+
+##### `eventBridgePutRawEventsParameters`<sup>Optional</sup> <a name="eventBridgePutRawEventsParameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTarget.property.eventBridgePutRawEventsParameters"></a>
+
+```java
+public SchedulerScheduleTargetEventBridgePutRawEventsParameters getEventBridgePutRawEventsParameters();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a>
+
+EventBridge PutRawEvent predefined target type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#event_bridge_put_raw_events_parameters SchedulerSchedule#event_bridge_put_raw_events_parameters}
 
 ---
 
@@ -1670,7 +1702,7 @@ The text, or well-formed JSON, passed to the target.
 
 If you are configuring a templated Lambda, AWS Step Functions, or Amazon EventBridge target, the input must be a well-formed JSON. For all other target types, a JSON is not required. If you do not specify anything for this field, EventBridge Scheduler delivers a default notification to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#input SchedulerSchedule#input}
 
 ---
 
@@ -1684,7 +1716,7 @@ public SchedulerScheduleTargetKinesisParameters getKinesisParameters();
 
 The custom parameter you can use to control the shard to which EventBridge Scheduler sends the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#kinesis_parameters SchedulerSchedule#kinesis_parameters}
 
 ---
 
@@ -1698,7 +1730,7 @@ public SchedulerScheduleTargetRetryPolicy getRetryPolicy();
 
 A RetryPolicy object that includes information about the retry policy settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#retry_policy SchedulerSchedule#retry_policy}
 
 ---
 
@@ -1712,7 +1744,7 @@ public SchedulerScheduleTargetSageMakerPipelineParameters getSageMakerPipelinePa
 
 These are custom parameters to use when the target is a SageMaker Model Building Pipeline that starts based on AWS EventBridge Scheduler schedules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#sage_maker_pipeline_parameters SchedulerSchedule#sage_maker_pipeline_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#sage_maker_pipeline_parameters SchedulerSchedule#sage_maker_pipeline_parameters}
 
 ---
 
@@ -1728,7 +1760,7 @@ Contains the message group ID to use when the target is a FIFO queue.
 
 If you specify an SQS FIFO queue as a target, the queue must have content-based deduplication enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#sqs_parameters SchedulerSchedule#sqs_parameters}
 
 ---
 
@@ -1762,7 +1794,7 @@ public java.lang.String getArn();
 
 The ARN of the SQS queue specified as the target for the dead-letter queue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
 
 ---
 
@@ -1822,7 +1854,7 @@ public IResolvable|java.util.List<SchedulerScheduleTargetEcsParametersCapacityPr
 
 The capacity provider strategy to use for the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
 
 ---
 
@@ -1838,7 +1870,7 @@ Specifies whether to enable Amazon ECS managed tags for the task.
 
 For more information, see Tagging Your Amazon ECS Resources in the Amazon Elastic Container Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}
 
 ---
 
@@ -1854,7 +1886,7 @@ Whether or not to enable the execute command functionality for the containers in
 
 If true, this enables execute command functionality on all containers in the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}
 
 ---
 
@@ -1868,7 +1900,7 @@ public java.lang.String getGroup();
 
 Specifies an ECS task group for the task. The maximum length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}
 
 ---
 
@@ -1884,7 +1916,7 @@ Specifies the launch type on which your task is running.
 
 The launch type that you specify here must match one of the launch type (compatibilities) of the target task. The FARGATE value is supported only in the Regions where AWS Fargate with Amazon ECS is supported. For more information, see AWS Fargate on Amazon ECS in the Amazon Elastic Container Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}
 
 ---
 
@@ -1898,7 +1930,7 @@ public SchedulerScheduleTargetEcsParametersNetworkConfiguration getNetworkConfig
 
 This structure specifies the network configuration for an ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
 
 ---
 
@@ -1914,7 +1946,7 @@ An array of placement constraint objects to use for the task.
 
 You can specify up to 10 constraints per task (including constraints in the task definition and those specified at runtime).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
 
 ---
 
@@ -1930,7 +1962,7 @@ The placement strategy objects to use for the task.
 
 You can specify a maximum of five strategy rules per task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
 
 ---
 
@@ -1944,7 +1976,7 @@ public java.lang.String getPlatformVersion();
 
 Specifies the platform version for the task. Specify only the numeric portion of the platform version, such as 1.1.0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}
 
 ---
 
@@ -1960,7 +1992,7 @@ Specifies whether to propagate the tags from the task definition to the task.
 
 If no value is specified, the tags are not propagated. Tags can only be propagated to the task during task creation. To add tags to a task after task creation, use the TagResource API action.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}
 
 ---
 
@@ -1974,7 +2006,7 @@ public java.lang.String getReferenceId();
 
 The reference ID to use for the task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}
 
 ---
 
@@ -1990,7 +2022,7 @@ The metadata that you apply to the task to help you categorize and organize them
 
 Each tag consists of a key and an optional value, both of which you define. To learn more, see RunTask in the Amazon ECS API Reference.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}
 
 ---
 
@@ -2004,7 +2036,7 @@ public java.lang.Number getTaskCount();
 
 The number of tasks to create based on TaskDefinition. The default is 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}
 
 ---
 
@@ -2018,7 +2050,7 @@ public java.lang.String getTaskDefinitionArn();
 
 The ARN of the task definition to use if the event target is an Amazon ECS task.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}
 
 ---
 
@@ -2058,7 +2090,7 @@ The base value designates how many tasks, at a minimum, to run on the specified 
 
 Only one capacity provider in a capacity provider strategy can have a base defined. If no value is specified, the default value of 0 is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#base SchedulerSchedule#base}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#base SchedulerSchedule#base}
 
 ---
 
@@ -2072,7 +2104,7 @@ public java.lang.String getCapacityProvider();
 
 The short name of the capacity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#capacity_provider SchedulerSchedule#capacity_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#capacity_provider SchedulerSchedule#capacity_provider}
 
 ---
 
@@ -2088,7 +2120,7 @@ The weight value designates the relative percentage of the total number of tasks
 
 The weight value is taken into consideration after the base value, if defined, is satisfied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#weight SchedulerSchedule#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#weight SchedulerSchedule#weight}
 
 ---
 
@@ -2124,7 +2156,7 @@ This structure specifies the VPC subnets and security groups for the task, and w
 
 This structure is relevant only for ECS tasks that use the awsvpc network mode.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
 
 ---
 
@@ -2164,7 +2196,7 @@ Specifies whether the task's elastic network interface receives a public IP addr
 
 You can specify ENABLED only when LaunchType in EcsParameters is set to FARGATE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#assign_public_ip SchedulerSchedule#assign_public_ip}
 
 ---
 
@@ -2180,7 +2212,7 @@ Specifies the security groups associated with the task.
 
 These security groups must all be in the same VPC. You can specify as many as five security groups. If you do not specify a security group, the default security group for the VPC is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#security_groups SchedulerSchedule#security_groups}
 
 ---
 
@@ -2196,7 +2228,7 @@ Specifies the subnets associated with the task.
 
 These subnets must all be in the same VPC. You can specify as many as 16 subnets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#subnets SchedulerSchedule#subnets}
 
 ---
 
@@ -2234,7 +2266,7 @@ A cluster query language expression to apply to the constraint.
 
 You cannot specify an expression if the constraint type is distinctInstance. To learn more, see Cluster Query Language in the Amazon Elastic Container Service Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#expression SchedulerSchedule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#expression SchedulerSchedule#expression}
 
 ---
 
@@ -2250,7 +2282,7 @@ The type of constraint.
 
 Use distinctInstance to ensure that each task in a particular group is running on a different container instance. Use memberOf to restrict the selection to a group of valid candidates.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
 
 ---
 
@@ -2288,7 +2320,7 @@ The field to apply the placement strategy against.
 
 For the spread placement strategy, valid values are instanceId (or host, which has the same effect), or any platform or custom attribute that is applied to a container instance, such as attribute:ecs.availability-zone. For the binpack placement strategy, valid values are cpu and memory. For the random placement strategy, this field is not used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#field SchedulerSchedule#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#field SchedulerSchedule#field}
 
 ---
 
@@ -2304,7 +2336,7 @@ The type of placement strategy.
 
 The random placement strategy randomly places tasks on available candidates. The spread placement strategy spreads placement across available candidates evenly based on the field parameter. The binpack strategy places tasks on available candidates that have the least available amount of the resource that is specified with the field parameter. For example, if you binpack on memory, a task is placed on the instance with the least amount of remaining memory (but still enough to run the task).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#type SchedulerSchedule#type}
 
 ---
 
@@ -2340,7 +2372,7 @@ public java.lang.String getDetailType();
 
 Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
 
 ---
 
@@ -2354,7 +2386,91 @@ public java.lang.String getSource();
 
 The source of the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+
+---
+
+### SchedulerScheduleTargetEventBridgePutEventsV2Parameters <a name="SchedulerScheduleTargetEventBridgePutEventsV2Parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.scheduler_schedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters;
+
+SchedulerScheduleTargetEventBridgePutEventsV2Parameters.builder()
+//  .detailType(java.lang.String)
+//  .source(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.property.detailType">detailType</a></code> | <code>java.lang.String</code> | Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.property.source">source</a></code> | <code>java.lang.String</code> | The source of the event. |
+
+---
+
+##### `detailType`<sup>Optional</sup> <a name="detailType" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.property.detailType"></a>
+
+```java
+public java.lang.String getDetailType();
+```
+
+- *Type:* java.lang.String
+
+Free-form string, with a maximum of 128 characters, used to decide what fields to expect in the event detail.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#detail_type SchedulerSchedule#detail_type}
+
+---
+
+##### `source`<sup>Optional</sup> <a name="source" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters.property.source"></a>
+
+```java
+public java.lang.String getSource();
+```
+
+- *Type:* java.lang.String
+
+The source of the event.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#source SchedulerSchedule#source}
+
+---
+
+### SchedulerScheduleTargetEventBridgePutRawEventsParameters <a name="SchedulerScheduleTargetEventBridgePutRawEventsParameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.scheduler_schedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters;
+
+SchedulerScheduleTargetEventBridgePutRawEventsParameters.builder()
+//  .metadata(java.util.Map<java.lang.String, java.lang.String>)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters.property.metadata">metadata</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Customer-defined metadata key-value pairs. |
+
+---
+
+##### `metadata`<sup>Optional</sup> <a name="metadata" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters.property.metadata"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getMetadata();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+Customer-defined metadata key-value pairs.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#metadata SchedulerSchedule#metadata}
 
 ---
 
@@ -2390,7 +2506,7 @@ The custom parameter used as the Kinesis partition key.
 
 For more information, see Amazon Kinesis Streams Key Concepts in the Amazon Kinesis Streams Developer Guide.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#partition_key SchedulerSchedule#partition_key}
 
 ---
 
@@ -2426,7 +2542,7 @@ public java.lang.Number getMaximumEventAgeInSeconds();
 
 The maximum amount of time, in seconds, to continue to make retry attempts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_event_age_in_seconds SchedulerSchedule#maximum_event_age_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_event_age_in_seconds SchedulerSchedule#maximum_event_age_in_seconds}
 
 ---
 
@@ -2442,7 +2558,7 @@ The maximum number of retry attempts to make before the request fails.
 
 Retry attempts with exponential backoff continue until either the maximum number of attempts is made or until the duration of the MaximumEventAgeInSeconds is reached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#maximum_retry_attempts SchedulerSchedule#maximum_retry_attempts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#maximum_retry_attempts SchedulerSchedule#maximum_retry_attempts}
 
 ---
 
@@ -2476,7 +2592,7 @@ public IResolvable|java.util.List<SchedulerScheduleTargetSageMakerPipelineParame
 
 List of Parameter names and values for SageMaker Model Building Pipeline execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#pipeline_parameter_list SchedulerSchedule#pipeline_parameter_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#pipeline_parameter_list SchedulerSchedule#pipeline_parameter_list}
 
 ---
 
@@ -2512,7 +2628,7 @@ public java.lang.String getName();
 
 Name of parameter to start execution of a SageMaker Model Building Pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#name SchedulerSchedule#name}
 
 ---
 
@@ -2526,7 +2642,7 @@ public java.lang.String getValue();
 
 Value of parameter to start execution of a SageMaker Model Building Pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#value SchedulerSchedule#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#value SchedulerSchedule#value}
 
 ---
 
@@ -2560,7 +2676,7 @@ public java.lang.String getMessageGroupId();
 
 The FIFO message group ID to use as the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/scheduler_schedule#message_group_id SchedulerSchedule#message_group_id}
 
 ---
 
@@ -6269,6 +6385,591 @@ public IResolvable|SchedulerScheduleTargetEventBridgeParameters getInternalValue
 ---
 
 
+### SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference <a name="SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.scheduler_schedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference;
+
+new SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resetDetailType">resetDetailType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resetSource">resetSource</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetDetailType` <a name="resetDetailType" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resetDetailType"></a>
+
+```java
+public void resetDetailType()
+```
+
+##### `resetSource` <a name="resetSource" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.resetSource"></a>
+
+```java
+public void resetSource()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.detailTypeInput">detailTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.sourceInput">sourceInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.detailType">detailType</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.source">source</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `detailTypeInput`<sup>Optional</sup> <a name="detailTypeInput" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.detailTypeInput"></a>
+
+```java
+public java.lang.String getDetailTypeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sourceInput`<sup>Optional</sup> <a name="sourceInput" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.sourceInput"></a>
+
+```java
+public java.lang.String getSourceInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `detailType`<sup>Required</sup> <a name="detailType" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.detailType"></a>
+
+```java
+public java.lang.String getDetailType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `source`<sup>Required</sup> <a name="source" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.source"></a>
+
+```java
+public java.lang.String getSource();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|SchedulerScheduleTargetEventBridgePutEventsV2Parameters getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a>
+
+---
+
+
+### SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference <a name="SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.scheduler_schedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference;
+
+new SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resetMetadata">resetMetadata</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetMetadata` <a name="resetMetadata" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.resetMetadata"></a>
+
+```java
+public void resetMetadata()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.metadataInput">metadataInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.metadata">metadata</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `metadataInput`<sup>Optional</sup> <a name="metadataInput" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.metadataInput"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getMetadataInput();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `metadata`<sup>Required</sup> <a name="metadata" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.metadata"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getMetadata();
+```
+
+- *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|SchedulerScheduleTargetEventBridgePutRawEventsParameters getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a>
+
+---
+
+
 ### SchedulerScheduleTargetKinesisParametersOutputReference <a name="SchedulerScheduleTargetKinesisParametersOutputReference" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParametersOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParametersOutputReference.Initializer"></a>
@@ -6600,6 +7301,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putDeadLetterConfig">putDeadLetterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEcsParameters">putEcsParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgeParameters">putEventBridgeParameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutEventsV2Parameters">putEventBridgePutEventsV2Parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutRawEventsParameters">putEventBridgePutRawEventsParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putKinesisParameters">putKinesisParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putRetryPolicy">putRetryPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putSageMakerPipelineParameters">putSageMakerPipelineParameters</a></code> | *No description.* |
@@ -6607,6 +7310,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetDeadLetterConfig">resetDeadLetterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEcsParameters">resetEcsParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgeParameters">resetEventBridgeParameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgePutEventsV2Parameters">resetEventBridgePutEventsV2Parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgePutRawEventsParameters">resetEventBridgePutRawEventsParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetInput">resetInput</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetKinesisParameters">resetKinesisParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetRetryPolicy">resetRetryPolicy</a></code> | *No description.* |
@@ -6801,6 +7506,30 @@ public void putEventBridgeParameters(SchedulerScheduleTargetEventBridgeParameter
 
 ---
 
+##### `putEventBridgePutEventsV2Parameters` <a name="putEventBridgePutEventsV2Parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutEventsV2Parameters"></a>
+
+```java
+public void putEventBridgePutEventsV2Parameters(SchedulerScheduleTargetEventBridgePutEventsV2Parameters value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutEventsV2Parameters.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a>
+
+---
+
+##### `putEventBridgePutRawEventsParameters` <a name="putEventBridgePutRawEventsParameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutRawEventsParameters"></a>
+
+```java
+public void putEventBridgePutRawEventsParameters(SchedulerScheduleTargetEventBridgePutRawEventsParameters value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putEventBridgePutRawEventsParameters.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a>
+
+---
+
 ##### `putKinesisParameters` <a name="putKinesisParameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.putKinesisParameters"></a>
 
 ```java
@@ -6867,6 +7596,18 @@ public void resetEcsParameters()
 public void resetEventBridgeParameters()
 ```
 
+##### `resetEventBridgePutEventsV2Parameters` <a name="resetEventBridgePutEventsV2Parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgePutEventsV2Parameters"></a>
+
+```java
+public void resetEventBridgePutEventsV2Parameters()
+```
+
+##### `resetEventBridgePutRawEventsParameters` <a name="resetEventBridgePutRawEventsParameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetEventBridgePutRawEventsParameters"></a>
+
+```java
+public void resetEventBridgePutRawEventsParameters()
+```
+
 ##### `resetInput` <a name="resetInput" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.resetInput"></a>
 
 ```java
@@ -6907,6 +7648,8 @@ public void resetSqsParameters()
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.deadLetterConfig">deadLetterConfig</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfigOutputReference">SchedulerScheduleTargetDeadLetterConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.ecsParameters">ecsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEcsParametersOutputReference">SchedulerScheduleTargetEcsParametersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgeParameters">eventBridgeParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParametersOutputReference">SchedulerScheduleTargetEventBridgeParametersOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutEventsV2Parameters">eventBridgePutEventsV2Parameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference">SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutRawEventsParameters">eventBridgePutRawEventsParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference">SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.kinesisParameters">kinesisParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParametersOutputReference">SchedulerScheduleTargetKinesisParametersOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.retryPolicy">retryPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetRetryPolicyOutputReference">SchedulerScheduleTargetRetryPolicyOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.sageMakerPipelineParameters">sageMakerPipelineParameters</a></code> | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetSageMakerPipelineParametersOutputReference">SchedulerScheduleTargetSageMakerPipelineParametersOutputReference</a></code> | *No description.* |
@@ -6915,6 +7658,8 @@ public void resetSqsParameters()
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.deadLetterConfigInput">deadLetterConfigInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetDeadLetterConfig">SchedulerScheduleTargetDeadLetterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.ecsParametersInput">ecsParametersInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEcsParameters">SchedulerScheduleTargetEcsParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgeParametersInput">eventBridgeParametersInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParameters">SchedulerScheduleTargetEventBridgeParameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutEventsV2ParametersInput">eventBridgePutEventsV2ParametersInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutRawEventsParametersInput">eventBridgePutRawEventsParametersInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.inputInput">inputInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.kinesisParametersInput">kinesisParametersInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetKinesisParameters">SchedulerScheduleTargetKinesisParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.retryPolicyInput">retryPolicyInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetRetryPolicy">SchedulerScheduleTargetRetryPolicy</a></code> | *No description.* |
@@ -6979,6 +7724,26 @@ public SchedulerScheduleTargetEventBridgeParametersOutputReference getEventBridg
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParametersOutputReference">SchedulerScheduleTargetEventBridgeParametersOutputReference</a>
+
+---
+
+##### `eventBridgePutEventsV2Parameters`<sup>Required</sup> <a name="eventBridgePutEventsV2Parameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutEventsV2Parameters"></a>
+
+```java
+public SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference getEventBridgePutEventsV2Parameters();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference">SchedulerScheduleTargetEventBridgePutEventsV2ParametersOutputReference</a>
+
+---
+
+##### `eventBridgePutRawEventsParameters`<sup>Required</sup> <a name="eventBridgePutRawEventsParameters" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutRawEventsParameters"></a>
+
+```java
+public SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference getEventBridgePutRawEventsParameters();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference">SchedulerScheduleTargetEventBridgePutRawEventsParametersOutputReference</a>
 
 ---
 
@@ -7059,6 +7824,26 @@ public IResolvable|SchedulerScheduleTargetEventBridgeParameters getEventBridgePa
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgeParameters">SchedulerScheduleTargetEventBridgeParameters</a>
+
+---
+
+##### `eventBridgePutEventsV2ParametersInput`<sup>Optional</sup> <a name="eventBridgePutEventsV2ParametersInput" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutEventsV2ParametersInput"></a>
+
+```java
+public IResolvable|SchedulerScheduleTargetEventBridgePutEventsV2Parameters getEventBridgePutEventsV2ParametersInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutEventsV2Parameters">SchedulerScheduleTargetEventBridgePutEventsV2Parameters</a>
+
+---
+
+##### `eventBridgePutRawEventsParametersInput`<sup>Optional</sup> <a name="eventBridgePutRawEventsParametersInput" id="@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetOutputReference.property.eventBridgePutRawEventsParametersInput"></a>
+
+```java
+public IResolvable|SchedulerScheduleTargetEventBridgePutRawEventsParameters getEventBridgePutRawEventsParametersInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.schedulerSchedule.SchedulerScheduleTargetEventBridgePutRawEventsParameters">SchedulerScheduleTargetEventBridgePutRawEventsParameters</a>
 
 ---
 

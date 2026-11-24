@@ -4,7 +4,7 @@
 
 ### DataAwsccGlueUserDefinedFunction <a name="DataAwsccGlueUserDefinedFunction" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccGlueUserDefinedFu
 
 The id of the existing DataAwsccGlueUserDefinedFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,10 +416,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.arn">Arn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.artifactLocation">ArtifactLocation</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.className">ClassName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.databaseName">DatabaseName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.functionName">FunctionName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.functionType">FunctionType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.governanceMode">GovernanceMode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.ownerName">OwnerName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.ownerType">OwnerType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.resourceUris">ResourceUris</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisList">DataAwsccGlueUserDefinedFunctionResourceUrisList</a></code> | *No description.* |
@@ -560,6 +562,16 @@ public string Arn { get; }
 
 ---
 
+##### `ArtifactLocation`<sup>Required</sup> <a name="ArtifactLocation" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.artifactLocation"></a>
+
+```csharp
+public string ArtifactLocation { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `ClassName`<sup>Required</sup> <a name="ClassName" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.className"></a>
 
 ```csharp
@@ -594,6 +606,16 @@ public string FunctionName { get; }
 
 ```csharp
 public string FunctionType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `GovernanceMode`<sup>Required</sup> <a name="GovernanceMode" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.governanceMode"></a>
+
+```csharp
+public string GovernanceMode { get; }
 ```
 
 - *Type:* string
@@ -784,7 +806,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_user_defined_function#id DataAwsccGlueUserDefinedFunction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_user_defined_function#id DataAwsccGlueUserDefinedFunction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1183,6 +1205,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.lastModified">LastModified</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.resourceType">ResourceType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.uri">Uri</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUris">DataAwsccGlueUserDefinedFunctionResourceUris</a></code> | *No description.* |
@@ -1207,6 +1230,16 @@ If this returns an empty array the stack will not be attached.
 
 ```csharp
 public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `LastModified`<sup>Required</sup> <a name="LastModified" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.lastModified"></a>
+
+```csharp
+public string LastModified { get; }
 ```
 
 - *Type:* string

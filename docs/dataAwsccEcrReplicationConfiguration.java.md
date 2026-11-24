@@ -4,7 +4,7 @@
 
 ### DataAwsccEcrReplicationConfiguration <a name="DataAwsccEcrReplicationConfiguration" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfiguration"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecr_replication_configuration awscc_ecr_replication_configuration}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecr_replication_configuration awscc_ecr_replication_configuration}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfiguration.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecr_replication_configuration#id DataAwsccEcrReplicationConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecr_replication_configuration#id DataAwsccEcrReplicationConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccEcrReplicationCon
 
 The id of the existing DataAwsccEcrReplicationConfiguration that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecr_replication_configuration#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecr_replication_configuration#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -783,7 +783,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ecr_replication_configuration#id DataAwsccEcrReplicationConfiguration#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ecr_replication_configuration#id DataAwsccEcrReplicationConfiguration#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -810,6 +810,18 @@ DataAwsccEcrReplicationConfigurationReplicationConfiguration.builder()
 import io.cdktn.providers.awscc.data_awscc_ecr_replication_configuration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRules;
 
 DataAwsccEcrReplicationConfigurationReplicationConfigurationRules.builder()
+    .build();
+```
+
+
+### DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication <a name="DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_ecr_replication_configuration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication;
+
+DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication.builder()
     .build();
 ```
 
@@ -1096,6 +1108,266 @@ public DataAwsccEcrReplicationConfigurationReplicationConfiguration getInternalV
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfiguration">DataAwsccEcrReplicationConfigurationReplicationConfiguration</a>
+
+---
+
+
+### DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference <a name="DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_ecr_replication_configuration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference;
+
+new DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.property.enabled">enabled</a></code> | <code>io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication">DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `enabled`<sup>Required</sup> <a name="enabled" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.property.enabled"></a>
+
+```java
+public IResolvable getEnabled();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference.property.internalValue"></a>
+
+```java
+public DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication">DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplication</a>
 
 ---
 
@@ -1915,6 +2187,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesOutputReference.property.deleteReplication">deleteReplication</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference">DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesOutputReference.property.destinations">destinations</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDestinationsList">DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDestinationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesOutputReference.property.repositoryFilters">repositoryFilters</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesRepositoryFiltersList">DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesRepositoryFiltersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRules">DataAwsccEcrReplicationConfigurationReplicationConfigurationRules</a></code> | *No description.* |
@@ -1942,6 +2215,16 @@ public java.lang.String getFqn();
 ```
 
 - *Type:* java.lang.String
+
+---
+
+##### `deleteReplication`<sup>Required</sup> <a name="deleteReplication" id="@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesOutputReference.property.deleteReplication"></a>
+
+```java
+public DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference getDeleteReplication();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEcrReplicationConfiguration.DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference">DataAwsccEcrReplicationConfigurationReplicationConfigurationRulesDeleteReplicationOutputReference</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSecurityhubConnector <a name="DataAwsccSecurityhubConnector" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_connector awscc_securityhub_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/securityhub_connector awscc_securityhub_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnector.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_connector#id DataAwsccSecurityhubConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/securityhub_connector#id DataAwsccSecurityhubConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccSecurityhubConnec
 
 The id of the existing DataAwsccSecurityhubConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/securityhub_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -915,7 +915,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/securityhub_connector#id DataAwsccSecurityhubConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/securityhub_connector#id DataAwsccSecurityhubConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -966,6 +966,30 @@ DataAwsccSecurityhubConnectorProviderNameAzure.builder()
 import io.cdktn.providers.awscc.data_awscc_securityhub_connector.DataAwsccSecurityhubConnectorProviderNameAzureScopeConfiguration;
 
 DataAwsccSecurityhubConnectorProviderNameAzureScopeConfiguration.builder()
+    .build();
+```
+
+
+### DataAwsccSecurityhubConnectorProviderNameGcp <a name="DataAwsccSecurityhubConnectorProviderNameGcp" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_securityhub_connector.DataAwsccSecurityhubConnectorProviderNameGcp;
+
+DataAwsccSecurityhubConnectorProviderNameGcp.builder()
+    .build();
+```
+
+
+### DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration <a name="DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_securityhub_connector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration;
+
+DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration.builder()
     .build();
 ```
 
@@ -1963,6 +1987,559 @@ public DataAwsccSecurityhubConnectorProviderNameAzureScopeConfiguration getInter
 ---
 
 
+### DataAwsccSecurityhubConnectorProviderNameGcpOutputReference <a name="DataAwsccSecurityhubConnectorProviderNameGcpOutputReference" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_securityhub_connector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference;
+
+new DataAwsccSecurityhubConnectorProviderNameGcpOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArn">awsConfigConnectorArn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegions">gcpRegions</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfiguration">scopeConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference">DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp">DataAwsccSecurityhubConnectorProviderNameGcp</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `awsConfigConnectorArn`<sup>Required</sup> <a name="awsConfigConnectorArn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArn"></a>
+
+```java
+public java.lang.String getAwsConfigConnectorArn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `gcpRegions`<sup>Required</sup> <a name="gcpRegions" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegions"></a>
+
+```java
+public java.util.List<java.lang.String> getGcpRegions();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `scopeConfiguration`<sup>Required</sup> <a name="scopeConfiguration" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfiguration"></a>
+
+```java
+public DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference getScopeConfiguration();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference">DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference.property.internalValue"></a>
+
+```java
+public DataAwsccSecurityhubConnectorProviderNameGcp getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcp">DataAwsccSecurityhubConnectorProviderNameGcp</a>
+
+---
+
+
+### DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference <a name="DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_securityhub_connector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference;
+
+new DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeType">scopeType</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValues">scopeValues</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration">DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `scopeType`<sup>Required</sup> <a name="scopeType" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeType"></a>
+
+```java
+public java.lang.String getScopeType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `scopeValues`<sup>Required</sup> <a name="scopeValues" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValues"></a>
+
+```java
+public java.util.List<java.lang.String> getScopeValues();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.internalValue"></a>
+
+```java
+public DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration">DataAwsccSecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+---
+
+
 ### DataAwsccSecurityhubConnectorProviderNameOutputReference <a name="DataAwsccSecurityhubConnectorProviderNameOutputReference" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.Initializer"></a>
@@ -2174,6 +2751,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.azure">azure</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameAzureOutputReference">DataAwsccSecurityhubConnectorProviderNameAzureOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.gcp">gcp</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference">DataAwsccSecurityhubConnectorProviderNameGcpOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderName">DataAwsccSecurityhubConnectorProviderName</a></code> | *No description.* |
 
 ---
@@ -2209,6 +2787,16 @@ public DataAwsccSecurityhubConnectorProviderNameAzureOutputReference getAzure();
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameAzureOutputReference">DataAwsccSecurityhubConnectorProviderNameAzureOutputReference</a>
+
+---
+
+##### `gcp`<sup>Required</sup> <a name="gcp" id="@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameOutputReference.property.gcp"></a>
+
+```java
+public DataAwsccSecurityhubConnectorProviderNameGcpOutputReference getGcp();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSecurityhubConnector.DataAwsccSecurityhubConnectorProviderNameGcpOutputReference">DataAwsccSecurityhubConnectorProviderNameGcpOutputReference</a>
 
 ---
 

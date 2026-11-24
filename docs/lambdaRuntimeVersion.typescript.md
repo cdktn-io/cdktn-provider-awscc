@@ -1,0 +1,1786 @@
+# `lambdaRuntimeVersion` Submodule <a name="`lambdaRuntimeVersion` Submodule" id="@cdktn/provider-awscc.lambdaRuntimeVersion"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### LambdaRuntimeVersion <a name="LambdaRuntimeVersion" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lambda_runtime_version awscc_lambda_runtime_version}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.Initializer"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+new lambdaRuntimeVersion.LambdaRuntimeVersion(scope: Construct, id: string, config: LambdaRuntimeVersionConfig)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.Initializer.parameter.id">id</a></code> | <code>string</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.Initializer.parameter.config">config</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig">LambdaRuntimeVersionConfig</a></code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `config`<sup>Required</sup> <a name="config" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.Initializer.parameter.config"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig">LambdaRuntimeVersionConfig</a>
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.toString">toString</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.addOverride">addOverride</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.overrideLogicalId">overrideLogicalId</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.resetOverrideLogicalId">resetOverrideLogicalId</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.toHclTerraform">toHclTerraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.toMetadata">toMetadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.toTerraform">toTerraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.addMoveTarget">addMoveTarget</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.hasResourceMove">hasResourceMove</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.importFrom">importFrom</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.resetImageUri">resetImageUri</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.resetReleaseNotes">resetReleaseNotes</a></code> | *No description.* |
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.with"></a>
+
+```typescript
+public with(mixins: ...IMixin[]): IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.with.parameter.mixins"></a>
+
+- *Type:* ...constructs.IMixin[]
+
+The mixins to apply.
+
+---
+
+##### `addOverride` <a name="addOverride" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.addOverride"></a>
+
+```typescript
+public addOverride(path: string, value: any): void
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.addOverride.parameter.path"></a>
+
+- *Type:* string
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.addOverride.parameter.value"></a>
+
+- *Type:* any
+
+---
+
+##### `overrideLogicalId` <a name="overrideLogicalId" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.overrideLogicalId"></a>
+
+```typescript
+public overrideLogicalId(newLogicalId: string): void
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `newLogicalId`<sup>Required</sup> <a name="newLogicalId" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* string
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `resetOverrideLogicalId` <a name="resetOverrideLogicalId" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.resetOverrideLogicalId"></a>
+
+```typescript
+public resetOverrideLogicalId(): void
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `toHclTerraform` <a name="toHclTerraform" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.toHclTerraform"></a>
+
+```typescript
+public toHclTerraform(): any
+```
+
+##### `toMetadata` <a name="toMetadata" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.toMetadata"></a>
+
+```typescript
+public toMetadata(): any
+```
+
+##### `toTerraform` <a name="toTerraform" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.toTerraform"></a>
+
+```typescript
+public toTerraform(): any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `addMoveTarget` <a name="addMoveTarget" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.addMoveTarget"></a>
+
+```typescript
+public addMoveTarget(moveTarget: string): void
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `hasResourceMove` <a name="hasResourceMove" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.hasResourceMove"></a>
+
+```typescript
+public hasResourceMove(): TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `importFrom` <a name="importFrom" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.importFrom"></a>
+
+```typescript
+public importFrom(id: string, provider?: TerraformProvider): void
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.importFrom.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.importFrom.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `moveFromId` <a name="moveFromId" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveFromId"></a>
+
+```typescript
+public moveFromId(id: string): void
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using its instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveFromId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `moveTo` <a name="moveTo" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveTo"></a>
+
+```typescript
+public moveTo(moveTarget: string, index?: string | number): void
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `moveTarget`<sup>Required</sup> <a name="moveTarget" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveTo.parameter.moveTarget"></a>
+
+- *Type:* string
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveTo.parameter.index"></a>
+
+- *Type:* string | number
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `moveToId` <a name="moveToId" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveToId"></a>
+
+```typescript
+public moveToId(id: string): void
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.moveToId.parameter.id"></a>
+
+- *Type:* string
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `resetImageUri` <a name="resetImageUri" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.resetImageUri"></a>
+
+```typescript
+public resetImageUri(): void
+```
+
+##### `resetReleaseNotes` <a name="resetReleaseNotes" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.resetReleaseNotes"></a>
+
+```typescript
+public resetReleaseNotes(): void
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isTerraformElement">isTerraformElement</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isTerraformResource">isTerraformResource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.generateConfigForImport">generateConfigForImport</a></code> | Generates CDKTN code for importing a LambdaRuntimeVersion resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `isConstruct` <a name="isConstruct" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isConstruct"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+lambdaRuntimeVersion.LambdaRuntimeVersion.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `isTerraformElement` <a name="isTerraformElement" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isTerraformElement"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+lambdaRuntimeVersion.LambdaRuntimeVersion.isTerraformElement(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isTerraformElement.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `isTerraformResource` <a name="isTerraformResource" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isTerraformResource"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+lambdaRuntimeVersion.LambdaRuntimeVersion.isTerraformResource(x: any)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.isTerraformResource.parameter.x"></a>
+
+- *Type:* any
+
+---
+
+##### `generateConfigForImport` <a name="generateConfigForImport" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.generateConfigForImport"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+lambdaRuntimeVersion.LambdaRuntimeVersion.generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: TerraformProvider)
+```
+
+Generates CDKTN code for importing a LambdaRuntimeVersion resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `importToId`<sup>Required</sup> <a name="importToId" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* string
+
+The construct id used in the generated config for the LambdaRuntimeVersion to import.
+
+---
+
+###### `importFromId`<sup>Required</sup> <a name="importFromId" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* string
+
+The id of the existing LambdaRuntimeVersion that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lambda_runtime_version#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the LambdaRuntimeVersion to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.cdktfStack">cdktfStack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.friendlyUniqueId">friendlyUniqueId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.terraformMetaArguments">terraformMetaArguments</a></code> | <code>{[ key: string ]: any}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.terraformResourceType">terraformResourceType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.terraformGeneratorMetadata">terraformGeneratorMetadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.dependsOn">dependsOn</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.arn">arn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.compatibility">compatibility</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference">LambdaRuntimeVersionCompatibilityOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.created">created</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.lastModified">lastModified</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.platforms">platforms</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList">LambdaRuntimeVersionPlatformsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.resolvedUri">resolvedUri</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.state">state</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.imageUriInput">imageUriInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.releaseNotesInput">releaseNotesInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.runtimeNameInput">runtimeNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.imageUri">imageUri</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.releaseNotes">releaseNotes</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.runtimeName">runtimeName</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktfStack`<sup>Required</sup> <a name="cdktfStack" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.cdktfStack"></a>
+
+```typescript
+public readonly cdktfStack: TerraformStack;
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `friendlyUniqueId`<sup>Required</sup> <a name="friendlyUniqueId" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.friendlyUniqueId"></a>
+
+```typescript
+public readonly friendlyUniqueId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformMetaArguments`<sup>Required</sup> <a name="terraformMetaArguments" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.terraformMetaArguments"></a>
+
+```typescript
+public readonly terraformMetaArguments: {[ key: string ]: any};
+```
+
+- *Type:* {[ key: string ]: any}
+
+---
+
+##### `terraformResourceType`<sup>Required</sup> <a name="terraformResourceType" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.terraformResourceType"></a>
+
+```typescript
+public readonly terraformResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `terraformGeneratorMetadata`<sup>Optional</sup> <a name="terraformGeneratorMetadata" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.terraformGeneratorMetadata"></a>
+
+```typescript
+public readonly terraformGeneratorMetadata: TerraformProviderGeneratorMetadata;
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `arn`<sup>Required</sup> <a name="arn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.arn"></a>
+
+```typescript
+public readonly arn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `compatibility`<sup>Required</sup> <a name="compatibility" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.compatibility"></a>
+
+```typescript
+public readonly compatibility: LambdaRuntimeVersionCompatibilityOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference">LambdaRuntimeVersionCompatibilityOutputReference</a>
+
+---
+
+##### `created`<sup>Required</sup> <a name="created" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.created"></a>
+
+```typescript
+public readonly created: string;
+```
+
+- *Type:* string
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.id"></a>
+
+```typescript
+public readonly id: string;
+```
+
+- *Type:* string
+
+---
+
+##### `lastModified`<sup>Required</sup> <a name="lastModified" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.lastModified"></a>
+
+```typescript
+public readonly lastModified: string;
+```
+
+- *Type:* string
+
+---
+
+##### `platforms`<sup>Required</sup> <a name="platforms" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.platforms"></a>
+
+```typescript
+public readonly platforms: LambdaRuntimeVersionPlatformsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList">LambdaRuntimeVersionPlatformsList</a>
+
+---
+
+##### `resolvedUri`<sup>Required</sup> <a name="resolvedUri" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.resolvedUri"></a>
+
+```typescript
+public readonly resolvedUri: string;
+```
+
+- *Type:* string
+
+---
+
+##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.state"></a>
+
+```typescript
+public readonly state: string;
+```
+
+- *Type:* string
+
+---
+
+##### `imageUriInput`<sup>Optional</sup> <a name="imageUriInput" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.imageUriInput"></a>
+
+```typescript
+public readonly imageUriInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `nameInput`<sup>Optional</sup> <a name="nameInput" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.nameInput"></a>
+
+```typescript
+public readonly nameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `releaseNotesInput`<sup>Optional</sup> <a name="releaseNotesInput" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.releaseNotesInput"></a>
+
+```typescript
+public readonly releaseNotesInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `runtimeNameInput`<sup>Optional</sup> <a name="runtimeNameInput" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.runtimeNameInput"></a>
+
+```typescript
+public readonly runtimeNameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `imageUri`<sup>Required</sup> <a name="imageUri" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.imageUri"></a>
+
+```typescript
+public readonly imageUri: string;
+```
+
+- *Type:* string
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+---
+
+##### `releaseNotes`<sup>Required</sup> <a name="releaseNotes" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.releaseNotes"></a>
+
+```typescript
+public readonly releaseNotes: string;
+```
+
+- *Type:* string
+
+---
+
+##### `runtimeName`<sup>Required</sup> <a name="runtimeName" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.runtimeName"></a>
+
+```typescript
+public readonly runtimeName: string;
+```
+
+- *Type:* string
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.tfResourceType">tfResourceType</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersion.property.tfResourceType"></a>
+
+```typescript
+public readonly tfResourceType: string;
+```
+
+- *Type:* string
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### LambdaRuntimeVersionCompatibility <a name="LambdaRuntimeVersionCompatibility" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibility"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibility.Initializer"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+const lambdaRuntimeVersionCompatibility: lambdaRuntimeVersion.LambdaRuntimeVersionCompatibility = { ... }
+```
+
+
+### LambdaRuntimeVersionConfig <a name="LambdaRuntimeVersionConfig" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.Initializer"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+const lambdaRuntimeVersionConfig: lambdaRuntimeVersion.LambdaRuntimeVersionConfig = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.count">count</a></code> | <code>number \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.dependsOn">dependsOn</a></code> | <code>cdktn.ITerraformDependable[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.forEach">forEach</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.name">name</a></code> | <code>string</code> | The version identifier (1-128 chars, alphanumeric plus _.-). |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.runtimeName">runtimeName</a></code> | <code>string</code> | The name of the parent runtime. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.imageUri">imageUri</a></code> | <code>string</code> | The URI of the OCI image to publish as this runtime version. Not returned in Read. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.releaseNotes">releaseNotes</a></code> | <code>string</code> | Optional release notes for this runtime version. Updatable; removing it from the template clears the release notes. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.connection"></a>
+
+```typescript
+public readonly connection: SSHProvisionerConnection | WinrmProvisionerConnection;
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.count"></a>
+
+```typescript
+public readonly count: number | TerraformCount;
+```
+
+- *Type:* number | cdktn.TerraformCount
+
+---
+
+##### `dependsOn`<sup>Optional</sup> <a name="dependsOn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.dependsOn"></a>
+
+```typescript
+public readonly dependsOn: ITerraformDependable[];
+```
+
+- *Type:* cdktn.ITerraformDependable[]
+
+---
+
+##### `forEach`<sup>Optional</sup> <a name="forEach" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.forEach"></a>
+
+```typescript
+public readonly forEach: ITerraformIterator;
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.lifecycle"></a>
+
+```typescript
+public readonly lifecycle: TerraformResourceLifecycle;
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.provider"></a>
+
+```typescript
+public readonly provider: TerraformProvider;
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.provisioners"></a>
+
+```typescript
+public readonly provisioners: (FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner)[];
+```
+
+- *Type:* cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner[]
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.name"></a>
+
+```typescript
+public readonly name: string;
+```
+
+- *Type:* string
+
+The version identifier (1-128 chars, alphanumeric plus _.-).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lambda_runtime_version#name LambdaRuntimeVersion#name}
+
+---
+
+##### `runtimeName`<sup>Required</sup> <a name="runtimeName" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.runtimeName"></a>
+
+```typescript
+public readonly runtimeName: string;
+```
+
+- *Type:* string
+
+The name of the parent runtime.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lambda_runtime_version#runtime_name LambdaRuntimeVersion#runtime_name}
+
+---
+
+##### `imageUri`<sup>Optional</sup> <a name="imageUri" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.imageUri"></a>
+
+```typescript
+public readonly imageUri: string;
+```
+
+- *Type:* string
+
+The URI of the OCI image to publish as this runtime version. Not returned in Read.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lambda_runtime_version#image_uri LambdaRuntimeVersion#image_uri}
+
+---
+
+##### `releaseNotes`<sup>Optional</sup> <a name="releaseNotes" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionConfig.property.releaseNotes"></a>
+
+```typescript
+public readonly releaseNotes: string;
+```
+
+- *Type:* string
+
+Optional release notes for this runtime version. Updatable; removing it from the template clears the release notes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/lambda_runtime_version#release_notes LambdaRuntimeVersion#release_notes}
+
+---
+
+### LambdaRuntimeVersionPlatforms <a name="LambdaRuntimeVersionPlatforms" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatforms"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatforms.Initializer"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+const lambdaRuntimeVersionPlatforms: lambdaRuntimeVersion.LambdaRuntimeVersionPlatforms = { ... }
+```
+
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### LambdaRuntimeVersionCompatibilityOutputReference <a name="LambdaRuntimeVersionCompatibilityOutputReference" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.Initializer"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+new lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.architectures">architectures</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.integrationModels">integrationModels</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.managedInstances">managedInstances</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibility">LambdaRuntimeVersionCompatibility</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `architectures`<sup>Required</sup> <a name="architectures" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.architectures"></a>
+
+```typescript
+public readonly architectures: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `integrationModels`<sup>Required</sup> <a name="integrationModels" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.integrationModels"></a>
+
+```typescript
+public readonly integrationModels: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `managedInstances`<sup>Required</sup> <a name="managedInstances" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.managedInstances"></a>
+
+```typescript
+public readonly managedInstances: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibilityOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: LambdaRuntimeVersionCompatibility;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionCompatibility">LambdaRuntimeVersionCompatibility</a>
+
+---
+
+
+### LambdaRuntimeVersionPlatformsList <a name="LambdaRuntimeVersionPlatformsList" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.Initializer"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+new lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.get"></a>
+
+```typescript
+public get(index: number): LambdaRuntimeVersionPlatformsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### LambdaRuntimeVersionPlatformsOutputReference <a name="LambdaRuntimeVersionPlatformsOutputReference" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer"></a>
+
+```typescript
+import { lambdaRuntimeVersion } from '@cdktn/provider-awscc'
+
+new lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.architecture">architecture</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.digest">digest</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.os">os</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatforms">LambdaRuntimeVersionPlatforms</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `architecture`<sup>Required</sup> <a name="architecture" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.architecture"></a>
+
+```typescript
+public readonly architecture: string;
+```
+
+- *Type:* string
+
+---
+
+##### `digest`<sup>Required</sup> <a name="digest" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.digest"></a>
+
+```typescript
+public readonly digest: string;
+```
+
+- *Type:* string
+
+---
+
+##### `os`<sup>Required</sup> <a name="os" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.os"></a>
+
+```typescript
+public readonly os: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatformsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: LambdaRuntimeVersionPlatforms;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.lambdaRuntimeVersion.LambdaRuntimeVersionPlatforms">LambdaRuntimeVersionPlatforms</a>
+
+---
+
+
+

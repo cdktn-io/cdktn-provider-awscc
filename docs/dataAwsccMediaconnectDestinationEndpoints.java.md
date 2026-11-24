@@ -4,7 +4,7 @@
 
 ### DataAwsccMediaconnectDestinationEndpoints <a name="DataAwsccMediaconnectDestinationEndpoints" id="@cdktn/provider-awscc.dataAwsccMediaconnectDestinationEndpoints.DataAwsccMediaconnectDestinationEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_destination_endpoints awscc_mediaconnect_destination_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mediaconnect_destination_endpoints awscc_mediaconnect_destination_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconnectDestinationEndpoints.DataAwsccMediaconnectDestinationEndpoints.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccMediaconnectDesti
 
 The id of the existing DataAwsccMediaconnectDestinationEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/mediaconnect_destination_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/mediaconnect_destination_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccConfigConnector <a name="DataAwsccConfigConnector" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_connector awscc_config_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_connector awscc_config_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnector.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_connector#id DataAwsccConfigConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_connector#id DataAwsccConfigConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccConfigConnector t
 
 The id of the existing DataAwsccConfigConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -856,7 +856,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/config_connector#id DataAwsccConfigConnector#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/config_connector#id DataAwsccConfigConnector#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -882,6 +882,17 @@ dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfiguration()
 from cdktn_provider_awscc import data_awscc_config_connector
 
 dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationAzure()
+```
+
+
+### DataAwsccConfigConnectorConnectorConfigurationGcp <a name="DataAwsccConfigConnectorConnectorConfigurationGcp" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcp"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcp.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_config_connector
+
+dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcp()
 ```
 
 
@@ -1194,6 +1205,313 @@ internal_value: DataAwsccConfigConnectorConnectorConfigurationAzure
 ---
 
 
+### DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference <a name="DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import data_awscc_config_connector
+
+dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.gcpOrganizationId">gcp_organization_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.serviceAccountEmail">service_account_email</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.workloadIdentityPoolProvider">workload_identity_pool_provider</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcp">DataAwsccConfigConnectorConnectorConfigurationGcp</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `gcp_organization_id`<sup>Required</sup> <a name="gcp_organization_id" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.gcpOrganizationId"></a>
+
+```python
+gcp_organization_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `service_account_email`<sup>Required</sup> <a name="service_account_email" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.serviceAccountEmail"></a>
+
+```python
+service_account_email: str
+```
+
+- *Type:* str
+
+---
+
+##### `workload_identity_pool_provider`<sup>Required</sup> <a name="workload_identity_pool_provider" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.workloadIdentityPoolProvider"></a>
+
+```python
+workload_identity_pool_provider: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DataAwsccConfigConnectorConnectorConfigurationGcp
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcp">DataAwsccConfigConnectorConnectorConfigurationGcp</a>
+
+---
+
+
 ### DataAwsccConfigConnectorConnectorConfigurationOutputReference <a name="DataAwsccConfigConnectorConnectorConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference.Initializer"></a>
@@ -1430,6 +1748,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference.property.azure">azure</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationAzureOutputReference">DataAwsccConfigConnectorConnectorConfigurationAzureOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference.property.gcp">gcp</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference">DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfiguration">DataAwsccConfigConnectorConnectorConfiguration</a></code> | *No description.* |
 
 ---
@@ -1465,6 +1784,16 @@ azure: DataAwsccConfigConnectorConnectorConfigurationAzureOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationAzureOutputReference">DataAwsccConfigConnectorConnectorConfigurationAzureOutputReference</a>
+
+---
+
+##### `gcp`<sup>Required</sup> <a name="gcp" id="@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationOutputReference.property.gcp"></a>
+
+```python
+gcp: DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccConfigConnector.DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference">DataAwsccConfigConnectorConnectorConfigurationGcpOutputReference</a>
 
 ---
 

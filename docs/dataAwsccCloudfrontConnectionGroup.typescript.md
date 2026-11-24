@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudfrontConnectionGroup <a name="DataAwsccCloudfrontConnectionGroup" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudfront_connection_group awscc_cloudfront_connection_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/cloudfront_connection_group awscc_cloudfront_connection_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccCloudfrontConnect
 
 The id of the existing DataAwsccCloudfrontConnectionGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudfront_connection_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/cloudfront_connection_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -428,6 +428,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.property.routingEndpoint">routingEndpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.property.status">status</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupTagsList">DataAwsccCloudfrontConnectionGroupTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.property.viewerFallback">viewerFallback</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference">DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.property.id">id</a></code> | <code>string</code> | *No description.* |
 
@@ -685,6 +686,16 @@ public readonly tags: DataAwsccCloudfrontConnectionGroupTagsList;
 
 ---
 
+##### `viewerFallback`<sup>Required</sup> <a name="viewerFallback" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.property.viewerFallback"></a>
+
+```typescript
+public readonly viewerFallback: DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference">DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference</a>
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroup.property.idInput"></a>
 
 ```typescript
@@ -830,7 +841,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/cloudfront_connection_group#id DataAwsccCloudfrontConnectionGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/cloudfront_connection_group#id DataAwsccCloudfrontConnectionGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -845,6 +856,17 @@ If you experience problems setting this value it might not be settable. Please t
 import { dataAwsccCloudfrontConnectionGroup } from '@cdktn/provider-awscc'
 
 const dataAwsccCloudfrontConnectionGroupTags: dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupTags = { ... }
+```
+
+
+### DataAwsccCloudfrontConnectionGroupViewerFallback <a name="DataAwsccCloudfrontConnectionGroupViewerFallback" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallback"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallback.Initializer"></a>
+
+```typescript
+import { dataAwsccCloudfrontConnectionGroup } from '@cdktn/provider-awscc'
+
+const dataAwsccCloudfrontConnectionGroupViewerFallback: dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallback = { ... }
 ```
 
 
@@ -1284,6 +1306,266 @@ public readonly internalValue: DataAwsccCloudfrontConnectionGroupTags;
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupTags">DataAwsccCloudfrontConnectionGroupTags</a>
+
+---
+
+
+### DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference <a name="DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccCloudfrontConnectionGroup } from '@cdktn/provider-awscc'
+
+new dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.property.distributionId">distributionId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallback">DataAwsccCloudfrontConnectionGroupViewerFallback</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `distributionId`<sup>Required</sup> <a name="distributionId" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.property.distributionId"></a>
+
+```typescript
+public readonly distributionId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallbackOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccCloudfrontConnectionGroupViewerFallback;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccCloudfrontConnectionGroup.DataAwsccCloudfrontConnectionGroupViewerFallback">DataAwsccCloudfrontConnectionGroupViewerFallback</a>
 
 ---
 

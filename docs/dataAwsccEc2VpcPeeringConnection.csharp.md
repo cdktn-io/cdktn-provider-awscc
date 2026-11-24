@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2VpcPeeringConnection <a name="DataAwsccEc2VpcPeeringConnection" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_vpc_peering_connection awscc_ec2_vpc_peering_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2VpcPeeringConn
 
 The id of the existing DataAwsccEc2VpcPeeringConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,13 +416,16 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.assumeRoleRegion">AssumeRoleRegion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.multipathResilienceStatus">MultipathResilienceStatus</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.peerOwnerId">PeerOwnerId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.peerRegion">PeerRegion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.peerRoleArn">PeerRoleArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.peerVpcId">PeerVpcId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.peerVpcPeeringConnectionOptions">PeerVpcPeeringConnectionOptions</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference">DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionTagsList">DataAwsccEc2VpcPeeringConnectionTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.vpcId">VpcId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.vpcPeeringConnectionId">VpcPeeringConnectionId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.vpcPeeringConnectionOptions">VpcPeeringConnectionOptions</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference">DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.id">Id</a></code> | <code>string</code> | *No description.* |
 
@@ -560,6 +563,16 @@ public string AssumeRoleRegion { get; }
 
 ---
 
+##### `MultipathResilienceStatus`<sup>Required</sup> <a name="MultipathResilienceStatus" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.multipathResilienceStatus"></a>
+
+```csharp
+public string MultipathResilienceStatus { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `PeerOwnerId`<sup>Required</sup> <a name="PeerOwnerId" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.peerOwnerId"></a>
 
 ```csharp
@@ -600,6 +613,16 @@ public string PeerVpcId { get; }
 
 ---
 
+##### `PeerVpcPeeringConnectionOptions`<sup>Required</sup> <a name="PeerVpcPeeringConnectionOptions" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.peerVpcPeeringConnectionOptions"></a>
+
+```csharp
+public DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference PeerVpcPeeringConnectionOptions { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference">DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference</a>
+
+---
+
 ##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.tags"></a>
 
 ```csharp
@@ -627,6 +650,16 @@ public string VpcPeeringConnectionId { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `VpcPeeringConnectionOptions`<sup>Required</sup> <a name="VpcPeeringConnectionOptions" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnection.property.vpcPeeringConnectionOptions"></a>
+
+```csharp
+public DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference VpcPeeringConnectionOptions { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference">DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference</a>
 
 ---
 
@@ -784,12 +817,25 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/ec2_vpc_peering_connection#id DataAwsccEc2VpcPeeringConnection#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/ec2_vpc_peering_connection#id DataAwsccEc2VpcPeeringConnection#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
+
+### DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions <a name="DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions {
+
+};
+```
+
 
 ### DataAwsccEc2VpcPeeringConnectionTags <a name="DataAwsccEc2VpcPeeringConnectionTags" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionTags"></a>
 
@@ -804,7 +850,302 @@ new DataAwsccEc2VpcPeeringConnectionTags {
 ```
 
 
+### DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions <a name="DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions {
+
+};
+```
+
+
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference <a name="DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpc">AllowDnsResolutionFromRemoteVpc</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilience">AllowMultipathResilience</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceMode">MultipathResilienceMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AllowDnsResolutionFromRemoteVpc`<sup>Required</sup> <a name="AllowDnsResolutionFromRemoteVpc" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpc"></a>
+
+```csharp
+public IResolvable AllowDnsResolutionFromRemoteVpc { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable
+
+---
+
+##### `AllowMultipathResilience`<sup>Required</sup> <a name="AllowMultipathResilience" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilience"></a>
+
+```csharp
+public IResolvable AllowMultipathResilience { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable
+
+---
+
+##### `MultipathResilienceMode`<sup>Required</sup> <a name="MultipathResilienceMode" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceMode"></a>
+
+```csharp
+public string MultipathResilienceMode { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptionsOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions">DataAwsccEc2VpcPeeringConnectionPeerVpcPeeringConnectionOptions</a>
+
+---
+
 
 ### DataAwsccEc2VpcPeeringConnectionTagsList <a name="DataAwsccEc2VpcPeeringConnectionTagsList" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionTagsList"></a>
 
@@ -1240,6 +1581,288 @@ public DataAwsccEc2VpcPeeringConnectionTags InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionTags">DataAwsccEc2VpcPeeringConnectionTags</a>
+
+---
+
+
+### DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference <a name="DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpc">AllowDnsResolutionFromRemoteVpc</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilience">AllowMultipathResilience</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceMode">MultipathResilienceMode</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions">DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AllowDnsResolutionFromRemoteVpc`<sup>Required</sup> <a name="AllowDnsResolutionFromRemoteVpc" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowDnsResolutionFromRemoteVpc"></a>
+
+```csharp
+public IResolvable AllowDnsResolutionFromRemoteVpc { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable
+
+---
+
+##### `AllowMultipathResilience`<sup>Required</sup> <a name="AllowMultipathResilience" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.allowMultipathResilience"></a>
+
+```csharp
+public IResolvable AllowMultipathResilience { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable
+
+---
+
+##### `MultipathResilienceMode`<sup>Required</sup> <a name="MultipathResilienceMode" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.multipathResilienceMode"></a>
+
+```csharp
+public string MultipathResilienceMode { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptionsOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccEc2VpcPeeringConnection.DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions">DataAwsccEc2VpcPeeringConnectionVpcPeeringConnectionOptions</a>
 
 ---
 

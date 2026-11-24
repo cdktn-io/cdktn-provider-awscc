@@ -4,7 +4,7 @@
 
 ### SecurityhubConnector <a name="SecurityhubConnector" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector awscc_securityhub_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector awscc_securityhub_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer"></a>
 
@@ -40,7 +40,7 @@ securityhubConnector.SecurityhubConnector(
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of the connector. |
-| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer.parameter.providerName">provider_name</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer.parameter.providerName">provider_name</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | The CSPM provider configuration for the connector. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer.parameter.description">description</a></code> | <code>str</code> | The description of the connector. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A key-value pair to associate with a resource. |
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
 
 ---
 
@@ -120,7 +120,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}.
+The CSPM provider configuration for the connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}
 
 ---
 
@@ -130,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
 
 ---
 
@@ -140,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
 
 ---
 
@@ -530,17 +532,26 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ```python
 def put_provider_name(
-  azure: SecurityhubConnectorProviderNameAzure
+  azure: SecurityhubConnectorProviderNameAzure = None,
+  gcp: SecurityhubConnectorProviderNameGcp = None
 ) -> None
 ```
 
-###### `azure`<sup>Required</sup> <a name="azure" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.putProviderName.parameter.azure"></a>
+###### `azure`<sup>Optional</sup> <a name="azure" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.putProviderName.parameter.azure"></a>
 
 - *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure">SecurityhubConnectorProviderNameAzure</a>
 
 The configuration for connecting to an Azure environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+
+---
+
+###### `gcp`<sup>Optional</sup> <a name="gcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnector.putProviderName.parameter.gcp"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp SecurityhubConnector#gcp}.
 
 ---
 
@@ -670,7 +681,7 @@ The construct id used in the generated config for the SecurityhubConnector to im
 
 The id of the existing SecurityhubConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1108,7 +1119,7 @@ securityhubConnector.SecurityhubConnectorConfig(
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.name">name</a></code> | <code>str</code> | The name of the connector. |
-| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.providerName">provider_name</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.providerName">provider_name</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | The CSPM provider configuration for the connector. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.description">description</a></code> | <code>str</code> | The description of the connector. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A key-value pair to associate with a resource. |
 
@@ -1194,7 +1205,7 @@ name: str
 
 The name of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#name SecurityhubConnector#name}
 
 ---
 
@@ -1206,7 +1217,9 @@ provider_name: SecurityhubConnectorProviderName
 
 - *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}.
+The CSPM provider configuration for the connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#provider_name SecurityhubConnector#provider_name}
 
 ---
 
@@ -1220,7 +1233,7 @@ description: str
 
 The description of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#description SecurityhubConnector#description}
 
 ---
 
@@ -1234,7 +1247,7 @@ tags: typing.Mapping[str]
 
 A key-value pair to associate with a resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#tags SecurityhubConnector#tags}
 
 ---
 
@@ -1257,7 +1270,8 @@ securityhubConnector.SecurityhubConnectorIssues()
 from cdktn_provider_awscc import securityhub_connector
 
 securityhubConnector.SecurityhubConnectorProviderName(
-  azure: SecurityhubConnectorProviderNameAzure
+  azure: SecurityhubConnectorProviderNameAzure = None,
+  gcp: SecurityhubConnectorProviderNameGcp = None
 )
 ```
 
@@ -1266,10 +1280,11 @@ securityhubConnector.SecurityhubConnectorProviderName(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.azure">azure</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure">SecurityhubConnectorProviderNameAzure</a></code> | The configuration for connecting to an Azure environment. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.gcp">gcp</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp SecurityhubConnector#gcp}. |
 
 ---
 
-##### `azure`<sup>Required</sup> <a name="azure" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.azure"></a>
+##### `azure`<sup>Optional</sup> <a name="azure" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.azure"></a>
 
 ```python
 azure: SecurityhubConnectorProviderNameAzure
@@ -1279,7 +1294,19 @@ azure: SecurityhubConnectorProviderNameAzure
 
 The configuration for connecting to an Azure environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+
+---
+
+##### `gcp`<sup>Optional</sup> <a name="gcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName.property.gcp"></a>
+
+```python
+gcp: SecurityhubConnectorProviderNameGcp
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp SecurityhubConnector#gcp}.
 
 ---
 
@@ -1291,9 +1318,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_awscc import securityhub_connector
 
 securityhubConnector.SecurityhubConnectorProviderNameAzure(
-  aws_config_connector_arn: str,
-  azure_regions: typing.List[str],
-  scope_configuration: SecurityhubConnectorProviderNameAzureScopeConfiguration
+  aws_config_connector_arn: str = None,
+  azure_regions: typing.List[str] = None,
+  scope_configuration: SecurityhubConnectorProviderNameAzureScopeConfiguration = None
 )
 ```
 
@@ -1307,7 +1334,7 @@ securityhubConnector.SecurityhubConnectorProviderNameAzure(
 
 ---
 
-##### `aws_config_connector_arn`<sup>Required</sup> <a name="aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.awsConfigConnectorArn"></a>
+##### `aws_config_connector_arn`<sup>Optional</sup> <a name="aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.awsConfigConnectorArn"></a>
 
 ```python
 aws_config_connector_arn: str
@@ -1317,11 +1344,11 @@ aws_config_connector_arn: str
 
 The ARN of the multi-cloud configuration connector used to establish the connection to Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
 
 ---
 
-##### `azure_regions`<sup>Required</sup> <a name="azure_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.azureRegions"></a>
+##### `azure_regions`<sup>Optional</sup> <a name="azure_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.azureRegions"></a>
 
 ```python
 azure_regions: typing.List[str]
@@ -1331,11 +1358,11 @@ azure_regions: typing.List[str]
 
 The list of Azure regions to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
 
 ---
 
-##### `scope_configuration`<sup>Required</sup> <a name="scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.scopeConfiguration"></a>
+##### `scope_configuration`<sup>Optional</sup> <a name="scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure.property.scopeConfiguration"></a>
 
 ```python
 scope_configuration: SecurityhubConnectorProviderNameAzureScopeConfiguration
@@ -1345,7 +1372,7 @@ scope_configuration: SecurityhubConnectorProviderNameAzureScopeConfiguration
 
 The scope configuration that defines which Azure resources are monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
 
 ---
 
@@ -1357,7 +1384,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_awscc import securityhub_connector
 
 securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfiguration(
-  scope_type: str,
+  scope_type: str = None,
   scope_values: typing.List[str] = None
 )
 ```
@@ -1371,7 +1398,7 @@ securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfiguration(
 
 ---
 
-##### `scope_type`<sup>Required</sup> <a name="scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfiguration.property.scopeType"></a>
+##### `scope_type`<sup>Optional</sup> <a name="scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfiguration.property.scopeType"></a>
 
 ```python
 scope_type: str
@@ -1381,7 +1408,7 @@ scope_type: str
 
 The type of scope. Valid values are ``tenant`` and ``subscription``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
 
 ---
 
@@ -1395,7 +1422,121 @@ scope_values: typing.List[str]
 
 The list of scope values, such as subscription IDs, when the scope type is ``subscription``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+
+---
+
+### SecurityhubConnectorProviderNameGcp <a name="SecurityhubConnectorProviderNameGcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import securityhub_connector
+
+securityhubConnector.SecurityhubConnectorProviderNameGcp(
+  aws_config_connector_arn: str = None,
+  gcp_regions: typing.List[str] = None,
+  scope_configuration: SecurityhubConnectorProviderNameGcpScopeConfiguration = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.awsConfigConnectorArn">aws_config_connector_arn</a></code> | <code>str</code> | The ARN of the AWS Config connector used for the GCP integration. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.gcpRegions">gcp_regions</a></code> | <code>typing.List[str]</code> | The list of GCP regions to include in the connector scope. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.scopeConfiguration">scope_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}. |
+
+---
+
+##### `aws_config_connector_arn`<sup>Optional</sup> <a name="aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.awsConfigConnectorArn"></a>
+
+```python
+aws_config_connector_arn: str
+```
+
+- *Type:* str
+
+The ARN of the AWS Config connector used for the GCP integration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+
+---
+
+##### `gcp_regions`<sup>Optional</sup> <a name="gcp_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.gcpRegions"></a>
+
+```python
+gcp_regions: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The list of GCP regions to include in the connector scope.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp_regions SecurityhubConnector#gcp_regions}
+
+---
+
+##### `scope_configuration`<sup>Optional</sup> <a name="scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp.property.scopeConfiguration"></a>
+
+```python
+scope_configuration: SecurityhubConnectorProviderNameGcpScopeConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}.
+
+---
+
+### SecurityhubConnectorProviderNameGcpScopeConfiguration <a name="SecurityhubConnectorProviderNameGcpScopeConfiguration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import securityhub_connector
+
+securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration(
+  scope_type: str = None,
+  scope_values: typing.List[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.property.scopeType">scope_type</a></code> | <code>str</code> | The scope type for the GCP connector. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.property.scopeValues">scope_values</a></code> | <code>typing.List[str]</code> | The list of scope values for the GCP connector. |
+
+---
+
+##### `scope_type`<sup>Optional</sup> <a name="scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.property.scopeType"></a>
+
+```python
+scope_type: str
+```
+
+- *Type:* str
+
+The scope type for the GCP connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+
+---
+
+##### `scope_values`<sup>Optional</sup> <a name="scope_values" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration.property.scopeValues"></a>
+
+```python
+scope_values: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The list of scope values for the GCP connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
 
 ---
 
@@ -1930,6 +2071,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.putScopeConfiguration">put_scope_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetAwsConfigConnectorArn">reset_aws_config_connector_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetAzureRegions">reset_azure_regions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetScopeConfiguration">reset_scope_configuration</a></code> | *No description.* |
 
 ---
 
@@ -2109,18 +2253,18 @@ Returns a reversible string representation.
 
 ```python
 def put_scope_configuration(
-  scope_type: str,
+  scope_type: str = None,
   scope_values: typing.List[str] = None
 ) -> None
 ```
 
-###### `scope_type`<sup>Required</sup> <a name="scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.putScopeConfiguration.parameter.scopeType"></a>
+###### `scope_type`<sup>Optional</sup> <a name="scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.putScopeConfiguration.parameter.scopeType"></a>
 
 - *Type:* str
 
 The type of scope. Valid values are ``tenant`` and ``subscription``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
 
 ---
 
@@ -2130,9 +2274,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of scope values, such as subscription IDs, when the scope type is ``subscription``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
 
 ---
+
+##### `reset_aws_config_connector_arn` <a name="reset_aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetAwsConfigConnectorArn"></a>
+
+```python
+def reset_aws_config_connector_arn() -> None
+```
+
+##### `reset_azure_regions` <a name="reset_azure_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetAzureRegions"></a>
+
+```python
+def reset_azure_regions() -> None
+```
+
+##### `reset_scope_configuration` <a name="reset_scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference.resetScopeConfiguration"></a>
+
+```python
+def reset_scope_configuration() -> None
+```
 
 
 #### Properties <a name="Properties" id="Properties"></a>
@@ -2299,6 +2461,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resetScopeType">reset_scope_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resetScopeValues">reset_scope_values</a></code> | *No description.* |
 
 ---
@@ -2475,6 +2638,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `reset_scope_type` <a name="reset_scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resetScopeType"></a>
+
+```python
+def reset_scope_type() -> None
+```
+
 ##### `reset_scope_values` <a name="reset_scope_values" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfigurationOutputReference.resetScopeValues"></a>
 
 ```python
@@ -2571,6 +2740,729 @@ internal_value: IResolvable | SecurityhubConnectorProviderNameAzureScopeConfigur
 ---
 
 
+### SecurityhubConnectorProviderNameGcpOutputReference <a name="SecurityhubConnectorProviderNameGcpOutputReference" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import securityhub_connector
+
+securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.putScopeConfiguration">put_scope_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetAwsConfigConnectorArn">reset_aws_config_connector_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetGcpRegions">reset_gcp_regions</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetScopeConfiguration">reset_scope_configuration</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_scope_configuration` <a name="put_scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.putScopeConfiguration"></a>
+
+```python
+def put_scope_configuration(
+  scope_type: str = None,
+  scope_values: typing.List[str] = None
+) -> None
+```
+
+###### `scope_type`<sup>Optional</sup> <a name="scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.putScopeConfiguration.parameter.scopeType"></a>
+
+- *Type:* str
+
+The scope type for the GCP connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_type SecurityhubConnector#scope_type}
+
+---
+
+###### `scope_values`<sup>Optional</sup> <a name="scope_values" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.putScopeConfiguration.parameter.scopeValues"></a>
+
+- *Type:* typing.List[str]
+
+The list of scope values for the GCP connector.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_values SecurityhubConnector#scope_values}
+
+---
+
+##### `reset_aws_config_connector_arn` <a name="reset_aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetAwsConfigConnectorArn"></a>
+
+```python
+def reset_aws_config_connector_arn() -> None
+```
+
+##### `reset_gcp_regions` <a name="reset_gcp_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetGcpRegions"></a>
+
+```python
+def reset_gcp_regions() -> None
+```
+
+##### `reset_scope_configuration` <a name="reset_scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.resetScopeConfiguration"></a>
+
+```python
+def reset_scope_configuration() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfiguration">scope_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference">SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArnInput">aws_config_connector_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegionsInput">gcp_regions_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfigurationInput">scope_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArn">aws_config_connector_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegions">gcp_regions</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `scope_configuration`<sup>Required</sup> <a name="scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfiguration"></a>
+
+```python
+scope_configuration: SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference">SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference</a>
+
+---
+
+##### `aws_config_connector_arn_input`<sup>Optional</sup> <a name="aws_config_connector_arn_input" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArnInput"></a>
+
+```python
+aws_config_connector_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `gcp_regions_input`<sup>Optional</sup> <a name="gcp_regions_input" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegionsInput"></a>
+
+```python
+gcp_regions_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `scope_configuration_input`<sup>Optional</sup> <a name="scope_configuration_input" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.scopeConfigurationInput"></a>
+
+```python
+scope_configuration_input: IResolvable | SecurityhubConnectorProviderNameGcpScopeConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+---
+
+##### `aws_config_connector_arn`<sup>Required</sup> <a name="aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.awsConfigConnectorArn"></a>
+
+```python
+aws_config_connector_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `gcp_regions`<sup>Required</sup> <a name="gcp_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.gcpRegions"></a>
+
+```python
+gcp_regions: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | SecurityhubConnectorProviderNameGcp
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a>
+
+---
+
+
+### SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference <a name="SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import securityhub_connector
+
+securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resetScopeType">reset_scope_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resetScopeValues">reset_scope_values</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_scope_type` <a name="reset_scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resetScopeType"></a>
+
+```python
+def reset_scope_type() -> None
+```
+
+##### `reset_scope_values` <a name="reset_scope_values" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.resetScopeValues"></a>
+
+```python
+def reset_scope_values() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeTypeInput">scope_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValuesInput">scope_values_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeType">scope_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValues">scope_values</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `scope_type_input`<sup>Optional</sup> <a name="scope_type_input" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeTypeInput"></a>
+
+```python
+scope_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `scope_values_input`<sup>Optional</sup> <a name="scope_values_input" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValuesInput"></a>
+
+```python
+scope_values_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `scope_type`<sup>Required</sup> <a name="scope_type" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeType"></a>
+
+```python
+scope_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `scope_values`<sup>Required</sup> <a name="scope_values" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.scopeValues"></a>
+
+```python
+scope_values: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | SecurityhubConnectorProviderNameGcpScopeConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+---
+
+
 ### SecurityhubConnectorProviderNameOutputReference <a name="SecurityhubConnectorProviderNameOutputReference" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.Initializer"></a>
@@ -2625,6 +3517,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putAzure">put_azure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putGcp">put_gcp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resetAzure">reset_azure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resetGcp">reset_gcp</a></code> | *No description.* |
 
 ---
 
@@ -2804,41 +3699,91 @@ Returns a reversible string representation.
 
 ```python
 def put_azure(
-  aws_config_connector_arn: str,
-  azure_regions: typing.List[str],
-  scope_configuration: SecurityhubConnectorProviderNameAzureScopeConfiguration
+  aws_config_connector_arn: str = None,
+  azure_regions: typing.List[str] = None,
+  scope_configuration: SecurityhubConnectorProviderNameAzureScopeConfiguration = None
 ) -> None
 ```
 
-###### `aws_config_connector_arn`<sup>Required</sup> <a name="aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putAzure.parameter.awsConfigConnectorArn"></a>
+###### `aws_config_connector_arn`<sup>Optional</sup> <a name="aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putAzure.parameter.awsConfigConnectorArn"></a>
 
 - *Type:* str
 
 The ARN of the multi-cloud configuration connector used to establish the connection to Azure.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
 
 ---
 
-###### `azure_regions`<sup>Required</sup> <a name="azure_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putAzure.parameter.azureRegions"></a>
+###### `azure_regions`<sup>Optional</sup> <a name="azure_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putAzure.parameter.azureRegions"></a>
 
 - *Type:* typing.List[str]
 
 The list of Azure regions to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#azure_regions SecurityhubConnector#azure_regions}
 
 ---
 
-###### `scope_configuration`<sup>Required</sup> <a name="scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putAzure.parameter.scopeConfiguration"></a>
+###### `scope_configuration`<sup>Optional</sup> <a name="scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putAzure.parameter.scopeConfiguration"></a>
 
 - *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureScopeConfiguration">SecurityhubConnectorProviderNameAzureScopeConfiguration</a>
 
 The scope configuration that defines which Azure resources are monitored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}
 
 ---
+
+##### `put_gcp` <a name="put_gcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putGcp"></a>
+
+```python
+def put_gcp(
+  aws_config_connector_arn: str = None,
+  gcp_regions: typing.List[str] = None,
+  scope_configuration: SecurityhubConnectorProviderNameGcpScopeConfiguration = None
+) -> None
+```
+
+###### `aws_config_connector_arn`<sup>Optional</sup> <a name="aws_config_connector_arn" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putGcp.parameter.awsConfigConnectorArn"></a>
+
+- *Type:* str
+
+The ARN of the AWS Config connector used for the GCP integration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#aws_config_connector_arn SecurityhubConnector#aws_config_connector_arn}
+
+---
+
+###### `gcp_regions`<sup>Optional</sup> <a name="gcp_regions" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putGcp.parameter.gcpRegions"></a>
+
+- *Type:* typing.List[str]
+
+The list of GCP regions to include in the connector scope.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#gcp_regions SecurityhubConnector#gcp_regions}
+
+---
+
+###### `scope_configuration`<sup>Optional</sup> <a name="scope_configuration" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.putGcp.parameter.scopeConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpScopeConfiguration">SecurityhubConnectorProviderNameGcpScopeConfiguration</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/resources/securityhub_connector#scope_configuration SecurityhubConnector#scope_configuration}.
+
+---
+
+##### `reset_azure` <a name="reset_azure" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resetAzure"></a>
+
+```python
+def reset_azure() -> None
+```
+
+##### `reset_gcp` <a name="reset_gcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.resetGcp"></a>
+
+```python
+def reset_gcp() -> None
+```
 
 
 #### Properties <a name="Properties" id="Properties"></a>
@@ -2848,7 +3793,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.azure">azure</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzureOutputReference">SecurityhubConnectorProviderNameAzureOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.gcp">gcp</a></code> | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference">SecurityhubConnectorProviderNameGcpOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.azureInput">azure_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure">SecurityhubConnectorProviderNameAzure</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.gcpInput">gcp_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderName">SecurityhubConnectorProviderName</a></code> | *No description.* |
 
 ---
@@ -2887,6 +3834,16 @@ azure: SecurityhubConnectorProviderNameAzureOutputReference
 
 ---
 
+##### `gcp`<sup>Required</sup> <a name="gcp" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.gcp"></a>
+
+```python
+gcp: SecurityhubConnectorProviderNameGcpOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcpOutputReference">SecurityhubConnectorProviderNameGcpOutputReference</a>
+
+---
+
 ##### `azure_input`<sup>Optional</sup> <a name="azure_input" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.azureInput"></a>
 
 ```python
@@ -2894,6 +3851,16 @@ azure_input: IResolvable | SecurityhubConnectorProviderNameAzure
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameAzure">SecurityhubConnectorProviderNameAzure</a>
+
+---
+
+##### `gcp_input`<sup>Optional</sup> <a name="gcp_input" id="@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameOutputReference.property.gcpInput"></a>
+
+```python
+gcp_input: IResolvable | SecurityhubConnectorProviderNameGcp
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.securityhubConnector.SecurityhubConnectorProviderNameGcp">SecurityhubConnectorProviderNameGcp</a>
 
 ---
 

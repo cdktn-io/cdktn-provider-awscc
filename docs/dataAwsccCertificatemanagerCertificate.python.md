@@ -4,7 +4,7 @@
 
 ### DataAwsccCertificatemanagerCertificate <a name="DataAwsccCertificatemanagerCertificate" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/certificatemanager_certificate awscc_certificatemanager_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/certificatemanager_certificate awscc_certificatemanager_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/certificatemanager_certificate#id DataAwsccCertificatemanagerCertificate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/certificatemanager_certificate#id DataAwsccCertificatemanagerCertificate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccCertificatemanage
 
 The id of the existing DataAwsccCertificatemanagerCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/certificatemanager_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/certificatemanager_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -524,9 +524,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.certificateAuthorityArn">certificate_authority_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.certificateExport">certificate_export</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.certificateTransparencyLoggingPreference">certificate_transparency_logging_preference</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.certificateUsage">certificate_usage</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.domainName">domain_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.domainValidationOptions">domain_validation_options</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateDomainValidationOptionsList">DataAwsccCertificatemanagerCertificateDomainValidationOptionsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.keyAlgorithm">key_algorithm</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.rootHierarchyType">root_hierarchy_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.subjectAlternativeNames">subject_alternative_names</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificateTagsList">DataAwsccCertificatemanagerCertificateTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.validationMethod">validation_method</a></code> | <code>str</code> | *No description.* |
@@ -697,6 +699,16 @@ certificate_transparency_logging_preference: str
 
 ---
 
+##### `certificate_usage`<sup>Required</sup> <a name="certificate_usage" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.certificateUsage"></a>
+
+```python
+certificate_usage: str
+```
+
+- *Type:* str
+
+---
+
 ##### `domain_name`<sup>Required</sup> <a name="domain_name" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.domainName"></a>
 
 ```python
@@ -721,6 +733,16 @@ domain_validation_options: DataAwsccCertificatemanagerCertificateDomainValidatio
 
 ```python
 key_algorithm: str
+```
+
+- *Type:* str
+
+---
+
+##### `root_hierarchy_type`<sup>Required</sup> <a name="root_hierarchy_type" id="@cdktn/provider-awscc.dataAwsccCertificatemanagerCertificate.DataAwsccCertificatemanagerCertificate.property.rootHierarchyType"></a>
+
+```python
+root_hierarchy_type: str
 ```
 
 - *Type:* str
@@ -911,7 +933,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/certificatemanager_certificate#id DataAwsccCertificatemanagerCertificate#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/certificatemanager_certificate#id DataAwsccCertificatemanagerCertificate#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

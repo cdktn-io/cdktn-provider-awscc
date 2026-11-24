@@ -4,7 +4,7 @@
 
 ### DataAwsccGlueUserDefinedFunction <a name="DataAwsccGlueUserDefinedFunction" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_user_defined_function#id DataAwsccGlueUserDefinedFunction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_user_defined_function#id DataAwsccGlueUserDefinedFunction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccGlueUserDefinedFu
 
 The id of the existing DataAwsccGlueUserDefinedFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_user_defined_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -521,10 +521,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.11
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.arn">arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.artifactLocation">artifact_location</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.className">class_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.databaseName">database_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.functionName">function_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.functionType">function_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.governanceMode">governance_mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.ownerName">owner_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.ownerType">owner_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.resourceUris">resource_uris</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisList">DataAwsccGlueUserDefinedFunctionResourceUrisList</a></code> | *No description.* |
@@ -665,6 +667,16 @@ arn: str
 
 ---
 
+##### `artifact_location`<sup>Required</sup> <a name="artifact_location" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.artifactLocation"></a>
+
+```python
+artifact_location: str
+```
+
+- *Type:* str
+
+---
+
 ##### `class_name`<sup>Required</sup> <a name="class_name" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.className"></a>
 
 ```python
@@ -699,6 +711,16 @@ function_name: str
 
 ```python
 function_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `governance_mode`<sup>Required</sup> <a name="governance_mode" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunction.property.governanceMode"></a>
+
+```python
+governance_mode: str
 ```
 
 - *Type:* str
@@ -889,7 +911,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.110.0/docs/data-sources/glue_user_defined_function#id DataAwsccGlueUserDefinedFunction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.111.0/docs/data-sources/glue_user_defined_function#id DataAwsccGlueUserDefinedFunction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1323,6 +1345,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.lastModified">last_modified</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.resourceType">resource_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.uri">uri</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUris">DataAwsccGlueUserDefinedFunctionResourceUris</a></code> | *No description.* |
@@ -1347,6 +1370,16 @@ If this returns an empty array the stack will not be attached.
 
 ```python
 fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `last_modified`<sup>Required</sup> <a name="last_modified" id="@cdktn/provider-awscc.dataAwsccGlueUserDefinedFunction.DataAwsccGlueUserDefinedFunctionResourceUrisOutputReference.property.lastModified"></a>
+
+```python
+last_modified: str
 ```
 
 - *Type:* str
